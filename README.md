@@ -1,4 +1,4 @@
-#Opinion annotated news#
+#news texts with opinion annotations#
 
 Manual annotations for different languages of news articles. There is one folder for each language containing
 both the KAF and the TAG files. The latter includes the opinion annotations.
@@ -16,4 +16,4 @@ EN/sundaymirror/EN-Cameron-Europe-03c4e4180189d4fc990c43ff72bce56bd8f88dbe.kaf
 EN/sundaymirror/EN-Cameron-Europe-08cd53b2419657b32aa97483692f9506a9782a17.kaf
 
 #Guidelines
-The file x contains the guidelines for the annoation of opinions in sentences from news articles. They are used for the annotation of all languages.
+The file x contains the guidelines for the annoation of opinions in sentences from news articles. All lamguages are annotated following the same guidelines.
