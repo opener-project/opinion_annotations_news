@@ -1,7 +1,7 @@
 #Opinion annotated news#
 
 Manual annotations for different languages of news articles. There is one folder for each language containing
-both the TAG and the KAF (with the opinions) files.
+both the KAF and the TAG files. The latter includes the opinion annotations.
 
 #Metadata
 The file metadata_news.txt contains the metadata from the news articles. 
@@ -16,4 +16,4 @@ EN/sundaymirror/EN-Cameron-Europe-03c4e4180189d4fc990c43ff72bce56bd8f88dbe.kaf
 EN/sundaymirror/EN-Cameron-Europe-08cd53b2419657b32aa97483692f9506a9782a17.kaf
 
 #Guidelines
-The file x contains the guidelines for the annoation of opinions in sentences from news articles
+The file x contains the guidelines for the annoation of opinions in sentences from news articles. They are used for the annotation of all languages.
