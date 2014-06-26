@@ -1,4 +1,4 @@
-#news texts with opinion annotations#
+#News Texts with Opinion Annotations#
 
 Manual annotations for different languages of news articles. There is one folder for each language containing
 both the KAF and the TAG files. The latter includes the opinion annotations.
