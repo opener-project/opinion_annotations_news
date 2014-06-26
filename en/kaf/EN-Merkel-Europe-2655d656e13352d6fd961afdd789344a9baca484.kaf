@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:54Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:54Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:43:12" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:21:19CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="14" para="2" offset="1491" length="12" wid="w287">Unemployment</wf>
+    <wf sent="14" para="2" offset="1503" length="1" wid="w288">,</wf>
+    <wf sent="14" para="2" offset="1505" length="3" wid="w289">now</wf>
+    <wf sent="14" para="2" offset="1509" length="9" wid="w290">affecting</wf>
+    <wf sent="14" para="2" offset="1519" length="3" wid="w291">one</wf>
+    <wf sent="14" para="2" offset="1523" length="2" wid="w292">in</wf>
+    <wf sent="14" para="2" offset="1526" length="4" wid="w293">four</wf>
+    <wf sent="14" para="2" offset="1531" length="7" wid="w294">workers</wf>
+    <wf sent="14" para="2" offset="1538" length="1" wid="w295">,</wf>
+    <wf sent="14" para="2" offset="1540" length="2" wid="w296">is</wf>
+    <wf sent="14" para="2" offset="1543" length="3" wid="w297">set</wf>
+    <wf sent="14" para="2" offset="1547" length="2" wid="w298">to</wf>
+    <wf sent="14" para="2" offset="1550" length="8" wid="w299">continue</wf>
+    <wf sent="14" para="2" offset="1559" length="4" wid="w300">well</wf>
+    <wf sent="14" para="2" offset="1564" length="4" wid="w301">into</wf>
+    <wf sent="14" para="2" offset="1569" length="4" wid="w302">next</wf>
+    <wf sent="14" para="2" offset="1574" length="4" wid="w303">year</wf>
+    <wf sent="14" para="2" offset="1578" length="1" wid="w304">.</wf>
+  </text>
+  <terms>
+    <!--Unemployment-->
+    <term type="open" lemma="unemployment" pos="N" morphofeat="NN" tid="t287">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t288">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--now-->
+    <term type="open" lemma="now" pos="A" morphofeat="RB" tid="t289">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--affecting-->
+    <term type="open" lemma="affect" pos="V" morphofeat="VBG" tid="t290">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--one-->
+    <term type="close" lemma="one" pos="O" morphofeat="CD" tid="t291">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t292">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--four-->
+    <term type="close" lemma="four" pos="O" morphofeat="CD" tid="t293">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--workers-->
+    <term type="open" lemma="worker" pos="N" morphofeat="NNS" tid="t294">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t295">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t296">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--set-->
+    <term type="open" lemma="set" pos="V" morphofeat="VBN" tid="t297">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t298">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--continue-->
+    <term type="open" lemma="continue" pos="V" morphofeat="VB" tid="t299">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--well-->
+    <term type="open" lemma="well" pos="A" morphofeat="RB" tid="t300">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--into-->
+    <term type="close" lemma="into" pos="P" morphofeat="IN" tid="t301">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--next-->
+    <term type="open" lemma="next" pos="G" morphofeat="JJ" tid="t302">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--year-->
+    <term type="open" lemma="year" pos="N" morphofeat="NN" tid="t303">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t304">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t287"/>
+          <target id="t288"/>
+          <target id="t289"/>
+          <target id="t290"/>
+          <target id="t291"/>
+          <target id="t292"/>
+          <target id="t293"/>
+          <target id="t294"/>
+          <target id="t295"/>
+          <target id="t296"/>
+          <target id="t297"/>
+          <target id="t298"/>
+          <target id="t299"/>
+          <target id="t300"/>
+          <target id="t301"/>
+          <target id="t302"/>
+          <target id="t303"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

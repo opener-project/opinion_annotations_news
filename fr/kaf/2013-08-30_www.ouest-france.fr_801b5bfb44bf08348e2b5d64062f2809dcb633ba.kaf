@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:54:57Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:54:57Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:54:57Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:22:03CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Merkel</wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="1">:</wf>
+    <wf wid="w3" sent="1" para="1" offset="9" length="1">«</wf>
+    <wf wid="w4" sent="1" para="1" offset="11" length="2">La</wf>
+    <wf wid="w5" sent="1" para="1" offset="14" length="5">Grèce</wf>
+    <wf wid="w6" sent="1" para="1" offset="20" length="2">n’</wf>
+    <wf wid="w7" sent="1" para="1" offset="22" length="6">aurait</wf>
+    <wf wid="w8" sent="1" para="1" offset="29" length="6">jamais</wf>
+    <wf wid="w9" sent="1" para="1" offset="36" length="2">dû</wf>
+    <wf wid="w10" sent="1" para="1" offset="39" length="4">être</wf>
+    <wf wid="w11" sent="1" para="1" offset="44" length="6">admise</wf>
+    <wf wid="w12" sent="1" para="1" offset="51" length="4">dans</wf>
+    <wf wid="w13" sent="1" para="1" offset="56" length="2">la</wf>
+    <wf wid="w14" sent="1" para="1" offset="59" length="4">zone</wf>
+    <wf wid="w15" sent="1" para="1" offset="64" length="4">euro</wf>
+    <wf wid="w16" sent="1" para="1" offset="69" length="1">»</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t1" type="open" lemma="Merkel" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t2" type="close" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t3" type="open" lemma="«" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--La-->
+    <term tid="t4" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Grèce-->
+    <term tid="t5" type="open" lemma="Grèce" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--n’-->
+    <term tid="t6" type="open" lemma="n’" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--aurait-->
+    <term tid="t7" type="open" lemma="avoir" pos="V" morphofeat="VC3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--jamais-->
+    <term tid="t8" type="open" lemma="jamais" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative" sentiment_modifier="shifter"/>
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--dû-->
+    <term tid="t9" type="open" lemma="devoir" pos="V" morphofeat="VKms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--être-->
+    <term tid="t10" type="open" lemma="être" pos="V" morphofeat="VW">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--admise-->
+    <term tid="t11" type="open" lemma="admettre" pos="V" morphofeat="VKfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--dans-->
+    <term tid="t12" type="close" lemma="dans" pos="P" morphofeat="P">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t13" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--zone-->
+    <term tid="t14" type="open" lemma="zone" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t15" type="close" lemma="euro" pos="O" morphofeat="ET">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t16" type="close" lemma="»" pos="O" morphofeat="ET">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--La Grèce-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--n’ aurait jamais dû être admise dans la zone euro-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

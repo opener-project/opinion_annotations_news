@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:54:34CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:31CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w210" sent="18" para="2" offset="1164" length="10">Vervolgens</wf>
+    <wf wid="w211" sent="18" para="2" offset="1175" length="4">werd</wf>
+    <wf wid="w212" sent="18" para="2" offset="1180" length="2">de</wf>
+    <wf wid="w213" sent="18" para="2" offset="1183" length="8">grondwet</wf>
+    <wf wid="w214" sent="18" para="2" offset="1192" length="9">veranderd</wf>
+    <wf wid="w215" sent="18" para="2" offset="1202" length="2">in</wf>
+    <wf wid="w216" sent="18" para="2" offset="1205" length="3">een</wf>
+    <wf wid="w217" sent="18" para="2" offset="1209" length="8">Europees</wf>
+    <wf wid="w218" sent="18" para="2" offset="1218" length="7">verdrag</wf>
+    <wf wid="w219" sent="18" para="2" offset="1225" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Vervolgens-->
+    <term tid="t210" type="open" lemma="vervolgens" pos="A" morphofeat="adv">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--werd-->
+    <term tid="t211" type="open" lemma="worden" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t212" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--grondwet-->
+    <term tid="t213" type="open" lemma="grondwet" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--veranderd-->
+    <term tid="t214" type="open" lemma="veranderen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t215" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t216" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--Europees-->
+    <term tid="t217" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--verdrag-->
+    <term tid="t218" type="open" lemma="verdrag" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w218"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t219" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

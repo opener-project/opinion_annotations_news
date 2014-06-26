@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:45:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:45:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:45:07Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:32:49CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w231" sent="9" para="5" offset="1213" length="3">Ces</wf>
+    <wf wid="w232" sent="9" para="5" offset="1217" length="6">genres</wf>
+    <wf wid="w233" sent="9" para="5" offset="1224" length="2">de</wf>
+    <wf wid="w234" sent="9" para="5" offset="1227" length="8">réunions</wf>
+    <wf wid="w235" sent="9" para="5" offset="1236" length="4">sont</wf>
+    <wf wid="w236" sent="9" para="5" offset="1241" length="10">organisées</wf>
+    <wf wid="w237" sent="9" para="5" offset="1252" length="7">lorsque</wf>
+    <wf wid="w238" sent="9" para="5" offset="1260" length="2">le</wf>
+    <wf wid="w239" sent="9" para="5" offset="1263" length="4">chef</wf>
+    <wf wid="w240" sent="9" para="5" offset="1268" length="2">du</wf>
+    <wf wid="w241" sent="9" para="5" offset="1271" length="12">gouvernement</wf>
+    <wf wid="w242" sent="9" para="5" offset="1284" length="6">estime</wf>
+    <wf wid="w243" sent="9" para="5" offset="1291" length="3">que</wf>
+    <wf wid="w244" sent="9" para="5" offset="1295" length="2">la</wf>
+    <wf wid="w245" sent="9" para="5" offset="1298" length="8">sécurité</wf>
+    <wf wid="w246" sent="9" para="5" offset="1307" length="9">nationale</wf>
+    <wf wid="w247" sent="9" para="5" offset="1317" length="3">est</wf>
+    <wf wid="w248" sent="9" para="5" offset="1321" length="2">en</wf>
+    <wf wid="w249" sent="9" para="5" offset="1324" length="5">cause</wf>
+    <wf wid="w250" sent="9" para="5" offset="1329" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ces-->
+    <term tid="t231" type="close" lemma="ce" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--genres-->
+    <term tid="t232" type="open" lemma="genre" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t233" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--réunions-->
+    <term tid="t234" type="open" lemma="réunion" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--sont-->
+    <term tid="t235" type="open" lemma="être" pos="V" morphofeat="VP3p">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--organisées-->
+    <term tid="t236" type="open" lemma="organiser" pos="V" morphofeat="VKfp">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--lorsque-->
+    <term tid="t237" type="close" lemma="lorsque" pos="C" morphofeat="CS">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t238" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--chef-->
+    <term tid="t239" type="open" lemma="chef" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t240" type="close" lemma="du" pos="P" morphofeat="P">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--gouvernement-->
+    <term tid="t241" type="open" lemma="gouvernement" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--estime-->
+    <term tid="t242" type="open" lemma="estimer" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--que-->
+    <term tid="t243" type="close" lemma="que" pos="C" morphofeat="CS">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t244" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--sécurité-->
+    <term tid="t245" type="open" lemma="sécurité" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--nationale-->
+    <term tid="t246" type="open" lemma="national" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t247" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t248" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--cause-->
+    <term tid="t249" type="open" lemma="cause" pos="N" morphofeat="N">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t250" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t231"/>
+          <target id="t232"/>
+          <target id="t233"/>
+          <target id="t234"/>
+          <target id="t235"/>
+          <target id="t236"/>
+          <target id="t237"/>
+          <target id="t238"/>
+          <target id="t239"/>
+          <target id="t240"/>
+          <target id="t241"/>
+          <target id="t242"/>
+          <target id="t243"/>
+          <target id="t244"/>
+          <target id="t245"/>
+          <target id="t246"/>
+          <target id="t247"/>
+          <target id="t248"/>
+          <target id="t249"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

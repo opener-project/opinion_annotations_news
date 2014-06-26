@@ -1,0 +1,15 @@
+w143	M.	M.	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	142	true	5
+w144	Li	li	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	143	true	5
+w145	est	être	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	144	true	5
+w146	arrivé	arriver	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	145	true	5
+w147	samedi	samedi	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	146	true	5
+w148	en	en	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	147	true	5
+w149	Allemagne	Allemagne	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	148	true	5
+w150	pour	pour	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	149	true	5
+w151	sa	son	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	150	true	5
+w152	première	premier	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	151	true	5
+w153	visite	visite	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	152	true	5
+w154	officielle	officiel	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	153	true	5
+w155	dans	dans	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	154	true	5
+w156	le	le	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	155	true	5
+w157	pays	pays	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	156	true	5

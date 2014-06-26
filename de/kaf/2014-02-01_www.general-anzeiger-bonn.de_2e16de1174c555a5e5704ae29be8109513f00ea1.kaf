@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:08:58Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:08:58Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:17:49CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:09:10CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:22CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w245" sent="16" para="8" offset="1655" length="15">Bundeskanzlerin</wf>
+    <wf wid="w246" sent="16" para="8" offset="1671" length="6">Angela</wf>
+    <wf wid="w247" sent="16" para="8" offset="1678" length="6">Merkel</wf>
+    <wf wid="w248" sent="16" para="8" offset="1685" length="1">(</wf>
+    <wf wid="w249" sent="16" para="8" offset="1686" length="3">CDU</wf>
+    <wf wid="w250" sent="16" para="8" offset="1689" length="1">)</wf>
+    <wf wid="w251" sent="16" para="8" offset="1691" length="5">hatte</wf>
+    <wf wid="w252" sent="16" para="8" offset="1697" length="12">eindringlich</wf>
+    <wf wid="w253" sent="16" para="8" offset="1710" length="3">vor</wf>
+    <wf wid="w254" sent="16" para="8" offset="1714" length="2">zu</wf>
+    <wf wid="w255" sent="16" para="8" offset="1717" length="6">harten</wf>
+    <wf wid="w256" sent="16" para="8" offset="1724" length="12">Einschnitten</wf>
+    <wf wid="w257" sent="16" para="8" offset="1737" length="7">gewarnt</wf>
+    <wf wid="w258" sent="16" para="8" offset="1744" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Bundeskanzlerin" morphofeat="NN" pos="N" tid="t245" type="open">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <term lemma="Angela" morphofeat="NE" pos="R" tid="t246" type="open">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t247" type="open">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="$(" pos="O" tid="t248" type="open">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <term lemma="CDU" morphofeat="NE" pos="R" tid="t249" type="open">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat="$(" pos="O" tid="t250" type="open">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t251" type="open">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <term lemma="eindringlich" morphofeat="ADJD" pos="G" tid="t252" type="open">
+      <span>
+        <target id="w252"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="vor" morphofeat="APPR" pos="P" tid="t253" type="close">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="PTKA" pos="O" tid="t254" type="open">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <term lemma="hart" morphofeat="ADJA" pos="G" tid="t255" type="open">
+      <span>
+        <target id="w255"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Einschnitt" morphofeat="NN" pos="N" tid="t256" type="open">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <term lemma="warnen" morphofeat="VVPP" pos="V" tid="t257" type="open">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t258" type="open">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Einschnitten-->
+        <span>
+          <target id="t256"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--zu harten-->
+        <span>
+          <target id="t254"/>
+          <target id="t255"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--gewarnt-->
+        <span>
+          <target id="t257"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--eindringlich-->
+        <span>
+          <target id="t252"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

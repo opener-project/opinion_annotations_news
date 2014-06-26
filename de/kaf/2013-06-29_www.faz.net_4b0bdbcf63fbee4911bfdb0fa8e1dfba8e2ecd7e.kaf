@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:29:32Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:29:32Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:46:24CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:29:40CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w81" sent="5" para="4" offset="518" length="5">Schon</wf>
+    <wf wid="w82" sent="5" para="4" offset="524" length="2">am</wf>
+    <wf wid="w83" sent="5" para="4" offset="527" length="7">Freitag</wf>
+    <wf wid="w84" sent="5" para="4" offset="535" length="5">hatte</wf>
+    <wf wid="w85" sent="5" para="4" offset="541" length="15">Bundeskanzlerin</wf>
+    <wf wid="w86" sent="5" para="4" offset="557" length="6">Angela</wf>
+    <wf wid="w87" sent="5" para="4" offset="564" length="6">Merkel</wf>
+    <wf wid="w88" sent="5" para="4" offset="571" length="6">scharf</wf>
+    <wf wid="w89" sent="5" para="4" offset="578" length="8">reagiert</wf>
+    <wf wid="w90" sent="5" para="4" offset="587" length="3">auf</wf>
+    <wf wid="w91" sent="5" para="4" offset="591" length="3">die</wf>
+    <wf wid="w92" sent="5" para="4" offset="595" length="3">nun</wf>
+    <wf wid="w93" sent="5" para="4" offset="599" length="16">herausgekommenen</wf>
+    <wf wid="w94" sent="5" para="4" offset="616" length="10">Telefonate</wf>
+    <wf wid="w95" sent="5" para="4" offset="626" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="schon" morphofeat="ADV" pos="A" tid="t81" type="open">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t82" type="close">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <term lemma="Freitag" morphofeat="NN" pos="N" tid="t83" type="open">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t84" type="open">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <term lemma="Bundeskanzlerin" morphofeat="NN" pos="N" tid="t85" type="open">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term lemma="Angela" morphofeat="NE" pos="R" tid="t86" type="open">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t87" type="open">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <term lemma="scharf" morphofeat="ADJD" pos="G" tid="t88" type="open">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <term lemma="reagieren" morphofeat="VVPP" pos="V" tid="t89" type="open">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <term lemma="auf" morphofeat="APPR" pos="P" tid="t90" type="close">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t91" type="close">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <term lemma="nun" morphofeat="ADV" pos="A" tid="t92" type="open">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <term lemma="herausgekommen" morphofeat="ADJA" pos="G" tid="t93" type="open">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <term lemma="Telefonat" morphofeat="NN" pos="N" tid="t94" type="open">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t95" type="open">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Bundeskanzlerin Angela Merkel-->
+        <span>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--auf die nun herausgekommenen Telefonate-->
+        <span>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--scharf reagiert-->
+        <span>
+          <target id="t88"/>
+          <target id="t89"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--reagiert-->
+        <span>
+          <target id="t89"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--scharf-->
+        <span>
+          <target id="t88"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

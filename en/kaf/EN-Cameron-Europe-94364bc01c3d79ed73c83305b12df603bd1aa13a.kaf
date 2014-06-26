@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:58:30" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:21:18CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="12" para="2" offset="1925" length="6" wid="w368">Sweden</wf>
+    <wf sent="12" para="2" offset="1932" length="3" wid="w369">and</wf>
+    <wf sent="12" para="2" offset="1936" length="3" wid="w370">the</wf>
+    <wf sent="12" para="2" offset="1940" length="11" wid="w371">Netherlands</wf>
+    <wf sent="12" para="2" offset="1952" length="4" wid="w372">also</wf>
+    <wf sent="12" para="2" offset="1957" length="9" wid="w373">supported</wf>
+    <wf sent="12" para="2" offset="1967" length="4" wid="w374">this</wf>
+    <wf sent="12" para="2" offset="1972" length="6" wid="w375">stance</wf>
+    <wf sent="12" para="2" offset="1979" length="1" wid="w376">.</wf>
+  </text>
+  <terms>
+    <!--Sweden-->
+    <term type="close" lemma="Sweden" pos="R" morphofeat="NNP" tid="t368">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t369">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t370">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <!--Netherlands-->
+    <term type="close" lemma="Netherlands" pos="R" morphofeat="NNP" tid="t371">
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t372">
+      <span>
+        <target id="w372"/>
+      </span>
+    </term>
+    <!--supported-->
+    <term type="open" lemma="support" pos="V" morphofeat="VBD" tid="t373">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w373"/>
+      </span>
+    </term>
+    <!--this-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t374">
+      <span>
+        <target id="w374"/>
+      </span>
+    </term>
+    <!--stance-->
+    <term type="open" lemma="stance" pos="N" morphofeat="NN" tid="t375">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w375"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t376">
+      <span>
+        <target id="w376"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Sweden-->
+        <span>
+          <target id="t368"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--this stance-->
+        <span>
+          <target id="t374"/>
+          <target id="t375"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--supported-->
+        <span>
+          <target id="t373"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--the Netherlands-->
+        <span>
+          <target id="t370"/>
+          <target id="t371"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--this stance-->
+        <span>
+          <target id="t374"/>
+          <target id="t375"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--supported-->
+        <span>
+          <target id="t373"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

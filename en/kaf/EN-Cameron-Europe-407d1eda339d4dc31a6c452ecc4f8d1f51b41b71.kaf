@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:01Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:01Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:07:45" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:00:35CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:50CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="6" para="2" offset="799" length="4" wid="w140">Iran</wf>
+    <wf sent="6" para="2" offset="803" length="2" wid="w141">'s</wf>
+    <wf sent="6" para="2" offset="806" length="7" wid="w142">foreign</wf>
+    <wf sent="6" para="2" offset="814" length="8" wid="w143">ministry</wf>
+    <wf sent="6" para="2" offset="823" length="11" wid="w144">spokeswoman</wf>
+    <wf sent="6" para="2" offset="835" length="4" wid="w145">also</wf>
+    <wf sent="6" para="2" offset="840" length="8" wid="w146">welcomed</wf>
+    <wf sent="6" para="2" offset="849" length="6" wid="w147">Russia</wf>
+    <wf sent="6" para="2" offset="855" length="2" wid="w148">'s</wf>
+    <wf sent="6" para="2" offset="858" length="4" wid="w149">plan</wf>
+    <wf sent="6" para="2" offset="862" length="1" wid="w150">.</wf>
+  </text>
+  <terms>
+    <!--Iran-->
+    <term type="close" lemma="Iran" pos="R" morphofeat="NNP" tid="t140">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t141">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--foreign-->
+    <term type="open" lemma="foreign" pos="G" morphofeat="JJ" tid="t142">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--ministry-->
+    <term type="open" lemma="ministry" pos="N" morphofeat="NN" tid="t143">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--spokeswoman-->
+    <term type="open" lemma="spokeswoman" pos="N" morphofeat="NN" tid="t144">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t145">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--welcomed-->
+    <term type="open" lemma="welcome" pos="V" morphofeat="VBD" tid="t146">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--Russia-->
+    <term type="close" lemma="Russia" pos="R" morphofeat="NNP" tid="t147">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t148">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--plan-->
+    <term type="open" lemma="plan" pos="N" morphofeat="NN" tid="t149">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t150">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Iran 's foreign ministry spokeswoman-->
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Russia 's plan-->
+        <span>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--welcomed-->
+        <span>
+          <target id="t146"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

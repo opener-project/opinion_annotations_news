@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:26Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:26Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:00:47" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:28:29CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:24CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="183" length="2" wid="w31">US</wf>
+    <wf sent="3" para="2" offset="186" length="9" wid="w32">President</wf>
+    <wf sent="3" para="2" offset="196" length="5" wid="w33">Obama</wf>
+    <wf sent="3" para="2" offset="202" length="12" wid="w34">participates</wf>
+    <wf sent="3" para="2" offset="215" length="2" wid="w35">in</wf>
+    <wf sent="3" para="2" offset="218" length="3" wid="w36">the</wf>
+    <wf sent="3" para="2" offset="222" length="3" wid="w37">CEO</wf>
+    <wf sent="3" para="2" offset="226" length="6" wid="w38">Summit</wf>
+    <wf sent="3" para="2" offset="233" length="2" wid="w39">of</wf>
+    <wf sent="3" para="2" offset="236" length="3" wid="w40">the</wf>
+    <wf sent="3" para="2" offset="240" length="8" wid="w41">Americas</wf>
+    <wf sent="3" para="2" offset="249" length="2" wid="w42">in</wf>
+    <wf sent="3" para="2" offset="252" length="9" wid="w43">Cartagena</wf>
+    <wf sent="3" para="2" offset="262" length="5" wid="w44">April</wf>
+    <wf sent="3" para="2" offset="268" length="2" wid="w45">14</wf>
+    <wf sent="3" para="2" offset="270" length="1" wid="w46">,</wf>
+    <wf sent="3" para="2" offset="272" length="4" wid="w47">2012</wf>
+    <wf sent="3" para="2" offset="276" length="1" wid="w48">.</wf>
+  </text>
+  <terms>
+    <!--US-->
+    <term type="close" lemma="US" pos="R" morphofeat="NNP" tid="t31">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--President-->
+    <term type="close" lemma="President" pos="R" morphofeat="NNP" tid="t32">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term type="close" lemma="Obama" pos="R" morphofeat="NNP" tid="t33">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--participates-->
+    <term type="open" lemma="participate" pos="V" morphofeat="VBZ" tid="t34">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t35">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t36">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--CEO-->
+    <term type="close" lemma="CEO" pos="R" morphofeat="NNP" tid="t37">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--Summit-->
+    <term type="close" lemma="Summit" pos="R" morphofeat="NNP" tid="t38">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t39">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t40">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--Americas-->
+    <term type="close" lemma="Americas" pos="R" morphofeat="NNPS" tid="t41">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t42">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--Cartagena-->
+    <term type="close" lemma="Cartagena" pos="R" morphofeat="NNP" tid="t43">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--April-->
+    <term type="close" lemma="April" pos="R" morphofeat="NNP" tid="t44">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--14-->
+    <term type="close" lemma="14" pos="O" morphofeat="CD" tid="t45">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t46">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--2012-->
+    <term type="close" lemma="2012" pos="O" morphofeat="CD" tid="t47">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t48">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

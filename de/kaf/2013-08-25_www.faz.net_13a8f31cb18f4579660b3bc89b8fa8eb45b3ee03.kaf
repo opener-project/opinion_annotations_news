@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:31:38Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:31:38Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:12:01CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:31:53CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w551" sent="26" para="12" offset="3157" length="9">Gläubiger</wf>
+    <wf wid="w552" sent="26" para="12" offset="3167" length="8">fürchten</wf>
+    <wf wid="w553" sent="26" para="12" offset="3176" length="4">dann</wf>
+    <wf wid="w554" sent="26" para="12" offset="3181" length="7">nämlich</wf>
+    <wf wid="w555" sent="26" para="12" offset="3188" length="1">,</wf>
+    <wf wid="w556" sent="26" para="12" offset="3190" length="4">dass</wf>
+    <wf wid="w557" sent="26" para="12" offset="3195" length="2">es</wf>
+    <wf wid="w558" sent="26" para="12" offset="3198" length="2">zu</wf>
+    <wf wid="w559" sent="26" para="12" offset="3201" length="5">einem</wf>
+    <wf wid="w560" sent="26" para="12" offset="3207" length="15">Schuldenschnitt</wf>
+    <wf wid="w561" sent="26" para="12" offset="3223" length="5">kommt</wf>
+    <wf wid="w562" sent="26" para="12" offset="3229" length="3">und</wf>
+    <wf wid="w563" sent="26" para="12" offset="3233" length="3">sie</wf>
+    <wf wid="w564" sent="26" para="12" offset="3237" length="4">Geld</wf>
+    <wf wid="w565" sent="26" para="12" offset="3242" length="9">verlieren</wf>
+    <wf wid="w566" sent="26" para="12" offset="3251" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="gläubig" morphofeat="ADJD" pos="G" tid="t551" type="open">
+      <span>
+        <target id="w551"/>
+      </span>
+    </term>
+    <term lemma="fürchten" morphofeat="VVFIN" pos="V" tid="t552" type="open">
+      <span>
+        <target id="w552"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="dann" morphofeat="ADV" pos="A" tid="t553" type="open">
+      <span>
+        <target id="w553"/>
+      </span>
+    </term>
+    <term lemma="nämlich" morphofeat="ADV" pos="A" tid="t554" type="open">
+      <span>
+        <target id="w554"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t555" type="open">
+      <span>
+        <target id="w555"/>
+      </span>
+    </term>
+    <term lemma="dass" morphofeat="KOUS" pos="C" tid="t556" type="close">
+      <span>
+        <target id="w556"/>
+      </span>
+    </term>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t557" type="close">
+      <span>
+        <target id="w557"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPR" pos="P" tid="t558" type="close">
+      <span>
+        <target id="w558"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t559" type="close">
+      <span>
+        <target id="w559"/>
+      </span>
+    </term>
+    <term lemma="Schuldenschnitt" morphofeat="NN unknown_lemma" pos="O" tid="t560" type="open">
+      <span>
+        <target id="w560"/>
+      </span>
+    </term>
+    <term lemma="kommen" morphofeat="VVFIN" pos="V" tid="t561" type="open">
+      <span>
+        <target id="w561"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t562" type="close">
+      <span>
+        <target id="w562"/>
+      </span>
+    </term>
+    <term lemma="sie" morphofeat="PPER" pos="Q" tid="t563" type="close">
+      <span>
+        <target id="w563"/>
+      </span>
+    </term>
+    <term lemma="Geld" morphofeat="NN" pos="N" tid="t564" type="open">
+      <span>
+        <target id="w564"/>
+      </span>
+    </term>
+    <term lemma="verlieren" morphofeat="VVINF" pos="V" tid="t565" type="open">
+      <span>
+        <target id="w565"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t566" type="open">
+      <span>
+        <target id="w566"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Gläubiger-->
+        <span>
+          <target id="t551"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Schuldenschnitt-->
+        <span>
+          <target id="t560"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--fürchten-->
+        <span>
+          <target id="t552"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Gläubiger-->
+        <span>
+          <target id="t551"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Geld verlieren-->
+        <span>
+          <target id="t564"/>
+          <target id="t565"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--fürchten-->
+        <span>
+          <target id="t552"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

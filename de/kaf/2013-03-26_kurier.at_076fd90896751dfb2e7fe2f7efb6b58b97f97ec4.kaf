@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:04:36Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:04:36Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:01:29CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:05:10CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w774" sent="48" para="17" offset="4339" length="3">Wie</wf>
+    <wf wid="w775" sent="48" para="17" offset="4343" length="3">die</wf>
+    <wf wid="w776" sent="48" para="17" offset="4347" length="11">Zentralbank</wf>
+    <wf wid="w777" sent="48" para="17" offset="4359" length="3">des</wf>
+    <wf wid="w778" sent="48" para="17" offset="4363" length="16">Mittelmeerstaats</wf>
+    <wf wid="w779" sent="48" para="17" offset="4380" length="2">am</wf>
+    <wf wid="w780" sent="48" para="17" offset="4383" length="11">Montagabend</wf>
+    <wf wid="w781" sent="48" para="17" offset="4395" length="9">mitteilte</wf>
+    <wf wid="w782" sent="48" para="17" offset="4404" length="1">,</wf>
+    <wf wid="w783" sent="48" para="17" offset="4406" length="6">sollen</wf>
+    <wf wid="w784" sent="48" para="17" offset="4413" length="4">alle</wf>
+    <wf wid="w785" sent="48" para="17" offset="4418" length="6">Banken</wf>
+    <wf wid="w786" sent="48" para="17" offset="4425" length="3">bis</wf>
+    <wf wid="w787" sent="48" para="17" offset="4429" length="8">Mittwoch</wf>
+    <wf wid="w788" sent="48" para="17" offset="4438" length="11">geschlossen</wf>
+    <wf wid="w789" sent="48" para="17" offset="4450" length="7">bleiben</wf>
+    <wf wid="w790" sent="48" para="17" offset="4457" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="wie" morphofeat="KOUS" pos="C" tid="t774" type="close">
+      <span>
+        <target id="w774"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t775" type="close">
+      <span>
+        <target id="w775"/>
+      </span>
+    </term>
+    <term lemma="Zentralbank" morphofeat="NN" pos="N" tid="t776" type="open">
+      <span>
+        <target id="w776"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t777" type="close">
+      <span>
+        <target id="w777"/>
+      </span>
+    </term>
+    <term lemma="Mittelmeerstaats" morphofeat="NN unknown_lemma" pos="O" tid="t778" type="open">
+      <span>
+        <target id="w778"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t779" type="close">
+      <span>
+        <target id="w779"/>
+      </span>
+    </term>
+    <term lemma="Montagabend" morphofeat="NN" pos="N" tid="t780" type="open">
+      <span>
+        <target id="w780"/>
+      </span>
+    </term>
+    <term lemma="mitteilen" morphofeat="VVFIN" pos="V" tid="t781" type="open">
+      <span>
+        <target id="w781"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t782" type="open">
+      <span>
+        <target id="w782"/>
+      </span>
+    </term>
+    <term lemma="sollen" morphofeat="VMFIN" pos="V" tid="t783" type="open">
+      <span>
+        <target id="w783"/>
+      </span>
+    </term>
+    <term lemma="alle" morphofeat="PIAT" pos="Q" tid="t784" type="close">
+      <span>
+        <target id="w784"/>
+      </span>
+    </term>
+    <term lemma="Bank" morphofeat="NN" pos="N" tid="t785" type="open">
+      <span>
+        <target id="w785"/>
+      </span>
+    </term>
+    <term lemma="bis" morphofeat="KON" pos="C" tid="t786" type="close">
+      <span>
+        <target id="w786"/>
+      </span>
+    </term>
+    <term lemma="Mittwoch" morphofeat="NN" pos="N" tid="t787" type="open">
+      <span>
+        <target id="w787"/>
+      </span>
+    </term>
+    <term lemma="schließen" morphofeat="VVPP" pos="V" tid="t788" type="open">
+      <span>
+        <target id="w788"/>
+      </span>
+    </term>
+    <term lemma="bleiben" morphofeat="VVINF" pos="V" tid="t789" type="open">
+      <span>
+        <target id="w789"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t790" type="open">
+      <span>
+        <target id="w790"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t774"/>
+          <target id="t775"/>
+          <target id="t776"/>
+          <target id="t777"/>
+          <target id="t778"/>
+          <target id="t779"/>
+          <target id="t780"/>
+          <target id="t781"/>
+          <target id="t782"/>
+          <target id="t783"/>
+          <target id="t784"/>
+          <target id="t785"/>
+          <target id="t786"/>
+          <target id="t787"/>
+          <target id="t788"/>
+          <target id="t789"/>
+          <target id="t790"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

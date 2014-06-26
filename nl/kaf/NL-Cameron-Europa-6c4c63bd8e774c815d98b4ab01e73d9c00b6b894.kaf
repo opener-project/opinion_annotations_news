@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:14Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:14Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:45:51CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w145" sent="7" para="2" offset="817" length="4">Maar</wf>
+    <wf wid="w146" sent="7" para="2" offset="822" length="3">dat</wf>
+    <wf wid="w147" sent="7" para="2" offset="826" length="2">is</wf>
+    <wf wid="w148" sent="7" para="2" offset="829" length="4">voor</wf>
+    <wf wid="w149" sent="7" para="2" offset="834" length="6">Merkel</wf>
+    <wf wid="w150" sent="7" para="2" offset="841" length="3">nog</wf>
+    <wf wid="w151" sent="7" para="2" offset="845" length="4">geen</wf>
+    <wf wid="w152" sent="7" para="2" offset="850" length="10">prioriteit</wf>
+    <wf wid="w153" sent="7" para="2" offset="860" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Maar-->
+    <term tid="t145" type="close" lemma="maar" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w145"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t146" type="close" lemma="dat" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t147" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t148" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t149" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--nog-->
+    <term tid="t150" type="open" lemma="nog" pos="A" morphofeat="adv">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--geen-->
+    <term tid="t151" type="close" lemma="geen" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--prioriteit-->
+    <term tid="t152" type="open" lemma="prioriteit" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t153" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t149"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--dat-->
+        <span>
+          <target id="t146"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--geen prioriteit-->
+        <span>
+          <target id="t151"/>
+          <target id="t152"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,10 @@
+w178	Die	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	177	true	15
+w179	CDU	CDU	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	178	true	15
+w180	hält	halten	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	179	true	15
+w181	Anfang	Anfang	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	180	true	15
+w182	April	April	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	181	true	15
+w183	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	182	true	15
+w184	Berlin	Berlin	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	183	true	15
+w185	ihren	ihr	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	184	true	15
+w186	Europaparteitag	Europaparteitag	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	185	true	15
+w187	ab	ab	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	186	true	15

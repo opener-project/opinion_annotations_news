@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:16Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:16Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:33:34CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w228" sent="12" para="2" offset="1376" length="2">De</wf>
+    <wf wid="w229" sent="12" para="2" offset="1379" length="12">werkloosheid</wf>
+    <wf wid="w230" sent="12" para="2" offset="1392" length="2">in</wf>
+    <wf wid="w231" sent="12" para="2" offset="1395" length="6">Italië</wf>
+    <wf wid="w232" sent="12" para="2" offset="1402" length="2">is</wf>
+    <wf wid="w233" sent="12" para="2" offset="1405" length="4">10,7</wf>
+    <wf wid="w234" sent="12" para="2" offset="1410" length="7">procent</wf>
+    <wf wid="w235" sent="12" para="2" offset="1417" length="1">,</wf>
+    <wf wid="w236" sent="12" para="2" offset="1419" length="4">maar</wf>
+    <wf wid="w237" sent="12" para="2" offset="1424" length="5">onder</wf>
+    <wf wid="w238" sent="12" para="2" offset="1430" length="8">jongeren</wf>
+    <wf wid="w239" sent="12" para="2" offset="1439" length="4">ligt</wf>
+    <wf wid="w240" sent="12" para="2" offset="1444" length="3">dit</wf>
+    <wf wid="w241" sent="12" para="2" offset="1448" length="4">veel</wf>
+    <wf wid="w242" sent="12" para="2" offset="1453" length="5">hoger</wf>
+    <wf wid="w243" sent="12" para="2" offset="1458" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t228" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--werkloosheid-->
+    <term tid="t229" type="open" lemma="werkloosheid" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t230" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--Italië-->
+    <term tid="t231" type="open" lemma="Italië" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t232" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--10,7-->
+    <term tid="t233" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--procent-->
+    <term tid="t234" type="open" lemma="procent" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t235" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--maar-->
+    <term tid="t236" type="close" lemma="maar" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w236"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--onder-->
+    <term tid="t237" type="close" lemma="onder" pos="P" morphofeat="prep">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--jongeren-->
+    <term tid="t238" type="open" lemma="jongere" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--ligt-->
+    <term tid="t239" type="open" lemma="liggen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w239"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dit-->
+    <term tid="t240" type="close" lemma="dit" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--veel-->
+    <term tid="t241" type="open" lemma="veel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--hoger-->
+    <term tid="t242" type="open" lemma="hoog" pos="G" morphofeat="adj">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t243" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t228"/>
+          <target id="t229"/>
+          <target id="t230"/>
+          <target id="t231"/>
+          <target id="t232"/>
+          <target id="t233"/>
+          <target id="t234"/>
+          <target id="t235"/>
+          <target id="t236"/>
+          <target id="t237"/>
+          <target id="t238"/>
+          <target id="t239"/>
+          <target id="t240"/>
+          <target id="t241"/>
+          <target id="t242"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:02:21Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:02:21Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:08:46CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:02:43CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w440" sent="29" para="12" offset="2801" length="1">"</wf>
+    <wf wid="w441" sent="29" para="12" offset="2802" length="4">Ohne</wf>
+    <wf wid="w442" sent="29" para="12" offset="2807" length="6">Europa</wf>
+    <wf wid="w443" sent="29" para="12" offset="2814" length="9">verlieren</wf>
+    <wf wid="w444" sent="29" para="12" offset="2824" length="3">wir</wf>
+    <wf wid="w445" sent="29" para="12" offset="2828" length="5">alles</wf>
+    <wf wid="w446" sent="29" para="12" offset="2833" length="1">"</wf>
+    <wf wid="w447" sent="29" para="12" offset="2834" length="1">,</wf>
+    <wf wid="w448" sent="29" para="12" offset="2836" length="5">sagte</wf>
+    <wf wid="w449" sent="29" para="12" offset="2842" length="5">Letta</wf>
+    <wf wid="w450" sent="29" para="12" offset="2847" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t440" type="open">
+      <span>
+        <target id="w440"/>
+      </span>
+    </term>
+    <term lemma="ohne" morphofeat="APPR" pos="P" tid="t441" type="close">
+      <span>
+        <target id="w441"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="Europa" morphofeat="NE" pos="R" tid="t442" type="open">
+      <span>
+        <target id="w442"/>
+      </span>
+    </term>
+    <term lemma="verlieren" morphofeat="VVFIN" pos="V" tid="t443" type="open">
+      <span>
+        <target id="w443"/>
+      </span>
+    </term>
+    <term lemma="wir" morphofeat="PPER" pos="Q" tid="t444" type="close">
+      <span>
+        <target id="w444"/>
+      </span>
+    </term>
+    <term lemma="alle" morphofeat="PIS" pos="Q" tid="t445" type="close">
+      <span>
+        <target id="w445"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t446" type="open">
+      <span>
+        <target id="w446"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t447" type="open">
+      <span>
+        <target id="w447"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t448" type="open">
+      <span>
+        <target id="w448"/>
+      </span>
+    </term>
+    <term lemma="Letta" morphofeat="NE unknown_lemma" pos="O" tid="t449" type="open">
+      <span>
+        <target id="w449"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t450" type="open">
+      <span>
+        <target id="w450"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Europa-->
+        <span>
+          <target id="t442"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--Ohne-->
+        <span>
+          <target id="t441"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

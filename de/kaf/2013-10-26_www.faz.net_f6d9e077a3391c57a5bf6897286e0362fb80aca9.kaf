@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:33:24Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:33:24Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:48:55CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:33:49CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w145" sent="10" para="6" offset="951" length="7">Weitere</wf>
+    <wf wid="w146" sent="10" para="6" offset="959" length="12">Einzelheiten</wf>
+    <wf wid="w147" sent="10" para="6" offset="972" length="3">des</wf>
+    <wf wid="w148" sent="10" para="6" offset="976" length="7">Besuchs</wf>
+    <wf wid="w149" sent="10" para="6" offset="984" length="5">seien</wf>
+    <wf wid="w150" sent="10" para="6" offset="990" length="4">noch</wf>
+    <wf wid="w151" sent="10" para="6" offset="995" length="5">nicht</wf>
+    <wf wid="w152" sent="10" para="6" offset="1001" length="7">bekannt</wf>
+    <wf wid="w153" sent="10" para="6" offset="1008" length="1">.</wf>
+    <wf wid="w406" sent="23" para="9" offset="2615" length="3">Der</wf>
+    <wf wid="w407" sent="23" para="9" offset="2619" length="9">Abschluss</wf>
+    <wf wid="w408" sent="23" para="9" offset="2629" length="5">eines</wf>
+    <wf wid="w409" sent="23" para="9" offset="2635" length="7">solchen</wf>
+    <wf wid="w410" sent="23" para="9" offset="2643" length="9">Abkommens</wf>
+    <wf wid="w411" sent="23" para="9" offset="2653" length="3">sei</wf>
+    <wf wid="w412" sent="23" para="9" offset="2657" length="11">schließlich</wf>
+    <wf wid="w413" sent="23" para="9" offset="2669" length="3">für</wf>
+    <wf wid="w414" sent="23" para="9" offset="2673" length="5">beide</wf>
+    <wf wid="w415" sent="23" para="9" offset="2679" length="6">Seiten</wf>
+    <wf wid="w416" sent="23" para="9" offset="2686" length="3">von</wf>
+    <wf wid="w417" sent="23" para="9" offset="2690" length="5">hohem</wf>
+    <wf wid="w418" sent="23" para="9" offset="2696" length="9">Interesse</wf>
+    <wf wid="w419" sent="23" para="9" offset="2705" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="weit" morphofeat="ADJA" pos="G" tid="t145" type="open">
+      <span>
+        <target id="w145"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Einzelheit" morphofeat="NN" pos="N" tid="t146" type="open">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t147" type="close">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <term lemma="Besuch" morphofeat="NN" pos="N" tid="t148" type="open">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t149" type="open">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <term lemma="noch" morphofeat="ADV" pos="A" tid="t150" type="open">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t151" type="open">
+      <span>
+        <target id="w151"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="bekannt" morphofeat="ADJD" pos="G" tid="t152" type="open">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t153" type="open">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t406" type="close">
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+    <term lemma="Abschluss" morphofeat="NN" pos="N" tid="t407" type="open">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t408" type="close">
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+    <term lemma="solche" morphofeat="PIAT" pos="Q" tid="t409" type="close">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <term lemma="Abkommen" morphofeat="NN" pos="N" tid="t410" type="open">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t411" type="open">
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <term lemma="schließlich" morphofeat="ADV" pos="A" tid="t412" type="open">
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t413" type="close">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+    <term lemma="beide" morphofeat="PIAT" pos="Q" tid="t414" type="close">
+      <span>
+        <target id="w414"/>
+      </span>
+    </term>
+    <term lemma="Seite" morphofeat="NN" pos="N" tid="t415" type="open">
+      <span>
+        <target id="w415"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t416" type="close">
+      <span>
+        <target id="w416"/>
+      </span>
+    </term>
+    <term lemma="hoch" morphofeat="ADJA" pos="G" tid="t417" type="open">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <term lemma="Interesse" morphofeat="NN" pos="N" tid="t418" type="open">
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t419" type="open">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--eines solchen Abkommens-->
+        <span>
+          <target id="t408"/>
+          <target id="t409"/>
+          <target id="t410"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--Abschluss-->
+        <span>
+          <target id="t407"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Interesse-->
+        <span>
+          <target id="t418"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--hohem-->
+        <span>
+          <target id="t417"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--beide Seiten-->
+        <span>
+          <target id="t414"/>
+          <target id="t415"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Der Abschluss eines solchen Abkommens-->
+        <span>
+          <target id="t406"/>
+          <target id="t407"/>
+          <target id="t408"/>
+          <target id="t409"/>
+          <target id="t410"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--von hohem Interesse-->
+        <span>
+          <target id="t416"/>
+          <target id="t417"/>
+          <target id="t418"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

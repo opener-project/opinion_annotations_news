@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:14Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:14Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:56:22" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:40:37CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:51CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="7" wid="w1">Ukraine</wf>
+    <wf sent="1" para="1" offset="7" length="2" wid="w2">'s</wf>
+    <wf sent="1" para="1" offset="10" length="6" wid="w3">leader</wf>
+    <wf sent="1" para="1" offset="17" length="8" wid="w4">approves</wf>
+    <wf sent="1" para="1" offset="26" length="12" wid="w5">anti-protest</wf>
+    <wf sent="1" para="1" offset="39" length="4" wid="w6">laws</wf>
+  </text>
+  <terms>
+    <!--Ukraine-->
+    <term type="close" lemma="Ukraine" pos="R" morphofeat="NNP" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t2">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--leader-->
+    <term type="open" lemma="leader" pos="N" morphofeat="NN" tid="t3">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--approves-->
+    <term type="open" lemma="approve" pos="V" morphofeat="VBZ" tid="t4">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--anti-protest-->
+    <term type="open" lemma="anti-protest" pos="G" morphofeat="JJ" tid="t5">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--laws-->
+    <term type="open" lemma="law" pos="N" morphofeat="NNS" tid="t6">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Ukraine 's leader-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--anti-protest laws-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--approves-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:21:07Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:21:07Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:54:57CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:21:24CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w154" sent="8" para="5" offset="861" length="2">Am</wf>
+    <wf wid="w155" sent="8" para="5" offset="864" length="3">18.</wf>
+    <wf wid="w156" sent="8" para="5" offset="868" length="7">Februar</wf>
+    <wf wid="w157" sent="8" para="5" offset="876" length="6">werden</wf>
+    <wf wid="w158" sent="8" para="5" offset="883" length="5">Union</wf>
+    <wf wid="w159" sent="8" para="5" offset="889" length="3">und</wf>
+    <wf wid="w160" sent="8" para="5" offset="893" length="3">SPD</wf>
+    <wf wid="w161" sent="8" para="5" offset="897" length="4">nach</wf>
+    <wf wid="w162" sent="8" para="5" offset="902" length="13">Unionsangaben</wf>
+    <wf wid="w163" sent="8" para="5" offset="916" length="2">zu</wf>
+    <wf wid="w164" sent="8" para="5" offset="919" length="5">ihrem</wf>
+    <wf wid="w165" sent="8" para="5" offset="925" length="6">ersten</wf>
+    <wf wid="w166" sent="8" para="5" offset="932" length="19">Koalitionsausschuss</wf>
+    <wf wid="w167" sent="8" para="5" offset="952" length="14">zusammenkommen</wf>
+    <wf wid="w168" sent="8" para="5" offset="966" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t154" type="close">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <term lemma="18." morphofeat="CARD" pos="O" tid="t155" type="open">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <term lemma="Februar" morphofeat="NN" pos="N" tid="t156" type="open">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t157" type="open">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <term lemma="Union" morphofeat="NE" pos="R" tid="t158" type="open">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t159" type="close">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <term lemma="SPD" morphofeat="NE" pos="R" tid="t160" type="open">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <term lemma="nach" morphofeat="APPR" pos="P" tid="t161" type="close">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <term lemma="Unionsangabe" morphofeat="NN" pos="N" tid="t162" type="open">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPR" pos="P" tid="t163" type="close">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <term lemma="ihr" morphofeat="PPOSAT" pos="Q" tid="t164" type="close">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <term lemma="erst" morphofeat="ADJA" pos="G" tid="t165" type="open">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <term lemma="Koalitionsausschuss" morphofeat="NN" pos="N" tid="t166" type="open">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <term lemma="zusammenkommen" morphofeat="VVINF" pos="V" tid="t167" type="open">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t168" type="open">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+          <target id="t157"/>
+          <target id="t158"/>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

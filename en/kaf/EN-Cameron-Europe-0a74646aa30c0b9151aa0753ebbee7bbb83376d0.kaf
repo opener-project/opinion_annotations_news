@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:53Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:53Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:31:30" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:49:47CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:52CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="6" para="2" offset="590" length="4" wid="w113">They</wf>
+    <wf sent="6" para="2" offset="595" length="5" wid="w114">speak</wf>
+    <wf sent="6" para="2" offset="601" length="5" wid="w115">about</wf>
+    <wf sent="6" para="2" offset="607" length="4" wid="w116">this</wf>
+    <wf sent="6" para="2" offset="612" length="5" wid="w117">shift</wf>
+    <wf sent="6" para="2" offset="618" length="2" wid="w118">in</wf>
+    <wf sent="6" para="2" offset="621" length="8" wid="w119">Brussels</wf>
+    <wf sent="6" para="2" offset="630" length="3" wid="w120">and</wf>
+    <wf sent="6" para="2" offset="634" length="5" wid="w121">Paris</wf>
+    <wf sent="6" para="2" offset="640" length="3" wid="w122">and</wf>
+    <wf sent="6" para="2" offset="644" length="9" wid="w123">certainly</wf>
+    <wf sent="6" para="2" offset="654" length="2" wid="w124">in</wf>
+    <wf sent="6" para="2" offset="657" length="6" wid="w125">Athens</wf>
+    <wf sent="6" para="2" offset="663" length="1" wid="w126">,</wf>
+    <wf sent="6" para="2" offset="665" length="4" wid="w127">Rome</wf>
+    <wf sent="6" para="2" offset="670" length="3" wid="w128">and</wf>
+    <wf sent="6" para="2" offset="674" length="6" wid="w129">Madrid</wf>
+    <wf sent="6" para="2" offset="680" length="1" wid="w130">.</wf>
+    <wf sent="15" para="2" offset="1660" length="3" wid="w324">The</wf>
+    <wf sent="15" para="2" offset="1664" length="6" wid="w325">change</wf>
+    <wf sent="15" para="2" offset="1671" length="2" wid="w326">in</wf>
+    <wf sent="15" para="2" offset="1674" length="7" wid="w327">fortune</wf>
+    <wf sent="15" para="2" offset="1682" length="2" wid="w328">is</wf>
+    <wf sent="15" para="2" offset="1685" length="6" wid="w329">barely</wf>
+    <wf sent="15" para="2" offset="1692" length="9" wid="w330">discussed</wf>
+    <wf sent="15" para="2" offset="1702" length="3" wid="w331">and</wf>
+    <wf sent="15" para="2" offset="1706" length="9" wid="w332">certainly</wf>
+    <wf sent="15" para="2" offset="1716" length="3" wid="w333">not</wf>
+    <wf sent="15" para="2" offset="1720" length="10" wid="w334">celebrated</wf>
+    <wf sent="15" para="2" offset="1730" length="1" wid="w335">.</wf>
+  </text>
+  <terms>
+    <!--They-->
+    <term type="close" lemma="they" pos="Q" morphofeat="PRP" tid="t113">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--speak-->
+    <term type="open" lemma="speak" pos="V" morphofeat="VBP" tid="t114">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--about-->
+    <term type="close" lemma="about" pos="P" morphofeat="IN" tid="t115">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--this-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t116">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--shift-->
+    <term type="open" lemma="shift" pos="N" morphofeat="NN" tid="t117">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t118">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--Brussels-->
+    <term type="close" lemma="Brussels" pos="R" morphofeat="NNP" tid="t119">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t120">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--Paris-->
+    <term type="close" lemma="Paris" pos="R" morphofeat="NNP" tid="t121">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t122">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--certainly-->
+    <term type="open" lemma="certainly" pos="A" morphofeat="RB" tid="t123">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t124">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--Athens-->
+    <term type="close" lemma="Athens" pos="R" morphofeat="NNP" tid="t125">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t126">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--Rome-->
+    <term type="close" lemma="Rome" pos="R" morphofeat="NNP" tid="t127">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t128">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--Madrid-->
+    <term type="close" lemma="Madrid" pos="R" morphofeat="NNP" tid="t129">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t130">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t324">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--change-->
+    <term type="open" lemma="change" pos="N" morphofeat="NN" tid="t325">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t326">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <!--fortune-->
+    <term type="open" lemma="fortune" pos="N" morphofeat="NN" tid="t327">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t328">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--barely-->
+    <term type="open" lemma="barely" pos="A" morphofeat="RB" tid="t329">
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+    <!--discussed-->
+    <term type="open" lemma="discuss" pos="V" morphofeat="VBN" tid="t330">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t331">
+      <span>
+        <target id="w331"/>
+      </span>
+    </term>
+    <!--certainly-->
+    <term type="open" lemma="certainly" pos="A" morphofeat="RB" tid="t332">
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t333">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <!--celebrated-->
+    <term type="open" lemma="celebrate" pos="V" morphofeat="VBN" tid="t334">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t335">
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--discussed-->
+        <span>
+          <target id="t330"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--barely-->
+        <span>
+          <target id="t329"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--celebrated-->
+        <span>
+          <target id="t334"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--certainly not-->
+        <span>
+          <target id="t332"/>
+          <target id="t333"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--The change in fortune-->
+        <span>
+          <target id="t324"/>
+          <target id="t325"/>
+          <target id="t326"/>
+          <target id="t327"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--certainly not celebrated-->
+        <span>
+          <target id="t332"/>
+          <target id="t333"/>
+          <target id="t334"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--The change in fortune-->
+        <span>
+          <target id="t324"/>
+          <target id="t325"/>
+          <target id="t326"/>
+          <target id="t327"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--barely discussed-->
+        <span>
+          <target id="t329"/>
+          <target id="t330"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

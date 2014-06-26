@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:53Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:53Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:03:19" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:56:39CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="23" para="2" offset="3496" length="6" wid="w652">Russia</wf>
+    <wf sent="23" para="2" offset="3503" length="9" wid="w653">meanwhile</wf>
+    <wf sent="23" para="2" offset="3513" length="8" wid="w654">supplies</wf>
+    <wf sent="23" para="2" offset="3522" length="7" wid="w655">weapons</wf>
+    <wf sent="23" para="2" offset="3530" length="2" wid="w656">to</wf>
+    <wf sent="23" para="2" offset="3533" length="3" wid="w657">the</wf>
+    <wf sent="23" para="2" offset="3537" length="10" wid="w658">government</wf>
+    <wf sent="23" para="2" offset="3548" length="2" wid="w659">of</wf>
+    <wf sent="23" para="2" offset="3551" length="9" wid="w660">President</wf>
+    <wf sent="23" para="2" offset="3561" length="6" wid="w661">Bashar</wf>
+    <wf sent="23" para="2" offset="3568" length="8" wid="w662">al-Assad</wf>
+    <wf sent="23" para="2" offset="3576" length="1" wid="w663">.</wf>
+  </text>
+  <terms>
+    <!--Russia-->
+    <term type="close" lemma="Russia" pos="R" morphofeat="NNP" tid="t652">
+      <span>
+        <target id="w652"/>
+      </span>
+    </term>
+    <!--meanwhile-->
+    <term type="open" lemma="meanwhile" pos="A" morphofeat="RB" tid="t653">
+      <span>
+        <target id="w653"/>
+      </span>
+    </term>
+    <!--supplies-->
+    <term type="open" lemma="supply" pos="V" morphofeat="VBZ" tid="t654">
+      <span>
+        <target id="w654"/>
+      </span>
+    </term>
+    <!--weapons-->
+    <term type="open" lemma="weapon" pos="N" morphofeat="NNS" tid="t655">
+      <span>
+        <target id="w655"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t656">
+      <span>
+        <target id="w656"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t657">
+      <span>
+        <target id="w657"/>
+      </span>
+    </term>
+    <!--government-->
+    <term type="open" lemma="government" pos="N" morphofeat="NN" tid="t658">
+      <span>
+        <target id="w658"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t659">
+      <span>
+        <target id="w659"/>
+      </span>
+    </term>
+    <!--President-->
+    <term type="close" lemma="President" pos="R" morphofeat="NNP" tid="t660">
+      <span>
+        <target id="w660"/>
+      </span>
+    </term>
+    <!--Bashar-->
+    <term type="close" lemma="Bashar" pos="R" morphofeat="NNP" tid="t661">
+      <span>
+        <target id="w661"/>
+      </span>
+    </term>
+    <!--al-Assad-->
+    <term type="close" lemma="al-Assad" pos="R" morphofeat="NNP" tid="t662">
+      <span>
+        <target id="w662"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t663">
+      <span>
+        <target id="w663"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t652"/>
+          <target id="t653"/>
+          <target id="t654"/>
+          <target id="t655"/>
+          <target id="t656"/>
+          <target id="t657"/>
+          <target id="t658"/>
+          <target id="t659"/>
+          <target id="t660"/>
+          <target id="t661"/>
+          <target id="t662"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:37:26Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:37:26Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:17:16CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:37:37CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="3">250</wf>
+    <wf wid="w2" sent="1" para="1" offset="4" length="6">Wiener</wf>
+    <wf wid="w3" sent="1" para="1" offset="11" length="13">protestierten</wf>
+    <wf wid="w4" sent="1" para="1" offset="25" length="5">gegen</wf>
+    <wf wid="w5" sent="1" para="1" offset="31" length="16">Russenhomophobie</wf>
+  </text>
+  <terms>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t1" type="open">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="Wiener" morphofeat="NN" pos="N" tid="t2" type="open">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="protestieren" morphofeat="VVFIN" pos="V" tid="t3" type="open">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="gegen" morphofeat="APPR" pos="P" tid="t4" type="close">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="Russenhomophobie" morphofeat="NN unknown_lemma" pos="O" tid="t5" type="open">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--250 Wiener-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Russenhomophobie-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--protestierten gegen-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

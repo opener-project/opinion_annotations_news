@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:11:11" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:30:44CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="668" length="3" wid="w116">The</wf>
+    <wf sent="5" para="2" offset="672" length="7" wid="w117">changes</wf>
+    <wf sent="5" para="2" offset="680" length="3" wid="w118">may</wf>
+    <wf sent="5" para="2" offset="684" length="4" wid="w119">also</wf>
+    <wf sent="5" para="2" offset="689" length="3" wid="w120">see</wf>
+    <wf sent="5" para="2" offset="693" length="3" wid="w121">the</wf>
+    <wf sent="5" para="2" offset="697" length="9" wid="w122">coalition</wf>
+    <wf sent="5" para="2" offset="707" length="10" wid="w123">government</wf>
+    <wf sent="5" para="2" offset="718" length="5" wid="w124">scrap</wf>
+    <wf sent="5" para="2" offset="724" length="3" wid="w125">its</wf>
+    <wf sent="5" para="2" offset="728" length="10" wid="w126">opposition</wf>
+    <wf sent="5" para="2" offset="739" length="2" wid="w127">to</wf>
+    <wf sent="5" para="2" offset="742" length="9" wid="w128">expanding</wf>
+    <wf sent="5" para="2" offset="752" length="6" wid="w129">London</wf>
+    <wf sent="5" para="2" offset="758" length="2" wid="w130">'s</wf>
+    <wf sent="5" para="2" offset="761" length="8" wid="w131">Heathrow</wf>
+    <wf sent="5" para="2" offset="770" length="7" wid="w132">airport</wf>
+    <wf sent="5" para="2" offset="777" length="1" wid="w133">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t116">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--changes-->
+    <term type="open" lemma="change" pos="N" morphofeat="NNS" tid="t117">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--may-->
+    <term type="close" lemma="may" pos="O" morphofeat="MD" tid="t118">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t119">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--see-->
+    <term type="open" lemma="see" pos="V" morphofeat="VB" tid="t120">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t121">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--coalition-->
+    <term type="open" lemma="coalition" pos="N" morphofeat="NN" tid="t122">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--government-->
+    <term type="open" lemma="government" pos="N" morphofeat="NN" tid="t123">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--scrap-->
+    <term type="open" lemma="scrap" pos="V" morphofeat="VB" tid="t124">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--its-->
+    <term type="close" lemma="its" pos="Q" morphofeat="PRP$" tid="t125">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--opposition-->
+    <term type="open" lemma="opposition" pos="N" morphofeat="NN" tid="t126">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t127">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--expanding-->
+    <term type="open" lemma="expand" pos="V" morphofeat="VBG" tid="t128">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--London-->
+    <term type="close" lemma="London" pos="R" morphofeat="NNP" tid="t129">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t130">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--Heathrow-->
+    <term type="close" lemma="Heathrow" pos="R" morphofeat="NNP" tid="t131">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--airport-->
+    <term type="open" lemma="airport" pos="N" morphofeat="NN" tid="t132">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t133">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--opposition-->
+        <span>
+          <target id="t126"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--the coalition government-->
+        <span>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--its opposition to expanding London 's Heathrow airport-->
+        <span>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+          <target id="t132"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--scrap-->
+        <span>
+          <target id="t124"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--London 's Heathrow airport-->
+        <span>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+          <target id="t132"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--expanding-->
+        <span>
+          <target id="t128"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

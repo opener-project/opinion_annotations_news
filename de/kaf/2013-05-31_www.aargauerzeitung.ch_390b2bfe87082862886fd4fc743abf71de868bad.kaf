@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:16:31Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:16:31Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:58:44CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:16:54CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w98" sent="9" para="8" offset="605" length="6">Nestlé</wf>
+    <wf wid="w99" sent="9" para="8" offset="612" length="10">investiert</wf>
+    <wf wid="w100" sent="9" para="8" offset="623" length="2">in</wf>
+    <wf wid="w101" sent="9" para="8" offset="626" length="3">das</wf>
+    <wf wid="w102" sent="9" para="8" offset="630" length="4">Werk</wf>
+    <wf wid="w103" sent="9" para="8" offset="635" length="4">über</wf>
+    <wf wid="w104" sent="9" para="8" offset="640" length="3">270</wf>
+    <wf wid="w105" sent="9" para="8" offset="644" length="4">Mio.</wf>
+    <wf wid="w106" sent="9" para="8" offset="649" length="7">Franken</wf>
+    <wf wid="w107" sent="9" para="8" offset="656" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Nestlé" morphofeat="NE" pos="R" tid="t98" type="open">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <term lemma="investieren" morphofeat="VVFIN" pos="V" tid="t99" type="open">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t100" type="close">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t101" type="close">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <term lemma="Werk" morphofeat="NN" pos="N" tid="t102" type="open">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <term lemma="über" morphofeat="APPR" pos="P" tid="t103" type="close">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <term lemma="270" morphofeat="CARD" pos="O" tid="t104" type="open">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <term lemma="Mio." morphofeat="NE unknown_lemma" pos="O" tid="t105" type="open">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <term lemma="Franken" morphofeat="NE" pos="R" tid="t106" type="open">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t107" type="open">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

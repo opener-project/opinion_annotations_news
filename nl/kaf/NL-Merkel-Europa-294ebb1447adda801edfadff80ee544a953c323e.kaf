@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:23Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:23Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:06:21CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w104" sent="9" para="2" offset="529" length="1">'</wf>
+    <wf wid="w105" sent="9" para="2" offset="530" length="2">Ik</wf>
+    <wf wid="w106" sent="9" para="2" offset="533" length="4">weet</wf>
+    <wf wid="w107" sent="9" para="2" offset="538" length="3">dat</wf>
+    <wf wid="w108" sent="9" para="2" offset="542" length="3">het</wf>
+    <wf wid="w109" sent="9" para="2" offset="546" length="8">pijnlijk</wf>
+    <wf wid="w110" sent="9" para="2" offset="555" length="2">is</wf>
+    <wf wid="w111" sent="9" para="2" offset="557" length="1">,</wf>
+    <wf wid="w112" sent="9" para="2" offset="559" length="4">maar</wf>
+    <wf wid="w113" sent="9" para="2" offset="564" length="3">het</wf>
+    <wf wid="w114" sent="9" para="2" offset="568" length="2">is</wf>
+    <wf wid="w115" sent="9" para="2" offset="571" length="14">onvermijdelijk</wf>
+    <wf wid="w116" sent="9" para="2" offset="585" length="1">.</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term tid="t104" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--Ik-->
+    <term tid="t105" type="open" lemma="Ik" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--weet-->
+    <term tid="t106" type="open" lemma="weten" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t107" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t108" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--pijnlijk-->
+    <term tid="t109" type="open" lemma="pijnlijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w109"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--is-->
+    <term tid="t110" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t111" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--maar-->
+    <term tid="t112" type="close" lemma="maar" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w112"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--het-->
+    <term tid="t113" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t114" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--onvermijdelijk-->
+    <term tid="t115" type="open" lemma="onvermijdelijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w115"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t116" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--Ik-->
+        <span>
+          <target id="t105"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--het-->
+        <span>
+          <target id="t113"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--is onvermijdelijk-->
+        <span>
+          <target id="t114"/>
+          <target id="t115"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:32:32CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w665" sent="41" para="2" offset="3695" length="7">Cameron</wf>
+    <wf wid="w666" sent="41" para="2" offset="3703" length="5">hield</wf>
+    <wf wid="w667" sent="41" para="2" offset="3709" length="2">de</wf>
+    <wf wid="w668" sent="41" para="2" offset="3712" length="6">speech</wf>
+    <wf wid="w669" sent="41" para="2" offset="3719" length="2">in</wf>
+    <wf wid="w670" sent="41" para="2" offset="3722" length="3">het</wf>
+    <wf wid="w671" sent="41" para="2" offset="3726" length="7">Engelse</wf>
+    <wf wid="w672" sent="41" para="2" offset="3734" length="13">hoofdkwartier</wf>
+    <wf wid="w673" sent="41" para="2" offset="3748" length="3">van</wf>
+    <wf wid="w674" sent="41" para="2" offset="3752" length="9">Bloomberg</wf>
+    <wf wid="w675" sent="41" para="2" offset="3762" length="2">in</wf>
+    <wf wid="w676" sent="41" para="2" offset="3765" length="3">het</wf>
+    <wf wid="w677" sent="41" para="2" offset="3769" length="7">centrum</wf>
+    <wf wid="w678" sent="41" para="2" offset="3777" length="3">van</wf>
+    <wf wid="w679" sent="41" para="2" offset="3781" length="6">Londen</wf>
+    <wf wid="w680" sent="41" para="2" offset="3787" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Cameron-->
+    <term tid="t665" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w665"/>
+      </span>
+    </term>
+    <!--hield-->
+    <term tid="t666" type="open" lemma="houden" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w666"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--de-->
+    <term tid="t667" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w667"/>
+      </span>
+    </term>
+    <!--speech-->
+    <term tid="t668" type="open" lemma="speech" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w668"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t669" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w669"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t670" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w670"/>
+      </span>
+    </term>
+    <!--Engelse-->
+    <term tid="t671" type="open" lemma="Engels" pos="G" morphofeat="adj">
+      <span>
+        <target id="w671"/>
+      </span>
+    </term>
+    <!--hoofdkwartier-->
+    <term tid="t672" type="open" lemma="hoofdkwartier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w672"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t673" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w673"/>
+      </span>
+    </term>
+    <!--Bloomberg-->
+    <term tid="t674" type="open" lemma="Bloomberg" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w674"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t675" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w675"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t676" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w676"/>
+      </span>
+    </term>
+    <!--centrum-->
+    <term tid="t677" type="open" lemma="centrum" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w677"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t678" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w678"/>
+      </span>
+    </term>
+    <!--Londen-->
+    <term tid="t679" type="open" lemma="Londen" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w679"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t680" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w680"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t665"/>
+          <target id="t666"/>
+          <target id="t667"/>
+          <target id="t668"/>
+          <target id="t669"/>
+          <target id="t670"/>
+          <target id="t671"/>
+          <target id="t672"/>
+          <target id="t673"/>
+          <target id="t674"/>
+          <target id="t675"/>
+          <target id="t676"/>
+          <target id="t677"/>
+          <target id="t678"/>
+          <target id="t679"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:26Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:26Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:52:50" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:38:09CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="790" length="3" wid="w130">The</wf>
+    <wf sent="5" para="2" offset="794" length="5" wid="w131">Prime</wf>
+    <wf sent="5" para="2" offset="800" length="8" wid="w132">Minister</wf>
+    <wf sent="5" para="2" offset="809" length="3" wid="w133">set</wf>
+    <wf sent="5" para="2" offset="813" length="3" wid="w134">out</wf>
+    <wf sent="5" para="2" offset="817" length="1" wid="w135">a</wf>
+    <wf sent="5" para="2" offset="819" length="6" wid="w136">series</wf>
+    <wf sent="5" para="2" offset="826" length="2" wid="w137">of</wf>
+    <wf sent="5" para="2" offset="829" length="8" wid="w138">measures</wf>
+    <wf sent="5" para="2" offset="837" length="1" wid="w139">,</wf>
+    <wf sent="5" para="2" offset="839" length="9" wid="w140">supported</wf>
+    <wf sent="5" para="2" offset="849" length="2" wid="w141">by</wf>
+    <wf sent="5" para="2" offset="852" length="3" wid="w142">the</wf>
+    <wf sent="5" para="2" offset="856" length="7" wid="w143">Liberal</wf>
+    <wf sent="5" para="2" offset="864" length="9" wid="w144">Democrats</wf>
+    <wf sent="5" para="2" offset="873" length="1" wid="w145">,</wf>
+    <wf sent="5" para="2" offset="875" length="8" wid="w146">designed</wf>
+    <wf sent="5" para="2" offset="884" length="2" wid="w147">to</wf>
+    <wf sent="5" para="2" offset="887" length="5" wid="w148">deter</wf>
+    <wf sent="5" para="2" offset="893" length="7" wid="w149">benefit</wf>
+    <wf sent="5" para="2" offset="901" length="7" wid="w150">tourism</wf>
+    <wf sent="5" para="2" offset="909" length="4" wid="w151">from</wf>
+    <wf sent="5" para="2" offset="914" length="7" wid="w152">Romania</wf>
+    <wf sent="5" para="2" offset="922" length="3" wid="w153">and</wf>
+    <wf sent="5" para="2" offset="926" length="8" wid="w154">Bulgaria</wf>
+    <wf sent="5" para="2" offset="935" length="4" wid="w155">when</wf>
+    <wf sent="5" para="2" offset="940" length="3" wid="w156">the</wf>
+    <wf sent="5" para="2" offset="944" length="8" wid="w157">controls</wf>
+    <wf sent="5" para="2" offset="953" length="3" wid="w158">are</wf>
+    <wf sent="5" para="2" offset="957" length="6" wid="w159">lifted</wf>
+    <wf sent="5" para="2" offset="964" length="2" wid="w160">on</wf>
+    <wf sent="5" para="2" offset="967" length="7" wid="w161">January</wf>
+    <wf sent="5" para="2" offset="975" length="1" wid="w162">1</wf>
+    <wf sent="5" para="2" offset="976" length="1" wid="w163">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t130">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--Prime-->
+    <term type="close" lemma="Prime" pos="R" morphofeat="NNP" tid="t131">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--Minister-->
+    <term type="close" lemma="Minister" pos="R" morphofeat="NNP" tid="t132">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--set-->
+    <term type="open" lemma="set" pos="V" morphofeat="VBD" tid="t133">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--out-->
+    <term type="close" lemma="out" pos="P" morphofeat="IN" tid="t134">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t135">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--series-->
+    <term type="open" lemma="series" pos="N" morphofeat="NN" tid="t136">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t137">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--measures-->
+    <term type="open" lemma="measure" pos="N" morphofeat="NNS" tid="t138">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t139">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--supported-->
+    <term type="open" lemma="support" pos="V" morphofeat="VBN" tid="t140">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t141">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t142">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--Liberal-->
+    <term type="close" lemma="Liberal" pos="R" morphofeat="NNP" tid="t143">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--Democrats-->
+    <term type="close" lemma="Democrats" pos="R" morphofeat="NNPS" tid="t144">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t145">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--designed-->
+    <term type="open" lemma="design" pos="V" morphofeat="VBN" tid="t146">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t147">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--deter-->
+    <term type="open" lemma="deter" pos="V" morphofeat="VB" tid="t148">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--benefit-->
+    <term type="open" lemma="benefit" pos="N" morphofeat="NN" tid="t149">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--tourism-->
+    <term type="open" lemma="tourism" pos="N" morphofeat="NN" tid="t150">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t151">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--Romania-->
+    <term type="close" lemma="Romania" pos="R" morphofeat="NNP" tid="t152">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t153">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--Bulgaria-->
+    <term type="close" lemma="Bulgaria" pos="R" morphofeat="NNP" tid="t154">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--when-->
+    <term type="close" lemma="when" pos="O" morphofeat="WRB" tid="t155">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t156">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--controls-->
+    <term type="open" lemma="control" pos="N" morphofeat="NNS" tid="t157">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t158">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--lifted-->
+    <term type="open" lemma="lift" pos="V" morphofeat="VBN" tid="t159">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t160">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--January-->
+    <term type="close" lemma="January" pos="R" morphofeat="NNP" tid="t161">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--1-->
+    <term type="close" lemma="1" pos="O" morphofeat="CD" tid="t162">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t163">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--the Liberal Democrats-->
+        <span>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--a series of measures-->
+        <span>
+          <target id="t135"/>
+          <target id="t136"/>
+          <target id="t137"/>
+          <target id="t138"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--supported-->
+        <span>
+          <target id="t140"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

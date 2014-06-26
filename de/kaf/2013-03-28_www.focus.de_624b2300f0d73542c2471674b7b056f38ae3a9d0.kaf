@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:46:29Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:46:29Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:04:16CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:46:42CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w65" sent="7" para="4" offset="386" length="3">Für</wf>
+    <wf wid="w66" sent="7" para="4" offset="390" length="7">weitere</wf>
+    <wf wid="w67" sent="7" para="4" offset="398" length="13">Informationen</wf>
+    <wf wid="w68" sent="7" para="4" offset="412" length="3">zum</wf>
+    <wf wid="w69" sent="7" para="4" offset="416" length="5">Thema</wf>
+    <wf wid="w70" sent="7" para="4" offset="422" length="11">Datenschutz</wf>
+    <wf wid="w71" sent="7" para="4" offset="434" length="7">klicken</wf>
+    <wf wid="w72" sent="7" para="4" offset="442" length="3">Sie</wf>
+    <wf wid="w73" sent="7" para="4" offset="446" length="3">auf</wf>
+    <wf wid="w74" sent="7" para="4" offset="450" length="3">das</wf>
+    <wf wid="w75" sent="7" para="4" offset="454" length="2">i.</wf>
+  </text>
+  <terms>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t65" type="close">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <term lemma="weit" morphofeat="ADJA" pos="G" tid="t66" type="open">
+      <span>
+        <target id="w66"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Information" morphofeat="NN" pos="N" tid="t67" type="open">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPRART" pos="P" tid="t68" type="close">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <term lemma="Thema" morphofeat="NN" pos="N" tid="t69" type="open">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <term lemma="Datenschutz" morphofeat="NN" pos="N" tid="t70" type="open">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <term lemma="klicken" morphofeat="VVFIN" pos="V" tid="t71" type="open">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <term lemma="Sie|sie" morphofeat="PPER" pos="Q" tid="t72" type="close">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <term lemma="auf" morphofeat="APPR" pos="P" tid="t73" type="close">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t74" type="close">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t75" type="close">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+          <target id="t72"/>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

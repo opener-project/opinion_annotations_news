@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:46:36CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w811" sent="35" para="2" offset="4600" length="3">Het</wf>
+    <wf wid="w812" sent="35" para="2" offset="4604" length="10">referendum</wf>
+    <wf wid="w813" sent="35" para="2" offset="4615" length="2">is</wf>
+    <wf wid="w814" sent="35" para="2" offset="4618" length="7">daartoe</wf>
+    <wf wid="w815" sent="35" para="2" offset="4626" length="3">het</wf>
+    <wf wid="w816" sent="35" para="2" offset="4630" length="5">meest</wf>
+    <wf wid="w817" sent="35" para="2" offset="4636" length="9">geschikte</wf>
+    <wf wid="w818" sent="35" para="2" offset="4646" length="10">instrument</wf>
+    <wf wid="w819" sent="35" para="2" offset="4656" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Het-->
+    <term tid="t811" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w811"/>
+      </span>
+    </term>
+    <!--referendum-->
+    <term tid="t812" type="open" lemma="referendum" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w812"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t813" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w813"/>
+      </span>
+    </term>
+    <!--daartoe-->
+    <term tid="t814" type="close" lemma="daartoe" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w814"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t815" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w815"/>
+      </span>
+    </term>
+    <!--meest-->
+    <term tid="t816" type="open" lemma="meest" pos="G" morphofeat="adj">
+      <span>
+        <target id="w816"/>
+      </span>
+    </term>
+    <!--geschikte-->
+    <term tid="t817" type="open" lemma="geschikt" pos="G" morphofeat="adj">
+      <span>
+        <target id="w817"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--instrument-->
+    <term tid="t818" type="open" lemma="instrument" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w818"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t819" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w819"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--instrument-->
+        <span>
+          <target id="t818"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--meest geschikte-->
+        <span>
+          <target id="t816"/>
+          <target id="t817"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Het referendum-->
+        <span>
+          <target id="t811"/>
+          <target id="t812"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--het meest geschikte instrument-->
+        <span>
+          <target id="t815"/>
+          <target id="t816"/>
+          <target id="t817"/>
+          <target id="t818"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

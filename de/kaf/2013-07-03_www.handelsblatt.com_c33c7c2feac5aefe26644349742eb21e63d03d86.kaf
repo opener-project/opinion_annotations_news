@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:17:33Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:17:33Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:06:33CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:17:48CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w127" sent="9" para="3" offset="826" length="3">Der</wf>
+    <wf wid="w128" sent="9" para="3" offset="830" length="8">Deutsche</wf>
+    <wf wid="w129" sent="9" para="3" offset="839" length="17">Gewerkschaftsbund</wf>
+    <wf wid="w130" sent="9" para="3" offset="857" length="1">(</wf>
+    <wf wid="w131" sent="9" para="3" offset="858" length="3">DGB</wf>
+    <wf wid="w132" sent="9" para="3" offset="861" length="1">)</wf>
+    <wf wid="w133" sent="9" para="3" offset="863" length="6">sprach</wf>
+    <wf wid="w134" sent="9" para="3" offset="870" length="3">von</wf>
+    <wf wid="w135" sent="9" para="3" offset="874" length="5">einer</wf>
+    <wf wid="w136" sent="9" para="3" offset="880" length="12">Mogelpackung</wf>
+    <wf wid="w137" sent="9" para="3" offset="892" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t127" type="close">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <term lemma="deutsch" morphofeat="ADJA" pos="G" tid="t128" type="open">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <term lemma="Gewerkschaftsbund" morphofeat="NN" pos="N" tid="t129" type="open">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="$(" pos="O" tid="t130" type="open">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <term lemma="DGB" morphofeat="NE" pos="R" tid="t131" type="open">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat="$(" pos="O" tid="t132" type="open">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <term lemma="sprechen" morphofeat="VVFIN" pos="V" tid="t133" type="open">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t134" type="close">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t135" type="close">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <term lemma="Mogelpackung" morphofeat="NN" pos="N" tid="t136" type="open">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t137" type="open">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Der Deutsche Gewerkschaftsbund-->
+        <span>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--Mogelpackung-->
+        <span>
+          <target id="t136"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

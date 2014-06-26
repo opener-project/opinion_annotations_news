@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:43:52Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:43:52Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:50:04CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:44:14CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w198" sent="9" para="5" offset="1196" length="7">Linssen</wf>
+    <wf wid="w199" sent="9" para="5" offset="1204" length="3">war</wf>
+    <wf wid="w200" sent="9" para="5" offset="1208" length="4">seit</wf>
+    <wf wid="w201" sent="9" para="5" offset="1213" length="4">2010</wf>
+    <wf wid="w202" sent="9" para="5" offset="1218" length="13">Schatzmeister</wf>
+    <wf wid="w203" sent="9" para="5" offset="1232" length="3">der</wf>
+    <wf wid="w204" sent="9" para="5" offset="1236" length="3">CDU</wf>
+    <wf wid="w205" sent="9" para="5" offset="1239" length="1">.</wf>
+    <wf wid="w314" sent="14" para="6" offset="1897" length="7">Linssen</wf>
+    <wf wid="w315" sent="14" para="6" offset="1905" length="9">beteuerte</wf>
+    <wf wid="w316" sent="14" para="6" offset="1915" length="2">am</wf>
+    <wf wid="w317" sent="14" para="6" offset="1918" length="10">Donnerstag</wf>
+    <wf wid="w318" sent="14" para="6" offset="1929" length="6">erneut</wf>
+    <wf wid="w319" sent="14" para="6" offset="1935" length="1">,</wf>
+    <wf wid="w320" sent="14" para="6" offset="1937" length="6">nichts</wf>
+    <wf wid="w321" sent="14" para="6" offset="1944" length="6">falsch</wf>
+    <wf wid="w322" sent="14" para="6" offset="1951" length="7">gemacht</wf>
+    <wf wid="w323" sent="14" para="6" offset="1959" length="2">zu</wf>
+    <wf wid="w324" sent="14" para="6" offset="1962" length="5">haben</wf>
+    <wf wid="w325" sent="14" para="6" offset="1967" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Linssen" morphofeat="NE unknown_lemma" pos="O" tid="t198" type="open">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t199" type="open">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <term lemma="seit" morphofeat="APPR" pos="P" tid="t200" type="close">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t201" type="open">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <term lemma="Schatzmeister" morphofeat="NN" pos="N" tid="t202" type="open">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t203" type="close">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <term lemma="CDU" morphofeat="NE" pos="R" tid="t204" type="open">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t205" type="open">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <term lemma="Linssen" morphofeat="NE unknown_lemma" pos="O" tid="t314" type="open">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <term lemma="beteuern" morphofeat="VVFIN" pos="V" tid="t315" type="open">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t316" type="close">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <term lemma="Donnerstag" morphofeat="NN" pos="N" tid="t317" type="open">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <term lemma="erneut" morphofeat="ADJD" pos="G" tid="t318" type="open">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t319" type="open">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <term lemma="nichts" morphofeat="PIS" pos="Q" tid="t320" type="close">
+      <span>
+        <target id="w320"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="falsch" morphofeat="ADJD" pos="G" tid="t321" type="open">
+      <span>
+        <target id="w321"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="machen" morphofeat="VVPP" pos="V" tid="t322" type="open">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="PTKZU" pos="O" tid="t323" type="open">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAINF" pos="V" tid="t324" type="open">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t325" type="open">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Linssen-->
+        <span>
+          <target id="t314"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--nichts falsch gemacht zu haben-->
+        <span>
+          <target id="t320"/>
+          <target id="t321"/>
+          <target id="t322"/>
+          <target id="t323"/>
+          <target id="t324"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--beteuerte-->
+        <span>
+          <target id="t315"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--falsch-->
+        <span>
+          <target id="t321"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:13:34CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w42" sent="4" para="2" offset="243" length="3">Hij</wf>
+    <wf wid="w43" sent="4" para="2" offset="247" length="3">was</wf>
+    <wf wid="w44" sent="4" para="2" offset="251" length="2">in</wf>
+    <wf wid="w45" sent="4" para="2" offset="254" length="2">de</wf>
+    <wf wid="w46" sent="4" para="2" offset="257" length="6">vorige</wf>
+    <wf wid="w47" sent="4" para="2" offset="264" length="8">regering</wf>
+    <wf wid="w48" sent="4" para="2" offset="273" length="8">minister</wf>
+    <wf wid="w49" sent="4" para="2" offset="282" length="3">van</wf>
+    <wf wid="w50" sent="4" para="2" offset="286" length="9">Financiën</wf>
+    <wf wid="w51" sent="4" para="2" offset="295" length="1">.</wf>
+    <wf wid="w71" sent="6" para="2" offset="405" length="3">Met</wf>
+    <wf wid="w72" sent="6" para="2" offset="409" length="3">het</wf>
+    <wf wid="w73" sent="6" para="2" offset="413" length="4">plan</wf>
+    <wf wid="w74" sent="6" para="2" offset="418" length="5">wilde</wf>
+    <wf wid="w75" sent="6" para="2" offset="424" length="11">Griekenland</wf>
+    <wf wid="w76" sent="6" para="2" offset="436" length="2">in</wf>
+    <wf wid="w77" sent="6" para="2" offset="439" length="4">twee</wf>
+    <wf wid="w78" sent="6" para="2" offset="444" length="4">jaar</wf>
+    <wf wid="w79" sent="6" para="2" offset="449" length="4">tijd</wf>
+    <wf wid="w80" sent="6" para="2" offset="454" length="5">bijna</wf>
+    <wf wid="w81" sent="6" para="2" offset="460" length="2">12</wf>
+    <wf wid="w82" sent="6" para="2" offset="463" length="7">miljard</wf>
+    <wf wid="w83" sent="6" para="2" offset="471" length="4">euro</wf>
+    <wf wid="w84" sent="6" para="2" offset="476" length="10">bezuinigen</wf>
+    <wf wid="w85" sent="6" para="2" offset="486" length="1">.</wf>
+    <wf wid="w288" sent="18" para="2" offset="1654" length="2">De</wf>
+    <wf wid="w289" sent="18" para="2" offset="1657" length="11">inspecteurs</wf>
+    <wf wid="w290" sent="18" para="2" offset="1669" length="4">zijn</wf>
+    <wf wid="w291" sent="18" para="2" offset="1674" length="5">sinds</wf>
+    <wf wid="w292" sent="18" para="2" offset="1680" length="7">vrijdag</wf>
+    <wf wid="w293" sent="18" para="2" offset="1688" length="2">in</wf>
+    <wf wid="w294" sent="18" para="2" offset="1691" length="6">Athene</wf>
+    <wf wid="w295" sent="18" para="2" offset="1697" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hij-->
+    <term tid="t42" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--was-->
+    <term tid="t43" type="open" lemma="wezen|zijn" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t44" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t45" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--vorige-->
+    <term tid="t46" type="open" lemma="vorig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--regering-->
+    <term tid="t47" type="open" lemma="regering" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--minister-->
+    <term tid="t48" type="open" lemma="minister" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t49" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--Financiën-->
+    <term tid="t50" type="open" lemma="financiën" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t51" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--Met-->
+    <term tid="t71" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t72" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--plan-->
+    <term tid="t73" type="open" lemma="plan" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--wilde-->
+    <term tid="t74" type="open" lemma="willen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--Griekenland-->
+    <term tid="t75" type="open" lemma="Griekenland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t76" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--twee-->
+    <term tid="t77" type="open" lemma="twee" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--jaar-->
+    <term tid="t78" type="open" lemma="jaar" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--tijd-->
+    <term tid="t79" type="open" lemma="tijd" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--bijna-->
+    <term tid="t80" type="open" lemma="bijna" pos="A" morphofeat="adv">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--12-->
+    <term tid="t81" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--miljard-->
+    <term tid="t82" type="open" lemma="miljard" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t83" type="open" lemma="euro" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--bezuinigen-->
+    <term tid="t84" type="open" lemma="bezuinigen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w84"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t85" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t288" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--inspecteurs-->
+    <term tid="t289" type="open" lemma="inspecteur" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t290" type="open" lemma="zijn" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--sinds-->
+    <term tid="t291" type="close" lemma="sinds" pos="P" morphofeat="prep">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--vrijdag-->
+    <term tid="t292" type="open" lemma="vrijdag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t293" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--Athene-->
+    <term tid="t294" type="open" lemma="Athene" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t295" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Griekenland-->
+        <span>
+          <target id="t75"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--bijna 12 miljard euro bezuinigen-->
+        <span>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wilde-->
+        <span>
+          <target id="t74"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t288"/>
+          <target id="t289"/>
+          <target id="t290"/>
+          <target id="t291"/>
+          <target id="t292"/>
+          <target id="t293"/>
+          <target id="t294"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

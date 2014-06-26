@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:40Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:40Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:22:08" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:57:42CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="13" para="2" offset="2120" length="1" wid="w404">I</wf>
+    <wf sent="13" para="2" offset="2122" length="10" wid="w405">understand</wf>
+    <wf sent="13" para="2" offset="2133" length="4" wid="w406">that</wf>
+    <wf sent="13" para="2" offset="2137" length="1" wid="w407">.</wf>
+    <wf sent="30" para="2" offset="4395" length="1" wid="w853">'</wf>
+    <wf sent="30" para="2" offset="4396" length="3" wid="w854">The</wf>
+    <wf sent="30" para="2" offset="4400" length="10" wid="w855">Government</wf>
+    <wf sent="30" para="2" offset="4411" length="3" wid="w856">has</wf>
+    <wf sent="30" para="2" offset="4415" length="3" wid="w857">not</wf>
+    <wf sent="30" para="2" offset="4419" length="7" wid="w858">changed</wf>
+    <wf sent="30" para="2" offset="4427" length="3" wid="w859">any</wf>
+    <wf sent="30" para="2" offset="4431" length="10" wid="w860">assessment</wf>
+    <wf sent="30" para="2" offset="4442" length="9" wid="w861">processes</wf>
+    <wf sent="30" para="2" offset="4452" length="8" wid="w862">relating</wf>
+    <wf sent="30" para="2" offset="4461" length="2" wid="w863">to</wf>
+    <wf sent="30" para="2" offset="4464" length="6" wid="w864">cancer</wf>
+    <wf sent="30" para="2" offset="4471" length="5" wid="w865">drugs</wf>
+    <wf sent="30" para="2" offset="4476" length="1" wid="w866">.</wf>
+    <wf sent="35" para="2" offset="4918" length="1" wid="w950">"</wf>
+    <wf sent="35" para="2" offset="4919" length="2" wid="w951">If</wf>
+    <wf sent="35" para="2" offset="4922" length="4" wid="w952">true</wf>
+    <wf sent="35" para="2" offset="4926" length="1" wid="w953">,</wf>
+    <wf sent="35" para="2" offset="4928" length="4" wid="w954">this</wf>
+    <wf sent="35" para="2" offset="4933" length="2" wid="w955">is</wf>
+    <wf sent="35" para="2" offset="4936" length="1" wid="w956">a</wf>
+    <wf sent="35" para="2" offset="4938" length="8" wid="w957">shameful</wf>
+    <wf sent="35" para="2" offset="4947" length="5" wid="w958">state</wf>
+    <wf sent="35" para="2" offset="4953" length="2" wid="w959">of</wf>
+    <wf sent="35" para="2" offset="4956" length="7" wid="w960">affairs</wf>
+    <wf sent="35" para="2" offset="4964" length="3" wid="w961">and</wf>
+    <wf sent="35" para="2" offset="4968" length="1" wid="w962">a</wf>
+    <wf sent="35" para="2" offset="4970" length="5" wid="w963">false</wf>
+    <wf sent="35" para="2" offset="4976" length="7" wid="w964">economy</wf>
+    <wf sent="35" para="2" offset="4983" length="1" wid="w965">.</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term type="close" lemma="i" pos="Q" morphofeat="PRP" tid="t404">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+    <!--understand-->
+    <term type="open" lemma="understand" pos="V" morphofeat="VB" tid="t405">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w405"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="P" morphofeat="IN" tid="t406">
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t407">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="''" tid="t853">
+      <span>
+        <target id="w853"/>
+      </span>
+    </term>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t854">
+      <span>
+        <target id="w854"/>
+      </span>
+    </term>
+    <!--Government-->
+    <term type="open" lemma="government" pos="N" morphofeat="NN" tid="t855">
+      <span>
+        <target id="w855"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t856">
+      <span>
+        <target id="w856"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t857">
+      <span>
+        <target id="w857"/>
+      </span>
+    </term>
+    <!--changed-->
+    <term type="open" lemma="change" pos="V" morphofeat="VBN" tid="t858">
+      <span>
+        <target id="w858"/>
+      </span>
+    </term>
+    <!--any-->
+    <term type="close" lemma="any" pos="D" morphofeat="DT" tid="t859">
+      <span>
+        <target id="w859"/>
+      </span>
+    </term>
+    <!--assessment-->
+    <term type="open" lemma="assessment" pos="N" morphofeat="NN" tid="t860">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w860"/>
+      </span>
+    </term>
+    <!--processes-->
+    <term type="open" lemma="process" pos="V" morphofeat="VBZ" tid="t861">
+      <span>
+        <target id="w861"/>
+      </span>
+    </term>
+    <!--relating-->
+    <term type="open" lemma="relate" pos="V" morphofeat="VBG" tid="t862">
+      <span>
+        <target id="w862"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t863">
+      <span>
+        <target id="w863"/>
+      </span>
+    </term>
+    <!--cancer-->
+    <term type="open" lemma="cancer" pos="N" morphofeat="NN" tid="t864">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w864"/>
+      </span>
+    </term>
+    <!--drugs-->
+    <term type="open" lemma="drug" pos="N" morphofeat="NNS" tid="t865">
+      <span>
+        <target id="w865"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t866">
+      <span>
+        <target id="w866"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="close" lemma="&quot;" pos="D" morphofeat="DT" tid="t950">
+      <span>
+        <target id="w950"/>
+      </span>
+    </term>
+    <!--If-->
+    <term type="close" lemma="if" pos="P" morphofeat="IN" tid="t951">
+      <span>
+        <target id="w951"/>
+      </span>
+    </term>
+    <!--true-->
+    <term type="open" lemma="true" pos="G" morphofeat="JJ" tid="t952">
+      <span>
+        <target id="w952"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t953">
+      <span>
+        <target id="w953"/>
+      </span>
+    </term>
+    <!--this-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t954">
+      <span>
+        <target id="w954"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t955">
+      <span>
+        <target id="w955"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t956">
+      <span>
+        <target id="w956"/>
+      </span>
+    </term>
+    <!--shameful-->
+    <term type="open" lemma="shameful" pos="G" morphofeat="JJ" tid="t957">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w957"/>
+      </span>
+    </term>
+    <!--state-->
+    <term type="open" lemma="state" pos="N" morphofeat="NN" tid="t958">
+      <span>
+        <target id="w958"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t959">
+      <span>
+        <target id="w959"/>
+      </span>
+    </term>
+    <!--affairs-->
+    <term type="open" lemma="affair" pos="N" morphofeat="NNS" tid="t960">
+      <span>
+        <target id="w960"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t961">
+      <span>
+        <target id="w961"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t962">
+      <span>
+        <target id="w962"/>
+      </span>
+    </term>
+    <!--false-->
+    <term type="open" lemma="false" pos="G" morphofeat="JJ" tid="t963">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w963"/>
+      </span>
+    </term>
+    <!--economy-->
+    <term type="open" lemma="economy" pos="N" morphofeat="NN" tid="t964">
+      <span>
+        <target id="w964"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t965">
+      <span>
+        <target id="w965"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--state of affairs-->
+        <span>
+          <target id="t958"/>
+          <target id="t959"/>
+          <target id="t960"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--shameful-->
+        <span>
+          <target id="t957"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--I-->
+        <span>
+          <target id="t404"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--that-->
+        <span>
+          <target id="t406"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--understand-->
+        <span>
+          <target id="t405"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--economy-->
+        <span>
+          <target id="t964"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--false-->
+        <span>
+          <target id="t963"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t854"/>
+          <target id="t855"/>
+          <target id="t856"/>
+          <target id="t857"/>
+          <target id="t858"/>
+          <target id="t859"/>
+          <target id="t860"/>
+          <target id="t861"/>
+          <target id="t862"/>
+          <target id="t863"/>
+          <target id="t864"/>
+          <target id="t865"/>
+          <target id="t866"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

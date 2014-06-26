@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:50:42Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:50:42Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:59:40CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:50:58CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w209" sent="14" para="6" offset="1155" length="5">Deren</wf>
+    <wf wid="w210" sent="14" para="6" offset="1161" length="10">Behauptung</wf>
+    <wf wid="w211" sent="14" para="6" offset="1171" length="1">,</wf>
+    <wf wid="w212" sent="14" para="6" offset="1173" length="2">es</wf>
+    <wf wid="w213" sent="14" para="6" offset="1176" length="5">ginge</wf>
+    <wf wid="w214" sent="14" para="6" offset="1182" length="11">Deutschland</wf>
+    <wf wid="w215" sent="14" para="6" offset="1194" length="4">ohne</wf>
+    <wf wid="w216" sent="14" para="6" offset="1199" length="3">die</wf>
+    <wf wid="w217" sent="14" para="6" offset="1203" length="20">Gemeinschaftswährung</wf>
+    <wf wid="w218" sent="14" para="6" offset="1224" length="6">besser</wf>
+    <wf wid="w219" sent="14" para="6" offset="1230" length="1">,</wf>
+    <wf wid="w220" sent="14" para="6" offset="1232" length="6">nannte</wf>
+    <wf wid="w221" sent="14" para="6" offset="1239" length="2">er</wf>
+    <wf wid="w222" sent="14" para="6" offset="1242" length="1">"</wf>
+    <wf wid="w223" sent="14" para="6" offset="1243" length="11">grundfalsch</wf>
+    <wf wid="w224" sent="14" para="6" offset="1254" length="1">"</wf>
+    <wf wid="w225" sent="14" para="6" offset="1255" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="PDAT" pos="Q" tid="t209" type="close">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <term lemma="Behauptung" morphofeat="NN" pos="N" tid="t210" type="open">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t211" type="open">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t212" type="close">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <term lemma="gehen" morphofeat="VVFIN" pos="V" tid="t213" type="open">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <term lemma="Deutschland" morphofeat="NE" pos="R" tid="t214" type="open">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <term lemma="ohne" morphofeat="APPR" pos="P" tid="t215" type="close">
+      <span>
+        <target id="w215"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t216" type="close">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <term lemma="Gemeinschaftswährung" morphofeat="NN" pos="N" tid="t217" type="open">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <term lemma="gut" morphofeat="ADJD" pos="G" tid="t218" type="open">
+      <span>
+        <target id="w218"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t219" type="open">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <term lemma="nennen" morphofeat="VVFIN" pos="V" tid="t220" type="open">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t221" type="close">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t222" type="open">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <term lemma="grundfalsch" morphofeat="ADJD" pos="G" tid="t223" type="open">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t224" type="open">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t225" type="open">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--er-->
+        <span>
+          <target id="t221"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Deren Behauptung-->
+        <span>
+          <target id="t209"/>
+          <target id="t210"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--grundfalsch-->
+        <span>
+          <target id="t223"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:39Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:39Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:25:47" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:28:51CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="275" length="1" wid="w45">'</wf>
+    <wf sent="3" para="2" offset="276" length="3" wid="w46">The</wf>
+    <wf sent="3" para="2" offset="280" length="9" wid="w47">statement</wf>
+    <wf sent="3" para="2" offset="290" length="4" wid="w48">that</wf>
+    <wf sent="3" para="2" offset="295" length="1" wid="w49">‘</wf>
+    <wf sent="3" para="2" offset="296" length="10" wid="w50">collection</wf>
+    <wf sent="3" para="2" offset="307" length="2" wid="w51">on</wf>
+    <wf sent="3" para="2" offset="310" length="3" wid="w52">our</wf>
+    <wf sent="3" para="2" offset="314" length="6" wid="w53">allies</wf>
+    <wf sent="3" para="2" offset="321" length="4" wid="w54">will</wf>
+    <wf sent="3" para="2" offset="326" length="3" wid="w55">not</wf>
+    <wf sent="3" para="2" offset="330" length="8" wid="w56">continue</wf>
+    <wf sent="3" para="2" offset="338" length="1" wid="w57">’</wf>
+    <wf sent="3" para="2" offset="340" length="2" wid="w58">is</wf>
+    <wf sent="3" para="2" offset="343" length="3" wid="w59">not</wf>
+    <wf sent="3" para="2" offset="347" length="8" wid="w60">accurate</wf>
+    <wf sent="3" para="2" offset="355" length="1" wid="w61">,</wf>
+    <wf sent="3" para="2" offset="356" length="1" wid="w62">'</wf>
+    <wf sent="3" para="2" offset="358" length="3" wid="w63">the</wf>
+    <wf sent="3" para="2" offset="362" length="6" wid="w64">source</wf>
+    <wf sent="3" para="2" offset="369" length="4" wid="w65">told</wf>
+    <wf sent="3" para="2" offset="374" length="8" wid="w66">Buzzfeed</wf>
+    <wf sent="3" para="2" offset="382" length="1" wid="w67">.</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="''" tid="t45">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t46">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--statement-->
+    <term type="open" lemma="statement" pos="N" morphofeat="NN" tid="t47">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="O" morphofeat="WDT" tid="t48">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--‘-->
+    <term type="open" lemma="‘" pos="V" morphofeat="VBD" tid="t49">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--collection-->
+    <term type="open" lemma="collection" pos="N" morphofeat="NN" tid="t50">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t51">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--our-->
+    <term type="close" lemma="our" pos="Q" morphofeat="PRP$" tid="t52">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--allies-->
+    <term type="open" lemma="ally" pos="N" morphofeat="NNS" tid="t53">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--will-->
+    <term type="close" lemma="will" pos="O" morphofeat="MD" tid="t54">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t55">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--continue-->
+    <term type="open" lemma="continue" pos="V" morphofeat="VB" tid="t56">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--’-->
+    <term type="open" lemma="’" pos="N" morphofeat="NN" tid="t57">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t58">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t59">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--accurate-->
+    <term type="open" lemma="accurate" pos="G" morphofeat="JJ" tid="t60">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t61">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="''" tid="t62">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t63">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--source-->
+    <term type="open" lemma="source" pos="N" morphofeat="NN" tid="t64">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--told-->
+    <term type="open" lemma="tell" pos="V" morphofeat="VBD" tid="t65">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--Buzzfeed-->
+    <term type="close" lemma="Buzzfeed" pos="R" morphofeat="NNP" tid="t66">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t67">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--will not continue-->
+        <span>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--continue-->
+        <span>
+          <target id="t56"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--will not-->
+        <span>
+          <target id="t54"/>
+          <target id="t55"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

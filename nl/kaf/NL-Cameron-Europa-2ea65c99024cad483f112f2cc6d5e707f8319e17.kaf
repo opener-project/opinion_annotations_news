@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:48:29CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w114" sent="7" para="2" offset="639" length="7">Rusland</wf>
+    <wf wid="w115" sent="7" para="2" offset="647" length="2">is</wf>
+    <wf wid="w116" sent="7" para="2" offset="650" length="2">er</wf>
+    <wf wid="w117" sent="7" para="2" offset="653" length="3">fel</wf>
+    <wf wid="w118" sent="7" para="2" offset="657" length="2">op</wf>
+    <wf wid="w119" sent="7" para="2" offset="660" length="5">tegen</wf>
+    <wf wid="w120" sent="7" para="2" offset="666" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Rusland-->
+    <term tid="t114" type="open" lemma="Rusland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t115" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--er-->
+    <term tid="t116" type="close" lemma="er" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--fel-->
+    <term tid="t117" type="open" lemma="fel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w117"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--op-->
+    <term tid="t118" type="open" lemma="op" pos="A" morphofeat="adv">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--tegen-->
+    <term tid="t119" type="close" lemma="tegen" pos="P" morphofeat="prep">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t120" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--Rusland-->
+        <span>
+          <target id="t114"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--fel op tegen-->
+        <span>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:51Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:51Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:23:04CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w83" sent="5" para="2" offset="523" length="3">Dit</wf>
+    <wf wid="w84" sent="5" para="2" offset="527" length="2">is</wf>
+    <wf wid="w85" sent="5" para="2" offset="530" length="3">een</wf>
+    <wf wid="w86" sent="5" para="2" offset="534" length="10">aansporing</wf>
+    <wf wid="w87" sent="5" para="2" offset="545" length="4">voor</wf>
+    <wf wid="w88" sent="5" para="2" offset="550" length="6">andere</wf>
+    <wf wid="w89" sent="5" para="2" offset="557" length="8">politici</wf>
+    <wf wid="w90" sent="5" para="2" offset="566" length="2">om</wf>
+    <wf wid="w91" sent="5" para="2" offset="569" length="9">hetzelfde</wf>
+    <wf wid="w92" sent="5" para="2" offset="579" length="2">te</wf>
+    <wf wid="w93" sent="5" para="2" offset="582" length="4">doen</wf>
+    <wf wid="w94" sent="5" para="2" offset="586" length="1">"</wf>
+    <wf wid="w95" sent="5" para="2" offset="587" length="1">,</wf>
+    <wf wid="w96" sent="5" para="2" offset="589" length="2">zo</wf>
+    <wf wid="w97" sent="5" para="2" offset="592" length="3">zei</wf>
+    <wf wid="w98" sent="5" para="2" offset="596" length="2">ze</wf>
+    <wf wid="w99" sent="5" para="2" offset="599" length="2">in</wf>
+    <wf wid="w100" sent="5" para="2" offset="602" length="2">de</wf>
+    <wf wid="w101" sent="5" para="2" offset="605" length="6">Duitse</wf>
+    <wf wid="w102" sent="5" para="2" offset="612" length="5">krant</wf>
+    <wf wid="w103" sent="5" para="2" offset="618" length="4">Bild</wf>
+    <wf wid="w104" sent="5" para="2" offset="622" length="1">.</wf>
+    <wf wid="w167" sent="11" para="2" offset="1003" length="3">Het</wf>
+    <wf wid="w168" sent="11" para="2" offset="1007" length="2">EK</wf>
+    <wf wid="w169" sent="11" para="2" offset="1010" length="2">in</wf>
+    <wf wid="w170" sent="11" para="2" offset="1013" length="5">Polen</wf>
+    <wf wid="w171" sent="11" para="2" offset="1019" length="2">en</wf>
+    <wf wid="w172" sent="11" para="2" offset="1022" length="8">Oekraïne</wf>
+    <wf wid="w173" sent="11" para="2" offset="1031" length="6">begint</wf>
+    <wf wid="w174" sent="11" para="2" offset="1038" length="2">op</wf>
+    <wf wid="w175" sent="11" para="2" offset="1041" length="1">8</wf>
+    <wf wid="w176" sent="11" para="2" offset="1043" length="4">juni</wf>
+    <wf wid="w177" sent="11" para="2" offset="1048" length="2">in</wf>
+    <wf wid="w178" sent="11" para="2" offset="1051" length="8">Warschau</wf>
+    <wf wid="w179" sent="11" para="2" offset="1059" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Dit-->
+    <term tid="t83" type="close" lemma="dit" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t84" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t85" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--aansporing-->
+    <term tid="t86" type="open" lemma="aansporing" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w86"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--voor-->
+    <term tid="t87" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--andere-->
+    <term tid="t88" type="open" lemma="ander" pos="G" morphofeat="adj">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--politici-->
+    <term tid="t89" type="open" lemma="politicus" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t90" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--hetzelfde-->
+    <term tid="t91" type="close" lemma="hetzelfde" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t92" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--doen-->
+    <term tid="t93" type="open" lemma="doen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t94" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t95" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--zo-->
+    <term tid="t96" type="open" lemma="zo" pos="A" morphofeat="adv">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--zei-->
+    <term tid="t97" type="open" lemma="zeggen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--ze-->
+    <term tid="t98" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t99" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t100" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t101" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--krant-->
+    <term tid="t102" type="open" lemma="krant" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--Bild-->
+    <term tid="t103" type="open" lemma="Bild" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t104" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--Het-->
+    <term tid="t167" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--EK-->
+    <term tid="t168" type="open" lemma="EK" pos="N" morphofeat="nounabbr">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t169" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--Polen-->
+    <term tid="t170" type="open" lemma="Polen" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t171" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--Oekraïne-->
+    <term tid="t172" type="open" lemma="Oekraïne" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--begint-->
+    <term tid="t173" type="open" lemma="beginnen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t174" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--8-->
+    <term tid="t175" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--juni-->
+    <term tid="t176" type="open" lemma="juni" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t177" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--Warschau-->
+    <term tid="t178" type="open" lemma="Warschau" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t179" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--ze-->
+        <span>
+          <target id="t98"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Dit-->
+        <span>
+          <target id="t83"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--een aansporing-->
+        <span>
+          <target id="t85"/>
+          <target id="t86"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--ze-->
+        <span>
+          <target id="t98"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Dit-->
+        <span>
+          <target id="t83"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--zei-->
+        <span>
+          <target id="t97"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+          <target id="t178"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:51:02CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:26CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Merkel</wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="3">wil</wf>
+    <wf wid="w3" sent="1" para="1" offset="11" length="5">samen</wf>
+    <wf wid="w4" sent="1" para="1" offset="17" length="3">met</wf>
+    <wf wid="w5" sent="1" para="1" offset="21" length="8">Hollande</wf>
+    <wf wid="w6" sent="1" para="1" offset="30" length="6">crisis</wf>
+    <wf wid="w7" sent="1" para="1" offset="37" length="2">te</wf>
+    <wf wid="w8" sent="1" para="1" offset="40" length="4">lijf</wf>
+    <wf wid="w108" sent="9" para="2" offset="633" length="3">Hij</wf>
+    <wf wid="w109" sent="9" para="2" offset="637" length="3">wil</wf>
+    <wf wid="w110" sent="9" para="2" offset="641" length="4">geen</wf>
+    <wf wid="w111" sent="9" para="2" offset="646" length="12">Frans-Duitse</wf>
+    <wf wid="w112" sent="9" para="2" offset="659" length="14">Europapolitiek</wf>
+    <wf wid="w113" sent="9" para="2" offset="674" length="5">zoals</wf>
+    <wf wid="w114" sent="9" para="2" offset="680" length="3">die</wf>
+    <wf wid="w115" sent="9" para="2" offset="684" length="3">van</wf>
+    <wf wid="w116" sent="9" para="2" offset="688" length="6">Merkel</wf>
+    <wf wid="w117" sent="9" para="2" offset="695" length="2">en</wf>
+    <wf wid="w118" sent="9" para="2" offset="698" length="4">zijn</wf>
+    <wf wid="w119" sent="9" para="2" offset="703" length="10">voorganger</wf>
+    <wf wid="w120" sent="9" para="2" offset="714" length="7">Nicolas</wf>
+    <wf wid="w121" sent="9" para="2" offset="722" length="7">Sarkozy</wf>
+    <wf wid="w122" sent="9" para="2" offset="729" length="1">.</wf>
+    <wf wid="w218" sent="13" para="2" offset="1282" length="2">De</wf>
+    <wf wid="w219" sent="13" para="2" offset="1285" length="4">twee</wf>
+    <wf wid="w220" sent="13" para="2" offset="1290" length="12">staatsmannen</wf>
+    <wf wid="w221" sent="13" para="2" offset="1303" length="7">woonden</wf>
+    <wf wid="w222" sent="13" para="2" offset="1311" length="2">in</wf>
+    <wf wid="w223" sent="13" para="2" offset="1314" length="2">de</wf>
+    <wf wid="w224" sent="13" para="2" offset="1317" length="10">kathedraal</wf>
+    <wf wid="w225" sent="13" para="2" offset="1328" length="3">van</wf>
+    <wf wid="w226" sent="13" para="2" offset="1332" length="5">Reims</wf>
+    <wf wid="w227" sent="13" para="2" offset="1338" length="3">een</wf>
+    <wf wid="w228" sent="13" para="2" offset="1342" length="16">rooms-katholieke</wf>
+    <wf wid="w229" sent="13" para="2" offset="1359" length="1">'</wf>
+    <wf wid="w230" sent="13" para="2" offset="1360" length="3">mis</wf>
+    <wf wid="w231" sent="13" para="2" offset="1364" length="4">voor</wf>
+    <wf wid="w232" sent="13" para="2" offset="1369" length="2">de</wf>
+    <wf wid="w233" sent="13" para="2" offset="1372" length="5">vrede</wf>
+    <wf wid="w234" sent="13" para="2" offset="1377" length="1">'</wf>
+    <wf wid="w235" sent="13" para="2" offset="1379" length="3">bij</wf>
+    <wf wid="w236" sent="13" para="2" offset="1382" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t1" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t2" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--samen-->
+    <term tid="t3" type="open" lemma="samen" pos="A" morphofeat="adv">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t4" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t5" type="open" lemma="Hollande" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--crisis-->
+    <term tid="t6" type="open" lemma="crisis" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w6"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--te-->
+    <term tid="t7" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--lijf-->
+    <term tid="t8" type="open" lemma="lijf" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--Hij-->
+    <term tid="t108" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t109" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--geen-->
+    <term tid="t110" type="close" lemma="geen" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--Frans-Duitse-->
+    <term tid="t111" type="open" lemma="Frans-Duitse" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--Europapolitiek-->
+    <term tid="t112" type="open" lemma="Europapolitiek" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--zoals-->
+    <term tid="t113" type="close" lemma="zoals" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--die-->
+    <term tid="t114" type="close" lemma="die" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t115" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t116" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t117" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t118" type="close" lemma="zijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--voorganger-->
+    <term tid="t119" type="open" lemma="voorganger" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--Nicolas-->
+    <term tid="t120" type="open" lemma="Nicolas" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--Sarkozy-->
+    <term tid="t121" type="open" lemma="Sarkozy" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t122" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t218" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--twee-->
+    <term tid="t219" type="open" lemma="twee" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--staatsmannen-->
+    <term tid="t220" type="open" lemma="staatsman" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--woonden-->
+    <term tid="t221" type="open" lemma="wonen" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t222" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t223" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--kathedraal-->
+    <term tid="t224" type="open" lemma="kathedraal" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t225" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--Reims-->
+    <term tid="t226" type="open" lemma="Reims" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t227" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--rooms-katholieke-->
+    <term tid="t228" type="open" lemma="rooms-katholiek" pos="G" morphofeat="adj">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t229" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--mis-->
+    <term tid="t230" type="open" lemma="mis" pos="G" morphofeat="adj">
+      <span>
+        <target id="w230"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--voor-->
+    <term tid="t231" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t232" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--vrede-->
+    <term tid="t233" type="open" lemma="vrede" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w233"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--'-->
+    <term tid="t234" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--bij-->
+    <term tid="t235" type="close" lemma="bij" pos="P" morphofeat="prep">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t236" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder>
+        <!--Hij-->
+        <span>
+          <target id="t108"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Frans-Duitse Europapolitiek-->
+        <span>
+          <target id="t111"/>
+          <target id="t112"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--wil geen-->
+        <span>
+          <target id="t109"/>
+          <target id="t110"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--samen met Hollande crisis te lijf-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--crisis-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--te lijf-->
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+          <target id="t229"/>
+          <target id="t230"/>
+          <target id="t231"/>
+          <target id="t232"/>
+          <target id="t233"/>
+          <target id="t234"/>
+          <target id="t235"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

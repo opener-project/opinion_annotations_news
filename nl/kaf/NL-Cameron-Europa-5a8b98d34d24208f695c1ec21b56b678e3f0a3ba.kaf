@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:17Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:17Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:48:41CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w103" sent="5" para="2" offset="549" length="7">Cameron</wf>
+    <wf wid="w104" sent="5" para="2" offset="557" length="3">wil</wf>
+    <wf wid="w105" sent="5" para="2" offset="561" length="3">een</wf>
+    <wf wid="w106" sent="5" para="2" offset="565" length="6">aantal</wf>
+    <wf wid="w107" sent="5" para="2" offset="572" length="12">bevoegdheden</wf>
+    <wf wid="w108" sent="5" para="2" offset="585" length="10">terughalen</wf>
+    <wf wid="w109" sent="5" para="2" offset="596" length="3">uit</wf>
+    <wf wid="w110" sent="5" para="2" offset="600" length="7">Brussel</wf>
+    <wf wid="w111" sent="5" para="2" offset="607" length="1">.</wf>
+    <wf wid="w522" sent="22" para="2" offset="2875" length="2">De</wf>
+    <wf wid="w523" sent="22" para="2" offset="2878" length="9">geopperde</wf>
+    <wf wid="w524" sent="22" para="2" offset="2888" length="5">datum</wf>
+    <wf wid="w525" sent="22" para="2" offset="2894" length="3">van</wf>
+    <wf wid="w526" sent="22" para="2" offset="2898" length="5">begin</wf>
+    <wf wid="w527" sent="22" para="2" offset="2904" length="3">mei</wf>
+    <wf wid="w528" sent="22" para="2" offset="2908" length="4">voor</wf>
+    <wf wid="w529" sent="22" para="2" offset="2913" length="2">de</wf>
+    <wf wid="w530" sent="22" para="2" offset="2916" length="5">visie</wf>
+    <wf wid="w531" sent="22" para="2" offset="2921" length="1">,</wf>
+    <wf wid="w532" sent="22" para="2" offset="2923" length="6">noemde</wf>
+    <wf wid="w533" sent="22" para="2" offset="2930" length="3">hij</wf>
+    <wf wid="w534" sent="22" para="2" offset="2934" length="1">"</wf>
+    <wf wid="w535" sent="22" para="2" offset="2935" length="2">te</wf>
+    <wf wid="w536" sent="22" para="2" offset="2938" length="4">kort</wf>
+    <wf wid="w537" sent="22" para="2" offset="2943" length="3">dag</wf>
+    <wf wid="w538" sent="22" para="2" offset="2946" length="1">"</wf>
+    <wf wid="w539" sent="22" para="2" offset="2947" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Cameron-->
+    <term tid="t103" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t104" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t105" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--aantal-->
+    <term tid="t106" type="open" lemma="aantal" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--bevoegdheden-->
+    <term tid="t107" type="open" lemma="bevoegdheid" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--terughalen-->
+    <term tid="t108" type="open" lemma="terughalen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--uit-->
+    <term tid="t109" type="close" lemma="uit" pos="P" morphofeat="prep">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--Brussel-->
+    <term tid="t110" type="open" lemma="Brussel" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t111" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t522" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w522"/>
+      </span>
+    </term>
+    <!--geopperde-->
+    <term tid="t523" type="open" lemma="opperen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w523"/>
+      </span>
+    </term>
+    <!--datum-->
+    <term tid="t524" type="open" lemma="datum" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w524"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t525" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w525"/>
+      </span>
+    </term>
+    <!--begin-->
+    <term tid="t526" type="open" lemma="begin" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w526"/>
+      </span>
+    </term>
+    <!--mei-->
+    <term tid="t527" type="open" lemma="mei" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w527"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t528" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w528"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t529" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w529"/>
+      </span>
+    </term>
+    <!--visie-->
+    <term tid="t530" type="open" lemma="visie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w530"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t531" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w531"/>
+      </span>
+    </term>
+    <!--noemde-->
+    <term tid="t532" type="open" lemma="noemen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w532"/>
+      </span>
+    </term>
+    <!--hij-->
+    <term tid="t533" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w533"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t534" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w534"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t535" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w535"/>
+      </span>
+    </term>
+    <!--kort-->
+    <term tid="t536" type="open" lemma="kort" pos="G" morphofeat="adj">
+      <span>
+        <target id="w536"/>
+      </span>
+    </term>
+    <!--dag-->
+    <term tid="t537" type="open" lemma="dag" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w537"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t538" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w538"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t539" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w539"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder>
+        <!--hij-->
+        <span>
+          <target id="t533"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--De geopperde datum van begin mei-->
+        <span>
+          <target id="t522"/>
+          <target id="t523"/>
+          <target id="t524"/>
+          <target id="t525"/>
+          <target id="t526"/>
+          <target id="t527"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--te kort dag-->
+        <span>
+          <target id="t535"/>
+          <target id="t536"/>
+          <target id="t537"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Cameron-->
+        <span>
+          <target id="t103"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--een aantal bevoegdheden terughalen uit Brussel-->
+        <span>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t104"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bevoegdheden-->
+        <span>
+          <target id="t107"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--terughalen-->
+        <span>
+          <target id="t108"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

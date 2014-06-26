@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T12:37:46Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T12:37:46Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:06:00CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T13:38:17CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w720" sent="42" para="17" offset="4266" length="8">Schröder</wf>
+    <wf wid="w721" sent="42" para="17" offset="4275" length="5">hatte</wf>
+    <wf wid="w722" sent="42" para="17" offset="4281" length="3">das</wf>
+    <wf wid="w723" sent="42" para="17" offset="4285" length="11">Reformpaket</wf>
+    <wf wid="w724" sent="42" para="17" offset="4297" length="2">am</wf>
+    <wf wid="w725" sent="42" para="17" offset="4300" length="3">14.</wf>
+    <wf wid="w726" sent="42" para="17" offset="4304" length="4">März</wf>
+    <wf wid="w727" sent="42" para="17" offset="4309" length="4">2003</wf>
+    <wf wid="w728" sent="42" para="17" offset="4314" length="2">im</wf>
+    <wf wid="w729" sent="42" para="17" offset="4317" length="9">Bundestag</wf>
+    <wf wid="w730" sent="42" para="17" offset="4327" length="11">präsentiert</wf>
+    <wf wid="w731" sent="42" para="17" offset="4338" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Schröder" morphofeat="NE" pos="R" tid="t720" type="open">
+      <span>
+        <target id="w720"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t721" type="open">
+      <span>
+        <target id="w721"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t722" type="close">
+      <span>
+        <target id="w722"/>
+      </span>
+    </term>
+    <term lemma="Reformpaket" morphofeat="NN" pos="N" tid="t723" type="open">
+      <span>
+        <target id="w723"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t724" type="close">
+      <span>
+        <target id="w724"/>
+      </span>
+    </term>
+    <term lemma="14." morphofeat="CARD" pos="O" tid="t725" type="open">
+      <span>
+        <target id="w725"/>
+      </span>
+    </term>
+    <term lemma="März" morphofeat="NN" pos="N" tid="t726" type="open">
+      <span>
+        <target id="w726"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t727" type="open">
+      <span>
+        <target id="w727"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t728" type="close">
+      <span>
+        <target id="w728"/>
+      </span>
+    </term>
+    <term lemma="Bundestag" morphofeat="NN" pos="N" tid="t729" type="open">
+      <span>
+        <target id="w729"/>
+      </span>
+    </term>
+    <term lemma="präsentieren" morphofeat="VVPP" pos="V" tid="t730" type="open">
+      <span>
+        <target id="w730"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t731" type="open">
+      <span>
+        <target id="w731"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t720"/>
+          <target id="t721"/>
+          <target id="t722"/>
+          <target id="t723"/>
+          <target id="t724"/>
+          <target id="t725"/>
+          <target id="t726"/>
+          <target id="t727"/>
+          <target id="t728"/>
+          <target id="t729"/>
+          <target id="t730"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

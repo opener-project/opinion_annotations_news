@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:09:02Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:09:02Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:53:13CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:09:47CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w921" sent="65" para="19" offset="6260" length="3">Die</wf>
+    <wf wid="w922" sent="65" para="19" offset="6264" length="11">Schweizerin</wf>
+    <wf wid="w923" sent="65" para="19" offset="6276" length="9">Dominique</wf>
+    <wf wid="w924" sent="65" para="19" offset="6286" length="5">Gisin</wf>
+    <wf wid="w925" sent="65" para="19" offset="6292" length="3">und</wf>
+    <wf wid="w926" sent="65" para="19" offset="6296" length="3">die</wf>
+    <wf wid="w927" sent="65" para="19" offset="6300" length="8">Slowenin</wf>
+    <wf wid="w928" sent="65" para="19" offset="6309" length="4">Tina</wf>
+    <wf wid="w929" sent="65" para="19" offset="6314" length="4">Maze</wf>
+    <wf wid="w930" sent="65" para="19" offset="6319" length="8">belegten</wf>
+    <wf wid="w931" sent="65" para="19" offset="6328" length="10">zeitgleich</wf>
+    <wf wid="w932" sent="65" para="19" offset="6339" length="3">den</wf>
+    <wf wid="w933" sent="65" para="19" offset="6343" length="6">ersten</wf>
+    <wf wid="w934" sent="65" para="19" offset="6350" length="5">Platz</wf>
+    <wf wid="w935" sent="65" para="19" offset="6355" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t921" type="close">
+      <span>
+        <target id="w921"/>
+      </span>
+    </term>
+    <term lemma="Schweizerin" morphofeat="NN" pos="N" tid="t922" type="open">
+      <span>
+        <target id="w922"/>
+      </span>
+    </term>
+    <term lemma="Dominique" morphofeat="NE" pos="R" tid="t923" type="open">
+      <span>
+        <target id="w923"/>
+      </span>
+    </term>
+    <term lemma="Gisin" morphofeat="NE unknown_lemma" pos="O" tid="t924" type="open">
+      <span>
+        <target id="w924"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t925" type="close">
+      <span>
+        <target id="w925"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t926" type="close">
+      <span>
+        <target id="w926"/>
+      </span>
+    </term>
+    <term lemma="Slowenin" morphofeat="NN" pos="N" tid="t927" type="open">
+      <span>
+        <target id="w927"/>
+      </span>
+    </term>
+    <term lemma="Tina" morphofeat="NE" pos="R" tid="t928" type="open">
+      <span>
+        <target id="w928"/>
+      </span>
+    </term>
+    <term lemma="Maze" morphofeat="NE unknown_lemma" pos="O" tid="t929" type="open">
+      <span>
+        <target id="w929"/>
+      </span>
+    </term>
+    <term lemma="belegen" morphofeat="VVFIN" pos="V" tid="t930" type="open">
+      <span>
+        <target id="w930"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="zeitgleich" morphofeat="ADJD" pos="G" tid="t931" type="open">
+      <span>
+        <target id="w931"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t932" type="close">
+      <span>
+        <target id="w932"/>
+      </span>
+    </term>
+    <term lemma="erst" morphofeat="ADJA" pos="G" tid="t933" type="open">
+      <span>
+        <target id="w933"/>
+      </span>
+    </term>
+    <term lemma="Platz" morphofeat="NN" pos="N" tid="t934" type="open">
+      <span>
+        <target id="w934"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t935" type="open">
+      <span>
+        <target id="w935"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t921"/>
+          <target id="t922"/>
+          <target id="t923"/>
+          <target id="t924"/>
+          <target id="t925"/>
+          <target id="t926"/>
+          <target id="t927"/>
+          <target id="t928"/>
+          <target id="t929"/>
+          <target id="t930"/>
+          <target id="t931"/>
+          <target id="t932"/>
+          <target id="t933"/>
+          <target id="t934"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

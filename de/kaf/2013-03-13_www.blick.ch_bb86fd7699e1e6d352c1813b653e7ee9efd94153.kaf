@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:33:24Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:33:24Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:07:16CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:33:48CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w185" sent="15" para="11" offset="1004" length="9">Bergoglio</wf>
+    <wf wid="w186" sent="15" para="11" offset="1014" length="5">wurde</wf>
+    <wf wid="w187" sent="15" para="11" offset="1020" length="2">am</wf>
+    <wf wid="w188" sent="15" para="11" offset="1023" length="3">17.</wf>
+    <wf wid="w189" sent="15" para="11" offset="1027" length="8">Dezember</wf>
+    <wf wid="w190" sent="15" para="11" offset="1036" length="4">1936</wf>
+    <wf wid="w191" sent="15" para="11" offset="1041" length="3">als</wf>
+    <wf wid="w192" sent="15" para="11" offset="1045" length="4">Sohn</wf>
+    <wf wid="w193" sent="15" para="11" offset="1050" length="5">eines</wf>
+    <wf wid="w194" sent="15" para="11" offset="1056" length="18">Eisenbahnarbeiters</wf>
+    <wf wid="w195" sent="15" para="11" offset="1075" length="2">in</wf>
+    <wf wid="w196" sent="15" para="11" offset="1078" length="3">der</wf>
+    <wf wid="w197" sent="15" para="11" offset="1082" length="14">argentinischen</wf>
+    <wf wid="w198" sent="15" para="11" offset="1097" length="10">Hauptstadt</wf>
+    <wf wid="w199" sent="15" para="11" offset="1108" length="7">geboren</wf>
+    <wf wid="w200" sent="15" para="11" offset="1115" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Bergoglio" morphofeat="NE unknown_lemma" pos="O" tid="t185" type="open">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t186" type="open">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t187" type="close">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <term lemma="17." morphofeat="CARD" pos="O" tid="t188" type="open">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <term lemma="Dezember" morphofeat="NN" pos="N" tid="t189" type="open">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t190" type="open">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <term lemma="als" morphofeat="KOKOM" pos="C" tid="t191" type="close">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <term lemma="Sohn" morphofeat="NN" pos="N" tid="t192" type="open">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t193" type="close">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <term lemma="Eisenbahnarbeiters" morphofeat="NN unknown_lemma" pos="O" tid="t194" type="open">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t195" type="close">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t196" type="close">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <term lemma="argentinisch" morphofeat="ADJA" pos="G" tid="t197" type="open">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <term lemma="Hauptstadt" morphofeat="NN" pos="N" tid="t198" type="open">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <term lemma="gebären" morphofeat="VVPP" pos="V" tid="t199" type="open">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t200" type="open">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

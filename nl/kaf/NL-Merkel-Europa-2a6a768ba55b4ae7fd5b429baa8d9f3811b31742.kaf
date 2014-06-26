@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:14Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:14Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:09:43CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w207" sent="7" para="2" offset="1208" length="2">In</wf>
+    <wf wid="w208" sent="7" para="2" offset="1211" length="10">Argentinië</wf>
+    <wf wid="w209" sent="7" para="2" offset="1222" length="4">zijn</wf>
+    <wf wid="w210" sent="7" para="2" offset="1227" length="2">de</wf>
+    <wf wid="w211" sent="7" para="2" offset="1230" length="6">mensen</wf>
+    <wf wid="w212" sent="7" para="2" offset="1237" length="4">blij</wf>
+    <wf wid="w213" sent="7" para="2" offset="1242" length="4">maar</wf>
+    <wf wid="w214" sent="7" para="2" offset="1247" length="6">vooral</wf>
+    <wf wid="w215" sent="7" para="2" offset="1254" length="3">ook</wf>
+    <wf wid="w216" sent="7" para="2" offset="1258" length="7">verrast</wf>
+    <wf wid="w217" sent="7" para="2" offset="1266" length="4">door</wf>
+    <wf wid="w218" sent="7" para="2" offset="1271" length="2">de</wf>
+    <wf wid="w219" sent="7" para="2" offset="1274" length="5">keuze</wf>
+    <wf wid="w220" sent="7" para="2" offset="1280" length="4">voor</wf>
+    <wf wid="w221" sent="7" para="2" offset="1285" length="3">hun</wf>
+    <wf wid="w222" sent="7" para="2" offset="1289" length="10">landgenoot</wf>
+    <wf wid="w223" sent="7" para="2" offset="1299" length="1">.</wf>
+  </text>
+  <terms>
+    <!--In-->
+    <term tid="t207" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--Argentinië-->
+    <term tid="t208" type="open" lemma="Argentinië" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t209" type="open" lemma="zijn" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t210" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--mensen-->
+    <term tid="t211" type="open" lemma="mens" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--blij-->
+    <term tid="t212" type="open" lemma="blij" pos="G" morphofeat="adj">
+      <span>
+        <target id="w212"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--maar-->
+    <term tid="t213" type="close" lemma="maar" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w213"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--vooral-->
+    <term tid="t214" type="open" lemma="vooral" pos="A" morphofeat="adv">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--ook-->
+    <term tid="t215" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--verrast-->
+    <term tid="t216" type="open" lemma="verrassen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--door-->
+    <term tid="t217" type="close" lemma="door" pos="P" morphofeat="prep">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t218" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--keuze-->
+    <term tid="t219" type="open" lemma="keuze" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t220" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--hun-->
+    <term tid="t221" type="close" lemma="hun" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--landgenoot-->
+    <term tid="t222" type="open" lemma="landgenoot" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t223" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--de mensen-->
+        <span>
+          <target id="t210"/>
+          <target id="t211"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--blij-->
+        <span>
+          <target id="t212"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--de mensen-->
+        <span>
+          <target id="t210"/>
+          <target id="t211"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de keuze voor hun landgenoot-->
+        <span>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--verrast door-->
+        <span>
+          <target id="t216"/>
+          <target id="t217"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

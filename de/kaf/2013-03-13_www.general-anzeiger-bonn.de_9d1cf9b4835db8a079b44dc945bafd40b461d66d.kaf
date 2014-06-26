@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T07:56:35Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T07:56:35Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:10:16CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T08:57:04CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w251" sent="21" para="12" offset="1503" length="8">Benedikt</wf>
+    <wf wid="w252" sent="21" para="12" offset="1512" length="5">wurde</wf>
+    <wf wid="w253" sent="21" para="12" offset="1518" length="2">im</wf>
+    <wf wid="w254" sent="21" para="12" offset="1521" length="5">Jahre</wf>
+    <wf wid="w255" sent="21" para="12" offset="1527" length="4">2005</wf>
+    <wf wid="w256" sent="21" para="12" offset="1532" length="4">nach</wf>
+    <wf wid="w257" sent="21" para="12" offset="1537" length="4">vier</wf>
+    <wf wid="w258" sent="21" para="12" offset="1542" length="10">Wahlgängen</wf>
+    <wf wid="w259" sent="21" para="12" offset="1553" length="7">gewählt</wf>
+    <wf wid="w260" sent="21" para="12" offset="1560" length="1">.</wf>
+    <wf wid="w519" sent="35" para="17" offset="3048" length="3">Die</wf>
+    <wf wid="w520" sent="35" para="17" offset="3052" length="11">katholische</wf>
+    <wf wid="w521" sent="35" para="17" offset="3064" length="6">Kirche</wf>
+    <wf wid="w522" sent="35" para="17" offset="3071" length="6">leidet</wf>
+    <wf wid="w523" sent="35" para="17" offset="3078" length="4">nach</wf>
+    <wf wid="w524" sent="35" para="17" offset="3083" length="7">Ansicht</wf>
+    <wf wid="w525" sent="35" para="17" offset="3091" length="3">von</wf>
+    <wf wid="w526" sent="35" para="17" offset="3095" length="9">Kritikern</wf>
+    <wf wid="w527" sent="35" para="17" offset="3105" length="5">unter</wf>
+    <wf wid="w528" sent="35" para="17" offset="3111" length="5">einem</wf>
+    <wf wid="w529" sent="35" para="17" offset="3117" length="10">Reformstau</wf>
+    <wf wid="w530" sent="35" para="17" offset="3127" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Benedikt" morphofeat="NE" pos="R" tid="t251" type="open">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t252" type="open">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t253" type="close">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <term lemma="Jahr" morphofeat="NN" pos="N" tid="t254" type="open">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <term lemma="2005" morphofeat="CARD" pos="O" tid="t255" type="open">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <term lemma="nach" morphofeat="APPR" pos="P" tid="t256" type="close">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <term lemma="vier" morphofeat="CARD" pos="O" tid="t257" type="open">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <term lemma="Wahlgang" morphofeat="NN" pos="N" tid="t258" type="open">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <term lemma="wählen" morphofeat="VVPP" pos="V" tid="t259" type="open">
+      <span>
+        <target id="w259"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t260" type="open">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t519" type="close">
+      <span>
+        <target id="w519"/>
+      </span>
+    </term>
+    <term lemma="katholisch" morphofeat="ADJA" pos="G" tid="t520" type="open">
+      <span>
+        <target id="w520"/>
+      </span>
+    </term>
+    <term lemma="Kirche" morphofeat="NN" pos="N" tid="t521" type="open">
+      <span>
+        <target id="w521"/>
+      </span>
+    </term>
+    <term lemma="leiden" morphofeat="VVFIN" pos="V" tid="t522" type="open">
+      <span>
+        <target id="w522"/>
+      </span>
+    </term>
+    <term lemma="nach" morphofeat="APPR" pos="P" tid="t523" type="close">
+      <span>
+        <target id="w523"/>
+      </span>
+    </term>
+    <term lemma="Ansicht" morphofeat="NN" pos="N" tid="t524" type="open">
+      <span>
+        <target id="w524"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t525" type="close">
+      <span>
+        <target id="w525"/>
+      </span>
+    </term>
+    <term lemma="Kritiker" morphofeat="NN" pos="N" tid="t526" type="open">
+      <span>
+        <target id="w526"/>
+      </span>
+    </term>
+    <term lemma="unter" morphofeat="APPR" pos="P" tid="t527" type="close">
+      <span>
+        <target id="w527"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t528" type="close">
+      <span>
+        <target id="w528"/>
+      </span>
+    </term>
+    <term lemma="Reformstau" morphofeat="NN" pos="N" tid="t529" type="open">
+      <span>
+        <target id="w529"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t530" type="open">
+      <span>
+        <target id="w530"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--nach Ansicht von Kritikern-->
+        <span>
+          <target id="t523"/>
+          <target id="t524"/>
+          <target id="t525"/>
+          <target id="t526"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Die katholische Kirche-->
+        <span>
+          <target id="t519"/>
+          <target id="t520"/>
+          <target id="t521"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--leidet-->
+        <span>
+          <target id="t522"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t251"/>
+          <target id="t252"/>
+          <target id="t253"/>
+          <target id="t254"/>
+          <target id="t255"/>
+          <target id="t256"/>
+          <target id="t257"/>
+          <target id="t258"/>
+          <target id="t259"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

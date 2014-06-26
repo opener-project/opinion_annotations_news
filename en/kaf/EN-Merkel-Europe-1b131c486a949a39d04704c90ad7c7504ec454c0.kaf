@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:08:28" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:37:29CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="775" length="5" wid="w130">Rutte</wf>
+    <wf sent="5" para="2" offset="781" length="5" wid="w131">later</wf>
+    <wf sent="5" para="2" offset="787" length="4" wid="w132">said</wf>
+    <wf sent="5" para="2" offset="792" length="2" wid="w133">he</wf>
+    <wf sent="5" para="2" offset="795" length="5" wid="w134">would</wf>
+    <wf sent="5" para="2" offset="801" length="3" wid="w135">not</wf>
+    <wf sent="5" para="2" offset="805" length="7" wid="w136">discuss</wf>
+    <wf sent="5" para="2" offset="813" length="9" wid="w137">coalition</wf>
+    <wf sent="5" para="2" offset="823" length="12" wid="w138">negotiations</wf>
+    <wf sent="5" para="2" offset="835" length="1" wid="w139">,</wf>
+    <wf sent="5" para="2" offset="837" length="2" wid="w140">to</wf>
+    <wf sent="5" para="2" offset="840" length="5" wid="w141">avoid</wf>
+    <wf sent="5" para="2" offset="846" length="12" wid="w142">jeopardizing</wf>
+    <wf sent="5" para="2" offset="859" length="3" wid="w143">the</wf>
+    <wf sent="5" para="2" offset="863" length="9" wid="w144">sensitive</wf>
+    <wf sent="5" para="2" offset="873" length="5" wid="w145">talks</wf>
+    <wf sent="5" para="2" offset="878" length="1" wid="w146">.</wf>
+  </text>
+  <terms>
+    <!--Rutte-->
+    <term type="close" lemma="Rutte" pos="R" morphofeat="NNP" tid="t130">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--later-->
+    <term type="open" lemma="later" pos="A" morphofeat="RB" tid="t131">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t132">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t133">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--would-->
+    <term type="close" lemma="would" pos="O" morphofeat="MD" tid="t134">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t135">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--discuss-->
+    <term type="open" lemma="discuss" pos="V" morphofeat="VB" tid="t136">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--coalition-->
+    <term type="open" lemma="coalition" pos="N" morphofeat="NN" tid="t137">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--negotiations-->
+    <term type="open" lemma="negotiation" pos="N" morphofeat="NNS" tid="t138">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t139">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t140">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--avoid-->
+    <term type="open" lemma="avoid" pos="V" morphofeat="VB" tid="t141">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--jeopardizing-->
+    <term type="open" lemma="jeopardize" pos="V" morphofeat="VBG" tid="t142">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t143">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--sensitive-->
+    <term type="open" lemma="sensitive" pos="G" morphofeat="JJ" tid="t144">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--talks-->
+    <term type="open" lemma="talk" pos="N" morphofeat="NNS" tid="t145">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t146">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--he-->
+        <span>
+          <target id="t133"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the sensitive talks-->
+        <span>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--avoid jeopardizing-->
+        <span>
+          <target id="t141"/>
+          <target id="t142"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--he-->
+        <span>
+          <target id="t133"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--coalition negotiations-->
+        <span>
+          <target id="t137"/>
+          <target id="t138"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--would not discuss-->
+        <span>
+          <target id="t134"/>
+          <target id="t135"/>
+          <target id="t136"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

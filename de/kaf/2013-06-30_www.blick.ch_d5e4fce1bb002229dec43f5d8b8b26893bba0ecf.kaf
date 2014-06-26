@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:35:24Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:35:24Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:54:21CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:35:41CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w39" sent="4" para="3" offset="194" length="11">Europäische</wf>
+    <wf wid="w40" sent="4" para="3" offset="206" length="9">Politiker</wf>
+    <wf wid="w41" sent="4" para="3" offset="216" length="12">gratulierten</wf>
+    <wf wid="w42" sent="4" para="3" offset="228" length="1">,</wf>
+    <wf wid="w43" sent="4" para="3" offset="230" length="9">forderten</wf>
+    <wf wid="w44" sent="4" para="3" offset="240" length="4">aber</wf>
+    <wf wid="w45" sent="4" para="3" offset="245" length="12">gleichzeitig</wf>
+    <wf wid="w46" sent="4" para="3" offset="258" length="7">weitere</wf>
+    <wf wid="w47" sent="4" para="3" offset="266" length="8">Reformen</wf>
+    <wf wid="w48" sent="4" para="3" offset="274" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="europäisch" morphofeat="ADJA" pos="G" tid="t39" type="open">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="Politiker" morphofeat="NN" pos="N" tid="t40" type="open">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="gratulieren" morphofeat="VVFIN" pos="V" tid="t41" type="open">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t42" type="open">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term lemma="fordern" morphofeat="VVFIN" pos="V" tid="t43" type="open">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term lemma="aber" morphofeat="ADV" pos="A" tid="t44" type="open">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="gleichzeitig" morphofeat="ADJD" pos="G" tid="t45" type="open">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term lemma="weit" morphofeat="ADJA" pos="G" tid="t46" type="open">
+      <span>
+        <target id="w46"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Reform" morphofeat="NN" pos="N" tid="t47" type="open">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t48" type="open">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Europäische Politiker-->
+        <span>
+          <target id="t39"/>
+          <target id="t40"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--weitere Reformen-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--forderten-->
+        <span>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

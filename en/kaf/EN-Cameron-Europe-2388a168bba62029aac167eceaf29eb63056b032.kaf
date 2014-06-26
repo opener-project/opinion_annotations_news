@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:24Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:24Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:51:17" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:32:25CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="1445" length="1" wid="w255">"</wf>
+    <wf sent="9" para="2" offset="1446" length="1" wid="w256">I</wf>
+    <wf sent="9" para="2" offset="1448" length="3" wid="w257">don</wf>
+    <wf sent="9" para="2" offset="1451" length="2" wid="w258">'t</wf>
+    <wf sent="9" para="2" offset="1454" length="5" wid="w259">think</wf>
+    <wf sent="9" para="2" offset="1460" length="5" wid="w260">there</wf>
+    <wf sent="9" para="2" offset="1466" length="2" wid="w261">is</wf>
+    <wf sent="9" para="2" offset="1469" length="8" wid="w262">anything</wf>
+    <wf sent="9" para="2" offset="1478" length="3" wid="w263">new</wf>
+    <wf sent="9" para="2" offset="1482" length="2" wid="w264">in</wf>
+    <wf sent="9" para="2" offset="1485" length="4" wid="w265">that</wf>
+    <wf sent="9" para="2" offset="1489" length="1" wid="w266">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t255">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--I-->
+    <term type="close" lemma="i" pos="Q" morphofeat="PRP" tid="t256">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--don-->
+    <term type="open" lemma="don" pos="V" morphofeat="VBP" tid="t257">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--'t-->
+    <term type="open" lemma="'t" pos="A" morphofeat="RB" tid="t258">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--think-->
+    <term type="open" lemma="think" pos="V" morphofeat="VBP" tid="t259">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--there-->
+    <term type="close" lemma="there" pos="O" morphofeat="EX" tid="t260">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t261">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--anything-->
+    <term type="open" lemma="anything" pos="N" morphofeat="NN" tid="t262">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--new-->
+    <term type="open" lemma="new" pos="G" morphofeat="JJ" tid="t263">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t264">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="D" morphofeat="DT" tid="t265">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t266">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--I-->
+        <span>
+          <target id="t256"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--that-->
+        <span>
+          <target id="t265"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--don 't think-->
+        <span>
+          <target id="t257"/>
+          <target id="t258"/>
+          <target id="t259"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--I-->
+        <span>
+          <target id="t256"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--that-->
+        <span>
+          <target id="t265"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--anything new-->
+        <span>
+          <target id="t262"/>
+          <target id="t263"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

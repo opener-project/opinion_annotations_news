@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:07:42Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:07:42Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:02:16CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:08:07CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w283" sent="20" para="9" offset="1634" length="6">Merkel</wf>
+    <wf wid="w284" sent="20" para="9" offset="1641" length="11">kritisierte</wf>
+    <wf wid="w285" sent="20" para="9" offset="1653" length="7">Moskaus</wf>
+    <wf wid="w286" sent="20" para="9" offset="1661" length="5">Druck</wf>
+    <wf wid="w287" sent="20" para="9" offset="1667" length="3">mit</wf>
+    <wf wid="w288" sent="20" para="9" offset="1671" length="21">Handelsbeschränkungen</wf>
+    <wf wid="w289" sent="20" para="9" offset="1693" length="3">auf</wf>
+    <wf wid="w290" sent="20" para="9" offset="1697" length="3">die</wf>
+    <wf wid="w291" sent="20" para="9" offset="1701" length="2">Ex</wf>
+    <wf wid="w292" sent="20" para="9" offset="1703" length="1">·</wf>
+    <wf wid="w293" sent="20" para="9" offset="1704" length="16">Sowjetrepubliken</wf>
+    <wf wid="w294" sent="20" para="9" offset="1720" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t283" type="open">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <term lemma="kritisieren" morphofeat="VVFIN" pos="V" tid="t284" type="open">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <term lemma="Moskau" morphofeat="NE" pos="R" tid="t285" type="open">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <term lemma="Druck" morphofeat="NN" pos="N" tid="t286" type="open">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t287" type="close">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <term lemma="Handelsbeschränkung" morphofeat="NN" pos="N" tid="t288" type="open">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <term lemma="auf" morphofeat="APPR" pos="P" tid="t289" type="close">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t290" type="close">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <term lemma="Ex" morphofeat="NN" pos="N" tid="t291" type="open">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t292" type="open">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <term lemma="Sowjetrepublik" morphofeat="NN" pos="N" tid="t293" type="open">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t294" type="open">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t283"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Moskaus Druck-->
+        <span>
+          <target id="t285"/>
+          <target id="t286"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--kritisierte-->
+        <span>
+          <target id="t284"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

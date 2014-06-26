@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:43Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:43Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:24:06" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:28:00CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="10" para="2" offset="1500" length="1" wid="w273">‘</wf>
+    <wf sent="10" para="2" offset="1501" length="2" wid="w274">We</wf>
+    <wf sent="10" para="2" offset="1504" length="7" wid="w275">welcome</wf>
+    <wf sent="10" para="2" offset="1512" length="3" wid="w276">the</wf>
+    <wf sent="10" para="2" offset="1516" length="6" wid="w277">pledge</wf>
+    <wf sent="10" para="2" offset="1523" length="7" wid="w278">between</wf>
+    <wf sent="10" para="2" offset="1531" length="3" wid="w279">our</wf>
+    <wf sent="10" para="2" offset="1535" length="9" wid="w280">mujahidin</wf>
+    <wf sent="10" para="2" offset="1545" length="1" wid="w281">(</wf>
+    <wf sent="10" para="2" offset="1546" length="4" wid="w282">holy</wf>
+    <wf sent="10" para="2" offset="1551" length="8" wid="w283">warriors</wf>
+    <wf sent="10" para="2" offset="1559" length="1" wid="w284">)</wf>
+    <wf sent="10" para="2" offset="1561" length="3" wid="w285">and</wf>
+    <wf sent="10" para="2" offset="1565" length="3" wid="w286">the</wf>
+    <wf sent="10" para="2" offset="1569" length="13" wid="w287">international</wf>
+    <wf sent="10" para="2" offset="1583" length="9" wid="w288">mujahidin</wf>
+    <wf sent="10" para="2" offset="1592" length="1" wid="w289">,</wf>
+    <wf sent="10" para="2" offset="1594" length="2" wid="w290">Al</wf>
+    <wf sent="10" para="2" offset="1597" length="5" wid="w291">Qaeda</wf>
+    <wf sent="10" para="2" offset="1602" length="1" wid="w292">,</wf>
+    <wf sent="10" para="2" offset="1603" length="1" wid="w293">’</wf>
+    <wf sent="10" para="2" offset="1605" length="4" wid="w294">said</wf>
+    <wf sent="10" para="2" offset="1610" length="6" wid="w295">Sheikh</wf>
+    <wf sent="10" para="2" offset="1617" length="10" wid="w296">Abdulqadir</wf>
+    <wf sent="10" para="2" offset="1628" length="5" wid="w297">Mumin</wf>
+    <wf sent="10" para="2" offset="1633" length="1" wid="w298">.</wf>
+  </text>
+  <terms>
+    <!--‘-->
+    <term type="open" lemma="‘" pos="N" morphofeat="NN" tid="t273">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--We-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t274">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--welcome-->
+    <term type="open" lemma="welcome" pos="V" morphofeat="VBP" tid="t275">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t276">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--pledge-->
+    <term type="open" lemma="pledge" pos="N" morphofeat="NN" tid="t277">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--between-->
+    <term type="close" lemma="between" pos="P" morphofeat="IN" tid="t278">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--our-->
+    <term type="close" lemma="our" pos="Q" morphofeat="PRP$" tid="t279">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--mujahidin-->
+    <term type="open" lemma="mujahidin" pos="N" morphofeat="NN" tid="t280">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--(-->
+    <term type="close" lemma="(" pos="O" morphofeat="(" tid="t281">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--holy-->
+    <term type="open" lemma="holy" pos="G" morphofeat="JJ" tid="t282">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--warriors-->
+    <term type="open" lemma="warrior" pos="N" morphofeat="NNS" tid="t283">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--)-->
+    <term type="close" lemma=")" pos="O" morphofeat=")" tid="t284">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t285">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t286">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--international-->
+    <term type="open" lemma="international" pos="G" morphofeat="JJ" tid="t287">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--mujahidin-->
+    <term type="open" lemma="mujahidin" pos="N" morphofeat="NN" tid="t288">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t289">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--Al-->
+    <term type="close" lemma="Al" pos="R" morphofeat="NNP" tid="t290">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--Qaeda-->
+    <term type="close" lemma="Qaeda" pos="R" morphofeat="NNP" tid="t291">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t292">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--’-->
+    <term type="open" lemma="’" pos="N" morphofeat="NN" tid="t293">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t294">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--Sheikh-->
+    <term type="close" lemma="Sheikh" pos="R" morphofeat="NNP" tid="t295">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--Abdulqadir-->
+    <term type="close" lemma="Abdulqadir" pos="R" morphofeat="NNP" tid="t296">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--Mumin-->
+    <term type="close" lemma="Mumin" pos="R" morphofeat="NNP" tid="t297">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t298">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--pledge-->
+        <span>
+          <target id="t277"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t274"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the pledge-->
+        <span>
+          <target id="t276"/>
+          <target id="t277"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--welcome-->
+        <span>
+          <target id="t275"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--holy warriors-->
+        <span>
+          <target id="t282"/>
+          <target id="t283"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:55:44Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:55:44Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:55:45Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:37:04CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w20" sent="2" para="2" offset="115" length="2">L'</wf>
+    <wf wid="w21" sent="2" para="2" offset="118" length="9">industrie</wf>
+    <wf wid="w22" sent="2" para="2" offset="128" length="9">française</wf>
+    <wf wid="w23" sent="2" para="2" offset="138" length="2">en</wf>
+    <wf wid="w24" sent="2" para="2" offset="141" length="5">perte</wf>
+    <wf wid="w25" sent="2" para="2" offset="147" length="2">de</wf>
+    <wf wid="w26" sent="2" para="2" offset="150" length="13">compétitivité</wf>
+    <wf wid="w27" sent="2" para="2" offset="163" length="1">,</wf>
+    <wf wid="w28" sent="2" para="2" offset="165" length="5">selon</wf>
+    <wf wid="w29" sent="2" para="2" offset="171" length="2">un</wf>
+    <wf wid="w30" sent="2" para="2" offset="174" length="7">rapport</wf>
+    <wf wid="w31" sent="2" para="2" offset="182" length="8">allemand</wf>
+  </text>
+  <terms>
+    <!--L'-->
+    <term tid="t20" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--industrie-->
+    <term tid="t21" type="open" lemma="industrie" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--française-->
+    <term tid="t22" type="open" lemma="français" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t23" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--perte-->
+    <term tid="t24" type="open" lemma="perte" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t25" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--compétitivité-->
+    <term tid="t26" type="open" lemma="compétitivité" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t27" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--selon-->
+    <term tid="t28" type="close" lemma="selon]" pos="P" morphofeat="P">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t29" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--rapport-->
+    <term tid="t30" type="open" lemma="rapport" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--allemand-->
+    <term tid="t31" type="open" lemma="allemand" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--rapport allemand-->
+        <span>
+          <target id="t30"/>
+          <target id="t31"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--L' industrie française-->
+        <span>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--perte de compétitivité-->
+        <span>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

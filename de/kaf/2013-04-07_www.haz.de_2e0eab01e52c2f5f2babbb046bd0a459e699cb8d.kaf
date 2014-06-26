@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:29:13Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:29:13Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:07:38CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:30:15CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w204" sent="17" para="10" offset="1196" length="4">Hier</wf>
+    <wf wid="w205" sent="17" para="10" offset="1201" length="4">soll</wf>
+    <wf wid="w206" sent="17" para="10" offset="1206" length="2">es</wf>
+    <wf wid="w207" sent="17" para="10" offset="1209" length="10">Abendessen</wf>
+    <wf wid="w208" sent="17" para="10" offset="1220" length="5">geben</wf>
+    <wf wid="w209" sent="17" para="10" offset="1225" length="1">.</wf>
+    <wf wid="w609" sent="43" para="15" offset="3598" length="2">Er</wf>
+    <wf wid="w610" sent="43" para="15" offset="3601" length="6">trifft</wf>
+    <wf wid="w611" sent="43" para="15" offset="3608" length="4">sich</wf>
+    <wf wid="w612" sent="43" para="15" offset="3613" length="3">mit</wf>
+    <wf wid="w613" sent="43" para="15" offset="3617" length="15">Bundeskanzlerin</wf>
+    <wf wid="w614" sent="43" para="15" offset="3633" length="6">Angela</wf>
+    <wf wid="w615" sent="43" para="15" offset="3640" length="6">Merkel</wf>
+    <wf wid="w616" sent="43" para="15" offset="3647" length="3">auf</wf>
+    <wf wid="w617" sent="43" para="15" offset="3651" length="3">der</wf>
+    <wf wid="w618" sent="43" para="15" offset="3655" length="8">Hannover</wf>
+    <wf wid="w619" sent="43" para="15" offset="3664" length="5">Messe</wf>
+    <wf wid="w620" sent="43" para="15" offset="3669" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="hier" morphofeat="ADV" pos="A" tid="t204" type="open">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <term lemma="sollen" morphofeat="VMFIN" pos="V" tid="t205" type="open">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t206" type="close">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <term lemma="Abendessen" morphofeat="NN" pos="N" tid="t207" type="open">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <term lemma="geben" morphofeat="VVINF" pos="V" tid="t208" type="open">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t209" type="open">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t609" type="close">
+      <span>
+        <target id="w609"/>
+      </span>
+    </term>
+    <term lemma="treffen" morphofeat="VVFIN" pos="V" tid="t610" type="open">
+      <span>
+        <target id="w610"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t611" type="close">
+      <span>
+        <target id="w611"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t612" type="close">
+      <span>
+        <target id="w612"/>
+      </span>
+    </term>
+    <term lemma="Bundeskanzlerin" morphofeat="NN" pos="N" tid="t613" type="open">
+      <span>
+        <target id="w613"/>
+      </span>
+    </term>
+    <term lemma="Angela" morphofeat="NE" pos="R" tid="t614" type="open">
+      <span>
+        <target id="w614"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t615" type="open">
+      <span>
+        <target id="w615"/>
+      </span>
+    </term>
+    <term lemma="auf" morphofeat="APPR" pos="P" tid="t616" type="close">
+      <span>
+        <target id="w616"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t617" type="close">
+      <span>
+        <target id="w617"/>
+      </span>
+    </term>
+    <term lemma="Hannover" morphofeat="NE" pos="R" tid="t618" type="open">
+      <span>
+        <target id="w618"/>
+      </span>
+    </term>
+    <term lemma="Messe" morphofeat="NN" pos="N" tid="t619" type="open">
+      <span>
+        <target id="w619"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t620" type="open">
+      <span>
+        <target id="w620"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t609"/>
+          <target id="t610"/>
+          <target id="t611"/>
+          <target id="t612"/>
+          <target id="t613"/>
+          <target id="t614"/>
+          <target id="t615"/>
+          <target id="t616"/>
+          <target id="t617"/>
+          <target id="t618"/>
+          <target id="t619"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

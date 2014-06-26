@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T11:38:19Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T11:38:19Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:16:19CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T12:38:41CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:37CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w80" sent="8" para="6" offset="488" length="1">"</wf>
+    <wf wid="w81" sent="8" para="6" offset="489" length="5">Unser</wf>
+    <wf wid="w82" sent="8" para="6" offset="495" length="4">Land</wf>
+    <wf wid="w83" sent="8" para="6" offset="500" length="3">ist</wf>
+    <wf wid="w84" sent="8" para="6" offset="504" length="5">keine</wf>
+    <wf wid="w85" sent="8" para="6" offset="510" length="5">Insel</wf>
+    <wf wid="w86" sent="8" para="6" offset="515" length="1">"</wf>
+    <wf wid="w87" sent="8" para="6" offset="516" length="1">,</wf>
+    <wf wid="w88" sent="8" para="6" offset="518" length="5">sagte</wf>
+    <wf wid="w89" sent="8" para="6" offset="524" length="3">das</wf>
+    <wf wid="w90" sent="8" para="6" offset="528" length="15">Staatsoberhaupt</wf>
+    <wf wid="w91" sent="8" para="6" offset="544" length="4">beim</wf>
+    <wf wid="w92" sent="8" para="6" offset="549" length="9">zentralen</wf>
+    <wf wid="w93" sent="8" para="6" offset="559" length="7">Festakt</wf>
+    <wf wid="w94" sent="8" para="6" offset="567" length="2">in</wf>
+    <wf wid="w95" sent="8" para="6" offset="570" length="9">Stuttgart</wf>
+    <wf wid="w96" sent="8" para="6" offset="579" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t80" type="open">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <term lemma="unser" morphofeat="PPOSAT" pos="Q" tid="t81" type="close">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <term lemma="Land" morphofeat="NN" pos="N" tid="t82" type="open">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t83" type="open">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <term lemma="keine" morphofeat="PIAT" pos="Q" tid="t84" type="close">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <term lemma="Insel" morphofeat="NN" pos="N" tid="t85" type="open">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t86" type="open">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t87" type="open">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t88" type="open">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t89" type="close">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <term lemma="Staatsoberhaupt" morphofeat="NN" pos="N" tid="t90" type="open">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <term lemma="bei" morphofeat="APPRART" pos="P" tid="t91" type="close">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <term lemma="zentral" morphofeat="ADJA" pos="G" tid="t92" type="open">
+      <span>
+        <target id="w92"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Festakt" morphofeat="NN" pos="N" tid="t93" type="open">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t94" type="close">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <term lemma="Stuttgart" morphofeat="NE" pos="R" tid="t95" type="open">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t96" type="open">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Insel-->
+        <span>
+          <target id="t85"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--keine-->
+        <span>
+          <target id="t84"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--das Staatsoberhaupt-->
+        <span>
+          <target id="t89"/>
+          <target id="t90"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Unser Land-->
+        <span>
+          <target id="t81"/>
+          <target id="t82"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--sagte-->
+        <span>
+          <target id="t88"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--das Staatsoberhaupt-->
+        <span>
+          <target id="t89"/>
+          <target id="t90"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Unser Land-->
+        <span>
+          <target id="t81"/>
+          <target id="t82"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--keine Insel-->
+        <span>
+          <target id="t84"/>
+          <target id="t85"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

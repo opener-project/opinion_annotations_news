@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:57:49Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:57:49Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:07:18CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:58:16CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w177" sent="14" para="8" offset="1169" length="3">Der</wf>
+    <wf wid="w178" sent="14" para="8" offset="1173" length="2">30</wf>
+    <wf wid="w179" sent="14" para="8" offset="1175" length="1">·</wf>
+    <wf wid="w180" sent="14" para="8" offset="1176" length="7">jährige</wf>
+    <wf wid="w181" sent="14" para="8" offset="1184" length="7">Snowden</wf>
+    <wf wid="w182" sent="14" para="8" offset="1192" length="6">zeigte</wf>
+    <wf wid="w183" sent="14" para="8" offset="1199" length="4">sich</wf>
+    <wf wid="w184" sent="14" para="8" offset="1204" length="6">weiter</wf>
+    <wf wid="w185" sent="14" para="8" offset="1211" length="5">nicht</wf>
+    <wf wid="w186" sent="14" para="8" offset="1217" length="2">in</wf>
+    <wf wid="w187" sent="14" para="8" offset="1220" length="3">der</wf>
+    <wf wid="w188" sent="14" para="8" offset="1224" length="14">Öffentlichkeit</wf>
+    <wf wid="w189" sent="14" para="8" offset="1238" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t177" type="close">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <term lemma="30" morphofeat="CARD" pos="O" tid="t178" type="open">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t179" type="open">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <term lemma="jährige" morphofeat="ADJA unknown_lemma" pos="O" tid="t180" type="open">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <term lemma="Snowden" morphofeat="NN unknown_lemma" pos="O" tid="t181" type="open">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <term lemma="zeigen" morphofeat="VVFIN" pos="V" tid="t182" type="open">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t183" type="close">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <term lemma="weiter" morphofeat="ADV" pos="A" tid="t184" type="open">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t185" type="open">
+      <span>
+        <target id="w185"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t186" type="close">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t187" type="close">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <term lemma="Öffentlichkeit" morphofeat="NN" pos="N" tid="t188" type="open">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t189" type="open">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t177"/>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

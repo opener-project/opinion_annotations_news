@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:07:54" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:03:03CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="1374" length="3" wid="w256">The</wf>
+    <wf sent="9" para="2" offset="1378" length="6" wid="w257">debate</wf>
+    <wf sent="9" para="2" offset="1385" length="2" wid="w258">in</wf>
+    <wf sent="9" para="2" offset="1388" length="5" wid="w259">Paris</wf>
+    <wf sent="9" para="2" offset="1394" length="3" wid="w260">had</wf>
+    <wf sent="9" para="2" offset="1398" length="5" wid="w261">taken</wf>
+    <wf sent="9" para="2" offset="1403" length="1" wid="w262">,</wf>
+    <wf sent="9" para="2" offset="1405" length="3" wid="w263">not</wf>
+    <wf sent="9" para="2" offset="1409" length="3" wid="w264">six</wf>
+    <wf sent="9" para="2" offset="1413" length="5" wid="w265">hours</wf>
+    <wf sent="9" para="2" offset="1418" length="1" wid="w266">,</wf>
+    <wf sent="9" para="2" offset="1420" length="3" wid="w267">but</wf>
+    <wf sent="9" para="2" offset="1424" length="5" wid="w268">seven</wf>
+    <wf sent="9" para="2" offset="1430" length="4" wid="w269">days</wf>
+    <wf sent="9" para="2" offset="1435" length="3" wid="w270">and</wf>
+    <wf sent="9" para="2" offset="1439" length="8" wid="w271">counting</wf>
+    <wf sent="9" para="2" offset="1448" length="4" wid="w272">when</wf>
+    <wf sent="9" para="2" offset="1453" length="3" wid="w273">the</wf>
+    <wf sent="9" para="2" offset="1457" length="7" wid="w274">British</wf>
+    <wf sent="9" para="2" offset="1465" length="16" wid="w275">parliamentarians</wf>
+    <wf sent="9" para="2" offset="1482" length="5" wid="w276">voted</wf>
+    <wf sent="9" para="2" offset="1487" length="1" wid="w277">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t256">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--debate-->
+    <term type="open" lemma="debate" pos="N" morphofeat="NN" tid="t257">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t258">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--Paris-->
+    <term type="close" lemma="Paris" pos="R" morphofeat="NNP" tid="t259">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--had-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBD" tid="t260">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--taken-->
+    <term type="open" lemma="take" pos="V" morphofeat="VBN" tid="t261">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t262">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t263">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--six-->
+    <term type="close" lemma="six" pos="O" morphofeat="CD" tid="t264">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--hours-->
+    <term type="open" lemma="hour" pos="N" morphofeat="NNS" tid="t265">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t266">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--but-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t267">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--seven-->
+    <term type="close" lemma="seven" pos="O" morphofeat="CD" tid="t268">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--days-->
+    <term type="open" lemma="day" pos="N" morphofeat="NNS" tid="t269">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t270">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--counting-->
+    <term type="open" lemma="count" pos="V" morphofeat="VBG" tid="t271">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--when-->
+    <term type="close" lemma="when" pos="O" morphofeat="WRB" tid="t272">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t273">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--British-->
+    <term type="open" lemma="british" pos="G" morphofeat="JJ" tid="t274">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--parliamentarians-->
+    <term type="open" lemma="parliamentarian" pos="N" morphofeat="NNS" tid="t275">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--voted-->
+    <term type="open" lemma="vote" pos="V" morphofeat="VBD" tid="t276">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t277">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t256"/>
+          <target id="t257"/>
+          <target id="t258"/>
+          <target id="t259"/>
+          <target id="t260"/>
+          <target id="t261"/>
+          <target id="t262"/>
+          <target id="t263"/>
+          <target id="t264"/>
+          <target id="t265"/>
+          <target id="t266"/>
+          <target id="t267"/>
+          <target id="t268"/>
+          <target id="t269"/>
+          <target id="t270"/>
+          <target id="t271"/>
+          <target id="t272"/>
+          <target id="t273"/>
+          <target id="t274"/>
+          <target id="t275"/>
+          <target id="t276"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

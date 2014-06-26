@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:36:55Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:36:55Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:52:12CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:37:07CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w26" sent="2" para="2" offset="109" length="3">Die</wf>
+    <wf wid="w27" sent="2" para="2" offset="113" length="3">SPD</wf>
+    <wf wid="w28" sent="2" para="2" offset="117" length="4">will</wf>
+    <wf wid="w29" sent="2" para="2" offset="122" length="4">sich</wf>
+    <wf wid="w30" sent="2" para="2" offset="127" length="5">nicht</wf>
+    <wf wid="w31" sent="2" para="2" offset="133" length="3">von</wf>
+    <wf wid="w32" sent="2" para="2" offset="137" length="3">der</wf>
+    <wf wid="w33" sent="2" para="2" offset="141" length="5">neuen</wf>
+    <wf wid="w34" sent="2" para="2" offset="147" length="4">Anti</wf>
+    <wf wid="w35" sent="2" para="2" offset="151" length="1">·</wf>
+    <wf wid="w36" sent="2" para="2" offset="152" length="4">Euro</wf>
+    <wf wid="w37" sent="2" para="2" offset="156" length="1">·</wf>
+    <wf wid="w38" sent="2" para="2" offset="157" length="6">Partei</wf>
+    <wf wid="w39" sent="2" para="2" offset="164" length="12">vereinnahmen</wf>
+    <wf wid="w40" sent="2" para="2" offset="177" length="6">lassen</wf>
+    <wf wid="w41" sent="2" para="2" offset="183" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t26" type="close">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="SPD" morphofeat="NE" pos="R" tid="t27" type="open">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t28" type="open">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t29" type="close">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t30" type="open">
+      <span>
+        <target id="w30"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t31" type="close">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t32" type="close">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="neu" morphofeat="ADJA" pos="G" tid="t33" type="open">
+      <span>
+        <target id="w33"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Anti" morphofeat="ADJA unknown_lemma" pos="O" tid="t34" type="open">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t35" type="open">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="Euro" morphofeat="NN" pos="N" tid="t36" type="open">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t37" type="open">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="Partei" morphofeat="NN" pos="N" tid="t38" type="open">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="vereinnahmen" morphofeat="VVINF" pos="V" tid="t39" type="open">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="lassen" morphofeat="VVINF" pos="V" tid="t40" type="open">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t41" type="open">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Die SPD-->
+        <span>
+          <target id="t26"/>
+          <target id="t27"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--vereinnahmen lassen-->
+        <span>
+          <target id="t39"/>
+          <target id="t40"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--will nicht-->
+        <span>
+          <target id="t28"/>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

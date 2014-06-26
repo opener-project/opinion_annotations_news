@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:35:08Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:35:08Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:01:44CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:35:38CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="7">Ukraine</wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="1">:</wf>
+    <wf wid="w3" sent="1" para="1" offset="9" length="6">Merkel</wf>
+    <wf wid="w4" sent="1" para="1" offset="16" length="5">warnt</wf>
+    <wf wid="w5" sent="1" para="1" offset="22" length="12">Janukowitsch</wf>
+    <wf wid="w6" sent="1" para="1" offset="35" length="3">vor</wf>
+    <wf wid="w7" sent="1" para="1" offset="39" length="8">weiterem</wf>
+    <wf wid="w8" sent="1" para="1" offset="48" length="13">Blutvergießen</wf>
+    <wf wid="w407" sent="36" para="23" offset="2693" length="4">Eine</wf>
+    <wf wid="w408" sent="36" para="23" offset="2698" length="10">offizielle</wf>
+    <wf wid="w409" sent="36" para="23" offset="2709" length="11">Bestätigung</wf>
+    <wf wid="w410" sent="36" para="23" offset="2721" length="5">dafür</wf>
+    <wf wid="w411" sent="36" para="23" offset="2727" length="3">gab</wf>
+    <wf wid="w412" sent="36" para="23" offset="2731" length="2">es</wf>
+    <wf wid="w413" sent="36" para="23" offset="2734" length="5">nicht</wf>
+    <wf wid="w414" sent="36" para="23" offset="2739" length="1">.</wf>
+    <wf wid="w465" sent="39" para="25" offset="3028" length="3">Die</wf>
+    <wf wid="w466" sent="39" para="25" offset="3032" length="2">EU</wf>
+    <wf wid="w467" sent="39" para="25" offset="3035" length="5">müsse</wf>
+    <wf wid="w468" sent="39" para="25" offset="3041" length="6">weiter</wf>
+    <wf wid="w469" sent="39" para="25" offset="3048" length="6">bereit</wf>
+    <wf wid="w470" sent="39" para="25" offset="3055" length="4">sein</wf>
+    <wf wid="w471" sent="39" para="25" offset="3059" length="1">,</wf>
+    <wf wid="w472" sent="39" para="25" offset="3061" length="3">mit</wf>
+    <wf wid="w473" sent="39" para="25" offset="3065" length="3">der</wf>
+    <wf wid="w474" sent="39" para="25" offset="3069" length="7">Ukraine</wf>
+    <wf wid="w475" sent="39" para="25" offset="3077" length="2">zu</wf>
+    <wf wid="w476" sent="39" para="25" offset="3080" length="10">verhandeln</wf>
+    <wf wid="w477" sent="39" para="25" offset="3090" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Ukraine" morphofeat="NE" pos="R" tid="t1" type="open">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma=":" morphofeat="$." pos="O" tid="t2" type="open">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t3" type="open">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="warnen" morphofeat="VVFIN" pos="V" tid="t4" type="open">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="Janukowitsch" morphofeat="NN unknown_lemma" pos="O" tid="t5" type="open">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="vor" morphofeat="APPR" pos="P" tid="t6" type="close">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="weit" morphofeat="ADJA" pos="G" tid="t7" type="open">
+      <span>
+        <target id="w7"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Blutvergießen" morphofeat="NN" pos="N" tid="t8" type="open">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t407" type="close">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+    <term lemma="offiziell" morphofeat="ADJA" pos="G" tid="t408" type="open">
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+    <term lemma="Bestätigung" morphofeat="NN" pos="N" tid="t409" type="open">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <term lemma="dafür" morphofeat="PAV" pos="Q" tid="t410" type="close">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <term lemma="geben" morphofeat="VVFIN" pos="V" tid="t411" type="open">
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t412" type="close">
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t413" type="open">
+      <span>
+        <target id="w413"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t414" type="open">
+      <span>
+        <target id="w414"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t465" type="close">
+      <span>
+        <target id="w465"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t466" type="open">
+      <span>
+        <target id="w466"/>
+      </span>
+    </term>
+    <term lemma="müssen" morphofeat="VMFIN" pos="V" tid="t467" type="open">
+      <span>
+        <target id="w467"/>
+      </span>
+    </term>
+    <term lemma="weiter" morphofeat="ADV" pos="A" tid="t468" type="open">
+      <span>
+        <target id="w468"/>
+      </span>
+    </term>
+    <term lemma="bereit" morphofeat="ADJD" pos="G" tid="t469" type="open">
+      <span>
+        <target id="w469"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="sein" morphofeat="VAINF" pos="V" tid="t470" type="open">
+      <span>
+        <target id="w470"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t471" type="open">
+      <span>
+        <target id="w471"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t472" type="close">
+      <span>
+        <target id="w472"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t473" type="close">
+      <span>
+        <target id="w473"/>
+      </span>
+    </term>
+    <term lemma="Ukraine" morphofeat="NE" pos="R" tid="t474" type="open">
+      <span>
+        <target id="w474"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="PTKZU" pos="O" tid="t475" type="open">
+      <span>
+        <target id="w475"/>
+      </span>
+    </term>
+    <term lemma="verhandeln" morphofeat="VVINF" pos="V" tid="t476" type="open">
+      <span>
+        <target id="w476"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t477" type="open">
+      <span>
+        <target id="w477"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Die EU-->
+        <span>
+          <target id="t465"/>
+          <target id="t466"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--bereit sein zu verhandeln-->
+        <span>
+          <target id="t469"/>
+          <target id="t470"/>
+          <target id="t475"/>
+          <target id="t476"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--müsse-->
+        <span>
+          <target id="t467"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--weiterem Blutvergießen-->
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--warnt vor-->
+        <span>
+          <target id="t4"/>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t407"/>
+          <target id="t408"/>
+          <target id="t409"/>
+          <target id="t410"/>
+          <target id="t411"/>
+          <target id="t412"/>
+          <target id="t413"/>
+          <target id="t414"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

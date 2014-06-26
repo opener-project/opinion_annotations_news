@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:44:44Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:44:44Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:54:18CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:45:09CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w16" sent="3" para="3" offset="115" length="8">Tausende</wf>
+    <wf wid="w17" sent="3" para="3" offset="124" length="2">EU</wf>
+    <wf wid="w18" sent="3" para="3" offset="126" length="1">·</wf>
+    <wf wid="w19" sent="3" para="3" offset="127" length="6">Beamte</wf>
+    <wf wid="w20" sent="3" para="3" offset="134" length="9">verdienen</wf>
+    <wf wid="w21" sent="3" para="3" offset="144" length="9">angeblich</wf>
+    <wf wid="w22" sent="3" para="3" offset="154" length="4">mehr</wf>
+    <wf wid="w23" sent="3" para="3" offset="159" length="3">als</wf>
+    <wf wid="w24" sent="3" para="3" offset="163" length="3">die</wf>
+    <wf wid="w25" sent="3" para="3" offset="167" length="9">Kanzlerin</wf>
+    <wf wid="w26" sent="3" para="3" offset="176" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Tausend" morphofeat="NN" pos="N" tid="t16" type="open">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t17" type="open">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t18" type="open">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="Beamter" morphofeat="NN" pos="N" tid="t19" type="open">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="verdienen" morphofeat="VVFIN" pos="V" tid="t20" type="open">
+      <span>
+        <target id="w20"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="angeblich" morphofeat="ADJD" pos="G" tid="t21" type="open">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="mehr" morphofeat="ADV" pos="A" tid="t22" type="open">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="als" morphofeat="KOKOM" pos="C" tid="t23" type="close">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t24" type="close">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="Kanzlerin" morphofeat="NN" pos="N" tid="t25" type="open">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t26" type="open">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

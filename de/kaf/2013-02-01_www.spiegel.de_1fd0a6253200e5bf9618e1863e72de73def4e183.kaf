@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T11:49:02Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T11:49:02Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:50:14CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T12:49:14CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w253" sent="14" para="9" offset="1481" length="3">Der</wf>
+    <wf wid="w254" sent="14" para="9" offset="1485" length="9">britische</wf>
+    <wf wid="w255" sent="14" para="9" offset="1495" length="7">Premier</wf>
+    <wf wid="w256" sent="14" para="9" offset="1503" length="5">David</wf>
+    <wf wid="w257" sent="14" para="9" offset="1509" length="7">Cameron</wf>
+    <wf wid="w258" sent="14" para="9" offset="1517" length="5">hatte</wf>
+    <wf wid="w259" sent="14" para="9" offset="1523" length="7">zuletzt</wf>
+    <wf wid="w260" sent="14" para="9" offset="1531" length="6">Europa</wf>
+    <wf wid="w261" sent="14" para="9" offset="1538" length="6">scharf</wf>
+    <wf wid="w262" sent="14" para="9" offset="1545" length="10">kritisiert</wf>
+    <wf wid="w263" sent="14" para="9" offset="1555" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t253" type="close">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <term lemma="britisch" morphofeat="ADJA" pos="G" tid="t254" type="open">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <term lemma="Premier" morphofeat="NN" pos="N" tid="t255" type="open">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <term lemma="David" morphofeat="NE" pos="R" tid="t256" type="open">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <term lemma="Cameron" morphofeat="NE unknown_lemma" pos="O" tid="t257" type="open">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t258" type="open">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <term lemma="zuletzt" morphofeat="ADV" pos="A" tid="t259" type="open">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <term lemma="Europa" morphofeat="NE" pos="R" tid="t260" type="open">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <term lemma="scharf" morphofeat="ADJD" pos="G" tid="t261" type="open">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <term lemma="kritisieren" morphofeat="VVPP" pos="V" tid="t262" type="open">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t263" type="open">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Premier David Cameron-->
+        <span>
+          <target id="t255"/>
+          <target id="t256"/>
+          <target id="t257"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Europa-->
+        <span>
+          <target id="t260"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--scharf kritisiert-->
+        <span>
+          <target id="t261"/>
+          <target id="t262"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

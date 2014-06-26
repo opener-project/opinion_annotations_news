@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:44:47Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:44:47Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:54:20CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:44:58CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:57CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w134" sent="9" para="6" offset="896" length="9">Türkische</wf>
+    <wf wid="w135" sent="9" para="6" offset="906" length="10">Diplomaten</wf>
+    <wf wid="w136" sent="9" para="6" offset="917" length="10">reagierten</wf>
+    <wf wid="w137" sent="9" para="6" offset="928" length="7">äußerst</wf>
+    <wf wid="w138" sent="9" para="6" offset="936" length="9">verärgert</wf>
+    <wf wid="w139" sent="9" para="6" offset="946" length="3">auf</wf>
+    <wf wid="w140" sent="9" para="6" offset="950" length="3">das</wf>
+    <wf wid="w141" sent="9" para="6" offset="954" length="8">deutsche</wf>
+    <wf wid="w142" sent="9" para="6" offset="963" length="4">Veto</wf>
+    <wf wid="w143" sent="9" para="6" offset="967" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="türkisch" morphofeat="ADJA" pos="G" tid="t134" type="open">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <term lemma="Diplomat" morphofeat="NN" pos="N" tid="t135" type="open">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <term lemma="reagieren" morphofeat="VVFIN" pos="V" tid="t136" type="open">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <term lemma="äußerst" morphofeat="ADV" pos="A" tid="t137" type="open">
+      <span>
+        <target id="w137"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="verärgert" morphofeat="ADJD" pos="G" tid="t138" type="open">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <term lemma="auf" morphofeat="APPR" pos="P" tid="t139" type="close">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t140" type="close">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <term lemma="deutsch" morphofeat="ADJA" pos="G" tid="t141" type="open">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <term lemma="Veto" morphofeat="NN" pos="N" tid="t142" type="open">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t143" type="open">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Türkische Diplomaten-->
+        <span>
+          <target id="t134"/>
+          <target id="t135"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--das deutsche Veto-->
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--reagierten äußerst verärgert auf-->
+        <span>
+          <target id="t136"/>
+          <target id="t137"/>
+          <target id="t138"/>
+          <target id="t139"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

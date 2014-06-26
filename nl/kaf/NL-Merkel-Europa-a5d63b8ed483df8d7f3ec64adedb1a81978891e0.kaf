@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:56Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:56Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:55:56CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w180" sent="10" para="2" offset="1125" length="2">Ze</wf>
+    <wf wid="w181" sent="10" para="2" offset="1128" length="11">waarschuwde</wf>
+    <wf wid="w182" sent="10" para="2" offset="1140" length="3">dat</wf>
+    <wf wid="w183" sent="10" para="2" offset="1144" length="2">in</wf>
+    <wf wid="w184" sent="10" para="2" offset="1147" length="4">geen</wf>
+    <wf wid="w185" sent="10" para="2" offset="1152" length="5">geval</wf>
+    <wf wid="w186" sent="10" para="2" offset="1158" length="3">een</wf>
+    <wf wid="w187" sent="10" para="2" offset="1162" length="6">Europa</wf>
+    <wf wid="w188" sent="10" para="2" offset="1169" length="3">van</wf>
+    <wf wid="w189" sent="10" para="2" offset="1173" length="4">twee</wf>
+    <wf wid="w190" sent="10" para="2" offset="1178" length="9">snelheden</wf>
+    <wf wid="w191" sent="10" para="2" offset="1188" length="9">gecreëerd</wf>
+    <wf wid="w192" sent="10" para="2" offset="1198" length="3">mag</wf>
+    <wf wid="w193" sent="10" para="2" offset="1202" length="6">worden</wf>
+    <wf wid="w194" sent="10" para="2" offset="1208" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ze-->
+    <term tid="t180" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--waarschuwde-->
+    <term tid="t181" type="open" lemma="waarschuwen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t182" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t183" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--geen-->
+    <term tid="t184" type="close" lemma="geen" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--geval-->
+    <term tid="t185" type="open" lemma="geval" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t186" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t187" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t188" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--twee-->
+    <term tid="t189" type="open" lemma="twee" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--snelheden-->
+    <term tid="t190" type="open" lemma="snelheid" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--gecreëerd-->
+    <term tid="t191" type="open" lemma="creëren" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--mag-->
+    <term tid="t192" type="open" lemma="mogen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--worden-->
+    <term tid="t193" type="open" lemma="worden" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t194" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Ze-->
+        <span>
+          <target id="t180"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--gecreëerd mag worden-->
+        <span>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--waarschuwde-->
+        <span>
+          <target id="t181"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Ze-->
+        <span>
+          <target id="t180"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--gecreëerd mag worden-->
+        <span>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--geen geval-->
+        <span>
+          <target id="t184"/>
+          <target id="t185"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

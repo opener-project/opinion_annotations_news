@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:13:12" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:58:14CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="6" wid="w1">Merkel</wf>
+    <wf sent="1" para="1" offset="7" length="5" wid="w2">doesn</wf>
+    <wf sent="1" para="1" offset="12" length="2" wid="w3">'t</wf>
+    <wf sent="1" para="1" offset="15" length="4" wid="w4">rule</wf>
+    <wf sent="1" para="1" offset="20" length="3" wid="w5">out</wf>
+    <wf sent="1" para="1" offset="24" length="5" wid="w6">Greek</wf>
+    <wf sent="1" para="1" offset="30" length="10" wid="w7">write-down</wf>
+    <wf sent="1" para="1" offset="41" length="2" wid="w8">in</wf>
+    <wf sent="1" para="1" offset="44" length="4" wid="w9">next</wf>
+    <wf sent="1" para="1" offset="49" length="3" wid="w10">few</wf>
+    <wf sent="1" para="1" offset="53" length="5" wid="w11">years</wf>
+    <wf sent="12" para="2" offset="1676" length="6" wid="w313">Merkel</wf>
+    <wf sent="12" para="2" offset="1683" length="4" wid="w314">also</wf>
+    <wf sent="12" para="2" offset="1688" length="4" wid="w315">said</wf>
+    <wf sent="12" para="2" offset="1693" length="3" wid="w316">she</wf>
+    <wf sent="12" para="2" offset="1697" length="7" wid="w317">favored</wf>
+    <wf sent="12" para="2" offset="1705" length="11" wid="w318">considering</wf>
+    <wf sent="12" para="2" offset="1717" length="7" wid="w319">tougher</wf>
+    <wf sent="12" para="2" offset="1725" length="9" wid="w320">sanctions</wf>
+    <wf sent="12" para="2" offset="1735" length="3" wid="w321">for</wf>
+    <wf sent="12" para="2" offset="1739" length="8" wid="w322">indebted</wf>
+    <wf sent="12" para="2" offset="1748" length="8" wid="w323">eurozone</wf>
+    <wf sent="12" para="2" offset="1757" length="6" wid="w324">states</wf>
+    <wf sent="12" para="2" offset="1763" length="1" wid="w325">.</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--doesn-->
+    <term type="open" lemma="doesn" pos="N" morphofeat="NN" tid="t2">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--'t-->
+    <term type="open" lemma="'t" pos="A" morphofeat="RB" tid="t3">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--rule-->
+    <term type="open" lemma="rule" pos="N" morphofeat="NN" tid="t4">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--out-->
+    <term type="close" lemma="out" pos="P" morphofeat="IN" tid="t5">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--Greek-->
+    <term type="open" lemma="greek" pos="G" morphofeat="JJ" tid="t6">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--write-down-->
+    <term type="open" lemma="write-down" pos="N" morphofeat="NN" tid="t7">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t8">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--next-->
+    <term type="open" lemma="next" pos="G" morphofeat="JJ" tid="t9">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--few-->
+    <term type="open" lemma="few" pos="G" morphofeat="JJ" tid="t10">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--years-->
+    <term type="open" lemma="year" pos="N" morphofeat="NNS" tid="t11">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t313">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t314">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t315">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <!--she-->
+    <term type="close" lemma="she" pos="Q" morphofeat="PRP" tid="t316">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--favored-->
+    <term type="open" lemma="favor" pos="V" morphofeat="VBD" tid="t317">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--considering-->
+    <term type="open" lemma="consider" pos="V" morphofeat="VBG" tid="t318">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <!--tougher-->
+    <term type="open" lemma="tougher" pos="G" morphofeat="JJR" tid="t319">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--sanctions-->
+    <term type="open" lemma="sanction" pos="N" morphofeat="NNS" tid="t320">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t321">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <!--indebted-->
+    <term type="open" lemma="indebted" pos="G" morphofeat="JJ" tid="t322">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--eurozone-->
+    <term type="open" lemma="eurozone" pos="N" morphofeat="NN" tid="t323">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--states-->
+    <term type="open" lemma="state" pos="N" morphofeat="NNS" tid="t324">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t325">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder>
+        <!--she-->
+        <span>
+          <target id="t316"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--considering tougher sanctions-->
+        <span>
+          <target id="t318"/>
+          <target id="t319"/>
+          <target id="t320"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--favored-->
+        <span>
+          <target id="t317"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--sanctions-->
+        <span>
+          <target id="t320"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--tougher-->
+        <span>
+          <target id="t319"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Greek write-down-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--doesn 't rule out-->
+        <span>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

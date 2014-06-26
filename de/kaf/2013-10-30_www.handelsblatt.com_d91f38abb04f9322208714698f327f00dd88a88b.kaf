@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:23:34Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:23:34Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:59:38CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:23:54CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w593" sent="34" para="14" offset="3703" length="4">Nach</wf>
+    <wf wid="w594" sent="34" para="14" offset="3708" length="7">Angaben</wf>
+    <wf wid="w595" sent="34" para="14" offset="3716" length="5">eines</wf>
+    <wf wid="w596" sent="34" para="14" offset="3722" length="9">ranghohen</wf>
+    <wf wid="w597" sent="34" para="14" offset="3732" length="20">Regierungsvertreters</wf>
+    <wf wid="w598" sent="34" para="14" offset="3753" length="6">erwägt</wf>
+    <wf wid="w599" sent="34" para="14" offset="3760" length="5">Obama</wf>
+    <wf wid="w600" sent="34" para="14" offset="3765" length="1">,</wf>
+    <wf wid="w601" sent="34" para="14" offset="3767" length="3">den</wf>
+    <wf wid="w602" sent="34" para="14" offset="3771" length="8">Diensten</wf>
+    <wf wid="w603" sent="34" para="14" offset="3780" length="3">die</wf>
+    <wf wid="w604" sent="34" para="14" offset="3784" length="11">Überwachung</wf>
+    <wf wid="w605" sent="34" para="14" offset="3796" length="3">von</wf>
+    <wf wid="w606" sent="34" para="14" offset="3800" length="15">Regierungschefs</wf>
+    <wf wid="w607" sent="34" para="14" offset="3816" length="12">befreundeter</wf>
+    <wf wid="w608" sent="34" para="14" offset="3829" length="7">Staaten</wf>
+    <wf wid="w609" sent="34" para="14" offset="3837" length="2">zu</wf>
+    <wf wid="w610" sent="34" para="14" offset="3840" length="9">verbieten</wf>
+    <wf wid="w611" sent="34" para="14" offset="3849" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="nach" morphofeat="APPR" pos="P" tid="t593" type="close">
+      <span>
+        <target id="w593"/>
+      </span>
+    </term>
+    <term lemma="Angabe" morphofeat="NN" pos="N" tid="t594" type="open">
+      <span>
+        <target id="w594"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t595" type="close">
+      <span>
+        <target id="w595"/>
+      </span>
+    </term>
+    <term lemma="ranghoch" morphofeat="ADJA" pos="G" tid="t596" type="open">
+      <span>
+        <target id="w596"/>
+      </span>
+    </term>
+    <term lemma="Regierungsvertreter" morphofeat="NN" pos="N" tid="t597" type="open">
+      <span>
+        <target id="w597"/>
+      </span>
+    </term>
+    <term lemma="erwägen" morphofeat="VVFIN" pos="V" tid="t598" type="open">
+      <span>
+        <target id="w598"/>
+      </span>
+    </term>
+    <term lemma="Obama" morphofeat="NN unknown_lemma" pos="O" tid="t599" type="open">
+      <span>
+        <target id="w599"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t600" type="open">
+      <span>
+        <target id="w600"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t601" type="close">
+      <span>
+        <target id="w601"/>
+      </span>
+    </term>
+    <term lemma="Dienst" morphofeat="NN" pos="N" tid="t602" type="open">
+      <span>
+        <target id="w602"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t603" type="close">
+      <span>
+        <target id="w603"/>
+      </span>
+    </term>
+    <term lemma="Überwachung" morphofeat="NN" pos="N" tid="t604" type="open">
+      <span>
+        <target id="w604"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t605" type="close">
+      <span>
+        <target id="w605"/>
+      </span>
+    </term>
+    <term lemma="Regierungschef" morphofeat="NN" pos="N" tid="t606" type="open">
+      <span>
+        <target id="w606"/>
+      </span>
+    </term>
+    <term lemma="befreundet" morphofeat="ADJA" pos="G" tid="t607" type="open">
+      <span>
+        <target id="w607"/>
+      </span>
+    </term>
+    <term lemma="Staat" morphofeat="NN" pos="N" tid="t608" type="open">
+      <span>
+        <target id="w608"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="PTKZU" pos="O" tid="t609" type="open">
+      <span>
+        <target id="w609"/>
+      </span>
+    </term>
+    <term lemma="verbieten" morphofeat="VVINF" pos="V" tid="t610" type="open">
+      <span>
+        <target id="w610"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t611" type="open">
+      <span>
+        <target id="w611"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--den Diensten die Überwachung-->
+        <span>
+          <target id="t601"/>
+          <target id="t602"/>
+          <target id="t603"/>
+          <target id="t604"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--verbieten-->
+        <span>
+          <target id="t610"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Obama-->
+        <span>
+          <target id="t599"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--den Diensten die Überwachung zu verbieten-->
+        <span>
+          <target id="t601"/>
+          <target id="t602"/>
+          <target id="t603"/>
+          <target id="t604"/>
+          <target id="t609"/>
+          <target id="t610"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--erwägt-->
+        <span>
+          <target id="t598"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

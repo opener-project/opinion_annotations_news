@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:24:29Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:24:29Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:05:12CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:27:04CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w333" sent="25" para="15" offset="1695" length="11">Bemerkungen</wf>
+    <wf wid="w334" sent="25" para="15" offset="1706" length="1">:</wf>
+    <wf wid="w335" sent="25" para="15" offset="1708" length="8">Borussia</wf>
+    <wf wid="w336" sent="25" para="15" offset="1717" length="8">Dortmund</wf>
+    <wf wid="w337" sent="25" para="15" offset="1726" length="4">ohne</wf>
+    <wf wid="w338" sent="25" para="15" offset="1731" length="5">Götze</wf>
+    <wf wid="w339" sent="25" para="15" offset="1736" length="1">,</wf>
+    <wf wid="w340" sent="25" para="15" offset="1738" length="6">Bayern</wf>
+    <wf wid="w341" sent="25" para="15" offset="1745" length="7">München</wf>
+    <wf wid="w342" sent="25" para="15" offset="1753" length="4">ohne</wf>
+    <wf wid="w343" sent="25" para="15" offset="1758" length="9">Badstuber</wf>
+    <wf wid="w344" sent="25" para="15" offset="1768" length="3">und</wf>
+    <wf wid="w345" sent="25" para="15" offset="1772" length="5">Kroos</wf>
+    <wf wid="w346" sent="25" para="15" offset="1778" length="1">(</wf>
+    <wf wid="w347" sent="25" para="15" offset="1779" length="4">alle</wf>
+    <wf wid="w348" sent="25" para="15" offset="1784" length="8">verletzt</wf>
+    <wf wid="w349" sent="25" para="15" offset="1792" length="1">)</wf>
+    <wf wid="w350" sent="25" para="15" offset="1793" length="1">.</wf>
+    <wf wid="w402" sent="31" para="17" offset="2069" length="3">Der</wf>
+    <wf wid="w403" sent="31" para="17" offset="2073" length="6">Erfolg</wf>
+    <wf wid="w404" sent="31" para="17" offset="2080" length="3">der</wf>
+    <wf wid="w405" sent="31" para="17" offset="2084" length="6">Bayern</wf>
+    <wf wid="w406" sent="31" para="17" offset="2091" length="3">ist</wf>
+    <wf wid="w407" sent="31" para="17" offset="2095" length="4">aber</wf>
+    <wf wid="w408" sent="31" para="17" offset="2100" length="3">auf</wf>
+    <wf wid="w409" sent="31" para="17" offset="2104" length="5">Grund</wf>
+    <wf wid="w410" sent="31" para="17" offset="2110" length="3">der</wf>
+    <wf wid="w411" sent="31" para="17" offset="2114" length="12">Schlussphase</wf>
+    <wf wid="w412" sent="31" para="17" offset="2127" length="5">nicht</wf>
+    <wf wid="w413" sent="31" para="17" offset="2133" length="10">unverdient</wf>
+    <wf wid="w414" sent="31" para="17" offset="2143" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Bemerkung" morphofeat="NN" pos="N" tid="t333" type="open">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <term lemma=":" morphofeat="$." pos="O" tid="t334" type="open">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <term lemma="Borussia" morphofeat="NE" pos="R" tid="t335" type="open">
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <term lemma="Dortmund" morphofeat="NE" pos="R" tid="t336" type="open">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <term lemma="ohne" morphofeat="APPR" pos="P" tid="t337" type="close">
+      <span>
+        <target id="w337"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="Götze" morphofeat="NN" pos="N" tid="t338" type="open">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t339" type="open">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <term lemma="Bayern" morphofeat="NE" pos="R" tid="t340" type="open">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <term lemma="München" morphofeat="NE" pos="R" tid="t341" type="open">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <term lemma="ohne" morphofeat="APPR" pos="P" tid="t342" type="close">
+      <span>
+        <target id="w342"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="Badstuber" morphofeat="NN unknown_lemma" pos="O" tid="t343" type="open">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t344" type="close">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <term lemma="Kroos" morphofeat="NN unknown_lemma" pos="O" tid="t345" type="open">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="$(" pos="O" tid="t346" type="open">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <term lemma="alle" morphofeat="PIAT" pos="Q" tid="t347" type="close">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <term lemma="verletzen" morphofeat="VVPP" pos="V" tid="t348" type="open">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat="$(" pos="O" tid="t349" type="open">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t350" type="open">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t402" type="close">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <term lemma="Erfolg" morphofeat="NN" pos="N" tid="t403" type="open">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t404" type="close">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+    <term lemma="Bayer" morphofeat="NN" pos="N" tid="t405" type="open">
+      <span>
+        <target id="w405"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t406" type="open">
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+    <term lemma="aber" morphofeat="ADV" pos="A" tid="t407" type="open">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+    <term lemma="auf" morphofeat="APPR" pos="P" tid="t408" type="close">
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+    <term lemma="Grund" morphofeat="NN" pos="N" tid="t409" type="open">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t410" type="close">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <term lemma="Schlussphase" morphofeat="NN" pos="N" tid="t411" type="open">
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t412" type="open">
+      <span>
+        <target id="w412"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="unverdient" morphofeat="ADJD" pos="G" tid="t413" type="open">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t414" type="open">
+      <span>
+        <target id="w414"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Der Erfolg der Bayern-->
+        <span>
+          <target id="t402"/>
+          <target id="t403"/>
+          <target id="t404"/>
+          <target id="t405"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--nicht unverdient-->
+        <span>
+          <target id="t412"/>
+          <target id="t413"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t333"/>
+          <target id="t334"/>
+          <target id="t335"/>
+          <target id="t336"/>
+          <target id="t337"/>
+          <target id="t338"/>
+          <target id="t339"/>
+          <target id="t340"/>
+          <target id="t341"/>
+          <target id="t342"/>
+          <target id="t343"/>
+          <target id="t344"/>
+          <target id="t345"/>
+          <target id="t346"/>
+          <target id="t347"/>
+          <target id="t348"/>
+          <target id="t349"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

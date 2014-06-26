@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:23:55Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:23:55Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:07:13CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:24:31CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:35CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w125" sent="8" para="5" offset="799" length="3">Die</wf>
+    <wf wid="w126" sent="8" para="5" offset="803" length="9">Kanzlerin</wf>
+    <wf wid="w127" sent="8" para="5" offset="813" length="3">und</wf>
+    <wf wid="w128" sent="8" para="5" offset="817" length="4">ihre</wf>
+    <wf wid="w129" sent="8" para="5" offset="822" length="8">Kollegen</wf>
+    <wf wid="w130" sent="8" para="5" offset="831" length="5">waren</wf>
+    <wf wid="w131" sent="8" para="5" offset="837" length="3">auf</wf>
+    <wf wid="w132" sent="8" para="5" offset="841" length="9">Einladung</wf>
+    <wf wid="w133" sent="8" para="5" offset="851" length="9">Hollandes</wf>
+    <wf wid="w134" sent="8" para="5" offset="861" length="4">nach</wf>
+    <wf wid="w135" sent="8" para="5" offset="866" length="5">Paris</wf>
+    <wf wid="w136" sent="8" para="5" offset="872" length="8">gekommen</wf>
+    <wf wid="w137" sent="8" para="5" offset="880" length="1">.</wf>
+    <wf wid="w232" sent="14" para="6" offset="1442" length="5">Sechs</wf>
+    <wf wid="w233" sent="14" para="6" offset="1448" length="9">Millionen</wf>
+    <wf wid="w234" sent="14" para="6" offset="1458" length="5">junge</wf>
+    <wf wid="w235" sent="14" para="6" offset="1464" length="8">Menschen</wf>
+    <wf wid="w236" sent="14" para="6" offset="1473" length="4">ohne</wf>
+    <wf wid="w237" sent="14" para="6" offset="1478" length="3">Job</wf>
+    <wf wid="w238" sent="14" para="6" offset="1482" length="5">seien</wf>
+    <wf wid="w239" sent="14" para="6" offset="1488" length="1">„</wf>
+    <wf wid="w240" sent="14" para="6" offset="1489" length="4">viel</wf>
+    <wf wid="w241" sent="14" para="6" offset="1494" length="2">zu</wf>
+    <wf wid="w242" sent="14" para="6" offset="1497" length="4">viel</wf>
+    <wf wid="w243" sent="14" para="6" offset="1501" length="1">“</wf>
+    <wf wid="w244" sent="14" para="6" offset="1502" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t125" type="close">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <term lemma="Kanzlerin" morphofeat="NN" pos="N" tid="t126" type="open">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t127" type="close">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <term lemma="ihr" morphofeat="PPOSAT" pos="Q" tid="t128" type="close">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <term lemma="Kollege" morphofeat="NN" pos="N" tid="t129" type="open">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t130" type="open">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <term lemma="auf" morphofeat="APPR" pos="P" tid="t131" type="close">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <term lemma="Einladung" morphofeat="NN" pos="N" tid="t132" type="open">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <term lemma="Hollandes" morphofeat="NN unknown_lemma" pos="O" tid="t133" type="open">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <term lemma="nach" morphofeat="APPR" pos="P" tid="t134" type="close">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <term lemma="Paris" morphofeat="NE" pos="R" tid="t135" type="open">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <term lemma="kommen" morphofeat="VVPP" pos="V" tid="t136" type="open">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t137" type="open">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <term lemma="sechs" morphofeat="CARD" pos="O" tid="t232" type="open">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <term lemma="Million" morphofeat="NN" pos="N" tid="t233" type="open">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <term lemma="jung" morphofeat="ADJA" pos="G" tid="t234" type="open">
+      <span>
+        <target id="w234"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Mensch" morphofeat="NN" pos="N" tid="t235" type="open">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <term lemma="ohne" morphofeat="APPR" pos="P" tid="t236" type="close">
+      <span>
+        <target id="w236"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="Job" morphofeat="NN" pos="N" tid="t237" type="open">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t238" type="open">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <term lemma="„" morphofeat="ADJD unknown_lemma" pos="O" tid="t239" type="open">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <term lemma="viel" morphofeat="ADV" pos="A" tid="t240" type="open">
+      <span>
+        <target id="w240"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="zu" morphofeat="APPR" pos="P" tid="t241" type="close">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <term lemma="viele" morphofeat="PIAT" pos="Q" tid="t242" type="close">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <term lemma="“" morphofeat="NN unknown_lemma" pos="O" tid="t243" type="open">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t244" type="open">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Sechs Millionen junge Menschen ohne Job-->
+        <span>
+          <target id="t232"/>
+          <target id="t233"/>
+          <target id="t234"/>
+          <target id="t235"/>
+          <target id="t236"/>
+          <target id="t237"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--viel zu viel-->
+        <span>
+          <target id="t240"/>
+          <target id="t241"/>
+          <target id="t242"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+          <target id="t132"/>
+          <target id="t133"/>
+          <target id="t134"/>
+          <target id="t135"/>
+          <target id="t136"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

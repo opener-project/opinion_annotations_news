@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:53Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:53Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:53:00CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:28CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="2">G8</wf>
+    <wf wid="w2" sent="1" para="1" offset="3" length="6">hamert</wf>
+    <wf wid="w3" sent="1" para="1" offset="10" length="2">op</wf>
+    <wf wid="w4" sent="1" para="1" offset="13" length="8">noodzaak</wf>
+    <wf wid="w5" sent="1" para="1" offset="22" length="5">groei</wf>
+    <wf wid="w216" sent="11" para="2" offset="1269" length="2">Na</wf>
+    <wf wid="w217" sent="11" para="2" offset="1272" length="6">afloop</wf>
+    <wf wid="w218" sent="11" para="2" offset="1279" length="3">van</wf>
+    <wf wid="w219" sent="11" para="2" offset="1283" length="2">de</wf>
+    <wf wid="w220" sent="11" para="2" offset="1286" length="3">top</wf>
+    <wf wid="w221" sent="11" para="2" offset="1290" length="3">had</wf>
+    <wf wid="w222" sent="11" para="2" offset="1294" length="9">president</wf>
+    <wf wid="w223" sent="11" para="2" offset="1304" length="5">Obama</wf>
+    <wf wid="w224" sent="11" para="2" offset="1310" length="3">nog</wf>
+    <wf wid="w225" sent="11" para="2" offset="1314" length="3">een</wf>
+    <wf wid="w226" sent="11" para="2" offset="1318" length="5">apart</wf>
+    <wf wid="w227" sent="11" para="2" offset="1324" length="9">onderhoud</wf>
+    <wf wid="w228" sent="11" para="2" offset="1334" length="3">met</wf>
+    <wf wid="w229" sent="11" para="2" offset="1338" length="6">Merkel</wf>
+    <wf wid="w230" sent="11" para="2" offset="1344" length="1">.</wf>
+  </text>
+  <terms>
+    <!--G8-->
+    <term tid="t1" type="open" lemma="G8" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--hamert-->
+    <term tid="t2" type="open" lemma="hameren" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w2"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--op-->
+    <term tid="t3" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--noodzaak-->
+    <term tid="t4" type="open" lemma="noodzaak" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--groei-->
+    <term tid="t5" type="open" lemma="groeien" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--Na-->
+    <term tid="t216" type="close" lemma="na" pos="P" morphofeat="prep">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--afloop-->
+    <term tid="t217" type="open" lemma="afloop" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t218" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t219" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--top-->
+    <term tid="t220" type="open" lemma="top" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w220"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--had-->
+    <term tid="t221" type="open" lemma="hebben" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--president-->
+    <term tid="t222" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term tid="t223" type="open" lemma="Obama" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--nog-->
+    <term tid="t224" type="open" lemma="nog" pos="A" morphofeat="adv">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t225" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--apart-->
+    <term tid="t226" type="open" lemma="apart" pos="G" morphofeat="adj">
+      <span>
+        <target id="w226"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--onderhoud-->
+    <term tid="t227" type="open" lemma="onderhoud" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t228" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t229" type="open" lemma="Merkel" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t230" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--G8-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--noodzaak groei-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--hamert op-->
+        <span>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+          <target id="t229"/>
+          <target id="t230"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

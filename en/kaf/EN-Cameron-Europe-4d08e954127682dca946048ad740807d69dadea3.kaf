@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:38Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:38Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:15:04" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:01:03CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="4" para="2" offset="705" length="17" wid="w127">Secretary-General</wf>
+    <wf sent="4" para="2" offset="723" length="3" wid="w128">Ban</wf>
+    <wf sent="4" para="2" offset="727" length="7" wid="w129">Ki-moon</wf>
+    <wf sent="4" para="2" offset="735" length="7" wid="w130">arrived</wf>
+    <wf sent="4" para="2" offset="743" length="6" wid="w131">during</wf>
+    <wf sent="4" para="2" offset="750" length="3" wid="w132">the</wf>
+    <wf sent="4" para="2" offset="754" length="3" wid="w133">day</wf>
+    <wf sent="4" para="2" offset="758" length="2" wid="w134">in</wf>
+    <wf sent="4" para="2" offset="761" length="6" wid="w135">Yangon</wf>
+    <wf sent="4" para="2" offset="767" length="1" wid="w136">,</wf>
+    <wf sent="4" para="2" offset="769" length="12" wid="w137">disembarking</wf>
+    <wf sent="4" para="2" offset="782" length="4" wid="w138">from</wf>
+    <wf sent="4" para="2" offset="787" length="1" wid="w139">a</wf>
+    <wf sent="4" para="2" offset="789" length="15" wid="w140">U.N.-designated</wf>
+    <wf sent="4" para="2" offset="805" length="5" wid="w141">plane</wf>
+    <wf sent="4" para="2" offset="811" length="2" wid="w142">to</wf>
+    <wf sent="4" para="2" offset="814" length="5" wid="w143">greet</wf>
+    <wf sent="4" para="2" offset="820" length="1" wid="w144">a</wf>
+    <wf sent="4" para="2" offset="822" length="6" wid="w145">number</wf>
+    <wf sent="4" para="2" offset="829" length="2" wid="w146">of</wf>
+    <wf sent="4" para="2" offset="832" length="6" wid="w147">people</wf>
+    <wf sent="4" para="2" offset="839" length="9" wid="w148">including</wf>
+    <wf sent="4" para="2" offset="849" length="7" wid="w149">Myanmar</wf>
+    <wf sent="4" para="2" offset="857" length="7" wid="w150">Foreign</wf>
+    <wf sent="4" para="2" offset="865" length="8" wid="w151">Minister</wf>
+    <wf sent="4" para="2" offset="874" length="5" wid="w152">Wunna</wf>
+    <wf sent="4" para="2" offset="880" length="5" wid="w153">Maung</wf>
+    <wf sent="4" para="2" offset="886" length="4" wid="w154">Lwin</wf>
+    <wf sent="4" para="2" offset="890" length="1" wid="w155">.</wf>
+    <wf sent="15" para="2" offset="1900" length="1" wid="w349">"</wf>
+    <wf sent="15" para="2" offset="1901" length="3" wid="w350">Yet</wf>
+    <wf sent="15" para="2" offset="1905" length="2" wid="w351">we</wf>
+    <wf sent="15" para="2" offset="1908" length="4" wid="w352">also</wf>
+    <wf sent="15" para="2" offset="1913" length="9" wid="w353">recognize</wf>
+    <wf sent="15" para="2" offset="1923" length="4" wid="w354">this</wf>
+    <wf sent="15" para="2" offset="1928" length="5" wid="w355">fresh</wf>
+    <wf sent="15" para="2" offset="1934" length="5" wid="w356">start</wf>
+    <wf sent="15" para="2" offset="1940" length="2" wid="w357">is</wf>
+    <wf sent="15" para="2" offset="1943" length="5" wid="w358">still</wf>
+    <wf sent="15" para="2" offset="1949" length="7" wid="w359">fragile</wf>
+    <wf sent="15" para="2" offset="1956" length="1" wid="w360">.</wf>
+  </text>
+  <terms>
+    <!--Secretary-General-->
+    <term type="open" lemma="secretary-general" pos="G" morphofeat="JJ" tid="t127">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--Ban-->
+    <term type="close" lemma="Ban" pos="R" morphofeat="NNP" tid="t128">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--Ki-moon-->
+    <term type="close" lemma="Ki-moon" pos="R" morphofeat="NNP" tid="t129">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--arrived-->
+    <term type="open" lemma="arrive" pos="V" morphofeat="VBD" tid="t130">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--during-->
+    <term type="close" lemma="during" pos="P" morphofeat="IN" tid="t131">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t132">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--day-->
+    <term type="open" lemma="day" pos="N" morphofeat="NN" tid="t133">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t134">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--Yangon-->
+    <term type="close" lemma="Yangon" pos="R" morphofeat="NNP" tid="t135">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t136">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--disembarking-->
+    <term type="open" lemma="disembarking" pos="N" morphofeat="NN" tid="t137">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t138">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t139">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--U.N.-designated-->
+    <term type="open" lemma="u.n.-designated" pos="G" morphofeat="JJ" tid="t140">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--plane-->
+    <term type="open" lemma="plane" pos="N" morphofeat="NN" tid="t141">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t142">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--greet-->
+    <term type="open" lemma="greet" pos="V" morphofeat="VB" tid="t143">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t144">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--number-->
+    <term type="open" lemma="number" pos="N" morphofeat="NN" tid="t145">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t146">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--people-->
+    <term type="open" lemma="person" pos="N" morphofeat="NNS" tid="t147">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--including-->
+    <term type="open" lemma="include" pos="V" morphofeat="VBG" tid="t148">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--Myanmar-->
+    <term type="close" lemma="Myanmar" pos="R" morphofeat="NNP" tid="t149">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--Foreign-->
+    <term type="close" lemma="Foreign" pos="R" morphofeat="NNP" tid="t150">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--Minister-->
+    <term type="close" lemma="Minister" pos="R" morphofeat="NNP" tid="t151">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--Wunna-->
+    <term type="close" lemma="Wunna" pos="R" morphofeat="NNP" tid="t152">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--Maung-->
+    <term type="close" lemma="Maung" pos="R" morphofeat="NNP" tid="t153">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--Lwin-->
+    <term type="close" lemma="Lwin" pos="R" morphofeat="NNP" tid="t154">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t155">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="G" morphofeat="JJ" tid="t349">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <!--Yet-->
+    <term type="close" lemma="yet" pos="C" morphofeat="CC" tid="t350">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <!--we-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t351">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t352">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <!--recognize-->
+    <term type="open" lemma="recognize" pos="V" morphofeat="VB" tid="t353">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+    <!--this-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t354">
+      <span>
+        <target id="w354"/>
+      </span>
+    </term>
+    <!--fresh-->
+    <term type="open" lemma="fresh" pos="G" morphofeat="JJ" tid="t355">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w355"/>
+      </span>
+    </term>
+    <!--start-->
+    <term type="open" lemma="start" pos="N" morphofeat="NN" tid="t356">
+      <span>
+        <target id="w356"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t357">
+      <span>
+        <target id="w357"/>
+      </span>
+    </term>
+    <!--still-->
+    <term type="open" lemma="still" pos="A" morphofeat="RB" tid="t358">
+      <span>
+        <target id="w358"/>
+      </span>
+    </term>
+    <!--fragile-->
+    <term type="open" lemma="fragile" pos="G" morphofeat="JJ" tid="t359">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t360">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder>
+        <!--we-->
+        <span>
+          <target id="t351"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--this fresh start-->
+        <span>
+          <target id="t354"/>
+          <target id="t355"/>
+          <target id="t356"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--is still fragile-->
+        <span>
+          <target id="t357"/>
+          <target id="t358"/>
+          <target id="t359"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--start-->
+        <span>
+          <target id="t356"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--fresh-->
+        <span>
+          <target id="t355"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+          <target id="t132"/>
+          <target id="t133"/>
+          <target id="t134"/>
+          <target id="t135"/>
+          <target id="t136"/>
+          <target id="t137"/>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+          <target id="t153"/>
+          <target id="t154"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

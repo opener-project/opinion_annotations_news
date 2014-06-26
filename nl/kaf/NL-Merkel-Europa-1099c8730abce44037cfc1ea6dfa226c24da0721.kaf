@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:05:04CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w179" sent="10" para="2" offset="1014" length="7">Griekse</wf>
+    <wf wid="w180" sent="10" para="2" offset="1022" length="8">politici</wf>
+    <wf wid="w181" sent="10" para="2" offset="1031" length="6">hebben</wf>
+    <wf wid="w182" sent="10" para="2" offset="1038" length="2">de</wf>
+    <wf wid="w183" sent="10" para="2" offset="1041" length="9">afgelopen</wf>
+    <wf wid="w184" sent="10" para="2" offset="1051" length="5">weken</wf>
+    <wf wid="w185" sent="10" para="2" offset="1057" length="10">aangegeven</wf>
+    <wf wid="w186" sent="10" para="2" offset="1068" length="3">dat</wf>
+    <wf wid="w187" sent="10" para="2" offset="1072" length="3">zij</wf>
+    <wf wid="w188" sent="10" para="2" offset="1076" length="2">de</wf>
+    <wf wid="w189" sent="10" para="2" offset="1079" length="4">euro</wf>
+    <wf wid="w190" sent="10" para="2" offset="1084" length="4">niet</wf>
+    <wf wid="w191" sent="10" para="2" offset="1089" length="5">kwijt</wf>
+    <wf wid="w192" sent="10" para="2" offset="1095" length="6">willen</wf>
+    <wf wid="w193" sent="10" para="2" offset="1101" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Griekse-->
+    <term tid="t179" type="open" lemma="Grieks" pos="G" morphofeat="adj">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--politici-->
+    <term tid="t180" type="open" lemma="politicus" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--hebben-->
+    <term tid="t181" type="open" lemma="hebben" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t182" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--afgelopen-->
+    <term tid="t183" type="open" lemma="aflopen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--weken-->
+    <term tid="t184" type="open" lemma="week" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w184"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--aangegeven-->
+    <term tid="t185" type="open" lemma="aangeven" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t186" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--zij-->
+    <term tid="t187" type="close" lemma="zij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t188" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t189" type="open" lemma="euro" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t190" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--kwijt-->
+    <term tid="t191" type="open" lemma="kwijt" pos="G" morphofeat="adj">
+      <span>
+        <target id="w191"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--willen-->
+    <term tid="t192" type="open" lemma="willen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t193" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--zij-->
+        <span>
+          <target id="t187"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de euro-->
+        <span>
+          <target id="t188"/>
+          <target id="t189"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--niet kwijt willen-->
+        <span>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

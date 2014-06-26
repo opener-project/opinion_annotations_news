@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:48Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:48Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:29:36" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:10:02CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="7" wid="w1">Germany</wf>
+    <wf sent="1" para="1" offset="8" length="4" wid="w2">wins</wf>
+    <wf sent="1" para="1" offset="13" length="7" wid="w3">backing</wf>
+    <wf sent="1" para="1" offset="21" length="2" wid="w4">of</wf>
+    <wf sent="1" para="1" offset="24" length="2" wid="w5">EU</wf>
+    <wf sent="1" para="1" offset="27" length="9" wid="w6">ministers</wf>
+    <wf sent="1" para="1" offset="37" length="2" wid="w7">to</wf>
+    <wf sent="1" para="1" offset="40" length="5" wid="w8">block</wf>
+    <wf sent="1" para="1" offset="46" length="3" wid="w9">car</wf>
+    <wf sent="1" para="1" offset="50" length="9" wid="w10">emissions</wf>
+    <wf sent="1" para="1" offset="60" length="3" wid="w11">law</wf>
+    <wf sent="10" para="2" offset="1197" length="3" wid="w228">She</wf>
+    <wf sent="10" para="2" offset="1201" length="4" wid="w229">also</wf>
+    <wf sent="10" para="2" offset="1206" length="4" wid="w230">said</wf>
+    <wf sent="10" para="2" offset="1211" length="11" wid="w231">flexibility</wf>
+    <wf sent="10" para="2" offset="1223" length="3" wid="w232">was</wf>
+    <wf sent="10" para="2" offset="1227" length="7" wid="w233">limited</wf>
+    <wf sent="10" para="2" offset="1235" length="3" wid="w234">and</wf>
+    <wf sent="10" para="2" offset="1239" length="1" wid="w235">a</wf>
+    <wf sent="10" para="2" offset="1241" length="6" wid="w236">German</wf>
+    <wf sent="10" para="2" offset="1248" length="8" wid="w237">proposal</wf>
+    <wf sent="10" para="2" offset="1257" length="2" wid="w238">to</wf>
+    <wf sent="10" para="2" offset="1260" length="5" wid="w239">delay</wf>
+    <wf sent="10" para="2" offset="1266" length="4" wid="w240">full</wf>
+    <wf sent="10" para="2" offset="1271" length="14" wid="w241">implementation</wf>
+    <wf sent="10" para="2" offset="1286" length="2" wid="w242">of</wf>
+    <wf sent="10" para="2" offset="1289" length="3" wid="w243">the</wf>
+    <wf sent="10" para="2" offset="1293" length="2" wid="w244">95</wf>
+    <wf sent="10" para="2" offset="1296" length="4" wid="w245">gram</wf>
+    <wf sent="10" para="2" offset="1301" length="6" wid="w246">target</wf>
+    <wf sent="10" para="2" offset="1308" length="3" wid="w247">for</wf>
+    <wf sent="10" para="2" offset="1312" length="4" wid="w248">four</wf>
+    <wf sent="10" para="2" offset="1317" length="5" wid="w249">years</wf>
+    <wf sent="10" para="2" offset="1323" length="2" wid="w250">to</wf>
+    <wf sent="10" para="2" offset="1326" length="4" wid="w251">2024</wf>
+    <wf sent="10" para="2" offset="1331" length="3" wid="w252">was</wf>
+    <wf sent="10" para="2" offset="1335" length="3" wid="w253">not</wf>
+    <wf sent="10" para="2" offset="1339" length="10" wid="w254">acceptable</wf>
+    <wf sent="10" para="2" offset="1349" length="1" wid="w255">.</wf>
+  </text>
+  <terms>
+    <!--Germany-->
+    <term type="close" lemma="Germany" pos="R" morphofeat="NNP" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--wins-->
+    <term type="open" lemma="win" pos="V" morphofeat="VBZ" tid="t2">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--backing-->
+    <term type="open" lemma="backing" pos="N" morphofeat="NN" tid="t3">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t4">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term type="close" lemma="EU" pos="R" morphofeat="NNP" tid="t5">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--ministers-->
+    <term type="open" lemma="minister" pos="N" morphofeat="NNS" tid="t6">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t7">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--block-->
+    <term type="open" lemma="block" pos="V" morphofeat="VB" tid="t8">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--car-->
+    <term type="open" lemma="car" pos="N" morphofeat="NN" tid="t9">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--emissions-->
+    <term type="open" lemma="emission" pos="N" morphofeat="NNS" tid="t10">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--law-->
+    <term type="open" lemma="law" pos="N" morphofeat="NN" tid="t11">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--She-->
+    <term type="close" lemma="she" pos="Q" morphofeat="PRP" tid="t228">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t229">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t230">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--flexibility-->
+    <term type="open" lemma="flexibility" pos="N" morphofeat="NN" tid="t231">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t232">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--limited-->
+    <term type="open" lemma="limit" pos="V" morphofeat="VBN" tid="t233">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t234">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t235">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--German-->
+    <term type="open" lemma="german" pos="G" morphofeat="JJ" tid="t236">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--proposal-->
+    <term type="open" lemma="proposal" pos="N" morphofeat="NN" tid="t237">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t238">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--delay-->
+    <term type="open" lemma="delay" pos="V" morphofeat="VB" tid="t239">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--full-->
+    <term type="open" lemma="full" pos="G" morphofeat="JJ" tid="t240">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--implementation-->
+    <term type="open" lemma="implementation" pos="N" morphofeat="NN" tid="t241">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t242">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t243">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--95-->
+    <term type="close" lemma="95" pos="O" morphofeat="CD" tid="t244">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--gram-->
+    <term type="open" lemma="gram" pos="N" morphofeat="NN" tid="t245">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--target-->
+    <term type="open" lemma="target" pos="N" morphofeat="NN" tid="t246">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t247">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--four-->
+    <term type="close" lemma="four" pos="O" morphofeat="CD" tid="t248">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--years-->
+    <term type="open" lemma="year" pos="N" morphofeat="NNS" tid="t249">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t250">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--2024-->
+    <term type="close" lemma="2024" pos="O" morphofeat="CD" tid="t251">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t252">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t253">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--acceptable-->
+    <term type="open" lemma="acceptable" pos="G" morphofeat="JJ" tid="t254">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t255">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--car emissions law-->
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--block-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder>
+        <!--She-->
+        <span>
+          <target id="t228"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--flexibility-->
+        <span>
+          <target id="t231"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--limited-->
+        <span>
+          <target id="t233"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=23-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--full implementation-->
+        <span>
+          <target id="t240"/>
+          <target id="t241"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--delay-->
+        <span>
+          <target id="t239"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder>
+        <!--She-->
+        <span>
+          <target id="t228"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--a German proposal-->
+        <span>
+          <target id="t235"/>
+          <target id="t236"/>
+          <target id="t237"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--not acceptable-->
+        <span>
+          <target id="t253"/>
+          <target id="t254"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--EU ministers-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--backing-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

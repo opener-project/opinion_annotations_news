@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:43:53CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w25" sent="4" para="2" offset="145" length="10">Timmermans</wf>
+    <wf wid="w26" sent="4" para="2" offset="156" length="3">zei</wf>
+    <wf wid="w27" sent="4" para="2" offset="160" length="3">dat</wf>
+    <wf wid="w28" sent="4" para="2" offset="164" length="12">dinsdagavond</wf>
+    <wf wid="w29" sent="4" para="2" offset="177" length="2">in</wf>
+    <wf wid="w30" sent="4" para="2" offset="180" length="3">het</wf>
+    <wf wid="w31" sent="4" para="2" offset="184" length="6">Tweede</wf>
+    <wf wid="w32" sent="4" para="2" offset="191" length="10">Kamerdebat</wf>
+    <wf wid="w33" sent="4" para="2" offset="202" length="4">over</wf>
+    <wf wid="w34" sent="4" para="2" offset="207" length="6">Europa</wf>
+    <wf wid="w35" sent="4" para="2" offset="213" length="1">.</wf>
+    <wf wid="w237" sent="14" para="2" offset="1309" length="2">De</wf>
+    <wf wid="w238" sent="14" para="2" offset="1312" length="15">administratieve</wf>
+    <wf wid="w239" sent="14" para="2" offset="1328" length="6">kosten</wf>
+    <wf wid="w240" sent="14" para="2" offset="1335" length="3">van</wf>
+    <wf wid="w241" sent="14" para="2" offset="1339" length="2">de</wf>
+    <wf wid="w242" sent="14" para="2" offset="1342" length="2">EU</wf>
+    <wf wid="w243" sent="14" para="2" offset="1345" length="4">zijn</wf>
+    <wf wid="w244" sent="14" para="2" offset="1350" length="2">te</wf>
+    <wf wid="w245" sent="14" para="2" offset="1353" length="4">hoog</wf>
+    <wf wid="w246" sent="14" para="2" offset="1357" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Timmermans-->
+    <term tid="t25" type="open" lemma="Timmermans" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--zei-->
+    <term tid="t26" type="open" lemma="zeggen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t27" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--dinsdagavond-->
+    <term tid="t28" type="open" lemma="dinsdagavond" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t29" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t30" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--Tweede-->
+    <term tid="t31" type="open" lemma="Tweede" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--Kamerdebat-->
+    <term tid="t32" type="open" lemma="Kamerdebat" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t33" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t34" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t35" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t237" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--administratieve-->
+    <term tid="t238" type="open" lemma="administratief" pos="G" morphofeat="adj">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--kosten-->
+    <term tid="t239" type="open" lemma="kost" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t240" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t241" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term tid="t242" type="open" lemma="EU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t243" type="open" lemma="zijn" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t244" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--hoog-->
+    <term tid="t245" type="open" lemma="hoog" pos="G" morphofeat="adj">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t246" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--De administratieve kosten-->
+        <span>
+          <target id="t237"/>
+          <target id="t238"/>
+          <target id="t239"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--te hoog-->
+        <span>
+          <target id="t244"/>
+          <target id="t245"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

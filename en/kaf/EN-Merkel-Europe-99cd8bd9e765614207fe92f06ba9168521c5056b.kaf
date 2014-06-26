@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:49Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:49Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:46:05" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:46:20CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="8" para="2" offset="974" length="6" wid="w185">Europe</wf>
+    <wf sent="8" para="2" offset="980" length="2" wid="w186">'s</wf>
+    <wf sent="8" para="2" offset="983" length="7" wid="w187">largest</wf>
+    <wf sent="8" para="2" offset="991" length="9" wid="w188">economies</wf>
+    <wf sent="8" para="2" offset="1001" length="1" wid="w189">–</wf>
+    <wf sent="8" para="2" offset="1003" length="7" wid="w190">Germany</wf>
+    <wf sent="8" para="2" offset="1010" length="1" wid="w191">,</wf>
+    <wf sent="8" para="2" offset="1012" length="6" wid="w192">France</wf>
+    <wf sent="8" para="2" offset="1018" length="1" wid="w193">,</wf>
+    <wf sent="8" para="2" offset="1020" length="5" wid="w194">Italy</wf>
+    <wf sent="8" para="2" offset="1026" length="3" wid="w195">and</wf>
+    <wf sent="8" para="2" offset="1030" length="5" wid="w196">Spain</wf>
+    <wf sent="8" para="2" offset="1036" length="1" wid="w197">–</wf>
+    <wf sent="8" para="2" offset="1038" length="3" wid="w198">are</wf>
+    <wf sent="8" para="2" offset="1042" length="6" wid="w199">signed</wf>
+    <wf sent="8" para="2" offset="1049" length="2" wid="w200">up</wf>
+    <wf sent="8" para="2" offset="1051" length="1" wid="w201">.</wf>
+  </text>
+  <terms>
+    <!--Europe-->
+    <term type="close" lemma="Europe" pos="R" morphofeat="NNP" tid="t185">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t186">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--largest-->
+    <term type="open" lemma="largest" pos="G" morphofeat="JJS" tid="t187">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--economies-->
+    <term type="open" lemma="economy" pos="N" morphofeat="NNS" tid="t188">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--–-->
+    <term type="open" lemma="–" pos="V" morphofeat="VBP" tid="t189">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--Germany-->
+    <term type="close" lemma="Germany" pos="R" morphofeat="NNP" tid="t190">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t191">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--France-->
+    <term type="close" lemma="France" pos="R" morphofeat="NNP" tid="t192">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t193">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--Italy-->
+    <term type="close" lemma="Italy" pos="R" morphofeat="NNP" tid="t194">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t195">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--Spain-->
+    <term type="close" lemma="Spain" pos="R" morphofeat="NNP" tid="t196">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--–-->
+    <term type="open" lemma="–" pos="N" morphofeat="NN" tid="t197">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t198">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--signed-->
+    <term type="open" lemma="sign" pos="V" morphofeat="VBN" tid="t199">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--up-->
+    <term type="open" lemma="up" pos="A" morphofeat="RB" tid="t200">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t201">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

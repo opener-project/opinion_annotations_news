@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:04:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:04:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:20:21" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:56:05CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="13" para="2" offset="1884" length="1" wid="w333">A</wf>
+    <wf sent="13" para="2" offset="1886" length="4" wid="w334">July</wf>
+    <wf sent="13" para="2" offset="1891" length="4" wid="w335">bomb</wf>
+    <wf sent="13" para="2" offset="1896" length="4" wid="w336">that</wf>
+    <wf sent="13" para="2" offset="1901" length="6" wid="w337">killed</wf>
+    <wf sent="13" para="2" offset="1908" length="4" wid="w338">four</wf>
+    <wf sent="13" para="2" offset="1913" length="2" wid="w339">of</wf>
+    <wf sent="13" para="2" offset="1916" length="5" wid="w340">Assad</wf>
+    <wf sent="13" para="2" offset="1921" length="2" wid="w341">'s</wf>
+    <wf sent="13" para="2" offset="1924" length="3" wid="w342">top</wf>
+    <wf sent="13" para="2" offset="1928" length="11" wid="w343">lieutenants</wf>
+    <wf sent="13" para="2" offset="1940" length="3" wid="w344">was</wf>
+    <wf sent="13" para="2" offset="1944" length="7" wid="w345">swiftly</wf>
+    <wf sent="13" para="2" offset="1952" length="8" wid="w346">followed</wf>
+    <wf sent="13" para="2" offset="1961" length="2" wid="w347">up</wf>
+    <wf sent="13" para="2" offset="1964" length="4" wid="w348">with</wf>
+    <wf sent="13" para="2" offset="1969" length="2" wid="w349">an</wf>
+    <wf sent="13" para="2" offset="1972" length="7" wid="w350">advance</wf>
+    <wf sent="13" para="2" offset="1980" length="4" wid="w351">into</wf>
+    <wf sent="13" para="2" offset="1985" length="8" wid="w352">Damascus</wf>
+    <wf sent="13" para="2" offset="1994" length="2" wid="w353">by</wf>
+    <wf sent="13" para="2" offset="1997" length="6" wid="w354">rebels</wf>
+    <wf sent="13" para="2" offset="2004" length="3" wid="w355">but</wf>
+    <wf sent="13" para="2" offset="2008" length="4" wid="w356">they</wf>
+    <wf sent="13" para="2" offset="2013" length="4" wid="w357">were</wf>
+    <wf sent="13" para="2" offset="2018" length="4" wid="w358">then</wf>
+    <wf sent="13" para="2" offset="2023" length="9" wid="w359">partially</wf>
+    <wf sent="13" para="2" offset="2033" length="6" wid="w360">beaten</wf>
+    <wf sent="13" para="2" offset="2040" length="4" wid="w361">back</wf>
+    <wf sent="13" para="2" offset="2045" length="2" wid="w362">by</wf>
+    <wf sent="13" para="2" offset="2048" length="5" wid="w363">Assad</wf>
+    <wf sent="13" para="2" offset="2053" length="2" wid="w364">'s</wf>
+    <wf sent="13" para="2" offset="2056" length="6" wid="w365">forces</wf>
+    <wf sent="13" para="2" offset="2062" length="1" wid="w366">.</wf>
+  </text>
+  <terms>
+    <!--A-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t333">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <!--July-->
+    <term type="close" lemma="July" pos="R" morphofeat="NNP" tid="t334">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <!--bomb-->
+    <term type="open" lemma="bomb" pos="N" morphofeat="NN" tid="t335">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="O" morphofeat="WDT" tid="t336">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--killed-->
+    <term type="open" lemma="kill" pos="V" morphofeat="VBD" tid="t337">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <!--four-->
+    <term type="close" lemma="four" pos="O" morphofeat="CD" tid="t338">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t339">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--Assad-->
+    <term type="close" lemma="Assad" pos="R" morphofeat="NNP" tid="t340">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t341">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--top-->
+    <term type="open" lemma="top" pos="G" morphofeat="JJ" tid="t342">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--lieutenants-->
+    <term type="open" lemma="lieutenant" pos="N" morphofeat="NNS" tid="t343">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t344">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--swiftly-->
+    <term type="open" lemma="swiftly" pos="A" morphofeat="RB" tid="t345">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <!--followed-->
+    <term type="open" lemma="follow" pos="V" morphofeat="VBN" tid="t346">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--up-->
+    <term type="open" lemma="up" pos="A" morphofeat="RB" tid="t347">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t348">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <!--an-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t349">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <!--advance-->
+    <term type="open" lemma="advance" pos="N" morphofeat="NN" tid="t350">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <!--into-->
+    <term type="close" lemma="into" pos="P" morphofeat="IN" tid="t351">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <!--Damascus-->
+    <term type="close" lemma="Damascus" pos="R" morphofeat="NNP" tid="t352">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t353">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+    <!--rebels-->
+    <term type="open" lemma="rebel" pos="N" morphofeat="NNS" tid="t354">
+      <span>
+        <target id="w354"/>
+      </span>
+    </term>
+    <!--but-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t355">
+      <span>
+        <target id="w355"/>
+      </span>
+    </term>
+    <!--they-->
+    <term type="close" lemma="they" pos="Q" morphofeat="PRP" tid="t356">
+      <span>
+        <target id="w356"/>
+      </span>
+    </term>
+    <!--were-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t357">
+      <span>
+        <target id="w357"/>
+      </span>
+    </term>
+    <!--then-->
+    <term type="open" lemma="then" pos="A" morphofeat="RB" tid="t358">
+      <span>
+        <target id="w358"/>
+      </span>
+    </term>
+    <!--partially-->
+    <term type="open" lemma="partially" pos="A" morphofeat="RB" tid="t359">
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <!--beaten-->
+    <term type="open" lemma="beaten" pos="V" morphofeat="VB" tid="t360">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+    <!--back-->
+    <term type="open" lemma="back" pos="A" morphofeat="RB" tid="t361">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t362">
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <!--Assad-->
+    <term type="close" lemma="Assad" pos="R" morphofeat="NNP" tid="t363">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t364">
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <!--forces-->
+    <term type="open" lemma="force" pos="N" morphofeat="NNS" tid="t365">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t366">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t333"/>
+          <target id="t334"/>
+          <target id="t335"/>
+          <target id="t336"/>
+          <target id="t337"/>
+          <target id="t338"/>
+          <target id="t339"/>
+          <target id="t340"/>
+          <target id="t341"/>
+          <target id="t342"/>
+          <target id="t343"/>
+          <target id="t344"/>
+          <target id="t345"/>
+          <target id="t346"/>
+          <target id="t347"/>
+          <target id="t348"/>
+          <target id="t349"/>
+          <target id="t350"/>
+          <target id="t351"/>
+          <target id="t352"/>
+          <target id="t353"/>
+          <target id="t354"/>
+          <target id="t355"/>
+          <target id="t356"/>
+          <target id="t357"/>
+          <target id="t358"/>
+          <target id="t359"/>
+          <target id="t360"/>
+          <target id="t361"/>
+          <target id="t362"/>
+          <target id="t363"/>
+          <target id="t364"/>
+          <target id="t365"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

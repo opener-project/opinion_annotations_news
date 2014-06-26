@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:13Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:13Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:23:01CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w67" sent="4" para="2" offset="410" length="3">Hij</wf>
+    <wf wid="w68" sent="4" para="2" offset="414" length="5">maakt</wf>
+    <wf wid="w69" sent="4" para="2" offset="420" length="4">zich</wf>
+    <wf wid="w70" sent="4" para="2" offset="425" length="6">zorgen</wf>
+    <wf wid="w71" sent="4" para="2" offset="432" length="4">over</wf>
+    <wf wid="w72" sent="4" para="2" offset="437" length="2">de</wf>
+    <wf wid="w73" sent="4" para="2" offset="440" length="20">schuldenproblematiek</wf>
+    <wf wid="w74" sent="4" para="2" offset="461" length="2">in</wf>
+    <wf wid="w75" sent="4" para="2" offset="464" length="6">Europa</wf>
+    <wf wid="w76" sent="4" para="2" offset="470" length="1">.</wf>
+    <wf wid="w305" sent="15" para="2" offset="1753" length="2">De</wf>
+    <wf wid="w306" sent="15" para="2" offset="1756" length="7">Chinese</wf>
+    <wf wid="w307" sent="15" para="2" offset="1764" length="7">leiders</wf>
+    <wf wid="w308" sent="15" para="2" offset="1772" length="6">vrezen</wf>
+    <wf wid="w309" sent="15" para="2" offset="1779" length="6">echter</wf>
+    <wf wid="w310" sent="15" para="2" offset="1786" length="2">de</wf>
+    <wf wid="w311" sent="15" para="2" offset="1789" length="14">verslechtering</wf>
+    <wf wid="w312" sent="15" para="2" offset="1804" length="3">van</wf>
+    <wf wid="w313" sent="15" para="2" offset="1808" length="2">de</wf>
+    <wf wid="w314" sent="15" para="2" offset="1811" length="8">economie</wf>
+    <wf wid="w315" sent="15" para="2" offset="1820" length="2">in</wf>
+    <wf wid="w316" sent="15" para="2" offset="1823" length="6">Europa</wf>
+    <wf wid="w317" sent="15" para="2" offset="1829" length="1">,</wf>
+    <wf wid="w318" sent="15" para="2" offset="1831" length="4">waar</wf>
+    <wf wid="w319" sent="15" para="2" offset="1836" length="4">veel</wf>
+    <wf wid="w320" sent="15" para="2" offset="1841" length="7">Chinese</wf>
+    <wf wid="w321" sent="15" para="2" offset="1849" length="9">bedrijven</wf>
+    <wf wid="w322" sent="15" para="2" offset="1859" length="8">expansie</wf>
+    <wf wid="w323" sent="15" para="2" offset="1868" length="8">proberen</wf>
+    <wf wid="w324" sent="15" para="2" offset="1877" length="2">te</wf>
+    <wf wid="w325" sent="15" para="2" offset="1880" length="15">bewerkstelligen</wf>
+    <wf wid="w326" sent="15" para="2" offset="1895" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hij-->
+    <term tid="t67" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--maakt-->
+    <term tid="t68" type="open" lemma="maken" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--zich-->
+    <term tid="t69" type="close" lemma="zich" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--zorgen-->
+    <term tid="t70" type="open" lemma="zorgen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w70"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--over-->
+    <term tid="t71" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t72" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--schuldenproblematiek-->
+    <term tid="t73" type="open" lemma="schuldenproblematiek" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t74" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t75" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t76" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t305" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--Chinese-->
+    <term tid="t306" type="open" lemma="Chinees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <!--leiders-->
+    <term tid="t307" type="open" lemma="leider" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <!--vrezen-->
+    <term tid="t308" type="open" lemma="vrezen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w308"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--echter-->
+    <term tid="t309" type="open" lemma="echter" pos="A" morphofeat="adv">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t310" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <!--verslechtering-->
+    <term tid="t311" type="open" lemma="verslechtering" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t312" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t313" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <!--economie-->
+    <term tid="t314" type="open" lemma="economie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w314"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--in-->
+    <term tid="t315" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t316" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t317" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--waar-->
+    <term tid="t318" type="close" lemma="waar" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <!--veel-->
+    <term tid="t319" type="open" lemma="veel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--Chinese-->
+    <term tid="t320" type="open" lemma="Chinees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <!--bedrijven-->
+    <term tid="t321" type="open" lemma="bedrijf" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <!--expansie-->
+    <term tid="t322" type="open" lemma="expansie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--proberen-->
+    <term tid="t323" type="open" lemma="proberen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t324" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--bewerkstelligen-->
+    <term tid="t325" type="open" lemma="bewerkstelligen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t326" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=25-->
+      <opinion_holder>
+        <!--Chinese bedrijven-->
+        <span>
+          <target id="t320"/>
+          <target id="t321"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--expansie-->
+        <span>
+          <target id="t322"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--proberen te bewerkstelligen-->
+        <span>
+          <target id="t323"/>
+          <target id="t324"/>
+          <target id="t325"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--economie-->
+        <span>
+          <target id="t314"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--verslechtering-->
+        <span>
+          <target id="t311"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder>
+        <!--De Chinese leiders-->
+        <span>
+          <target id="t305"/>
+          <target id="t306"/>
+          <target id="t307"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de verslechtering van de economie in Europa-->
+        <span>
+          <target id="t310"/>
+          <target id="t311"/>
+          <target id="t312"/>
+          <target id="t313"/>
+          <target id="t314"/>
+          <target id="t315"/>
+          <target id="t316"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--vrezen-->
+        <span>
+          <target id="t308"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Hij-->
+        <span>
+          <target id="t67"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de schuldenproblematiek in Europa-->
+        <span>
+          <target id="t72"/>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--maakt zich zorgen over-->
+        <span>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--schuldenproblematiek-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

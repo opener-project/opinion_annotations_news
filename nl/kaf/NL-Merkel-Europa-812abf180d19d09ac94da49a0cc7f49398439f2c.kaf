@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:17:39CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w67" sent="5" para="2" offset="372" length="4">Iets</wf>
+    <wf wid="w68" sent="5" para="2" offset="377" length="4">meer</wf>
+    <wf wid="w69" sent="5" para="2" offset="382" length="3">dan</wf>
+    <wf wid="w70" sent="5" para="2" offset="386" length="3">een</wf>
+    <wf wid="w71" sent="5" para="2" offset="390" length="9">decennium</wf>
+    <wf wid="w72" sent="5" para="2" offset="400" length="7">geleden</wf>
+    <wf wid="w73" sent="5" para="2" offset="408" length="7">ruilden</wf>
+    <wf wid="w74" sent="5" para="2" offset="416" length="2">de</wf>
+    <wf wid="w75" sent="5" para="2" offset="419" length="8">Duitsers</wf>
+    <wf wid="w76" sent="5" para="2" offset="428" length="3">met</wf>
+    <wf wid="w77" sent="5" para="2" offset="432" length="5">enige</wf>
+    <wf wid="w78" sent="5" para="2" offset="438" length="8">tegenzin</wf>
+    <wf wid="w79" sent="5" para="2" offset="447" length="3">hun</wf>
+    <wf wid="w80" sent="5" para="2" offset="451" length="8">stabiele</wf>
+    <wf wid="w81" sent="5" para="2" offset="460" length="4">mark</wf>
+    <wf wid="w82" sent="5" para="2" offset="465" length="2">in</wf>
+    <wf wid="w83" sent="5" para="2" offset="468" length="4">voor</wf>
+    <wf wid="w84" sent="5" para="2" offset="473" length="2">de</wf>
+    <wf wid="w85" sent="5" para="2" offset="476" length="2">nu</wf>
+    <wf wid="w86" sent="5" para="2" offset="479" length="3">erg</wf>
+    <wf wid="w87" sent="5" para="2" offset="483" length="6">gammel</wf>
+    <wf wid="w88" sent="5" para="2" offset="490" length="8">lijkende</wf>
+    <wf wid="w89" sent="5" para="2" offset="499" length="4">euro</wf>
+    <wf wid="w90" sent="5" para="2" offset="503" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Iets-->
+    <term tid="t67" type="open" lemma="iets" pos="A" morphofeat="adv">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--meer-->
+    <term tid="t68" type="open" lemma="meer" pos="A" morphofeat="adv">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--dan-->
+    <term tid="t69" type="close" lemma="dan" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t70" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--decennium-->
+    <term tid="t71" type="open" lemma="decennium" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--geleden-->
+    <term tid="t72" type="open" lemma="lijden" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w72"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--ruilden-->
+    <term tid="t73" type="open" lemma="ruilen" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t74" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--Duitsers-->
+    <term tid="t75" type="open" lemma="Duitser" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t76" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--enige-->
+    <term tid="t77" type="open" lemma="enig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--tegenzin-->
+    <term tid="t78" type="open" lemma="tegenzin" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w78"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--hun-->
+    <term tid="t79" type="close" lemma="hun" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--stabiele-->
+    <term tid="t80" type="open" lemma="stabiel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w80"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--mark-->
+    <term tid="t81" type="open" lemma="mark" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t82" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t83" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t84" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--nu-->
+    <term tid="t85" type="open" lemma="nu" pos="A" morphofeat="adv">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--erg-->
+    <term tid="t86" type="open" lemma="erg" pos="G" morphofeat="adj">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--gammel-->
+    <term tid="t87" type="open" lemma="gammel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--lijkende-->
+    <term tid="t88" type="open" lemma="lijken" pos="V" morphofeat="verbpresp">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t89" type="open" lemma="euro" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t90" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--euro-->
+        <span>
+          <target id="t89"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--erg gammel lijkende-->
+        <span>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--mark-->
+        <span>
+          <target id="t81"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--stabiele-->
+        <span>
+          <target id="t80"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

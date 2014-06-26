@@ -1,0 +1,12 @@
+w60	Im	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	59	true	7
+w61	Zentrum	Zentrum	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	60	true	7
+w62	stehen	stehen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	61	true	7
+w63	Finanzen	Finanz	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	62	true	7
+w64	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	63	true	7
+w65	Energiewende	Energiewende	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	64	true	7
+w66	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	65	true	7
+w67	soziale	sozial	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	66	true	7
+w68	Sicherheit	Sicherheit	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	67	true	7
+w69	und	und	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	68	true	7
+w70	der	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	69	true	7
+w71	Euro.	euro.	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	70	true	7

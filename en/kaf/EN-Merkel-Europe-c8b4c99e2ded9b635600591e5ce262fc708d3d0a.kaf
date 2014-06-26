@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:29Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:29Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:54:49" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:31:46CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:45CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="11" para="2" offset="1789" length="3" wid="w326">And</wf>
+    <wf sent="11" para="2" offset="1793" length="5" wid="w327">David</wf>
+    <wf sent="11" para="2" offset="1799" length="7" wid="w328">Cameron</wf>
+    <wf sent="11" para="2" offset="1807" length="6" wid="w329">blamed</wf>
+    <wf sent="11" para="2" offset="1814" length="1" wid="w330">"</wf>
+    <wf sent="11" para="2" offset="1815" length="13" wid="w331">muddle-headed</wf>
+    <wf sent="11" para="2" offset="1829" length="8" wid="w332">thinking</wf>
+    <wf sent="11" para="2" offset="1837" length="1" wid="w333">"</wf>
+    <wf sent="11" para="2" offset="1839" length="2" wid="w334">on</wf>
+    <wf sent="11" para="2" offset="1842" length="3" wid="w335">the</wf>
+    <wf sent="11" para="2" offset="1846" length="4" wid="w336">part</wf>
+    <wf sent="11" para="2" offset="1851" length="2" wid="w337">of</wf>
+    <wf sent="11" para="2" offset="1854" length="4" wid="w338">some</wf>
+    <wf sent="11" para="2" offset="1859" length="8" wid="w339">European</wf>
+    <wf sent="11" para="2" offset="1868" length="11" wid="w340">governments</wf>
+    <wf sent="11" para="2" offset="1880" length="3" wid="w341">for</wf>
+    <wf sent="11" para="2" offset="1884" length="3" wid="w342">the</wf>
+    <wf sent="11" para="2" offset="1888" length="5" wid="w343">fever</wf>
+    <wf sent="11" para="2" offset="1894" length="3" wid="w344">now</wf>
+    <wf sent="11" para="2" offset="1898" length="8" wid="w345">gripping</wf>
+    <wf sent="11" para="2" offset="1907" length="3" wid="w346">the</wf>
+    <wf sent="11" para="2" offset="1911" length="8" wid="w347">monetary</wf>
+    <wf sent="11" para="2" offset="1920" length="5" wid="w348">union</wf>
+    <wf sent="11" para="2" offset="1925" length="1" wid="w349">.</wf>
+  </text>
+  <terms>
+    <!--And-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t326">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <!--David-->
+    <term type="close" lemma="David" pos="R" morphofeat="NNP" tid="t327">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t328">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--blamed-->
+    <term type="open" lemma="blame" pos="V" morphofeat="VBD" tid="t329">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t330">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <!--muddle-headed-->
+    <term type="open" lemma="muddle-headed" pos="G" morphofeat="JJ" tid="t331">
+      <span>
+        <target id="w331"/>
+      </span>
+    </term>
+    <!--thinking-->
+    <term type="open" lemma="thinking" pos="N" morphofeat="NN" tid="t332">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t333">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t334">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t335">
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <!--part-->
+    <term type="open" lemma="part" pos="N" morphofeat="NN" tid="t336">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t337">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <!--some-->
+    <term type="close" lemma="some" pos="D" morphofeat="DT" tid="t338">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <!--European-->
+    <term type="open" lemma="european" pos="G" morphofeat="JJ" tid="t339">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--governments-->
+    <term type="open" lemma="government" pos="N" morphofeat="NNS" tid="t340">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t341">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t342">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--fever-->
+    <term type="open" lemma="fever" pos="N" morphofeat="NN" tid="t343">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--now-->
+    <term type="open" lemma="now" pos="A" morphofeat="RB" tid="t344">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--gripping-->
+    <term type="open" lemma="grip" pos="V" morphofeat="VBG" tid="t345">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t346">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--monetary-->
+    <term type="open" lemma="monetary" pos="G" morphofeat="JJ" tid="t347">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--union-->
+    <term type="open" lemma="union" pos="N" morphofeat="NN" tid="t348">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t349">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--David Cameron-->
+        <span>
+          <target id="t327"/>
+          <target id="t328"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--muddle-headed thinking-->
+        <span>
+          <target id="t331"/>
+          <target id="t332"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--blamed-->
+        <span>
+          <target id="t329"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,13 @@
+w309	Am	an	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	308	true	20
+w310	21.	21.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	309	true	20
+w311	Oktober	Oktober	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	310	true	20
+w312	2010	@card@	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	311	true	20
+w313	starb	sterben	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	312	true	20
+w314	seine	sein	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	313	true	20
+w315	Ehefrau	Ehefrau	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	314	true	20
+w316	Loki	Loki	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	315	true	20
+w317	im	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	316	true	20
+w318	Alter	Alter	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	317	true	20
+w319	von	von	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	318	true	20
+w320	91	91	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	319	true	20
+w321	Jahren	Jahr	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	320	true	20

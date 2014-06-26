@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:39Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:39Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:21:33" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:49:08CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="18" para="2" offset="2471" length="3" wid="w479">Yet</wf>
+    <wf sent="18" para="2" offset="2475" length="5" wid="w480">there</wf>
+    <wf sent="18" para="2" offset="2481" length="3" wid="w481">are</wf>
+    <wf sent="18" para="2" offset="2485" length="5" wid="w482">still</wf>
+    <wf sent="18" para="2" offset="2491" length="4" wid="w483">many</wf>
+    <wf sent="18" para="2" offset="2496" length="2" wid="w484">in</wf>
+    <wf sent="18" para="2" offset="2499" length="3" wid="w485">his</wf>
+    <wf sent="18" para="2" offset="2503" length="5" wid="w486">party</wf>
+    <wf sent="18" para="2" offset="2509" length="3" wid="w487">who</wf>
+    <wf sent="18" para="2" offset="2513" length="8" wid="w488">advocate</wf>
+    <wf sent="18" para="2" offset="2522" length="1" wid="w489">a</wf>
+    <wf sent="18" para="2" offset="2524" length="6" wid="w490">wealth</wf>
+    <wf sent="18" para="2" offset="2531" length="3" wid="w491">tax</wf>
+    <wf sent="18" para="2" offset="2534" length="1" wid="w492">.</wf>
+  </text>
+  <terms>
+    <!--Yet-->
+    <term type="close" lemma="yet" pos="C" morphofeat="CC" tid="t479">
+      <span>
+        <target id="w479"/>
+      </span>
+    </term>
+    <!--there-->
+    <term type="close" lemma="there" pos="O" morphofeat="EX" tid="t480">
+      <span>
+        <target id="w480"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t481">
+      <span>
+        <target id="w481"/>
+      </span>
+    </term>
+    <!--still-->
+    <term type="open" lemma="still" pos="A" morphofeat="RB" tid="t482">
+      <span>
+        <target id="w482"/>
+      </span>
+    </term>
+    <!--many-->
+    <term type="open" lemma="many" pos="G" morphofeat="JJ" tid="t483">
+      <span>
+        <target id="w483"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t484">
+      <span>
+        <target id="w484"/>
+      </span>
+    </term>
+    <!--his-->
+    <term type="close" lemma="his" pos="Q" morphofeat="PRP$" tid="t485">
+      <span>
+        <target id="w485"/>
+      </span>
+    </term>
+    <!--party-->
+    <term type="open" lemma="party" pos="N" morphofeat="NN" tid="t486">
+      <span>
+        <target id="w486"/>
+      </span>
+    </term>
+    <!--who-->
+    <term type="close" lemma="who" pos="Q" morphofeat="WP" tid="t487">
+      <span>
+        <target id="w487"/>
+      </span>
+    </term>
+    <!--advocate-->
+    <term type="open" lemma="advocate" pos="V" morphofeat="VBP" tid="t488">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w488"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t489">
+      <span>
+        <target id="w489"/>
+      </span>
+    </term>
+    <!--wealth-->
+    <term type="open" lemma="wealth" pos="N" morphofeat="NN" tid="t490">
+      <span>
+        <target id="w490"/>
+      </span>
+    </term>
+    <!--tax-->
+    <term type="open" lemma="tax" pos="N" morphofeat="NN" tid="t491">
+      <span>
+        <target id="w491"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t492">
+      <span>
+        <target id="w492"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--many in his party-->
+        <span>
+          <target id="t483"/>
+          <target id="t484"/>
+          <target id="t485"/>
+          <target id="t486"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--a wealth tax-->
+        <span>
+          <target id="t489"/>
+          <target id="t490"/>
+          <target id="t491"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--advocate-->
+        <span>
+          <target id="t488"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

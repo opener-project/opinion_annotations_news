@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:08:08Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:08:08Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:57:34CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:08:27CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:57CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w229" sent="17" para="6" offset="1382" length="3">Die</wf>
+    <wf wid="w230" sent="17" para="6" offset="1386" length="13">Schuldenkrise</wf>
+    <wf wid="w231" sent="17" para="6" offset="1400" length="5">müsse</wf>
+    <wf wid="w232" sent="17" para="6" offset="1406" length="9">dauerhaft</wf>
+    <wf wid="w233" sent="17" para="6" offset="1416" length="10">überwunden</wf>
+    <wf wid="w234" sent="17" para="6" offset="1427" length="6">werden</wf>
+    <wf wid="w235" sent="17" para="6" offset="1433" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t229" type="close">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <term lemma="Schuldenkrise" morphofeat="NN" pos="N" tid="t230" type="open">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <term lemma="müssen" morphofeat="VMFIN" pos="V" tid="t231" type="open">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <term lemma="dauerhaft" morphofeat="ADJD" pos="G" tid="t232" type="open">
+      <span>
+        <target id="w232"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="überwinden" morphofeat="VVPP" pos="V" tid="t233" type="open">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAINF" pos="V" tid="t234" type="open">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t235" type="open">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Die Schuldenkrise-->
+        <span>
+          <target id="t229"/>
+          <target id="t230"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--müsse dauerhaft überwunden werden-->
+        <span>
+          <target id="t231"/>
+          <target id="t232"/>
+          <target id="t233"/>
+          <target id="t234"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

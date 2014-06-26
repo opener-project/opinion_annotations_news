@@ -1,0 +1,9 @@
+w408	Nick	Nick	R		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	407	true	13
+w409	Clegg	Clegg	R		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	408	true	13
+w410	said	say	V		D-Neutral	2	Opinion	5		0		0		0		0		0		0	409	true	13
+w411	the	the	D		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	410	true	13
+w412	idea	idea	N		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	411	true	13
+w413	did	do	V		I-Negative	4	Opinion	5		0		0		0		0		0		0	412	true	13
+w414	not	not	A		I-Negative	4	Opinion	5		0		0		0		0		0		0	413	true	13
+w415	make	make	V		I-Negative	4	Opinion	5		0		0		0		0		0		0	414	true	13
+w416	sense	sense	N		I-Negative	4	Opinion	5		0		0		0		0		0		0	415	true	13

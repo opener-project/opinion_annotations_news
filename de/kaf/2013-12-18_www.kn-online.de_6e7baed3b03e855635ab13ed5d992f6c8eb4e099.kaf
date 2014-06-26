@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:00:07Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:00:07Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:48:16CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:00:24CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:37CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w156" sent="10" para="4" offset="962" length="3">Das</wf>
+    <wf wid="w157" sent="10" para="4" offset="966" length="16">Außenministerium</wf>
+    <wf wid="w158" sent="10" para="4" offset="983" length="4">wies</wf>
+    <wf wid="w159" sent="10" para="4" offset="988" length="13">Spekulationen</wf>
+    <wf wid="w160" sent="10" para="4" offset="1002" length="4">über</wf>
+    <wf wid="w161" sent="10" para="4" offset="1007" length="5">einen</wf>
+    <wf wid="w162" sent="10" para="4" offset="1013" length="7">Einsatz</wf>
+    <wf wid="w163" sent="10" para="4" offset="1021" length="9">deutscher</wf>
+    <wf wid="w164" sent="10" para="4" offset="1031" length="8">Soldaten</wf>
+    <wf wid="w165" sent="10" para="4" offset="1040" length="2">in</wf>
+    <wf wid="w166" sent="10" para="4" offset="1043" length="13">Zentralafrika</wf>
+    <wf wid="w167" sent="10" para="4" offset="1057" length="6">zurück</wf>
+    <wf wid="w168" sent="10" para="4" offset="1063" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t156" type="close">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <term lemma="Außenministerium" morphofeat="NN" pos="N" tid="t157" type="open">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <term lemma="weisen" morphofeat="VVFIN" pos="V" tid="t158" type="open">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <term lemma="Spekulation" morphofeat="NN" pos="N" tid="t159" type="open">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <term lemma="über" morphofeat="APPR" pos="P" tid="t160" type="close">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t161" type="close">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <term lemma="Einsatz" morphofeat="NN" pos="N" tid="t162" type="open">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <term lemma="deutsch" morphofeat="ADJA" pos="G" tid="t163" type="open">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <term lemma="Soldat" morphofeat="NN" pos="N" tid="t164" type="open">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t165" type="close">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <term lemma="Zentralafrika" morphofeat="NE" pos="R" tid="t166" type="open">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <term lemma="zurück" morphofeat="PTKVZ" pos="V" tid="t167" type="open">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t168" type="open">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--deutscher Soldaten-->
+        <span>
+          <target id="t163"/>
+          <target id="t164"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--einen Einsatz-->
+        <span>
+          <target id="t161"/>
+          <target id="t162"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

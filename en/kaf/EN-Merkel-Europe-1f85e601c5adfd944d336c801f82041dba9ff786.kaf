@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:12:26" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:47:51CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="1330" length="1" wid="w231">"</wf>
+    <wf sent="9" para="2" offset="1331" length="4" wid="w232">News</wf>
+    <wf sent="9" para="2" offset="1336" length="7" wid="w233">reports</wf>
+    <wf sent="9" para="2" offset="1344" length="8" wid="w234">claiming</wf>
+    <wf sent="9" para="2" offset="1353" length="9" wid="w235">otherwise</wf>
+    <wf sent="9" para="2" offset="1363" length="3" wid="w236">are</wf>
+    <wf sent="9" para="2" offset="1367" length="3" wid="w237">not</wf>
+    <wf sent="9" para="2" offset="1371" length="4" wid="w238">true</wf>
+    <wf sent="9" para="2" offset="1375" length="1" wid="w239">,</wf>
+    <wf sent="9" para="2" offset="1376" length="1" wid="w240">"</wf>
+    <wf sent="9" para="2" offset="1378" length="3" wid="w241">she</wf>
+    <wf sent="9" para="2" offset="1382" length="5" wid="w242">added</wf>
+    <wf sent="9" para="2" offset="1387" length="1" wid="w243">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t231">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--News-->
+    <term type="open" lemma="news" pos="N" morphofeat="NNS" tid="t232">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--reports-->
+    <term type="open" lemma="report" pos="V" morphofeat="VBZ" tid="t233">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--claiming-->
+    <term type="open" lemma="claiming" pos="G" morphofeat="JJ" tid="t234">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--otherwise-->
+    <term type="open" lemma="otherwise" pos="A" morphofeat="RB" tid="t235">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t236">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t237">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--true-->
+    <term type="open" lemma="true" pos="G" morphofeat="JJ" tid="t238">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t239">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t240">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--she-->
+    <term type="close" lemma="she" pos="Q" morphofeat="PRP" tid="t241">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--added-->
+    <term type="open" lemma="add" pos="V" morphofeat="VBD" tid="t242">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t243">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--she-->
+        <span>
+          <target id="t241"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--News reports claiming otherwise-->
+        <span>
+          <target id="t232"/>
+          <target id="t233"/>
+          <target id="t234"/>
+          <target id="t235"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--are not true-->
+        <span>
+          <target id="t236"/>
+          <target id="t237"/>
+          <target id="t238"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--News reports-->
+        <span>
+          <target id="t232"/>
+          <target id="t233"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--claiming otherwise-->
+        <span>
+          <target id="t234"/>
+          <target id="t235"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

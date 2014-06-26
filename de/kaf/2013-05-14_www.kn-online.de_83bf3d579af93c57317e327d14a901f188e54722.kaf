@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:54:24Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:54:24Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:49:39CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:54:45CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w676" sent="33" para="9" offset="3880" length="3">Ich</wf>
+    <wf wid="w677" sent="33" para="9" offset="3884" length="3">hab</wf>
+    <wf wid="w678" sent="33" para="9" offset="3888" length="5">davor</wf>
+    <wf wid="w679" sent="33" para="9" offset="3894" length="5">keine</wf>
+    <wf wid="w680" sent="33" para="9" offset="3900" length="5">Sorge</wf>
+    <wf wid="w681" sent="33" para="9" offset="3905" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="ich" morphofeat="PPER" pos="Q" tid="t676" type="close">
+      <span>
+        <target id="w676"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAIMP" pos="V" tid="t677" type="open">
+      <span>
+        <target id="w677"/>
+      </span>
+    </term>
+    <term lemma="davor" morphofeat="PAV" pos="Q" tid="t678" type="close">
+      <span>
+        <target id="w678"/>
+      </span>
+    </term>
+    <term lemma="keine" morphofeat="PIAT" pos="Q" tid="t679" type="close">
+      <span>
+        <target id="w679"/>
+      </span>
+    </term>
+    <term lemma="Sorge" morphofeat="NN" pos="N" tid="t680" type="open">
+      <span>
+        <target id="w680"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t681" type="open">
+      <span>
+        <target id="w681"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Ich-->
+        <span>
+          <target id="t676"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--davor-->
+        <span>
+          <target id="t678"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--keine Sorge-->
+        <span>
+          <target id="t679"/>
+          <target id="t680"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

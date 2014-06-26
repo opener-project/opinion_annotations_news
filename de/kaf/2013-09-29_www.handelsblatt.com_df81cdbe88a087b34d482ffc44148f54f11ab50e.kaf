@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:20:28Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:20:28Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:10:04CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:21:11CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w511" sent="30" para="13" offset="2954" length="7">Faymann</wf>
+    <wf wid="w512" sent="30" para="13" offset="2962" length="3">ist</wf>
+    <wf wid="w513" sent="30" para="13" offset="2966" length="2">in</wf>
+    <wf wid="w514" sent="30" para="13" offset="2969" length="7">zweiter</wf>
+    <wf wid="w515" sent="30" para="13" offset="2977" length="3">Ehe</wf>
+    <wf wid="w516" sent="30" para="13" offset="2981" length="11">verheiratet</wf>
+    <wf wid="w517" sent="30" para="13" offset="2993" length="3">und</wf>
+    <wf wid="w518" sent="30" para="13" offset="2997" length="3">hat</wf>
+    <wf wid="w519" sent="30" para="13" offset="3001" length="4">zwei</wf>
+    <wf wid="w520" sent="30" para="13" offset="3006" length="7">Töchter</wf>
+    <wf wid="w521" sent="30" para="13" offset="3013" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Faymann" morphofeat="NE unknown_lemma" pos="O" tid="t511" type="open">
+      <span>
+        <target id="w511"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t512" type="open">
+      <span>
+        <target id="w512"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t513" type="close">
+      <span>
+        <target id="w513"/>
+      </span>
+    </term>
+    <term lemma="zweit" morphofeat="ADJA" pos="G" tid="t514" type="open">
+      <span>
+        <target id="w514"/>
+      </span>
+    </term>
+    <term lemma="Ehe" morphofeat="NN" pos="N" tid="t515" type="open">
+      <span>
+        <target id="w515"/>
+      </span>
+    </term>
+    <term lemma="verheiraten" morphofeat="VVPP" pos="V" tid="t516" type="open">
+      <span>
+        <target id="w516"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t517" type="close">
+      <span>
+        <target id="w517"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t518" type="open">
+      <span>
+        <target id="w518"/>
+      </span>
+    </term>
+    <term lemma="zwei" morphofeat="CARD" pos="O" tid="t519" type="open">
+      <span>
+        <target id="w519"/>
+      </span>
+    </term>
+    <term lemma="Tochter" morphofeat="NN" pos="N" tid="t520" type="open">
+      <span>
+        <target id="w520"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t521" type="open">
+      <span>
+        <target id="w521"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t511"/>
+          <target id="t512"/>
+          <target id="t513"/>
+          <target id="t514"/>
+          <target id="t515"/>
+          <target id="t516"/>
+          <target id="t517"/>
+          <target id="t518"/>
+          <target id="t519"/>
+          <target id="t520"/>
+          <target id="t521"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:48:05CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w19" sent="3" para="2" offset="134" length="2">De</wf>
+    <wf wid="w20" sent="3" para="2" offset="137" length="6">Franse</wf>
+    <wf wid="w21" sent="3" para="2" offset="144" length="9">president</wf>
+    <wf wid="w22" sent="3" para="2" offset="154" length="5">sprak</wf>
+    <wf wid="w23" sent="3" para="2" offset="160" length="3">het</wf>
+    <wf wid="w24" sent="3" para="2" offset="164" length="8">Europees</wf>
+    <wf wid="w25" sent="3" para="2" offset="173" length="9">Parlement</wf>
+    <wf wid="w26" sent="3" para="2" offset="183" length="3">toe</wf>
+    <wf wid="w27" sent="3" para="2" offset="187" length="2">in</wf>
+    <wf wid="w28" sent="3" para="2" offset="190" length="11">Straatsburg</wf>
+    <wf wid="w29" sent="3" para="2" offset="201" length="1">.</wf>
+    <wf wid="w199" sent="11" para="2" offset="1167" length="3">Ook</wf>
+    <wf wid="w200" sent="11" para="2" offset="1171" length="5">vindt</wf>
+    <wf wid="w201" sent="11" para="2" offset="1177" length="3">hij</wf>
+    <wf wid="w202" sent="11" para="2" offset="1181" length="3">dat</wf>
+    <wf wid="w203" sent="11" para="2" offset="1185" length="6">Europa</wf>
+    <wf wid="w204" sent="11" para="2" offset="1192" length="2">te</wf>
+    <wf wid="w205" sent="11" para="2" offset="1195" length="8">langzaam</wf>
+    <wf wid="w206" sent="11" para="2" offset="1204" length="6">groeit</wf>
+    <wf wid="w207" sent="11" para="2" offset="1210" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t19" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--Franse-->
+    <term tid="t20" type="open" lemma="Frans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--president-->
+    <term tid="t21" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--sprak-->
+    <term tid="t22" type="open" lemma="spreken" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t23" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--Europees-->
+    <term tid="t24" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--Parlement-->
+    <term tid="t25" type="open" lemma="parlement" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--toe-->
+    <term tid="t26" type="open" lemma="toe" pos="A" morphofeat="adv">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t27" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--Straatsburg-->
+    <term tid="t28" type="open" lemma="Straatsburg" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t29" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--Ook-->
+    <term tid="t199" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--vindt-->
+    <term tid="t200" type="open" lemma="vinden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--hij-->
+    <term tid="t201" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t202" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t203" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t204" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--langzaam-->
+    <term tid="t205" type="open" lemma="langzaam" pos="G" morphofeat="adj">
+      <span>
+        <target id="w205"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--groeit-->
+    <term tid="t206" type="open" lemma="groeien" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t207" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--hij-->
+        <span>
+          <target id="t201"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Europa-->
+        <span>
+          <target id="t203"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--te langzaam groeit-->
+        <span>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

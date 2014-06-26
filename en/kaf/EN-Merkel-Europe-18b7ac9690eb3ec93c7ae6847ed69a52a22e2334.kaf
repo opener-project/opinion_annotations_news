@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:36Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:36Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:16:47" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:06:42CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="1017" length="7" wid="w178">Members</wf>
+    <wf sent="5" para="2" offset="1025" length="2" wid="w179">of</wf>
+    <wf sent="5" para="2" offset="1028" length="3" wid="w180">the</wf>
+    <wf sent="5" para="2" offset="1032" length="8" wid="w181">European</wf>
+    <wf sent="5" para="2" offset="1041" length="10" wid="w182">Parliament</wf>
+    <wf sent="5" para="2" offset="1051" length="2" wid="w183">'s</wf>
+    <wf sent="5" para="2" offset="1054" length="5" wid="w184">civil</wf>
+    <wf sent="5" para="2" offset="1060" length="9" wid="w185">liberties</wf>
+    <wf sent="5" para="2" offset="1070" length="9" wid="w186">committee</wf>
+    <wf sent="5" para="2" offset="1080" length="4" wid="w187">have</wf>
+    <wf sent="5" para="2" offset="1085" length="4" wid="w188">been</wf>
+    <wf sent="5" para="2" offset="1090" length="2" wid="w189">in</wf>
+    <wf sent="5" para="2" offset="1093" length="10" wid="w190">Washington</wf>
+    <wf sent="5" para="2" offset="1104" length="5" wid="w191">since</wf>
+    <wf sent="5" para="2" offset="1110" length="6" wid="w192">Monday</wf>
+    <wf sent="5" para="2" offset="1116" length="1" wid="w193">,</wf>
+    <wf sent="5" para="2" offset="1118" length="3" wid="w194">and</wf>
+    <wf sent="5" para="2" offset="1122" length="4" wid="w195">have</wf>
+    <wf sent="5" para="2" offset="1127" length="4" wid="w196">also</wf>
+    <wf sent="5" para="2" offset="1132" length="4" wid="w197">held</wf>
+    <wf sent="5" para="2" offset="1137" length="11" wid="w198">discussions</wf>
+    <wf sent="5" para="2" offset="1149" length="4" wid="w199">with</wf>
+    <wf sent="5" para="2" offset="1154" length="9" wid="w200">officials</wf>
+    <wf sent="5" para="2" offset="1164" length="4" wid="w201">from</wf>
+    <wf sent="5" para="2" offset="1169" length="3" wid="w202">the</wf>
+    <wf sent="5" para="2" offset="1173" length="5" wid="w203">State</wf>
+    <wf sent="5" para="2" offset="1179" length="10" wid="w204">Department</wf>
+    <wf sent="5" para="2" offset="1189" length="1" wid="w205">,</wf>
+    <wf sent="5" para="2" offset="1191" length="8" wid="w206">Congress</wf>
+    <wf sent="5" para="2" offset="1200" length="3" wid="w207">and</wf>
+    <wf sent="5" para="2" offset="1204" length="12" wid="w208">intelligence</wf>
+    <wf sent="5" para="2" offset="1217" length="8" wid="w209">agencies</wf>
+    <wf sent="5" para="2" offset="1225" length="1" wid="w210">.</wf>
+  </text>
+  <terms>
+    <!--Members-->
+    <term type="open" lemma="member" pos="N" morphofeat="NNS" tid="t178">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t179">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t180">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--European-->
+    <term type="close" lemma="European" pos="R" morphofeat="NNP" tid="t181">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--Parliament-->
+    <term type="close" lemma="Parliament" pos="R" morphofeat="NNP" tid="t182">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t183">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--civil-->
+    <term type="open" lemma="civil" pos="G" morphofeat="JJ" tid="t184">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--liberties-->
+    <term type="open" lemma="liberty" pos="N" morphofeat="NNS" tid="t185">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--committee-->
+    <term type="open" lemma="committee" pos="N" morphofeat="NN" tid="t186">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--have-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBP" tid="t187">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--been-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBN" tid="t188">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t189">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--Washington-->
+    <term type="close" lemma="Washington" pos="R" morphofeat="NNP" tid="t190">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--since-->
+    <term type="close" lemma="since" pos="P" morphofeat="IN" tid="t191">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--Monday-->
+    <term type="close" lemma="Monday" pos="R" morphofeat="NNP" tid="t192">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t193">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t194">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--have-->
+    <term type="open" lemma="have" pos="V" morphofeat="VB" tid="t195">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t196">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--held-->
+    <term type="open" lemma="hold" pos="V" morphofeat="VBN" tid="t197">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--discussions-->
+    <term type="open" lemma="discussion" pos="N" morphofeat="NNS" tid="t198">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t199">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--officials-->
+    <term type="open" lemma="official" pos="N" morphofeat="NNS" tid="t200">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t201">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t202">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--State-->
+    <term type="close" lemma="State" pos="R" morphofeat="NNP" tid="t203">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--Department-->
+    <term type="close" lemma="Department" pos="R" morphofeat="NNP" tid="t204">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t205">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--Congress-->
+    <term type="close" lemma="Congress" pos="R" morphofeat="NNP" tid="t206">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t207">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--intelligence-->
+    <term type="open" lemma="intelligence" pos="N" morphofeat="NN" tid="t208">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--agencies-->
+    <term type="open" lemma="agency" pos="N" morphofeat="NNS" tid="t209">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t210">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

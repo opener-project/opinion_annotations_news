@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:11:56" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:40:05CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="13" para="2" offset="36" length="1" wid="w342">“</wf>
+    <wf sent="13" para="2" offset="1109" length="2" wid="w343">We</wf>
+    <wf sent="13" para="2" offset="1931" length="4" wid="w344">have</wf>
+    <wf sent="13" para="2" offset="1936" length="8" wid="w345">positive</wf>
+    <wf sent="13" para="2" offset="1945" length="11" wid="w346">indications</wf>
+    <wf sent="13" para="2" offset="1957" length="4" wid="w347">from</wf>
+    <wf sent="13" para="2" offset="1962" length="3" wid="w348">the</wf>
+    <wf sent="13" para="2" offset="1966" length="6" wid="w349">Syrian</wf>
+    <wf sent="13" para="2" offset="1973" length="11" wid="w350">authorities</wf>
+    <wf sent="13" para="2" offset="1985" length="2" wid="w351">to</wf>
+    <wf sent="13" para="2" offset="1988" length="2" wid="w352">go</wf>
+    <wf sent="13" para="2" offset="1991" length="2" wid="w353">in</wf>
+    <wf sent="13" para="2" offset="1993" length="1" wid="w354">.</wf>
+  </text>
+  <terms>
+    <!--“-->
+    <term type="open" lemma="“" pos="N" morphofeat="NN" tid="t342">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--We-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t343">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--have-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBP" tid="t344">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--positive-->
+    <term type="open" lemma="positive" pos="G" morphofeat="JJ" tid="t345">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <!--indications-->
+    <term type="open" lemma="indication" pos="N" morphofeat="NNS" tid="t346">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t347">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t348">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <!--Syrian-->
+    <term type="open" lemma="syrian" pos="G" morphofeat="JJ" tid="t349">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <!--authorities-->
+    <term type="open" lemma="authority" pos="N" morphofeat="NNS" tid="t350">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t351">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <!--go-->
+    <term type="open" lemma="go" pos="V" morphofeat="VB" tid="t352">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="open" lemma="in" pos="A" morphofeat="RB" tid="t353">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t354">
+      <span>
+        <target id="w354"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t343"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--indications from the Syrian authorities-->
+        <span>
+          <target id="t346"/>
+          <target id="t347"/>
+          <target id="t348"/>
+          <target id="t349"/>
+          <target id="t350"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--positive-->
+        <span>
+          <target id="t345"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t343"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--indications from the Syrian authorities-->
+        <span>
+          <target id="t346"/>
+          <target id="t347"/>
+          <target id="t348"/>
+          <target id="t349"/>
+          <target id="t350"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--have-->
+        <span>
+          <target id="t344"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

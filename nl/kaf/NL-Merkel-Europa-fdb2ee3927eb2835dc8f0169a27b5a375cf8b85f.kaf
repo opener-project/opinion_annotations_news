@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:07:28CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:26CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w165" sent="10" para="2" offset="949" length="3">Ook</wf>
+    <wf wid="w166" sent="10" para="2" offset="953" length="11">PvdA-leider</wf>
+    <wf wid="w167" sent="10" para="2" offset="965" length="6">Samsom</wf>
+    <wf wid="w168" sent="10" para="2" offset="972" length="5">noemt</wf>
+    <wf wid="w169" sent="10" para="2" offset="978" length="2">de</wf>
+    <wf wid="w170" sent="10" para="2" offset="981" length="10">toekenning</wf>
+    <wf wid="w171" sent="10" para="2" offset="992" length="3">aan</wf>
+    <wf wid="w172" sent="10" para="2" offset="996" length="2">de</wf>
+    <wf wid="w173" sent="10" para="2" offset="999" length="2">EU</wf>
+    <wf wid="w174" sent="10" para="2" offset="1002" length="3">een</wf>
+    <wf wid="w175" sent="10" para="2" offset="1006" length="4">mooi</wf>
+    <wf wid="w176" sent="10" para="2" offset="1011" length="9">eerbetoon</wf>
+    <wf wid="w177" sent="10" para="2" offset="1020" length="1">.</wf>
+    <wf wid="w178" sent="11" para="2" offset="1021" length="6">Marcel</wf>
+    <wf wid="w179" sent="11" para="2" offset="1028" length="4">Bril</wf>
+    <wf wid="w180" sent="11" para="2" offset="1033" length="5">vroeg</wf>
+    <wf wid="w181" sent="11" para="2" offset="1039" length="3">ook</wf>
+    <wf wid="w182" sent="11" para="2" offset="1043" length="3">een</wf>
+    <wf wid="w183" sent="11" para="2" offset="1047" length="7">reactie</wf>
+    <wf wid="w184" sent="11" para="2" offset="1055" length="3">aan</wf>
+    <wf wid="w185" sent="11" para="2" offset="1059" length="8">minister</wf>
+    <wf wid="w186" sent="11" para="2" offset="1068" length="6">Hillen</wf>
+    <wf wid="w187" sent="11" para="2" offset="1074" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ook-->
+    <term tid="t165" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--PvdA-leider-->
+    <term tid="t166" type="open" lemma="PvdA-leider" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--Samsom-->
+    <term tid="t167" type="open" lemma="Samsom" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--noemt-->
+    <term tid="t168" type="open" lemma="noemen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t169" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--toekenning-->
+    <term tid="t170" type="open" lemma="toekenning" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t171" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t172" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term tid="t173" type="open" lemma="EU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t174" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--mooi-->
+    <term tid="t175" type="open" lemma="mooi" pos="G" morphofeat="adj">
+      <span>
+        <target id="w175"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--eerbetoon-->
+    <term tid="t176" type="open" lemma="eerbetoon" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w176"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t177" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--Marcel-->
+    <term tid="t178" type="open" lemma="Marcel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--Bril-->
+    <term tid="t179" type="open" lemma="bril" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--vroeg-->
+    <term tid="t180" type="open" lemma="vragen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--ook-->
+    <term tid="t181" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t182" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--reactie-->
+    <term tid="t183" type="open" lemma="reactie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t184" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--minister-->
+    <term tid="t185" type="open" lemma="minister" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--Hillen-->
+    <term tid="t186" type="open" lemma="Hillen" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t187" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--PvdA-leider Samsom-->
+        <span>
+          <target id="t166"/>
+          <target id="t167"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de toekenning aan de EU-->
+        <span>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--een mooi eerbetoon-->
+        <span>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

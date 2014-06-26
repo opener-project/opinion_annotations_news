@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:44:50Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:44:50Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:47:36CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:45:09CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w217" sent="19" para="10" offset="1329" length="3">Die</wf>
+    <wf wid="w218" sent="19" para="10" offset="1333" length="6">Türkei</wf>
+    <wf wid="w219" sent="19" para="10" offset="1340" length="3">ist</wf>
+    <wf wid="w220" sent="19" para="10" offset="1344" length="4">seit</wf>
+    <wf wid="w221" sent="19" para="10" offset="1349" length="4">1999</wf>
+    <wf wid="w222" sent="19" para="10" offset="1354" length="2">EU</wf>
+    <wf wid="w223" sent="19" para="10" offset="1356" length="1">·</wf>
+    <wf wid="w224" sent="19" para="10" offset="1357" length="17">Beitrittskandidat</wf>
+    <wf wid="w225" sent="19" para="10" offset="1374" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t217" type="close">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <term lemma="Türkei" morphofeat="NE" pos="R" tid="t218" type="open">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t219" type="open">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <term lemma="seit" morphofeat="APPR" pos="P" tid="t220" type="close">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <term lemma="1999" morphofeat="CARD" pos="O" tid="t221" type="open">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t222" type="open">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t223" type="open">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <term lemma="Beitrittskandidat" morphofeat="NN unknown_lemma" pos="O" tid="t224" type="open">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t225" type="open">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

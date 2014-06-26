@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:26:28CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w165" sent="10" para="2" offset="863" length="3">Dat</wf>
+    <wf wid="w166" sent="10" para="2" offset="867" length="2">is</wf>
+    <wf wid="w167" sent="10" para="2" offset="870" length="11">inhoudelijk</wf>
+    <wf wid="w168" sent="10" para="2" offset="882" length="15">ongeloofwaardig</wf>
+    <wf wid="w169" sent="10" para="2" offset="898" length="2">en</wf>
+    <wf wid="w170" sent="10" para="2" offset="901" length="3">het</wf>
+    <wf wid="w171" sent="10" para="2" offset="905" length="4">laat</wf>
+    <wf wid="w172" sent="10" para="2" offset="910" length="4">zien</wf>
+    <wf wid="w173" sent="10" para="2" offset="915" length="3">dat</wf>
+    <wf wid="w174" sent="10" para="2" offset="919" length="3">het</wf>
+    <wf wid="w175" sent="10" para="2" offset="923" length="3">CDA</wf>
+    <wf wid="w176" sent="10" para="2" offset="927" length="3">nog</wf>
+    <wf wid="w177" sent="10" para="2" offset="931" length="6">steeds</wf>
+    <wf wid="w178" sent="10" para="2" offset="938" length="4">heel</wf>
+    <wf wid="w179" sent="10" para="2" offset="943" length="3">erg</wf>
+    <wf wid="w180" sent="10" para="2" offset="947" length="8">verdeeld</wf>
+    <wf wid="w181" sent="10" para="2" offset="956" length="2">is</wf>
+    <wf wid="w182" sent="10" para="2" offset="958" length="1">.</wf>
+    <wf wid="w183" sent="10" para="2" offset="959" length="1">"</wf>
+    <wf wid="w184" sent="10" para="2" offset="960" length="1">,</wf>
+    <wf wid="w185" sent="10" para="2" offset="962" length="5">aldus</wf>
+    <wf wid="w186" sent="10" para="2" offset="968" length="4">Blok</wf>
+    <wf wid="w187" sent="10" para="2" offset="972" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Dat-->
+    <term tid="t165" type="close" lemma="dat" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t166" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--inhoudelijk-->
+    <term tid="t167" type="open" lemma="inhoudelijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--ongeloofwaardig-->
+    <term tid="t168" type="open" lemma="ongeloofwaardig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w168"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--en-->
+    <term tid="t169" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t170" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--laat-->
+    <term tid="t171" type="open" lemma="laat" pos="G" morphofeat="adj">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--zien-->
+    <term tid="t172" type="open" lemma="zien" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t173" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t174" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--CDA-->
+    <term tid="t175" type="open" lemma="CDA" pos="N" morphofeat="nounabbr">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--nog-->
+    <term tid="t176" type="open" lemma="nog" pos="A" morphofeat="adv">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--steeds-->
+    <term tid="t177" type="open" lemma="steeds" pos="A" morphofeat="adv">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--heel-->
+    <term tid="t178" type="open" lemma="heel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--erg-->
+    <term tid="t179" type="open" lemma="erg" pos="G" morphofeat="adj">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--verdeeld-->
+    <term tid="t180" type="open" lemma="verdelen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w180"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--is-->
+    <term tid="t181" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t182" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t183" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t184" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--aldus-->
+    <term tid="t185" type="open" lemma="aldus" pos="A" morphofeat="adv">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--Blok-->
+    <term tid="t186" type="open" lemma="blok" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w186"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t187" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--aldus Blok-->
+        <span>
+          <target id="t185"/>
+          <target id="t186"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--het CDA-->
+        <span>
+          <target id="t174"/>
+          <target id="t175"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--heel erg verdeeld-->
+        <span>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder>
+        <!--aldus Blok-->
+        <span>
+          <target id="t185"/>
+          <target id="t186"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Dat-->
+        <span>
+          <target id="t165"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--inhoudelijk ongeloofwaardig-->
+        <span>
+          <target id="t167"/>
+          <target id="t168"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

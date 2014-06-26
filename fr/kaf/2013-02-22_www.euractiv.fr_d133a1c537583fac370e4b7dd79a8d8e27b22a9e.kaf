@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:47:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:47:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:47:04Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:31:38CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w539" sent="25" para="16" offset="2659" length="2">Le</wf>
+    <wf wid="w540" sent="25" para="16" offset="2662" length="5">matin</wf>
+    <wf wid="w541" sent="25" para="16" offset="2668" length="4">même</wf>
+    <wf wid="w542" sent="25" para="16" offset="2672" length="1">,</wf>
+    <wf wid="w543" sent="25" para="16" offset="2674" length="4">Olli</wf>
+    <wf wid="w544" sent="25" para="16" offset="2679" length="4">Rehn</wf>
+    <wf wid="w545" sent="25" para="16" offset="2684" length="1">a</wf>
+    <wf wid="w546" sent="25" para="16" offset="2686" length="8">souhaité</wf>
+    <wf wid="w547" sent="25" para="16" offset="2695" length="3">qu'</wf>
+    <wf wid="w548" sent="25" para="16" offset="2698" length="2">il</wf>
+    <wf wid="w549" sent="25" para="16" offset="2701" length="4">soit</wf>
+    <wf wid="w550" sent="25" para="16" offset="2706" length="1">«</wf>
+    <wf wid="w551" sent="25" para="16" offset="2708" length="9">nettement</wf>
+    <wf wid="w552" sent="25" para="16" offset="2718" length="1">»</wf>
+    <wf wid="w553" sent="25" para="16" offset="2720" length="9">inférieur</wf>
+    <wf wid="w554" sent="25" para="16" offset="2730" length="1">à</wf>
+    <wf wid="w555" sent="25" para="16" offset="2732" length="2">ce</wf>
+    <wf wid="w556" sent="25" para="16" offset="2735" length="7">chiffre</wf>
+    <wf wid="w557" sent="25" para="16" offset="2743" length="2">l'</wf>
+    <wf wid="w558" sent="25" para="16" offset="2745" length="5">année</wf>
+    <wf wid="w559" sent="25" para="16" offset="2751" length="9">prochaine</wf>
+    <wf wid="w560" sent="25" para="16" offset="2760" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Le-->
+    <term tid="t539" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w539"/>
+      </span>
+    </term>
+    <!--matin-->
+    <term tid="t540" type="open" lemma="matin" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w540"/>
+      </span>
+    </term>
+    <!--même-->
+    <term tid="t541" type="open" lemma="même" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w541"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t542" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w542"/>
+      </span>
+    </term>
+    <!--Olli-->
+    <term tid="t543" type="open" lemma="Olli" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w543"/>
+      </span>
+    </term>
+    <!--Rehn-->
+    <term tid="t544" type="open" lemma="Rehn" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w544"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t545" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w545"/>
+      </span>
+    </term>
+    <!--souhaité-->
+    <term tid="t546" type="open" lemma="souhaiter" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w546"/>
+      </span>
+    </term>
+    <!--qu'-->
+    <term tid="t547" type="close" lemma="qu'" pos="C" morphofeat="CS">
+      <span>
+        <target id="w547"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t548" type="close" lemma="il" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w548"/>
+      </span>
+    </term>
+    <!--soit-->
+    <term tid="t549" type="open" lemma="être" pos="V" morphofeat="VS3s">
+      <span>
+        <target id="w549"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t550" type="open" lemma="«" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w550"/>
+      </span>
+    </term>
+    <!--nettement-->
+    <term tid="t551" type="open" lemma="nettement" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w551"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t552" type="open" lemma="»" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w552"/>
+      </span>
+    </term>
+    <!--inférieur-->
+    <term tid="t553" type="open" lemma="inférieur" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w553"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t554" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w554"/>
+      </span>
+    </term>
+    <!--ce-->
+    <term tid="t555" type="close" lemma="ce" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w555"/>
+      </span>
+    </term>
+    <!--chiffre-->
+    <term tid="t556" type="open" lemma="chiffre" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w556"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t557" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w557"/>
+      </span>
+    </term>
+    <!--année-->
+    <term tid="t558" type="open" lemma="année" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w558"/>
+      </span>
+    </term>
+    <!--prochaine-->
+    <term tid="t559" type="open" lemma="prochain" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w559"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t560" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w560"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Olli Rehn-->
+        <span>
+          <target id="t543"/>
+          <target id="t544"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--qu' il soit « nettement » inférieur à ce chiffre l' année prochaine-->
+        <span>
+          <target id="t547"/>
+          <target id="t548"/>
+          <target id="t549"/>
+          <target id="t550"/>
+          <target id="t551"/>
+          <target id="t552"/>
+          <target id="t553"/>
+          <target id="t554"/>
+          <target id="t555"/>
+          <target id="t556"/>
+          <target id="t557"/>
+          <target id="t558"/>
+          <target id="t559"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--a souhaité-->
+        <span>
+          <target id="t545"/>
+          <target id="t546"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

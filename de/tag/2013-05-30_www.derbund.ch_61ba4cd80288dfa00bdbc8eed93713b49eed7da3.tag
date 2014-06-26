@@ -1,0 +1,11 @@
+w114	Derzeit	derzeit	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	113	true	8
+w115	wird	werden	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	114	true	8
+w116	die	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	115	true	8
+w117	Eurogruppe	Eurogruppe	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	116	true	8
+w118	vom	von	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	117	true	8
+w119	niederländischen	niederländisch	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	118	true	8
+w120	Finanzminister	Finanzminister	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	119	true	8
+w121	Jeroen	Jeroen	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	120	true	8
+w122	Dijsselbloem	Dijsselbloem	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	121	true	8
+w123	geführt	führen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	122	true	8
+w124	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	123	true	8

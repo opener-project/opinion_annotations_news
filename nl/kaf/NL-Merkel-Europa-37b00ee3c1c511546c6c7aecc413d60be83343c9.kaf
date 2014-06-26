@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:14Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:14Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:40:34CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w95" sent="7" para="2" offset="476" length="1">'</wf>
+    <wf wid="w96" sent="7" para="2" offset="477" length="2">De</wf>
+    <wf wid="w97" sent="7" para="2" offset="480" length="11">voortekenen</wf>
+    <wf wid="w98" sent="7" para="2" offset="492" length="4">voor</wf>
+    <wf wid="w99" sent="7" para="2" offset="497" length="2">de</wf>
+    <wf wid="w100" sent="7" para="2" offset="500" length="8">Europese</wf>
+    <wf wid="w101" sent="7" para="2" offset="509" length="3">top</wf>
+    <wf wid="w102" sent="7" para="2" offset="513" length="4">zijn</wf>
+    <wf wid="w103" sent="7" para="2" offset="518" length="6">slecht</wf>
+    <wf wid="w104" sent="7" para="2" offset="524" length="1">'</wf>
+    <wf wid="w105" sent="7" para="2" offset="525" length="1">,</wf>
+    <wf wid="w106" sent="7" para="2" offset="527" length="5">aldus</wf>
+    <wf wid="w107" sent="7" para="2" offset="533" length="2">De</wf>
+    <wf wid="w108" sent="7" para="2" offset="536" length="5">Wever</wf>
+    <wf wid="w109" sent="7" para="2" offset="541" length="1">.</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term tid="t95" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t96" type="open" lemma="De" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--voortekenen-->
+    <term tid="t97" type="open" lemma="voorteken" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t98" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t99" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t100" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--top-->
+    <term tid="t101" type="open" lemma="top" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w101"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--zijn-->
+    <term tid="t102" type="open" lemma="zijn" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--slecht-->
+    <term tid="t103" type="open" lemma="slecht" pos="G" morphofeat="adj">
+      <span>
+        <target id="w103"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--'-->
+    <term tid="t104" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t105" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--aldus-->
+    <term tid="t106" type="open" lemma="aldus" pos="A" morphofeat="adv">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t107" type="open" lemma="De" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--Wever-->
+    <term tid="t108" type="open" lemma="wever" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t109" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--De Wever-->
+        <span>
+          <target id="t107"/>
+          <target id="t108"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--De voortekenen voor de Europese top-->
+        <span>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--aldus-->
+        <span>
+          <target id="t106"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--De Wever-->
+        <span>
+          <target id="t107"/>
+          <target id="t108"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--De voortekenen voor de Europese top-->
+        <span>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--slecht-->
+        <span>
+          <target id="t103"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

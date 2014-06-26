@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:35:54Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:35:54Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:16:45CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:36:14CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w271" sent="20" para="10" offset="1579" length="8">Russland</wf>
+    <wf wid="w272" sent="20" para="10" offset="1588" length="3">ist</wf>
+    <wf wid="w273" sent="20" para="10" offset="1592" length="2">in</wf>
+    <wf wid="w274" sent="20" para="10" offset="1595" length="6">diesem</wf>
+    <wf wid="w275" sent="20" para="10" offset="1602" length="4">Jahr</wf>
+    <wf wid="w276" sent="20" para="10" offset="1607" length="11">Partnerland</wf>
+    <wf wid="w277" sent="20" para="10" offset="1619" length="3">der</wf>
+    <wf wid="w278" sent="20" para="10" offset="1623" length="8">Hannover</wf>
+    <wf wid="w279" sent="20" para="10" offset="1631" length="1">·</wf>
+    <wf wid="w280" sent="20" para="10" offset="1632" length="5">Messe</wf>
+    <wf wid="w281" sent="20" para="10" offset="1637" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Russland" morphofeat="NE" pos="R" tid="t271" type="open">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t272" type="open">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t273" type="close">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <term lemma="dies" morphofeat="PDAT" pos="Q" tid="t274" type="close">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <term lemma="Jahr" morphofeat="NN" pos="N" tid="t275" type="open">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <term lemma="Partnerland" morphofeat="NN" pos="N" tid="t276" type="open">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t277" type="close">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <term lemma="Hannover" morphofeat="NE" pos="R" tid="t278" type="open">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t279" type="open">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <term lemma="Messe" morphofeat="NN" pos="N" tid="t280" type="open">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t281" type="open">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t271"/>
+          <target id="t272"/>
+          <target id="t273"/>
+          <target id="t274"/>
+          <target id="t275"/>
+          <target id="t276"/>
+          <target id="t277"/>
+          <target id="t278"/>
+          <target id="t279"/>
+          <target id="t280"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

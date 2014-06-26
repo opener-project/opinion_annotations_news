@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:32Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:32Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:50:02" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:19:30CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="20" para="2" offset="3239" length="3" wid="w572">The</wf>
+    <wf sent="20" para="2" offset="3243" length="8" wid="w573">Assembly</wf>
+    <wf sent="20" para="2" offset="3251" length="1" wid="w574">,</wf>
+    <wf sent="20" para="2" offset="3253" length="1" wid="w575">a</wf>
+    <wf sent="20" para="2" offset="3255" length="10" wid="w576">1,244-seat</wf>
+    <wf sent="20" para="2" offset="3266" length="4" wid="w577">body</wf>
+    <wf sent="20" para="2" offset="3271" length="8" wid="w578">composed</wf>
+    <wf sent="20" para="2" offset="3280" length="2" wid="w579">of</wf>
+    <wf sent="20" para="2" offset="3283" length="8" wid="w580">national</wf>
+    <wf sent="20" para="2" offset="3292" length="3" wid="w581">and</wf>
+    <wf sent="20" para="2" offset="3296" length="5" wid="w582">state</wf>
+    <wf sent="20" para="2" offset="3302" length="15" wid="w583">representatives</wf>
+    <wf sent="20" para="2" offset="3317" length="1" wid="w584">,</wf>
+    <wf sent="20" para="2" offset="3319" length="4" wid="w585">must</wf>
+    <wf sent="20" para="2" offset="3324" length="4" wid="w586">vote</wf>
+    <wf sent="20" para="2" offset="3329" length="2" wid="w587">in</wf>
+    <wf sent="20" para="2" offset="3332" length="1" wid="w588">a</wf>
+    <wf sent="20" para="2" offset="3334" length="3" wid="w589">new</wf>
+    <wf sent="20" para="2" offset="3338" length="9" wid="w590">president</wf>
+    <wf sent="20" para="2" offset="3348" length="2" wid="w591">by</wf>
+    <wf sent="20" para="2" offset="3351" length="5" wid="w592">March</wf>
+    <wf sent="20" para="2" offset="3357" length="2" wid="w593">18</wf>
+    <wf sent="20" para="2" offset="3359" length="1" wid="w594">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t572">
+      <span>
+        <target id="w572"/>
+      </span>
+    </term>
+    <!--Assembly-->
+    <term type="close" lemma="Assembly" pos="R" morphofeat="NNP" tid="t573">
+      <span>
+        <target id="w573"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t574">
+      <span>
+        <target id="w574"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t575">
+      <span>
+        <target id="w575"/>
+      </span>
+    </term>
+    <!--1,244-seat-->
+    <term type="open" lemma="1,244-seat" pos="G" morphofeat="JJ" tid="t576">
+      <span>
+        <target id="w576"/>
+      </span>
+    </term>
+    <!--body-->
+    <term type="open" lemma="body" pos="N" morphofeat="NN" tid="t577">
+      <span>
+        <target id="w577"/>
+      </span>
+    </term>
+    <!--composed-->
+    <term type="open" lemma="compose" pos="V" morphofeat="VBN" tid="t578">
+      <span>
+        <target id="w578"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t579">
+      <span>
+        <target id="w579"/>
+      </span>
+    </term>
+    <!--national-->
+    <term type="open" lemma="national" pos="G" morphofeat="JJ" tid="t580">
+      <span>
+        <target id="w580"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t581">
+      <span>
+        <target id="w581"/>
+      </span>
+    </term>
+    <!--state-->
+    <term type="open" lemma="state" pos="N" morphofeat="NN" tid="t582">
+      <span>
+        <target id="w582"/>
+      </span>
+    </term>
+    <!--representatives-->
+    <term type="open" lemma="representative" pos="N" morphofeat="NNS" tid="t583">
+      <span>
+        <target id="w583"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t584">
+      <span>
+        <target id="w584"/>
+      </span>
+    </term>
+    <!--must-->
+    <term type="close" lemma="must" pos="O" morphofeat="MD" tid="t585">
+      <span>
+        <target id="w585"/>
+      </span>
+    </term>
+    <!--vote-->
+    <term type="open" lemma="vote" pos="V" morphofeat="VB" tid="t586">
+      <span>
+        <target id="w586"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t587">
+      <span>
+        <target id="w587"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t588">
+      <span>
+        <target id="w588"/>
+      </span>
+    </term>
+    <!--new-->
+    <term type="open" lemma="new" pos="G" morphofeat="JJ" tid="t589">
+      <span>
+        <target id="w589"/>
+      </span>
+    </term>
+    <!--president-->
+    <term type="open" lemma="president" pos="N" morphofeat="NN" tid="t590">
+      <span>
+        <target id="w590"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t591">
+      <span>
+        <target id="w591"/>
+      </span>
+    </term>
+    <!--March-->
+    <term type="close" lemma="March" pos="R" morphofeat="NNP" tid="t592">
+      <span>
+        <target id="w592"/>
+      </span>
+    </term>
+    <!--18-->
+    <term type="close" lemma="18" pos="O" morphofeat="CD" tid="t593">
+      <span>
+        <target id="w593"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t594">
+      <span>
+        <target id="w594"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t572"/>
+          <target id="t573"/>
+          <target id="t574"/>
+          <target id="t575"/>
+          <target id="t576"/>
+          <target id="t577"/>
+          <target id="t578"/>
+          <target id="t579"/>
+          <target id="t580"/>
+          <target id="t581"/>
+          <target id="t582"/>
+          <target id="t583"/>
+          <target id="t584"/>
+          <target id="t585"/>
+          <target id="t586"/>
+          <target id="t587"/>
+          <target id="t588"/>
+          <target id="t589"/>
+          <target id="t590"/>
+          <target id="t591"/>
+          <target id="t592"/>
+          <target id="t593"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

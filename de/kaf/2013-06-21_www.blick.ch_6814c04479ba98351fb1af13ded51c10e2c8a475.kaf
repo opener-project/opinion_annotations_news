@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:34:23Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:34:23Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:49:55CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:34:43CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:22CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w370" sent="23" para="11" offset="2250" length="2">Zu</wf>
+    <wf wid="w371" sent="23" para="11" offset="2253" length="5">sehen</wf>
+    <wf wid="w372" sent="23" para="11" offset="2259" length="4">sind</wf>
+    <wf wid="w373" sent="23" para="11" offset="2264" length="4">etwa</wf>
+    <wf wid="w374" sent="23" para="11" offset="2269" length="3">der</wf>
+    <wf wid="w375" sent="23" para="11" offset="2273" length="10">Goldschatz</wf>
+    <wf wid="w376" sent="23" para="11" offset="2284" length="3">von</wf>
+    <wf wid="w377" sent="23" para="11" offset="2288" length="10">Eberswalde</wf>
+    <wf wid="w378" sent="23" para="11" offset="2299" length="3">und</wf>
+    <wf wid="w379" sent="23" para="11" offset="2303" length="3">die</wf>
+    <wf wid="w380" sent="23" para="11" offset="2307" length="5">Troja</wf>
+    <wf wid="w381" sent="23" para="11" offset="2312" length="1">·</wf>
+    <wf wid="w382" sent="23" para="11" offset="2313" length="5">Funde</wf>
+    <wf wid="w383" sent="23" para="11" offset="2319" length="3">von</wf>
+    <wf wid="w384" sent="23" para="11" offset="2323" length="8">Heinrich</wf>
+    <wf wid="w385" sent="23" para="11" offset="2332" length="10">Schliemann</wf>
+    <wf wid="w386" sent="23" para="11" offset="2342" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="zu" morphofeat="PTKZU" pos="O" tid="t370" type="open">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <term lemma="sehen" morphofeat="VVINF" pos="V" tid="t371" type="open">
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t372" type="open">
+      <span>
+        <target id="w372"/>
+      </span>
+    </term>
+    <term lemma="etwa" morphofeat="ADV" pos="A" tid="t373" type="open">
+      <span>
+        <target id="w373"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t374" type="close">
+      <span>
+        <target id="w374"/>
+      </span>
+    </term>
+    <term lemma="Goldschatz" morphofeat="NN" pos="N" tid="t375" type="open">
+      <span>
+        <target id="w375"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t376" type="close">
+      <span>
+        <target id="w376"/>
+      </span>
+    </term>
+    <term lemma="Eberswald" morphofeat="NN" pos="N" tid="t377" type="open">
+      <span>
+        <target id="w377"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t378" type="close">
+      <span>
+        <target id="w378"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t379" type="close">
+      <span>
+        <target id="w379"/>
+      </span>
+    </term>
+    <term lemma="Troja" morphofeat="NE" pos="R" tid="t380" type="open">
+      <span>
+        <target id="w380"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t381" type="open">
+      <span>
+        <target id="w381"/>
+      </span>
+    </term>
+    <term lemma="Fund" morphofeat="NN" pos="N" tid="t382" type="open">
+      <span>
+        <target id="w382"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t383" type="close">
+      <span>
+        <target id="w383"/>
+      </span>
+    </term>
+    <term lemma="Heinrich" morphofeat="NE" pos="R" tid="t384" type="open">
+      <span>
+        <target id="w384"/>
+      </span>
+    </term>
+    <term lemma="Schliemann" morphofeat="NN unknown_lemma" pos="O" tid="t385" type="open">
+      <span>
+        <target id="w385"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t386" type="open">
+      <span>
+        <target id="w386"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t370"/>
+          <target id="t371"/>
+          <target id="t372"/>
+          <target id="t373"/>
+          <target id="t374"/>
+          <target id="t375"/>
+          <target id="t376"/>
+          <target id="t377"/>
+          <target id="t378"/>
+          <target id="t379"/>
+          <target id="t380"/>
+          <target id="t381"/>
+          <target id="t382"/>
+          <target id="t383"/>
+          <target id="t384"/>
+          <target id="t385"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

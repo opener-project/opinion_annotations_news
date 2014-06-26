@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:15:09" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:56:48CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="12" para="2" offset="2430" length="1" wid="w436">"</wf>
+    <wf sent="12" para="2" offset="2431" length="4" wid="w437">This</wf>
+    <wf sent="12" para="2" offset="2436" length="2" wid="w438">is</wf>
+    <wf sent="12" para="2" offset="2439" length="3" wid="w439">the</wf>
+    <wf sent="12" para="2" offset="2443" length="6" wid="w440">budget</wf>
+    <wf sent="12" para="2" offset="2450" length="3" wid="w441">for</wf>
+    <wf sent="12" para="2" offset="2454" length="3" wid="w442">the</wf>
+    <wf sent="12" para="2" offset="2458" length="4" wid="w443">rest</wf>
+    <wf sent="12" para="2" offset="2463" length="2" wid="w444">of</wf>
+    <wf sent="12" para="2" offset="2466" length="3" wid="w445">the</wf>
+    <wf sent="12" para="2" offset="2470" length="6" wid="w446">decade</wf>
+    <wf sent="12" para="2" offset="2476" length="1" wid="w447">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t436">
+      <span>
+        <target id="w436"/>
+      </span>
+    </term>
+    <!--This-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t437">
+      <span>
+        <target id="w437"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t438">
+      <span>
+        <target id="w438"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t439">
+      <span>
+        <target id="w439"/>
+      </span>
+    </term>
+    <!--budget-->
+    <term type="open" lemma="budget" pos="N" morphofeat="NN" tid="t440">
+      <span>
+        <target id="w440"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t441">
+      <span>
+        <target id="w441"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t442">
+      <span>
+        <target id="w442"/>
+      </span>
+    </term>
+    <!--rest-->
+    <term type="open" lemma="rest" pos="N" morphofeat="NN" tid="t443">
+      <span>
+        <target id="w443"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t444">
+      <span>
+        <target id="w444"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t445">
+      <span>
+        <target id="w445"/>
+      </span>
+    </term>
+    <!--decade-->
+    <term type="open" lemma="decade" pos="N" morphofeat="NN" tid="t446">
+      <span>
+        <target id="w446"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t447">
+      <span>
+        <target id="w447"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t436"/>
+          <target id="t437"/>
+          <target id="t438"/>
+          <target id="t439"/>
+          <target id="t440"/>
+          <target id="t441"/>
+          <target id="t442"/>
+          <target id="t443"/>
+          <target id="t444"/>
+          <target id="t445"/>
+          <target id="t446"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

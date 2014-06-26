@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:47:31Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:47:31Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:47:31Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:31:06CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w460" sent="33" para="30" offset="2279" length="2">EN</wf>
+    <wf wid="w461" sent="33" para="30" offset="2282" length="6">PHOTOS</wf>
+    <wf wid="w462" sent="33" para="30" offset="2289" length="1">·</wf>
+    <wf wid="w463" sent="33" para="30" offset="2291" length="2">Le</wf>
+    <wf wid="w464" sent="33" para="30" offset="2294" length="9">président</wf>
+    <wf wid="w465" sent="33" para="30" offset="2304" length="8">français</wf>
+    <wf wid="w466" sent="33" para="30" offset="2313" length="1">a</wf>
+    <wf wid="w467" sent="33" para="30" offset="2315" length="3">été</wf>
+    <wf wid="w468" sent="33" para="30" offset="2319" length="15">chaleureusement</wf>
+    <wf wid="w469" sent="33" para="30" offset="2335" length="9">accueilli</wf>
+    <wf wid="w470" sent="33" para="30" offset="2345" length="3">par</wf>
+    <wf wid="w471" sent="33" para="30" offset="2349" length="3">les</wf>
+    <wf wid="w472" sent="33" para="30" offset="2353" length="5">époux</wf>
+    <wf wid="w473" sent="33" para="30" offset="2359" length="5">Obama</wf>
+    <wf wid="w474" sent="33" para="30" offset="2365" length="4">lors</wf>
+    <wf wid="w475" sent="33" para="30" offset="2370" length="2">du</wf>
+    <wf wid="w476" sent="33" para="30" offset="2373" length="5">dîner</wf>
+    <wf wid="w477" sent="33" para="30" offset="2379" length="2">d’</wf>
+    <wf wid="w478" sent="33" para="30" offset="2381" length="4">Etat</wf>
+    <wf wid="w479" sent="33" para="30" offset="2386" length="5">donné</wf>
+    <wf wid="w480" sent="33" para="30" offset="2392" length="2">en</wf>
+    <wf wid="w481" sent="33" para="30" offset="2395" length="3">son</wf>
+    <wf wid="w482" sent="33" para="30" offset="2399" length="7">honneur</wf>
+    <wf wid="w483" sent="33" para="30" offset="2406" length="1">.</wf>
+  </text>
+  <terms>
+    <!--EN-->
+    <term tid="t460" type="close" lemma="EN" pos="P" morphofeat="P">
+      <span>
+        <target id="w460"/>
+      </span>
+    </term>
+    <!--PHOTOS-->
+    <term tid="t461" type="open" lemma="photo" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w461"/>
+      </span>
+    </term>
+    <!--·-->
+    <term tid="t462" type="open" lemma="·" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w462"/>
+      </span>
+    </term>
+    <!--Le-->
+    <term tid="t463" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w463"/>
+      </span>
+    </term>
+    <!--président-->
+    <term tid="t464" type="open" lemma="président" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w464"/>
+      </span>
+    </term>
+    <!--français-->
+    <term tid="t465" type="open" lemma="français" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w465"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t466" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w466"/>
+      </span>
+    </term>
+    <!--été-->
+    <term tid="t467" type="open" lemma="être" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w467"/>
+      </span>
+    </term>
+    <!--chaleureusement-->
+    <term tid="t468" type="open" lemma="chaleureusement" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w468"/>
+      </span>
+    </term>
+    <!--accueilli-->
+    <term tid="t469" type="open" lemma="accueillir" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w469"/>
+      </span>
+    </term>
+    <!--par-->
+    <term tid="t470" type="close" lemma="par" pos="P" morphofeat="P">
+      <span>
+        <target id="w470"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t471" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w471"/>
+      </span>
+    </term>
+    <!--époux-->
+    <term tid="t472" type="open" lemma="époux" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w472"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term tid="t473" type="open" lemma="Obama" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w473"/>
+      </span>
+    </term>
+    <!--lors-->
+    <term tid="t474" type="open" lemma="lors" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w474"/>
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t475" type="close" lemma="du" pos="P" morphofeat="P">
+      <span>
+        <target id="w475"/>
+      </span>
+    </term>
+    <!--dîner-->
+    <term tid="t476" type="open" lemma="dîner" pos="V" morphofeat="VW">
+      <span>
+        <target id="w476"/>
+      </span>
+    </term>
+    <!--d’-->
+    <term tid="t477" type="close" lemma="d’" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w477"/>
+      </span>
+    </term>
+    <!--Etat-->
+    <term tid="t478" type="open" lemma="Etat" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w478"/>
+      </span>
+    </term>
+    <!--donné-->
+    <term tid="t479" type="open" lemma="donner" pos="V" morphofeat="VKms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w479"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t480" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w480"/>
+      </span>
+    </term>
+    <!--son-->
+    <term tid="t481" type="close" lemma="son" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w481"/>
+      </span>
+    </term>
+    <!--honneur-->
+    <term tid="t482" type="open" lemma="honneur" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w482"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t483" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w483"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Le président français-->
+        <span>
+          <target id="t463"/>
+          <target id="t464"/>
+          <target id="t465"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--chaleureusement accueilli-->
+        <span>
+          <target id="t468"/>
+          <target id="t469"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--a été-->
+        <span>
+          <target id="t466"/>
+          <target id="t467"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

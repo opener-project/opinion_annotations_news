@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:48Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:48Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:29:31" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:52:47CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="7" para="2" offset="1047" length="1" wid="w187">"</wf>
+    <wf sent="7" para="2" offset="1048" length="1" wid="w188">I</wf>
+    <wf sent="7" para="2" offset="1050" length="10" wid="w189">explicitly</wf>
+    <wf sent="7" para="2" offset="1061" length="7" wid="w190">support</wf>
+    <wf sent="7" para="2" offset="1069" length="4" wid="w191">this</wf>
+    <wf sent="7" para="2" offset="1074" length="8" wid="w192">proposal</wf>
+    <wf sent="7" para="2" offset="1082" length="1" wid="w193">,</wf>
+    <wf sent="7" para="2" offset="1083" length="1" wid="w194">"</wf>
+    <wf sent="7" para="2" offset="1085" length="6" wid="w195">Draghi</wf>
+    <wf sent="7" para="2" offset="1092" length="4" wid="w196">told</wf>
+    <wf sent="7" para="2" offset="1097" length="3" wid="w197">Der</wf>
+    <wf sent="7" para="2" offset="1101" length="7" wid="w198">Spiegel</wf>
+    <wf sent="7" para="2" offset="1109" length="8" wid="w199">magazine</wf>
+    <wf sent="7" para="2" offset="1118" length="9" wid="w200">published</wf>
+    <wf sent="7" para="2" offset="1128" length="2" wid="w201">on</wf>
+    <wf sent="7" para="2" offset="1131" length="6" wid="w202">Sunday</wf>
+    <wf sent="7" para="2" offset="1137" length="1" wid="w203">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="close" lemma="&quot;" pos="P" morphofeat="IN" tid="t187">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--I-->
+    <term type="close" lemma="i" pos="Q" morphofeat="PRP" tid="t188">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--explicitly-->
+    <term type="open" lemma="explicitly" pos="A" morphofeat="RB" tid="t189">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--support-->
+    <term type="open" lemma="support" pos="N" morphofeat="NN" tid="t190">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--this-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t191">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--proposal-->
+    <term type="open" lemma="proposal" pos="N" morphofeat="NN" tid="t192">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t193">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t194">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--Draghi-->
+    <term type="close" lemma="Draghi" pos="R" morphofeat="NNP" tid="t195">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--told-->
+    <term type="open" lemma="tell" pos="V" morphofeat="VBD" tid="t196">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--Der-->
+    <term type="close" lemma="Der" pos="R" morphofeat="NNP" tid="t197">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--Spiegel-->
+    <term type="close" lemma="Spiegel" pos="R" morphofeat="NNP" tid="t198">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--magazine-->
+    <term type="open" lemma="magazine" pos="N" morphofeat="NN" tid="t199">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--published-->
+    <term type="open" lemma="publish" pos="V" morphofeat="VBN" tid="t200">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t201">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--Sunday-->
+    <term type="close" lemma="Sunday" pos="R" morphofeat="NNP" tid="t202">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t203">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--I-->
+        <span>
+          <target id="t188"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--this proposal-->
+        <span>
+          <target id="t191"/>
+          <target id="t192"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--explicitly support-->
+        <span>
+          <target id="t189"/>
+          <target id="t190"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

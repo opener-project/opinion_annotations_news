@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:51:20CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Merkel</wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="5">noemt</wf>
+    <wf wid="w3" sent="1" para="1" offset="13" length="10">Berlusconi</wf>
+    <wf wid="w4" sent="1" para="1" offset="23" length="1">'</wf>
+    <wf wid="w5" sent="1" para="1" offset="24" length="1">s</wf>
+    <wf wid="w6" sent="1" para="1" offset="26" length="11">opmerkingen</wf>
+    <wf wid="w7" sent="1" para="1" offset="38" length="4">over</wf>
+    <wf wid="w8" sent="1" para="1" offset="43" length="5">Duits</wf>
+    <wf wid="w9" sent="1" para="1" offset="49" length="7">vertrek</wf>
+    <wf wid="w10" sent="1" para="1" offset="57" length="3">uit</wf>
+    <wf wid="w11" sent="1" para="1" offset="61" length="8">eurozone</wf>
+    <wf wid="w12" sent="1" para="1" offset="70" length="6">absurd</wf>
+    <wf wid="w125" sent="9" para="2" offset="665" length="9">Daarnaast</wf>
+    <wf wid="w126" sent="9" para="2" offset="675" length="10">onderhield</wf>
+    <wf wid="w127" sent="9" para="2" offset="686" length="3">hij</wf>
+    <wf wid="w128" sent="9" para="2" offset="690" length="4">zijn</wf>
+    <wf wid="w129" sent="9" para="2" offset="695" length="11">toehoorders</wf>
+    <wf wid="w130" sent="9" para="2" offset="707" length="5">onder</wf>
+    <wf wid="w131" sent="9" para="2" offset="713" length="4">meer</wf>
+    <wf wid="w132" sent="9" para="2" offset="718" length="4">over</wf>
+    <wf wid="w133" sent="9" para="2" offset="723" length="2">de</wf>
+    <wf wid="w134" sent="9" para="2" offset="726" length="8">Europese</wf>
+    <wf wid="w135" sent="9" para="2" offset="735" length="15">reddingsfondsen</wf>
+    <wf wid="w136" sent="9" para="2" offset="750" length="1">,</wf>
+    <wf wid="w137" sent="9" para="2" offset="752" length="2">en</wf>
+    <wf wid="w138" sent="9" para="2" offset="755" length="2">de</wf>
+    <wf wid="w139" sent="9" para="2" offset="758" length="8">Europese</wf>
+    <wf wid="w140" sent="9" para="2" offset="767" length="2">en</wf>
+    <wf wid="w141" sent="9" para="2" offset="770" length="6">Duitse</wf>
+    <wf wid="w142" sent="9" para="2" offset="777" length="18">besparingspolitiek</wf>
+    <wf wid="w143" sent="9" para="2" offset="795" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t1" type="open" lemma="Merkel" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--noemt-->
+    <term tid="t2" type="open" lemma="noemen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Berlusconi-->
+    <term tid="t3" type="open" lemma="Berlusconi" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t4" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--s-->
+    <term tid="t5" type="open" lemma="s" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--opmerkingen-->
+    <term tid="t6" type="open" lemma="opmerking" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t7" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Duits-->
+    <term tid="t8" type="open" lemma="Duits" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--vertrek-->
+    <term tid="t9" type="open" lemma="vertrek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--uit-->
+    <term tid="t10" type="close" lemma="uit" pos="P" morphofeat="prep">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--eurozone-->
+    <term tid="t11" type="open" lemma="eurozone" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--absurd-->
+    <term tid="t12" type="open" lemma="absurd" pos="G" morphofeat="adj">
+      <span>
+        <target id="w12"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Daarnaast-->
+    <term tid="t125" type="close" lemma="daarnaast" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--onderhield-->
+    <term tid="t126" type="open" lemma="onderhouden" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w126"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--hij-->
+    <term tid="t127" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t128" type="close" lemma="zijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--toehoorders-->
+    <term tid="t129" type="open" lemma="toehoorder" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--onder-->
+    <term tid="t130" type="close" lemma="onder" pos="P" morphofeat="prep">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--meer-->
+    <term tid="t131" type="open" lemma="meer" pos="A" morphofeat="adv">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t132" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t133" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t134" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--reddingsfondsen-->
+    <term tid="t135" type="open" lemma="reddingsfondsen" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t136" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t137" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t138" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t139" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t140" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t141" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--besparingspolitiek-->
+    <term tid="t142" type="open" lemma="besparingspolitiek" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t143" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--eurozone-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--vertrek-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Berlusconi ' s opmerkingen-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--absurd-->
+        <span>
+          <target id="t12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+          <target id="t132"/>
+          <target id="t133"/>
+          <target id="t134"/>
+          <target id="t135"/>
+          <target id="t136"/>
+          <target id="t137"/>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

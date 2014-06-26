@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:28:52CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:31CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w163" sent="11" para="2" offset="932" length="2">In</wf>
+    <wf wid="w164" sent="11" para="2" offset="935" length="6">Madrid</wf>
+    <wf wid="w165" sent="11" para="2" offset="942" length="3">zit</wf>
+    <wf wid="w166" sent="11" para="2" offset="946" length="7">Cameron</wf>
+    <wf wid="w167" sent="11" para="2" offset="954" length="5">samen</wf>
+    <wf wid="w168" sent="11" para="2" offset="960" length="3">met</wf>
+    <wf wid="w169" sent="11" para="2" offset="964" length="2">de</wf>
+    <wf wid="w170" sent="11" para="2" offset="967" length="7">Spaanse</wf>
+    <wf wid="w171" sent="11" para="2" offset="975" length="7">premier</wf>
+    <wf wid="w172" sent="11" para="2" offset="983" length="7">Mariano</wf>
+    <wf wid="w173" sent="11" para="2" offset="991" length="5">Rajoy</wf>
+    <wf wid="w174" sent="11" para="2" offset="996" length="1">.</wf>
+    <wf wid="w195" sent="13" para="2" offset="1099" length="10">Vervolgens</wf>
+    <wf wid="w196" sent="13" para="2" offset="1110" length="4">ziet</wf>
+    <wf wid="w197" sent="13" para="2" offset="1115" length="3">hij</wf>
+    <wf wid="w198" sent="13" para="2" offset="1119" length="5">later</wf>
+    <wf wid="w199" sent="13" para="2" offset="1125" length="4">deze</wf>
+    <wf wid="w200" sent="13" para="2" offset="1130" length="4">week</wf>
+    <wf wid="w201" sent="13" para="2" offset="1135" length="2">in</wf>
+    <wf wid="w202" sent="13" para="2" offset="1138" length="7">Berlijn</wf>
+    <wf wid="w203" sent="13" para="2" offset="1146" length="2">de</wf>
+    <wf wid="w204" sent="13" para="2" offset="1149" length="6">Duitse</wf>
+    <wf wid="w205" sent="13" para="2" offset="1156" length="14">bondskanselier</wf>
+    <wf wid="w206" sent="13" para="2" offset="1171" length="6">Angela</wf>
+    <wf wid="w207" sent="13" para="2" offset="1178" length="6">Merkel</wf>
+    <wf wid="w208" sent="13" para="2" offset="1184" length="1">.</wf>
+  </text>
+  <terms>
+    <!--In-->
+    <term tid="t163" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--Madrid-->
+    <term tid="t164" type="open" lemma="Madrid" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--zit-->
+    <term tid="t165" type="open" lemma="zitten" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t166" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--samen-->
+    <term tid="t167" type="open" lemma="samen" pos="A" morphofeat="adv">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t168" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t169" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--Spaanse-->
+    <term tid="t170" type="open" lemma="Spaans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t171" type="open" lemma="premier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w171"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Mariano-->
+    <term tid="t172" type="open" lemma="Mariano" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--Rajoy-->
+    <term tid="t173" type="open" lemma="Rajoy" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t174" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--Vervolgens-->
+    <term tid="t195" type="open" lemma="vervolgens" pos="A" morphofeat="adv">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--ziet-->
+    <term tid="t196" type="open" lemma="zien" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--hij-->
+    <term tid="t197" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--later-->
+    <term tid="t198" type="open" lemma="laat|later" pos="G" morphofeat="adj">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--deze-->
+    <term tid="t199" type="close" lemma="deze" pos="D" morphofeat="det__demo">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--week-->
+    <term tid="t200" type="open" lemma="week" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w200"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--in-->
+    <term tid="t201" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--Berlijn-->
+    <term tid="t202" type="open" lemma="Berlijn" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t203" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t204" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--bondskanselier-->
+    <term tid="t205" type="open" lemma="bondskanselier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t206" type="open" lemma="Angela" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t207" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t208" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

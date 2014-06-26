@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:36Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:36Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:33:37" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:49:32CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="11" para="2" offset="1407" length="2" wid="w279">We</wf>
+    <wf sent="11" para="2" offset="1410" length="8" wid="w280">overcame</wf>
+    <wf sent="11" para="2" offset="1419" length="3" wid="w281">the</wf>
+    <wf sent="11" para="2" offset="1423" length="4" wid="w282">odds</wf>
+    <wf sent="11" para="2" offset="1428" length="3" wid="w283">and</wf>
+    <wf sent="11" para="2" offset="1432" length="3" wid="w284">won</wf>
+    <wf sent="11" para="2" offset="1436" length="1" wid="w285">a</wf>
+    <wf sent="11" para="2" offset="1438" length="8" wid="w286">stunning</wf>
+    <wf sent="11" para="2" offset="1447" length="7" wid="w287">victory</wf>
+    <wf sent="11" para="2" offset="1454" length="1" wid="w288">,</wf>
+    <wf sent="11" para="2" offset="1455" length="1" wid="w289">"</wf>
+    <wf sent="11" para="2" offset="1457" length="2" wid="w290">he</wf>
+    <wf sent="11" para="2" offset="1460" length="4" wid="w291">said</wf>
+    <wf sent="11" para="2" offset="1464" length="1" wid="w292">,</wf>
+    <wf sent="11" para="2" offset="1466" length="8" wid="w293">standing</wf>
+    <wf sent="11" para="2" offset="1475" length="9" wid="w294">alongside</wf>
+    <wf sent="11" para="2" offset="1485" length="2" wid="w295">Mr</wf>
+    <wf sent="11" para="2" offset="1488" length="8" wid="w296">Thornton</wf>
+    <wf sent="11" para="2" offset="1497" length="2" wid="w297">in</wf>
+    <wf sent="11" para="2" offset="1500" length="3" wid="w298">the</wf>
+    <wf sent="11" para="2" offset="1504" length="12" wid="w299">constituency</wf>
+    <wf sent="11" para="2" offset="1516" length="1" wid="w300">.</wf>
+  </text>
+  <terms>
+    <!--We-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t279">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--overcame-->
+    <term type="open" lemma="overcome" pos="V" morphofeat="VBD" tid="t280">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t281">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--odds-->
+    <term type="open" lemma="odds" pos="N" morphofeat="NNS" tid="t282">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t283">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--won-->
+    <term type="open" lemma="win" pos="V" morphofeat="VBD" tid="t284">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t285">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--stunning-->
+    <term type="open" lemma="stunning" pos="G" morphofeat="JJ" tid="t286">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--victory-->
+    <term type="open" lemma="victory" pos="N" morphofeat="NN" tid="t287">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t288">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t289">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t290">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t291">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t292">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--standing-->
+    <term type="open" lemma="stand" pos="V" morphofeat="VBG" tid="t293">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--alongside-->
+    <term type="open" lemma="alongside" pos="A" morphofeat="RB" tid="t294">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t295">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--Thornton-->
+    <term type="close" lemma="Thornton" pos="R" morphofeat="NNP" tid="t296">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t297">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t298">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--constituency-->
+    <term type="open" lemma="constituency" pos="N" morphofeat="NN" tid="t299">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t300">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t279"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--won-->
+        <span>
+          <target id="t284"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t279"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--a stunning victory-->
+        <span>
+          <target id="t285"/>
+          <target id="t286"/>
+          <target id="t287"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--victory-->
+        <span>
+          <target id="t287"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--stunning-->
+        <span>
+          <target id="t286"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--he-->
+        <span>
+          <target id="t290"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-neutral">
+        <!--said-->
+        <span>
+          <target id="t291"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t279"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the odds-->
+        <span>
+          <target id="t281"/>
+          <target id="t282"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--overcame-->
+        <span>
+          <target id="t280"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

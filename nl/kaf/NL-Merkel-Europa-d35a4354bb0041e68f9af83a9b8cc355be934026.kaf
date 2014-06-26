@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:07:20CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w62" sent="3" para="2" offset="413" length="7">Volgens</wf>
+    <wf wid="w63" sent="3" para="2" offset="421" length="2">de</wf>
+    <wf wid="w64" sent="3" para="2" offset="424" length="6">Franse</wf>
+    <wf wid="w65" sent="3" para="2" offset="431" length="8">minister</wf>
+    <wf wid="w66" sent="3" para="2" offset="440" length="3">van</wf>
+    <wf wid="w67" sent="3" para="2" offset="444" length="8">Europese</wf>
+    <wf wid="w68" sent="3" para="2" offset="453" length="5">Zaken</wf>
+    <wf wid="w69" sent="3" para="2" offset="459" length="7">Bernard</wf>
+    <wf wid="w70" sent="3" para="2" offset="467" length="9">Cazeneuve</wf>
+    <wf wid="w71" sent="3" para="2" offset="477" length="5">komen</wf>
+    <wf wid="w72" sent="3" para="2" offset="483" length="2">de</wf>
+    <wf wid="w73" sent="3" para="2" offset="486" length="9">omstreden</wf>
+    <wf wid="w74" sent="3" para="2" offset="496" length="10">obligaties</wf>
+    <wf wid="w75" sent="3" para="2" offset="507" length="2">er</wf>
+    <wf wid="w76" sent="3" para="2" offset="510" length="3">hoe</wf>
+    <wf wid="w77" sent="3" para="2" offset="514" length="3">dan</wf>
+    <wf wid="w78" sent="3" para="2" offset="518" length="3">ook</wf>
+    <wf wid="w79" sent="3" para="2" offset="521" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Volgens-->
+    <term tid="t62" type="close" lemma="volgens" pos="P" morphofeat="prep">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t63" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--Franse-->
+    <term tid="t64" type="open" lemma="Frans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--minister-->
+    <term tid="t65" type="open" lemma="minister" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t66" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t67" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--Zaken-->
+    <term tid="t68" type="open" lemma="zaak|zaken" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--Bernard-->
+    <term tid="t69" type="open" lemma="Bernard" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--Cazeneuve-->
+    <term tid="t70" type="open" lemma="Cazeneuve" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--komen-->
+    <term tid="t71" type="open" lemma="komen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t72" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--omstreden-->
+    <term tid="t73" type="open" lemma="omstreden" pos="G" morphofeat="adj">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--obligaties-->
+    <term tid="t74" type="open" lemma="obligatie" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--er-->
+    <term tid="t75" type="close" lemma="er" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--hoe-->
+    <term tid="t76" type="close" lemma="hoe" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--dan-->
+    <term tid="t77" type="open" lemma="dan" pos="A" morphofeat="adv">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--ook-->
+    <term tid="t78" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t79" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--obligaties-->
+        <span>
+          <target id="t74"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--omstreden-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

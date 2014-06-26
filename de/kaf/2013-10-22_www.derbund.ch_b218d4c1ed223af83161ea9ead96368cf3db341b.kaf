@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:46:43Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:46:43Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:05:27CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:47:07CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:29CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w12" sent="3" para="3" offset="37" length="11">Deutschland</wf>
+    <wf wid="w13" sent="3" para="3" offset="49" length="3">hat</wf>
+    <wf wid="w14" sent="3" para="3" offset="53" length="4">seit</wf>
+    <wf wid="w15" sent="3" para="3" offset="58" length="5">heute</wf>
+    <wf wid="w16" sent="3" para="3" offset="64" length="3">ein</wf>
+    <wf wid="w17" sent="3" para="3" offset="68" length="5">neues</wf>
+    <wf wid="w18" sent="3" para="3" offset="74" length="9">Parlament</wf>
+    <wf wid="w19" sent="3" para="3" offset="83" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Deutschland" morphofeat="NE" pos="R" tid="t12" type="open">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t13" type="open">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="seit" morphofeat="APPR" pos="P" tid="t14" type="close">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="heute" morphofeat="ADV" pos="A" tid="t15" type="open">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t16" type="close">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="neu" morphofeat="ADJA" pos="G" tid="t17" type="open">
+      <span>
+        <target id="w17"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Parlament" morphofeat="NN" pos="N" tid="t18" type="open">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t19" type="open">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

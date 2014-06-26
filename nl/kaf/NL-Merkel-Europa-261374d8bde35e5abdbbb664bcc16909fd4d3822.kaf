@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:54Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:54Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:47:00CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:35CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="10">Ontmoeting</wf>
+    <wf wid="w2" sent="1" para="1" offset="11" length="4">vier</wf>
+    <wf wid="w3" sent="1" para="1" offset="16" length="9">ministers</wf>
+    <wf wid="w4" sent="1" para="1" offset="26" length="3">van</wf>
+    <wf wid="w5" sent="1" para="1" offset="30" length="9">Financiën</wf>
+    <wf wid="w6" sent="1" para="1" offset="40" length="3">aan</wf>
+    <wf wid="w7" sent="1" para="1" offset="44" length="9">vooravond</wf>
+    <wf wid="w8" sent="1" para="1" offset="54" length="6">EU-top</wf>
+    <wf wid="w56" sent="4" para="2" offset="355" length="7">Volgens</wf>
+    <wf wid="w57" sent="4" para="2" offset="363" length="9">Moscovici</wf>
+    <wf wid="w58" sent="4" para="2" offset="373" length="6">willen</wf>
+    <wf wid="w59" sent="4" para="2" offset="380" length="2">de</wf>
+    <wf wid="w60" sent="4" para="2" offset="383" length="9">ministers</wf>
+    <wf wid="w61" sent="4" para="2" offset="393" length="3">een</wf>
+    <wf wid="w62" sent="4" para="2" offset="397" length="1">"</wf>
+    <wf wid="w63" sent="4" para="2" offset="398" length="8">maximale</wf>
+    <wf wid="w64" sent="4" para="2" offset="407" length="13">voorbereiding</wf>
+    <wf wid="w65" sent="4" para="2" offset="420" length="1">"</wf>
+    <wf wid="w66" sent="4" para="2" offset="422" length="2">op</wf>
+    <wf wid="w67" sent="4" para="2" offset="425" length="2">de</wf>
+    <wf wid="w68" sent="4" para="2" offset="428" length="11">belangrijke</wf>
+    <wf wid="w69" sent="4" para="2" offset="440" length="3">top</wf>
+    <wf wid="w70" sent="4" para="2" offset="444" length="3">aan</wf>
+    <wf wid="w71" sent="4" para="2" offset="448" length="3">het</wf>
+    <wf wid="w72" sent="4" para="2" offset="452" length="5">einde</wf>
+    <wf wid="w73" sent="4" para="2" offset="458" length="3">van</wf>
+    <wf wid="w74" sent="4" para="2" offset="462" length="4">deze</wf>
+    <wf wid="w75" sent="4" para="2" offset="467" length="4">week</wf>
+    <wf wid="w76" sent="4" para="2" offset="471" length="1">.</wf>
+    <wf wid="w196" sent="11" para="2" offset="1157" length="6">Morgen</wf>
+    <wf wid="w197" sent="11" para="2" offset="1164" length="9">ontmoeten</wf>
+    <wf wid="w198" sent="11" para="2" offset="1174" length="2">de</wf>
+    <wf wid="w199" sent="11" para="2" offset="1177" length="6">Franse</wf>
+    <wf wid="w200" sent="11" para="2" offset="1184" length="9">president</wf>
+    <wf wid="w201" sent="11" para="2" offset="1194" length="8">Francois</wf>
+    <wf wid="w202" sent="11" para="2" offset="1203" length="8">Hollande</wf>
+    <wf wid="w203" sent="11" para="2" offset="1212" length="2">en</wf>
+    <wf wid="w204" sent="11" para="2" offset="1215" length="2">de</wf>
+    <wf wid="w205" sent="11" para="2" offset="1218" length="6">Duitse</wf>
+    <wf wid="w206" sent="11" para="2" offset="1225" length="14">bondskanselier</wf>
+    <wf wid="w207" sent="11" para="2" offset="1240" length="6">Angela</wf>
+    <wf wid="w208" sent="11" para="2" offset="1247" length="6">Merkel</wf>
+    <wf wid="w209" sent="11" para="2" offset="1254" length="6">elkaar</wf>
+    <wf wid="w210" sent="11" para="2" offset="1260" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ontmoeting-->
+    <term tid="t1" type="open" lemma="ontmoeting" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--vier-->
+    <term tid="t2" type="open" lemma="vier" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--ministers-->
+    <term tid="t3" type="open" lemma="minister" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t4" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Financiën-->
+    <term tid="t5" type="open" lemma="financiën" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t6" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--vooravond-->
+    <term tid="t7" type="open" lemma="vooravond" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--EU-top-->
+    <term tid="t8" type="open" lemma="EU-top" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--Volgens-->
+    <term tid="t56" type="close" lemma="volgens" pos="P" morphofeat="prep">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--Moscovici-->
+    <term tid="t57" type="open" lemma="Moscovici" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--willen-->
+    <term tid="t58" type="open" lemma="willen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t59" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--ministers-->
+    <term tid="t60" type="open" lemma="minister" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t61" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t62" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--maximale-->
+    <term tid="t63" type="open" lemma="maximaal" pos="G" morphofeat="adj">
+      <span>
+        <target id="w63"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--voorbereiding-->
+    <term tid="t64" type="open" lemma="voorbereiding" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t65" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t66" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t67" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--belangrijke-->
+    <term tid="t68" type="open" lemma="belangrijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w68"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--top-->
+    <term tid="t69" type="open" lemma="top" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w69"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--aan-->
+    <term tid="t70" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t71" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--einde-->
+    <term tid="t72" type="open" lemma="einde" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t73" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--deze-->
+    <term tid="t74" type="close" lemma="deze" pos="D" morphofeat="det__demo">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--week-->
+    <term tid="t75" type="open" lemma="week" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w75"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t76" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--Morgen-->
+    <term tid="t196" type="open" lemma="morgen" pos="A" morphofeat="adv">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--ontmoeten-->
+    <term tid="t197" type="open" lemma="ontmoeten" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t198" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--Franse-->
+    <term tid="t199" type="open" lemma="Frans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--president-->
+    <term tid="t200" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--Francois-->
+    <term tid="t201" type="open" lemma="Francois" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t202" type="open" lemma="Hollande" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t203" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t204" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t205" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--bondskanselier-->
+    <term tid="t206" type="open" lemma="bondskanselier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t207" type="open" lemma="Angela" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t208" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--elkaar-->
+    <term tid="t209" type="close" lemma="elkaar" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t210" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--de ministers-->
+        <span>
+          <target id="t59"/>
+          <target id="t60"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--een " maximale voorbereiding "-->
+        <span>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--willen-->
+        <span>
+          <target id="t58"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--top-->
+        <span>
+          <target id="t69"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--de belangrijke-->
+        <span>
+          <target id="t67"/>
+          <target id="t68"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:08:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:08:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:46:55" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:13:20CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="1510" length="3" wid="w263">Her</wf>
+    <wf sent="9" para="2" offset="1514" length="10" wid="w264">popularity</wf>
+    <wf sent="9" para="2" offset="1525" length="7" wid="w265">ratings</wf>
+    <wf sent="9" para="2" offset="1533" length="3" wid="w266">are</wf>
+    <wf sent="9" para="2" offset="1537" length="12" wid="w267">consistently</wf>
+    <wf sent="9" para="2" offset="1550" length="4" wid="w268">high</wf>
+    <wf sent="9" para="2" offset="1555" length="1" wid="w269">–</wf>
+    <wf sent="9" para="2" offset="1557" length="3" wid="w270">too</wf>
+    <wf sent="9" para="2" offset="1561" length="4" wid="w271">high</wf>
+    <wf sent="9" para="2" offset="1566" length="3" wid="w272">for</wf>
+    <wf sent="9" para="2" offset="1570" length="6" wid="w273">Merkel</wf>
+    <wf sent="9" para="2" offset="1576" length="1" wid="w274">,</wf>
+    <wf sent="9" para="2" offset="1578" length="4" wid="w275">some</wf>
+    <wf sent="9" para="2" offset="1583" length="4" wid="w276">have</wf>
+    <wf sent="9" para="2" offset="1588" length="9" wid="w277">suggested</wf>
+    <wf sent="9" para="2" offset="1597" length="1" wid="w278">.</wf>
+  </text>
+  <terms>
+    <!--Her-->
+    <term type="close" lemma="her" pos="Q" morphofeat="PRP$" tid="t263">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--popularity-->
+    <term type="open" lemma="popularity" pos="N" morphofeat="NN" tid="t264">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--ratings-->
+    <term type="open" lemma="rating" pos="N" morphofeat="NNS" tid="t265">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t266">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--consistently-->
+    <term type="open" lemma="consistently" pos="A" morphofeat="RB" tid="t267">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--high-->
+    <term type="open" lemma="high" pos="G" morphofeat="JJ" tid="t268">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--–-->
+    <term type="open" lemma="–" pos="A" morphofeat="RB" tid="t269">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--too-->
+    <term type="open" lemma="too" pos="A" morphofeat="RB" tid="t270">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--high-->
+    <term type="open" lemma="high" pos="G" morphofeat="JJ" tid="t271">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t272">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t273">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t274">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--some-->
+    <term type="close" lemma="some" pos="D" morphofeat="DT" tid="t275">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--have-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBP" tid="t276">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--suggested-->
+    <term type="open" lemma="suggest" pos="V" morphofeat="VBN" tid="t277">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t278">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Merkel-->
+        <span>
+          <target id="t273"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--too high for-->
+        <span>
+          <target id="t270"/>
+          <target id="t271"/>
+          <target id="t272"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--high-->
+        <span>
+          <target id="t268"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--consistently-->
+        <span>
+          <target id="t267"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

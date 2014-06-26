@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:21:18CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:37CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w89" sent="8" para="2" offset="504" length="4">Lady</wf>
+    <wf wid="w90" sent="8" para="2" offset="509" length="4">Gaga</wf>
+    <wf wid="w91" sent="8" para="2" offset="514" length="2">is</wf>
+    <wf wid="w92" sent="8" para="2" offset="517" length="2">de</wf>
+    <wf wid="w93" sent="8" para="2" offset="520" length="7">jongste</wf>
+    <wf wid="w94" sent="8" para="2" offset="528" length="2">in</wf>
+    <wf wid="w95" sent="8" para="2" offset="531" length="2">de</wf>
+    <wf wid="w96" sent="8" para="2" offset="534" length="9">ranglijst</wf>
+    <wf wid="w97" sent="8" para="2" offset="543" length="1">.</wf>
+    <wf wid="w146" sent="11" para="2" offset="783" length="3">Het</wf>
+    <wf wid="w147" sent="11" para="2" offset="787" length="8">magazine</wf>
+    <wf wid="w148" sent="11" para="2" offset="796" length="10">benadrukte</wf>
+    <wf wid="w149" sent="11" para="2" offset="807" length="3">ook</wf>
+    <wf wid="w150" sent="11" para="2" offset="811" length="1">"</wf>
+    <wf wid="w151" sent="11" para="2" offset="812" length="3">het</wf>
+    <wf wid="w152" sent="11" para="2" offset="816" length="11">formidabele</wf>
+    <wf wid="w153" sent="11" para="2" offset="828" length="4">jaar</wf>
+    <wf wid="w154" sent="11" para="2" offset="832" length="1">"</wf>
+    <wf wid="w155" sent="11" para="2" offset="834" length="3">van</wf>
+    <wf wid="w156" sent="11" para="2" offset="838" length="2">de</wf>
+    <wf wid="w157" sent="11" para="2" offset="841" length="9">64-jarige</wf>
+    <wf wid="w158" sent="11" para="2" offset="851" length="7">Clinton</wf>
+    <wf wid="w159" sent="11" para="2" offset="858" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Lady-->
+    <term tid="t89" type="open" lemma="lady" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--Gaga-->
+    <term tid="t90" type="open" lemma="Gaga" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w90"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--is-->
+    <term tid="t91" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t92" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--jongste-->
+    <term tid="t93" type="open" lemma="jong" pos="G" morphofeat="adj">
+      <span>
+        <target id="w93"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--in-->
+    <term tid="t94" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t95" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--ranglijst-->
+    <term tid="t96" type="open" lemma="ranglijst" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t97" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--Het-->
+    <term tid="t146" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--magazine-->
+    <term tid="t147" type="open" lemma="magazine" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--benadrukte-->
+    <term tid="t148" type="open" lemma="benadrukken" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w148"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--ook-->
+    <term tid="t149" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t150" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t151" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--formidabele-->
+    <term tid="t152" type="open" lemma="formidabel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w152"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--jaar-->
+    <term tid="t153" type="open" lemma="jaar" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t154" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t155" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t156" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--64-jarige-->
+    <term tid="t157" type="open" lemma="64-jarige" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--Clinton-->
+    <term tid="t158" type="open" lemma="Clinton" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t159" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Clinton-->
+        <span>
+          <target id="t158"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--formidabele jaar-->
+        <span>
+          <target id="t152"/>
+          <target id="t153"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Het magazine-->
+        <span>
+          <target id="t146"/>
+          <target id="t147"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--het formidabele jaar-->
+        <span>
+          <target id="t151"/>
+          <target id="t152"/>
+          <target id="t153"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--benadrukte-->
+        <span>
+          <target id="t148"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

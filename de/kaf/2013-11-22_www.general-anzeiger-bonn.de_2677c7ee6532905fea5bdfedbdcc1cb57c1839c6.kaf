@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:07:08Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:07:08Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:13:48CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:07:41CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w117" sent="10" para="6" offset="712" length="15">Bundeskanzlerin</wf>
+    <wf wid="w118" sent="10" para="6" offset="728" length="6">Angela</wf>
+    <wf wid="w119" sent="10" para="6" offset="735" length="6">Merkel</wf>
+    <wf wid="w120" sent="10" para="6" offset="742" length="1">(</wf>
+    <wf wid="w121" sent="10" para="6" offset="743" length="3">CDU</wf>
+    <wf wid="w122" sent="10" para="6" offset="746" length="1">)</wf>
+    <wf wid="w123" sent="10" para="6" offset="748" length="5">lobte</wf>
+    <wf wid="w124" sent="10" para="6" offset="754" length="8">nochmals</wf>
+    <wf wid="w125" sent="10" para="6" offset="763" length="3">das</wf>
+    <wf wid="w126" sent="10" para="6" offset="767" length="5">Klima</wf>
+    <wf wid="w127" sent="10" para="6" offset="773" length="3">der</wf>
+    <wf wid="w128" sent="10" para="6" offset="777" length="9">Gespräche</wf>
+    <wf wid="w129" sent="10" para="6" offset="786" length="1">.</wf>
+    <wf wid="w640" sent="41" para="13" offset="3884" length="1">"</wf>
+    <wf wid="w641" sent="41" para="13" offset="3885" length="3">Das</wf>
+    <wf wid="w642" sent="41" para="13" offset="3889" length="3">wär</wf>
+    <wf wid="w643" sent="41" para="13" offset="3892" length="1">'</wf>
+    <wf wid="w644" sent="41" para="13" offset="3894" length="3">ein</wf>
+    <wf wid="w645" sent="41" para="13" offset="3898" length="8">Desaster</wf>
+    <wf wid="w646" sent="41" para="13" offset="3906" length="1">"</wf>
+    <wf wid="w647" sent="41" para="13" offset="3907" length="1">,</wf>
+    <wf wid="w648" sent="41" para="13" offset="3909" length="5">sagte</wf>
+    <wf wid="w649" sent="41" para="13" offset="3915" length="2">er</wf>
+    <wf wid="w650" sent="41" para="13" offset="3918" length="2">in</wf>
+    <wf wid="w651" sent="41" para="13" offset="3921" length="6">Berlin</wf>
+    <wf wid="w652" sent="41" para="13" offset="3927" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Bundeskanzlerin" morphofeat="NN" pos="N" tid="t117" type="open">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <term lemma="Angela" morphofeat="NE" pos="R" tid="t118" type="open">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t119" type="open">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="$(" pos="O" tid="t120" type="open">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <term lemma="CDU" morphofeat="NE" pos="R" tid="t121" type="open">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat="$(" pos="O" tid="t122" type="open">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <term lemma="loben" morphofeat="VVFIN" pos="V" tid="t123" type="open">
+      <span>
+        <target id="w123"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="nochmals" morphofeat="ADV" pos="A" tid="t124" type="open">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t125" type="close">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <term lemma="Klima" morphofeat="NN" pos="N" tid="t126" type="open">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t127" type="close">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <term lemma="Gespräch" morphofeat="NN" pos="N" tid="t128" type="open">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t129" type="open">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t640" type="open">
+      <span>
+        <target id="w640"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="PDS" pos="Q" tid="t641" type="close">
+      <span>
+        <target id="w641"/>
+      </span>
+    </term>
+    <term lemma="wär" morphofeat="ADJD unknown_lemma" pos="O" tid="t642" type="open">
+      <span>
+        <target id="w642"/>
+      </span>
+    </term>
+    <term lemma="'" morphofeat="$(" pos="O" tid="t643" type="open">
+      <span>
+        <target id="w643"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t644" type="close">
+      <span>
+        <target id="w644"/>
+      </span>
+    </term>
+    <term lemma="Desaster" morphofeat="NN" pos="N" tid="t645" type="open">
+      <span>
+        <target id="w645"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t646" type="open">
+      <span>
+        <target id="w646"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t647" type="open">
+      <span>
+        <target id="w647"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t648" type="open">
+      <span>
+        <target id="w648"/>
+      </span>
+    </term>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t649" type="close">
+      <span>
+        <target id="w649"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t650" type="close">
+      <span>
+        <target id="w650"/>
+      </span>
+    </term>
+    <term lemma="Berlin" morphofeat="NE" pos="R" tid="t651" type="open">
+      <span>
+        <target id="w651"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t652" type="open">
+      <span>
+        <target id="w652"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Bundeskanzlerin Angela Merkel-->
+        <span>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--das Klima der Gespräche-->
+        <span>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--lobte-->
+        <span>
+          <target id="t123"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder>
+        <!--er-->
+        <span>
+          <target id="t649"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Das-->
+        <span>
+          <target id="t641"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--Desaster-->
+        <span>
+          <target id="t645"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

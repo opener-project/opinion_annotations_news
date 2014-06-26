@@ -1,0 +1,13 @@
+w134	Auf	auf	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	133	true	10
+w135	den	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	134	true	10
+w136	Internetseiten	Internetseiten	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	135	true	10
+w137	der	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	136	true	10
+w138	spanischen	spanisch	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	137	true	10
+w139	Zeitungen	Zeitung	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	138	true	10
+w140	war	sein	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	139	true	10
+w141	das	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	140	true	10
+w142	Wahlergebnis	Wahlergebnis	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	141	true	10
+w143	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	142	true	10
+w144	Deutschland	Deutschland	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	143	true	10
+w145	das	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	144	true	10
+w146	Hauptthema	Hauptthema	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	145	true	10

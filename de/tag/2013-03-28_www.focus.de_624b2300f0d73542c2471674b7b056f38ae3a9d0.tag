@@ -1,0 +1,11 @@
+w65	Für	für	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	64	true	7
+w66	weitere	weit	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	65	true	7
+w67	Informationen	Information	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	66	true	7
+w68	zum	zu	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	67	true	7
+w69	Thema	Thema	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	68	true	7
+w70	Datenschutz	Datenschutz	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	69	true	7
+w71	klicken	klicken	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	70	true	7
+w72	Sie	Sie|sie	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	71	true	7
+w73	auf	auf	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	72	true	7
+w74	das	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	73	true	7
+w75	i.	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	74	true	7

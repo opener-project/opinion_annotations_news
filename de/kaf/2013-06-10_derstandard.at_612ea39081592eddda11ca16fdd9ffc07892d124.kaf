@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:51:49Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:51:49Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:01:27CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:52:14CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w630" sent="32" para="19" offset="3894" length="3">Der</wf>
+    <wf wid="w631" sent="32" para="19" offset="3898" length="7">Skandal</wf>
+    <wf wid="w632" sent="32" para="19" offset="3906" length="6">bringe</wf>
+    <wf wid="w633" sent="32" para="19" offset="3913" length="4">auch</wf>
+    <wf wid="w634" sent="32" para="19" offset="3918" length="3">das</wf>
+    <wf wid="w635" sent="32" para="19" offset="3922" length="8">geplante</wf>
+    <wf wid="w636" sent="32" para="19" offset="3931" length="19">Freihandelsabkommen</wf>
+    <wf wid="w637" sent="32" para="19" offset="3951" length="8">zwischen</wf>
+    <wf wid="w638" sent="32" para="19" offset="3960" length="3">den</wf>
+    <wf wid="w639" sent="32" para="19" offset="3964" length="3">USA</wf>
+    <wf wid="w640" sent="32" para="19" offset="3968" length="3">und</wf>
+    <wf wid="w641" sent="32" para="19" offset="3972" length="3">der</wf>
+    <wf wid="w642" sent="32" para="19" offset="3976" length="2">EU</wf>
+    <wf wid="w643" sent="32" para="19" offset="3979" length="2">in</wf>
+    <wf wid="w644" sent="32" para="19" offset="3982" length="6">Gefahr</wf>
+    <wf wid="w645" sent="32" para="19" offset="3988" length="1">,</wf>
+    <wf wid="w646" sent="32" para="19" offset="3990" length="2">so</wf>
+    <wf wid="w647" sent="32" para="19" offset="3993" length="11">Leichtfried</wf>
+    <wf wid="w648" sent="32" para="19" offset="4004" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t630" type="close">
+      <span>
+        <target id="w630"/>
+      </span>
+    </term>
+    <term lemma="Skandal" morphofeat="NN" pos="N" tid="t631" type="open">
+      <span>
+        <target id="w631"/>
+      </span>
+    </term>
+    <term lemma="bringen" morphofeat="VVFIN" pos="V" tid="t632" type="open">
+      <span>
+        <target id="w632"/>
+      </span>
+    </term>
+    <term lemma="auch" morphofeat="ADV" pos="A" tid="t633" type="open">
+      <span>
+        <target id="w633"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t634" type="close">
+      <span>
+        <target id="w634"/>
+      </span>
+    </term>
+    <term lemma="geplant" morphofeat="ADJA" pos="G" tid="t635" type="open">
+      <span>
+        <target id="w635"/>
+      </span>
+    </term>
+    <term lemma="Freihandelsabkommen" morphofeat="NN" pos="N" tid="t636" type="open">
+      <span>
+        <target id="w636"/>
+      </span>
+    </term>
+    <term lemma="zwischen" morphofeat="APPR" pos="P" tid="t637" type="close">
+      <span>
+        <target id="w637"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t638" type="close">
+      <span>
+        <target id="w638"/>
+      </span>
+    </term>
+    <term lemma="USA" morphofeat="NE" pos="R" tid="t639" type="open">
+      <span>
+        <target id="w639"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t640" type="close">
+      <span>
+        <target id="w640"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t641" type="close">
+      <span>
+        <target id="w641"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t642" type="open">
+      <span>
+        <target id="w642"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t643" type="close">
+      <span>
+        <target id="w643"/>
+      </span>
+    </term>
+    <term lemma="Gefahr" morphofeat="NN" pos="N" tid="t644" type="open">
+      <span>
+        <target id="w644"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t645" type="open">
+      <span>
+        <target id="w645"/>
+      </span>
+    </term>
+    <term lemma="so" morphofeat="ADV" pos="A" tid="t646" type="open">
+      <span>
+        <target id="w646"/>
+      </span>
+    </term>
+    <term lemma="Leichtfried" morphofeat="NE unknown_lemma" pos="O" tid="t647" type="open">
+      <span>
+        <target id="w647"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t648" type="open">
+      <span>
+        <target id="w648"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Leichtfried-->
+        <span>
+          <target id="t647"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Der Skandal-->
+        <span>
+          <target id="t630"/>
+          <target id="t631"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--bringe das geplante Freihandelsabkommen in Gefahr-->
+        <span>
+          <target id="t632"/>
+          <target id="t634"/>
+          <target id="t635"/>
+          <target id="t636"/>
+          <target id="t643"/>
+          <target id="t644"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:54:20" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:41:42CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="6" wid="w1">German</wf>
+    <wf sent="1" para="1" offset="7" length="10" wid="w2">parliament</wf>
+    <wf sent="1" para="1" offset="18" length="8" wid="w3">approves</wf>
+    <wf sent="1" para="1" offset="27" length="7" wid="w4">Spanish</wf>
+    <wf sent="1" para="1" offset="35" length="4" wid="w5">bank</wf>
+    <wf sent="1" para="1" offset="40" length="3" wid="w6">aid</wf>
+  </text>
+  <terms>
+    <!--German-->
+    <term type="open" lemma="german" pos="G" morphofeat="JJ" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--parliament-->
+    <term type="open" lemma="parliament" pos="N" morphofeat="NN" tid="t2">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--approves-->
+    <term type="open" lemma="approve" pos="V" morphofeat="VBZ" tid="t3">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--Spanish-->
+    <term type="open" lemma="spanish" pos="G" morphofeat="JJ" tid="t4">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--bank-->
+    <term type="open" lemma="bank" pos="N" morphofeat="NN" tid="t5">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--aid-->
+    <term type="open" lemma="aid" pos="N" morphofeat="NN" tid="t6">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--German parliament-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Spanish bank aid-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--approves-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

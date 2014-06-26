@@ -1,0 +1,15 @@
+w167	veel	veel	A		OpinionHolder	2	Opinion	1		0		0		0		0		0		0	166	true	10
+w168	van	van	P		OpinionHolder	2	Opinion	1		0		0		0		0		0		0	167	true	10
+w169	zijn	zijn	D		OpinionHolder	2	Opinion	1		0		0		0		0		0		0	168	true	10
+w170	landgenoten	landgenoot|landgenote	N		OpinionHolder	2	Opinion	1		0		0		0		0		0		0	169	true	10
+w171	liever	lief	G		I-Positive	4	Opinion	1		0		0		0		0		0		0	170	true	10
+w172	werken	werken	V		OpinionTarget	3	Opinion	1		0		0		0		0		0		0	171	true	10
+w173	in	in	P		OpinionTarget	3	Opinion	1		0		0		0		0		0		0	172	true	10
+w174	Italië	Italië	R		OpinionTarget	3	Opinion	1		0		0		0		0		0		0	173	true	10
+w175	of	of	C		OpinionTarget	3	Opinion	1		0		0		0		0		0		0	174	true	10
+w176	Spanje	Spanje	R		OpinionTarget	3	Opinion	1		0		0		0		0		0		0	175	true	10
+w179	ze	ze	Q		OpinionHolder	6	Opinion	5		0		0		0		0		0		0	178	true	10
+w180	zich	zich	Q		I-Positive	9	Opinion	5		0		0		0		0		0		0	179	true	10
+w181	daar	daar	A		OpinionTarget	7	Opinion	5		0		0		0		0		0		0	180	true	10
+w182	beter	beter|goed	G		I-Positive	9	Opinion	5		0		0		0		0		0		0	181	true	10
+w183	thuisvoelen	thuisvoelen	O		I-Positive	9	Opinion	5		0		0		0		0		0		0	182	true	10

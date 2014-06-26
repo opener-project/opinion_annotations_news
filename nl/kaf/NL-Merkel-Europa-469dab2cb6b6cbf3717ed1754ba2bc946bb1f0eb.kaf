@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:43:18CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w43" sent="5" para="2" offset="261" length="6">George</wf>
+    <wf wid="w44" sent="5" para="2" offset="268" length="5">Soros</wf>
+    <wf wid="w45" sent="5" para="2" offset="274" length="2">is</wf>
+    <wf wid="w46" sent="5" para="2" offset="277" length="3">dit</wf>
+    <wf wid="w47" sent="5" para="2" offset="281" length="7">weekend</wf>
+    <wf wid="w48" sent="5" para="2" offset="289" length="2">te</wf>
+    <wf wid="w49" sent="5" para="2" offset="292" length="4">gast</wf>
+    <wf wid="w50" sent="5" para="2" offset="297" length="2">op</wf>
+    <wf wid="w51" sent="5" para="2" offset="300" length="3">het</wf>
+    <wf wid="w52" sent="5" para="2" offset="304" length="10">jaarlijkse</wf>
+    <wf wid="w53" sent="5" para="2" offset="315" length="16">economiefestival</wf>
+    <wf wid="w54" sent="5" para="2" offset="332" length="2">in</wf>
+    <wf wid="w55" sent="5" para="2" offset="335" length="3">het</wf>
+    <wf wid="w56" sent="5" para="2" offset="339" length="16">Noord-Italiaanse</wf>
+    <wf wid="w57" sent="5" para="2" offset="356" length="6">Trento</wf>
+    <wf wid="w58" sent="5" para="2" offset="362" length="1">.</wf>
+    <wf wid="w529" sent="31" para="2" offset="3126" length="2">Op</wf>
+    <wf wid="w530" sent="31" para="2" offset="3129" length="2">de</wf>
+    <wf wid="w531" sent="31" para="2" offset="3132" length="5">lijst</wf>
+    <wf wid="w532" sent="31" para="2" offset="3138" length="3">van</wf>
+    <wf wid="w533" sent="31" para="2" offset="3142" length="6">Forbes</wf>
+    <wf wid="w534" sent="31" para="2" offset="3149" length="3">van</wf>
+    <wf wid="w535" sent="31" para="2" offset="3153" length="7">rijkste</wf>
+    <wf wid="w536" sent="31" para="2" offset="3161" length="6">mensen</wf>
+    <wf wid="w537" sent="31" para="2" offset="3168" length="3">ter</wf>
+    <wf wid="w538" sent="31" para="2" offset="3172" length="6">wereld</wf>
+    <wf wid="w539" sent="31" para="2" offset="3179" length="5">bezet</wf>
+    <wf wid="w540" sent="31" para="2" offset="3185" length="3">hij</wf>
+    <wf wid="w541" sent="31" para="2" offset="3189" length="2">de</wf>
+    <wf wid="w542" sent="31" para="2" offset="3192" length="4">plek</wf>
+    <wf wid="w543" sent="31" para="2" offset="3197" length="2">46</wf>
+    <wf wid="w544" sent="31" para="2" offset="3200" length="5">sinds</wf>
+    <wf wid="w545" sent="31" para="2" offset="3206" length="9">september</wf>
+    <wf wid="w546" sent="31" para="2" offset="3216" length="4">2011</wf>
+    <wf wid="w547" sent="31" para="2" offset="3220" length="1">.</wf>
+  </text>
+  <terms>
+    <!--George-->
+    <term tid="t43" type="open" lemma="George" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--Soros-->
+    <term tid="t44" type="open" lemma="Soros" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t45" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--dit-->
+    <term tid="t46" type="close" lemma="dit" pos="D" morphofeat="det__demo">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--weekend-->
+    <term tid="t47" type="open" lemma="weekend" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t48" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--gast-->
+    <term tid="t49" type="open" lemma="gast" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t50" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t51" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--jaarlijkse-->
+    <term tid="t52" type="open" lemma="jaarlijks" pos="G" morphofeat="adj">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--economiefestival-->
+    <term tid="t53" type="open" lemma="economiefestival" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t54" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t55" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--Noord-Italiaanse-->
+    <term tid="t56" type="open" lemma="Noord-Italiaanse" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--Trento-->
+    <term tid="t57" type="open" lemma="Trento" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t58" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--Op-->
+    <term tid="t529" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w529"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t530" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w530"/>
+      </span>
+    </term>
+    <!--lijst-->
+    <term tid="t531" type="open" lemma="lijst" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w531"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t532" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w532"/>
+      </span>
+    </term>
+    <!--Forbes-->
+    <term tid="t533" type="open" lemma="Forbes" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w533"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t534" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w534"/>
+      </span>
+    </term>
+    <!--rijkste-->
+    <term tid="t535" type="open" lemma="rijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w535"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--mensen-->
+    <term tid="t536" type="open" lemma="mens" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w536"/>
+      </span>
+    </term>
+    <!--ter-->
+    <term tid="t537" type="close" lemma="te" pos="P" morphofeat="prep">
+      <span>
+        <target id="w537"/>
+      </span>
+    </term>
+    <!--wereld-->
+    <term tid="t538" type="open" lemma="wereld" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w538"/>
+      </span>
+    </term>
+    <!--bezet-->
+    <term tid="t539" type="open" lemma="bezetten" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w539"/>
+      </span>
+    </term>
+    <!--hij-->
+    <term tid="t540" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w540"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t541" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w541"/>
+      </span>
+    </term>
+    <!--plek-->
+    <term tid="t542" type="open" lemma="plek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w542"/>
+      </span>
+    </term>
+    <!--46-->
+    <term tid="t543" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w543"/>
+      </span>
+    </term>
+    <!--sinds-->
+    <term tid="t544" type="close" lemma="sinds" pos="P" morphofeat="prep">
+      <span>
+        <target id="w544"/>
+      </span>
+    </term>
+    <!--september-->
+    <term tid="t545" type="open" lemma="september" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w545"/>
+      </span>
+    </term>
+    <!--2011-->
+    <term tid="t546" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w546"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t547" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w547"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t529"/>
+          <target id="t530"/>
+          <target id="t531"/>
+          <target id="t532"/>
+          <target id="t533"/>
+          <target id="t534"/>
+          <target id="t535"/>
+          <target id="t536"/>
+          <target id="t537"/>
+          <target id="t538"/>
+          <target id="t539"/>
+          <target id="t540"/>
+          <target id="t541"/>
+          <target id="t542"/>
+          <target id="t543"/>
+          <target id="t544"/>
+          <target id="t545"/>
+          <target id="t546"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,15 @@
+w197	Il	Il	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	196	true	8
+w198	a	avoir	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	197	true	8
+w199	annoncé	annoncer	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	198	true	8
+w200	que	que	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	199	true	8
+w201	le	le	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	200	true	8
+w202	premier	premier	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	201	true	8
+w203	cycle	cycle	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	202	true	8
+w204	de	de	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	203	true	8
+w205	négociations	négociation	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	204	true	8
+w206	aura	avoir	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	205	true	8
+w207	lieu	lieu	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	206	true	8
+w208	à	à	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	207	true	8
+w209	Washington	Washington	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	208	true	8
+w210	en	en	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	209	true	8
+w211	juillet	juillet	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	210	true	8

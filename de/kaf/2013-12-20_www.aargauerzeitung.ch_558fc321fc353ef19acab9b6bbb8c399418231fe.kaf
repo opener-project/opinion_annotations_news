@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:20:01Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:20:01Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:49:46CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:20:33CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w710" sent="49" para="26" offset="4455" length="5">Nicht</wf>
+    <wf wid="w711" sent="49" para="26" offset="4461" length="10">publiziert</wf>
+    <wf wid="w712" sent="49" para="26" offset="4472" length="6">werden</wf>
+    <wf wid="w713" sent="49" para="26" offset="4479" length="9">überlange</wf>
+    <wf wid="w714" sent="49" para="26" offset="4489" length="10">Kommentare</wf>
+    <wf wid="w715" sent="49" para="26" offset="4500" length="1">(</wf>
+    <wf wid="w716" sent="49" para="26" offset="4501" length="6">länger</wf>
+    <wf wid="w717" sent="49" para="26" offset="4508" length="3">als</wf>
+    <wf wid="w718" sent="49" para="26" offset="4512" length="3">650</wf>
+    <wf wid="w719" sent="49" para="26" offset="4516" length="7">Zeichen</wf>
+    <wf wid="w720" sent="49" para="26" offset="4523" length="1">)</wf>
+    <wf wid="w721" sent="49" para="26" offset="4524" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t710" type="open">
+      <span>
+        <target id="w710"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="publizieren" morphofeat="VVPP" pos="V" tid="t711" type="open">
+      <span>
+        <target id="w711"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAINF" pos="V" tid="t712" type="open">
+      <span>
+        <target id="w712"/>
+      </span>
+    </term>
+    <term lemma="überlange" morphofeat="VVFIN" pos="V" tid="t713" type="open">
+      <span>
+        <target id="w713"/>
+      </span>
+    </term>
+    <term lemma="Kommentar" morphofeat="NN" pos="N" tid="t714" type="open">
+      <span>
+        <target id="w714"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="$(" pos="O" tid="t715" type="open">
+      <span>
+        <target id="w715"/>
+      </span>
+    </term>
+    <term lemma="lang" morphofeat="ADJD" pos="G" tid="t716" type="open">
+      <span>
+        <target id="w716"/>
+      </span>
+    </term>
+    <term lemma="als" morphofeat="KOKOM" pos="C" tid="t717" type="close">
+      <span>
+        <target id="w717"/>
+      </span>
+    </term>
+    <term lemma="650" morphofeat="CARD" pos="O" tid="t718" type="open">
+      <span>
+        <target id="w718"/>
+      </span>
+    </term>
+    <term lemma="Zeichen" morphofeat="NN" pos="N" tid="t719" type="open">
+      <span>
+        <target id="w719"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat="$(" pos="O" tid="t720" type="open">
+      <span>
+        <target id="w720"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t721" type="open">
+      <span>
+        <target id="w721"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t710"/>
+          <target id="t711"/>
+          <target id="t712"/>
+          <target id="t713"/>
+          <target id="t714"/>
+          <target id="t715"/>
+          <target id="t716"/>
+          <target id="t717"/>
+          <target id="t718"/>
+          <target id="t719"/>
+          <target id="t720"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

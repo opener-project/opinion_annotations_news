@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:49:49Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:49:49Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:51:01CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:49:58CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w178" sent="12" para="8" offset="1200" length="8">Sachsens</wf>
+    <wf wid="w179" sent="12" para="8" offset="1209" length="20">christdemokratischer</wf>
+    <wf wid="w180" sent="12" para="8" offset="1230" length="17">Ministerpräsident</wf>
+    <wf wid="w181" sent="12" para="8" offset="1248" length="9">Stanislaw</wf>
+    <wf wid="w182" sent="12" para="8" offset="1258" length="7">Tillich</wf>
+    <wf wid="w183" sent="12" para="8" offset="1266" length="11">kritisierte</wf>
+    <wf wid="w184" sent="12" para="8" offset="1278" length="3">den</wf>
+    <wf wid="w185" sent="12" para="8" offset="1282" length="9">Beschluss</wf>
+    <wf wid="w186" sent="12" para="8" offset="1292" length="6">seiner</wf>
+    <wf wid="w187" sent="12" para="8" offset="1299" length="8">Kollegen</wf>
+    <wf wid="w188" sent="12" para="8" offset="1307" length="1">:</wf>
+    <wf wid="w189" sent="12" para="8" offset="1309" length="1">"</wf>
+    <wf wid="w190" sent="12" para="8" offset="1310" length="3">Der</wf>
+    <wf wid="w191" sent="12" para="8" offset="1314" length="9">Bundesrat</wf>
+    <wf wid="w192" sent="12" para="8" offset="1324" length="3">ist</wf>
+    <wf wid="w193" sent="12" para="8" offset="1328" length="4">kein</wf>
+    <wf wid="w194" sent="12" para="8" offset="1333" length="5">Platz</wf>
+    <wf wid="w195" sent="12" para="8" offset="1339" length="3">für</wf>
+    <wf wid="w196" sent="12" para="8" offset="1343" length="10">politische</wf>
+    <wf wid="w197" sent="12" para="8" offset="1354" length="9">Spielchen</wf>
+    <wf wid="w198" sent="12" para="8" offset="1363" length="1">.</wf>
+    <wf wid="w199" sent="12" para="8" offset="1364" length="1">"</wf>
+  </text>
+  <terms>
+    <term lemma="Sachse|Sachsen" morphofeat="NE" pos="R" tid="t178" type="open">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <term lemma="christdemokratisch" morphofeat="ADJA" pos="G" tid="t179" type="open">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <term lemma="Ministerpräsident" morphofeat="NN" pos="N" tid="t180" type="open">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <term lemma="Stanislaw" morphofeat="NE" pos="R" tid="t181" type="open">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <term lemma="Tillich" morphofeat="NE unknown_lemma" pos="O" tid="t182" type="open">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <term lemma="kritisieren" morphofeat="VVFIN" pos="V" tid="t183" type="open">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t184" type="close">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <term lemma="Beschluss" morphofeat="NN" pos="N" tid="t185" type="open">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="PPOSAT" pos="Q" tid="t186" type="close">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <term lemma="Kollege" morphofeat="NN" pos="N" tid="t187" type="open">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <term lemma=":" morphofeat="$." pos="O" tid="t188" type="open">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t189" type="open">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t190" type="close">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <term lemma="Bundesrat" morphofeat="NN" pos="N" tid="t191" type="open">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t192" type="open">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <term lemma="keine" morphofeat="PIAT" pos="Q" tid="t193" type="close">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <term lemma="Platz" morphofeat="NN" pos="N" tid="t194" type="open">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t195" type="close">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <term lemma="politisch" morphofeat="ADJA" pos="G" tid="t196" type="open">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <term lemma="Spielchen" morphofeat="NN unknown_lemma" pos="O" tid="t197" type="open">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t198" type="open">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t199" type="open">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Sachsens christdemokratischer Ministerpräsident Stanislaw Tillich-->
+        <span>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--den Beschluss seiner Kollegen-->
+        <span>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--kritisierte-->
+        <span>
+          <target id="t183"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Der Bundesrat-->
+        <span>
+          <target id="t190"/>
+          <target id="t191"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--kein Platz für politische Spielchen-->
+        <span>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

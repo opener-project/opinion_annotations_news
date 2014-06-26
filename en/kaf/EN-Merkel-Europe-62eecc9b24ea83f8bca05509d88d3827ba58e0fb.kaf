@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:10:08" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:45:14CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:59CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="6" para="2" offset="1027" length="3" wid="w183">The</wf>
+    <wf sent="6" para="2" offset="1031" length="7" wid="w184">jobless</wf>
+    <wf sent="6" para="2" offset="1039" length="4" wid="w185">rate</wf>
+    <wf sent="6" para="2" offset="1044" length="5" wid="w186">among</wf>
+    <wf sent="6" para="2" offset="1050" length="9" wid="w187">under-25s</wf>
+    <wf sent="6" para="2" offset="1060" length="2" wid="w188">in</wf>
+    <wf sent="6" para="2" offset="1063" length="3" wid="w189">the</wf>
+    <wf sent="6" para="2" offset="1067" length="9" wid="w190">17-nation</wf>
+    <wf sent="6" para="2" offset="1077" length="8" wid="w191">eurozone</wf>
+    <wf sent="6" para="2" offset="1086" length="3" wid="w192">was</wf>
+    <wf sent="6" para="2" offset="1090" length="2" wid="w193">24</wf>
+    <wf sent="6" para="2" offset="1093" length="7" wid="w194">percent</wf>
+    <wf sent="6" para="2" offset="1101" length="2" wid="w195">in</wf>
+    <wf sent="6" para="2" offset="1104" length="5" wid="w196">March</wf>
+    <wf sent="6" para="2" offset="1109" length="1" wid="w197">,</wf>
+    <wf sent="6" para="2" offset="1111" length="8" wid="w198">compared</wf>
+    <wf sent="6" para="2" offset="1120" length="4" wid="w199">with</wf>
+    <wf sent="6" para="2" offset="1125" length="3" wid="w200">the</wf>
+    <wf sent="6" para="2" offset="1129" length="7" wid="w201">overall</wf>
+    <wf sent="6" para="2" offset="1137" length="4" wid="w202">rate</wf>
+    <wf sent="6" para="2" offset="1142" length="2" wid="w203">of</wf>
+    <wf sent="6" para="2" offset="1145" length="2" wid="w204">12</wf>
+    <wf sent="6" para="2" offset="1147" length="1" wid="w205">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t183">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--jobless-->
+    <term type="open" lemma="jobless" pos="G" morphofeat="JJ" tid="t184">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--rate-->
+    <term type="open" lemma="rate" pos="N" morphofeat="NN" tid="t185">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--among-->
+    <term type="close" lemma="among" pos="P" morphofeat="IN" tid="t186">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--under-25s-->
+    <term type="open" lemma="under-25s" pos="N" morphofeat="NNS" tid="t187">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t188">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t189">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--17-nation-->
+    <term type="open" lemma="17-nation" pos="G" morphofeat="JJ" tid="t190">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--eurozone-->
+    <term type="open" lemma="eurozone" pos="N" morphofeat="NN" tid="t191">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t192">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--24-->
+    <term type="close" lemma="24" pos="O" morphofeat="CD" tid="t193">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--percent-->
+    <term type="open" lemma="percent" pos="N" morphofeat="NN" tid="t194">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t195">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--March-->
+    <term type="close" lemma="March" pos="R" morphofeat="NNP" tid="t196">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t197">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--compared-->
+    <term type="open" lemma="compare" pos="V" morphofeat="VBN" tid="t198">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t199">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t200">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--overall-->
+    <term type="open" lemma="overall" pos="G" morphofeat="JJ" tid="t201">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--rate-->
+    <term type="open" lemma="rate" pos="N" morphofeat="NN" tid="t202">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t203">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--12-->
+    <term type="close" lemma="12" pos="O" morphofeat="CD" tid="t204">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t205">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

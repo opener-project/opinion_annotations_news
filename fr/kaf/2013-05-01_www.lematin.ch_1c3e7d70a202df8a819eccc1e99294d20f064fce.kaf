@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:49:34Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:49:34Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:49:34Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:16:07CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w582" sent="23" para="14" offset="2969" length="2">Le</wf>
+    <wf wid="w583" sent="23" para="14" offset="2972" length="7">nouveau</wf>
+    <wf wid="w584" sent="23" para="14" offset="2980" length="4">chef</wf>
+    <wf wid="w585" sent="23" para="14" offset="2985" length="2">du</wf>
+    <wf wid="w586" sent="23" para="14" offset="2988" length="12">gouvernement</wf>
+    <wf wid="w587" sent="23" para="14" offset="3001" length="6">Enrico</wf>
+    <wf wid="w588" sent="23" para="14" offset="3008" length="5">Letta</wf>
+    <wf wid="w589" sent="23" para="14" offset="3013" length="1">,</wf>
+    <wf wid="w590" sent="23" para="14" offset="3015" length="3">qui</wf>
+    <wf wid="w591" sent="23" para="14" offset="3019" length="5">avait</wf>
+    <wf wid="w592" sent="23" para="14" offset="3025" length="7">réservé</wf>
+    <wf wid="w593" sent="23" para="14" offset="3033" length="1">à</wf>
+    <wf wid="w594" sent="23" para="14" offset="3035" length="6">Angela</wf>
+    <wf wid="w595" sent="23" para="14" offset="3042" length="6">Merkel</wf>
+    <wf wid="w596" sent="23" para="14" offset="3049" length="2">sa</wf>
+    <wf wid="w597" sent="23" para="14" offset="3052" length="8">première</wf>
+    <wf wid="w598" sent="23" para="14" offset="3061" length="6">visite</wf>
+    <wf wid="w599" sent="23" para="14" offset="3068" length="1">à</wf>
+    <wf wid="w600" sent="23" para="14" offset="3070" length="2">l'</wf>
+    <wf wid="w601" sent="23" para="14" offset="3072" length="8">étranger</wf>
+    <wf wid="w602" sent="23" para="14" offset="3080" length="1">,</wf>
+    <wf wid="w603" sent="23" para="14" offset="3082" length="5">mardi</wf>
+    <wf wid="w604" sent="23" para="14" offset="3088" length="4">soir</wf>
+    <wf wid="w605" sent="23" para="14" offset="3092" length="1">,</wf>
+    <wf wid="w606" sent="23" para="14" offset="3094" length="1">a</wf>
+    <wf wid="w607" sent="23" para="14" offset="3096" length="8">critiqué</wf>
+    <wf wid="w608" sent="23" para="14" offset="3105" length="3">dès</wf>
+    <wf wid="w609" sent="23" para="14" offset="3109" length="3">son</wf>
+    <wf wid="w610" sent="23" para="14" offset="3113" length="6">entrée</wf>
+    <wf wid="w611" sent="23" para="14" offset="3120" length="2">en</wf>
+    <wf wid="w612" sent="23" para="14" offset="3123" length="8">fonction</wf>
+    <wf wid="w613" sent="23" para="14" offset="3132" length="3">les</wf>
+    <wf wid="w614" sent="23" para="14" offset="3136" length="10">politiques</wf>
+    <wf wid="w615" sent="23" para="14" offset="3147" length="2">d'</wf>
+    <wf wid="w616" sent="23" para="14" offset="3149" length="9">austérité</wf>
+    <wf wid="w617" sent="23" para="14" offset="3158" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Le-->
+    <term tid="t582" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w582"/>
+      </span>
+    </term>
+    <!--nouveau-->
+    <term tid="t583" type="open" lemma="nouveau" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w583"/>
+      </span>
+    </term>
+    <!--chef-->
+    <term tid="t584" type="open" lemma="chef" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w584"/>
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t585" type="close" lemma="du" pos="P" morphofeat="P">
+      <span>
+        <target id="w585"/>
+      </span>
+    </term>
+    <!--gouvernement-->
+    <term tid="t586" type="open" lemma="gouvernement" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w586"/>
+      </span>
+    </term>
+    <!--Enrico-->
+    <term tid="t587" type="open" lemma="Enrico" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w587"/>
+      </span>
+    </term>
+    <!--Letta-->
+    <term tid="t588" type="open" lemma="Letta" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w588"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t589" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w589"/>
+      </span>
+    </term>
+    <!--qui-->
+    <term tid="t590" type="close" lemma="qui" pos="P" morphofeat="PROR3ms">
+      <span>
+        <target id="w590"/>
+      </span>
+    </term>
+    <!--avait-->
+    <term tid="t591" type="open" lemma="avoir" pos="V" morphofeat="VI3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w591"/>
+      </span>
+    </term>
+    <!--réservé-->
+    <term tid="t592" type="open" lemma="réserver" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w592"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t593" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w593"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t594" type="open" lemma="Angela" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w594"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t595" type="open" lemma="Merkel" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w595"/>
+      </span>
+    </term>
+    <!--sa-->
+    <term tid="t596" type="close" lemma="son" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w596"/>
+      </span>
+    </term>
+    <!--première-->
+    <term tid="t597" type="open" lemma="premier" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w597"/>
+      </span>
+    </term>
+    <!--visite-->
+    <term tid="t598" type="open" lemma="visite" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w598"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t599" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w599"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t600" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w600"/>
+      </span>
+    </term>
+    <!--étranger-->
+    <term tid="t601" type="open" lemma="étranger" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w601"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t602" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w602"/>
+      </span>
+    </term>
+    <!--mardi-->
+    <term tid="t603" type="open" lemma="mardi" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w603"/>
+      </span>
+    </term>
+    <!--soir-->
+    <term tid="t604" type="open" lemma="soir" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w604"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t605" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w605"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t606" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w606"/>
+      </span>
+    </term>
+    <!--critiqué-->
+    <term tid="t607" type="open" lemma="critiquer" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w607"/>
+      </span>
+    </term>
+    <!--dès-->
+    <term tid="t608" type="close" lemma="dès" pos="P" morphofeat="P">
+      <span>
+        <target id="w608"/>
+      </span>
+    </term>
+    <!--son-->
+    <term tid="t609" type="close" lemma="son" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w609"/>
+      </span>
+    </term>
+    <!--entrée-->
+    <term tid="t610" type="open" lemma="entrée" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w610"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t611" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w611"/>
+      </span>
+    </term>
+    <!--fonction-->
+    <term tid="t612" type="open" lemma="fonction" pos="N" morphofeat="N">
+      <span>
+        <target id="w612"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t613" type="close" lemma="le" pos="D" morphofeat="Dfp">
+      <span>
+        <target id="w613"/>
+      </span>
+    </term>
+    <!--politiques-->
+    <term tid="t614" type="open" lemma="politique" pos="N" morphofeat="NCfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w614"/>
+      </span>
+    </term>
+    <!--d'-->
+    <term tid="t615" type="close" lemma="d'" pos="P" morphofeat="P">
+      <span>
+        <target id="w615"/>
+      </span>
+    </term>
+    <!--austérité-->
+    <term tid="t616" type="open" lemma="austérité" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w616"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t617" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w617"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Enrico Letta-->
+        <span>
+          <target id="t587"/>
+          <target id="t588"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--les politiques d' austérité-->
+        <span>
+          <target id="t613"/>
+          <target id="t614"/>
+          <target id="t615"/>
+          <target id="t616"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--critiqué-->
+        <span>
+          <target id="t607"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:54:58CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w82" sent="4" para="2" offset="520" length="2">De</wf>
+    <wf wid="w83" sent="4" para="2" offset="523" length="9">socialist</wf>
+    <wf wid="w84" sent="4" para="2" offset="533" length="8">Hollande</wf>
+    <wf wid="w85" sent="4" para="2" offset="542" length="5">heeft</wf>
+    <wf wid="w86" sent="4" para="2" offset="548" length="7">kritiek</wf>
+    <wf wid="w87" sent="4" para="2" offset="556" length="2">op</wf>
+    <wf wid="w88" sent="4" para="2" offset="559" length="2">de</wf>
+    <wf wid="w89" sent="4" para="2" offset="562" length="17">bezuinigingswoede</wf>
+    <wf wid="w90" sent="4" para="2" offset="580" length="7">waarmee</wf>
+    <wf wid="w91" sent="4" para="2" offset="588" length="6">Merkel</wf>
+    <wf wid="w92" sent="4" para="2" offset="595" length="2">de</wf>
+    <wf wid="w93" sent="4" para="2" offset="598" length="14">schuldencrisis</wf>
+    <wf wid="w94" sent="4" para="2" offset="613" length="2">in</wf>
+    <wf wid="w95" sent="4" para="2" offset="616" length="8">eurozone</wf>
+    <wf wid="w96" sent="4" para="2" offset="625" length="2">te</wf>
+    <wf wid="w97" sent="4" para="2" offset="628" length="4">lijf</wf>
+    <wf wid="w98" sent="4" para="2" offset="633" length="3">wil</wf>
+    <wf wid="w99" sent="4" para="2" offset="637" length="2">en</wf>
+    <wf wid="w100" sent="4" para="2" offset="640" length="3">wil</wf>
+    <wf wid="w101" sent="4" para="2" offset="644" length="3">dat</wf>
+    <wf wid="w102" sent="4" para="2" offset="648" length="2">er</wf>
+    <wf wid="w103" sent="4" para="2" offset="651" length="4">meer</wf>
+    <wf wid="w104" sent="4" para="2" offset="656" length="8">aandacht</wf>
+    <wf wid="w105" sent="4" para="2" offset="665" length="5">wordt</wf>
+    <wf wid="w106" sent="4" para="2" offset="671" length="10">geschonken</wf>
+    <wf wid="w107" sent="4" para="2" offset="682" length="3">aan</wf>
+    <wf wid="w108" sent="4" para="2" offset="686" length="5">groei</wf>
+    <wf wid="w109" sent="4" para="2" offset="691" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t82" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--socialist-->
+    <term tid="t83" type="open" lemma="socialist" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t84" type="open" lemma="Hollande" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--heeft-->
+    <term tid="t85" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--kritiek-->
+    <term tid="t86" type="open" lemma="kritiek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w86"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--op-->
+    <term tid="t87" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t88" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--bezuinigingswoede-->
+    <term tid="t89" type="open" lemma="bezuinigingswoede" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--waarmee-->
+    <term tid="t90" type="close" lemma="waarmee" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t91" type="open" lemma="Merkel" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t92" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--schuldencrisis-->
+    <term tid="t93" type="open" lemma="schuldencrisis" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t94" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--eurozone-->
+    <term tid="t95" type="open" lemma="eurozone" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t96" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--lijf-->
+    <term tid="t97" type="open" lemma="lijf" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t98" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t99" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t100" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t101" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--er-->
+    <term tid="t102" type="close" lemma="er" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--meer-->
+    <term tid="t103" type="open" lemma="meer" pos="A" morphofeat="adv">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--aandacht-->
+    <term tid="t104" type="open" lemma="aandacht" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w104"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--wordt-->
+    <term tid="t105" type="open" lemma="worden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--geschonken-->
+    <term tid="t106" type="open" lemma="schenken" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w106"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--aan-->
+    <term tid="t107" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--groei-->
+    <term tid="t108" type="open" lemma="groei" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t109" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--aandacht-->
+        <span>
+          <target id="t104"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--meer-->
+        <span>
+          <target id="t103"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--De socialist Hollande-->
+        <span>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--op de bezuinigingswoede-->
+        <span>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--kritiek-->
+        <span>
+          <target id="t86"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--De socialist Hollande-->
+        <span>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--meer aandacht wordt geschonken-->
+        <span>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t100"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

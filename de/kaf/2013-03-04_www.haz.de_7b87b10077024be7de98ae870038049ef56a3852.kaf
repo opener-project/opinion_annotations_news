@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:27:50Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:27:50Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:55:29CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:28:09CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w188" sent="18" para="12" offset="1153" length="3">Die</wf>
+    <wf wid="w189" sent="18" para="12" offset="1157" length="11">Finanzkrise</wf>
+    <wf wid="w190" sent="18" para="12" offset="1169" length="3">sei</wf>
+    <wf wid="w191" sent="18" para="12" offset="1173" length="3">nur</wf>
+    <wf wid="w192" sent="18" para="12" offset="1177" length="5">durch</wf>
+    <wf wid="w193" sent="18" para="12" offset="1183" length="16">wirtschaftliches</wf>
+    <wf wid="w194" sent="18" para="12" offset="1200" length="8">Wachstum</wf>
+    <wf wid="w195" sent="18" para="12" offset="1209" length="2">zu</wf>
+    <wf wid="w196" sent="18" para="12" offset="1212" length="10">überwinden</wf>
+    <wf wid="w197" sent="18" para="12" offset="1222" length="1">,</wf>
+    <wf wid="w198" sent="18" para="12" offset="1224" length="8">erklärte</wf>
+    <wf wid="w199" sent="18" para="12" offset="1233" length="6">Merkel</wf>
+    <wf wid="w200" sent="18" para="12" offset="1239" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t188" type="close">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <term lemma="Finanzkrise" morphofeat="NN" pos="N" tid="t189" type="open">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t190" type="open">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <term lemma="nur" morphofeat="ADV" pos="A" tid="t191" type="open">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <term lemma="durch" morphofeat="APPR" pos="P" tid="t192" type="close">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <term lemma="wirtschaftlich" morphofeat="ADJA" pos="G" tid="t193" type="open">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <term lemma="Wachstum" morphofeat="NN" pos="N" tid="t194" type="open">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="PTKZU" pos="O" tid="t195" type="open">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <term lemma="überwinden" morphofeat="VVINF" pos="V" tid="t196" type="open">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t197" type="open">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <term lemma="erklären" morphofeat="VVFIN" pos="V" tid="t198" type="open">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t199" type="open">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t200" type="open">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t199"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Die Finanzkrise-->
+        <span>
+          <target id="t188"/>
+          <target id="t189"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--zu überwinden-->
+        <span>
+          <target id="t195"/>
+          <target id="t196"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t199"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Die Finanzkrise-->
+        <span>
+          <target id="t188"/>
+          <target id="t189"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--erklärte-->
+        <span>
+          <target id="t198"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

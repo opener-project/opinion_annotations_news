@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:08:37" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:45:55CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="6" para="2" offset="914" length="6" wid="w162">German</wf>
+    <wf sent="6" para="2" offset="921" length="3" wid="w163">spy</wf>
+    <wf sent="6" para="2" offset="925" length="6" wid="w164">chiefs</wf>
+    <wf sent="6" para="2" offset="932" length="4" wid="w165">plan</wf>
+    <wf sent="6" para="2" offset="937" length="2" wid="w166">to</wf>
+    <wf sent="6" para="2" offset="940" length="6" wid="w167">travel</wf>
+    <wf sent="6" para="2" offset="947" length="2" wid="w168">to</wf>
+    <wf sent="6" para="2" offset="950" length="10" wid="w169">Washington</wf>
+    <wf sent="6" para="2" offset="961" length="3" wid="w170">for</wf>
+    <wf sent="6" para="2" offset="965" length="5" wid="w171">talks</wf>
+    <wf sent="6" para="2" offset="970" length="1" wid="w172">.</wf>
+    <wf sent="8" para="2" offset="1217" length="2" wid="w215">He</wf>
+    <wf sent="8" para="2" offset="1220" length="5" wid="w216">added</wf>
+    <wf sent="8" para="2" offset="1226" length="11" wid="w217">wiretapping</wf>
+    <wf sent="8" para="2" offset="1238" length="2" wid="w218">is</wf>
+    <wf sent="8" para="2" offset="1241" length="1" wid="w219">a</wf>
+    <wf sent="8" para="2" offset="1243" length="5" wid="w220">crime</wf>
+    <wf sent="8" para="2" offset="1249" length="3" wid="w221">and</wf>
+    <wf sent="8" para="2" offset="1253" length="1" wid="w222">"</wf>
+    <wf sent="8" para="2" offset="1254" length="5" wid="w223">those</wf>
+    <wf sent="8" para="2" offset="1260" length="11" wid="w224">responsible</wf>
+    <wf sent="8" para="2" offset="1272" length="4" wid="w225">must</wf>
+    <wf sent="8" para="2" offset="1277" length="2" wid="w226">be</wf>
+    <wf sent="8" para="2" offset="1280" length="4" wid="w227">held</wf>
+    <wf sent="8" para="2" offset="1285" length="11" wid="w228">accountable</wf>
+    <wf sent="8" para="2" offset="1296" length="1" wid="w229">.</wf>
+  </text>
+  <terms>
+    <!--German-->
+    <term type="open" lemma="german" pos="G" morphofeat="JJ" tid="t162">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--spy-->
+    <term type="open" lemma="spy" pos="N" morphofeat="NN" tid="t163">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--chiefs-->
+    <term type="open" lemma="chief" pos="N" morphofeat="NNS" tid="t164">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--plan-->
+    <term type="open" lemma="plan" pos="V" morphofeat="VBP" tid="t165">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t166">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--travel-->
+    <term type="open" lemma="travel" pos="V" morphofeat="VB" tid="t167">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t168">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--Washington-->
+    <term type="close" lemma="Washington" pos="R" morphofeat="NNP" tid="t169">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t170">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--talks-->
+    <term type="open" lemma="talk" pos="N" morphofeat="NNS" tid="t171">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t172">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--He-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t215">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--added-->
+    <term type="open" lemma="add" pos="V" morphofeat="VBD" tid="t216">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--wiretapping-->
+    <term type="open" lemma="wiretapping" pos="V" morphofeat="VBG" tid="t217">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t218">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t219">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--crime-->
+    <term type="open" lemma="crime" pos="N" morphofeat="NN" tid="t220">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t221">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="V" morphofeat="VB" tid="t222">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--those-->
+    <term type="close" lemma="those" pos="D" morphofeat="DT" tid="t223">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--responsible-->
+    <term type="open" lemma="responsible" pos="G" morphofeat="JJ" tid="t224">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--must-->
+    <term type="close" lemma="must" pos="O" morphofeat="MD" tid="t225">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t226">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--held-->
+    <term type="open" lemma="hold" pos="V" morphofeat="VBN" tid="t227">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--accountable-->
+    <term type="open" lemma="accountable" pos="G" morphofeat="JJ" tid="t228">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t229">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder>
+        <!--He-->
+        <span>
+          <target id="t215"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--those responsible-->
+        <span>
+          <target id="t223"/>
+          <target id="t224"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--must be held accountable-->
+        <span>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--He-->
+        <span>
+          <target id="t215"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--wiretapping-->
+        <span>
+          <target id="t217"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--is a crime-->
+        <span>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

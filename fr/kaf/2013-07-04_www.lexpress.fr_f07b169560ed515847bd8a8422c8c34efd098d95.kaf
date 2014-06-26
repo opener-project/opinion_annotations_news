@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:53:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:53:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:53:46Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:24:50CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w409" sent="14" para="9" offset="2215" length="5">Elles</wf>
+    <wf wid="w410" sent="14" para="9" offset="2221" length="7">doivent</wf>
+    <wf wid="w411" sent="14" para="9" offset="2229" length="7">débuter</wf>
+    <wf wid="w412" sent="14" para="9" offset="2237" length="2">la</wf>
+    <wf wid="w413" sent="14" para="9" offset="2240" length="7">semaine</wf>
+    <wf wid="w414" sent="14" para="9" offset="2248" length="9">prochaine</wf>
+    <wf wid="w415" sent="14" para="9" offset="2258" length="3">aux</wf>
+    <wf wid="w416" sent="14" para="9" offset="2262" length="5">Etats</wf>
+    <wf wid="w417" sent="14" para="9" offset="2267" length="1">·</wf>
+    <wf wid="w418" sent="14" para="9" offset="2268" length="4">Unis</wf>
+    <wf wid="w419" sent="14" para="9" offset="2272" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Elles-->
+    <term tid="t409" type="close" lemma="lui" pos="Q" morphofeat="CL3fp">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <!--doivent-->
+    <term tid="t410" type="open" lemma="devoir" pos="V" morphofeat="VP3p">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <!--débuter-->
+    <term tid="t411" type="open" lemma="débuter" pos="V" morphofeat="VW">
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t412" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <!--semaine-->
+    <term tid="t413" type="open" lemma="semaine" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+    <!--prochaine-->
+    <term tid="t414" type="open" lemma="prochain" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w414"/>
+      </span>
+    </term>
+    <!--aux-->
+    <term tid="t415" type="close" lemma="aux" pos="P" morphofeat="P">
+      <span>
+        <target id="w415"/>
+      </span>
+    </term>
+    <!--Etats-->
+    <term tid="t416" type="open" lemma="Etats" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w416"/>
+      </span>
+    </term>
+    <!--·-->
+    <term tid="t417" type="open" lemma="·" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <!--Unis-->
+    <term tid="t418" type="open" lemma="uni" pos="N" morphofeat="NPfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t419" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t409"/>
+          <target id="t410"/>
+          <target id="t411"/>
+          <target id="t412"/>
+          <target id="t413"/>
+          <target id="t414"/>
+          <target id="t415"/>
+          <target id="t416"/>
+          <target id="t417"/>
+          <target id="t418"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,11 @@
+w252	The	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	251	true	7
+w253	government	government	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	252	true	7
+w254	delivers	deliver	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	253	true	7
+w255	new	new	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	254	true	7
+w256	economic	economic	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	255	true	7
+w257	and	and	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	256	true	7
+w258	borrowing	borrowing	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	257	true	7
+w259	forecasts	forecast	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	258	true	7
+w260	on	on	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	259	true	7
+w261	Dec.	Dec.	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	260	true	7
+w262	5	5	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	261	true	7

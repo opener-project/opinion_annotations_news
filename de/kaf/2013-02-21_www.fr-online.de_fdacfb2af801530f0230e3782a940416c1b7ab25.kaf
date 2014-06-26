@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T18:10:11Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T18:10:11Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:13:56CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T19:10:31CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="3">SPD</wf>
+    <wf wid="w2" sent="1" para="1" offset="3" length="1">·</wf>
+    <wf wid="w3" sent="1" para="1" offset="4" length="15">Kanzlerkandidat</wf>
+    <wf wid="w4" sent="1" para="1" offset="20" length="4">Peer</wf>
+    <wf wid="w5" sent="1" para="1" offset="25" length="10">Steinbrück</wf>
+    <wf wid="w6" sent="1" para="1" offset="36" length="10">kritisiert</wf>
+    <wf wid="w7" sent="1" para="1" offset="47" length="3">die</wf>
+    <wf wid="w8" sent="1" para="1" offset="51" length="1">"</wf>
+    <wf wid="w9" sent="1" para="1" offset="52" length="9">unheilige</wf>
+    <wf wid="w10" sent="1" para="1" offset="62" length="15">Kürzungsallianz</wf>
+    <wf wid="w11" sent="1" para="1" offset="77" length="1">"</wf>
+    <wf wid="w12" sent="1" para="1" offset="79" length="3">von</wf>
+    <wf wid="w13" sent="1" para="1" offset="83" length="6">Angela</wf>
+    <wf wid="w14" sent="1" para="1" offset="90" length="6">Merkel</wf>
+    <wf wid="w15" sent="1" para="1" offset="97" length="3">und</wf>
+    <wf wid="w16" sent="1" para="1" offset="101" length="3">dem</wf>
+    <wf wid="w17" sent="1" para="1" offset="105" length="10">britischen</wf>
+    <wf wid="w18" sent="1" para="1" offset="116" length="7">Premier</wf>
+    <wf wid="w19" sent="1" para="1" offset="124" length="5">David</wf>
+    <wf wid="w20" sent="1" para="1" offset="130" length="7">Cameron</wf>
+    <wf wid="w21" sent="1" para="1" offset="138" length="2">im</wf>
+    <wf wid="w22" sent="1" para="1" offset="141" length="2">EU</wf>
+    <wf wid="w23" sent="1" para="1" offset="143" length="1">·</wf>
+    <wf wid="w24" sent="1" para="1" offset="144" length="8">Haushalt</wf>
+    <wf wid="w25" sent="1" para="1" offset="152" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="SPD" morphofeat="NE" pos="R" tid="t1" type="open">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t2" type="open">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="Kanzlerkandidat" morphofeat="NN" pos="N" tid="t3" type="open">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="Peer" morphofeat="NE" pos="R" tid="t4" type="open">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="Steinbrück" morphofeat="NN unknown_lemma" pos="O" tid="t5" type="open">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="kritisieren" morphofeat="VVFIN" pos="V" tid="t6" type="open">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t7" type="close">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t8" type="open">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="unheilig" morphofeat="ADJA" pos="G" tid="t9" type="open">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="Kürzungsallianz" morphofeat="NN unknown_lemma" pos="O" tid="t10" type="open">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t11" type="open">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t12" type="close">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="Angela" morphofeat="NE" pos="R" tid="t13" type="open">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t14" type="open">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t15" type="close">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t16" type="close">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="britisch" morphofeat="ADJA" pos="G" tid="t17" type="open">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="Premier" morphofeat="NN" pos="N" tid="t18" type="open">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="David" morphofeat="NE" pos="R" tid="t19" type="open">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="Cameron" morphofeat="NE unknown_lemma" pos="O" tid="t20" type="open">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t21" type="close">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t22" type="open">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t23" type="open">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="Haushalt" morphofeat="NN" pos="N" tid="t24" type="open">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t25" type="open">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Kürzungsallianz-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--unheilige-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

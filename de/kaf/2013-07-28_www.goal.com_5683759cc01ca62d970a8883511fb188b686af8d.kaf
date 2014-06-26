@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:10:18Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:10:18Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:49:13CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:10:49CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w847" sent="45" para="20" offset="4759" length="2">Zu</wf>
+    <wf wid="w848" sent="45" para="20" offset="4762" length="6">Beginn</wf>
+    <wf wid="w849" sent="45" para="20" offset="4769" length="3">des</wf>
+    <wf wid="w850" sent="45" para="20" offset="4773" length="7">zweiten</wf>
+    <wf wid="w851" sent="45" para="20" offset="4781" length="10">Durchgangs</wf>
+    <wf wid="w852" sent="45" para="20" offset="4792" length="3">kam</wf>
+    <wf wid="w853" sent="45" para="20" offset="4796" length="6">Mittag</wf>
+    <wf wid="w854" sent="45" para="20" offset="4803" length="3">ins</wf>
+    <wf wid="w855" sent="45" para="20" offset="4807" length="5">Spiel</wf>
+    <wf wid="w856" sent="45" para="20" offset="4812" length="1">,</wf>
+    <wf wid="w857" sent="45" para="20" offset="4814" length="4">Lena</wf>
+    <wf wid="w858" sent="45" para="20" offset="4819" length="6">Lotzen</wf>
+    <wf wid="w859" sent="45" para="20" offset="4826" length="5">blieb</wf>
+    <wf wid="w860" sent="45" para="20" offset="4832" length="2">in</wf>
+    <wf wid="w861" sent="45" para="20" offset="4835" length="3">der</wf>
+    <wf wid="w862" sent="45" para="20" offset="4839" length="6">Kabine</wf>
+    <wf wid="w863" sent="45" para="20" offset="4845" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="zu" morphofeat="APPR" pos="P" tid="t847" type="close">
+      <span>
+        <target id="w847"/>
+      </span>
+    </term>
+    <term lemma="Beginn" morphofeat="NN" pos="N" tid="t848" type="open">
+      <span>
+        <target id="w848"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t849" type="close">
+      <span>
+        <target id="w849"/>
+      </span>
+    </term>
+    <term lemma="zweit" morphofeat="ADJA" pos="G" tid="t850" type="open">
+      <span>
+        <target id="w850"/>
+      </span>
+    </term>
+    <term lemma="Durchgang" morphofeat="NN" pos="N" tid="t851" type="open">
+      <span>
+        <target id="w851"/>
+      </span>
+    </term>
+    <term lemma="kommen" morphofeat="VVFIN" pos="V" tid="t852" type="open">
+      <span>
+        <target id="w852"/>
+      </span>
+    </term>
+    <term lemma="Mittag" morphofeat="NN" pos="N" tid="t853" type="open">
+      <span>
+        <target id="w853"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t854" type="close">
+      <span>
+        <target id="w854"/>
+      </span>
+    </term>
+    <term lemma="Spiel" morphofeat="NN" pos="N" tid="t855" type="open">
+      <span>
+        <target id="w855"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t856" type="open">
+      <span>
+        <target id="w856"/>
+      </span>
+    </term>
+    <term lemma="Lena" morphofeat="NE" pos="R" tid="t857" type="open">
+      <span>
+        <target id="w857"/>
+      </span>
+    </term>
+    <term lemma="Lotzen" morphofeat="NE unknown_lemma" pos="O" tid="t858" type="open">
+      <span>
+        <target id="w858"/>
+      </span>
+    </term>
+    <term lemma="bleiben" morphofeat="VVFIN" pos="V" tid="t859" type="open">
+      <span>
+        <target id="w859"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t860" type="close">
+      <span>
+        <target id="w860"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t861" type="close">
+      <span>
+        <target id="w861"/>
+      </span>
+    </term>
+    <term lemma="Kabine" morphofeat="NN" pos="N" tid="t862" type="open">
+      <span>
+        <target id="w862"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t863" type="open">
+      <span>
+        <target id="w863"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t847"/>
+          <target id="t848"/>
+          <target id="t849"/>
+          <target id="t850"/>
+          <target id="t851"/>
+          <target id="t852"/>
+          <target id="t853"/>
+          <target id="t854"/>
+          <target id="t855"/>
+          <target id="t856"/>
+          <target id="t857"/>
+          <target id="t858"/>
+          <target id="t859"/>
+          <target id="t860"/>
+          <target id="t861"/>
+          <target id="t862"/>
+          <target id="t863"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

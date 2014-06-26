@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:24Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:24Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T16:06:09CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:28CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w145" sent="10" para="2" offset="822" length="2">De</wf>
+    <wf wid="w146" sent="10" para="2" offset="825" length="16">regeringsleiders</wf>
+    <wf wid="w147" sent="10" para="2" offset="842" length="2">en</wf>
+    <wf wid="w148" sent="10" para="2" offset="845" length="13">staatshoofden</wf>
+    <wf wid="w149" sent="10" para="2" offset="859" length="3">van</wf>
+    <wf wid="w150" sent="10" para="2" offset="863" length="2">de</wf>
+    <wf wid="w151" sent="10" para="2" offset="866" length="2">27</wf>
+    <wf wid="w152" sent="10" para="2" offset="869" length="9">EU-landen</wf>
+    <wf wid="w153" sent="10" para="2" offset="879" length="8">beginnen</wf>
+    <wf wid="w154" sent="10" para="2" offset="888" length="9">donderdag</wf>
+    <wf wid="w155" sent="10" para="2" offset="898" length="3">aan</wf>
+    <wf wid="w156" sent="10" para="2" offset="902" length="3">het</wf>
+    <wf wid="w157" sent="10" para="2" offset="906" length="15">marathonoverleg</wf>
+    <wf wid="w158" sent="10" para="2" offset="922" length="4">over</wf>
+    <wf wid="w159" sent="10" para="2" offset="927" length="2">de</wf>
+    <wf wid="w160" sent="10" para="2" offset="930" length="9">begroting</wf>
+    <wf wid="w161" sent="10" para="2" offset="940" length="3">van</wf>
+    <wf wid="w162" sent="10" para="2" offset="944" length="2">de</wf>
+    <wf wid="w163" sent="10" para="2" offset="947" length="2">EU</wf>
+    <wf wid="w164" sent="10" para="2" offset="950" length="4">voor</wf>
+    <wf wid="w165" sent="10" para="2" offset="955" length="9">2014-2020</wf>
+    <wf wid="w166" sent="10" para="2" offset="964" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t145" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--regeringsleiders-->
+    <term tid="t146" type="open" lemma="regeringsleider" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w146"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--en-->
+    <term tid="t147" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--staatshoofden-->
+    <term tid="t148" type="open" lemma="staatshoofd" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t149" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t150" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--27-->
+    <term tid="t151" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--EU-landen-->
+    <term tid="t152" type="open" lemma="EU-landen" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--beginnen-->
+    <term tid="t153" type="open" lemma="beginnen" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--donderdag-->
+    <term tid="t154" type="open" lemma="donderdag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t155" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t156" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--marathonoverleg-->
+    <term tid="t157" type="open" lemma="marathonoverleg" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t158" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t159" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--begroting-->
+    <term tid="t160" type="open" lemma="begroting" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t161" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t162" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term tid="t163" type="open" lemma="EU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t164" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--2014-2020-->
+    <term tid="t165" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t166" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+          <target id="t153"/>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+          <target id="t157"/>
+          <target id="t158"/>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

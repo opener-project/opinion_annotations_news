@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:18Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:18Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:00:44" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:27:39CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="775" length="4" wid="w144">They</wf>
+    <wf sent="5" para="2" offset="780" length="9" wid="w145">plundered</wf>
+    <wf sent="5" para="2" offset="790" length="6" wid="w146">stores</wf>
+    <wf sent="5" para="2" offset="797" length="4" wid="w147">they</wf>
+    <wf sent="5" para="2" offset="802" length="4" wid="w148">said</wf>
+    <wf sent="5" para="2" offset="807" length="8" wid="w149">belonged</wf>
+    <wf sent="5" para="2" offset="816" length="2" wid="w150">to</wf>
+    <wf sent="5" para="2" offset="819" length="5" wid="w151">Arabs</wf>
+    <wf sent="5" para="2" offset="824" length="1" wid="w152">,</wf>
+    <wf sent="5" para="2" offset="826" length="12" wid="w153">Mauritanians</wf>
+    <wf sent="5" para="2" offset="839" length="3" wid="w154">and</wf>
+    <wf sent="5" para="2" offset="843" length="9" wid="w155">Algerians</wf>
+    <wf sent="5" para="2" offset="853" length="3" wid="w156">who</wf>
+    <wf sent="5" para="2" offset="857" length="4" wid="w157">they</wf>
+    <wf sent="5" para="2" offset="862" length="6" wid="w158">accuse</wf>
+    <wf sent="5" para="2" offset="869" length="2" wid="w159">of</wf>
+    <wf sent="5" para="2" offset="872" length="10" wid="w160">supporting</wf>
+    <wf sent="5" para="2" offset="883" length="3" wid="w161">the</wf>
+    <wf sent="5" para="2" offset="887" length="15" wid="w162">al-Qaeda-linked</wf>
+    <wf sent="5" para="2" offset="903" length="9" wid="w163">Islamists</wf>
+    <wf sent="5" para="2" offset="913" length="6" wid="w164">during</wf>
+    <wf sent="5" para="2" offset="920" length="5" wid="w165">their</wf>
+    <wf sent="5" para="2" offset="926" length="8" wid="w166">10-month</wf>
+    <wf sent="5" para="2" offset="935" length="4" wid="w167">rule</wf>
+    <wf sent="5" para="2" offset="940" length="4" wid="w168">over</wf>
+    <wf sent="5" para="2" offset="945" length="3" wid="w169">the</wf>
+    <wf sent="5" para="2" offset="949" length="7" wid="w170">ancient</wf>
+    <wf sent="5" para="2" offset="957" length="6" wid="w171">centre</wf>
+    <wf sent="5" para="2" offset="964" length="2" wid="w172">of</wf>
+    <wf sent="5" para="2" offset="967" length="7" wid="w173">Islamic</wf>
+    <wf sent="5" para="2" offset="975" length="8" wid="w174">learning</wf>
+    <wf sent="5" para="2" offset="983" length="1" wid="w175">.</wf>
+  </text>
+  <terms>
+    <!--They-->
+    <term type="close" lemma="they" pos="Q" morphofeat="PRP" tid="t144">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--plundered-->
+    <term type="open" lemma="plunder" pos="V" morphofeat="VBD" tid="t145">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--stores-->
+    <term type="open" lemma="store" pos="N" morphofeat="NNS" tid="t146">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--they-->
+    <term type="close" lemma="they" pos="Q" morphofeat="PRP" tid="t147">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t148">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--belonged-->
+    <term type="open" lemma="belong" pos="V" morphofeat="VBN" tid="t149">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t150">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--Arabs-->
+    <term type="close" lemma="Arabs" pos="R" morphofeat="NNPS" tid="t151">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t152">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--Mauritanians-->
+    <term type="close" lemma="Mauritanians" pos="R" morphofeat="NNPS" tid="t153">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t154">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--Algerians-->
+    <term type="close" lemma="Algerians" pos="R" morphofeat="NNPS" tid="t155">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--who-->
+    <term type="close" lemma="who" pos="Q" morphofeat="WP" tid="t156">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--they-->
+    <term type="close" lemma="they" pos="Q" morphofeat="PRP" tid="t157">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--accuse-->
+    <term type="open" lemma="accuse" pos="V" morphofeat="VBP" tid="t158">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t159">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--supporting-->
+    <term type="open" lemma="support" pos="V" morphofeat="VBG" tid="t160">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t161">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--al-Qaeda-linked-->
+    <term type="open" lemma="al-qaeda-linked" pos="G" morphofeat="JJ" tid="t162">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--Islamists-->
+    <term type="open" lemma="islamists" pos="N" morphofeat="NNS" tid="t163">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--during-->
+    <term type="close" lemma="during" pos="P" morphofeat="IN" tid="t164">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--their-->
+    <term type="close" lemma="their" pos="Q" morphofeat="PRP$" tid="t165">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--10-month-->
+    <term type="open" lemma="10-month" pos="G" morphofeat="JJ" tid="t166">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--rule-->
+    <term type="open" lemma="rule" pos="N" morphofeat="NN" tid="t167">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--over-->
+    <term type="close" lemma="over" pos="P" morphofeat="IN" tid="t168">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t169">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--ancient-->
+    <term type="open" lemma="ancient" pos="G" morphofeat="JJ" tid="t170">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--centre-->
+    <term type="open" lemma="centre" pos="N" morphofeat="NN" tid="t171">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t172">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--Islamic-->
+    <term type="open" lemma="islamic" pos="G" morphofeat="JJ" tid="t173">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--learning-->
+    <term type="open" lemma="learning" pos="N" morphofeat="NN" tid="t174">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t175">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--they-->
+        <span>
+          <target id="t147"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Mauritanians-->
+        <span>
+          <target id="t153"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--said-->
+        <span>
+          <target id="t148"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--they-->
+        <span>
+          <target id="t147"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Algerians-->
+        <span>
+          <target id="t155"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--said-->
+        <span>
+          <target id="t148"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--they-->
+        <span>
+          <target id="t147"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--to Arabs-->
+        <span>
+          <target id="t150"/>
+          <target id="t151"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--said-->
+        <span>
+          <target id="t148"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--they-->
+        <span>
+          <target id="t147"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Mauritanians-->
+        <span>
+          <target id="t153"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--belonged-->
+        <span>
+          <target id="t149"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--they-->
+        <span>
+          <target id="t147"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Algerians-->
+        <span>
+          <target id="t155"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--belonged-->
+        <span>
+          <target id="t149"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--they-->
+        <span>
+          <target id="t147"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--to Arabs-->
+        <span>
+          <target id="t150"/>
+          <target id="t151"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--belonged-->
+        <span>
+          <target id="t149"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o6">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder>
+        <!--they-->
+        <span>
+          <target id="t157"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the al-Qaeda-linked Islamists-->
+        <span>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--accuse-->
+        <span>
+          <target id="t158"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o7">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder>
+        <!--they-->
+        <span>
+          <target id="t157"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the al-Qaeda-linked Islamists-->
+        <span>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--supporting-->
+        <span>
+          <target id="t160"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

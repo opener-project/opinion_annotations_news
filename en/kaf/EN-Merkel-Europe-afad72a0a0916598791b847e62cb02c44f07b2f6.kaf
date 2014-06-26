@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:05:20" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:27:21CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="14" para="2" offset="1946" length="3" wid="w359">For</wf>
+    <wf sent="14" para="2" offset="1950" length="4" wid="w360">some</wf>
+    <wf sent="14" para="2" offset="1955" length="2" wid="w361">in</wf>
+    <wf sent="14" para="2" offset="1958" length="8" wid="w362">Brussels</wf>
+    <wf sent="14" para="2" offset="1966" length="1" wid="w363">,</wf>
+    <wf sent="14" para="2" offset="1968" length="4" wid="w364">this</wf>
+    <wf sent="14" para="2" offset="1973" length="2" wid="w365">is</wf>
+    <wf sent="14" para="2" offset="1976" length="2" wid="w366">no</wf>
+    <wf sent="14" para="2" offset="1979" length="5" wid="w367">doubt</wf>
+    <wf sent="14" para="2" offset="1985" length="1" wid="w368">a</wf>
+    <wf sent="14" para="2" offset="1987" length="5" wid="w369">black</wf>
+    <wf sent="14" para="2" offset="1993" length="4" wid="w370">mark</wf>
+    <wf sent="14" para="2" offset="1997" length="1" wid="w371">.</wf>
+  </text>
+  <terms>
+    <!--For-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t359">
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <!--some-->
+    <term type="close" lemma="some" pos="D" morphofeat="DT" tid="t360">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t361">
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <!--Brussels-->
+    <term type="close" lemma="Brussels" pos="R" morphofeat="NNP" tid="t362">
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t363">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <!--this-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t364">
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t365">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <!--no-->
+    <term type="close" lemma="no" pos="D" morphofeat="DT" tid="t366">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <!--doubt-->
+    <term type="open" lemma="doubt" pos="N" morphofeat="NN" tid="t367">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t368">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <!--black-->
+    <term type="open" lemma="black" pos="G" morphofeat="JJ" tid="t369">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <!--mark-->
+    <term type="open" lemma="mark" pos="N" morphofeat="NN" tid="t370">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t371">
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--mark-->
+        <span>
+          <target id="t370"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--black-->
+        <span>
+          <target id="t369"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--some in Brussels-->
+        <span>
+          <target id="t360"/>
+          <target id="t361"/>
+          <target id="t362"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--this-->
+        <span>
+          <target id="t364"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--no doubt a black mark-->
+        <span>
+          <target id="t366"/>
+          <target id="t367"/>
+          <target id="t368"/>
+          <target id="t369"/>
+          <target id="t370"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

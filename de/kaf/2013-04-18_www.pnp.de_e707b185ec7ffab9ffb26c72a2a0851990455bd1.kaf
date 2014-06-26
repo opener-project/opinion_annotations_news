@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T11:01:01Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T11:01:01Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:57:27CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T12:01:15CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w196" sent="11" para="6" offset="1089" length="3">Sie</wf>
+    <wf wid="w197" sent="11" para="6" offset="1093" length="4">wird</wf>
+    <wf wid="w198" sent="11" para="6" offset="1098" length="4">dann</wf>
+    <wf wid="w199" sent="11" para="6" offset="1103" length="2">61</wf>
+    <wf wid="w200" sent="11" para="6" offset="1106" length="5">Jahre</wf>
+    <wf wid="w201" sent="11" para="6" offset="1112" length="3">alt</wf>
+    <wf wid="w202" sent="11" para="6" offset="1116" length="3">und</wf>
+    <wf wid="w203" sent="11" para="6" offset="1120" length="4">wäre</wf>
+    <wf wid="w204" sent="11" para="6" offset="1125" length="4">zehn</wf>
+    <wf wid="w205" sent="11" para="6" offset="1130" length="5">Jahre</wf>
+    <wf wid="w206" sent="11" para="6" offset="1136" length="9">Kanzlerin</wf>
+    <wf wid="w207" sent="11" para="6" offset="1145" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Sie|sie" morphofeat="PPER" pos="Q" tid="t196" type="close">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t197" type="open">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <term lemma="dann" morphofeat="ADV" pos="A" tid="t198" type="open">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t199" type="open">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <term lemma="Jahr" morphofeat="NN" pos="N" tid="t200" type="open">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <term lemma="alt" morphofeat="ADJD" pos="G" tid="t201" type="open">
+      <span>
+        <target id="w201"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t202" type="close">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t203" type="open">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <term lemma="zehn" morphofeat="CARD" pos="O" tid="t204" type="open">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <term lemma="Jahr" morphofeat="NN" pos="N" tid="t205" type="open">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <term lemma="Kanzlerin" morphofeat="NN" pos="N" tid="t206" type="open">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t207" type="open">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

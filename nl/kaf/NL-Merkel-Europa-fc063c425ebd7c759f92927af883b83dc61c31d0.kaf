@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:56Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:56Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:40:53CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:26CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="9">Duizenden</wf>
+    <wf wid="w2" sent="1" para="1" offset="10" length="7">Kroaten</wf>
+    <wf wid="w3" sent="1" para="1" offset="18" length="6">vieren</wf>
+    <wf wid="w4" sent="1" para="1" offset="25" length="12">lidmaatschap</wf>
+    <wf wid="w5" sent="1" para="1" offset="38" length="3">van</wf>
+    <wf wid="w6" sent="1" para="1" offset="42" length="2">EU</wf>
+    <wf wid="w195" sent="11" para="2" offset="1141" length="2">Op</wf>
+    <wf wid="w196" sent="11" para="2" offset="1144" length="4">drie</wf>
+    <wf wid="w197" sent="11" para="2" offset="1149" length="5">podia</wf>
+    <wf wid="w198" sent="11" para="2" offset="1155" length="2">op</wf>
+    <wf wid="w199" sent="11" para="2" offset="1158" length="3">het</wf>
+    <wf wid="w200" sent="11" para="2" offset="1162" length="8">centrale</wf>
+    <wf wid="w201" sent="11" para="2" offset="1171" length="5">plein</wf>
+    <wf wid="w202" sent="11" para="2" offset="1177" length="3">van</wf>
+    <wf wid="w203" sent="11" para="2" offset="1181" length="6">Zagreb</wf>
+    <wf wid="w204" sent="11" para="2" offset="1188" length="6">traden</wf>
+    <wf wid="w205" sent="11" para="2" offset="1195" length="4">ruim</wf>
+    <wf wid="w206" sent="11" para="2" offset="1200" length="3">700</wf>
+    <wf wid="w207" sent="11" para="2" offset="1204" length="9">artiesten</wf>
+    <wf wid="w208" sent="11" para="2" offset="1213" length="1">,</wf>
+    <wf wid="w209" sent="11" para="2" offset="1215" length="7">zangers</wf>
+    <wf wid="w210" sent="11" para="2" offset="1222" length="1">,</wf>
+    <wf wid="w211" sent="11" para="2" offset="1224" length="6">musici</wf>
+    <wf wid="w212" sent="11" para="2" offset="1231" length="2">en</wf>
+    <wf wid="w213" sent="11" para="2" offset="1234" length="7">dansers</wf>
+    <wf wid="w214" sent="11" para="2" offset="1242" length="2">op</wf>
+    <wf wid="w215" sent="11" para="2" offset="1244" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Duizenden-->
+    <term tid="t1" type="open" lemma="duizend" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Kroaten-->
+    <term tid="t2" type="open" lemma="Kroaat" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--vieren-->
+    <term tid="t3" type="open" lemma="vieren" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w3"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--lidmaatschap-->
+    <term tid="t4" type="open" lemma="lidmaatschap" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t5" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term tid="t6" type="open" lemma="EU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--Op-->
+    <term tid="t195" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--drie-->
+    <term tid="t196" type="open" lemma="drie" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--podia-->
+    <term tid="t197" type="open" lemma="podium" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t198" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t199" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--centrale-->
+    <term tid="t200" type="open" lemma="centraal" pos="G" morphofeat="adj">
+      <span>
+        <target id="w200"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--plein-->
+    <term tid="t201" type="open" lemma="plein" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t202" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--Zagreb-->
+    <term tid="t203" type="open" lemma="Zagreb" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--traden-->
+    <term tid="t204" type="open" lemma="treden" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--ruim-->
+    <term tid="t205" type="open" lemma="ruim" pos="G" morphofeat="adj">
+      <span>
+        <target id="w205"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--700-->
+    <term tid="t206" type="open" lemma="@card@" pos="O" morphofeat="num__ord">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--artiesten-->
+    <term tid="t207" type="open" lemma="artiest|artieste" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t208" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--zangers-->
+    <term tid="t209" type="open" lemma="zanger" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t210" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--musici-->
+    <term tid="t211" type="open" lemma="musicus" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t212" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--dansers-->
+    <term tid="t213" type="open" lemma="danser" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t214" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t215" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Duizenden Kroaten-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--lidmaatschap-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--vieren-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

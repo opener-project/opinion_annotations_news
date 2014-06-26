@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:41:01CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:31CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w168" sent="9" para="2" offset="969" length="3">Het</wf>
+    <wf wid="w169" sent="9" para="2" offset="973" length="7">rapport</wf>
+    <wf wid="w170" sent="9" para="2" offset="981" length="2">is</wf>
+    <wf wid="w171" sent="9" para="2" offset="984" length="9">afkomstig</wf>
+    <wf wid="w172" sent="9" para="2" offset="994" length="3">van</wf>
+    <wf wid="w173" sent="9" para="2" offset="998" length="3">het</wf>
+    <wf wid="w174" sent="9" para="2" offset="1002" length="6">Duitse</wf>
+    <wf wid="w175" sent="9" para="2" offset="1009" length="10">ministerie</wf>
+    <wf wid="w176" sent="9" para="2" offset="1020" length="3">van</wf>
+    <wf wid="w177" sent="9" para="2" offset="1024" length="8">Economie</wf>
+    <wf wid="w178" sent="9" para="2" offset="1032" length="1">,</wf>
+    <wf wid="w179" sent="9" para="2" offset="1034" length="5">onder</wf>
+    <wf wid="w180" sent="9" para="2" offset="1040" length="7">leiding</wf>
+    <wf wid="w181" sent="9" para="2" offset="1048" length="3">van</wf>
+    <wf wid="w182" sent="9" para="2" offset="1052" length="2">de</wf>
+    <wf wid="w183" sent="9" para="2" offset="1055" length="8">liberaal</wf>
+    <wf wid="w184" sent="9" para="2" offset="1064" length="7">Philipp</wf>
+    <wf wid="w185" sent="9" para="2" offset="1072" length="6">Rösler</wf>
+    <wf wid="w186" sent="9" para="2" offset="1078" length="1">.</wf>
+    <wf wid="w211" sent="11" para="2" offset="1217" length="3">Het</wf>
+    <wf wid="w212" sent="11" para="2" offset="1221" length="7">rapport</wf>
+    <wf wid="w213" sent="11" para="2" offset="1229" length="4">doet</wf>
+    <wf wid="w214" sent="11" para="2" offset="1234" length="2">de</wf>
+    <wf wid="w215" sent="11" para="2" offset="1237" length="10">spanningen</wf>
+    <wf wid="w216" sent="11" para="2" offset="1248" length="6">tussen</wf>
+    <wf wid="w217" sent="11" para="2" offset="1255" length="9">Duitsland</wf>
+    <wf wid="w218" sent="11" para="2" offset="1265" length="2">en</wf>
+    <wf wid="w219" sent="11" para="2" offset="1268" length="9">Frankrijk</wf>
+    <wf wid="w220" sent="11" para="2" offset="1278" length="3">nog</wf>
+    <wf wid="w221" sent="11" para="2" offset="1282" length="8">toenemen</wf>
+    <wf wid="w222" sent="11" para="2" offset="1290" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Het-->
+    <term tid="t168" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--rapport-->
+    <term tid="t169" type="open" lemma="rapport" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w169"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--is-->
+    <term tid="t170" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--afkomstig-->
+    <term tid="t171" type="open" lemma="afkomstig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t172" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t173" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t174" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--ministerie-->
+    <term tid="t175" type="open" lemma="ministerie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t176" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--Economie-->
+    <term tid="t177" type="open" lemma="economie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w177"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t178" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--onder-->
+    <term tid="t179" type="close" lemma="onder" pos="P" morphofeat="prep">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--leiding-->
+    <term tid="t180" type="open" lemma="leiding" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t181" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t182" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--liberaal-->
+    <term tid="t183" type="open" lemma="liberaal" pos="G" morphofeat="adj">
+      <span>
+        <target id="w183"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Philipp-->
+    <term tid="t184" type="open" lemma="Philipp" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--Rösler-->
+    <term tid="t185" type="open" lemma="Rösler" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t186" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--Het-->
+    <term tid="t211" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--rapport-->
+    <term tid="t212" type="open" lemma="rapport" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w212"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--doet-->
+    <term tid="t213" type="open" lemma="doen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t214" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--spanningen-->
+    <term tid="t215" type="open" lemma="spanning" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--tussen-->
+    <term tid="t216" type="close" lemma="tussen" pos="P" morphofeat="prep">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--Duitsland-->
+    <term tid="t217" type="open" lemma="Duitsland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t218" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--Frankrijk-->
+    <term tid="t219" type="open" lemma="Frankrijk" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--nog-->
+    <term tid="t220" type="open" lemma="nog" pos="A" morphofeat="adv">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--toenemen-->
+    <term tid="t221" type="open" lemma="toenemen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t222" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--de spanningen-->
+        <span>
+          <target id="t214"/>
+          <target id="t215"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--toenemen-->
+        <span>
+          <target id="t221"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Het rapport-->
+        <span>
+          <target id="t211"/>
+          <target id="t212"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--doet de spanningen toenemen-->
+        <span>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+          <target id="t221"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

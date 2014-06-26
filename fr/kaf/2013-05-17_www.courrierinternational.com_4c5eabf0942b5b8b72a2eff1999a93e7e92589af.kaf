@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:46:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:46:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:46:53Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:27:55CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w284" sent="8" para="7" offset="1445" length="11">Scepticisme</wf>
+    <wf wid="w285" sent="8" para="7" offset="1457" length="2">du</wf>
+    <wf wid="w286" sent="8" para="7" offset="1460" length="4">camp</wf>
+    <wf wid="w287" sent="8" para="7" offset="1465" length="8">allemand</wf>
+    <wf wid="w727" sent="23" para="15" offset="3861" length="2">Il</wf>
+    <wf wid="w728" sent="23" para="15" offset="3864" length="3">est</wf>
+    <wf wid="w729" sent="23" para="15" offset="3868" length="9">confronté</wf>
+    <wf wid="w730" sent="23" para="15" offset="3878" length="2">au</wf>
+    <wf wid="w731" sent="23" para="15" offset="3881" length="7">dilemme</wf>
+    <wf wid="w732" sent="23" para="15" offset="3889" length="9">politique</wf>
+    <wf wid="w733" sent="23" para="15" offset="3899" length="7">suivant</wf>
+    <wf wid="w734" sent="23" para="15" offset="3906" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Scepticisme-->
+    <term tid="t284" type="open" lemma="scepticisme" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t285" type="close" lemma="du" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--camp-->
+    <term tid="t286" type="open" lemma="camp" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--allemand-->
+    <term tid="t287" type="open" lemma="allemand" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--Il-->
+    <term tid="t727" type="close" lemma="Il" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w727"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t728" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w728"/>
+      </span>
+    </term>
+    <!--confronté-->
+    <term tid="t729" type="open" lemma="confronter" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w729"/>
+      </span>
+    </term>
+    <!--au-->
+    <term tid="t730" type="close" lemma="au" pos="P" morphofeat="P">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w730"/>
+      </span>
+    </term>
+    <!--dilemme-->
+    <term tid="t731" type="open" lemma="dilemme" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w731"/>
+      </span>
+    </term>
+    <!--politique-->
+    <term tid="t732" type="open" lemma="politique" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w732"/>
+      </span>
+    </term>
+    <!--suivant-->
+    <term tid="t733" type="open" lemma="suivant" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w733"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t734" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w734"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t284"/>
+          <target id="t285"/>
+          <target id="t286"/>
+          <target id="t287"/>
+          <target id="t727"/>
+          <target id="t728"/>
+          <target id="t729"/>
+          <target id="t730"/>
+          <target id="t731"/>
+          <target id="t732"/>
+          <target id="t733"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

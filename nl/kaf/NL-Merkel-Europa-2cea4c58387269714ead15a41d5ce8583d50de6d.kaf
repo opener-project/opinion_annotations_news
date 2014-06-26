@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:54Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:54Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:29:33CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w64" sent="5" para="2" offset="461" length="2">Ze</wf>
+    <wf wid="w65" sent="5" para="2" offset="464" length="4">zegt</wf>
+    <wf wid="w66" sent="5" para="2" offset="469" length="4">open</wf>
+    <wf wid="w67" sent="5" para="2" offset="474" length="2">te</wf>
+    <wf wid="w68" sent="5" para="2" offset="477" length="5">staan</wf>
+    <wf wid="w69" sent="5" para="2" offset="483" length="4">voor</wf>
+    <wf wid="w70" sent="5" para="2" offset="488" length="3">een</wf>
+    <wf wid="w71" sent="5" para="2" offset="492" length="21">regeringssamenwerking</wf>
+    <wf wid="w72" sent="5" para="2" offset="514" length="3">met</wf>
+    <wf wid="w73" sent="5" para="2" offset="518" length="2">de</wf>
+    <wf wid="w74" sent="5" para="2" offset="521" length="18">sociaal-democraten</wf>
+    <wf wid="w75" sent="5" para="2" offset="539" length="1">.</wf>
+    <wf wid="w228" sent="12" para="2" offset="1418" length="6">Merkel</wf>
+    <wf wid="w229" sent="12" para="2" offset="1425" length="6">begint</wf>
+    <wf wid="w230" sent="12" para="2" offset="1432" length="10">binnenkort</wf>
+    <wf wid="w231" sent="12" para="2" offset="1443" length="3">aan</wf>
+    <wf wid="w232" sent="12" para="2" offset="1447" length="3">een</wf>
+    <wf wid="w233" sent="12" para="2" offset="1451" length="5">derde</wf>
+    <wf wid="w234" sent="12" para="2" offset="1457" length="7">termijn</wf>
+    <wf wid="w235" sent="12" para="2" offset="1465" length="3">als</wf>
+    <wf wid="w236" sent="12" para="2" offset="1469" length="14">bondskanselier</wf>
+    <wf wid="w237" sent="12" para="2" offset="1483" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ze-->
+    <term tid="t64" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--zegt-->
+    <term tid="t65" type="open" lemma="zeggen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--open-->
+    <term tid="t66" type="open" lemma="open" pos="G" morphofeat="adj">
+      <span>
+        <target id="w66"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--te-->
+    <term tid="t67" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--staan-->
+    <term tid="t68" type="open" lemma="staan" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t69" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t70" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--regeringssamenwerking-->
+    <term tid="t71" type="open" lemma="regeringssamenwerking" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t72" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t73" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--sociaal-democraten-->
+    <term tid="t74" type="open" lemma="sociaal-democraat" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t75" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t228" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--begint-->
+    <term tid="t229" type="open" lemma="beginnen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--binnenkort-->
+    <term tid="t230" type="open" lemma="binnenkort" pos="A" morphofeat="adv">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t231" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t232" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--derde-->
+    <term tid="t233" type="open" lemma="drie" pos="O" morphofeat="num__ord">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--termijn-->
+    <term tid="t234" type="open" lemma="termijn" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--als-->
+    <term tid="t235" type="close" lemma="als" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--bondskanselier-->
+    <term tid="t236" type="open" lemma="bondskanselier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t237" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--sociaal-democraten-->
+        <span>
+          <target id="t74"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--regeringssamenwerking-->
+        <span>
+          <target id="t71"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Ze-->
+        <span>
+          <target id="t64"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--regeringssamenwerking met de sociaal-democraten-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+          <target id="t73"/>
+          <target id="t74"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--zegt open te staan-->
+        <span>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t228"/>
+          <target id="t229"/>
+          <target id="t230"/>
+          <target id="t231"/>
+          <target id="t232"/>
+          <target id="t233"/>
+          <target id="t234"/>
+          <target id="t235"/>
+          <target id="t236"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

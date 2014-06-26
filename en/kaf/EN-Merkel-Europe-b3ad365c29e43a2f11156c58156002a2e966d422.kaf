@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:00:15" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:22:49CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="698" length="2" wid="w125">It</wf>
+    <wf sent="5" para="2" offset="701" length="3" wid="w126">was</wf>
+    <wf sent="5" para="2" offset="705" length="16" wid="w127">Willem-Alexander</wf>
+    <wf sent="5" para="2" offset="721" length="2" wid="w128">'s</wf>
+    <wf sent="5" para="2" offset="724" length="5" wid="w129">first</wf>
+    <wf sent="5" para="2" offset="730" length="10" wid="w130">appearance</wf>
+    <wf sent="5" para="2" offset="741" length="2" wid="w131">on</wf>
+    <wf sent="5" para="2" offset="744" length="3" wid="w132">the</wf>
+    <wf sent="5" para="2" offset="748" length="8" wid="w133">national</wf>
+    <wf sent="5" para="2" offset="757" length="5" wid="w134">stage</wf>
+    <wf sent="5" para="2" offset="763" length="5" wid="w135">since</wf>
+    <wf sent="5" para="2" offset="769" length="6" wid="w136">former</wf>
+    <wf sent="5" para="2" offset="776" length="5" wid="w137">Queen</wf>
+    <wf sent="5" para="2" offset="782" length="7" wid="w138">Beatrix</wf>
+    <wf sent="5" para="2" offset="790" length="9" wid="w139">abdicated</wf>
+    <wf sent="5" para="2" offset="800" length="2" wid="w140">in</wf>
+    <wf sent="5" para="2" offset="803" length="5" wid="w141">April</wf>
+    <wf sent="5" para="2" offset="809" length="3" wid="w142">and</wf>
+    <wf sent="5" para="2" offset="813" length="2" wid="w143">he</wf>
+    <wf sent="5" para="2" offset="816" length="8" wid="w144">ascended</wf>
+    <wf sent="5" para="2" offset="825" length="2" wid="w145">to</wf>
+    <wf sent="5" para="2" offset="828" length="3" wid="w146">the</wf>
+    <wf sent="5" para="2" offset="832" length="6" wid="w147">throne</wf>
+    <wf sent="5" para="2" offset="838" length="1" wid="w148">.</wf>
+    <wf sent="27" para="2" offset="3849" length="3" wid="w720">The</wf>
+    <wf sent="27" para="2" offset="3853" length="7" wid="w721">program</wf>
+    <wf sent="27" para="2" offset="3861" length="3" wid="w722">has</wf>
+    <wf sent="27" para="2" offset="3865" length="8" wid="w723">suffered</wf>
+    <wf sent="27" para="2" offset="3874" length="4" wid="w724">cost</wf>
+    <wf sent="27" para="2" offset="3879" length="8" wid="w725">overruns</wf>
+    <wf sent="27" para="2" offset="3888" length="3" wid="w726">and</wf>
+    <wf sent="27" para="2" offset="3892" length="7" wid="w727">created</wf>
+    <wf sent="27" para="2" offset="3900" length="9" wid="w728">divisions</wf>
+    <wf sent="27" para="2" offset="3910" length="6" wid="w729">within</wf>
+    <wf sent="27" para="2" offset="3917" length="5" wid="w730">Rutte</wf>
+    <wf sent="27" para="2" offset="3922" length="2" wid="w731">'s</wf>
+    <wf sent="27" para="2" offset="3925" length="9" wid="w732">governing</wf>
+    <wf sent="27" para="2" offset="3935" length="9" wid="w733">coalition</wf>
+    <wf sent="27" para="2" offset="3944" length="1" wid="w734">.</wf>
+  </text>
+  <terms>
+    <!--It-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t125">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t126">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--Willem-Alexander-->
+    <term type="close" lemma="Willem-Alexander" pos="R" morphofeat="NNP" tid="t127">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t128">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--first-->
+    <term type="open" lemma="1" pos="G" morphofeat="JJ" tid="t129">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--appearance-->
+    <term type="open" lemma="appearance" pos="N" morphofeat="NN" tid="t130">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t131">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t132">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--national-->
+    <term type="open" lemma="national" pos="G" morphofeat="JJ" tid="t133">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--stage-->
+    <term type="open" lemma="stage" pos="N" morphofeat="NN" tid="t134">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--since-->
+    <term type="close" lemma="since" pos="P" morphofeat="IN" tid="t135">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--former-->
+    <term type="open" lemma="former" pos="G" morphofeat="JJ" tid="t136">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--Queen-->
+    <term type="close" lemma="Queen" pos="R" morphofeat="NNP" tid="t137">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--Beatrix-->
+    <term type="close" lemma="Beatrix" pos="R" morphofeat="NNP" tid="t138">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--abdicated-->
+    <term type="open" lemma="abdicate" pos="V" morphofeat="VBD" tid="t139">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t140">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--April-->
+    <term type="close" lemma="April" pos="R" morphofeat="NNP" tid="t141">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t142">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t143">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--ascended-->
+    <term type="open" lemma="ascend" pos="V" morphofeat="VBD" tid="t144">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t145">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t146">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--throne-->
+    <term type="open" lemma="throne" pos="N" morphofeat="NN" tid="t147">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t148">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t720">
+      <span>
+        <target id="w720"/>
+      </span>
+    </term>
+    <!--program-->
+    <term type="open" lemma="program" pos="N" morphofeat="NN" tid="t721">
+      <span>
+        <target id="w721"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t722">
+      <span>
+        <target id="w722"/>
+      </span>
+    </term>
+    <!--suffered-->
+    <term type="open" lemma="suffer" pos="V" morphofeat="VBN" tid="t723">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w723"/>
+      </span>
+    </term>
+    <!--cost-->
+    <term type="open" lemma="cost" pos="N" morphofeat="NN" tid="t724">
+      <span>
+        <target id="w724"/>
+      </span>
+    </term>
+    <!--overruns-->
+    <term type="open" lemma="overruns" pos="N" morphofeat="NNS" tid="t725">
+      <span>
+        <target id="w725"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t726">
+      <span>
+        <target id="w726"/>
+      </span>
+    </term>
+    <!--created-->
+    <term type="open" lemma="create" pos="V" morphofeat="VBN" tid="t727">
+      <span>
+        <target id="w727"/>
+      </span>
+    </term>
+    <!--divisions-->
+    <term type="open" lemma="division" pos="N" morphofeat="NNS" tid="t728">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w728"/>
+      </span>
+    </term>
+    <!--within-->
+    <term type="close" lemma="within" pos="P" morphofeat="IN" tid="t729">
+      <span>
+        <target id="w729"/>
+      </span>
+    </term>
+    <!--Rutte-->
+    <term type="close" lemma="Rutte" pos="R" morphofeat="NNP" tid="t730">
+      <span>
+        <target id="w730"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t731">
+      <span>
+        <target id="w731"/>
+      </span>
+    </term>
+    <!--governing-->
+    <term type="open" lemma="govern" pos="V" morphofeat="VBG" tid="t732">
+      <span>
+        <target id="w732"/>
+      </span>
+    </term>
+    <!--coalition-->
+    <term type="open" lemma="coalition" pos="N" morphofeat="NN" tid="t733">
+      <span>
+        <target id="w733"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t734">
+      <span>
+        <target id="w734"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Rutte 's governing coalition-->
+        <span>
+          <target id="t730"/>
+          <target id="t731"/>
+          <target id="t732"/>
+          <target id="t733"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--divisions-->
+        <span>
+          <target id="t728"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--cost overruns-->
+        <span>
+          <target id="t724"/>
+          <target id="t725"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--suffered-->
+        <span>
+          <target id="t723"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--The program-->
+        <span>
+          <target id="t720"/>
+          <target id="t721"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--suffered cost overruns-->
+        <span>
+          <target id="t723"/>
+          <target id="t724"/>
+          <target id="t725"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--The program-->
+        <span>
+          <target id="t720"/>
+          <target id="t721"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--created divisions within Rutte 's governing coalition-->
+        <span>
+          <target id="t727"/>
+          <target id="t728"/>
+          <target id="t729"/>
+          <target id="t730"/>
+          <target id="t731"/>
+          <target id="t732"/>
+          <target id="t733"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+          <target id="t132"/>
+          <target id="t133"/>
+          <target id="t134"/>
+          <target id="t135"/>
+          <target id="t136"/>
+          <target id="t137"/>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

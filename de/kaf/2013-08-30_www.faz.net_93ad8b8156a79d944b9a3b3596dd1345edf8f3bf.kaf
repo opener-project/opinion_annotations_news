@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:31:54Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:31:54Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:16:28CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:32:15CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w652" sent="29" para="13" offset="3892" length="10">Steinbrück</wf>
+    <wf wid="w653" sent="29" para="13" offset="3903" length="5">warnt</wf>
+    <wf wid="w654" sent="29" para="13" offset="3909" length="3">vor</wf>
+    <wf wid="w655" sent="29" para="13" offset="3913" length="1">„</wf>
+    <wf wid="w656" sent="29" para="13" offset="3914" length="13">militärischer</wf>
+    <wf wid="w657" sent="29" para="13" offset="3928" length="5">Logik</wf>
+    <wf wid="w658" sent="29" para="13" offset="3933" length="1">“</wf>
+  </text>
+  <terms>
+    <term lemma="Steinbrück" morphofeat="NN unknown_lemma" pos="O" tid="t652" type="open">
+      <span>
+        <target id="w652"/>
+      </span>
+    </term>
+    <term lemma="warnen" morphofeat="VVFIN" pos="V" tid="t653" type="open">
+      <span>
+        <target id="w653"/>
+      </span>
+    </term>
+    <term lemma="vor" morphofeat="APPR" pos="P" tid="t654" type="close">
+      <span>
+        <target id="w654"/>
+      </span>
+    </term>
+    <term lemma="„" morphofeat="ADJA unknown_lemma" pos="O" tid="t655" type="open">
+      <span>
+        <target id="w655"/>
+      </span>
+    </term>
+    <term lemma="militärisch" morphofeat="ADJA" pos="G" tid="t656" type="open">
+      <span>
+        <target id="w656"/>
+      </span>
+    </term>
+    <term lemma="Logik" morphofeat="NN" pos="N" tid="t657" type="open">
+      <span>
+        <target id="w657"/>
+      </span>
+    </term>
+    <term lemma="“" morphofeat="ADJD unknown_lemma" pos="O" tid="t658" type="open">
+      <span>
+        <target id="w658"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Steinbrück-->
+        <span>
+          <target id="t652"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--„ militärischer Logik “-->
+        <span>
+          <target id="t655"/>
+          <target id="t656"/>
+          <target id="t657"/>
+          <target id="t658"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--warnt vor-->
+        <span>
+          <target id="t653"/>
+          <target id="t654"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

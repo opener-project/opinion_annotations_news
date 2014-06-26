@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:06:47CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w53" sent="7" para="2" offset="285" length="2">De</wf>
+    <wf wid="w54" sent="7" para="2" offset="288" length="6">Britse</wf>
+    <wf wid="w55" sent="7" para="2" offset="295" length="7">premier</wf>
+    <wf wid="w56" sent="7" para="2" offset="303" length="7">Cameron</wf>
+    <wf wid="w57" sent="7" para="2" offset="311" length="5">heeft</wf>
+    <wf wid="w58" sent="7" para="2" offset="317" length="6">gezegd</wf>
+    <wf wid="w59" sent="7" para="2" offset="324" length="3">dat</wf>
+    <wf wid="w60" sent="7" para="2" offset="328" length="4">zijn</wf>
+    <wf wid="w61" sent="7" para="2" offset="333" length="8">regering</wf>
+    <wf wid="w62" sent="7" para="2" offset="342" length="14">waarschijnlijk</wf>
+    <wf wid="w63" sent="7" para="2" offset="357" length="3">zal</wf>
+    <wf wid="w64" sent="7" para="2" offset="361" length="8">optreden</wf>
+    <wf wid="w65" sent="7" para="2" offset="370" length="5">tegen</wf>
+    <wf wid="w66" sent="7" para="2" offset="376" length="7">kranten</wf>
+    <wf wid="w67" sent="7" para="2" offset="384" length="2">om</wf>
+    <wf wid="w68" sent="7" para="2" offset="387" length="6">ervoor</wf>
+    <wf wid="w69" sent="7" para="2" offset="394" length="2">te</wf>
+    <wf wid="w70" sent="7" para="2" offset="397" length="6">zorgen</wf>
+    <wf wid="w71" sent="7" para="2" offset="404" length="3">dat</wf>
+    <wf wid="w72" sent="7" para="2" offset="408" length="2">ze</wf>
+    <wf wid="w73" sent="7" para="2" offset="411" length="7">stoppen</wf>
+    <wf wid="w74" sent="7" para="2" offset="419" length="3">met</wf>
+    <wf wid="w75" sent="7" para="2" offset="423" length="10">publiceren</wf>
+    <wf wid="w76" sent="7" para="2" offset="434" length="4">over</wf>
+    <wf wid="w77" sent="7" para="2" offset="439" length="3">wat</wf>
+    <wf wid="w78" sent="7" para="2" offset="443" length="7">Cameron</wf>
+    <wf wid="w79" sent="7" para="2" offset="451" length="11">schadelijke</wf>
+    <wf wid="w80" sent="7" para="2" offset="463" length="12">onthullingen</wf>
+    <wf wid="w81" sent="7" para="2" offset="476" length="6">noemde</wf>
+    <wf wid="w82" sent="7" para="2" offset="483" length="3">van</wf>
+    <wf wid="w83" sent="7" para="2" offset="487" length="2">de</wf>
+    <wf wid="w84" sent="7" para="2" offset="490" length="11">Amerikaanse</wf>
+    <wf wid="w85" sent="7" para="2" offset="502" length="13">klokkenluider</wf>
+    <wf wid="w86" sent="7" para="2" offset="516" length="6">Edward</wf>
+    <wf wid="w87" sent="7" para="2" offset="523" length="7">Snowden</wf>
+    <wf wid="w88" sent="7" para="2" offset="530" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t53" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--Britse-->
+    <term tid="t54" type="open" lemma="Brits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t55" type="open" lemma="premier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w55"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Cameron-->
+    <term tid="t56" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--heeft-->
+    <term tid="t57" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--gezegd-->
+    <term tid="t58" type="open" lemma="zeggen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t59" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t60" type="close" lemma="zijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--regering-->
+    <term tid="t61" type="open" lemma="regering" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--waarschijnlijk-->
+    <term tid="t62" type="open" lemma="waarschijnlijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--zal-->
+    <term tid="t63" type="open" lemma="zullen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--optreden-->
+    <term tid="t64" type="open" lemma="optreden" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w64"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--tegen-->
+    <term tid="t65" type="close" lemma="tegen" pos="P" morphofeat="prep">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--kranten-->
+    <term tid="t66" type="open" lemma="krant" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t67" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--ervoor-->
+    <term tid="t68" type="close" lemma="ervoor" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t69" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--zorgen-->
+    <term tid="t70" type="open" lemma="zorgen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w70"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t71" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--ze-->
+    <term tid="t72" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--stoppen-->
+    <term tid="t73" type="open" lemma="stoppen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t74" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--publiceren-->
+    <term tid="t75" type="open" lemma="publiceren" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t76" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--wat-->
+    <term tid="t77" type="close" lemma="wat" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t78" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--schadelijke-->
+    <term tid="t79" type="open" lemma="schadelijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w79"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--onthullingen-->
+    <term tid="t80" type="open" lemma="onthulling" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w80"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--noemde-->
+    <term tid="t81" type="open" lemma="noemen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t82" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t83" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--Amerikaanse-->
+    <term tid="t84" type="open" lemma="Amerikaans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--klokkenluider-->
+    <term tid="t85" type="open" lemma="klokkenluider" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--Edward-->
+    <term tid="t86" type="open" lemma="Edward" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--Snowden-->
+    <term tid="t87" type="open" lemma="Snowden" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t88" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--publiceren-->
+        <span>
+          <target id="t75"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--stoppen-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--zijn regering-->
+        <span>
+          <target id="t60"/>
+          <target id="t61"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--kranten-->
+        <span>
+          <target id="t66"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--optreden tegen-->
+        <span>
+          <target id="t64"/>
+          <target id="t65"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=20-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--ze-->
+        <span>
+          <target id="t72"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--stoppen met publiceren-->
+        <span>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=25-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--wat-->
+        <span>
+          <target id="t77"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--schadelijke onthullingen-->
+        <span>
+          <target id="t79"/>
+          <target id="t80"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

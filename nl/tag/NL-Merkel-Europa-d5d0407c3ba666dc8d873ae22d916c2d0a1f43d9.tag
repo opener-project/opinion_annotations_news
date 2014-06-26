@@ -1,0 +1,11 @@
+w21	Een	een	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	20	true	4
+w22	Griek	Griek	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	21	true	4
+w23	loopt	lopen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	22	true	4
+w24	langs	langs	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	23	true	4
+w25	een	een	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	24	true	4
+w26	winkel	winkel	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	25	true	4
+w27	die	die	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	26	true	4
+w28	er	er	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	27	true	4
+w29	mee	mee	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	28	true	4
+w30	stopt	stoppen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	29	true	4
+w31	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	30	true	4

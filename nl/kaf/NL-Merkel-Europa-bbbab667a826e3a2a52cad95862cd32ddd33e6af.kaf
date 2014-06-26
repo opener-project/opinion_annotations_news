@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:57:25CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w7" sent="2" para="2" offset="47" length="2">De</wf>
+    <wf wid="w8" sent="2" para="2" offset="50" length="9">AEX-index</wf>
+    <wf wid="w9" sent="2" para="2" offset="60" length="2">in</wf>
+    <wf wid="w10" sent="2" para="2" offset="63" length="9">Amsterdam</wf>
+    <wf wid="w11" sent="2" para="2" offset="73" length="8">eindigde</wf>
+    <wf wid="w12" sent="2" para="2" offset="82" length="3">0,9</wf>
+    <wf wid="w13" sent="2" para="2" offset="86" length="7">procent</wf>
+    <wf wid="w14" sent="2" para="2" offset="94" length="5">hoger</wf>
+    <wf wid="w15" sent="2" para="2" offset="100" length="2">op</wf>
+    <wf wid="w16" sent="2" para="2" offset="103" length="3">328</wf>
+    <wf wid="w17" sent="2" para="2" offset="107" length="6">punten</wf>
+    <wf wid="w18" sent="2" para="2" offset="113" length="1">.</wf>
+    <wf wid="w199" sent="15" para="2" offset="1182" length="3">Het</wf>
+    <wf wid="w200" sent="15" para="2" offset="1186" length="6">ergste</wf>
+    <wf wid="w201" sent="15" para="2" offset="1193" length="4">deel</wf>
+    <wf wid="w202" sent="15" para="2" offset="1198" length="3">van</wf>
+    <wf wid="w203" sent="15" para="2" offset="1202" length="2">de</wf>
+    <wf wid="w204" sent="15" para="2" offset="1205" length="14">schuldencrisis</wf>
+    <wf wid="w205" sent="15" para="2" offset="1220" length="2">is</wf>
+    <wf wid="w206" sent="15" para="2" offset="1223" length="7">volgens</wf>
+    <wf wid="w207" sent="15" para="2" offset="1231" length="3">hem</wf>
+    <wf wid="w208" sent="15" para="2" offset="1235" length="7">voorbij</wf>
+    <wf wid="w209" sent="15" para="2" offset="1242" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t7" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--AEX-index-->
+    <term tid="t8" type="open" lemma="AEX-index" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t9" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--Amsterdam-->
+    <term tid="t10" type="open" lemma="Amsterdam" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--eindigde-->
+    <term tid="t11" type="open" lemma="eindigen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--0,9-->
+    <term tid="t12" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--procent-->
+    <term tid="t13" type="open" lemma="procent" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--hoger-->
+    <term tid="t14" type="open" lemma="hoog" pos="G" morphofeat="adj">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t15" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--328-->
+    <term tid="t16" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--punten-->
+    <term tid="t17" type="open" lemma="punt" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t18" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--Het-->
+    <term tid="t199" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--ergste-->
+    <term tid="t200" type="open" lemma="erg|kwaad" pos="G" morphofeat="adj">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--deel-->
+    <term tid="t201" type="open" lemma="deel" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t202" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t203" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--schuldencrisis-->
+    <term tid="t204" type="open" lemma="schuldencrisis" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t205" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--volgens-->
+    <term tid="t206" type="close" lemma="volgens" pos="P" morphofeat="prep">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--hem-->
+    <term tid="t207" type="close" lemma="hem" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--voorbij-->
+    <term tid="t208" type="close" lemma="voorbij" pos="P" morphofeat="prep">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t209" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--deel-->
+        <span>
+          <target id="t201"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--ergste-->
+        <span>
+          <target id="t200"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

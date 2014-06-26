@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:56Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:56Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:15:50" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:53:12CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="33" para="2" offset="2848" length="3" wid="w542">The</wf>
+    <wf sent="33" para="2" offset="2852" length="4" wid="w543">plan</wf>
+    <wf sent="33" para="2" offset="2856" length="1" wid="w544">,</wf>
+    <wf sent="33" para="2" offset="2858" length="7" wid="w545">however</wf>
+    <wf sent="33" para="2" offset="2865" length="1" wid="w546">,</wf>
+    <wf sent="33" para="2" offset="2867" length="7" wid="w547">remains</wf>
+    <wf sent="33" para="2" offset="2875" length="7" wid="w548">opposed</wf>
+    <wf sent="33" para="2" offset="2883" length="2" wid="w549">by</wf>
+    <wf sent="33" para="2" offset="2886" length="7" wid="w550">Germany</wf>
+    <wf sent="33" para="2" offset="2893" length="2" wid="w551">'s</wf>
+    <wf sent="33" para="2" offset="2896" length="8" wid="w552">national</wf>
+    <wf sent="33" para="2" offset="2905" length="7" wid="w553">central</wf>
+    <wf sent="33" para="2" offset="2913" length="4" wid="w554">bank</wf>
+    <wf sent="33" para="2" offset="2917" length="1" wid="w555">,</wf>
+    <wf sent="33" para="2" offset="2919" length="2" wid="w556">an</wf>
+    <wf sent="33" para="2" offset="2922" length="11" wid="w557">influential</wf>
+    <wf sent="33" para="2" offset="2934" length="5" wid="w558">voice</wf>
+    <wf sent="33" para="2" offset="2940" length="2" wid="w559">in</wf>
+    <wf sent="33" para="2" offset="2943" length="8" wid="w560">European</wf>
+    <wf sent="33" para="2" offset="2952" length="6" wid="w561">policy</wf>
+    <wf sent="33" para="2" offset="2959" length="7" wid="w562">matters</wf>
+    <wf sent="33" para="2" offset="2966" length="1" wid="w563">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t542">
+      <span>
+        <target id="w542"/>
+      </span>
+    </term>
+    <!--plan-->
+    <term type="open" lemma="plan" pos="N" morphofeat="NN" tid="t543">
+      <span>
+        <target id="w543"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t544">
+      <span>
+        <target id="w544"/>
+      </span>
+    </term>
+    <!--however-->
+    <term type="open" lemma="however" pos="A" morphofeat="RB" tid="t545">
+      <span>
+        <target id="w545"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t546">
+      <span>
+        <target id="w546"/>
+      </span>
+    </term>
+    <!--remains-->
+    <term type="open" lemma="remain" pos="V" morphofeat="VBZ" tid="t547">
+      <span>
+        <target id="w547"/>
+      </span>
+    </term>
+    <!--opposed-->
+    <term type="open" lemma="oppose" pos="V" morphofeat="VBN" tid="t548">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w548"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t549">
+      <span>
+        <target id="w549"/>
+      </span>
+    </term>
+    <!--Germany-->
+    <term type="close" lemma="Germany" pos="R" morphofeat="NNP" tid="t550">
+      <span>
+        <target id="w550"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t551">
+      <span>
+        <target id="w551"/>
+      </span>
+    </term>
+    <!--national-->
+    <term type="open" lemma="national" pos="G" morphofeat="JJ" tid="t552">
+      <span>
+        <target id="w552"/>
+      </span>
+    </term>
+    <!--central-->
+    <term type="open" lemma="central" pos="G" morphofeat="JJ" tid="t553">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w553"/>
+      </span>
+    </term>
+    <!--bank-->
+    <term type="open" lemma="bank" pos="N" morphofeat="NN" tid="t554">
+      <span>
+        <target id="w554"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t555">
+      <span>
+        <target id="w555"/>
+      </span>
+    </term>
+    <!--an-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t556">
+      <span>
+        <target id="w556"/>
+      </span>
+    </term>
+    <!--influential-->
+    <term type="open" lemma="influential" pos="G" morphofeat="JJ" tid="t557">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w557"/>
+      </span>
+    </term>
+    <!--voice-->
+    <term type="open" lemma="voice" pos="N" morphofeat="NN" tid="t558">
+      <span>
+        <target id="w558"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t559">
+      <span>
+        <target id="w559"/>
+      </span>
+    </term>
+    <!--European-->
+    <term type="open" lemma="european" pos="G" morphofeat="JJ" tid="t560">
+      <span>
+        <target id="w560"/>
+      </span>
+    </term>
+    <!--policy-->
+    <term type="open" lemma="policy" pos="N" morphofeat="NN" tid="t561">
+      <span>
+        <target id="w561"/>
+      </span>
+    </term>
+    <!--matters-->
+    <term type="open" lemma="matter" pos="N" morphofeat="NNS" tid="t562">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w562"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t563">
+      <span>
+        <target id="w563"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Germany 's national central bank , an influential voice in European policy matters-->
+        <span>
+          <target id="t550"/>
+          <target id="t551"/>
+          <target id="t552"/>
+          <target id="t553"/>
+          <target id="t554"/>
+          <target id="t555"/>
+          <target id="t556"/>
+          <target id="t557"/>
+          <target id="t558"/>
+          <target id="t559"/>
+          <target id="t560"/>
+          <target id="t561"/>
+          <target id="t562"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--The plan-->
+        <span>
+          <target id="t542"/>
+          <target id="t543"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--remains opposed-->
+        <span>
+          <target id="t547"/>
+          <target id="t548"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--European policy matters-->
+        <span>
+          <target id="t560"/>
+          <target id="t561"/>
+          <target id="t562"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--influential voice-->
+        <span>
+          <target id="t557"/>
+          <target id="t558"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

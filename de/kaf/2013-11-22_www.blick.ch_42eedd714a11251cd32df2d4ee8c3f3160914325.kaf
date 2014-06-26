@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:37:10Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:37:10Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:11:01CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:37:28CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w343" sent="19" para="11" offset="2168" length="9">Präsident</wf>
+    <wf wid="w344" sent="19" para="11" offset="2178" length="5">Putin</wf>
+    <wf wid="w345" sent="19" para="11" offset="2184" length="4">warf</wf>
+    <wf wid="w346" sent="19" para="11" offset="2189" length="3">der</wf>
+    <wf wid="w347" sent="19" para="11" offset="2193" length="2">EU</wf>
+    <wf wid="w348" sent="19" para="11" offset="2196" length="3">vor</wf>
+    <wf wid="w349" sent="19" para="11" offset="2199" length="1">,</wf>
+    <wf wid="w350" sent="19" para="11" offset="2201" length="3">die</wf>
+    <wf wid="w351" sent="19" para="11" offset="2205" length="7">Ukraine</wf>
+    <wf wid="w352" sent="19" para="11" offset="2213" length="9">erpressen</wf>
+    <wf wid="w353" sent="19" para="11" offset="2223" length="2">zu</wf>
+    <wf wid="w354" sent="19" para="11" offset="2226" length="6">wollen</wf>
+    <wf wid="w355" sent="19" para="11" offset="2232" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Präsident" morphofeat="NN" pos="N" tid="t343" type="open">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <term lemma="Putin" morphofeat="NE unknown_lemma" pos="O" tid="t344" type="open">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <term lemma="werfen" morphofeat="VVFIN" pos="V" tid="t345" type="open">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t346" type="close">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t347" type="open">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <term lemma="vor" morphofeat="PTKVZ" pos="V" tid="t348" type="open">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t349" type="open">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="PRELS" pos="Q" tid="t350" type="close">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <term lemma="Ukraine" morphofeat="NE" pos="R" tid="t351" type="open">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <term lemma="erpressen" morphofeat="VVINF" pos="V" tid="t352" type="open">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="PTKZU" pos="O" tid="t353" type="open">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMINF" pos="V" tid="t354" type="open">
+      <span>
+        <target id="w354"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t355" type="open">
+      <span>
+        <target id="w355"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die Ukraine-->
+        <span>
+          <target id="t350"/>
+          <target id="t351"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--erpressen-->
+        <span>
+          <target id="t352"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

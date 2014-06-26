@@ -1,0 +1,14 @@
+w241	Monday	Monday	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	240	true	9
+w242	also	also	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	241	true	9
+w243	was	be	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	242	true	9
+w244	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	243	true	9
+w245	last	last	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	244	true	9
+w246	day	day	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	245	true	9
+w247	of	of	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	246	true	9
+w248	Premier	Premier	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	247	true	9
+w249	Li	Li	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	248	true	9
+w250	Keqiang	Keqiang	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	249	true	9
+w251	's	's	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	250	true	9
+w252	visit	visit	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	251	true	9
+w253	to	to	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	252	true	9
+w254	Europe	Europe	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	253	true	9

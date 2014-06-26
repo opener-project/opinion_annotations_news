@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:57Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:57Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:06:03" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:35:19CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:52CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="4" para="2" offset="449" length="6" wid="w88">Poland</wf>
+    <wf sent="4" para="2" offset="456" length="3" wid="w89">and</wf>
+    <wf sent="4" para="2" offset="460" length="3" wid="w90">its</wf>
+    <wf sent="4" para="2" offset="464" length="12" wid="w91">ex-communist</wf>
+    <wf sent="4" para="2" offset="477" length="10" wid="w92">neighbours</wf>
+    <wf sent="4" para="2" offset="488" length="4" wid="w93">want</wf>
+    <wf sent="4" para="2" offset="493" length="7" wid="w94">current</wf>
+    <wf sent="4" para="2" offset="501" length="8" wid="w95">spending</wf>
+    <wf sent="4" para="2" offset="510" length="10" wid="w96">maintained</wf>
+    <wf sent="4" para="2" offset="521" length="2" wid="w97">or</wf>
+    <wf sent="4" para="2" offset="524" length="6" wid="w98">raised</wf>
+    <wf sent="4" para="2" offset="530" length="1" wid="w99">.</wf>
+    <wf sent="21" para="2" offset="1904" length="4" wid="w365">Some</wf>
+    <wf sent="21" para="2" offset="1909" length="5" wid="w366">other</wf>
+    <wf sent="21" para="2" offset="1915" length="9" wid="w367">countries</wf>
+    <wf sent="21" para="2" offset="1925" length="4" wid="w368">like</wf>
+    <wf sent="21" para="2" offset="1930" length="7" wid="w369">Denmark</wf>
+    <wf sent="21" para="2" offset="1938" length="3" wid="w370">are</wf>
+    <wf sent="21" para="2" offset="1942" length="8" wid="w371">fighting</wf>
+    <wf sent="21" para="2" offset="1951" length="3" wid="w372">for</wf>
+    <wf sent="21" para="2" offset="1955" length="1" wid="w373">a</wf>
+    <wf sent="21" para="2" offset="1957" length="6" wid="w374">rebate</wf>
+    <wf sent="21" para="2" offset="1964" length="2" wid="w375">of</wf>
+    <wf sent="21" para="2" offset="1967" length="5" wid="w376">their</wf>
+    <wf sent="21" para="2" offset="1973" length="3" wid="w377">own</wf>
+    <wf sent="21" para="2" offset="1976" length="1" wid="w378">.</wf>
+  </text>
+  <terms>
+    <!--Poland-->
+    <term type="close" lemma="Poland" pos="R" morphofeat="NNP" tid="t88">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t89">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--its-->
+    <term type="close" lemma="its" pos="Q" morphofeat="PRP$" tid="t90">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--ex-communist-->
+    <term type="open" lemma="ex-communist" pos="G" morphofeat="JJ" tid="t91">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--neighbours-->
+    <term type="open" lemma="neighbour" pos="N" morphofeat="NNS" tid="t92">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--want-->
+    <term type="open" lemma="want" pos="V" morphofeat="VBP" tid="t93">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--current-->
+    <term type="open" lemma="current" pos="G" morphofeat="JJ" tid="t94">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--spending-->
+    <term type="open" lemma="spending" pos="N" morphofeat="NN" tid="t95">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--maintained-->
+    <term type="open" lemma="maintain" pos="V" morphofeat="VBD" tid="t96">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--or-->
+    <term type="close" lemma="or" pos="C" morphofeat="CC" tid="t97">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--raised-->
+    <term type="open" lemma="raise" pos="V" morphofeat="VBD" tid="t98">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t99">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--Some-->
+    <term type="close" lemma="some" pos="D" morphofeat="DT" tid="t365">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <!--other-->
+    <term type="open" lemma="other" pos="G" morphofeat="JJ" tid="t366">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <!--countries-->
+    <term type="open" lemma="country" pos="N" morphofeat="NNS" tid="t367">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <!--like-->
+    <term type="close" lemma="like" pos="P" morphofeat="IN" tid="t368">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <!--Denmark-->
+    <term type="close" lemma="Denmark" pos="R" morphofeat="NNP" tid="t369">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t370">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <!--fighting-->
+    <term type="open" lemma="fight" pos="V" morphofeat="VBG" tid="t371">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t372">
+      <span>
+        <target id="w372"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t373">
+      <span>
+        <target id="w373"/>
+      </span>
+    </term>
+    <!--rebate-->
+    <term type="open" lemma="rebate" pos="N" morphofeat="NN" tid="t374">
+      <span>
+        <target id="w374"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t375">
+      <span>
+        <target id="w375"/>
+      </span>
+    </term>
+    <!--their-->
+    <term type="close" lemma="their" pos="Q" morphofeat="PRP$" tid="t376">
+      <span>
+        <target id="w376"/>
+      </span>
+    </term>
+    <!--own-->
+    <term type="open" lemma="own" pos="G" morphofeat="JJ" tid="t377">
+      <span>
+        <target id="w377"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t378">
+      <span>
+        <target id="w378"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder>
+        <!--Poland-->
+        <span>
+          <target id="t88"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--current spending maintained-->
+        <span>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--want-->
+        <span>
+          <target id="t93"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder>
+        <!--its ex-communist neighbours-->
+        <span>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--current spending maintained-->
+        <span>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--want-->
+        <span>
+          <target id="t93"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--fighting-->
+        <span>
+          <target id="t371"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder>
+        <!--Poland-->
+        <span>
+          <target id="t88"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--current spending raised-->
+        <span>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t98"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--want-->
+        <span>
+          <target id="t93"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder>
+        <!--its ex-communist neighbours-->
+        <span>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--current spending raised-->
+        <span>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t98"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--want-->
+        <span>
+          <target id="t93"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder>
+        <!--Some other countries like Denmark-->
+        <span>
+          <target id="t365"/>
+          <target id="t366"/>
+          <target id="t367"/>
+          <target id="t368"/>
+          <target id="t369"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--a rebate of their own-->
+        <span>
+          <target id="t373"/>
+          <target id="t374"/>
+          <target id="t375"/>
+          <target id="t376"/>
+          <target id="t377"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--fighting for-->
+        <span>
+          <target id="t371"/>
+          <target id="t372"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

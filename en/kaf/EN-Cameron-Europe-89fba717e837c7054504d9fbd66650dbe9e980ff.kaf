@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:52:41" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:39:01CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="351" length="6" wid="w63">Moscow</wf>
+    <wf sent="3" para="2" offset="358" length="4" wid="w64">also</wf>
+    <wf sent="3" para="2" offset="363" length="8" wid="w65">welcomed</wf>
+    <wf sent="3" para="2" offset="372" length="5" wid="w66">Syria</wf>
+    <wf sent="3" para="2" offset="377" length="2" wid="w67">'s</wf>
+    <wf sent="3" para="2" offset="380" length="8" wid="w68">decision</wf>
+    <wf sent="3" para="2" offset="389" length="2" wid="w69">to</wf>
+    <wf sent="3" para="2" offset="392" length="5" wid="w70">allow</wf>
+    <wf sent="3" para="2" offset="398" length="13" wid="w71">international</wf>
+    <wf sent="3" para="2" offset="412" length="7" wid="w72">experts</wf>
+    <wf sent="3" para="2" offset="420" length="2" wid="w73">to</wf>
+    <wf sent="3" para="2" offset="423" length="7" wid="w74">examine</wf>
+    <wf sent="3" para="2" offset="431" length="3" wid="w75">the</wf>
+    <wf sent="3" para="2" offset="435" length="4" wid="w76">area</wf>
+    <wf sent="3" para="2" offset="440" length="2" wid="w77">in</wf>
+    <wf sent="3" para="2" offset="443" length="1" wid="w78">a</wf>
+    <wf sent="3" para="2" offset="445" length="8" wid="w79">Damascus</wf>
+    <wf sent="3" para="2" offset="454" length="6" wid="w80">suburb</wf>
+    <wf sent="3" para="2" offset="461" length="5" wid="w81">where</wf>
+    <wf sent="3" para="2" offset="467" length="2" wid="w82">at</wf>
+    <wf sent="3" para="2" offset="470" length="5" wid="w83">least</wf>
+    <wf sent="3" para="2" offset="476" length="3" wid="w84">100</wf>
+    <wf sent="3" para="2" offset="480" length="6" wid="w85">people</wf>
+    <wf sent="3" para="2" offset="487" length="4" wid="w86">died</wf>
+    <wf sent="3" para="2" offset="492" length="2" wid="w87">in</wf>
+    <wf sent="3" para="2" offset="495" length="3" wid="w88">the</wf>
+    <wf sent="3" para="2" offset="499" length="9" wid="w89">suspected</wf>
+    <wf sent="3" para="2" offset="509" length="6" wid="w90">attack</wf>
+    <wf sent="3" para="2" offset="515" length="1" wid="w91">.</wf>
+    <wf sent="4" para="2" offset="517" length="6" wid="w92">Syrian</wf>
+    <wf sent="4" para="2" offset="524" length="3" wid="w93">and</wf>
+    <wf sent="4" para="2" offset="528" length="4" wid="w94">U.N.</wf>
+    <wf sent="4" para="2" offset="533" length="9" wid="w95">officials</wf>
+    <wf sent="4" para="2" offset="543" length="3" wid="w96">are</wf>
+    <wf sent="4" para="2" offset="547" length="7" wid="w97">working</wf>
+    <wf sent="4" para="2" offset="555" length="2" wid="w98">to</wf>
+    <wf sent="4" para="2" offset="558" length="8" wid="w99">finalize</wf>
+    <wf sent="4" para="2" offset="567" length="3" wid="w100">the</wf>
+    <wf sent="4" para="2" offset="571" length="6" wid="w101">timing</wf>
+    <wf sent="4" para="2" offset="578" length="2" wid="w102">of</wf>
+    <wf sent="4" para="2" offset="581" length="3" wid="w103">the</wf>
+    <wf sent="4" para="2" offset="585" length="5" wid="w104">visit</wf>
+    <wf sent="4" para="2" offset="590" length="1" wid="w105">.</wf>
+  </text>
+  <terms>
+    <!--Moscow-->
+    <term type="close" lemma="Moscow" pos="R" morphofeat="NNP" tid="t63">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t64">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--welcomed-->
+    <term type="open" lemma="welcome" pos="V" morphofeat="VBD" tid="t65">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--Syria-->
+    <term type="close" lemma="Syria" pos="R" morphofeat="NNP" tid="t66">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t67">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--decision-->
+    <term type="open" lemma="decision" pos="N" morphofeat="NN" tid="t68">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t69">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--allow-->
+    <term type="open" lemma="allow" pos="V" morphofeat="VB" tid="t70">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--international-->
+    <term type="open" lemma="international" pos="G" morphofeat="JJ" tid="t71">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--experts-->
+    <term type="open" lemma="expert" pos="N" morphofeat="NNS" tid="t72">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t73">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--examine-->
+    <term type="open" lemma="examine" pos="V" morphofeat="VB" tid="t74">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t75">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--area-->
+    <term type="open" lemma="area" pos="N" morphofeat="NN" tid="t76">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t77">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t78">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--Damascus-->
+    <term type="close" lemma="Damascus" pos="R" morphofeat="NNP" tid="t79">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--suburb-->
+    <term type="open" lemma="suburb" pos="N" morphofeat="NN" tid="t80">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--where-->
+    <term type="close" lemma="where" pos="O" morphofeat="WRB" tid="t81">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--at-->
+    <term type="close" lemma="at" pos="P" morphofeat="IN" tid="t82">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--least-->
+    <term type="open" lemma="little" pos="G" morphofeat="JJS" tid="t83">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--100-->
+    <term type="close" lemma="100" pos="O" morphofeat="CD" tid="t84">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--people-->
+    <term type="open" lemma="person" pos="N" morphofeat="NNS" tid="t85">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--died-->
+    <term type="open" lemma="died" pos="G" morphofeat="JJ" tid="t86">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t87">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t88">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--suspected-->
+    <term type="open" lemma="suspected" pos="G" morphofeat="JJ" tid="t89">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--attack-->
+    <term type="open" lemma="attack" pos="N" morphofeat="NN" tid="t90">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t91">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--Syrian-->
+    <term type="open" lemma="syrian" pos="G" morphofeat="JJ" tid="t92">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t93">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--U.N.-->
+    <term type="close" lemma="U.N." pos="R" morphofeat="NNP" tid="t94">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--officials-->
+    <term type="open" lemma="official" pos="N" morphofeat="NNS" tid="t95">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t96">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--working-->
+    <term type="open" lemma="work" pos="V" morphofeat="VBG" tid="t97">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t98">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--finalize-->
+    <term type="open" lemma="finalize" pos="V" morphofeat="VB" tid="t99">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t100">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--timing-->
+    <term type="open" lemma="timing" pos="N" morphofeat="NN" tid="t101">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t102">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t103">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--visit-->
+    <term type="open" lemma="visit" pos="N" morphofeat="NN" tid="t104">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t105">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--international experts-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--allow-->
+        <span>
+          <target id="t70"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--attack-->
+        <span>
+          <target id="t90"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Moscow-->
+        <span>
+          <target id="t63"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Syria 's decision-->
+        <span>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--welcomed-->
+        <span>
+          <target id="t65"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,11 @@
+w343	Zaterdag	zaterdag	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	342	true	16
+w344	buigen	buigen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	343	true	16
+w345	de	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	344	true	16
+w346	leiders	leider	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	345	true	16
+w347	zich	zich	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	346	true	16
+w348	over	over	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	347	true	16
+w349	de	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	348	true	16
+w350	Europese	Europees	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	349	true	16
+w351	schuldencrisis	schuldencrisis	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	350	true	16
+w352	en	en	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	351	true	16
+w353	Griekenland	Griekenland	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	352	true	16

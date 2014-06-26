@@ -1,0 +1,16 @@
+w204	Hier	hier	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	203	true	17
+w205	soll	sollen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	204	true	17
+w206	es	es	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	205	true	17
+w207	Abendessen	Abendessen	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	206	true	17
+w208	geben	geben	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	207	true	17
+w609	Er	er	Q			0		0		0		0	NON-OPINIONATED	2		0		0		0	608	true	43
+w610	trifft	treffen	V			0		0		0		0	NON-OPINIONATED	2		0		0		0	609	true	43
+w611	sich	sich	Q			0		0		0		0	NON-OPINIONATED	2		0		0		0	610	true	43
+w612	mit	mit	P			0		0		0		0	NON-OPINIONATED	2		0		0		0	611	true	43
+w613	Bundeskanzlerin	Bundeskanzlerin	N			0		0		0		0	NON-OPINIONATED	2		0		0		0	612	true	43
+w614	Angela	Angela	R			0		0		0		0	NON-OPINIONATED	2		0		0		0	613	true	43
+w615	Merkel	Merkel	R			0		0		0		0	NON-OPINIONATED	2		0		0		0	614	true	43
+w616	auf	auf	P			0		0		0		0	NON-OPINIONATED	2		0		0		0	615	true	43
+w617	der	die	D			0		0		0		0	NON-OPINIONATED	2		0		0		0	616	true	43
+w618	Hannover	Hannover	R			0		0		0		0	NON-OPINIONATED	2		0		0		0	617	true	43
+w619	Messe	Messe	N			0		0		0		0	NON-OPINIONATED	2		0		0		0	618	true	43

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:17:09Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:17:09Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:52:30CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:17:24CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w159" sent="10" para="6" offset="1008" length="3">Die</wf>
+    <wf wid="w160" sent="10" para="6" offset="1012" length="8">deutsche</wf>
+    <wf wid="w161" sent="10" para="6" offset="1021" length="9">Kanzlerin</wf>
+    <wf wid="w162" sent="10" para="6" offset="1031" length="6">Angela</wf>
+    <wf wid="w163" sent="10" para="6" offset="1038" length="6">Merkel</wf>
+    <wf wid="w164" sent="10" para="6" offset="1045" length="5">hatte</wf>
+    <wf wid="w165" sent="10" para="6" offset="1051" length="2">am</wf>
+    <wf wid="w166" sent="10" para="6" offset="1054" length="8">Dienstag</wf>
+    <wf wid="w167" sent="10" para="6" offset="1063" length="3">das</wf>
+    <wf wid="w168" sent="10" para="6" offset="1067" length="11">schleppende</wf>
+    <wf wid="w169" sent="10" para="6" offset="1079" length="5">Tempo</wf>
+    <wf wid="w170" sent="10" para="6" offset="1085" length="3">bei</wf>
+    <wf wid="w171" sent="10" para="6" offset="1089" length="3">der</wf>
+    <wf wid="w172" sent="10" para="6" offset="1093" length="11">Regulierung</wf>
+    <wf wid="w173" sent="10" para="6" offset="1105" length="3">von</wf>
+    <wf wid="w174" sent="10" para="6" offset="1109" length="10">Hedgefonds</wf>
+    <wf wid="w175" sent="10" para="6" offset="1120" length="9">bemängelt</wf>
+    <wf wid="w176" sent="10" para="6" offset="1129" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t159" type="close">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <term lemma="deutsch" morphofeat="ADJA" pos="G" tid="t160" type="open">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <term lemma="Kanzlerin" morphofeat="NN" pos="N" tid="t161" type="open">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <term lemma="Angela" morphofeat="NE" pos="R" tid="t162" type="open">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t163" type="open">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t164" type="open">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t165" type="close">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <term lemma="Dienstag" morphofeat="NN" pos="N" tid="t166" type="open">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t167" type="close">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <term lemma="schleppend" morphofeat="ADJA" pos="G" tid="t168" type="open">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <term lemma="Tempo" morphofeat="NN" pos="N" tid="t169" type="open">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <term lemma="bei" morphofeat="APPR" pos="P" tid="t170" type="close">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t171" type="close">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <term lemma="Regulierung" morphofeat="NN" pos="N" tid="t172" type="open">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t173" type="close">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <term lemma="Hedgefonds" morphofeat="NN unknown_lemma" pos="O" tid="t174" type="open">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <term lemma="bemängeln" morphofeat="VVPP" pos="V" tid="t175" type="open">
+      <span>
+        <target id="w175"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t176" type="open">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Tempo-->
+        <span>
+          <target id="t169"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--schleppende-->
+        <span>
+          <target id="t168"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

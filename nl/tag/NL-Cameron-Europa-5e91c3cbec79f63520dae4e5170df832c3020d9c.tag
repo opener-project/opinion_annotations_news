@@ -1,0 +1,14 @@
+w94	Beide	beide	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	93	true	7
+w95	inlichtingendiensten	inlichtingendienst	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	94	true	7
+w96	zouden	zullen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	95	true	7
+w97	luisterposten	luisterposten	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	96	true	7
+w98	hebben	hebben	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	97	true	7
+w99	gehad	hebben	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	98	true	7
+w100	die	die	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	99	true	7
+w101	gericht	richten	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	100	true	7
+w102	waren	wezen|zijn	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	101	true	7
+w103	op	op	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	102	true	7
+w104	het	het	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	103	true	7
+w105	Duitse	Duits	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	104	true	7
+w106	parlement	parlement	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	105	true	7
+w107	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	106	true	7

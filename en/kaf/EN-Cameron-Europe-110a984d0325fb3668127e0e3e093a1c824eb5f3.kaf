@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:24Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:24Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:57:24" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:41:11CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:24CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="286" length="3" wid="w56">The</wf>
+    <wf sent="3" para="2" offset="290" length="4" wid="w57">name</wf>
+    <wf sent="3" para="2" offset="295" length="2" wid="w58">of</wf>
+    <wf sent="3" para="2" offset="298" length="3" wid="w59">the</wf>
+    <wf sent="3" para="2" offset="302" length="5" wid="w60">other</wf>
+    <wf sent="3" para="2" offset="308" length="6" wid="w61">person</wf>
+    <wf sent="3" para="2" offset="315" length="6" wid="w62">killed</wf>
+    <wf sent="3" para="2" offset="322" length="3" wid="w63">has</wf>
+    <wf sent="3" para="2" offset="326" length="3" wid="w64">not</wf>
+    <wf sent="3" para="2" offset="330" length="4" wid="w65">been</wf>
+    <wf sent="3" para="2" offset="335" length="8" wid="w66">released</wf>
+    <wf sent="3" para="2" offset="343" length="1" wid="w67">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t56">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--name-->
+    <term type="open" lemma="name" pos="N" morphofeat="NN" tid="t57">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t58">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t59">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--other-->
+    <term type="open" lemma="other" pos="G" morphofeat="JJ" tid="t60">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--person-->
+    <term type="open" lemma="person" pos="N" morphofeat="NN" tid="t61">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--killed-->
+    <term type="open" lemma="kill" pos="V" morphofeat="VBD" tid="t62">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t63">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t64">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--been-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBN" tid="t65">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--released-->
+    <term type="open" lemma="release" pos="V" morphofeat="VBN" tid="t66">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t67">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:23:28Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:23:28Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:47:17CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:23:48CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:45CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w90" sent="9" para="7" offset="574" length="3">Die</wf>
+    <wf wid="w91" sent="9" para="7" offset="578" length="2">EU</wf>
+    <wf wid="w92" sent="9" para="7" offset="580" length="1">·</wf>
+    <wf wid="w93" sent="9" para="7" offset="581" length="16">Außenbeauftragte</wf>
+    <wf wid="w94" sent="9" para="7" offset="598" length="9">Catherine</wf>
+    <wf wid="w95" sent="9" para="7" offset="608" length="6">Ashton</wf>
+    <wf wid="w96" sent="9" para="7" offset="615" length="3">und</wf>
+    <wf wid="w97" sent="9" para="7" offset="619" length="13">Außenminister</wf>
+    <wf wid="w98" sent="9" para="7" offset="633" length="5">Guido</wf>
+    <wf wid="w99" sent="9" para="7" offset="639" length="11">Westerwelle</wf>
+    <wf wid="w100" sent="9" para="7" offset="651" length="5">haben</wf>
+    <wf wid="w101" sent="9" para="7" offset="657" length="3">das</wf>
+    <wf wid="w102" sent="9" para="7" offset="661" length="13">amerikanische</wf>
+    <wf wid="w103" sent="9" para="7" offset="675" length="16">Gesprächsangebot</wf>
+    <wf wid="w104" sent="9" para="7" offset="692" length="2">an</wf>
+    <wf wid="w105" sent="9" para="7" offset="695" length="7">Teheran</wf>
+    <wf wid="w106" sent="9" para="7" offset="703" length="6">gelobt</wf>
+    <wf wid="w107" sent="9" para="7" offset="710" length="3">und</wf>
+    <wf wid="w108" sent="9" para="7" offset="714" length="3">das</wf>
+    <wf wid="w109" sent="9" para="7" offset="718" length="9">iranische</wf>
+    <wf wid="w110" sent="9" para="7" offset="728" length="6">Regime</wf>
+    <wf wid="w111" sent="9" para="7" offset="735" length="12">aufgefordert</wf>
+    <wf wid="w112" sent="9" para="7" offset="747" length="1">,</wf>
+    <wf wid="w113" sent="9" para="7" offset="749" length="3">die</wf>
+    <wf wid="w114" sent="9" para="7" offset="753" length="6">Chance</wf>
+    <wf wid="w115" sent="9" para="7" offset="760" length="2">zu</wf>
+    <wf wid="w116" sent="9" para="7" offset="763" length="6">nutzen</wf>
+    <wf wid="w117" sent="9" para="7" offset="769" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t90" type="close">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t91" type="open">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t92" type="open">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <term lemma="Außenbeauftragte" morphofeat="NN unknown_lemma" pos="O" tid="t93" type="open">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <term lemma="Catherine" morphofeat="NE" pos="R" tid="t94" type="open">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <term lemma="Ashton" morphofeat="NE" pos="R" tid="t95" type="open">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t96" type="close">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <term lemma="Außenminister" morphofeat="NN" pos="N" tid="t97" type="open">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <term lemma="Guido" morphofeat="NE" pos="R" tid="t98" type="open">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <term lemma="Westerwelle" morphofeat="NN unknown_lemma" pos="O" tid="t99" type="open">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t100" type="open">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t101" type="close">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <term lemma="amerikanisch" morphofeat="ADJA" pos="G" tid="t102" type="open">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <term lemma="Gesprächsangebot" morphofeat="NN" pos="N" tid="t103" type="open">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPR" pos="P" tid="t104" type="close">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <term lemma="Teheran" morphofeat="NE" pos="R" tid="t105" type="open">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <term lemma="geloben|loben" morphofeat="VVPP" pos="V" tid="t106" type="open">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t107" type="close">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t108" type="close">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <term lemma="iranisch" morphofeat="ADJA" pos="G" tid="t109" type="open">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <term lemma="Regime" morphofeat="NN" pos="N" tid="t110" type="open">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <term lemma="auffordern" morphofeat="VVPP" pos="V" tid="t111" type="open">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t112" type="open">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t113" type="close">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <term lemma="Chance" morphofeat="NN" pos="N" tid="t114" type="open">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="PTKZU" pos="O" tid="t115" type="open">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <term lemma="nutzen" morphofeat="VVINF" pos="V" tid="t116" type="open">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t117" type="open">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Die EU · Außenbeauftragte Catherine Ashton-->
+        <span>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--das amerikanische Gesprächsangebot-->
+        <span>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--gelobt-->
+        <span>
+          <target id="t106"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Außenminister Guido Westerwelle-->
+        <span>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--das amerikanische Gesprächsangebot-->
+        <span>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--gelobt-->
+        <span>
+          <target id="t106"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--die Chance-->
+        <span>
+          <target id="t113"/>
+          <target id="t114"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

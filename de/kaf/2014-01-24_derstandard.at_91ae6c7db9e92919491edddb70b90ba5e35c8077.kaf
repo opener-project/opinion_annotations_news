@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:00:46Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:00:46Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:05:46CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:01:07CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w320" sent="19" para="11" offset="1780" length="3">Vor</wf>
+    <wf wid="w321" sent="19" para="11" offset="1784" length="6">Draghi</wf>
+    <wf wid="w322" sent="19" para="11" offset="1791" length="3">und</wf>
+    <wf wid="w323" sent="19" para="11" offset="1795" length="8">Schäuble</wf>
+    <wf wid="w324" sent="19" para="11" offset="1804" length="5">hatte</wf>
+    <wf wid="w325" sent="19" para="11" offset="1810" length="3">der</wf>
+    <wf wid="w326" sent="19" para="11" offset="1814" length="9">britische</wf>
+    <wf wid="w327" sent="19" para="11" offset="1824" length="15">Premierminister</wf>
+    <wf wid="w328" sent="19" para="11" offset="1840" length="5">David</wf>
+    <wf wid="w329" sent="19" para="11" offset="1846" length="7">Cameron</wf>
+    <wf wid="w330" sent="19" para="11" offset="1854" length="4">mehr</wf>
+    <wf wid="w331" sent="19" para="11" offset="1859" length="11">Aktivitäten</wf>
+    <wf wid="w332" sent="19" para="11" offset="1871" length="3">von</wf>
+    <wf wid="w333" sent="19" para="11" offset="1875" length="3">der</wf>
+    <wf wid="w334" sent="19" para="11" offset="1879" length="12">Europäischen</wf>
+    <wf wid="w335" sent="19" para="11" offset="1892" length="5">Union</wf>
+    <wf wid="w336" sent="19" para="11" offset="1898" length="9">gefordert</wf>
+    <wf wid="w337" sent="19" para="11" offset="1907" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="vor" morphofeat="APPR" pos="P" tid="t320" type="close">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <term lemma="Draghi" morphofeat="NE unknown_lemma" pos="O" tid="t321" type="open">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t322" type="close">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <term lemma="Schäuble" morphofeat="NE" pos="R" tid="t323" type="open">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t324" type="open">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t325" type="close">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <term lemma="britisch" morphofeat="ADJA" pos="G" tid="t326" type="open">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <term lemma="Premierminister" morphofeat="NN" pos="N" tid="t327" type="open">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <term lemma="David" morphofeat="NE" pos="R" tid="t328" type="open">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <term lemma="Cameron" morphofeat="NE unknown_lemma" pos="O" tid="t329" type="open">
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+    <term lemma="mehr" morphofeat="PIAT" pos="Q" tid="t330" type="close">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <term lemma="Aktivität" morphofeat="NN" pos="N" tid="t331" type="open">
+      <span>
+        <target id="w331"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t332" type="close">
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t333" type="close">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <term lemma="europäisch" morphofeat="ADJA" pos="G" tid="t334" type="open">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <term lemma="Union" morphofeat="NN" pos="N" tid="t335" type="open">
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <term lemma="fordern" morphofeat="VVPP" pos="V" tid="t336" type="open">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t337" type="open">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--der britische Premierminister David Cameron-->
+        <span>
+          <target id="t325"/>
+          <target id="t326"/>
+          <target id="t327"/>
+          <target id="t328"/>
+          <target id="t329"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--mehr Aktivitäten-->
+        <span>
+          <target id="t330"/>
+          <target id="t331"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--gefordert-->
+        <span>
+          <target id="t336"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

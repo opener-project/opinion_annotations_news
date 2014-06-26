@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:21:41Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:21:41Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:46:25CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:22:21CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1062" sent="65" para="20" offset="6569" length="3">Das</wf>
+    <wf wid="w1063" sent="65" para="20" offset="6573" length="4">wäre</wf>
+    <wf wid="w1064" sent="65" para="20" offset="6578" length="4">doch</wf>
+    <wf wid="w1065" sent="65" para="20" offset="6583" length="3">mal</wf>
+    <wf wid="w1066" sent="65" para="20" offset="6587" length="4">eine</wf>
+    <wf wid="w1067" sent="65" para="20" offset="6592" length="10">innovative</wf>
+    <wf wid="w1068" sent="65" para="20" offset="6603" length="7">Antwort</wf>
+    <wf wid="w1069" sent="65" para="20" offset="6610" length="1">“</wf>
+    <wf wid="w1070" sent="65" para="20" offset="6611" length="1">,</wf>
+    <wf wid="w1071" sent="65" para="20" offset="6613" length="5">sagte</wf>
+    <wf wid="w1072" sent="65" para="20" offset="6619" length="3">der</wf>
+    <wf wid="w1073" sent="65" para="20" offset="6623" length="3">SPD</wf>
+    <wf wid="w1074" sent="65" para="20" offset="6626" length="1">·</wf>
+    <wf wid="w1075" sent="65" para="20" offset="6627" length="9">Politiker</wf>
+    <wf wid="w1076" sent="65" para="20" offset="6636" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="PDS" pos="Q" tid="t1062" type="close">
+      <span>
+        <target id="w1062"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t1063" type="open">
+      <span>
+        <target id="w1063"/>
+      </span>
+    </term>
+    <term lemma="doch" morphofeat="ADV" pos="A" tid="t1064" type="open">
+      <span>
+        <target id="w1064"/>
+      </span>
+    </term>
+    <term lemma="mal" morphofeat="ADV" pos="A" tid="t1065" type="open">
+      <span>
+        <target id="w1065"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t1066" type="close">
+      <span>
+        <target id="w1066"/>
+      </span>
+    </term>
+    <term lemma="innovativ" morphofeat="ADJA" pos="G" tid="t1067" type="open">
+      <span>
+        <target id="w1067"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Antwort" morphofeat="NN" pos="N" tid="t1068" type="open">
+      <span>
+        <target id="w1068"/>
+      </span>
+    </term>
+    <term lemma="“" morphofeat="ADJD unknown_lemma" pos="O" tid="t1069" type="open">
+      <span>
+        <target id="w1069"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t1070" type="open">
+      <span>
+        <target id="w1070"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t1071" type="open">
+      <span>
+        <target id="w1071"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t1072" type="close">
+      <span>
+        <target id="w1072"/>
+      </span>
+    </term>
+    <term lemma="SPD" morphofeat="NE" pos="R" tid="t1073" type="open">
+      <span>
+        <target id="w1073"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t1074" type="open">
+      <span>
+        <target id="w1074"/>
+      </span>
+    </term>
+    <term lemma="Politiker" morphofeat="NN" pos="N" tid="t1075" type="open">
+      <span>
+        <target id="w1075"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t1076" type="open">
+      <span>
+        <target id="w1076"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--der SPD · Politiker-->
+        <span>
+          <target id="t1072"/>
+          <target id="t1073"/>
+          <target id="t1074"/>
+          <target id="t1075"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Das-->
+        <span>
+          <target id="t1062"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--eine innovative Antwort-->
+        <span>
+          <target id="t1066"/>
+          <target id="t1067"/>
+          <target id="t1068"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--der SPD · Politiker-->
+        <span>
+          <target id="t1072"/>
+          <target id="t1073"/>
+          <target id="t1074"/>
+          <target id="t1075"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Das-->
+        <span>
+          <target id="t1062"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--sagte-->
+        <span>
+          <target id="t1071"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Antwort-->
+        <span>
+          <target id="t1068"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--innovative-->
+        <span>
+          <target id="t1067"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

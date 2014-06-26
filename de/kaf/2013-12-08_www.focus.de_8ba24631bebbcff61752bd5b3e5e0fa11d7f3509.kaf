@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:59:21Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:59:21Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:04:03CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:59:40CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w555" sent="29" para="13" offset="3286" length="5">Neben</wf>
+    <wf wid="w556" sent="29" para="13" offset="3292" length="3">den</wf>
+    <wf wid="w557" sent="29" para="13" offset="3296" length="4">Jung</wf>
+    <wf wid="w558" sent="29" para="13" offset="3300" length="1">·</wf>
+    <wf wid="w559" sent="29" para="13" offset="3301" length="10">Politikern</wf>
+    <wf wid="w560" sent="29" para="13" offset="3312" length="6">melden</wf>
+    <wf wid="w561" sent="29" para="13" offset="3319" length="4">auch</wf>
+    <wf wid="w562" sent="29" para="13" offset="3324" length="8">führende</wf>
+    <wf wid="w563" sent="29" para="13" offset="3333" length="20">Wirtschaftspolitiker</wf>
+    <wf wid="w564" sent="29" para="13" offset="3354" length="8">Bedenken</wf>
+    <wf wid="w565" sent="29" para="13" offset="3363" length="5">gegen</wf>
+    <wf wid="w566" sent="29" para="13" offset="3369" length="5">Teile</wf>
+    <wf wid="w567" sent="29" para="13" offset="3375" length="3">des</wf>
+    <wf wid="w568" sent="29" para="13" offset="3379" length="18">Koalitionsvertrags</wf>
+    <wf wid="w569" sent="29" para="13" offset="3398" length="2">an</wf>
+    <wf wid="w570" sent="29" para="13" offset="3400" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="neben" morphofeat="APPR" pos="P" tid="t555" type="close">
+      <span>
+        <target id="w555"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t556" type="close">
+      <span>
+        <target id="w556"/>
+      </span>
+    </term>
+    <term lemma="Jung" morphofeat="NE" pos="R" tid="t557" type="open">
+      <span>
+        <target id="w557"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t558" type="open">
+      <span>
+        <target id="w558"/>
+      </span>
+    </term>
+    <term lemma="Politiker" morphofeat="NN" pos="N" tid="t559" type="open">
+      <span>
+        <target id="w559"/>
+      </span>
+    </term>
+    <term lemma="melden" morphofeat="VVFIN" pos="V" tid="t560" type="open">
+      <span>
+        <target id="w560"/>
+      </span>
+    </term>
+    <term lemma="auch" morphofeat="ADV" pos="A" tid="t561" type="open">
+      <span>
+        <target id="w561"/>
+      </span>
+    </term>
+    <term lemma="führend" morphofeat="ADJA" pos="G" tid="t562" type="open">
+      <span>
+        <target id="w562"/>
+      </span>
+    </term>
+    <term lemma="Wirtschaftspolitiker" morphofeat="NN" pos="N" tid="t563" type="open">
+      <span>
+        <target id="w563"/>
+      </span>
+    </term>
+    <term lemma="Bedenken" morphofeat="NN" pos="N" tid="t564" type="open">
+      <span>
+        <target id="w564"/>
+      </span>
+    </term>
+    <term lemma="gegen" morphofeat="APPR" pos="P" tid="t565" type="close">
+      <span>
+        <target id="w565"/>
+      </span>
+    </term>
+    <term lemma="Teil" morphofeat="NN" pos="N" tid="t566" type="open">
+      <span>
+        <target id="w566"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t567" type="close">
+      <span>
+        <target id="w567"/>
+      </span>
+    </term>
+    <term lemma="Koalitionsvertrag" morphofeat="NN" pos="N" tid="t568" type="open">
+      <span>
+        <target id="w568"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="PTKVZ" pos="V" tid="t569" type="open">
+      <span>
+        <target id="w569"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t570" type="open">
+      <span>
+        <target id="w570"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--den Jung · Politikern-->
+        <span>
+          <target id="t556"/>
+          <target id="t557"/>
+          <target id="t558"/>
+          <target id="t559"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Teile des Koalitionsvertrags-->
+        <span>
+          <target id="t566"/>
+          <target id="t567"/>
+          <target id="t568"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--Bedenken gegen-->
+        <span>
+          <target id="t564"/>
+          <target id="t565"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Wirtschaftspolitiker-->
+        <span>
+          <target id="t563"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Teile des Koalitionsvertrags-->
+        <span>
+          <target id="t566"/>
+          <target id="t567"/>
+          <target id="t568"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--Bedenken gegen-->
+        <span>
+          <target id="t564"/>
+          <target id="t565"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

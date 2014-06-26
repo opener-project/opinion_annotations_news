@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:40Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:40Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:21:15" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:32:44CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="18" para="2" offset="2807" length="1" wid="w514">‘</wf>
+    <wf sent="18" para="2" offset="2808" length="3" wid="w515">The</wf>
+    <wf sent="18" para="2" offset="2812" length="7" wid="w516">bailout</wf>
+    <wf sent="18" para="2" offset="2820" length="4" wid="w517">deal</wf>
+    <wf sent="18" para="2" offset="2825" length="8" wid="w518">includes</wf>
+    <wf sent="18" para="2" offset="2834" length="10" wid="w519">unpleasant</wf>
+    <wf sent="18" para="2" offset="2845" length="8" wid="w520">measures</wf>
+    <wf sent="18" para="2" offset="2853" length="1" wid="w521">,</wf>
+    <wf sent="18" para="2" offset="2854" length="1" wid="w522">’</wf>
+    <wf sent="18" para="2" offset="2856" length="2" wid="w523">he</wf>
+    <wf sent="18" para="2" offset="2859" length="4" wid="w524">said</wf>
+    <wf sent="18" para="2" offset="2864" length="7" wid="w525">without</wf>
+    <wf sent="18" para="2" offset="2872" length="11" wid="w526">elaborating</wf>
+    <wf sent="18" para="2" offset="2883" length="1" wid="w527">.</wf>
+  </text>
+  <terms>
+    <!--‘-->
+    <term type="open" lemma="‘" pos="N" morphofeat="NN" tid="t514">
+      <span>
+        <target id="w514"/>
+      </span>
+    </term>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t515">
+      <span>
+        <target id="w515"/>
+      </span>
+    </term>
+    <!--bailout-->
+    <term type="open" lemma="bailout" pos="N" morphofeat="NN" tid="t516">
+      <span>
+        <target id="w516"/>
+      </span>
+    </term>
+    <!--deal-->
+    <term type="open" lemma="deal" pos="N" morphofeat="NN" tid="t517">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w517"/>
+      </span>
+    </term>
+    <!--includes-->
+    <term type="open" lemma="include" pos="V" morphofeat="VBZ" tid="t518">
+      <span>
+        <target id="w518"/>
+      </span>
+    </term>
+    <!--unpleasant-->
+    <term type="open" lemma="unpleasant" pos="G" morphofeat="JJ" tid="t519">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w519"/>
+      </span>
+    </term>
+    <!--measures-->
+    <term type="open" lemma="measure" pos="N" morphofeat="NNS" tid="t520">
+      <span>
+        <target id="w520"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t521">
+      <span>
+        <target id="w521"/>
+      </span>
+    </term>
+    <!--’-->
+    <term type="close" lemma="’" pos="C" morphofeat="CC" tid="t522">
+      <span>
+        <target id="w522"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t523">
+      <span>
+        <target id="w523"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t524">
+      <span>
+        <target id="w524"/>
+      </span>
+    </term>
+    <!--without-->
+    <term type="close" lemma="without" pos="P" morphofeat="IN" tid="t525">
+      <span>
+        <target id="w525"/>
+      </span>
+    </term>
+    <!--elaborating-->
+    <term type="open" lemma="elaborate" pos="V" morphofeat="VBG" tid="t526">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w526"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t527">
+      <span>
+        <target id="w527"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--measures-->
+        <span>
+          <target id="t520"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--unpleasant-->
+        <span>
+          <target id="t519"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

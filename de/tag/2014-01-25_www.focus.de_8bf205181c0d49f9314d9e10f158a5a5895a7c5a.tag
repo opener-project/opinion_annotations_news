@@ -1,0 +1,15 @@
+w102	Der	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	101	true	8
+w103	frühere	früh	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	102	true	8
+w104	Industriepräsident	Industriepräsident	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	103	true	8
+w105	Hans	Hans	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	104	true	8
+w106	·	·	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	105	true	8
+w107	Olaf	Olaf	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	106	true	8
+w108	Henkel	Henkel	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	107	true	8
+w109	wurde	werden	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	108	true	8
+w110	mit	mit	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	109	true	8
+w111	78	78	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	110	true	8
+w112	Prozent	Prozent	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	111	true	8
+w113	auf	auf	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	112	true	8
+w114	Listenplatz	Listenplatz	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	113	true	8
+w115	zwei	zwei	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	114	true	8
+w116	gewählt	wählen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	115	true	8

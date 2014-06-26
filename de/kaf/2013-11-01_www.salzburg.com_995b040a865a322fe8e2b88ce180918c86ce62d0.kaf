@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T11:47:11Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T11:47:11Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:04:50CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T12:47:31CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w408" sent="23" para="8" offset="2430" length="9">Friedrich</wf>
+    <wf wid="w409" sent="23" para="8" offset="2440" length="7">betonte</wf>
+    <wf wid="w410" sent="23" para="8" offset="2447" length="1">:</wf>
+    <wf wid="w411" sent="23" para="8" offset="2449" length="1">"</wf>
+    <wf wid="w412" sent="23" para="8" offset="2450" length="3">Wir</wf>
+    <wf wid="w413" sent="23" para="8" offset="2454" length="4">sind</wf>
+    <wf wid="w414" sent="23" para="8" offset="2459" length="7">dankbar</wf>
+    <wf wid="w415" sent="23" para="8" offset="2466" length="1">,</wf>
+    <wf wid="w416" sent="23" para="8" offset="2468" length="4">wenn</wf>
+    <wf wid="w417" sent="23" para="8" offset="2473" length="9">irgendwas</wf>
+    <wf wid="w418" sent="23" para="8" offset="2483" length="5">kommt</wf>
+    <wf wid="w419" sent="23" para="8" offset="2489" length="1">·</wf>
+    <wf wid="w420" sent="23" para="8" offset="2491" length="4">egal</wf>
+    <wf wid="w421" sent="23" para="8" offset="2495" length="1">,</wf>
+    <wf wid="w422" sent="23" para="8" offset="2497" length="2">ob</wf>
+    <wf wid="w423" sent="23" para="8" offset="2500" length="5">durch</wf>
+    <wf wid="w424" sent="23" para="8" offset="2506" length="5">Herrn</wf>
+    <wf wid="w425" sent="23" para="8" offset="2512" length="8">Ströbele</wf>
+    <wf wid="w426" sent="23" para="8" offset="2520" length="1">,</wf>
+    <wf wid="w427" sent="23" para="8" offset="2522" length="6">Briefe</wf>
+    <wf wid="w428" sent="23" para="8" offset="2529" length="4">oder</wf>
+    <wf wid="w429" sent="23" para="8" offset="2534" length="5">sonst</wf>
+    <wf wid="w430" sent="23" para="8" offset="2540" length="3">was</wf>
+    <wf wid="w431" sent="23" para="8" offset="2543" length="1">.</wf>
+    <wf wid="w432" sent="23" para="8" offset="2544" length="1">"</wf>
+  </text>
+  <terms>
+    <term lemma="Friedrich" morphofeat="NE" pos="R" tid="t408" type="open">
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+    <term lemma="betonen" morphofeat="VVFIN" pos="V" tid="t409" type="open">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <term lemma=":" morphofeat="$." pos="O" tid="t410" type="open">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t411" type="open">
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <term lemma="wir" morphofeat="PPER" pos="Q" tid="t412" type="close">
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t413" type="open">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+    <term lemma="dankbar" morphofeat="ADJD" pos="G" tid="t414" type="open">
+      <span>
+        <target id="w414"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t415" type="open">
+      <span>
+        <target id="w415"/>
+      </span>
+    </term>
+    <term lemma="wenn" morphofeat="KOUS" pos="C" tid="t416" type="close">
+      <span>
+        <target id="w416"/>
+      </span>
+    </term>
+    <term lemma="irgendwas" morphofeat="PIS" pos="Q" tid="t417" type="close">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <term lemma="kommen" morphofeat="VVFIN" pos="V" tid="t418" type="open">
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t419" type="open">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+    <term lemma="egal" morphofeat="ADJD" pos="G" tid="t420" type="open">
+      <span>
+        <target id="w420"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t421" type="open">
+      <span>
+        <target id="w421"/>
+      </span>
+    </term>
+    <term lemma="ob" morphofeat="KOUS" pos="C" tid="t422" type="close">
+      <span>
+        <target id="w422"/>
+      </span>
+    </term>
+    <term lemma="durch" morphofeat="APPR" pos="P" tid="t423" type="close">
+      <span>
+        <target id="w423"/>
+      </span>
+    </term>
+    <term lemma="Herr" morphofeat="NN" pos="N" tid="t424" type="open">
+      <span>
+        <target id="w424"/>
+      </span>
+    </term>
+    <term lemma="Ströbele" morphofeat="VVFIN unknown_lemma" pos="O" tid="t425" type="open">
+      <span>
+        <target id="w425"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t426" type="open">
+      <span>
+        <target id="w426"/>
+      </span>
+    </term>
+    <term lemma="Brief" morphofeat="NN" pos="N" tid="t427" type="open">
+      <span>
+        <target id="w427"/>
+      </span>
+    </term>
+    <term lemma="oder" morphofeat="KON" pos="C" tid="t428" type="close">
+      <span>
+        <target id="w428"/>
+      </span>
+    </term>
+    <term lemma="sonst" morphofeat="ADV" pos="A" tid="t429" type="open">
+      <span>
+        <target id="w429"/>
+      </span>
+    </term>
+    <term lemma="was" morphofeat="PIS" pos="Q" tid="t430" type="close">
+      <span>
+        <target id="w430"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t431" type="open">
+      <span>
+        <target id="w431"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t432" type="open">
+      <span>
+        <target id="w432"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Wir-->
+        <span>
+          <target id="t412"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--wenn irgendwas kommt-->
+        <span>
+          <target id="t416"/>
+          <target id="t417"/>
+          <target id="t418"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--sind dankbar-->
+        <span>
+          <target id="t413"/>
+          <target id="t414"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

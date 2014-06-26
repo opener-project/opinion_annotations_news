@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:37:28Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:37:28Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:14:15CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:37:46CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="9">Oettinger</wf>
+    <wf wid="w2" sent="1" para="1" offset="9" length="1">:</wf>
+    <wf wid="w3" sent="1" para="1" offset="11" length="2">EU</wf>
+    <wf wid="w4" sent="1" para="1" offset="14" length="3">ist</wf>
+    <wf wid="w5" sent="1" para="1" offset="18" length="1">"</wf>
+    <wf wid="w6" sent="1" para="1" offset="19" length="14">Sanierungsfall</wf>
+    <wf wid="w7" sent="1" para="1" offset="33" length="1">"</wf>
+    <wf wid="w255" sent="14" para="5" offset="1348" length="10">Frankreich</wf>
+    <wf wid="w256" sent="14" para="5" offset="1359" length="4">habe</wf>
+    <wf wid="w257" sent="14" para="5" offset="1364" length="4">eine</wf>
+    <wf wid="w258" sent="14" para="5" offset="1369" length="11">Staatsquote</wf>
+    <wf wid="w259" sent="14" para="5" offset="1381" length="3">von</wf>
+    <wf wid="w260" sent="14" para="5" offset="1385" length="2">57</wf>
+    <wf wid="w261" sent="14" para="5" offset="1388" length="7">Prozent</wf>
+    <wf wid="w262" sent="14" para="5" offset="1395" length="1">,</wf>
+    <wf wid="w263" sent="14" para="5" offset="1397" length="3">die</wf>
+    <wf wid="w264" sent="14" para="5" offset="1401" length="4">Zahl</wf>
+    <wf wid="w265" sent="14" para="5" offset="1406" length="3">der</wf>
+    <wf wid="w266" sent="14" para="5" offset="1410" length="12">Staatsdiener</wf>
+    <wf wid="w267" sent="14" para="5" offset="1423" length="3">sei</wf>
+    <wf wid="w268" sent="14" para="5" offset="1427" length="7">doppelt</wf>
+    <wf wid="w269" sent="14" para="5" offset="1435" length="2">so</wf>
+    <wf wid="w270" sent="14" para="5" offset="1438" length="4">hoch</wf>
+    <wf wid="w271" sent="14" para="5" offset="1443" length="3">wie</wf>
+    <wf wid="w272" sent="14" para="5" offset="1447" length="2">im</wf>
+    <wf wid="w273" sent="14" para="5" offset="1450" length="2">EU</wf>
+    <wf wid="w274" sent="14" para="5" offset="1452" length="1">·</wf>
+    <wf wid="w275" sent="14" para="5" offset="1453" length="7">Schnitt</wf>
+    <wf wid="w276" sent="14" para="5" offset="1460" length="1">.</wf>
+    <wf wid="w288" sent="16" para="5" offset="1518" length="7">Heftige</wf>
+    <wf wid="w289" sent="16" para="5" offset="1526" length="6">Kritik</wf>
+    <wf wid="w290" sent="16" para="5" offset="1533" length="4">übte</wf>
+    <wf wid="w291" sent="16" para="5" offset="1538" length="9">Oettinger</wf>
+    <wf wid="w292" sent="16" para="5" offset="1548" length="2">an</wf>
+    <wf wid="w293" sent="16" para="5" offset="1551" length="3">der</wf>
+    <wf wid="w294" sent="16" para="5" offset="1555" length="9">Situation</wf>
+    <wf wid="w295" sent="16" para="5" offset="1565" length="2">in</wf>
+    <wf wid="w296" sent="16" para="5" offset="1568" length="11">Deutschland</wf>
+    <wf wid="w297" sent="16" para="5" offset="1579" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Oettinger" morphofeat="NE" pos="R" tid="t1" type="open">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma=":" morphofeat="$." pos="O" tid="t2" type="open">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NE" pos="R" tid="t3" type="open">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t4" type="open">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t5" type="open">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="Sanierungsfall" morphofeat="NN" pos="N" tid="t6" type="open">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t7" type="open">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="Frankreich" morphofeat="NE" pos="R" tid="t255" type="open">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t256" type="open">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t257" type="close">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <term lemma="Staatsquote" morphofeat="NN" pos="N" tid="t258" type="open">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t259" type="close">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t260" type="open">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <term lemma="Prozent" morphofeat="NN" pos="N" tid="t261" type="open">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t262" type="open">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t263" type="close">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <term lemma="Zahl" morphofeat="NN" pos="N" tid="t264" type="open">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t265" type="close">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <term lemma="Staatsdiener" morphofeat="NN" pos="N" tid="t266" type="open">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t267" type="open">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <term lemma="doppelt" morphofeat="ADJD" pos="G" tid="t268" type="open">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <term lemma="so" morphofeat="ADV" pos="A" tid="t269" type="open">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <term lemma="hoch" morphofeat="ADJD" pos="G" tid="t270" type="open">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <term lemma="wie" morphofeat="KOKOM" pos="C" tid="t271" type="close">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t272" type="close">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t273" type="open">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t274" type="open">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <term lemma="Schnitt" morphofeat="NN" pos="N" tid="t275" type="open">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t276" type="open">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <term lemma="heftig" morphofeat="ADJA" pos="G" tid="t288" type="open">
+      <span>
+        <target id="w288"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Kritik" morphofeat="NN" pos="N" tid="t289" type="open">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <term lemma="üben" morphofeat="VVFIN" pos="V" tid="t290" type="open">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <term lemma="Oettinger" morphofeat="NE" pos="R" tid="t291" type="open">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPR" pos="P" tid="t292" type="close">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t293" type="close">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <term lemma="Situation" morphofeat="NN" pos="N" tid="t294" type="open">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t295" type="close">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <term lemma="Deutschland" morphofeat="NE" pos="R" tid="t296" type="open">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t297" type="open">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--Oettinger-->
+        <span>
+          <target id="t291"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--der Situation in Deutschland-->
+        <span>
+          <target id="t293"/>
+          <target id="t294"/>
+          <target id="t295"/>
+          <target id="t296"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--Heftige Kritik-->
+        <span>
+          <target id="t288"/>
+          <target id="t289"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Kritik-->
+        <span>
+          <target id="t289"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--Heftige-->
+        <span>
+          <target id="t288"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Oettinger-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--EU-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--Sanierungsfall-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t255"/>
+          <target id="t256"/>
+          <target id="t257"/>
+          <target id="t258"/>
+          <target id="t259"/>
+          <target id="t260"/>
+          <target id="t261"/>
+          <target id="t262"/>
+          <target id="t263"/>
+          <target id="t264"/>
+          <target id="t265"/>
+          <target id="t266"/>
+          <target id="t267"/>
+          <target id="t268"/>
+          <target id="t269"/>
+          <target id="t270"/>
+          <target id="t271"/>
+          <target id="t272"/>
+          <target id="t273"/>
+          <target id="t274"/>
+          <target id="t275"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

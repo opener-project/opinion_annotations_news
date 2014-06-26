@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:58:28Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:58:28Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:10:24CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:58:46CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w28" sent="4" para="2" offset="136" length="1">"</wf>
+    <wf wid="w29" sent="4" para="2" offset="137" length="3">Die</wf>
+    <wf wid="w30" sent="4" para="2" offset="141" length="10">Erinnerung</wf>
+    <wf wid="w31" sent="4" para="2" offset="152" length="2">an</wf>
+    <wf wid="w32" sent="4" para="2" offset="155" length="5">diese</wf>
+    <wf wid="w33" sent="4" para="2" offset="161" length="10">Schicksale</wf>
+    <wf wid="w34" sent="4" para="2" offset="172" length="7">erfüllt</wf>
+    <wf wid="w35" sent="4" para="2" offset="180" length="4">mich</wf>
+    <wf wid="w36" sent="4" para="2" offset="185" length="3">mit</wf>
+    <wf wid="w37" sent="4" para="2" offset="189" length="6">tiefer</wf>
+    <wf wid="w38" sent="4" para="2" offset="196" length="6">Trauer</wf>
+    <wf wid="w39" sent="4" para="2" offset="203" length="3">und</wf>
+    <wf wid="w40" sent="4" para="2" offset="207" length="5">Scham</wf>
+    <wf wid="w41" sent="4" para="2" offset="212" length="1">.</wf>
+    <wf wid="w42" sent="4" para="2" offset="213" length="1">"</wf>
+  </text>
+  <terms>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t28" type="open">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t29" type="close">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="Erinnerung" morphofeat="NN" pos="N" tid="t30" type="open">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPR" pos="P" tid="t31" type="close">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="dies" morphofeat="PDAT" pos="Q" tid="t32" type="close">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="Schicksal" morphofeat="NN" pos="N" tid="t33" type="open">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="erfüllen" morphofeat="VVFIN" pos="V" tid="t34" type="open">
+      <span>
+        <target id="w34"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="ich" morphofeat="PRF" pos="Q" tid="t35" type="close">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t36" type="close">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="tief" morphofeat="ADJA" pos="G" tid="t37" type="open">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="Trauer" morphofeat="NN" pos="N" tid="t38" type="open">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t39" type="close">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="Scham" morphofeat="NN" pos="N" tid="t40" type="open">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t41" type="open">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t42" type="open">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--mich-->
+        <span>
+          <target id="t35"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Die Erinnerung-->
+        <span>
+          <target id="t29"/>
+          <target id="t30"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--tiefer Trauer und Scham-->
+        <span>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

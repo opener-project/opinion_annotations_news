@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:58Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:58Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:04:03" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:19:34CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:53CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="461" length="6" wid="w87">Labour</wf>
+    <wf sent="5" para="2" offset="468" length="7" wid="w88">pledged</wf>
+    <wf sent="5" para="2" offset="476" length="3" wid="w89">its</wf>
+    <wf sent="5" para="2" offset="480" length="4" wid="w90">full</wf>
+    <wf sent="5" para="2" offset="485" length="7" wid="w91">support</wf>
+    <wf sent="5" para="2" offset="493" length="2" wid="w92">as</wf>
+    <wf sent="5" para="2" offset="496" length="3" wid="w93">the</wf>
+    <wf sent="5" para="2" offset="500" length="10" wid="w94">government</wf>
+    <wf sent="5" para="2" offset="511" length="5" wid="w95">tried</wf>
+    <wf sent="5" para="2" offset="517" length="2" wid="w96">to</wf>
+    <wf sent="5" para="2" offset="520" length="7" wid="w97">resolve</wf>
+    <wf sent="5" para="2" offset="528" length="3" wid="w98">the</wf>
+    <wf sent="5" para="2" offset="532" length="6" wid="w99">crisis</wf>
+    <wf sent="5" para="2" offset="538" length="1" wid="w100">.</wf>
+  </text>
+  <terms>
+    <!--Labour-->
+    <term type="close" lemma="labour" pos="Q" morphofeat="PRP$" tid="t87">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--pledged-->
+    <term type="open" lemma="pledge" pos="V" morphofeat="VBN" tid="t88">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--its-->
+    <term type="close" lemma="its" pos="Q" morphofeat="PRP$" tid="t89">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--full-->
+    <term type="open" lemma="full" pos="G" morphofeat="JJ" tid="t90">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--support-->
+    <term type="open" lemma="support" pos="N" morphofeat="NN" tid="t91">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t92">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t93">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--government-->
+    <term type="open" lemma="government" pos="N" morphofeat="NN" tid="t94">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--tried-->
+    <term type="open" lemma="try" pos="V" morphofeat="VBD" tid="t95">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t96">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--resolve-->
+    <term type="open" lemma="resolve" pos="V" morphofeat="VB" tid="t97">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t98">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--crisis-->
+    <term type="open" lemma="crisis" pos="N" morphofeat="NN" tid="t99">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t100">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--the crisis-->
+        <span>
+          <target id="t98"/>
+          <target id="t99"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--to resolve-->
+        <span>
+          <target id="t96"/>
+          <target id="t97"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--the government-->
+        <span>
+          <target id="t93"/>
+          <target id="t94"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--to resolve-->
+        <span>
+          <target id="t96"/>
+          <target id="t97"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--tried-->
+        <span>
+          <target id="t95"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Labour-->
+        <span>
+          <target id="t87"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--its full support-->
+        <span>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--pledged-->
+        <span>
+          <target id="t88"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

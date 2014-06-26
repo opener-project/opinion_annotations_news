@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:58:20" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:17:29CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="6" para="2" offset="668" length="2" wid="w124">Ms</wf>
+    <wf sent="6" para="2" offset="671" length="6" wid="w125">Merkel</wf>
+    <wf sent="6" para="2" offset="678" length="7" wid="w126">branded</wf>
+    <wf sent="6" para="2" offset="686" length="3" wid="w127">the</wf>
+    <wf sent="6" para="2" offset="690" length="6" wid="w128">claims</wf>
+    <wf sent="6" para="2" offset="697" length="1" wid="w129">"</wf>
+    <wf sent="6" para="2" offset="698" length="12" wid="w130">unacceptable</wf>
+    <wf sent="6" para="2" offset="710" length="1" wid="w131">"</wf>
+    <wf sent="6" para="2" offset="712" length="3" wid="w132">and</wf>
+    <wf sent="6" para="2" offset="716" length="4" wid="w133">said</wf>
+    <wf sent="6" para="2" offset="721" length="2" wid="w134">it</wf>
+    <wf sent="6" para="2" offset="724" length="3" wid="w135">was</wf>
+    <wf sent="6" para="2" offset="728" length="1" wid="w136">"</wf>
+    <wf sent="6" para="2" offset="729" length="6" wid="w137">really</wf>
+    <wf sent="6" para="2" offset="736" length="3" wid="w138">not</wf>
+    <wf sent="6" para="2" offset="740" length="2" wid="w139">on</wf>
+    <wf sent="6" para="2" offset="742" length="1" wid="w140">"</wf>
+    <wf sent="6" para="2" offset="744" length="3" wid="w141">for</wf>
+    <wf sent="6" para="2" offset="748" length="1" wid="w142">"</wf>
+    <wf sent="6" para="2" offset="749" length="7" wid="w143">friends</wf>
+    <wf sent="6" para="2" offset="757" length="2" wid="w144">to</wf>
+    <wf sent="6" para="2" offset="760" length="3" wid="w145">spy</wf>
+    <wf sent="6" para="2" offset="764" length="2" wid="w146">on</wf>
+    <wf sent="6" para="2" offset="767" length="4" wid="w147">each</wf>
+    <wf sent="6" para="2" offset="772" length="5" wid="w148">other</wf>
+    <wf sent="6" para="2" offset="777" length="1" wid="w149">"</wf>
+    <wf sent="6" para="2" offset="778" length="1" wid="w150">.</wf>
+  </text>
+  <terms>
+    <!--Ms-->
+    <term type="open" lemma="ms" pos="N" morphofeat="NNS" tid="t124">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t125">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--branded-->
+    <term type="open" lemma="brand" pos="V" morphofeat="VBD" tid="t126">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t127">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--claims-->
+    <term type="open" lemma="claim" pos="N" morphofeat="NNS" tid="t128">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="V" morphofeat="VBP" tid="t129">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--unacceptable-->
+    <term type="open" lemma="unacceptable" pos="G" morphofeat="JJ" tid="t130">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NNS" tid="t131">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t132">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t133">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t134">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t135">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="G" morphofeat="JJ" tid="t136">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--really-->
+    <term type="open" lemma="really" pos="A" morphofeat="RB" tid="t137">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t138">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t139">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t140">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t141">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="G" morphofeat="JJ" tid="t142">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--friends-->
+    <term type="open" lemma="friend" pos="N" morphofeat="NNS" tid="t143">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t144">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--spy-->
+    <term type="open" lemma="spy" pos="V" morphofeat="VB" tid="t145">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t146">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--each-->
+    <term type="close" lemma="each" pos="D" morphofeat="DT" tid="t147">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--other-->
+    <term type="open" lemma="other" pos="G" morphofeat="JJ" tid="t148">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t149">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t150">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--friends-->
+        <span>
+          <target id="t143"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Ms Merkel-->
+        <span>
+          <target id="t124"/>
+          <target id="t125"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--friends to spy on each other-->
+        <span>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+          <target id="t148"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--really not on-->
+        <span>
+          <target id="t137"/>
+          <target id="t138"/>
+          <target id="t139"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

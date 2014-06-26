@@ -1,0 +1,16 @@
+w218	In	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	217	true	17
+w219	1979	@card@	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	218	true	17
+w220	wint	winnen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	219	true	17
+w221	ze	ze	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	220	true	17
+w222	als	als	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	221	true	17
+w223	eerste	een	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	222	true	17
+w224	en	en	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	223	true	17
+w225	enige	enig	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	224	true	17
+w226	vrouw	vrouw	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	225	true	17
+w227	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	226	true	17
+w228	de	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	227	true	17
+w229	Britse	Brits	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	228	true	17
+w230	geschiedenis	geschiedenis	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	229	true	17
+w231	de	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	230	true	17
+w232	verkiezingen	verkiezing	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	231	true	17
+w233	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	232	true	17

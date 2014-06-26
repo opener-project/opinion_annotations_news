@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:51Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:51Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:57:44CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w63" sent="4" para="2" offset="366" length="6">Merkel</wf>
+    <wf wid="w64" sent="4" para="2" offset="373" length="3">zei</wf>
+    <wf wid="w65" sent="4" para="2" offset="377" length="3">dat</wf>
+    <wf wid="w66" sent="4" para="2" offset="381" length="2">de</wf>
+    <wf wid="w67" sent="4" para="2" offset="384" length="6">Duitse</wf>
+    <wf wid="w68" sent="4" para="2" offset="391" length="8">economie</wf>
+    <wf wid="w69" sent="4" para="2" offset="400" length="5">sterk</wf>
+    <wf wid="w70" sent="4" para="2" offset="406" length="6">genoeg</wf>
+    <wf wid="w71" sent="4" para="2" offset="413" length="2">is</wf>
+    <wf wid="w72" sent="4" para="2" offset="416" length="2">om</wf>
+    <wf wid="w73" sent="4" para="2" offset="419" length="2">in</wf>
+    <wf wid="w74" sent="4" para="2" offset="422" length="3">het</wf>
+    <wf wid="w75" sent="4" para="2" offset="426" length="6">belang</wf>
+    <wf wid="w76" sent="4" para="2" offset="433" length="3">van</wf>
+    <wf wid="w77" sent="4" para="2" offset="437" length="6">Europa</wf>
+    <wf wid="w78" sent="4" para="2" offset="444" length="10">financiële</wf>
+    <wf wid="w79" sent="4" para="2" offset="455" length="6">lasten</wf>
+    <wf wid="w80" sent="4" para="2" offset="462" length="2">te</wf>
+    <wf wid="w81" sent="4" para="2" offset="465" length="6">dragen</wf>
+    <wf wid="w82" sent="4" para="2" offset="471" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t63" type="open" lemma="Merkel" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--zei-->
+    <term tid="t64" type="open" lemma="zeggen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t65" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t66" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t67" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--economie-->
+    <term tid="t68" type="open" lemma="economie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w68"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--sterk-->
+    <term tid="t69" type="open" lemma="sterk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w69"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--genoeg-->
+    <term tid="t70" type="open" lemma="genoeg" pos="A" morphofeat="adv">
+      <span>
+        <target id="w70"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--is-->
+    <term tid="t71" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t72" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t73" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t74" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--belang-->
+    <term tid="t75" type="open" lemma="belang" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w75"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--van-->
+    <term tid="t76" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t77" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--financiële-->
+    <term tid="t78" type="open" lemma="financieel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--lasten-->
+    <term tid="t79" type="open" lemma="last" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w79"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--te-->
+    <term tid="t80" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--dragen-->
+    <term tid="t81" type="open" lemma="dragen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w81"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t82" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t63"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de Duitse economie-->
+        <span>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--sterk genoeg-->
+        <span>
+          <target id="t69"/>
+          <target id="t70"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--lasten-->
+        <span>
+          <target id="t79"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

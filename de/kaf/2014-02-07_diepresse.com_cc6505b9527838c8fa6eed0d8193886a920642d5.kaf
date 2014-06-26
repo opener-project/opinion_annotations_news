@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:03:29Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:03:29Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:51:05CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:03:51CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w67" sent="8" para="6" offset="321" length="3">Der</wf>
+    <wf wid="w68" sent="8" para="6" offset="325" length="17">Delegationsleiter</wf>
+    <wf wid="w69" sent="8" para="6" offset="343" length="3">der</wf>
+    <wf wid="w70" sent="8" para="6" offset="347" length="3">SPÖ</wf>
+    <wf wid="w71" sent="8" para="6" offset="350" length="1">·</wf>
+    <wf wid="w72" sent="8" para="6" offset="351" length="12">Abgeordneten</wf>
+    <wf wid="w73" sent="8" para="6" offset="364" length="2">im</wf>
+    <wf wid="w74" sent="8" para="6" offset="367" length="2">EU</wf>
+    <wf wid="w75" sent="8" para="6" offset="369" length="1">·</wf>
+    <wf wid="w76" sent="8" para="6" offset="370" length="9">Parlament</wf>
+    <wf wid="w77" sent="8" para="6" offset="379" length="1">,</wf>
+    <wf wid="w78" sent="8" para="6" offset="381" length="4">Jörg</wf>
+    <wf wid="w79" sent="8" para="6" offset="386" length="11">Leichtfried</wf>
+    <wf wid="w80" sent="8" para="6" offset="397" length="1">,</wf>
+    <wf wid="w81" sent="8" para="6" offset="399" length="8">forderte</wf>
+    <wf wid="w82" sent="8" para="6" offset="408" length="2">am</wf>
+    <wf wid="w83" sent="8" para="6" offset="411" length="7">Freitag</wf>
+    <wf wid="w84" sent="8" para="6" offset="419" length="5">sogar</wf>
+    <wf wid="w85" sent="8" para="6" offset="425" length="3">den</wf>
+    <wf wid="w86" sent="8" para="6" offset="429" length="9">Rücktritt</wf>
+    <wf wid="w87" sent="8" para="6" offset="439" length="3">von</wf>
+    <wf wid="w88" sent="8" para="6" offset="443" length="6">Nuland</wf>
+    <wf wid="w89" sent="8" para="6" offset="449" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t67" type="close">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <term lemma="Delegationsleiter" morphofeat="NN" pos="N" tid="t68" type="open">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t69" type="close">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <term lemma="SPÖ" morphofeat="NN unknown_lemma" pos="O" tid="t70" type="open">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t71" type="open">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <term lemma="Abgeordnete" morphofeat="NN" pos="N" tid="t72" type="open">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t73" type="close">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t74" type="open">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t75" type="open">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <term lemma="Parlament" morphofeat="NN" pos="N" tid="t76" type="open">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t77" type="open">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <term lemma="Jörg" morphofeat="NE" pos="R" tid="t78" type="open">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <term lemma="Leichtfried" morphofeat="NE unknown_lemma" pos="O" tid="t79" type="open">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t80" type="open">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <term lemma="fordern" morphofeat="VVFIN" pos="V" tid="t81" type="open">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t82" type="close">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <term lemma="Freitag" morphofeat="NN" pos="N" tid="t83" type="open">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <term lemma="sogar" morphofeat="ADV" pos="A" tid="t84" type="open">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t85" type="close">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term lemma="Rücktritt" morphofeat="NN" pos="N" tid="t86" type="open">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t87" type="close">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <term lemma="Nuland" morphofeat="NN unknown_lemma" pos="O" tid="t88" type="open">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t89" type="open">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Jörg Leichtfried-->
+        <span>
+          <target id="t78"/>
+          <target id="t79"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--den Rücktritt von Nuland-->
+        <span>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--forderte-->
+        <span>
+          <target id="t81"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

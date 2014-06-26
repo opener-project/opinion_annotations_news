@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:45:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:45:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:45:00Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:14:38CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:13CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w73" sent="11" para="10" offset="385" length="2">La</wf>
+    <wf wid="w74" sent="11" para="10" offset="388" length="5">reine</wf>
+    <wf wid="w75" sent="11" para="10" offset="394" length="9">Elisabeth</wf>
+    <wf wid="w76" sent="11" para="10" offset="404" length="2">II</wf>
+    <wf wid="w77" sent="11" para="10" offset="407" length="4">fera</wf>
+    <wf wid="w78" sent="11" para="10" offset="412" length="2">le</wf>
+    <wf wid="w79" sent="11" para="10" offset="415" length="11">déplacement</wf>
+    <wf wid="w80" sent="11" para="10" offset="427" length="2">en</wf>
+    <wf wid="w81" sent="11" para="10" offset="430" length="9">compagnie</wf>
+    <wf wid="w82" sent="11" para="10" offset="440" length="2">de</wf>
+    <wf wid="w83" sent="11" para="10" offset="443" length="3">son</wf>
+    <wf wid="w84" sent="11" para="10" offset="447" length="5">époux</wf>
+    <wf wid="w85" sent="11" para="10" offset="452" length="1">.</wf>
+    <wf wid="w86" sent="12" para="10" offset="454" length="2">Le</wf>
+    <wf wid="w87" sent="12" para="10" offset="457" length="4">coût</wf>
+    <wf wid="w88" sent="12" para="10" offset="462" length="2">de</wf>
+    <wf wid="w89" sent="12" para="10" offset="465" length="3">ses</wf>
+    <wf wid="w90" sent="12" para="10" offset="469" length="8">obsèques</wf>
+    <wf wid="w91" sent="12" para="10" offset="478" length="1">·</wf>
+    <wf wid="w92" sent="12" para="10" offset="480" length="9">notamment</wf>
+    <wf wid="w93" sent="12" para="10" offset="490" length="4">pour</wf>
+    <wf wid="w94" sent="12" para="10" offset="495" length="6">éviter</wf>
+    <wf wid="w95" sent="12" para="10" offset="502" length="5">toute</wf>
+    <wf wid="w96" sent="12" para="10" offset="508" length="12">perturbation</wf>
+    <wf wid="w97" sent="12" para="10" offset="521" length="1">·</wf>
+    <wf wid="w98" sent="12" para="10" offset="523" length="4">fait</wf>
+    <wf wid="w99" sent="12" para="10" offset="528" length="9">polémique</wf>
+    <wf wid="w100" sent="12" para="10" offset="537" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t73" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--reine-->
+    <term tid="t74" type="open" lemma="reine" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--Elisabeth-->
+    <term tid="t75" type="open" lemma="Elisabeth" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--II-->
+    <term tid="t76" type="open" lemma="II" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--fera-->
+    <term tid="t77" type="open" lemma="faire" pos="V" morphofeat="VF3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t78" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--déplacement-->
+    <term tid="t79" type="open" lemma="déplacement" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t80" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--compagnie-->
+    <term tid="t81" type="open" lemma="compagnie" pos="N" morphofeat="N">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t82" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--son-->
+    <term tid="t83" type="close" lemma="son" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--époux-->
+    <term tid="t84" type="open" lemma="époux" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t85" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--Le-->
+    <term tid="t86" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--coût-->
+    <term tid="t87" type="open" lemma="coût" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t88" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--ses-->
+    <term tid="t89" type="close" lemma="son" pos="D" morphofeat="Dmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--obsèques-->
+    <term tid="t90" type="open" lemma="obsèque" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--·-->
+    <term tid="t91" type="open" lemma="·" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--notamment-->
+    <term tid="t92" type="open" lemma="notamment" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t93" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--éviter-->
+    <term tid="t94" type="open" lemma="éviter" pos="V" morphofeat="VW">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--toute-->
+    <term tid="t95" type="close" lemma="tout" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral" sentiment_modifier="intensifier"/>
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--perturbation-->
+    <term tid="t96" type="open" lemma="perturbation" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--·-->
+    <term tid="t97" type="close" lemma="·" pos="P" morphofeat="P">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--fait-->
+    <term tid="t98" type="open" lemma="fait" pos="N" morphofeat="N">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--polémique-->
+    <term tid="t99" type="open" lemma="polémique" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t100" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Le coût de ses obsèques-->
+        <span>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--fait polémique-->
+        <span>
+          <target id="t98"/>
+          <target id="t99"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+          <target id="t79"/>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

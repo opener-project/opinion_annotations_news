@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:08:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:08:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:45:03" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:25:47CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="21" para="2" offset="3184" length="3" wid="w585">His</wf>
+    <wf sent="21" para="2" offset="3188" length="9" wid="w586">colleague</wf>
+    <wf sent="21" para="2" offset="3198" length="11" wid="w587">Klaus-Peter</wf>
+    <wf sent="21" para="2" offset="3210" length="7" wid="w588">Willsch</wf>
+    <wf sent="21" para="2" offset="3218" length="5" wid="w589">added</wf>
+    <wf sent="21" para="2" offset="3223" length="1" wid="w590">:</wf>
+    <wf sent="21" para="2" offset="3225" length="1" wid="w591">"</wf>
+    <wf sent="21" para="2" offset="3226" length="4" wid="w592">Such</wf>
+    <wf sent="21" para="2" offset="3231" length="1" wid="w593">a</wf>
+    <wf sent="21" para="2" offset="3233" length="5" wid="w594">party</wf>
+    <wf sent="21" para="2" offset="3239" length="2" wid="w595">is</wf>
+    <wf sent="21" para="2" offset="3242" length="9" wid="w596">dangerous</wf>
+    <wf sent="21" para="2" offset="3252" length="3" wid="w597">for</wf>
+    <wf sent="21" para="2" offset="3256" length="2" wid="w598">us</wf>
+    <wf sent="21" para="2" offset="3258" length="1" wid="w599">.</wf>
+  </text>
+  <terms>
+    <!--His-->
+    <term type="close" lemma="his" pos="Q" morphofeat="PRP$" tid="t585">
+      <span>
+        <target id="w585"/>
+      </span>
+    </term>
+    <!--colleague-->
+    <term type="open" lemma="colleague" pos="N" morphofeat="NN" tid="t586">
+      <span>
+        <target id="w586"/>
+      </span>
+    </term>
+    <!--Klaus-Peter-->
+    <term type="close" lemma="Klaus-Peter" pos="R" morphofeat="NNP" tid="t587">
+      <span>
+        <target id="w587"/>
+      </span>
+    </term>
+    <!--Willsch-->
+    <term type="close" lemma="Willsch" pos="R" morphofeat="NNP" tid="t588">
+      <span>
+        <target id="w588"/>
+      </span>
+    </term>
+    <!--added-->
+    <term type="open" lemma="add" pos="V" morphofeat="VBD" tid="t589">
+      <span>
+        <target id="w589"/>
+      </span>
+    </term>
+    <!--:-->
+    <term type="close" lemma=":" pos="O" morphofeat=":" tid="t590">
+      <span>
+        <target id="w590"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t591">
+      <span>
+        <target id="w591"/>
+      </span>
+    </term>
+    <!--Such-->
+    <term type="close" lemma="such" pos="D" morphofeat="PDT" tid="t592">
+      <span>
+        <target id="w592"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t593">
+      <span>
+        <target id="w593"/>
+      </span>
+    </term>
+    <!--party-->
+    <term type="open" lemma="party" pos="N" morphofeat="NN" tid="t594">
+      <span>
+        <target id="w594"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t595">
+      <span>
+        <target id="w595"/>
+      </span>
+    </term>
+    <!--dangerous-->
+    <term type="open" lemma="dangerous" pos="G" morphofeat="JJ" tid="t596">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w596"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t597">
+      <span>
+        <target id="w597"/>
+      </span>
+    </term>
+    <!--us-->
+    <term type="close" lemma="us" pos="Q" morphofeat="PRP" tid="t598">
+      <span>
+        <target id="w598"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t599">
+      <span>
+        <target id="w599"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--for us-->
+        <span>
+          <target id="t597"/>
+          <target id="t598"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Such a party-->
+        <span>
+          <target id="t592"/>
+          <target id="t593"/>
+          <target id="t594"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--dangerous-->
+        <span>
+          <target id="t596"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,13 @@
+w171	Die	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	170	true	14
+w172	Obergrenze	Obergrenze	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	171	true	14
+w173	für	für	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	172	true	14
+w174	die	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	173	true	14
+w175	sieben	sieben	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	174	true	14
+w176	Jahre	Jahr	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	175	true	14
+w177	bis	bis	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	176	true	14
+w178	2020	2020	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	177	true	14
+w179	soll	sollen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	178	true	14
+w180	960	@card@	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	179	true	14
+w181	Milliarden	Milliarde	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	180	true	14
+w182	Euro	Euro	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	181	true	14
+w183	betragen	betragen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	182	true	14

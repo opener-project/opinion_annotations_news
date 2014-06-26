@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:58:59" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:57:46CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="431" length="5" wid="w74">After</wf>
+    <wf sent="5" para="2" offset="437" length="7" wid="w75">hearing</wf>
+    <wf sent="5" para="2" offset="445" length="3" wid="w76">the</wf>
+    <wf sent="5" para="2" offset="449" length="4" wid="w77">news</wf>
+    <wf sent="5" para="2" offset="454" length="2" wid="w78">in</wf>
+    <wf sent="5" para="2" offset="457" length="3" wid="w79">his</wf>
+    <wf sent="5" para="2" offset="461" length="9" wid="w80">political</wf>
+    <wf sent="5" para="2" offset="471" length="5" wid="w81">power</wf>
+    <wf sent="5" para="2" offset="477" length="4" wid="w82">base</wf>
+    <wf sent="5" para="2" offset="482" length="2" wid="w83">of</wf>
+    <wf sent="5" para="2" offset="485" length="5" wid="w84">Tulle</wf>
+    <wf sent="5" para="2" offset="490" length="1" wid="w85">,</wf>
+    <wf sent="5" para="2" offset="492" length="2" wid="w86">Mr</wf>
+    <wf sent="5" para="2" offset="495" length="8" wid="w87">Hollande</wf>
+    <wf sent="5" para="2" offset="504" length="9" wid="w88">travelled</wf>
+    <wf sent="5" para="2" offset="514" length="2" wid="w89">to</wf>
+    <wf sent="5" para="2" offset="517" length="5" wid="w90">Paris</wf>
+    <wf sent="5" para="2" offset="523" length="2" wid="w91">to</wf>
+    <wf sent="5" para="2" offset="526" length="7" wid="w92">address</wf>
+    <wf sent="5" para="2" offset="534" length="3" wid="w93">his</wf>
+    <wf sent="5" para="2" offset="538" length="10" wid="w94">supporters</wf>
+    <wf sent="5" para="2" offset="549" length="2" wid="w95">in</wf>
+    <wf sent="5" para="2" offset="552" length="3" wid="w96">the</wf>
+    <wf sent="5" para="2" offset="556" length="8" wid="w97">symbolic</wf>
+    <wf sent="5" para="2" offset="565" length="5" wid="w98">heart</wf>
+    <wf sent="5" para="2" offset="571" length="2" wid="w99">of</wf>
+    <wf sent="5" para="2" offset="574" length="13" wid="w100">revolutionary</wf>
+    <wf sent="5" para="2" offset="588" length="6" wid="w101">France</wf>
+    <wf sent="5" para="2" offset="594" length="1" wid="w102">.</wf>
+  </text>
+  <terms>
+    <!--After-->
+    <term type="close" lemma="after" pos="P" morphofeat="IN" tid="t74">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--hearing-->
+    <term type="open" lemma="hear" pos="V" morphofeat="VBG" tid="t75">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t76">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--news-->
+    <term type="open" lemma="news" pos="N" morphofeat="NN" tid="t77">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t78">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--his-->
+    <term type="close" lemma="his" pos="Q" morphofeat="PRP$" tid="t79">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--political-->
+    <term type="open" lemma="political" pos="G" morphofeat="JJ" tid="t80">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--power-->
+    <term type="open" lemma="power" pos="N" morphofeat="NN" tid="t81">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--base-->
+    <term type="open" lemma="base" pos="N" morphofeat="NN" tid="t82">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t83">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--Tulle-->
+    <term type="close" lemma="Tulle" pos="R" morphofeat="NNP" tid="t84">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t85">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t86">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term type="close" lemma="Hollande" pos="R" morphofeat="NNP" tid="t87">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--travelled-->
+    <term type="open" lemma="travel" pos="V" morphofeat="VBD" tid="t88">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t89">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--Paris-->
+    <term type="close" lemma="Paris" pos="R" morphofeat="NNP" tid="t90">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t91">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--address-->
+    <term type="open" lemma="address" pos="V" morphofeat="VB" tid="t92">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--his-->
+    <term type="close" lemma="his" pos="Q" morphofeat="PRP$" tid="t93">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--supporters-->
+    <term type="open" lemma="supporter" pos="N" morphofeat="NNS" tid="t94">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t95">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t96">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--symbolic-->
+    <term type="open" lemma="symbolic" pos="G" morphofeat="JJ" tid="t97">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--heart-->
+    <term type="open" lemma="heart" pos="N" morphofeat="NN" tid="t98">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t99">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--revolutionary-->
+    <term type="open" lemma="revolutionary" pos="G" morphofeat="JJ" tid="t100">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--France-->
+    <term type="close" lemma="France" pos="R" morphofeat="NNP" tid="t101">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t102">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t74"/>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+          <target id="t79"/>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

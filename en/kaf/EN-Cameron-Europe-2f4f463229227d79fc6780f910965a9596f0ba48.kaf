@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:29Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:29Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:06:20" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:57:24CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="7" para="2" offset="973" length="9" wid="w176">Answering</wf>
+    <wf sent="7" para="2" offset="983" length="9" wid="w177">questions</wf>
+    <wf sent="7" para="2" offset="993" length="6" wid="w178">during</wf>
+    <wf sent="7" para="2" offset="1000" length="1" wid="w179">a</wf>
+    <wf sent="7" para="2" offset="1002" length="5" wid="w180">visit</wf>
+    <wf sent="7" para="2" offset="1008" length="2" wid="w181">to</wf>
+    <wf sent="7" para="2" offset="1011" length="7" wid="w182">Glasgow</wf>
+    <wf sent="7" para="2" offset="1018" length="1" wid="w183">,</wf>
+    <wf sent="7" para="2" offset="1020" length="2" wid="w184">Mr</wf>
+    <wf sent="7" para="2" offset="1023" length="7" wid="w185">Cameron</wf>
+    <wf sent="7" para="2" offset="1031" length="4" wid="w186">said</wf>
+    <wf sent="7" para="2" offset="1036" length="2" wid="w187">he</wf>
+    <wf sent="7" para="2" offset="1039" length="3" wid="w188">was</wf>
+    <wf sent="7" para="2" offset="1043" length="1" wid="w189">"</wf>
+    <wf sent="7" para="2" offset="1044" length="4" wid="w190">very</wf>
+    <wf sent="7" para="2" offset="1049" length="9" wid="w191">concerned</wf>
+    <wf sent="7" para="2" offset="1058" length="1" wid="w192">"</wf>
+    <wf sent="7" para="2" offset="1060" length="5" wid="w193">about</wf>
+    <wf sent="7" para="2" offset="1066" length="3" wid="w194">the</wf>
+    <wf sent="7" para="2" offset="1070" length="9" wid="w195">situation</wf>
+    <wf sent="7" para="2" offset="1079" length="1" wid="w196">.</wf>
+  </text>
+  <terms>
+    <!--Answering-->
+    <term type="open" lemma="answer" pos="V" morphofeat="VBG" tid="t176">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--questions-->
+    <term type="open" lemma="question" pos="N" morphofeat="NNS" tid="t177">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--during-->
+    <term type="close" lemma="during" pos="P" morphofeat="IN" tid="t178">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t179">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--visit-->
+    <term type="open" lemma="visit" pos="N" morphofeat="NN" tid="t180">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t181">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--Glasgow-->
+    <term type="close" lemma="Glasgow" pos="R" morphofeat="NNP" tid="t182">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t183">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t184">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t185">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t186">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t187">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t188">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="G" morphofeat="JJ" tid="t189">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--very-->
+    <term type="open" lemma="very" pos="A" morphofeat="RB" tid="t190">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--concerned-->
+    <term type="open" lemma="concerned" pos="G" morphofeat="JJ" tid="t191">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="G" morphofeat="JJ" tid="t192">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--about-->
+    <term type="close" lemma="about" pos="P" morphofeat="IN" tid="t193">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t194">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--situation-->
+    <term type="open" lemma="situation" pos="N" morphofeat="NN" tid="t195">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t196">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--the situation-->
+        <span>
+          <target id="t194"/>
+          <target id="t195"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--very concerned-->
+        <span>
+          <target id="t190"/>
+          <target id="t191"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Mr Cameron-->
+        <span>
+          <target id="t184"/>
+          <target id="t185"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the situation-->
+        <span>
+          <target id="t194"/>
+          <target id="t195"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--was " very concerned-->
+        <span>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Mr Cameron-->
+        <span>
+          <target id="t184"/>
+          <target id="t185"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-neutral">
+        <!--said-->
+        <span>
+          <target id="t186"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

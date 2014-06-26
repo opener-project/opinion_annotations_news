@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:12:36" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:22:24CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="12" para="2" offset="625" length="2" wid="w137">In</wf>
+    <wf sent="12" para="2" offset="628" length="3" wid="w138">New</wf>
+    <wf sent="12" para="2" offset="632" length="4" wid="w139">York</wf>
+    <wf sent="12" para="2" offset="636" length="1" wid="w140">,</wf>
+    <wf sent="12" para="2" offset="638" length="4" wid="w141">U.S.</wf>
+    <wf sent="12" para="2" offset="643" length="6" wid="w142">stocks</wf>
+    <wf sent="12" para="2" offset="650" length="4" wid="w143">also</wf>
+    <wf sent="12" para="2" offset="655" length="4" wid="w144">gave</wf>
+    <wf sent="12" para="2" offset="660" length="2" wid="w145">up</wf>
+    <wf sent="12" para="2" offset="663" length="4" wid="w146">some</wf>
+    <wf sent="12" para="2" offset="668" length="2" wid="w147">of</wf>
+    <wf sent="12" para="2" offset="671" length="3" wid="w148">the</wf>
+    <wf sent="12" para="2" offset="675" length="5" wid="w149">gains</wf>
+    <wf sent="12" para="2" offset="681" length="8" wid="w150">recorded</wf>
+    <wf sent="12" para="2" offset="690" length="4" wid="w151">last</wf>
+    <wf sent="12" para="2" offset="695" length="4" wid="w152">week</wf>
+    <wf sent="12" para="2" offset="699" length="1" wid="w153">.</wf>
+  </text>
+  <terms>
+    <!--In-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t137">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--New-->
+    <term type="close" lemma="New" pos="R" morphofeat="NNP" tid="t138">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--York-->
+    <term type="close" lemma="York" pos="R" morphofeat="NNP" tid="t139">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t140">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--U.S.-->
+    <term type="close" lemma="U.S." pos="R" morphofeat="NNP" tid="t141">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--stocks-->
+    <term type="open" lemma="stock" pos="N" morphofeat="NNS" tid="t142">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t143">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--gave-->
+    <term type="open" lemma="give" pos="V" morphofeat="VBD" tid="t144">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--up-->
+    <term type="close" lemma="up" pos="O" morphofeat="RP" tid="t145">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--some-->
+    <term type="close" lemma="some" pos="D" morphofeat="DT" tid="t146">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t147">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t148">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--gains-->
+    <term type="open" lemma="gain" pos="N" morphofeat="NNS" tid="t149">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--recorded-->
+    <term type="open" lemma="record" pos="V" morphofeat="VBN" tid="t150">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--last-->
+    <term type="open" lemma="last" pos="G" morphofeat="JJ" tid="t151">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--week-->
+    <term type="open" lemma="week" pos="N" morphofeat="NN" tid="t152">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t153">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t137"/>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

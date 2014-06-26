@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:49:57Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:49:57Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:49:06CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:50:14CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w19" sent="5" para="4" offset="113" length="3">Die</wf>
+    <wf wid="w20" sent="5" para="4" offset="117" length="8">Europäer</wf>
+    <wf wid="w21" sent="5" para="4" offset="126" length="6">wollen</wf>
+    <wf wid="w22" sent="5" para="4" offset="133" length="2">in</wf>
+    <wf wid="w23" sent="5" para="4" offset="136" length="8">Rüstungs</wf>
+    <wf wid="w24" sent="5" para="4" offset="144" length="1">·</wf>
+    <wf wid="w25" sent="5" para="4" offset="146" length="3">und</wf>
+    <wf wid="w26" sent="5" para="4" offset="150" length="19">Verteidigungsfragen</wf>
+    <wf wid="w27" sent="5" para="4" offset="170" length="5">enger</wf>
+    <wf wid="w28" sent="5" para="4" offset="176" length="16">zusammenarbeiten</wf>
+    <wf wid="w29" sent="5" para="4" offset="192" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t19" type="close">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="Europäer" morphofeat="NN" pos="N" tid="t20" type="open">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t21" type="open">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t22" type="close">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="Rüstungs" morphofeat="NN unknown_lemma" pos="O" tid="t23" type="open">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t24" type="open">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t25" type="close">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="Verteidigungsfrage" morphofeat="NN" pos="N" tid="t26" type="open">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="eng" morphofeat="ADJD" pos="G" tid="t27" type="open">
+      <span>
+        <target id="w27"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="zusammenarbeiten" morphofeat="VVINF" pos="V" tid="t28" type="open">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t29" type="open">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Die Europäer-->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--enger zusammenarbeiten-->
+        <span>
+          <target id="t27"/>
+          <target id="t28"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wollen-->
+        <span>
+          <target id="t21"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

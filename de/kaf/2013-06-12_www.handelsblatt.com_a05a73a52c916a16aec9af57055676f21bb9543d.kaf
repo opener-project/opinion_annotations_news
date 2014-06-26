@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:16:04Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:16:04Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:04:32CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:16:16CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w463" sent="19" para="10" offset="2810" length="5">Dabei</wf>
+    <wf wid="w464" sent="19" para="10" offset="2816" length="4">geht</wf>
+    <wf wid="w465" sent="19" para="10" offset="2821" length="2">es</wf>
+    <wf wid="w466" sent="19" para="10" offset="2824" length="2">um</wf>
+    <wf wid="w467" sent="19" para="10" offset="2827" length="3">das</wf>
+    <wf wid="w468" sent="19" para="10" offset="2831" length="7">Kapitel</wf>
+    <wf wid="w469" sent="19" para="10" offset="2839" length="2">22</wf>
+    <wf wid="w470" sent="19" para="10" offset="2842" length="3">zum</wf>
+    <wf wid="w471" sent="19" para="10" offset="2846" length="7">Bereich</wf>
+    <wf wid="w472" sent="19" para="10" offset="2854" length="15">Regionalpolitik</wf>
+    <wf wid="w473" sent="19" para="10" offset="2869" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="dabei" morphofeat="PAV" pos="Q" tid="t463" type="close">
+      <span>
+        <target id="w463"/>
+      </span>
+    </term>
+    <term lemma="gehen" morphofeat="VVFIN" pos="V" tid="t464" type="open">
+      <span>
+        <target id="w464"/>
+      </span>
+    </term>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t465" type="close">
+      <span>
+        <target id="w465"/>
+      </span>
+    </term>
+    <term lemma="um" morphofeat="APPR" pos="P" tid="t466" type="close">
+      <span>
+        <target id="w466"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t467" type="close">
+      <span>
+        <target id="w467"/>
+      </span>
+    </term>
+    <term lemma="Kapitel" morphofeat="NN" pos="N" tid="t468" type="open">
+      <span>
+        <target id="w468"/>
+      </span>
+    </term>
+    <term lemma="22" morphofeat="CARD" pos="O" tid="t469" type="open">
+      <span>
+        <target id="w469"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPRART" pos="P" tid="t470" type="close">
+      <span>
+        <target id="w470"/>
+      </span>
+    </term>
+    <term lemma="Bereich" morphofeat="NN" pos="N" tid="t471" type="open">
+      <span>
+        <target id="w471"/>
+      </span>
+    </term>
+    <term lemma="Regionalpolitik" morphofeat="NN" pos="N" tid="t472" type="open">
+      <span>
+        <target id="w472"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t473" type="open">
+      <span>
+        <target id="w473"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t463"/>
+          <target id="t464"/>
+          <target id="t465"/>
+          <target id="t466"/>
+          <target id="t467"/>
+          <target id="t468"/>
+          <target id="t469"/>
+          <target id="t470"/>
+          <target id="t471"/>
+          <target id="t472"/>
+          <target id="t473"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T18:08:35Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T18:08:35Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:05:18CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T19:09:05CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w561" sent="33" para="12" offset="3158" length="3">Sie</wf>
+    <wf wid="w562" sent="33" para="12" offset="3162" length="4">will</wf>
+    <wf wid="w563" sent="33" para="12" offset="3167" length="5">klare</wf>
+    <wf wid="w564" sent="33" para="12" offset="3173" length="12">Verhältnisse</wf>
+    <wf wid="w565" sent="33" para="12" offset="3185" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Sie|sie" morphofeat="PPER" pos="Q" tid="t561" type="close">
+      <span>
+        <target id="w561"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t562" type="open">
+      <span>
+        <target id="w562"/>
+      </span>
+    </term>
+    <term lemma="klar" morphofeat="ADJA" pos="G" tid="t563" type="open">
+      <span>
+        <target id="w563"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Verhältnis" morphofeat="NN" pos="N" tid="t564" type="open">
+      <span>
+        <target id="w564"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t565" type="open">
+      <span>
+        <target id="w565"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Sie-->
+        <span>
+          <target id="t561"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--klare Verhältnisse-->
+        <span>
+          <target id="t563"/>
+          <target id="t564"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--will-->
+        <span>
+          <target id="t562"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

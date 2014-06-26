@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:58Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:58Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:03:48" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:31:44CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="7" para="2" offset="818" length="4" wid="w158">Most</wf>
+    <wf sent="7" para="2" offset="823" length="9" wid="w159">coalition</wf>
+    <wf sent="7" para="2" offset="833" length="3" wid="w160">MPs</wf>
+    <wf sent="7" para="2" offset="837" length="3" wid="w161">and</wf>
+    <wf sent="7" para="2" offset="841" length="6" wid="w162">Labour</wf>
+    <wf sent="7" para="2" offset="848" length="6" wid="w163">oppose</wf>
+    <wf sent="7" para="2" offset="855" length="6" wid="w164">giving</wf>
+    <wf sent="7" para="2" offset="862" length="9" wid="w165">prisoners</wf>
+    <wf sent="7" para="2" offset="872" length="3" wid="w166">the</wf>
+    <wf sent="7" para="2" offset="876" length="4" wid="w167">vote</wf>
+    <wf sent="7" para="2" offset="880" length="1" wid="w168">.</wf>
+  </text>
+  <terms>
+    <!--Most-->
+    <term type="open" lemma="most" pos="G" morphofeat="JJS" tid="t158">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--coalition-->
+    <term type="open" lemma="coalition" pos="N" morphofeat="NN" tid="t159">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--MPs-->
+    <term type="open" lemma="mps" pos="N" morphofeat="NNS" tid="t160">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t161">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--Labour-->
+    <term type="close" lemma="Labour" pos="R" morphofeat="NNP" tid="t162">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--oppose-->
+    <term type="open" lemma="oppose" pos="V" morphofeat="VBP" tid="t163">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--giving-->
+    <term type="open" lemma="give" pos="V" morphofeat="VBG" tid="t164">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--prisoners-->
+    <term type="open" lemma="prisoner" pos="N" morphofeat="NNS" tid="t165">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t166">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--vote-->
+    <term type="open" lemma="vote" pos="N" morphofeat="NN" tid="t167">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t168">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Most coalition MPs and Labour-->
+        <span>
+          <target id="t158"/>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--giving prisoners the vote-->
+        <span>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--oppose-->
+        <span>
+          <target id="t163"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

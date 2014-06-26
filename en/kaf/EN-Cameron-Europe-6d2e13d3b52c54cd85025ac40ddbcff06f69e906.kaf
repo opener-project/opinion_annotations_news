@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:53Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:53Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:53:28" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:50:29CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="13" para="2" offset="1423" length="7" wid="w271">Finance</wf>
+    <wf sent="13" para="2" offset="1431" length="8" wid="w272">minister</wf>
+    <wf sent="13" para="2" offset="1440" length="9" wid="w273">Evangelos</wf>
+    <wf sent="13" para="2" offset="1451" length="9" wid="w274">Venizelos</wf>
+    <wf sent="13" para="2" offset="1461" length="4" wid="w275">said</wf>
+    <wf sent="13" para="2" offset="1466" length="3" wid="w276">the</wf>
+    <wf sent="13" para="2" offset="1470" length="7" wid="w277">bailout</wf>
+    <wf sent="13" para="2" offset="1478" length="5" wid="w278">meant</wf>
+    <wf sent="13" para="2" offset="1484" length="1" wid="w279">“</wf>
+    <wf sent="13" para="2" offset="1485" length="8" wid="w280">avoiding</wf>
+    <wf sent="13" para="2" offset="1494" length="3" wid="w281">the</wf>
+    <wf sent="13" para="2" offset="1498" length="9" wid="w282">nightmare</wf>
+    <wf sent="13" para="2" offset="1508" length="8" wid="w283">scenario</wf>
+    <wf sent="13" para="2" offset="1516" length="1" wid="w284">”</wf>
+    <wf sent="13" para="2" offset="1517" length="1" wid="w285">.</wf>
+  </text>
+  <terms>
+    <!--Finance-->
+    <term type="close" lemma="Finance" pos="R" morphofeat="NNP" tid="t271">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--minister-->
+    <term type="open" lemma="minister" pos="N" morphofeat="NN" tid="t272">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--Evangelos-->
+    <term type="close" lemma="Evangelos" pos="R" morphofeat="NNP" tid="t273">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--Venizelos-->
+    <term type="close" lemma="Venizelos" pos="R" morphofeat="NNP" tid="t274">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t275">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t276">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--bailout-->
+    <term type="open" lemma="bailout" pos="N" morphofeat="NN" tid="t277">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--meant-->
+    <term type="open" lemma="meant" pos="G" morphofeat="JJ" tid="t278">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--“-->
+    <term type="open" lemma="“" pos="N" morphofeat="NN" tid="t279">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--avoiding-->
+    <term type="open" lemma="avoid" pos="V" morphofeat="VBG" tid="t280">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t281">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--nightmare-->
+    <term type="open" lemma="nightmare" pos="G" morphofeat="JJ" tid="t282">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--scenario-->
+    <term type="open" lemma="scenario" pos="N" morphofeat="NN" tid="t283">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="N" morphofeat="NN" tid="t284">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t285">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--scenario-->
+        <span>
+          <target id="t283"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--nightmare-->
+        <span>
+          <target id="t282"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

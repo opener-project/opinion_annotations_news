@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:55Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:55Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:43:55CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:37CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w91" sent="5" para="2" offset="569" length="10">Vanochtend</wf>
+    <wf wid="w92" sent="5" para="2" offset="580" length="2">om</wf>
+    <wf wid="w93" sent="5" para="2" offset="583" length="4">vijf</wf>
+    <wf wid="w94" sent="5" para="2" offset="588" length="3">uur</wf>
+    <wf wid="w95" sent="5" para="2" offset="592" length="4">werd</wf>
+    <wf wid="w96" sent="5" para="2" offset="597" length="2">al</wf>
+    <wf wid="w97" sent="5" para="2" offset="600" length="9">duidelijk</wf>
+    <wf wid="w98" sent="5" para="2" offset="610" length="3">dat</wf>
+    <wf wid="w99" sent="5" para="2" offset="614" length="2">ze</wf>
+    <wf wid="w100" sent="5" para="2" offset="617" length="15">overeenstemming</wf>
+    <wf wid="w101" sent="5" para="2" offset="633" length="6">hadden</wf>
+    <wf wid="w102" sent="5" para="2" offset="640" length="7">bereikt</wf>
+    <wf wid="w103" sent="5" para="2" offset="648" length="4">over</wf>
+    <wf wid="w104" sent="5" para="2" offset="653" length="3">een</wf>
+    <wf wid="w105" sent="5" para="2" offset="657" length="7">akkoord</wf>
+    <wf wid="w106" sent="5" para="2" offset="664" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Vanochtend-->
+    <term tid="t91" type="open" lemma="vanochtend" pos="A" morphofeat="adv">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t92" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--vijf-->
+    <term tid="t93" type="open" lemma="vijf" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--uur-->
+    <term tid="t94" type="open" lemma="uur" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--werd-->
+    <term tid="t95" type="open" lemma="worden" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t96" type="open" lemma="al" pos="A" morphofeat="adv">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--duidelijk-->
+    <term tid="t97" type="open" lemma="duidelijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w97"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t98" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--ze-->
+    <term tid="t99" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--overeenstemming-->
+    <term tid="t100" type="open" lemma="overeenstemming" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--hadden-->
+    <term tid="t101" type="open" lemma="hebben" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--bereikt-->
+    <term tid="t102" type="open" lemma="bereiken" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w102"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--over-->
+    <term tid="t103" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t104" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--akkoord-->
+    <term tid="t105" type="open" lemma="akkoord" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w105"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t106" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--ze-->
+        <span>
+          <target id="t99"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--een akkoord-->
+        <span>
+          <target id="t104"/>
+          <target id="t105"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--overeenstemming over-->
+        <span>
+          <target id="t100"/>
+          <target id="t103"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

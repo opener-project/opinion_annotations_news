@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:50:16CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w313" sent="20" para="2" offset="1846" length="2">De</wf>
+    <wf wid="w314" sent="20" para="2" offset="1849" length="6">Duitse</wf>
+    <wf wid="w315" sent="20" para="2" offset="1856" length="14">bondskanselier</wf>
+    <wf wid="w316" sent="20" para="2" offset="1871" length="6">Angela</wf>
+    <wf wid="w317" sent="20" para="2" offset="1878" length="6">Merkel</wf>
+    <wf wid="w318" sent="20" para="2" offset="1885" length="3">was</wf>
+    <wf wid="w319" sent="20" para="2" offset="1889" length="1">'</wf>
+    <wf wid="w320" sent="20" para="2" offset="1890" length="11">verbijsterd</wf>
+    <wf wid="w321" sent="20" para="2" offset="1901" length="1">'</wf>
+    <wf wid="w322" sent="20" para="2" offset="1903" length="4">over</wf>
+    <wf wid="w323" sent="20" para="2" offset="1908" length="2">de</wf>
+    <wf wid="w324" sent="20" para="2" offset="1911" length="1">'</wf>
+    <wf wid="w325" sent="20" para="2" offset="1912" length="7">onnodig</wf>
+    <wf wid="w326" sent="20" para="2" offset="1920" length="4">ruwe</wf>
+    <wf wid="w327" sent="20" para="2" offset="1924" length="1">'</wf>
+    <wf wid="w328" sent="20" para="2" offset="1926" length="6">aanpak</wf>
+    <wf wid="w329" sent="20" para="2" offset="1933" length="3">van</wf>
+    <wf wid="w330" sent="20" para="2" offset="1937" length="2">de</wf>
+    <wf wid="w331" sent="20" para="2" offset="1940" length="8">betogers</wf>
+    <wf wid="w332" sent="20" para="2" offset="1948" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t313" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t314" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <!--bondskanselier-->
+    <term tid="t315" type="open" lemma="bondskanselier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t316" type="open" lemma="Angela" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t317" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--was-->
+    <term tid="t318" type="open" lemma="wezen|zijn" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t319" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--verbijsterd-->
+    <term tid="t320" type="open" lemma="verbijsterd" pos="G" morphofeat="adj">
+      <span>
+        <target id="w320"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--'-->
+    <term tid="t321" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t322" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t323" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t324" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--onnodig-->
+    <term tid="t325" type="open" lemma="onnodig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w325"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--ruwe-->
+    <term tid="t326" type="open" lemma="ruwe" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t327" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <!--aanpak-->
+    <term tid="t328" type="open" lemma="aanpak" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t329" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t330" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <!--betogers-->
+    <term tid="t331" type="open" lemma="betoger" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w331"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t332" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--De Duitse bondskanselier Angela Merkel-->
+        <span>
+          <target id="t313"/>
+          <target id="t314"/>
+          <target id="t315"/>
+          <target id="t316"/>
+          <target id="t317"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de ' onnodig ruwe ' aanpak van de betogers-->
+        <span>
+          <target id="t323"/>
+          <target id="t324"/>
+          <target id="t325"/>
+          <target id="t326"/>
+          <target id="t327"/>
+          <target id="t328"/>
+          <target id="t329"/>
+          <target id="t330"/>
+          <target id="t331"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--was verbijsterd over-->
+        <span>
+          <target id="t318"/>
+          <target id="t320"/>
+          <target id="t322"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--De Duitse bondskanselier Angela Merkel-->
+        <span>
+          <target id="t313"/>
+          <target id="t314"/>
+          <target id="t315"/>
+          <target id="t316"/>
+          <target id="t317"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--aanpak van de betogers-->
+        <span>
+          <target id="t328"/>
+          <target id="t329"/>
+          <target id="t330"/>
+          <target id="t331"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--onnodig ruwe-->
+        <span>
+          <target id="t325"/>
+          <target id="t326"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

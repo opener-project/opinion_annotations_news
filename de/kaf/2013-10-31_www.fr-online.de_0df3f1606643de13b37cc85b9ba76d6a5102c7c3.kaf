@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T18:16:25Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T18:16:25Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:01:45CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T19:16:50CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w279" sent="16" para="10" offset="1606" length="6">Cramer</wf>
+    <wf wid="w280" sent="16" para="10" offset="1612" length="1">:</wf>
+    <wf wid="w281" sent="16" para="10" offset="1614" length="1">"</wf>
+    <wf wid="w282" sent="16" para="10" offset="1615" length="4">Eine</wf>
+    <wf wid="w283" sent="16" para="10" offset="1620" length="8">Vignette</wf>
+    <wf wid="w284" sent="16" para="10" offset="1629" length="3">ist</wf>
+    <wf wid="w285" sent="16" para="10" offset="1633" length="5">nicht</wf>
+    <wf wid="w286" sent="16" para="10" offset="1639" length="8">zulässig</wf>
+    <wf wid="w287" sent="16" para="10" offset="1647" length="1">"</wf>
+  </text>
+  <terms>
+    <term lemma="Cramer" morphofeat="NE" pos="R" tid="t279" type="open">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <term lemma=":" morphofeat="$." pos="O" tid="t280" type="open">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t281" type="open">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t282" type="close">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <term lemma="Vignette" morphofeat="NN" pos="N" tid="t283" type="open">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t284" type="open">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t285" type="open">
+      <span>
+        <target id="w285"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="zulässig" morphofeat="ADJD" pos="G" tid="t286" type="open">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t287" type="open">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Cramer-->
+        <span>
+          <target id="t279"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Eine Vignette-->
+        <span>
+          <target id="t282"/>
+          <target id="t283"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--nicht zulässig-->
+        <span>
+          <target id="t285"/>
+          <target id="t286"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:55:39Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:55:39Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:57:24CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:56:02CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w36" sent="4" para="3" offset="241" length="3">Wir</wf>
+    <wf wid="w37" sent="4" para="3" offset="245" length="6">müssen</wf>
+    <wf wid="w38" sent="4" para="3" offset="252" length="7">schnell</wf>
+    <wf wid="w39" sent="4" para="3" offset="260" length="7">handeln</wf>
+    <wf wid="w40" sent="4" para="3" offset="267" length="1">,</wf>
+    <wf wid="w41" sent="4" para="3" offset="269" length="3">wir</wf>
+    <wf wid="w42" sent="4" para="3" offset="273" length="8">brauchen</wf>
+    <wf wid="w43" sent="4" para="3" offset="282" length="4">neue</wf>
+    <wf wid="w44" sent="4" para="3" offset="287" length="6">Mittel</wf>
+    <wf wid="w45" sent="4" para="3" offset="294" length="3">und</wf>
+    <wf wid="w46" sent="4" para="3" offset="298" length="4">Wege</wf>
+    <wf wid="w47" sent="4" para="3" offset="302" length="1">"</wf>
+    <wf wid="w48" sent="4" para="3" offset="303" length="1">,</wf>
+    <wf wid="w49" sent="4" para="3" offset="305" length="5">sagte</wf>
+    <wf wid="w50" sent="4" para="3" offset="311" length="6">Merkel</wf>
+    <wf wid="w51" sent="4" para="3" offset="317" length="1">.</wf>
+    <wf wid="w149" sent="10" para="4" offset="959" length="3">Die</wf>
+    <wf wid="w150" sent="10" para="4" offset="963" length="7">Arbeits</wf>
+    <wf wid="w151" sent="10" para="4" offset="970" length="1">·</wf>
+    <wf wid="w152" sent="10" para="4" offset="972" length="3">und</wf>
+    <wf wid="w153" sent="10" para="4" offset="976" length="14">Finanzminister</wf>
+    <wf wid="w154" sent="10" para="4" offset="991" length="3">aus</wf>
+    <wf wid="w155" sent="10" para="4" offset="995" length="5">Paris</wf>
+    <wf wid="w156" sent="10" para="4" offset="1001" length="3">und</wf>
+    <wf wid="w157" sent="10" para="4" offset="1005" length="6">Berlin</wf>
+    <wf wid="w158" sent="10" para="4" offset="1012" length="6">hatten</wf>
+    <wf wid="w159" sent="10" para="4" offset="1019" length="4">dazu</wf>
+    <wf wid="w160" sent="10" para="4" offset="1024" length="7">bereits</wf>
+    <wf wid="w161" sent="10" para="4" offset="1032" length="2">am</wf>
+    <wf wid="w162" sent="10" para="4" offset="1035" length="8">Dienstag</wf>
+    <wf wid="w163" sent="10" para="4" offset="1044" length="9">Grundzüge</wf>
+    <wf wid="w164" sent="10" para="4" offset="1054" length="5">eines</wf>
+    <wf wid="w165" sent="10" para="4" offset="1060" length="12">Aktionsplans</wf>
+    <wf wid="w166" sent="10" para="4" offset="1073" length="11">vorgestellt</wf>
+    <wf wid="w167" sent="10" para="4" offset="1084" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="wir" morphofeat="PPER" pos="Q" tid="t36" type="close">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="müssen" morphofeat="VMFIN" pos="V" tid="t37" type="open">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="schnell" morphofeat="ADJD" pos="G" tid="t38" type="open">
+      <span>
+        <target id="w38"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="handeln" morphofeat="VVINF" pos="V" tid="t39" type="open">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t40" type="open">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="wir" morphofeat="PPER" pos="Q" tid="t41" type="close">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term lemma="brauchen" morphofeat="VVFIN" pos="V" tid="t42" type="open">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term lemma="neu" morphofeat="ADJA" pos="G" tid="t43" type="open">
+      <span>
+        <target id="w43"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Mittel" morphofeat="NN" pos="N" tid="t44" type="open">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t45" type="close">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term lemma="Weg" morphofeat="NN" pos="N" tid="t46" type="open">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t47" type="open">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t48" type="open">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t49" type="open">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t50" type="open">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t51" type="open">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t149" type="close">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <term lemma="Arbeits" morphofeat="NN unknown_lemma" pos="O" tid="t150" type="open">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t151" type="open">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t152" type="close">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <term lemma="Finanzminister" morphofeat="NN" pos="N" tid="t153" type="open">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <term lemma="aus" morphofeat="APPR" pos="P" tid="t154" type="close">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <term lemma="Paris" morphofeat="NE" pos="R" tid="t155" type="open">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t156" type="close">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <term lemma="Berlin" morphofeat="NE" pos="R" tid="t157" type="open">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t158" type="open">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <term lemma="dazu" morphofeat="PAV" pos="Q" tid="t159" type="close">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <term lemma="bereits" morphofeat="ADV" pos="A" tid="t160" type="open">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t161" type="close">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <term lemma="Dienstag" morphofeat="NN" pos="N" tid="t162" type="open">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <term lemma="Grundzug" morphofeat="NN" pos="N" tid="t163" type="open">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t164" type="close">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <term lemma="Aktionsplan" morphofeat="NN" pos="N" tid="t165" type="open">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <term lemma="vorstellen" morphofeat="VVPP" pos="V" tid="t166" type="open">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t167" type="open">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=19-->
+      <opinion_holder>
+        <!--wir-->
+        <span>
+          <target id="t41"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Wege-->
+        <span>
+          <target id="t46"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--brauchen-->
+        <span>
+          <target id="t42"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=19-->
+      <opinion_holder>
+        <!--wir-->
+        <span>
+          <target id="t41"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--neue Mittel-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--brauchen-->
+        <span>
+          <target id="t42"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Wir-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--schnell handeln-->
+        <span>
+          <target id="t38"/>
+          <target id="t39"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--müssen-->
+        <span>
+          <target id="t37"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+          <target id="t153"/>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+          <target id="t157"/>
+          <target id="t158"/>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

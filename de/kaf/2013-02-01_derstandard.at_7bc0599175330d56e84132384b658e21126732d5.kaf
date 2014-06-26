@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:48:40Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:48:40Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:46:24CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:48:57CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w200" sent="14" para="10" offset="1153" length="2">Im</wf>
+    <wf wid="w201" sent="14" para="10" offset="1157" length="8">November</wf>
+    <wf wid="w202" sent="14" para="10" offset="1166" length="5">hatte</wf>
+    <wf wid="w203" sent="14" para="10" offset="1172" length="2">es</wf>
+    <wf wid="w204" sent="14" para="10" offset="1175" length="3">bei</wf>
+    <wf wid="w205" sent="14" para="10" offset="1179" length="5">einem</wf>
+    <wf wid="w206" sent="14" para="10" offset="1185" length="12">Sondergipfel</wf>
+    <wf wid="w207" sent="14" para="10" offset="1198" length="5">keine</wf>
+    <wf wid="w208" sent="14" para="10" offset="1204" length="8">Einigung</wf>
+    <wf wid="w209" sent="14" para="10" offset="1213" length="7">gegeben</wf>
+    <wf wid="w210" sent="14" para="10" offset="1220" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t200" type="close">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <term lemma="November" morphofeat="NN" pos="N" tid="t201" type="open">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t202" type="open">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t203" type="close">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <term lemma="bei" morphofeat="APPR" pos="P" tid="t204" type="close">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t205" type="close">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <term lemma="Sondergipfel" morphofeat="NN" pos="N" tid="t206" type="open">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <term lemma="keine" morphofeat="PIAT" pos="Q" tid="t207" type="close">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <term lemma="Einigung" morphofeat="NN" pos="N" tid="t208" type="open">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <term lemma="geben" morphofeat="VVPP" pos="V" tid="t209" type="open">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t210" type="open">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

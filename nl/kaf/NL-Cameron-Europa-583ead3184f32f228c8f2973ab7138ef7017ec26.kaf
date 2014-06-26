@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:41:01CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w343" sent="16" para="2" offset="2038" length="8">Zaterdag</wf>
+    <wf wid="w344" sent="16" para="2" offset="2047" length="6">buigen</wf>
+    <wf wid="w345" sent="16" para="2" offset="2054" length="2">de</wf>
+    <wf wid="w346" sent="16" para="2" offset="2057" length="7">leiders</wf>
+    <wf wid="w347" sent="16" para="2" offset="2065" length="4">zich</wf>
+    <wf wid="w348" sent="16" para="2" offset="2070" length="4">over</wf>
+    <wf wid="w349" sent="16" para="2" offset="2075" length="2">de</wf>
+    <wf wid="w350" sent="16" para="2" offset="2078" length="8">Europese</wf>
+    <wf wid="w351" sent="16" para="2" offset="2087" length="14">schuldencrisis</wf>
+    <wf wid="w352" sent="16" para="2" offset="2102" length="2">en</wf>
+    <wf wid="w353" sent="16" para="2" offset="2105" length="11">Griekenland</wf>
+    <wf wid="w354" sent="16" para="2" offset="2116" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Zaterdag-->
+    <term tid="t343" type="open" lemma="zaterdag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--buigen-->
+    <term tid="t344" type="open" lemma="buigen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t345" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <!--leiders-->
+    <term tid="t346" type="open" lemma="leider" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--zich-->
+    <term tid="t347" type="close" lemma="zich" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t348" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t349" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t350" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <!--schuldencrisis-->
+    <term tid="t351" type="open" lemma="schuldencrisis" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t352" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <!--Griekenland-->
+    <term tid="t353" type="open" lemma="Griekenland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t354" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w354"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t343"/>
+          <target id="t344"/>
+          <target id="t345"/>
+          <target id="t346"/>
+          <target id="t347"/>
+          <target id="t348"/>
+          <target id="t349"/>
+          <target id="t350"/>
+          <target id="t351"/>
+          <target id="t352"/>
+          <target id="t353"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

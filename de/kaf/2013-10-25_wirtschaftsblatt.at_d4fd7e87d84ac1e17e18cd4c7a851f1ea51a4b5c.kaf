@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:15:20Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:15:20Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:19:06CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:15:50CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:31CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w147" sent="12" para="6" offset="822" length="5">Namen</wf>
+    <wf wid="w148" sent="12" para="6" offset="828" length="6">wurden</wf>
+    <wf wid="w149" sent="12" para="6" offset="835" length="5">nicht</wf>
+    <wf wid="w150" sent="12" para="6" offset="841" length="7">genannt</wf>
+    <wf wid="w151" sent="12" para="6" offset="848" length="1">.</wf>
+    <wf wid="w152" sent="13" para="7" offset="850" length="2">EU</wf>
+    <wf wid="w153" sent="13" para="7" offset="853" length="4">will</wf>
+    <wf wid="w154" sent="13" para="7" offset="858" length="10">Aufklärung</wf>
+    <wf wid="w186" sent="15" para="8" offset="1057" length="4">Dies</wf>
+    <wf wid="w187" sent="15" para="8" offset="1062" length="8">erklärte</wf>
+    <wf wid="w188" sent="15" para="8" offset="1071" length="13">Bundeskanzler</wf>
+    <wf wid="w189" sent="15" para="8" offset="1085" length="6">Werner</wf>
+    <wf wid="w190" sent="15" para="8" offset="1092" length="7">Faymann</wf>
+    <wf wid="w191" sent="15" para="8" offset="1100" length="1">(</wf>
+    <wf wid="w192" sent="15" para="8" offset="1101" length="3">SPÖ</wf>
+    <wf wid="w193" sent="15" para="8" offset="1104" length="1">)</wf>
+    <wf wid="w194" sent="15" para="8" offset="1106" length="2">in</wf>
+    <wf wid="w195" sent="15" para="8" offset="1109" length="3">der</wf>
+    <wf wid="w196" sent="15" para="8" offset="1113" length="5">Nacht</wf>
+    <wf wid="w197" sent="15" para="8" offset="1119" length="3">auf</wf>
+    <wf wid="w198" sent="15" para="8" offset="1123" length="7">Freitag</wf>
+    <wf wid="w199" sent="15" para="8" offset="1131" length="2">in</wf>
+    <wf wid="w200" sent="15" para="8" offset="1134" length="7">Brüssel</wf>
+    <wf wid="w201" sent="15" para="8" offset="1141" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Name" morphofeat="NN" pos="N" tid="t147" type="open">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t148" type="open">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t149" type="open">
+      <span>
+        <target id="w149"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="nennen" morphofeat="VVPP" pos="V" tid="t150" type="open">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t151" type="open">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NE" pos="R" tid="t152" type="open">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t153" type="open">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <term lemma="Aufklärung" morphofeat="NN" pos="N" tid="t154" type="open">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <term lemma="dies" morphofeat="PDS" pos="Q" tid="t186" type="close">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <term lemma="erklären" morphofeat="VVFIN" pos="V" tid="t187" type="open">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <term lemma="Bundeskanzler" morphofeat="NN" pos="N" tid="t188" type="open">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <term lemma="Werner" morphofeat="NE" pos="R" tid="t189" type="open">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <term lemma="Faymann" morphofeat="NE unknown_lemma" pos="O" tid="t190" type="open">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="$(" pos="O" tid="t191" type="open">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <term lemma="SPÖ" morphofeat="NE unknown_lemma" pos="O" tid="t192" type="open">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat="$(" pos="O" tid="t193" type="open">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t194" type="close">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t195" type="close">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <term lemma="Nacht" morphofeat="NN" pos="N" tid="t196" type="open">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <term lemma="auf" morphofeat="APPR" pos="P" tid="t197" type="close">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <term lemma="Freitag" morphofeat="NN" pos="N" tid="t198" type="open">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t199" type="close">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <term lemma="Brüssel" morphofeat="NE" pos="R" tid="t200" type="open">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t201" type="open">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--EU-->
+        <span>
+          <target id="t152"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Aufklärung-->
+        <span>
+          <target id="t154"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--will-->
+        <span>
+          <target id="t153"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

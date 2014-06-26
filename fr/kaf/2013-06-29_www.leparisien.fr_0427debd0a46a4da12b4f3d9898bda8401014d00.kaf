@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:50:27Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:50:27Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:50:27Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:20:43CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w205" sent="11" para="5" offset="1014" length="2">Le</wf>
+    <wf wid="w206" sent="11" para="5" offset="1017" length="6">député</wf>
+    <wf wid="w207" sent="11" para="5" offset="1024" length="8">européen</wf>
+    <wf wid="w208" sent="11" para="5" offset="1033" length="1">a</wf>
+    <wf wid="w209" sent="11" para="5" offset="1035" length="2">en</wf>
+    <wf wid="w210" sent="11" para="5" offset="1038" length="8">revanche</wf>
+    <wf wid="w211" sent="11" para="5" offset="1047" length="8">critiqué</wf>
+    <wf wid="w212" sent="11" para="5" offset="1056" length="3">les</wf>
+    <wf wid="w213" sent="11" para="5" offset="1060" length="9">décisions</wf>
+    <wf wid="w214" sent="11" para="5" offset="1070" length="2">du</wf>
+    <wf wid="w215" sent="11" para="5" offset="1073" length="6">Sommet</wf>
+    <wf wid="w216" sent="11" para="5" offset="1080" length="8">européen</wf>
+    <wf wid="w217" sent="11" para="5" offset="1089" length="2">de</wf>
+    <wf wid="w218" sent="11" para="5" offset="1092" length="5">cette</wf>
+    <wf wid="w219" sent="11" para="5" offset="1098" length="7">semaine</wf>
+    <wf wid="w220" sent="11" para="5" offset="1105" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Le-->
+    <term tid="t205" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--député-->
+    <term tid="t206" type="open" lemma="député" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--européen-->
+    <term tid="t207" type="open" lemma="européen" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t208" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t209" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--revanche-->
+    <term tid="t210" type="open" lemma="revanche" pos="N" morphofeat="N">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--critiqué-->
+    <term tid="t211" type="open" lemma="critiquer" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t212" type="close" lemma="le" pos="D" morphofeat="Dfp">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--décisions-->
+    <term tid="t213" type="open" lemma="décision" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t214" type="close" lemma="du" pos="P" morphofeat="P">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--Sommet-->
+    <term tid="t215" type="open" lemma="sommet" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--européen-->
+    <term tid="t216" type="open" lemma="européen" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t217" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--cette-->
+    <term tid="t218" type="close" lemma="ce" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--semaine-->
+    <term tid="t219" type="open" lemma="semaine" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t220" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Le député européen-->
+        <span>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--les décisions du Sommet européen de cette semaine-->
+        <span>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--en revanche critiqué-->
+        <span>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

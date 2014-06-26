@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:48:52Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:48:52Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:14:24CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:49:06CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w529" sent="23" para="6" offset="2961" length="1">“</wf>
+    <wf wid="w530" sent="23" para="6" offset="2963" length="2">In</wf>
+    <wf wid="w531" sent="23" para="6" offset="2966" length="13">Niedersachsen</wf>
+    <wf wid="w532" sent="23" para="6" offset="2980" length="5">hatte</wf>
+    <wf wid="w533" sent="23" para="6" offset="2986" length="3">ein</wf>
+    <wf wid="w534" sent="23" para="6" offset="2990" length="7">Bündnis</wf>
+    <wf wid="w535" sent="23" para="6" offset="2998" length="3">aus</wf>
+    <wf wid="w536" sent="23" para="6" offset="3002" length="6">Freien</wf>
+    <wf wid="w537" sent="23" para="6" offset="3009" length="7">Wählern</wf>
+    <wf wid="w538" sent="23" para="6" offset="3017" length="3">und</wf>
+    <wf wid="w539" sent="23" para="6" offset="3021" length="3">der</wf>
+    <wf wid="w540" sent="23" para="6" offset="3025" length="1">„</wf>
+    <wf wid="w541" sent="23" para="6" offset="3026" length="15">Wahlalternative</wf>
+    <wf wid="w542" sent="23" para="6" offset="3042" length="4">2013</wf>
+    <wf wid="w543" sent="23" para="6" offset="3046" length="1">“</wf>
+    <wf wid="w544" sent="23" para="6" offset="3048" length="3">1,1</wf>
+    <wf wid="w545" sent="23" para="6" offset="3052" length="7">Prozent</wf>
+    <wf wid="w546" sent="23" para="6" offset="3060" length="3">der</wf>
+    <wf wid="w547" sent="23" para="6" offset="3064" length="7">Stimmen</wf>
+    <wf wid="w548" sent="23" para="6" offset="3072" length="6">geholt</wf>
+    <wf wid="w549" sent="23" para="6" offset="3078" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="“" morphofeat="NN unknown_lemma" pos="O" tid="t529" type="open">
+      <span>
+        <target id="w529"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t530" type="close">
+      <span>
+        <target id="w530"/>
+      </span>
+    </term>
+    <term lemma="Niedersachsen" morphofeat="NE" pos="R" tid="t531" type="open">
+      <span>
+        <target id="w531"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t532" type="open">
+      <span>
+        <target id="w532"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t533" type="close">
+      <span>
+        <target id="w533"/>
+      </span>
+    </term>
+    <term lemma="Bündnis" morphofeat="NN" pos="N" tid="t534" type="open">
+      <span>
+        <target id="w534"/>
+      </span>
+    </term>
+    <term lemma="aus" morphofeat="APPR" pos="P" tid="t535" type="close">
+      <span>
+        <target id="w535"/>
+      </span>
+    </term>
+    <term lemma="frei" morphofeat="ADJA" pos="G" tid="t536" type="open">
+      <span>
+        <target id="w536"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Wähler" morphofeat="NN" pos="N" tid="t537" type="open">
+      <span>
+        <target id="w537"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t538" type="close">
+      <span>
+        <target id="w538"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t539" type="close">
+      <span>
+        <target id="w539"/>
+      </span>
+    </term>
+    <term lemma="„" morphofeat="ADJA unknown_lemma" pos="O" tid="t540" type="open">
+      <span>
+        <target id="w540"/>
+      </span>
+    </term>
+    <term lemma="Wahlalternative" morphofeat="NN" pos="N" tid="t541" type="open">
+      <span>
+        <target id="w541"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t542" type="open">
+      <span>
+        <target id="w542"/>
+      </span>
+    </term>
+    <term lemma="“" morphofeat="NN unknown_lemma" pos="O" tid="t543" type="open">
+      <span>
+        <target id="w543"/>
+      </span>
+    </term>
+    <term lemma="1,1" morphofeat="CARD" pos="O" tid="t544" type="open">
+      <span>
+        <target id="w544"/>
+      </span>
+    </term>
+    <term lemma="Prozent" morphofeat="NN" pos="N" tid="t545" type="open">
+      <span>
+        <target id="w545"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t546" type="close">
+      <span>
+        <target id="w546"/>
+      </span>
+    </term>
+    <term lemma="Stimme|Stimmen" morphofeat="NN" pos="N" tid="t547" type="open">
+      <span>
+        <target id="w547"/>
+      </span>
+    </term>
+    <term lemma="holen" morphofeat="VVPP" pos="V" tid="t548" type="open">
+      <span>
+        <target id="w548"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t549" type="open">
+      <span>
+        <target id="w549"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t530"/>
+          <target id="t531"/>
+          <target id="t532"/>
+          <target id="t533"/>
+          <target id="t534"/>
+          <target id="t535"/>
+          <target id="t536"/>
+          <target id="t537"/>
+          <target id="t538"/>
+          <target id="t539"/>
+          <target id="t540"/>
+          <target id="t541"/>
+          <target id="t542"/>
+          <target id="t543"/>
+          <target id="t544"/>
+          <target id="t545"/>
+          <target id="t546"/>
+          <target id="t547"/>
+          <target id="t548"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

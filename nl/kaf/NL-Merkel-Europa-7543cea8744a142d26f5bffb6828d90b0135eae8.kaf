@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:21:18CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w165" sent="8" para="2" offset="1037" length="6">Merkel</wf>
+    <wf wid="w166" sent="8" para="2" offset="1044" length="8">herhaalt</wf>
+    <wf wid="w167" sent="8" para="2" offset="1053" length="9">donderdag</wf>
+    <wf wid="w168" sent="8" para="2" offset="1063" length="3">dat</wf>
+    <wf wid="w169" sent="8" para="2" offset="1067" length="2">er</wf>
+    <wf wid="w170" sent="8" para="2" offset="1070" length="1">"</wf>
+    <wf wid="w171" sent="8" para="2" offset="1071" length="5">grote</wf>
+    <wf wid="w172" sent="8" para="2" offset="1077" length="11">vooruitgang</wf>
+    <wf wid="w173" sent="8" para="2" offset="1088" length="1">"</wf>
+    <wf wid="w174" sent="8" para="2" offset="1090" length="2">is</wf>
+    <wf wid="w175" sent="8" para="2" offset="1093" length="7">geboekt</wf>
+    <wf wid="w176" sent="8" para="2" offset="1101" length="2">om</wf>
+    <wf wid="w177" sent="8" para="2" offset="1104" length="2">de</wf>
+    <wf wid="w178" sent="8" para="2" offset="1107" length="6">crisis</wf>
+    <wf wid="w179" sent="8" para="2" offset="1114" length="3">het</wf>
+    <wf wid="w180" sent="8" para="2" offset="1118" length="5">hoofd</wf>
+    <wf wid="w181" sent="8" para="2" offset="1124" length="2">te</wf>
+    <wf wid="w182" sent="8" para="2" offset="1127" length="6">bieden</wf>
+    <wf wid="w183" sent="8" para="2" offset="1134" length="4">maar</wf>
+    <wf wid="w184" sent="8" para="2" offset="1139" length="3">dat</wf>
+    <wf wid="w185" sent="8" para="2" offset="1143" length="2">de</wf>
+    <wf wid="w186" sent="8" para="2" offset="1146" length="9">problemen</wf>
+    <wf wid="w187" sent="8" para="2" offset="1156" length="3">nog</wf>
+    <wf wid="w188" sent="8" para="2" offset="1160" length="4">niet</wf>
+    <wf wid="w189" sent="8" para="2" offset="1165" length="7">voorbij</wf>
+    <wf wid="w190" sent="8" para="2" offset="1173" length="4">zijn</wf>
+    <wf wid="w191" sent="8" para="2" offset="1177" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t165" type="open" lemma="Merkel" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--herhaalt-->
+    <term tid="t166" type="open" lemma="herhalen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--donderdag-->
+    <term tid="t167" type="open" lemma="donderdag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t168" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--er-->
+    <term tid="t169" type="close" lemma="er" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t170" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--grote-->
+    <term tid="t171" type="open" lemma="groot" pos="G" morphofeat="adj">
+      <span>
+        <target id="w171"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--vooruitgang-->
+    <term tid="t172" type="open" lemma="vooruitgang" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w172"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--"-->
+    <term tid="t173" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t174" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--geboekt-->
+    <term tid="t175" type="open" lemma="boeken" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t176" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t177" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--crisis-->
+    <term tid="t178" type="open" lemma="crisis" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w178"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--het-->
+    <term tid="t179" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--hoofd-->
+    <term tid="t180" type="open" lemma="hoofd" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t181" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--bieden-->
+    <term tid="t182" type="open" lemma="bieden" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w182"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--maar-->
+    <term tid="t183" type="close" lemma="maar" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w183"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t184" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t185" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--problemen-->
+    <term tid="t186" type="open" lemma="probleem" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w186"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--nog-->
+    <term tid="t187" type="open" lemma="nog" pos="A" morphofeat="adv">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t188" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--voorbij-->
+    <term tid="t189" type="close" lemma="voorbij" pos="P" morphofeat="prep">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t190" type="close" lemma="zijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t191" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t165"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de crisis-->
+        <span>
+          <target id="t177"/>
+          <target id="t178"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--grote vooruitgang " is geboekt-->
+        <span>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t165"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de problemen-->
+        <span>
+          <target id="t185"/>
+          <target id="t186"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--nog niet voorbij zijn-->
+        <span>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

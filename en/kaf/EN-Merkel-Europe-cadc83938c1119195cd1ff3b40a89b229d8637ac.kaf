@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:34Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:34Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:19:07" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:21:34CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="14" para="2" offset="2652" length="5" wid="w461">State</wf>
+    <wf sent="14" para="2" offset="2658" length="10" wid="w462">Department</wf>
+    <wf sent="14" para="2" offset="2669" length="9" wid="w463">spokesman</wf>
+    <wf sent="14" para="2" offset="2679" length="7" wid="w464">Patrick</wf>
+    <wf sent="14" para="2" offset="2687" length="8" wid="w465">Ventrell</wf>
+    <wf sent="14" para="2" offset="2696" length="3" wid="w466">was</wf>
+    <wf sent="14" para="2" offset="2700" length="6" wid="w467">unable</wf>
+    <wf sent="14" para="2" offset="2707" length="2" wid="w468">to</wf>
+    <wf sent="14" para="2" offset="2710" length="7" wid="w469">provide</wf>
+    <wf sent="14" para="2" offset="2718" length="7" wid="w470">clarity</wf>
+    <wf sent="14" para="2" offset="2726" length="2" wid="w471">to</wf>
+    <wf sent="14" para="2" offset="2729" length="9" wid="w472">reporters</wf>
+    <wf sent="14" para="2" offset="2738" length="1" wid="w473">.</wf>
+  </text>
+  <terms>
+    <!--State-->
+    <term type="close" lemma="State" pos="R" morphofeat="NNP" tid="t461">
+      <span>
+        <target id="w461"/>
+      </span>
+    </term>
+    <!--Department-->
+    <term type="close" lemma="Department" pos="R" morphofeat="NNP" tid="t462">
+      <span>
+        <target id="w462"/>
+      </span>
+    </term>
+    <!--spokesman-->
+    <term type="open" lemma="spokesman" pos="N" morphofeat="NN" tid="t463">
+      <span>
+        <target id="w463"/>
+      </span>
+    </term>
+    <!--Patrick-->
+    <term type="close" lemma="Patrick" pos="R" morphofeat="NNP" tid="t464">
+      <span>
+        <target id="w464"/>
+      </span>
+    </term>
+    <!--Ventrell-->
+    <term type="close" lemma="Ventrell" pos="R" morphofeat="NNP" tid="t465">
+      <span>
+        <target id="w465"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t466">
+      <span>
+        <target id="w466"/>
+      </span>
+    </term>
+    <!--unable-->
+    <term type="open" lemma="unable" pos="G" morphofeat="JJ" tid="t467">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w467"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t468">
+      <span>
+        <target id="w468"/>
+      </span>
+    </term>
+    <!--provide-->
+    <term type="open" lemma="provide" pos="V" morphofeat="VB" tid="t469">
+      <span>
+        <target id="w469"/>
+      </span>
+    </term>
+    <!--clarity-->
+    <term type="open" lemma="clarity" pos="N" morphofeat="NN" tid="t470">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w470"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t471">
+      <span>
+        <target id="w471"/>
+      </span>
+    </term>
+    <!--reporters-->
+    <term type="open" lemma="reporter" pos="N" morphofeat="NNS" tid="t472">
+      <span>
+        <target id="w472"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t473">
+      <span>
+        <target id="w473"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--State Department spokesman Patrick Ventrell-->
+        <span>
+          <target id="t461"/>
+          <target id="t462"/>
+          <target id="t463"/>
+          <target id="t464"/>
+          <target id="t465"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--clarity-->
+        <span>
+          <target id="t470"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--was unable to provide-->
+        <span>
+          <target id="t466"/>
+          <target id="t467"/>
+          <target id="t468"/>
+          <target id="t469"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--State Department spokesman Patrick Ventrell-->
+        <span>
+          <target id="t461"/>
+          <target id="t462"/>
+          <target id="t463"/>
+          <target id="t464"/>
+          <target id="t465"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--unable to provide clarity-->
+        <span>
+          <target id="t467"/>
+          <target id="t468"/>
+          <target id="t469"/>
+          <target id="t470"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

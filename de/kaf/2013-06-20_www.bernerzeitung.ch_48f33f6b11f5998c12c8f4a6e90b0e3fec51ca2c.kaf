@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:27:11Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:27:11Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:49:07CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:27:31CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w252" sent="22" para="14" offset="1426" length="4">Beim</wf>
+    <wf wid="w253" sent="22" para="14" offset="1431" length="5">Thema</wf>
+    <wf wid="w254" sent="22" para="14" offset="1437" length="7">Frieden</wf>
+    <wf wid="w255" sent="22" para="14" offset="1445" length="5">wurde</wf>
+    <wf wid="w256" sent="22" para="14" offset="1451" length="5">Obama</wf>
+    <wf wid="w257" sent="22" para="14" offset="1457" length="7">konkret</wf>
+    <wf wid="w258" sent="22" para="14" offset="1464" length="1">:</wf>
+    <wf wid="w259" sent="22" para="14" offset="1466" length="2">Er</wf>
+    <wf wid="w260" sent="22" para="14" offset="1469" length="4">will</wf>
+    <wf wid="w261" sent="22" para="14" offset="1474" length="8">abrüsten</wf>
+    <wf wid="w262" sent="22" para="14" offset="1482" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="bei" morphofeat="APPRART" pos="P" tid="t252" type="close">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <term lemma="Thema" morphofeat="NN" pos="N" tid="t253" type="open">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <term lemma="Frieden" morphofeat="NN" pos="N" tid="t254" type="open">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t255" type="open">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <term lemma="Obama" morphofeat="NN unknown_lemma" pos="O" tid="t256" type="open">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <term lemma="konkret" morphofeat="ADJD" pos="G" tid="t257" type="open">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <term lemma=":" morphofeat="$." pos="O" tid="t258" type="open">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t259" type="close">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t260" type="open">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <term lemma="abrüsten" morphofeat="VVINF" pos="V" tid="t261" type="open">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t262" type="open">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Obama Er-->
+        <span>
+          <target id="t256"/>
+          <target id="t259"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--abrüsten-->
+        <span>
+          <target id="t261"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--will-->
+        <span>
+          <target id="t260"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

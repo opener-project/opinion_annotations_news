@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:57:20" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:46:15CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:50CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="32" para="2" offset="4124" length="1" wid="w828">"</wf>
+    <wf sent="32" para="2" offset="4125" length="2" wid="w829">It</wf>
+    <wf sent="32" para="2" offset="4128" length="3" wid="w830">was</wf>
+    <wf sent="32" para="2" offset="4132" length="1" wid="w831">a</wf>
+    <wf sent="32" para="2" offset="4134" length="4" wid="w832">very</wf>
+    <wf sent="32" para="2" offset="4139" length="11" wid="w833">significant</wf>
+    <wf sent="32" para="2" offset="4151" length="7" wid="w834">victory</wf>
+    <wf sent="32" para="2" offset="4159" length="3" wid="w835">for</wf>
+    <wf sent="32" para="2" offset="4163" length="3" wid="w836">the</wf>
+    <wf sent="32" para="2" offset="4167" length="6" wid="w837">people</wf>
+    <wf sent="32" para="2" offset="4173" length="1" wid="w838">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t828">
+      <span>
+        <target id="w828"/>
+      </span>
+    </term>
+    <!--It-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t829">
+      <span>
+        <target id="w829"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t830">
+      <span>
+        <target id="w830"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t831">
+      <span>
+        <target id="w831"/>
+      </span>
+    </term>
+    <!--very-->
+    <term type="open" lemma="very" pos="A" morphofeat="RB" tid="t832">
+      <span>
+        <target id="w832"/>
+      </span>
+    </term>
+    <!--significant-->
+    <term type="open" lemma="significant" pos="G" morphofeat="JJ" tid="t833">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w833"/>
+      </span>
+    </term>
+    <!--victory-->
+    <term type="open" lemma="victory" pos="N" morphofeat="NN" tid="t834">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w834"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t835">
+      <span>
+        <target id="w835"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t836">
+      <span>
+        <target id="w836"/>
+      </span>
+    </term>
+    <!--people-->
+    <term type="open" lemma="person" pos="N" morphofeat="NNS" tid="t837">
+      <span>
+        <target id="w837"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t838">
+      <span>
+        <target id="w838"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--It-->
+        <span>
+          <target id="t829"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--a very significant victory-->
+        <span>
+          <target id="t831"/>
+          <target id="t832"/>
+          <target id="t833"/>
+          <target id="t834"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--victory-->
+        <span>
+          <target id="t834"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--very significant-->
+        <span>
+          <target id="t832"/>
+          <target id="t833"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

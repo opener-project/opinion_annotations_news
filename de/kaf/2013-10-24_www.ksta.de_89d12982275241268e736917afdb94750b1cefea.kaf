@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:10:06Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:10:06Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:18:49CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:10:42CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w869" sent="47" para="21" offset="5408" length="2">Am</wf>
+    <wf wid="w870" sent="47" para="21" offset="5411" length="5">Abend</wf>
+    <wf wid="w871" sent="47" para="21" offset="5417" length="7">wollten</wf>
+    <wf wid="w872" sent="47" para="21" offset="5425" length="3">die</wf>
+    <wf wid="w873" sent="47" para="21" offset="5429" length="2">EU</wf>
+    <wf wid="w874" sent="47" para="21" offset="5431" length="1">·</wf>
+    <wf wid="w875" sent="47" para="21" offset="5432" length="15">Regierungschefs</wf>
+    <wf wid="w876" sent="47" para="21" offset="5448" length="4">auch</wf>
+    <wf wid="w877" sent="47" para="21" offset="5453" length="4">über</wf>
+    <wf wid="w878" sent="47" para="21" offset="5458" length="3">die</wf>
+    <wf wid="w879" sent="47" para="21" offset="5462" length="10">Vertiefung</wf>
+    <wf wid="w880" sent="47" para="21" offset="5473" length="3">der</wf>
+    <wf wid="w881" sent="47" para="21" offset="5477" length="11">Wirtschafts</wf>
+    <wf wid="w882" sent="47" para="21" offset="5488" length="1">·</wf>
+    <wf wid="w883" sent="47" para="21" offset="5490" length="3">und</wf>
+    <wf wid="w884" sent="47" para="21" offset="5494" length="13">Währungsunion</wf>
+    <wf wid="w885" sent="47" para="21" offset="5508" length="8">sprechen</wf>
+    <wf wid="w886" sent="47" para="21" offset="5516" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t869" type="close">
+      <span>
+        <target id="w869"/>
+      </span>
+    </term>
+    <term lemma="Abend" morphofeat="NN" pos="N" tid="t870" type="open">
+      <span>
+        <target id="w870"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t871" type="open">
+      <span>
+        <target id="w871"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t872" type="close">
+      <span>
+        <target id="w872"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t873" type="open">
+      <span>
+        <target id="w873"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t874" type="open">
+      <span>
+        <target id="w874"/>
+      </span>
+    </term>
+    <term lemma="Regierungschef" morphofeat="NN" pos="N" tid="t875" type="open">
+      <span>
+        <target id="w875"/>
+      </span>
+    </term>
+    <term lemma="auch" morphofeat="ADV" pos="A" tid="t876" type="open">
+      <span>
+        <target id="w876"/>
+      </span>
+    </term>
+    <term lemma="über" morphofeat="APPR" pos="P" tid="t877" type="close">
+      <span>
+        <target id="w877"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t878" type="close">
+      <span>
+        <target id="w878"/>
+      </span>
+    </term>
+    <term lemma="Vertiefung" morphofeat="NN" pos="N" tid="t879" type="open">
+      <span>
+        <target id="w879"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t880" type="close">
+      <span>
+        <target id="w880"/>
+      </span>
+    </term>
+    <term lemma="Wirtschafts" morphofeat="NN unknown_lemma" pos="O" tid="t881" type="open">
+      <span>
+        <target id="w881"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t882" type="open">
+      <span>
+        <target id="w882"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t883" type="close">
+      <span>
+        <target id="w883"/>
+      </span>
+    </term>
+    <term lemma="Währungsunion" morphofeat="NN" pos="N" tid="t884" type="open">
+      <span>
+        <target id="w884"/>
+      </span>
+    </term>
+    <term lemma="sprechen" morphofeat="VVINF" pos="V" tid="t885" type="open">
+      <span>
+        <target id="w885"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t886" type="open">
+      <span>
+        <target id="w886"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--die EU · Regierungschefs-->
+        <span>
+          <target id="t872"/>
+          <target id="t873"/>
+          <target id="t874"/>
+          <target id="t875"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--über die Vertiefung sprechen-->
+        <span>
+          <target id="t877"/>
+          <target id="t878"/>
+          <target id="t879"/>
+          <target id="t885"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wollten-->
+        <span>
+          <target id="t871"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

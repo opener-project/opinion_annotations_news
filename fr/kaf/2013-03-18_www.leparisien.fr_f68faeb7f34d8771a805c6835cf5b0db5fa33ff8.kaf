@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:50:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:50:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:50:02Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:23:15CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w966" sent="40" para="21" offset="5014" length="2">Le</wf>
+    <wf wid="w967" sent="40" para="21" offset="5017" length="4">pape</wf>
+    <wf wid="w968" sent="40" para="21" offset="5022" length="3">est</wf>
+    <wf wid="w969" sent="40" para="21" offset="5026" length="3">lui</wf>
+    <wf wid="w970" sent="40" para="21" offset="5029" length="1">·</wf>
+    <wf wid="w971" sent="40" para="21" offset="5030" length="4">même</wf>
+    <wf wid="w972" sent="40" para="21" offset="5035" length="2">le</wf>
+    <wf wid="w973" sent="40" para="21" offset="5038" length="7">premier</wf>
+    <wf wid="w974" sent="40" para="21" offset="5046" length="7">jésuite</wf>
+    <wf wid="w975" sent="40" para="21" offset="5054" length="1">à</wf>
+    <wf wid="w976" sent="40" para="21" offset="5056" length="6">monter</wf>
+    <wf wid="w977" sent="40" para="21" offset="5063" length="3">sur</wf>
+    <wf wid="w978" sent="40" para="21" offset="5067" length="2">le</wf>
+    <wf wid="w979" sent="40" para="21" offset="5070" length="5">trône</wf>
+    <wf wid="w980" sent="40" para="21" offset="5076" length="2">de</wf>
+    <wf wid="w981" sent="40" para="21" offset="5079" length="5">Saint</wf>
+    <wf wid="w982" sent="40" para="21" offset="5085" length="6">Pierre</wf>
+    <wf wid="w983" sent="40" para="21" offset="5091" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Le-->
+    <term tid="t966" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w966"/>
+      </span>
+    </term>
+    <!--pape-->
+    <term tid="t967" type="open" lemma="pape" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w967"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t968" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w968"/>
+      </span>
+    </term>
+    <!--lui-->
+    <term tid="t969" type="close" lemma="lui" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w969"/>
+      </span>
+    </term>
+    <!--·-->
+    <term tid="t970" type="open" lemma="·" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w970"/>
+      </span>
+    </term>
+    <!--même-->
+    <term tid="t971" type="open" lemma="même" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w971"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t972" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w972"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t973" type="open" lemma="premier" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w973"/>
+      </span>
+    </term>
+    <!--jésuite-->
+    <term tid="t974" type="open" lemma="jésuite" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w974"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t975" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w975"/>
+      </span>
+    </term>
+    <!--monter-->
+    <term tid="t976" type="open" lemma="monter" pos="V" morphofeat="VW">
+      <span>
+        <target id="w976"/>
+      </span>
+    </term>
+    <!--sur-->
+    <term tid="t977" type="close" lemma="sur" pos="P" morphofeat="P">
+      <span>
+        <target id="w977"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t978" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w978"/>
+      </span>
+    </term>
+    <!--trône-->
+    <term tid="t979" type="open" lemma="trône" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w979"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t980" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w980"/>
+      </span>
+    </term>
+    <!--Saint-->
+    <term tid="t981" type="open" lemma="saint" pos="N" morphofeat="NPms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w981"/>
+      </span>
+    </term>
+    <!--Pierre-->
+    <term tid="t982" type="open" lemma="pierre" pos="N" morphofeat="NPms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w982"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t983" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w983"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t966"/>
+          <target id="t967"/>
+          <target id="t968"/>
+          <target id="t969"/>
+          <target id="t970"/>
+          <target id="t971"/>
+          <target id="t972"/>
+          <target id="t973"/>
+          <target id="t974"/>
+          <target id="t975"/>
+          <target id="t976"/>
+          <target id="t977"/>
+          <target id="t978"/>
+          <target id="t979"/>
+          <target id="t980"/>
+          <target id="t981"/>
+          <target id="t982"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

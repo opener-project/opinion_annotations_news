@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:55:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:55:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:55:10Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:25:07CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="2">L'</wf>
+    <wf wid="w2" sent="1" para="1" offset="2" length="9">austérité</wf>
+    <wf wid="w3" sent="1" para="1" offset="12" length="10">européenne</wf>
+    <wf wid="w4" sent="1" para="1" offset="23" length="4">sous</wf>
+    <wf wid="w5" sent="1" para="1" offset="28" length="2">le</wf>
+    <wf wid="w6" sent="1" para="1" offset="31" length="3">feu</wf>
+    <wf wid="w7" sent="1" para="1" offset="35" length="3">des</wf>
+    <wf wid="w8" sent="1" para="1" offset="39" length="9">critiques</wf>
+    <wf wid="w9" sent="1" para="1" offset="49" length="11">américaines</wf>
+    <wf wid="w10" sent="1" para="1" offset="61" length="2">au</wf>
+    <wf wid="w11" sent="1" para="1" offset="64" length="2">G7</wf>
+    <wf wid="w173" sent="8" para="8" offset="905" length="2">La</wf>
+    <wf wid="w174" sent="8" para="8" offset="908" length="8">patronne</wf>
+    <wf wid="w175" sent="8" para="8" offset="917" length="2">du</wf>
+    <wf wid="w176" sent="8" para="8" offset="920" length="5">Fonds</wf>
+    <wf wid="w177" sent="8" para="8" offset="926" length="9">Monétaire</wf>
+    <wf wid="w178" sent="8" para="8" offset="936" length="13">International</wf>
+    <wf wid="w179" sent="8" para="8" offset="950" length="1">(</wf>
+    <wf wid="w180" sent="8" para="8" offset="951" length="3">FMI</wf>
+    <wf wid="w181" sent="8" para="8" offset="954" length="1">)</wf>
+    <wf wid="w182" sent="8" para="8" offset="955" length="1">,</wf>
+    <wf wid="w183" sent="8" para="8" offset="957" length="9">Christine</wf>
+    <wf wid="w184" sent="8" para="8" offset="967" length="7">Lagarde</wf>
+    <wf wid="w185" sent="8" para="8" offset="974" length="1">,</wf>
+    <wf wid="w186" sent="8" para="8" offset="976" length="4">sera</wf>
+    <wf wid="w187" sent="8" para="8" offset="981" length="9">également</wf>
+    <wf wid="w188" sent="8" para="8" offset="991" length="8">présente</wf>
+    <wf wid="w189" sent="8" para="8" offset="999" length="1">.</wf>
+  </text>
+  <terms>
+    <!--L'-->
+    <term tid="t1" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--austérité-->
+    <term tid="t2" type="open" lemma="austérité" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--européenne-->
+    <term tid="t3" type="open" lemma="européen" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--sous-->
+    <term tid="t4" type="close" lemma="sous" pos="P" morphofeat="P">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t5" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--feu-->
+    <term tid="t6" type="open" lemma="feu" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t7" type="close" lemma="un" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--critiques-->
+    <term tid="t8" type="open" lemma="critique" pos="N" morphofeat="NCfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--américaines-->
+    <term tid="t9" type="open" lemma="américain" pos="G" morphofeat="Afp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--au-->
+    <term tid="t10" type="close" lemma="au" pos="P" morphofeat="P">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--G7-->
+    <term tid="t11" type="open" lemma="G7" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--La-->
+    <term tid="t173" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--patronne-->
+    <term tid="t174" type="open" lemma="patron" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t175" type="close" lemma="du" pos="P" morphofeat="P">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--Fonds-->
+    <term tid="t176" type="open" lemma="fond" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--Monétaire-->
+    <term tid="t177" type="open" lemma="Monétaire" pos="N" morphofeat="NPms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--International-->
+    <term tid="t178" type="open" lemma="international" pos="N" morphofeat="NPms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--(-->
+    <term tid="t179" type="close" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--FMI-->
+    <term tid="t180" type="open" lemma="FMI" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t181" type="close" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t182" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--Christine-->
+    <term tid="t183" type="open" lemma="Christine" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--Lagarde-->
+    <term tid="t184" type="open" lemma="Lagarde" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t185" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--sera-->
+    <term tid="t186" type="open" lemma="être" pos="V" morphofeat="VF3s">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--également-->
+    <term tid="t187" type="open" lemma="également" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--présente-->
+    <term tid="t188" type="open" lemma="présent" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t189" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--américaines-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--austérité européenne-->
+        <span>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--sous le feu des critiques-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

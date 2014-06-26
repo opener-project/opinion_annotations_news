@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:30:49" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:20:48CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="17" para="2" offset="2027" length="9" wid="w380">President</wf>
+    <wf sent="17" para="2" offset="2037" length="8" wid="w381">François</wf>
+    <wf sent="17" para="2" offset="2046" length="8" wid="w382">Hollande</wf>
+    <wf sent="17" para="2" offset="2055" length="4" wid="w383">also</wf>
+    <wf sent="17" para="2" offset="2060" length="4" wid="w384">said</wf>
+    <wf sent="17" para="2" offset="2065" length="4" wid="w385">that</wf>
+    <wf sent="17" para="2" offset="2070" length="6" wid="w386">France</wf>
+    <wf sent="17" para="2" offset="2077" length="5" wid="w387">could</wf>
+    <wf sent="17" para="2" offset="2083" length="2" wid="w388">be</wf>
+    <wf sent="17" para="2" offset="2086" length="7" wid="w389">willing</wf>
+    <wf sent="17" para="2" offset="2094" length="2" wid="w390">to</wf>
+    <wf sent="17" para="2" offset="2097" length="6" wid="w391">supply</wf>
+    <wf sent="17" para="2" offset="2104" length="4" wid="w392">arms</wf>
+    <wf sent="17" para="2" offset="2109" length="2" wid="w393">at</wf>
+    <wf sent="17" para="2" offset="2112" length="4" wid="w394">some</wf>
+    <wf sent="17" para="2" offset="2117" length="5" wid="w395">point</wf>
+    <wf sent="17" para="2" offset="2122" length="1" wid="w396">.</wf>
+    <wf sent="18" para="2" offset="2124" length="1" wid="w397">“</wf>
+    <wf sent="18" para="2" offset="2125" length="2" wid="w398">On</wf>
+    <wf sent="18" para="2" offset="2128" length="3" wid="w399">the</wf>
+    <wf sent="18" para="2" offset="2132" length="8" wid="w400">question</wf>
+    <wf sent="18" para="2" offset="2141" length="2" wid="w401">of</wf>
+    <wf sent="18" para="2" offset="2144" length="7" wid="w402">weapons</wf>
+    <wf sent="18" para="2" offset="2152" length="10" wid="w403">deliveries</wf>
+    <wf sent="18" para="2" offset="2162" length="1" wid="w404">,</wf>
+    <wf sent="18" para="2" offset="2164" length="6" wid="w405">France</wf>
+    <wf sent="18" para="2" offset="2171" length="3" wid="w406">did</wf>
+    <wf sent="18" para="2" offset="2175" length="3" wid="w407">not</wf>
+    <wf sent="18" para="2" offset="2179" length="7" wid="w408">support</wf>
+    <wf sent="18" para="2" offset="2187" length="2" wid="w409">it</wf>
+    <wf sent="18" para="2" offset="2190" length="2" wid="w410">as</wf>
+    <wf sent="18" para="2" offset="2193" length="4" wid="w411">long</wf>
+    <wf sent="18" para="2" offset="2198" length="2" wid="w412">as</wf>
+    <wf sent="18" para="2" offset="2201" length="2" wid="w413">it</wf>
+    <wf sent="18" para="2" offset="2204" length="4" wid="w414">wasn</wf>
+    <wf sent="18" para="2" offset="2208" length="2" wid="w415">'t</wf>
+    <wf sent="18" para="2" offset="2211" length="5" wid="w416">clear</wf>
+    <wf sent="18" para="2" offset="2217" length="5" wid="w417">where</wf>
+    <wf sent="18" para="2" offset="2223" length="5" wid="w418">these</wf>
+    <wf sent="18" para="2" offset="2229" length="7" wid="w419">weapons</wf>
+    <wf sent="18" para="2" offset="2237" length="4" wid="w420">went</wf>
+    <wf sent="18" para="2" offset="2241" length="1" wid="w421">.</wf>
+  </text>
+  <terms>
+    <!--President-->
+    <term type="close" lemma="President" pos="R" morphofeat="NNP" tid="t380">
+      <span>
+        <target id="w380"/>
+      </span>
+    </term>
+    <!--François-->
+    <term type="close" lemma="François" pos="R" morphofeat="NNP" tid="t381">
+      <span>
+        <target id="w381"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term type="close" lemma="Hollande" pos="R" morphofeat="NNP" tid="t382">
+      <span>
+        <target id="w382"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t383">
+      <span>
+        <target id="w383"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t384">
+      <span>
+        <target id="w384"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="P" morphofeat="IN" tid="t385">
+      <span>
+        <target id="w385"/>
+      </span>
+    </term>
+    <!--France-->
+    <term type="close" lemma="France" pos="R" morphofeat="NNP" tid="t386">
+      <span>
+        <target id="w386"/>
+      </span>
+    </term>
+    <!--could-->
+    <term type="close" lemma="can" pos="O" morphofeat="MD" tid="t387">
+      <span>
+        <target id="w387"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t388">
+      <span>
+        <target id="w388"/>
+      </span>
+    </term>
+    <!--willing-->
+    <term type="open" lemma="willing" pos="G" morphofeat="JJ" tid="t389">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w389"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t390">
+      <span>
+        <target id="w390"/>
+      </span>
+    </term>
+    <!--supply-->
+    <term type="open" lemma="supply" pos="V" morphofeat="VB" tid="t391">
+      <span>
+        <target id="w391"/>
+      </span>
+    </term>
+    <!--arms-->
+    <term type="open" lemma="arm" pos="N" morphofeat="NNS" tid="t392">
+      <span>
+        <target id="w392"/>
+      </span>
+    </term>
+    <!--at-->
+    <term type="close" lemma="at" pos="P" morphofeat="IN" tid="t393">
+      <span>
+        <target id="w393"/>
+      </span>
+    </term>
+    <!--some-->
+    <term type="close" lemma="some" pos="D" morphofeat="DT" tid="t394">
+      <span>
+        <target id="w394"/>
+      </span>
+    </term>
+    <!--point-->
+    <term type="open" lemma="point" pos="N" morphofeat="NN" tid="t395">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w395"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t396">
+      <span>
+        <target id="w396"/>
+      </span>
+    </term>
+    <!--“-->
+    <term type="open" lemma="“" pos="N" morphofeat="NN" tid="t397">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <!--On-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t398">
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t399">
+      <span>
+        <target id="w399"/>
+      </span>
+    </term>
+    <!--question-->
+    <term type="open" lemma="question" pos="N" morphofeat="NN" tid="t400">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t401">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <!--weapons-->
+    <term type="open" lemma="weapon" pos="N" morphofeat="NNS" tid="t402">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <!--deliveries-->
+    <term type="open" lemma="deliveries" pos="V" morphofeat="VBZ" tid="t403">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t404">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+    <!--France-->
+    <term type="close" lemma="France" pos="R" morphofeat="NNP" tid="t405">
+      <span>
+        <target id="w405"/>
+      </span>
+    </term>
+    <!--did-->
+    <term type="open" lemma="do" pos="V" morphofeat="VBD" tid="t406">
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t407">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+    <!--support-->
+    <term type="open" lemma="support" pos="V" morphofeat="VB" tid="t408">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t409">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="open" lemma="as" pos="A" morphofeat="RB" tid="t410">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <!--long-->
+    <term type="open" lemma="long" pos="A" morphofeat="RB" tid="t411">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t412">
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t413">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+    <!--wasn-->
+    <term type="open" lemma="wasn" pos="V" morphofeat="VBD" tid="t414">
+      <span>
+        <target id="w414"/>
+      </span>
+    </term>
+    <!--'t-->
+    <term type="open" lemma="'t" pos="A" morphofeat="RB" tid="t415">
+      <span>
+        <target id="w415"/>
+      </span>
+    </term>
+    <!--clear-->
+    <term type="open" lemma="clear" pos="G" morphofeat="JJ" tid="t416">
+      <span>
+        <target id="w416"/>
+      </span>
+    </term>
+    <!--where-->
+    <term type="close" lemma="where" pos="O" morphofeat="WRB" tid="t417">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <!--these-->
+    <term type="close" lemma="these" pos="D" morphofeat="DT" tid="t418">
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <!--weapons-->
+    <term type="open" lemma="weapon" pos="N" morphofeat="NNS" tid="t419">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+    <!--went-->
+    <term type="open" lemma="go" pos="V" morphofeat="VBD" tid="t420">
+      <span>
+        <target id="w420"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t421">
+      <span>
+        <target id="w421"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--France-->
+        <span>
+          <target id="t386"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--to supply arms-->
+        <span>
+          <target id="t390"/>
+          <target id="t391"/>
+          <target id="t392"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--could be willing-->
+        <span>
+          <target id="t387"/>
+          <target id="t388"/>
+          <target id="t389"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--France-->
+        <span>
+          <target id="t405"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--weapons deliveries-->
+        <span>
+          <target id="t402"/>
+          <target id="t403"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--did not support-->
+        <span>
+          <target id="t406"/>
+          <target id="t407"/>
+          <target id="t408"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:31Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:31Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:06:34" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:50:18CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="7" wid="w1">Cameron</wf>
+    <wf sent="1" para="1" offset="8" length="5" wid="w2">urges</wf>
+    <wf sent="1" para="1" offset="14" length="5" wid="w3">Greek</wf>
+    <wf sent="1" para="1" offset="20" length="4" wid="w4">euro</wf>
+    <wf sent="1" para="1" offset="25" length="4" wid="w5">exit</wf>
+    <wf sent="1" para="1" offset="30" length="5" wid="w6">plans</wf>
+  </text>
+  <terms>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--urges-->
+    <term type="open" lemma="urge" pos="V" morphofeat="VBZ" tid="t2">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Greek-->
+    <term type="open" lemma="greek" pos="G" morphofeat="JJ" tid="t3">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term type="open" lemma="euro" pos="N" morphofeat="NN" tid="t4">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--exit-->
+    <term type="open" lemma="exit" pos="N" morphofeat="NN" tid="t5">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--plans-->
+    <term type="open" lemma="plan" pos="N" morphofeat="NNS" tid="t6">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Cameron-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Greek euro exit plans-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--urges-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

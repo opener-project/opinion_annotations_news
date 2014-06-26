@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:19Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:19Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:17:18CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w31" sent="3" para="2" offset="197" length="10">Steinbrück</wf>
+    <wf wid="w32" sent="3" para="2" offset="208" length="3">was</wf>
+    <wf wid="w33" sent="3" para="2" offset="212" length="3">van</wf>
+    <wf wid="w34" sent="3" para="2" offset="216" length="4">2005</wf>
+    <wf wid="w35" sent="3" para="2" offset="221" length="3">tot</wf>
+    <wf wid="w36" sent="3" para="2" offset="225" length="4">2009</wf>
+    <wf wid="w37" sent="3" para="2" offset="230" length="8">minister</wf>
+    <wf wid="w38" sent="3" para="2" offset="239" length="3">van</wf>
+    <wf wid="w39" sent="3" para="2" offset="243" length="9">Financiën</wf>
+    <wf wid="w40" sent="3" para="2" offset="252" length="1">.</wf>
+    <wf wid="w227" sent="12" para="2" offset="1285" length="1">‘</wf>
+    <wf wid="w228" sent="12" para="2" offset="1286" length="6">Zonder</wf>
+    <wf wid="w229" sent="12" para="2" offset="1293" length="8">leningen</wf>
+    <wf wid="w230" sent="12" para="2" offset="1302" length="5">stort</wf>
+    <wf wid="w231" sent="12" para="2" offset="1308" length="2">de</wf>
+    <wf wid="w232" sent="12" para="2" offset="1311" length="7">Griekse</wf>
+    <wf wid="w233" sent="12" para="2" offset="1319" length="8">economie</wf>
+    <wf wid="w234" sent="12" para="2" offset="1328" length="2">in</wf>
+    <wf wid="w235" sent="12" para="2" offset="1331" length="6">elkaar</wf>
+    <wf wid="w236" sent="12" para="2" offset="1337" length="1">,</wf>
+    <wf wid="w237" sent="12" para="2" offset="1338" length="1">’</wf>
+    <wf wid="w238" sent="12" para="2" offset="1340" length="4">zegt</wf>
+    <wf wid="w239" sent="12" para="2" offset="1345" length="11">Hardouvelis</wf>
+    <wf wid="w240" sent="12" para="2" offset="1356" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Steinbrück-->
+    <term tid="t31" type="open" lemma="Steinbrück" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--was-->
+    <term tid="t32" type="open" lemma="wezen|zijn" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t33" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--2005-->
+    <term tid="t34" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--tot-->
+    <term tid="t35" type="close" lemma="tot" pos="P" morphofeat="prep">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--2009-->
+    <term tid="t36" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--minister-->
+    <term tid="t37" type="open" lemma="minister" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t38" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--Financiën-->
+    <term tid="t39" type="open" lemma="financiën" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t40" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--‘-->
+    <term tid="t227" type="open" lemma="‘" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--Zonder-->
+    <term tid="t228" type="open" lemma="Zonder" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--leningen-->
+    <term tid="t229" type="open" lemma="lening" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--stort-->
+    <term tid="t230" type="open" lemma="storten" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w230"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--de-->
+    <term tid="t231" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--Griekse-->
+    <term tid="t232" type="open" lemma="Grieks" pos="G" morphofeat="adj">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--economie-->
+    <term tid="t233" type="open" lemma="economie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w233"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--in-->
+    <term tid="t234" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--elkaar-->
+    <term tid="t235" type="close" lemma="elkaar" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t236" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--’-->
+    <term tid="t237" type="open" lemma="’" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--zegt-->
+    <term tid="t238" type="open" lemma="zeggen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--Hardouvelis-->
+    <term tid="t239" type="open" lemma="Hardouvelis" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t240" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Hardouvelis-->
+        <span>
+          <target id="t239"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Zonder leningen-->
+        <span>
+          <target id="t228"/>
+          <target id="t229"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--stort de Griekse economie in elkaar-->
+        <span>
+          <target id="t230"/>
+          <target id="t231"/>
+          <target id="t232"/>
+          <target id="t233"/>
+          <target id="t234"/>
+          <target id="t235"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

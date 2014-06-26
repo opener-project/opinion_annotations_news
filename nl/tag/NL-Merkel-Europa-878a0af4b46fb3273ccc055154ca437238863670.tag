@@ -1,0 +1,9 @@
+w126	Die	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	125	true	6
+w127	landen	land	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	126	true	6
+w128	tekenen	tekenen	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	127	true	6
+w129	vrijdag	vrijdag	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	128	true	6
+w130	een	een	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	129	true	6
+w131	akkoord	akkoord	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	130	true	6
+w132	met	met	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	131	true	6
+w133	de	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	132	true	6
+w134	EU	EU	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	133	true	6

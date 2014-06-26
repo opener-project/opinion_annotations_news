@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:48Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:48Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:31:55" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:39:49CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="7" wid="w1">Britain</wf>
+    <wf sent="1" para="1" offset="8" length="5" wid="w2">urged</wf>
+    <wf sent="1" para="1" offset="14" length="2" wid="w3">to</wf>
+    <wf sent="1" para="1" offset="17" length="3" wid="w4">ban</wf>
+    <wf sent="1" para="1" offset="21" length="5" wid="w5">royal</wf>
+    <wf sent="1" para="1" offset="27" length="4" wid="w6">head</wf>
+    <wf sent="1" para="1" offset="32" length="2" wid="w7">of</wf>
+    <wf sent="1" para="1" offset="35" length="7" wid="w8">Bahrain</wf>
+    <wf sent="1" para="1" offset="43" length="7" wid="w9">Olympic</wf>
+    <wf sent="1" para="1" offset="51" length="9" wid="w10">committee</wf>
+  </text>
+  <terms>
+    <!--Britain-->
+    <term type="close" lemma="Britain" pos="R" morphofeat="NNP" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--urged-->
+    <term type="open" lemma="urge" pos="V" morphofeat="VBD" tid="t2">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t3">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--ban-->
+    <term type="open" lemma="ban" pos="V" morphofeat="VB" tid="t4">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--royal-->
+    <term type="open" lemma="royal" pos="G" morphofeat="JJ" tid="t5">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--head-->
+    <term type="open" lemma="head" pos="N" morphofeat="NN" tid="t6">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t7">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Bahrain-->
+    <term type="close" lemma="Bahrain" pos="R" morphofeat="NNP" tid="t8">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--Olympic-->
+    <term type="close" lemma="Olympic" pos="R" morphofeat="NNP" tid="t9">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--committee-->
+    <term type="open" lemma="committee" pos="N" morphofeat="NN" tid="t10">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Britain-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--to ban-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--urged-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--royal head of Bahrain Olympic committee-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--to ban-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

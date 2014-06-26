@@ -1,0 +1,10 @@
+w170	Hanno	avere	V		D-Negative	4	Opinion	5		0		0		0		0		0		0	169	true	11
+w171	gridato	gridare	V		D-Negative	4	Opinion	5		0		0		0		0		0		0	170	true	11
+w172	ancora	ancora	A		D-Negative	4	Opinion	5		0		0		0		0		0		0	171	true	11
+w173	allo	allo	P		D-Negative	4	Opinion	5		0		0		0		0		0		0	172	true	11
+w174	scandalo	scandalo	N		D-Negative	4	Opinion	5		0		0		0		0		0		0	173	true	11
+w175	quelli	quelli	Q		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	174	true	11
+w176	del	del	P		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	175	true	11
+w177	fronte	fronte	N		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	176	true	11
+w178	del	del	P		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	177	true	11
+w179	Nord	nord	R		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	178	true	11

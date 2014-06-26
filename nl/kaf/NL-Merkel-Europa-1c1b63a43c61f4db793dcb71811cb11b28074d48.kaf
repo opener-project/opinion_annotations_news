@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:16Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:16Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:58:10CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w166" sent="8" para="2" offset="974" length="7">Korting</wf>
+    <wf wid="w167" sent="8" para="2" offset="982" length="8">afdracht</wf>
+    <wf wid="w168" sent="8" para="2" offset="991" length="8">Europese</wf>
+    <wf wid="w169" sent="8" para="2" offset="1000" length="13">UnieNederland</wf>
+    <wf wid="w170" sent="8" para="2" offset="1014" length="7">behoort</wf>
+    <wf wid="w171" sent="8" para="2" offset="1022" length="3">tot</wf>
+    <wf wid="w172" sent="8" para="2" offset="1026" length="2">de</wf>
+    <wf wid="w173" sent="8" para="2" offset="1029" length="8">grootste</wf>
+    <wf wid="w174" sent="8" para="2" offset="1038" length="13">nettobetalers</wf>
+    <wf wid="w175" sent="8" para="2" offset="1052" length="3">van</wf>
+    <wf wid="w176" sent="8" para="2" offset="1056" length="2">de</wf>
+    <wf wid="w177" sent="8" para="2" offset="1059" length="2">EU</wf>
+    <wf wid="w178" sent="8" para="2" offset="1061" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Korting-->
+    <term tid="t166" type="open" lemma="korting" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w166"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--afdracht-->
+    <term tid="t167" type="open" lemma="afdracht" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t168" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--UnieNederland-->
+    <term tid="t169" type="open" lemma="UnieNederland" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--behoort-->
+    <term tid="t170" type="open" lemma="behoren" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--tot-->
+    <term tid="t171" type="close" lemma="tot" pos="P" morphofeat="prep">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t172" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--grootste-->
+    <term tid="t173" type="open" lemma="groot|groots" pos="G" morphofeat="adj">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--nettobetalers-->
+    <term tid="t174" type="open" lemma="nettobetalers" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t175" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t176" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term tid="t177" type="open" lemma="EU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t178" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

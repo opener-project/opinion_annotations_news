@@ -1,0 +1,12 @@
+w378	They	they	Q			0		0		0		0	NON-OPINIONATED	2		0		0		0	377	true	14
+w379	waved	wave	V			0		0		0		0	NON-OPINIONATED	2		0		0		0	378	true	14
+w380	at	at	P			0		0		0		0	NON-OPINIONATED	2		0		0		0	379	true	14
+w381	relatives	relative	N			0		0		0		0	NON-OPINIONATED	2		0		0		0	380	true	14
+w382	from	from	P			0		0		0		0	NON-OPINIONATED	2		0		0		0	381	true	14
+w383	behind	behind	P			0		0		0		0	NON-OPINIONATED	2		0		0		0	382	true	14
+w384	the	the	D			0		0		0		0	NON-OPINIONATED	2		0		0		0	383	true	14
+w385	glass	glass	N			0		0		0		0	NON-OPINIONATED	2		0		0		0	384	true	14
+w470	That	that	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	469	true	19
+w471	was	be	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	470	true	19
+w472	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	471	true	19
+w473	point	point	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	472	true	19

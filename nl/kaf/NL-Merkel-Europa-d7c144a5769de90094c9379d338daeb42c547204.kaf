@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:57:13CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:39CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w31" sent="4" para="2" offset="165" length="9">Cyprioten</wf>
+    <wf wid="w32" sent="4" para="2" offset="175" length="12">demonstreren</wf>
+    <wf wid="w33" sent="4" para="2" offset="188" length="5">tegen</wf>
+    <wf wid="w34" sent="4" para="2" offset="194" length="3">het</wf>
+    <wf wid="w35" sent="4" para="2" offset="198" length="12">reddingsplan</wf>
+    <wf wid="w36" sent="4" para="2" offset="210" length="1">.</wf>
+    <wf wid="w207" sent="13" para="2" offset="1222" length="9">President</wf>
+    <wf wid="w208" sent="13" para="2" offset="1232" length="5">Nicos</wf>
+    <wf wid="w209" sent="13" para="2" offset="1238" length="12">Anastasiades</wf>
+    <wf wid="w210" sent="13" para="2" offset="1251" length="5">heeft</wf>
+    <wf wid="w211" sent="13" para="2" offset="1257" length="2">al</wf>
+    <wf wid="w212" sent="13" para="2" offset="1260" length="12">aangekondigd</wf>
+    <wf wid="w213" sent="13" para="2" offset="1273" length="8">woensdag</wf>
+    <wf wid="w214" sent="13" para="2" offset="1282" length="3">met</wf>
+    <wf wid="w215" sent="13" para="2" offset="1286" length="13">partijleiders</wf>
+    <wf wid="w216" sent="13" para="2" offset="1300" length="2">te</wf>
+    <wf wid="w217" sent="13" para="2" offset="1303" length="4">gaan</wf>
+    <wf wid="w218" sent="13" para="2" offset="1308" length="6">praten</wf>
+    <wf wid="w219" sent="13" para="2" offset="1315" length="4">over</wf>
+    <wf wid="w220" sent="13" para="2" offset="1320" length="13">alternatieven</wf>
+    <wf wid="w221" sent="13" para="2" offset="1333" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Cyprioten-->
+    <term tid="t31" type="open" lemma="Cyprioot" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--demonstreren-->
+    <term tid="t32" type="open" lemma="demonstreren" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--tegen-->
+    <term tid="t33" type="close" lemma="tegen" pos="P" morphofeat="prep">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t34" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--reddingsplan-->
+    <term tid="t35" type="open" lemma="reddingsplan" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t36" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--President-->
+    <term tid="t207" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--Nicos-->
+    <term tid="t208" type="open" lemma="Nicos" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--Anastasiades-->
+    <term tid="t209" type="open" lemma="Anastasiades" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--heeft-->
+    <term tid="t210" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t211" type="open" lemma="al" pos="A" morphofeat="adv">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--aangekondigd-->
+    <term tid="t212" type="open" lemma="aankondigen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--woensdag-->
+    <term tid="t213" type="open" lemma="woensdag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t214" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--partijleiders-->
+    <term tid="t215" type="open" lemma="partijleider" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t216" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--gaan-->
+    <term tid="t217" type="open" lemma="gaan" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--praten-->
+    <term tid="t218" type="open" lemma="praten" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t219" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--alternatieven-->
+    <term tid="t220" type="open" lemma="alternatief" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t221" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Cyprioten-->
+        <span>
+          <target id="t31"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--het reddingsplan-->
+        <span>
+          <target id="t34"/>
+          <target id="t35"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--demonstreren tegen-->
+        <span>
+          <target id="t32"/>
+          <target id="t33"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+          <target id="t221"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

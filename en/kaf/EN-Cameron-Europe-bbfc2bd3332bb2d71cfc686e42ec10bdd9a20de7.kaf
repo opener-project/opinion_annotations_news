@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:40Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:40Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:24:01" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:23:18CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="8" para="2" offset="1302" length="3" wid="w236">The</wf>
+    <wf sent="8" para="2" offset="1306" length="5" wid="w237">first</wf>
+    <wf sent="8" para="2" offset="1312" length="2" wid="w238">19</wf>
+    <wf sent="8" para="2" offset="1315" length="4" wid="w239">will</wf>
+    <wf sent="8" para="2" offset="1320" length="2" wid="w240">be</wf>
+    <wf sent="8" para="2" offset="1323" length="11" wid="w241">transferred</wf>
+    <wf sent="8" para="2" offset="1335" length="4" wid="w242">next</wf>
+    <wf sent="8" para="2" offset="1340" length="5" wid="w243">month</wf>
+    <wf sent="8" para="2" offset="1345" length="1" wid="w244">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t236">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--first-->
+    <term type="open" lemma="1" pos="G" morphofeat="JJ" tid="t237">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--19-->
+    <term type="close" lemma="19" pos="O" morphofeat="CD" tid="t238">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--will-->
+    <term type="close" lemma="will" pos="O" morphofeat="MD" tid="t239">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t240">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--transferred-->
+    <term type="open" lemma="transfer" pos="V" morphofeat="VBN" tid="t241">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--next-->
+    <term type="open" lemma="next" pos="G" morphofeat="JJ" tid="t242">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--month-->
+    <term type="open" lemma="month" pos="N" morphofeat="NN" tid="t243">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t244">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t236"/>
+          <target id="t237"/>
+          <target id="t238"/>
+          <target id="t239"/>
+          <target id="t240"/>
+          <target id="t241"/>
+          <target id="t242"/>
+          <target id="t243"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:13Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:13Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:30:49CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:35CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w170" sent="10" para="2" offset="974" length="3">Het</wf>
+    <wf wid="w171" sent="10" para="2" offset="978" length="3">ESM</wf>
+    <wf wid="w172" sent="10" para="2" offset="982" length="6">treedt</wf>
+    <wf wid="w173" sent="10" para="2" offset="989" length="2">in</wf>
+    <wf wid="w174" sent="10" para="2" offset="992" length="4">juli</wf>
+    <wf wid="w175" sent="10" para="2" offset="997" length="2">in</wf>
+    <wf wid="w176" sent="10" para="2" offset="1000" length="7">werking</wf>
+    <wf wid="w177" sent="10" para="2" offset="1007" length="1">.</wf>
+    <wf wid="w230" sent="13" para="2" offset="1296" length="1">'</wf>
+    <wf wid="w231" sent="13" para="2" offset="1297" length="5">China</wf>
+    <wf wid="w232" sent="13" para="2" offset="1303" length="6">steunt</wf>
+    <wf wid="w233" sent="13" para="2" offset="1310" length="6">Europa</wf>
+    <wf wid="w234" sent="13" para="2" offset="1317" length="3">bij</wf>
+    <wf wid="w235" sent="13" para="2" offset="1321" length="3">het</wf>
+    <wf wid="w236" sent="13" para="2" offset="1325" length="7">stutten</wf>
+    <wf wid="w237" sent="13" para="2" offset="1333" length="3">van</wf>
+    <wf wid="w238" sent="13" para="2" offset="1337" length="2">de</wf>
+    <wf wid="w239" sent="13" para="2" offset="1340" length="11">stabiliteit</wf>
+    <wf wid="w240" sent="13" para="2" offset="1352" length="3">van</wf>
+    <wf wid="w241" sent="13" para="2" offset="1356" length="2">de</wf>
+    <wf wid="w242" sent="13" para="2" offset="1359" length="4">euro</wf>
+    <wf wid="w243" sent="13" para="2" offset="1363" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Het-->
+    <term tid="t170" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--ESM-->
+    <term tid="t171" type="open" lemma="ESM" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--treedt-->
+    <term tid="t172" type="open" lemma="treden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t173" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--juli-->
+    <term tid="t174" type="open" lemma="juli" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t175" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--werking-->
+    <term tid="t176" type="open" lemma="werking" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t177" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t230" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--China-->
+    <term tid="t231" type="open" lemma="China" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--steunt-->
+    <term tid="t232" type="open" lemma="steunen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t233" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--bij-->
+    <term tid="t234" type="close" lemma="bij" pos="P" morphofeat="prep">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t235" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--stutten-->
+    <term tid="t236" type="open" lemma="stut" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w236"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--van-->
+    <term tid="t237" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t238" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--stabiliteit-->
+    <term tid="t239" type="open" lemma="stabiliteit" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w239"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--van-->
+    <term tid="t240" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t241" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t242" type="open" lemma="euro" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t243" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--de euro-->
+        <span>
+          <target id="t241"/>
+          <target id="t242"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--stabiliteit-->
+        <span>
+          <target id="t239"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--China-->
+        <span>
+          <target id="t231"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Europa-->
+        <span>
+          <target id="t233"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--steunt-->
+        <span>
+          <target id="t232"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stabiliteit van de euro-->
+        <span>
+          <target id="t239"/>
+          <target id="t240"/>
+          <target id="t241"/>
+          <target id="t242"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--stutten-->
+        <span>
+          <target id="t236"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

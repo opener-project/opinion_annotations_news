@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:28:09Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:28:09Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:58:55CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:28:30CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w21" sent="5" para="3" offset="108" length="11">Autobranche</wf>
+    <wf wid="w22" sent="5" para="3" offset="120" length="8">fürchtet</wf>
+    <wf wid="w23" sent="5" para="3" offset="129" length="5">lange</wf>
+    <wf wid="w24" sent="5" para="3" offset="135" length="6">Flaute</wf>
+    <wf wid="w25" sent="5" para="3" offset="142" length="2">in</wf>
+    <wf wid="w26" sent="5" para="3" offset="145" length="6">Europa</wf>
+  </text>
+  <terms>
+    <term lemma="Autobranche" morphofeat="NN" pos="N" tid="t21" type="open">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="fürchten" morphofeat="VVFIN" pos="V" tid="t22" type="open">
+      <span>
+        <target id="w22"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="lange" morphofeat="ADV" pos="A" tid="t23" type="open">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="Flaute" morphofeat="NN" pos="N" tid="t24" type="open">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t25" type="close">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="Europa" morphofeat="NE" pos="R" tid="t26" type="open">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Autobranche-->
+        <span>
+          <target id="t21"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--lange Flaute-->
+        <span>
+          <target id="t23"/>
+          <target id="t24"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--fürchtet-->
+        <span>
+          <target id="t22"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

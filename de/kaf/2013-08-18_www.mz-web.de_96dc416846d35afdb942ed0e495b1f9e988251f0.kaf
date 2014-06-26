@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T10:27:42Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T10:27:42Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:06:58CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T11:28:05CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w186" sent="16" para="8" offset="993" length="3">Der</wf>
+    <wf wid="w187" sent="16" para="8" offset="997" length="17">Koalitionspartner</wf>
+    <wf wid="w188" sent="16" para="8" offset="1015" length="3">FDP</wf>
+    <wf wid="w189" sent="16" para="8" offset="1019" length="9">reagierte</wf>
+    <wf wid="w190" sent="16" para="8" offset="1029" length="9">verärgert</wf>
+    <wf wid="w191" sent="16" para="8" offset="1038" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t186" type="close">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <term lemma="Koalitionspartner" morphofeat="NN" pos="N" tid="t187" type="open">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <term lemma="FDP" morphofeat="NE" pos="R" tid="t188" type="open">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <term lemma="reagieren" morphofeat="VVFIN" pos="V" tid="t189" type="open">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <term lemma="verärgert" morphofeat="ADJD" pos="G" tid="t190" type="open">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t191" type="open">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Der Koalitionspartner FDP-->
+        <span>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-neutral">
+        <!--reagierte-->
+        <span>
+          <target id="t189"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Der Koalitionspartner FDP-->
+        <span>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--verärgert-->
+        <span>
+          <target id="t190"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,17 @@
+w441	.	.	O			0		0		0		0		0		0		0		0	440	true	16
+w442	He	he	Q			0		0		0		0		0		0		0		0	441	true	17
+w443	said	say	V			0		0		0		0		0		0		0		0	442	true	17
+w444	:	:	O			0		0		0		0		0		0		0		0	443	true	17
+w445	"	"	N			0		0		0		0		0		0		0		0	444	true	17
+w446	We	we	Q			0		0		0		0		0		0		0		0	445	true	17
+w447	are	be	V			0		0		0		0		0		0		0		0	446	true	17
+w448	continuing	continue	V			0		0		0		0		0		0		0		0	447	true	17
+w449	to	to	P			0		0		0		0		0		0		0		0	448	true	17
+w450	have	have	V			0		0		0		0		0		0		0		0	449	true	17
+w451	conversations	conversation	N			0		0		0		0		0		0		0		0	450	true	17
+w452	with	with	P			0		0		0		0		0		0		0		0	451	true	17
+w453	the	the	D			0		0		0		0		0		0		0		0	452	true	17
+w454	Israeli	israeli	G			0		0		0		0		0		0		0		0	453	true	17
+w455	government	government	N			0		0		0		0		0		0		0		0	454	true	17
+w456	and	and	C			0		0		0		0		0		0		0		0	455	true	17
+w457	others	other	N			0		0		0		0		0		0		0		0	456	true	17

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:21:48Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:21:48Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:09:28CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:22:11CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w540" sent="34" para="14" offset="3394" length="5">Letta</wf>
+    <wf wid="w541" sent="34" para="14" offset="3400" length="8">kündigte</wf>
+    <wf wid="w542" sent="34" para="14" offset="3409" length="4">eine</wf>
+    <wf wid="w543" sent="34" para="14" offset="3414" length="8">radikale</wf>
+    <wf wid="w544" sent="34" para="14" offset="3423" length="6">Reform</wf>
+    <wf wid="w545" sent="34" para="14" offset="3430" length="3">der</wf>
+    <wf wid="w546" sent="34" para="14" offset="3434" length="13">Institutionen</wf>
+    <wf wid="w547" sent="34" para="14" offset="3448" length="3">und</wf>
+    <wf wid="w548" sent="34" para="14" offset="3452" length="3">der</wf>
+    <wf wid="w549" sent="34" para="14" offset="3456" length="7">Politik</wf>
+    <wf wid="w550" sent="34" para="14" offset="3464" length="2">an</wf>
+    <wf wid="w551" sent="34" para="14" offset="3466" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Letta" morphofeat="NE unknown_lemma" pos="O" tid="t540" type="open">
+      <span>
+        <target id="w540"/>
+      </span>
+    </term>
+    <term lemma="kündigen" morphofeat="VVFIN" pos="V" tid="t541" type="open">
+      <span>
+        <target id="w541"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t542" type="close">
+      <span>
+        <target id="w542"/>
+      </span>
+    </term>
+    <term lemma="radikal" morphofeat="ADJA" pos="G" tid="t543" type="open">
+      <span>
+        <target id="w543"/>
+      </span>
+    </term>
+    <term lemma="Reform" morphofeat="NN" pos="N" tid="t544" type="open">
+      <span>
+        <target id="w544"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t545" type="close">
+      <span>
+        <target id="w545"/>
+      </span>
+    </term>
+    <term lemma="Institution" morphofeat="NN" pos="N" tid="t546" type="open">
+      <span>
+        <target id="w546"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t547" type="close">
+      <span>
+        <target id="w547"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t548" type="close">
+      <span>
+        <target id="w548"/>
+      </span>
+    </term>
+    <term lemma="Politik" morphofeat="NN" pos="N" tid="t549" type="open">
+      <span>
+        <target id="w549"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="PTKVZ" pos="V" tid="t550" type="open">
+      <span>
+        <target id="w550"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t551" type="open">
+      <span>
+        <target id="w551"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Reform-->
+        <span>
+          <target id="t544"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--radikale-->
+        <span>
+          <target id="t543"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

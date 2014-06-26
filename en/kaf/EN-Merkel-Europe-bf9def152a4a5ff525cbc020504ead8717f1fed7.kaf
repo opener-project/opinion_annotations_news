@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:18Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:18Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:00:54" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:20:16CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="171" length="3" wid="w30">The</wf>
+    <wf sent="3" para="2" offset="175" length="12" wid="w31">inauguration</wf>
+    <wf sent="3" para="2" offset="188" length="8" wid="w32">ceremony</wf>
+    <wf sent="3" para="2" offset="197" length="2" wid="w33">of</wf>
+    <wf sent="3" para="2" offset="200" length="5" wid="w34">newly</wf>
+    <wf sent="3" para="2" offset="206" length="7" wid="w35">elected</wf>
+    <wf sent="3" para="2" offset="214" length="4" wid="w36">Pope</wf>
+    <wf sent="3" para="2" offset="219" length="2" wid="w37">of</wf>
+    <wf sent="3" para="2" offset="222" length="4" wid="w38">Rome</wf>
+    <wf sent="3" para="2" offset="227" length="7" wid="w39">Francis</wf>
+    <wf sent="3" para="2" offset="235" length="8" wid="w40">launched</wf>
+    <wf sent="3" para="2" offset="244" length="2" wid="w41">in</wf>
+    <wf sent="3" para="2" offset="247" length="7" wid="w42">Vatican</wf>
+    <wf sent="3" para="2" offset="254" length="1" wid="w43">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t30">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--inauguration-->
+    <term type="open" lemma="inauguration" pos="N" morphofeat="NN" tid="t31">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--ceremony-->
+    <term type="open" lemma="ceremony" pos="N" morphofeat="NN" tid="t32">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t33">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--newly-->
+    <term type="open" lemma="newly" pos="A" morphofeat="RB" tid="t34">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--elected-->
+    <term type="open" lemma="elect" pos="V" morphofeat="VBN" tid="t35">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--Pope-->
+    <term type="close" lemma="Pope" pos="R" morphofeat="NNP" tid="t36">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t37">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--Rome-->
+    <term type="close" lemma="Rome" pos="R" morphofeat="NNP" tid="t38">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--Francis-->
+    <term type="close" lemma="Francis" pos="R" morphofeat="NNP" tid="t39">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--launched-->
+    <term type="open" lemma="launch" pos="V" morphofeat="VBD" tid="t40">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t41">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--Vatican-->
+    <term type="close" lemma="Vatican" pos="R" morphofeat="NNP" tid="t42">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t43">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

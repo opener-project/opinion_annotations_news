@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:57:56CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w267" sent="16" para="2" offset="1548" length="1">"</wf>
+    <wf wid="w268" sent="16" para="2" offset="1549" length="5">Rutte</wf>
+    <wf wid="w269" sent="16" para="2" offset="1555" length="3">wil</wf>
+    <wf wid="w270" sent="16" para="2" offset="1559" length="4">geen</wf>
+    <wf wid="w271" sent="16" para="2" offset="1564" length="15">constitutioneel</wf>
+    <wf wid="w272" sent="16" para="2" offset="1580" length="5">debat</wf>
+    <wf wid="w273" sent="16" para="2" offset="1585" length="1">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term tid="t267" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--Rutte-->
+    <term tid="t268" type="open" lemma="Rutte" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t269" type="open" lemma="wil" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--geen-->
+    <term tid="t270" type="close" lemma="geen" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--constitutioneel-->
+    <term tid="t271" type="open" lemma="constitutioneel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--debat-->
+    <term tid="t272" type="open" lemma="debat" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t273" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Rutte-->
+        <span>
+          <target id="t268"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--constitutioneel debat-->
+        <span>
+          <target id="t271"/>
+          <target id="t272"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--wil-->
+        <span>
+          <target id="t269"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Rutte-->
+        <span>
+          <target id="t268"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--constitutioneel debat-->
+        <span>
+          <target id="t271"/>
+          <target id="t272"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--geen-->
+        <span>
+          <target id="t270"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

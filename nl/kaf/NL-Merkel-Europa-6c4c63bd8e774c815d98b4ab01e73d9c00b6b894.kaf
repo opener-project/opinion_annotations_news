@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:13Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:13Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:48:58CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w210" sent="10" para="2" offset="1211" length="4">Maar</wf>
+    <wf wid="w211" sent="10" para="2" offset="1216" length="6">Londen</wf>
+    <wf wid="w212" sent="10" para="2" offset="1223" length="3">kan</wf>
+    <wf wid="w213" sent="10" para="2" offset="1227" length="4">niet</wf>
+    <wf wid="w214" sent="10" para="2" offset="1232" length="4">naar</wf>
+    <wf wid="w215" sent="10" para="2" offset="1237" length="8">believen</wf>
+    <wf wid="w216" sent="10" para="2" offset="1246" length="2">de</wf>
+    <wf wid="w217" sent="10" para="2" offset="1249" length="8">aspecten</wf>
+    <wf wid="w218" sent="10" para="2" offset="1258" length="3">van</wf>
+    <wf wid="w219" sent="10" para="2" offset="1262" length="4">zijn</wf>
+    <wf wid="w220" sent="10" para="2" offset="1267" length="12">lidmaatschap</wf>
+    <wf wid="w221" sent="10" para="2" offset="1280" length="6">kiezen</wf>
+    <wf wid="w222" sent="10" para="2" offset="1286" length="1">,</wf>
+    <wf wid="w223" sent="10" para="2" offset="1288" length="5">vindt</wf>
+    <wf wid="w224" sent="10" para="2" offset="1294" length="11">Westerwelle</wf>
+    <wf wid="w225" sent="10" para="2" offset="1305" length="1">,</wf>
+    <wf wid="w226" sent="10" para="2" offset="1307" length="3">die</wf>
+    <wf wid="w227" sent="10" para="2" offset="1311" length="5">eraan</wf>
+    <wf wid="w228" sent="10" para="2" offset="1317" length="9">toevoegde</wf>
+    <wf wid="w229" sent="10" para="2" offset="1327" length="3">dat</wf>
+    <wf wid="w230" sent="10" para="2" offset="1331" length="2">de</wf>
+    <wf wid="w231" sent="10" para="2" offset="1334" length="2">EU</wf>
+    <wf wid="w232" sent="10" para="2" offset="1337" length="4">niet</wf>
+    <wf wid="w233" sent="10" para="2" offset="1342" length="6">minder</wf>
+    <wf wid="w234" sent="10" para="2" offset="1349" length="4">maar</wf>
+    <wf wid="w235" sent="10" para="2" offset="1354" length="4">meer</wf>
+    <wf wid="w236" sent="10" para="2" offset="1359" length="10">integratie</wf>
+    <wf wid="w237" sent="10" para="2" offset="1370" length="5">nodig</wf>
+    <wf wid="w238" sent="10" para="2" offset="1376" length="5">heeft</wf>
+    <wf wid="w239" sent="10" para="2" offset="1381" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Maar-->
+    <term tid="t210" type="open" lemma="maar" pos="A" morphofeat="adv">
+      <span>
+        <target id="w210"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Londen-->
+    <term tid="t211" type="open" lemma="Londen" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--kan-->
+    <term tid="t212" type="open" lemma="kunnen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t213" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--naar-->
+    <term tid="t214" type="close" lemma="naar" pos="P" morphofeat="prep">
+      <span>
+        <target id="w214"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--believen-->
+    <term tid="t215" type="open" lemma="believen" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w215"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--de-->
+    <term tid="t216" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--aspecten-->
+    <term tid="t217" type="open" lemma="aspect" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t218" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t219" type="close" lemma="zijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--lidmaatschap-->
+    <term tid="t220" type="open" lemma="lidmaatschap" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--kiezen-->
+    <term tid="t221" type="open" lemma="kiezen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w221"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t222" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--vindt-->
+    <term tid="t223" type="open" lemma="vinden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--Westerwelle-->
+    <term tid="t224" type="open" lemma="Westerwelle" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t225" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--die-->
+    <term tid="t226" type="close" lemma="die" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--eraan-->
+    <term tid="t227" type="close" lemma="eraan" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--toevoegde-->
+    <term tid="t228" type="open" lemma="toevoegen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w228"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t229" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t230" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term tid="t231" type="open" lemma="EU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t232" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--minder-->
+    <term tid="t233" type="open" lemma="min" pos="G" morphofeat="adj">
+      <span>
+        <target id="w233"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--maar-->
+    <term tid="t234" type="open" lemma="maar" pos="A" morphofeat="adv">
+      <span>
+        <target id="w234"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--meer-->
+    <term tid="t235" type="open" lemma="meer" pos="A" morphofeat="adv">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--integratie-->
+    <term tid="t236" type="open" lemma="integratie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--nodig-->
+    <term tid="t237" type="open" lemma="nodig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--heeft-->
+    <term tid="t238" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t239" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Westerwelle-->
+        <span>
+          <target id="t224"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--integratie-->
+        <span>
+          <target id="t236"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--niet minder-->
+        <span>
+          <target id="t232"/>
+          <target id="t233"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Westerwelle-->
+        <span>
+          <target id="t224"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--integratie-->
+        <span>
+          <target id="t236"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--maar meer-->
+        <span>
+          <target id="t234"/>
+          <target id="t235"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

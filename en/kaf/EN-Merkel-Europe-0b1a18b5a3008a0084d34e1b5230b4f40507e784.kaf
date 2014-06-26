@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:20:06" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:33:50CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="320" length="5" wid="w65">Asked</wf>
+    <wf sent="3" para="2" offset="326" length="4" wid="w66">what</wf>
+    <wf sent="3" para="2" offset="331" length="5" wid="w67">would</wf>
+    <wf sent="3" para="2" offset="337" length="6" wid="w68">happen</wf>
+    <wf sent="3" para="2" offset="344" length="2" wid="w69">if</wf>
+    <wf sent="3" para="2" offset="347" length="7" wid="w70">Britain</wf>
+    <wf sent="3" para="2" offset="355" length="4" wid="w71">left</wf>
+    <wf sent="3" para="2" offset="359" length="1" wid="w72">,</wf>
+    <wf sent="3" para="2" offset="361" length="3" wid="w73">the</wf>
+    <wf sent="3" para="2" offset="365" length="5" wid="w74">Dutch</wf>
+    <wf sent="3" para="2" offset="371" length="6" wid="w75">leader</wf>
+    <wf sent="3" para="2" offset="378" length="4" wid="w76">said</wf>
+    <wf sent="3" para="2" offset="382" length="1" wid="w77">:</wf>
+    <wf sent="3" para="2" offset="384" length="1" wid="w78">"</wf>
+    <wf sent="3" para="2" offset="385" length="1" wid="w79">I</wf>
+    <wf sent="3" para="2" offset="386" length="2" wid="w80">'m</wf>
+    <wf sent="3" para="2" offset="389" length="3" wid="w81">not</wf>
+    <wf sent="3" para="2" offset="393" length="4" wid="w82">very</wf>
+    <wf sent="3" para="2" offset="398" length="7" wid="w83">worried</wf>
+    <wf sent="3" para="2" offset="406" length="4" wid="w84">that</wf>
+    <wf sent="3" para="2" offset="411" length="2" wid="w85">it</wf>
+    <wf sent="3" para="2" offset="414" length="4" wid="w86">will</wf>
+    <wf sent="3" para="2" offset="419" length="6" wid="w87">happen</wf>
+    <wf sent="3" para="2" offset="425" length="1" wid="w88">.</wf>
+  </text>
+  <terms>
+    <!--Asked-->
+    <term type="open" lemma="ask" pos="V" morphofeat="VBN" tid="t65">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--what-->
+    <term type="close" lemma="what" pos="Q" morphofeat="WP" tid="t66">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--would-->
+    <term type="close" lemma="would" pos="O" morphofeat="MD" tid="t67">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--happen-->
+    <term type="open" lemma="happen" pos="V" morphofeat="VB" tid="t68">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--if-->
+    <term type="close" lemma="if" pos="P" morphofeat="IN" tid="t69">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--Britain-->
+    <term type="close" lemma="Britain" pos="R" morphofeat="NNP" tid="t70">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--left-->
+    <term type="open" lemma="leave" pos="V" morphofeat="VBD" tid="t71">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t72">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t73">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--Dutch-->
+    <term type="close" lemma="Dutch" pos="R" morphofeat="NNP" tid="t74">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--leader-->
+    <term type="open" lemma="leader" pos="N" morphofeat="NN" tid="t75">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t76">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--:-->
+    <term type="close" lemma=":" pos="O" morphofeat=":" tid="t77">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t78">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--I-->
+    <term type="close" lemma="i" pos="Q" morphofeat="PRP" tid="t79">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--'m-->
+    <term type="open" lemma="'m" pos="V" morphofeat="VBP" tid="t80">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t81">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--very-->
+    <term type="open" lemma="very" pos="A" morphofeat="RB" tid="t82">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--worried-->
+    <term type="open" lemma="worried" pos="G" morphofeat="JJ" tid="t83">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="P" morphofeat="IN" tid="t84">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t85">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--will-->
+    <term type="close" lemma="will" pos="O" morphofeat="MD" tid="t86">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--happen-->
+    <term type="open" lemma="happen" pos="V" morphofeat="VB" tid="t87">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t88">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Dutch leader-->
+        <span>
+          <target id="t74"/>
+          <target id="t75"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--it will happen-->
+        <span>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--said-->
+        <span>
+          <target id="t76"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Dutch leader-->
+        <span>
+          <target id="t74"/>
+          <target id="t75"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--it will happen-->
+        <span>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--not worried-->
+        <span>
+          <target id="t81"/>
+          <target id="t83"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

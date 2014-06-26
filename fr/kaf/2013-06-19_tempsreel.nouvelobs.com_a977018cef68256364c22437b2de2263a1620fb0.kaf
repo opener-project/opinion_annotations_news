@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:46:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:46:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:46:08Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:38:01CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w192" sent="9" para="7" offset="983" length="5">Cette</wf>
+    <wf wid="w193" sent="9" para="7" offset="989" length="4">fois</wf>
+    <wf wid="w194" sent="9" para="7" offset="993" length="1">,</wf>
+    <wf wid="w195" sent="9" para="7" offset="995" length="5">Obama</wf>
+    <wf wid="w196" sent="9" para="7" offset="1001" length="2">va</wf>
+    <wf wid="w197" sent="9" para="7" offset="1004" length="7">plaider</wf>
+    <wf wid="w198" sent="9" para="7" offset="1012" length="4">pour</wf>
+    <wf wid="w199" sent="9" para="7" offset="1017" length="2">un</wf>
+    <wf wid="w200" sent="9" para="7" offset="1020" length="11">désarmement</wf>
+    <wf wid="w201" sent="9" para="7" offset="1032" length="9">nucléaire</wf>
+    <wf wid="w202" sent="9" para="7" offset="1042" length="6">massif</wf>
+    <wf wid="w203" sent="9" para="7" offset="1048" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Cette-->
+    <term tid="t192" type="close" lemma="ce" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--fois-->
+    <term tid="t193" type="open" lemma="foi" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t194" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term tid="t195" type="open" lemma="Obama" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--va-->
+    <term tid="t196" type="open" lemma="aller" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--plaider-->
+    <term tid="t197" type="open" lemma="plaider" pos="V" morphofeat="VW">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t198" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t199" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--désarmement-->
+    <term tid="t200" type="open" lemma="désarmement" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--nucléaire-->
+    <term tid="t201" type="open" lemma="nucléaire" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--massif-->
+    <term tid="t202" type="open" lemma="massif" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t203" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Obama-->
+        <span>
+          <target id="t195"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--un désarmement nucléaire massif-->
+        <span>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--va plaider-->
+        <span>
+          <target id="t196"/>
+          <target id="t197"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

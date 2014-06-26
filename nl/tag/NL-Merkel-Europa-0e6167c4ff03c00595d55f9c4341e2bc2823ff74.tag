@@ -1,0 +1,9 @@
+w106	Merkel	Merkel	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	105	true	7
+w107	telefoneerde	telefoneren	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	106	true	7
+w108	vandaag	vandaag	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	107	true	7
+w109	met	met	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	108	true	7
+w110	de	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	109	true	7
+w111	Franse	Frans	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	110	true	7
+w112	president	president	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	111	true	7
+w113	François	François	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	112	true	7
+w114	Hollande	Hollande	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	113	true	7

@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:38:15Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:38:15Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:48:46CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:38:38CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w590" sent="33" para="18" offset="3674" length="4">Auch</wf>
+    <wf wid="w591" sent="33" para="18" offset="3679" length="15">Bundeskanzlerin</wf>
+    <wf wid="w592" sent="33" para="18" offset="3695" length="6">Angela</wf>
+    <wf wid="w593" sent="33" para="18" offset="3702" length="6">Merkel</wf>
+    <wf wid="w594" sent="33" para="18" offset="3709" length="1">(</wf>
+    <wf wid="w595" sent="33" para="18" offset="3710" length="3">CDU</wf>
+    <wf wid="w596" sent="33" para="18" offset="3713" length="1">)</wf>
+    <wf wid="w597" sent="33" para="18" offset="3715" length="11">unterstützt</wf>
+    <wf wid="w598" sent="33" para="18" offset="3727" length="6">diesen</wf>
+    <wf wid="w599" sent="33" para="18" offset="3734" length="4">Plan</wf>
+    <wf wid="w600" sent="33" para="18" offset="3738" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="auch" morphofeat="ADV" pos="A" tid="t590" type="open">
+      <span>
+        <target id="w590"/>
+      </span>
+    </term>
+    <term lemma="Bundeskanzlerin" morphofeat="NN" pos="N" tid="t591" type="open">
+      <span>
+        <target id="w591"/>
+      </span>
+    </term>
+    <term lemma="Angela" morphofeat="NE" pos="R" tid="t592" type="open">
+      <span>
+        <target id="w592"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t593" type="open">
+      <span>
+        <target id="w593"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="$(" pos="O" tid="t594" type="open">
+      <span>
+        <target id="w594"/>
+      </span>
+    </term>
+    <term lemma="CDU" morphofeat="NE" pos="R" tid="t595" type="open">
+      <span>
+        <target id="w595"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat="$(" pos="O" tid="t596" type="open">
+      <span>
+        <target id="w596"/>
+      </span>
+    </term>
+    <term lemma="unterstützen" morphofeat="VVFIN" pos="V" tid="t597" type="open">
+      <span>
+        <target id="w597"/>
+      </span>
+    </term>
+    <term lemma="dies" morphofeat="PDAT" pos="Q" tid="t598" type="close">
+      <span>
+        <target id="w598"/>
+      </span>
+    </term>
+    <term lemma="Plan" morphofeat="NN" pos="N" tid="t599" type="open">
+      <span>
+        <target id="w599"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t600" type="open">
+      <span>
+        <target id="w600"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Bundeskanzlerin Angela Merkel-->
+        <span>
+          <target id="t591"/>
+          <target id="t592"/>
+          <target id="t593"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--diesen Plan-->
+        <span>
+          <target id="t598"/>
+          <target id="t599"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--unterstützt-->
+        <span>
+          <target id="t597"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

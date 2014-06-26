@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T18:00:43Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T18:00:43Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:58:45CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T19:01:14CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w87" sent="6" para="4" offset="469" length="5">Einen</wf>
+    <wf wid="w88" sent="6" para="4" offset="475" length="10">Kompromiss</wf>
+    <wf wid="w89" sent="6" para="4" offset="486" length="2">zu</wf>
+    <wf wid="w90" sent="6" para="4" offset="489" length="6">finden</wf>
+    <wf wid="w91" sent="6" para="4" offset="495" length="1">,</wf>
+    <wf wid="w92" sent="6" para="4" offset="497" length="3">sei</wf>
+    <wf wid="w93" sent="6" para="4" offset="501" length="1">"</wf>
+    <wf wid="w94" sent="6" para="4" offset="502" length="4">sehr</wf>
+    <wf wid="w95" sent="6" para="4" offset="506" length="1">,</wf>
+    <wf wid="w96" sent="6" para="4" offset="508" length="4">sehr</wf>
+    <wf wid="w97" sent="6" para="4" offset="513" length="6">schwer</wf>
+    <wf wid="w98" sent="6" para="4" offset="519" length="1">"</wf>
+    <wf wid="w99" sent="6" para="4" offset="520" length="1">,</wf>
+    <wf wid="w100" sent="6" para="4" offset="522" length="4">hieß</wf>
+    <wf wid="w101" sent="6" para="4" offset="527" length="2">es</wf>
+    <wf wid="w102" sent="6" para="4" offset="530" length="2">in</wf>
+    <wf wid="w103" sent="6" para="4" offset="533" length="9">deutschen</wf>
+    <wf wid="w104" sent="6" para="4" offset="543" length="17">Regierungskreisen</wf>
+    <wf wid="w105" sent="6" para="4" offset="560" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t87" type="close">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <term lemma="Kompromiss" morphofeat="NN" pos="N" tid="t88" type="open">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="PTKZU" pos="O" tid="t89" type="open">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <term lemma="finden" morphofeat="VVINF" pos="V" tid="t90" type="open">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t91" type="open">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t92" type="open">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t93" type="open">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <term lemma="sehr" morphofeat="ADV" pos="A" tid="t94" type="open">
+      <span>
+        <target id="w94"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t95" type="open">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <term lemma="sehr" morphofeat="ADV" pos="A" tid="t96" type="open">
+      <span>
+        <target id="w96"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="schwer" morphofeat="ADJD" pos="G" tid="t97" type="open">
+      <span>
+        <target id="w97"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t98" type="open">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t99" type="open">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <term lemma="heißen" morphofeat="VVFIN" pos="V" tid="t100" type="open">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t101" type="close">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t102" type="close">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <term lemma="deutsch" morphofeat="ADJA" pos="G" tid="t103" type="open">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <term lemma="Regierungskreis" morphofeat="NN" pos="N" tid="t104" type="open">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t105" type="open">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--es-->
+        <span>
+          <target id="t101"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Einen Kompromiss zu finden-->
+        <span>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--sehr , sehr schwer-->
+        <span>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--es-->
+        <span>
+          <target id="t101"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Einen Kompromiss zu finden-->
+        <span>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--hieß-->
+        <span>
+          <target id="t100"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

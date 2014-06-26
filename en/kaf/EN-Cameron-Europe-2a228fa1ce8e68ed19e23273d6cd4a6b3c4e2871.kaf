@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:29Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:29Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:55:18" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:09:57CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="8" para="2" offset="1313" length="6" wid="w231">Syrian</wf>
+    <wf sent="8" para="2" offset="1320" length="9" wid="w232">officials</wf>
+    <wf sent="8" para="2" offset="1330" length="3" wid="w233">say</wf>
+    <wf sent="8" para="2" offset="1334" length="3" wid="w234">the</wf>
+    <wf sent="8" para="2" offset="1338" length="4" wid="w235">West</wf>
+    <wf sent="8" para="2" offset="1343" length="2" wid="w236">is</wf>
+    <wf sent="8" para="2" offset="1346" length="7" wid="w237">playing</wf>
+    <wf sent="8" para="2" offset="1354" length="4" wid="w238">into</wf>
+    <wf sent="8" para="2" offset="1359" length="3" wid="w239">the</wf>
+    <wf sent="8" para="2" offset="1363" length="5" wid="w240">hands</wf>
+    <wf sent="8" para="2" offset="1369" length="2" wid="w241">of</wf>
+    <wf sent="8" para="2" offset="1372" length="3" wid="w242">its</wf>
+    <wf sent="8" para="2" offset="1376" length="2" wid="w243">al</wf>
+    <wf sent="8" para="2" offset="1379" length="5" wid="w244">Qaeda</wf>
+    <wf sent="8" para="2" offset="1385" length="7" wid="w245">enemies</wf>
+    <wf sent="8" para="2" offset="1392" length="1" wid="w246">.</wf>
+  </text>
+  <terms>
+    <!--Syrian-->
+    <term type="open" lemma="syrian" pos="G" morphofeat="JJ" tid="t231">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--officials-->
+    <term type="open" lemma="official" pos="N" morphofeat="NNS" tid="t232">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--say-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBP" tid="t233">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t234">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--West-->
+    <term type="close" lemma="West" pos="R" morphofeat="NNP" tid="t235">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t236">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--playing-->
+    <term type="open" lemma="play" pos="V" morphofeat="VBG" tid="t237">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--into-->
+    <term type="close" lemma="into" pos="P" morphofeat="IN" tid="t238">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t239">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--hands-->
+    <term type="open" lemma="hand" pos="N" morphofeat="NNS" tid="t240">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t241">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--its-->
+    <term type="close" lemma="its" pos="Q" morphofeat="PRP$" tid="t242">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--al-->
+    <term type="open" lemma="al" pos="G" morphofeat="JJ" tid="t243">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--Qaeda-->
+    <term type="close" lemma="Qaeda" pos="R" morphofeat="NNP" tid="t244">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--enemies-->
+    <term type="open" lemma="enemy" pos="N" morphofeat="NNS" tid="t245">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t246">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--al Qaeda-->
+        <span>
+          <target id="t243"/>
+          <target id="t244"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--enemies-->
+        <span>
+          <target id="t245"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

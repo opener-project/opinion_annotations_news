@@ -1,0 +1,9 @@
+w1	David	David	R		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	0	true	1
+w2	Cameron	Cameron	R		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	1	true	1
+w3	wants	want	V		D-Positive	2	Opinion	4		0		0		0		0		0		0	2	true	1
+w4	EU	EU	R		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	3	true	1
+w5	monitors	monitor	N		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	4	true	1
+w6	on	on	P		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	5	true	1
+w7	Gibraltar	Gibraltar	R		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	6	true	1
+w8	's	's	O		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	7	true	1
+w9	border	border	N		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	8	true	1

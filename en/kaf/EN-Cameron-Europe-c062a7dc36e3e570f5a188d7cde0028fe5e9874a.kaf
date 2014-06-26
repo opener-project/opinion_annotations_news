@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:04:34Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:04:34Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:30:16" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:59:31CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="249" length="5" wid="w47">Fifty</wf>
+    <wf sent="3" para="2" offset="255" length="5" wid="w48">three</wf>
+    <wf sent="3" para="2" offset="261" length="4" wid="w49">Tory</wf>
+    <wf sent="3" para="2" offset="266" length="6" wid="w50">rebels</wf>
+    <wf sent="3" para="2" offset="273" length="2" wid="w51">or</wf>
+    <wf sent="3" para="2" offset="276" length="1" wid="w52">“</wf>
+    <wf sent="3" para="2" offset="277" length="12" wid="w53">Eurosceptics</wf>
+    <wf sent="3" para="2" offset="289" length="1" wid="w54">”</wf>
+    <wf sent="3" para="2" offset="291" length="6" wid="w55">joined</wf>
+    <wf sent="3" para="2" offset="298" length="4" wid="w56">with</wf>
+    <wf sent="3" para="2" offset="303" length="6" wid="w57">Labour</wf>
+    <wf sent="3" para="2" offset="310" length="2" wid="w58">to</wf>
+    <wf sent="3" para="2" offset="313" length="4" wid="w59">call</wf>
+    <wf sent="3" para="2" offset="318" length="3" wid="w60">for</wf>
+    <wf sent="3" para="2" offset="322" length="1" wid="w61">a</wf>
+    <wf sent="3" para="2" offset="324" length="10" wid="w62">real-terms</wf>
+    <wf sent="3" para="2" offset="335" length="3" wid="w63">cut</wf>
+    <wf sent="3" para="2" offset="339" length="2" wid="w64">in</wf>
+    <wf sent="3" para="2" offset="342" length="2" wid="w65">EU</wf>
+    <wf sent="3" para="2" offset="345" length="8" wid="w66">spending</wf>
+    <wf sent="3" para="2" offset="354" length="7" wid="w67">between</wf>
+    <wf sent="3" para="2" offset="362" length="4" wid="w68">2014</wf>
+    <wf sent="3" para="2" offset="367" length="3" wid="w69">and</wf>
+    <wf sent="3" para="2" offset="371" length="4" wid="w70">2020</wf>
+    <wf sent="3" para="2" offset="375" length="1" wid="w71">.</wf>
+  </text>
+  <terms>
+    <!--Fifty-->
+    <term type="open" lemma="fifty" pos="G" morphofeat="JJ" tid="t47">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--three-->
+    <term type="close" lemma="three" pos="O" morphofeat="CD" tid="t48">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--Tory-->
+    <term type="open" lemma="tory" pos="G" morphofeat="JJ" tid="t49">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--rebels-->
+    <term type="open" lemma="rebel" pos="N" morphofeat="NNS" tid="t50">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--or-->
+    <term type="close" lemma="or" pos="C" morphofeat="CC" tid="t51">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--“-->
+    <term type="open" lemma="“" pos="A" morphofeat="RBR|JJR" tid="t52">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--Eurosceptics-->
+    <term type="close" lemma="Eurosceptics" pos="R" morphofeat="NNPS" tid="t53">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="V" morphofeat="VBP" tid="t54">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--joined-->
+    <term type="open" lemma="join" pos="V" morphofeat="VBN" tid="t55">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t56">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--Labour-->
+    <term type="close" lemma="Labour" pos="R" morphofeat="NNP" tid="t57">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t58">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--call-->
+    <term type="open" lemma="call" pos="V" morphofeat="VB" tid="t59">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t60">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t61">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--real-terms-->
+    <term type="open" lemma="real-terms" pos="G" morphofeat="JJ" tid="t62">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--cut-->
+    <term type="open" lemma="cut" pos="N" morphofeat="NN" tid="t63">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t64">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term type="close" lemma="EU" pos="R" morphofeat="NNP" tid="t65">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--spending-->
+    <term type="open" lemma="spending" pos="N" morphofeat="NN" tid="t66">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--between-->
+    <term type="close" lemma="between" pos="P" morphofeat="IN" tid="t67">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--2014-->
+    <term type="close" lemma="2014" pos="O" morphofeat="CD" tid="t68">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t69">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--2020-->
+    <term type="close" lemma="2020" pos="O" morphofeat="CD" tid="t70">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t71">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--EU spending-->
+        <span>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--a real-terms cut-->
+        <span>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Fifty three Tory rebels-->
+        <span>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--a real-terms cut in EU spending-->
+        <span>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--call for-->
+        <span>
+          <target id="t59"/>
+          <target id="t60"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Labour-->
+        <span>
+          <target id="t57"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--a real-terms cut in EU spending-->
+        <span>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--call for-->
+        <span>
+          <target id="t59"/>
+          <target id="t60"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

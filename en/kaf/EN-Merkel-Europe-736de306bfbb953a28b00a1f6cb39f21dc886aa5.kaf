@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:00:14" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:13:37CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="11" para="2" offset="1959" length="3" wid="w346">The</wf>
+    <wf sent="11" para="2" offset="1963" length="6" wid="w347">United</wf>
+    <wf sent="11" para="2" offset="1970" length="6" wid="w348">States</wf>
+    <wf sent="11" para="2" offset="1977" length="10" wid="w349">classifies</wf>
+    <wf sent="11" para="2" offset="1988" length="9" wid="w350">Hezbollah</wf>
+    <wf sent="11" para="2" offset="1998" length="2" wid="w351">as</wf>
+    <wf sent="11" para="2" offset="2001" length="1" wid="w352">a</wf>
+    <wf sent="11" para="2" offset="2003" length="9" wid="w353">terrorist</wf>
+    <wf sent="11" para="2" offset="2013" length="12" wid="w354">organization</wf>
+    <wf sent="11" para="2" offset="2025" length="1" wid="w355">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t346">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--United-->
+    <term type="close" lemma="United" pos="R" morphofeat="NNP" tid="t347">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--States-->
+    <term type="close" lemma="States" pos="R" morphofeat="NNPS" tid="t348">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <!--classifies-->
+    <term type="open" lemma="classify" pos="V" morphofeat="VBZ" tid="t349">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <!--Hezbollah-->
+    <term type="close" lemma="Hezbollah" pos="R" morphofeat="NNP" tid="t350">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t351">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t352">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <!--terrorist-->
+    <term type="open" lemma="terrorist" pos="N" morphofeat="NN" tid="t353">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+    <!--organization-->
+    <term type="open" lemma="organization" pos="N" morphofeat="NN" tid="t354">
+      <span>
+        <target id="w354"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t355">
+      <span>
+        <target id="w355"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--organization-->
+        <span>
+          <target id="t354"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--terrorist-->
+        <span>
+          <target id="t353"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

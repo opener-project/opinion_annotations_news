@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:24:59CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w68" sent="4" para="2" offset="391" length="7">Volgens</wf>
+    <wf wid="w69" sent="4" para="2" offset="399" length="4">haar</wf>
+    <wf wid="w70" sent="4" para="2" offset="404" length="2">is</wf>
+    <wf wid="w71" sent="4" para="2" offset="407" length="3">een</wf>
+    <wf wid="w72" sent="4" para="2" offset="411" length="9">monetaire</wf>
+    <wf wid="w73" sent="4" para="2" offset="421" length="4">unie</wf>
+    <wf wid="w74" sent="4" para="2" offset="426" length="4">niet</wf>
+    <wf wid="w75" sent="4" para="2" offset="431" length="9">voldoende</wf>
+    <wf wid="w76" sent="4" para="2" offset="440" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Volgens-->
+    <term tid="t68" type="close" lemma="volgens" pos="P" morphofeat="prep">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--haar-->
+    <term tid="t69" type="close" lemma="haar" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t70" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t71" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--monetaire-->
+    <term tid="t72" type="open" lemma="monetair" pos="G" morphofeat="adj">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--unie-->
+    <term tid="t73" type="open" lemma="unie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w73"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--niet-->
+    <term tid="t74" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--voldoende-->
+    <term tid="t75" type="open" lemma="voldoende" pos="G" morphofeat="adj">
+      <span>
+        <target id="w75"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t76" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--haar-->
+        <span>
+          <target id="t69"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--een monetaire unie-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+          <target id="t73"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--niet voldoende-->
+        <span>
+          <target id="t74"/>
+          <target id="t75"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

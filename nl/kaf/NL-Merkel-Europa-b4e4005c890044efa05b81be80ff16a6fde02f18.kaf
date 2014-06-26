@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T16:16:48CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w203" sent="11" para="2" offset="1194" length="8">Hollande</wf>
+    <wf wid="w204" sent="11" para="2" offset="1203" length="5">keurt</wf>
+    <wf wid="w205" sent="11" para="2" offset="1209" length="2">de</wf>
+    <wf wid="w206" sent="11" para="2" offset="1212" length="7">strenge</wf>
+    <wf wid="w207" sent="11" para="2" offset="1220" length="13">bezuinigingen</wf>
+    <wf wid="w208" sent="11" para="2" offset="1234" length="2">af</wf>
+    <wf wid="w209" sent="11" para="2" offset="1237" length="2">en</wf>
+    <wf wid="w210" sent="11" para="2" offset="1240" length="5">vindt</wf>
+    <wf wid="w211" sent="11" para="2" offset="1246" length="3">dat</wf>
+    <wf wid="w212" sent="11" para="2" offset="1250" length="2">er</wf>
+    <wf wid="w213" sent="11" para="2" offset="1253" length="11">maatregelen</wf>
+    <wf wid="w214" sent="11" para="2" offset="1265" length="6">moeten</wf>
+    <wf wid="w215" sent="11" para="2" offset="1272" length="5">komen</wf>
+    <wf wid="w216" sent="11" para="2" offset="1278" length="2">de</wf>
+    <wf wid="w217" sent="11" para="2" offset="1281" length="11">economische</wf>
+    <wf wid="w218" sent="11" para="2" offset="1293" length="5">groei</wf>
+    <wf wid="w219" sent="11" para="2" offset="1299" length="10">stimuleren</wf>
+    <wf wid="w220" sent="11" para="2" offset="1309" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hollande-->
+    <term tid="t203" type="open" lemma="Hollande" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--keurt-->
+    <term tid="t204" type="open" lemma="keuren" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t205" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--strenge-->
+    <term tid="t206" type="open" lemma="streng" pos="G" morphofeat="adj">
+      <span>
+        <target id="w206"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--bezuinigingen-->
+    <term tid="t207" type="open" lemma="bezuiniging" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--af-->
+    <term tid="t208" type="open" lemma="af" pos="A" morphofeat="adv">
+      <span>
+        <target id="w208"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--en-->
+    <term tid="t209" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--vindt-->
+    <term tid="t210" type="open" lemma="vinden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t211" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--er-->
+    <term tid="t212" type="close" lemma="er" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--maatregelen-->
+    <term tid="t213" type="open" lemma="maatregel" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--moeten-->
+    <term tid="t214" type="open" lemma="moeten" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--komen-->
+    <term tid="t215" type="open" lemma="komen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t216" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--economische-->
+    <term tid="t217" type="open" lemma="economisch" pos="G" morphofeat="adj">
+      <span>
+        <target id="w217"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--groei-->
+    <term tid="t218" type="open" lemma="groei" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--stimuleren-->
+    <term tid="t219" type="open" lemma="stimuleren" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w219"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t220" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bezuinigingen-->
+        <span>
+          <target id="t207"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--strenge-->
+        <span>
+          <target id="t206"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

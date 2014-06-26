@@ -1,0 +1,15 @@
+w79	Het	het	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	78	true	5
+w80	was	wezen|zijn	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	79	true	5
+w81	de	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	80	true	5
+w82	eerste	een	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	81	true	5
+w83	keer	keer	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	82	true	5
+w84	dat	dat	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	83	true	5
+w85	de	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	84	true	5
+w86	Grieken	Griek	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	85	true	5
+w87	zich	zich	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	86	true	5
+w88	konden	kunnen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	87	true	5
+w89	uitspreken	uitspreken	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	88	true	5
+w90	over	over	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	89	true	5
+w91	het	het	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	90	true	5
+w92	bezuinigingspakket	bezuinigingspakket	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	91	true	5
+w93	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	92	true	5

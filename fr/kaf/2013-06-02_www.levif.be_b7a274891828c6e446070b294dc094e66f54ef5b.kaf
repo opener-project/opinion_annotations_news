@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:53:14Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:53:14Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:53:14Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:24:26CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w97" sent="7" para="7" offset="555" length="2">De</wf>
+    <wf wid="w98" sent="7" para="7" offset="558" length="10">nombreuses</wf>
+    <wf wid="w99" sent="7" para="7" offset="569" length="6">routes</wf>
+    <wf wid="w100" sent="7" para="7" offset="576" length="2">et</wf>
+    <wf wid="w101" sent="7" para="7" offset="579" length="5">voies</wf>
+    <wf wid="w102" sent="7" para="7" offset="585" length="7">ferrées</wf>
+    <wf wid="w103" sent="7" para="7" offset="593" length="3">ont</wf>
+    <wf wid="w104" sent="7" para="7" offset="597" length="3">été</wf>
+    <wf wid="w105" sent="7" para="7" offset="601" length="7">coupées</wf>
+    <wf wid="w106" sent="7" para="7" offset="609" length="2">en</wf>
+    <wf wid="w107" sent="7" para="7" offset="612" length="9">Allemagne</wf>
+    <wf wid="w108" sent="7" para="7" offset="621" length="1">,</wf>
+    <wf wid="w109" sent="7" para="7" offset="623" length="2">en</wf>
+    <wf wid="w110" sent="7" para="7" offset="626" length="8">Autriche</wf>
+    <wf wid="w111" sent="7" para="7" offset="635" length="2">et</wf>
+    <wf wid="w112" sent="7" para="7" offset="638" length="2">en</wf>
+    <wf wid="w113" sent="7" para="7" offset="641" length="10">République</wf>
+    <wf wid="w114" sent="7" para="7" offset="652" length="7">tchèque</wf>
+    <wf wid="w115" sent="7" para="7" offset="659" length="1">,</wf>
+    <wf wid="w116" sent="7" para="7" offset="661" length="2">où</wf>
+    <wf wid="w117" sent="7" para="7" offset="664" length="2">le</wf>
+    <wf wid="w118" sent="7" para="7" offset="667" length="12">gouvernement</wf>
+    <wf wid="w119" sent="7" para="7" offset="680" length="2">du</wf>
+    <wf wid="w120" sent="7" para="7" offset="683" length="7">Premier</wf>
+    <wf wid="w121" sent="7" para="7" offset="691" length="8">ministre</wf>
+    <wf wid="w122" sent="7" para="7" offset="700" length="4">Petr</wf>
+    <wf wid="w123" sent="7" para="7" offset="705" length="5">Necas</wf>
+    <wf wid="w124" sent="7" para="7" offset="711" length="1">a</wf>
+    <wf wid="w125" sent="7" para="7" offset="713" length="7">décrété</wf>
+    <wf wid="w126" sent="7" para="7" offset="721" length="2">l'</wf>
+    <wf wid="w127" sent="7" para="7" offset="723" length="4">état</wf>
+    <wf wid="w128" sent="7" para="7" offset="728" length="2">d'</wf>
+    <wf wid="w129" sent="7" para="7" offset="730" length="7">urgence</wf>
+    <wf wid="w130" sent="7" para="7" offset="738" length="4">dans</wf>
+    <wf wid="w131" sent="7" para="7" offset="743" length="9">plusieurs</wf>
+    <wf wid="w132" sent="7" para="7" offset="753" length="7">régions</wf>
+    <wf wid="w133" sent="7" para="7" offset="760" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t97" type="close" lemma="un" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--nombreuses-->
+    <term tid="t98" type="open" lemma="nombreux" pos="G" morphofeat="Afp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--routes-->
+    <term tid="t99" type="open" lemma="route" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t100" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--voies-->
+    <term tid="t101" type="open" lemma="voie" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--ferrées-->
+    <term tid="t102" type="open" lemma="ferrer" pos="G" morphofeat="Afp">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--ont-->
+    <term tid="t103" type="open" lemma="avoir" pos="V" morphofeat="VP3p">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--été-->
+    <term tid="t104" type="open" lemma="être" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--coupées-->
+    <term tid="t105" type="open" lemma="couper" pos="V" morphofeat="VKfp">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t106" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--Allemagne-->
+    <term tid="t107" type="open" lemma="Allemagne" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t108" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t109" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--Autriche-->
+    <term tid="t110" type="open" lemma="Autriche" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t111" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t112" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--République-->
+    <term tid="t113" type="open" lemma="république" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--tchèque-->
+    <term tid="t114" type="open" lemma="tchèque" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t115" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--où-->
+    <term tid="t116" type="close" lemma="où" pos="P" morphofeat="PROR3fs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t117" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--gouvernement-->
+    <term tid="t118" type="open" lemma="gouvernement" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t119" type="close" lemma="du" pos="P" morphofeat="P">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--Premier-->
+    <term tid="t120" type="open" lemma="premier" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--ministre-->
+    <term tid="t121" type="open" lemma="ministre" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--Petr-->
+    <term tid="t122" type="open" lemma="Petr" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--Necas-->
+    <term tid="t123" type="open" lemma="Necas" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t124" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--décrété-->
+    <term tid="t125" type="open" lemma="décréter" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t126" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--état-->
+    <term tid="t127" type="open" lemma="état" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--d'-->
+    <term tid="t128" type="close" lemma="d'" pos="P" morphofeat="P">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--urgence-->
+    <term tid="t129" type="open" lemma="urgence" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--dans-->
+    <term tid="t130" type="close" lemma="dans" pos="P" morphofeat="P">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--plusieurs-->
+    <term tid="t131" type="close" lemma="plusieurs" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--régions-->
+    <term tid="t132" type="open" lemma="région" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t133" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+          <target id="t132"/>
+          <target id="t133"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

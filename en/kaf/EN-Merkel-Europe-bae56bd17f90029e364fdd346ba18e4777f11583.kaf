@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:18Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:18Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:00:49" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:44:48CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:22CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="6" para="2" offset="957" length="3" wid="w189">The</wf>
+    <wf sent="6" para="2" offset="961" length="3" wid="w190">ECB</wf>
+    <wf sent="6" para="2" offset="965" length="9" wid="w191">Governing</wf>
+    <wf sent="6" para="2" offset="975" length="7" wid="w192">Council</wf>
+    <wf sent="6" para="2" offset="983" length="4" wid="w193">gave</wf>
+    <wf sent="6" para="2" offset="988" length="4" wid="w194">this</wf>
+    <wf sent="6" para="2" offset="993" length="4" wid="w195">wish</wf>
+    <wf sent="6" para="2" offset="998" length="3" wid="w196">the</wf>
+    <wf sent="6" para="2" offset="1002" length="5" wid="w197">green</wf>
+    <wf sent="6" para="2" offset="1008" length="5" wid="w198">light</wf>
+    <wf sent="6" para="2" offset="1013" length="1" wid="w199">,</wf>
+    <wf sent="6" para="2" offset="1015" length="3" wid="w200">the</wf>
+    <wf sent="6" para="2" offset="1019" length="5" wid="w201">paper</wf>
+    <wf sent="6" para="2" offset="1025" length="4" wid="w202">said</wf>
+    <wf sent="6" para="2" offset="1029" length="1" wid="w203">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t189">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--ECB-->
+    <term type="close" lemma="ECB" pos="R" morphofeat="NNP" tid="t190">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--Governing-->
+    <term type="close" lemma="Governing" pos="R" morphofeat="NNP" tid="t191">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--Council-->
+    <term type="close" lemma="Council" pos="R" morphofeat="NNP" tid="t192">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--gave-->
+    <term type="open" lemma="give" pos="V" morphofeat="VBD" tid="t193">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--this-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t194">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--wish-->
+    <term type="open" lemma="wish" pos="N" morphofeat="NN" tid="t195">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t196">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--green-->
+    <term type="open" lemma="green" pos="G" morphofeat="JJ" tid="t197">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--light-->
+    <term type="open" lemma="light" pos="N" morphofeat="NN" tid="t198">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t199">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t200">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--paper-->
+    <term type="open" lemma="paper" pos="N" morphofeat="NN" tid="t201">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t202">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t203">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--light-->
+        <span>
+          <target id="t198"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--green-->
+        <span>
+          <target id="t197"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--wish-->
+        <span>
+          <target id="t195"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

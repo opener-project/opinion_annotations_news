@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:45:40Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:45:40Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:45:40Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:36:14CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w29" sent="4" para="4" offset="158" length="4">Coup</wf>
+    <wf wid="w30" sent="4" para="4" offset="163" length="2">de</wf>
+    <wf wid="w31" sent="4" para="4" offset="166" length="8">tonnerre</wf>
+    <wf wid="w32" sent="4" para="4" offset="175" length="2">en</wf>
+    <wf wid="w33" sent="4" para="4" offset="178" length="6">Italie</wf>
+    <wf wid="w34" sent="4" para="4" offset="184" length="1">.</wf>
+    <wf wid="w35" sent="5" para="4" offset="186" length="5">Aucun</wf>
+    <wf wid="w36" sent="5" para="4" offset="192" length="5">parti</wf>
+    <wf wid="w37" sent="5" para="4" offset="198" length="2">n'</wf>
+    <wf wid="w38" sent="5" para="4" offset="200" length="3">est</wf>
+    <wf wid="w39" sent="5" para="4" offset="204" length="5">sorti</wf>
+    <wf wid="w40" sent="5" para="4" offset="210" length="10">clairement</wf>
+    <wf wid="w41" sent="5" para="4" offset="221" length="9">vainqueur</wf>
+    <wf wid="w42" sent="5" para="4" offset="231" length="3">des</wf>
+    <wf wid="w43" sent="5" para="4" offset="235" length="9">élections</wf>
+    <wf wid="w44" sent="5" para="4" offset="245" length="12">législatives</wf>
+    <wf wid="w45" sent="5" para="4" offset="258" length="3">qui</wf>
+    <wf wid="w46" sent="5" para="4" offset="262" length="2">se</wf>
+    <wf wid="w47" sent="5" para="4" offset="265" length="4">sont</wf>
+    <wf wid="w48" sent="5" para="4" offset="270" length="9">déroulées</wf>
+    <wf wid="w49" sent="5" para="4" offset="280" length="8">dimanche</wf>
+    <wf wid="w50" sent="5" para="4" offset="289" length="2">24</wf>
+    <wf wid="w51" sent="5" para="4" offset="292" length="2">et</wf>
+    <wf wid="w52" sent="5" para="4" offset="295" length="5">lundi</wf>
+    <wf wid="w53" sent="5" para="4" offset="301" length="2">25</wf>
+    <wf wid="w54" sent="5" para="4" offset="304" length="7">février</wf>
+    <wf wid="w55" sent="5" para="4" offset="311" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Coup-->
+    <term tid="t29" type="open" lemma="coup" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t30" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--tonnerre-->
+    <term tid="t31" type="open" lemma="tonnerre" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t32" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--Italie-->
+    <term tid="t33" type="open" lemma="Italie" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t34" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--Aucun-->
+    <term tid="t35" type="close" lemma="aucun" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral" sentiment_modifier="shifter"/>
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--parti-->
+    <term tid="t36" type="open" lemma="parti" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--n'-->
+    <term tid="t37" type="open" lemma="n'" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t38" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--sorti-->
+    <term tid="t39" type="open" lemma="sortir" pos="V" morphofeat="VKms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--clairement-->
+    <term tid="t40" type="open" lemma="clairement" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--vainqueur-->
+    <term tid="t41" type="open" lemma="vainqueur" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t42" type="close" lemma="un" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--élections-->
+    <term tid="t43" type="open" lemma="élection" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--législatives-->
+    <term tid="t44" type="open" lemma="législatif" pos="G" morphofeat="Afp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--qui-->
+    <term tid="t45" type="close" lemma="qui" pos="P" morphofeat="PROR3fp">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--se-->
+    <term tid="t46" type="close" lemma="se" pos="Q" morphofeat="CL3fp">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--sont-->
+    <term tid="t47" type="open" lemma="être" pos="V" morphofeat="VP3p">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--déroulées-->
+    <term tid="t48" type="open" lemma="dérouler" pos="V" morphofeat="VKfp">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--dimanche-->
+    <term tid="t49" type="open" lemma="dimanche" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--24-->
+    <term tid="t50" type="open" lemma="24" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t51" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--lundi-->
+    <term tid="t52" type="open" lemma="lundi" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--25-->
+    <term tid="t53" type="open" lemma="25" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--février-->
+    <term tid="t54" type="open" lemma="février" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t55" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

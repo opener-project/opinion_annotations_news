@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:11:06Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:11:06Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:00:41CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:11:24CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w289" sent="17" para="7" offset="1790" length="5">Neben</wf>
+    <wf wid="w290" sent="17" para="7" offset="1796" length="3">den</wf>
+    <wf wid="w291" sent="17" para="7" offset="1800" length="4">drei</wf>
+    <wf wid="w292" sent="17" para="7" offset="1805" length="8">Insassen</wf>
+    <wf wid="w293" sent="17" para="7" offset="1814" length="7">starben</wf>
+    <wf wid="w294" sent="17" para="7" offset="1822" length="4">zwei</wf>
+    <wf wid="w295" sent="17" para="7" offset="1827" length="9">Touristen</wf>
+    <wf wid="w296" sent="17" para="7" offset="1836" length="1">,</wf>
+    <wf wid="w297" sent="17" para="7" offset="1838" length="2">40</wf>
+    <wf wid="w298" sent="17" para="7" offset="1841" length="8">Menschen</wf>
+    <wf wid="w299" sent="17" para="7" offset="1850" length="6">wurden</wf>
+    <wf wid="w300" sent="17" para="7" offset="1857" length="8">verletzt</wf>
+    <wf wid="w301" sent="17" para="7" offset="1865" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="neben" morphofeat="APPR" pos="P" tid="t289" type="close">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t290" type="close">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <term lemma="drei" morphofeat="CARD" pos="O" tid="t291" type="open">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <term lemma="Insasse" morphofeat="NN" pos="N" tid="t292" type="open">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <term lemma="sterben" morphofeat="VVFIN" pos="V" tid="t293" type="open">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <term lemma="zwei" morphofeat="CARD" pos="O" tid="t294" type="open">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <term lemma="Tourist" morphofeat="NN" pos="N" tid="t295" type="open">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t296" type="open">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <term lemma="40" morphofeat="CARD" pos="O" tid="t297" type="open">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <term lemma="Mensch" morphofeat="NN" pos="N" tid="t298" type="open">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t299" type="open">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <term lemma="verletzen" morphofeat="VVPP" pos="V" tid="t300" type="open">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t301" type="open">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t289"/>
+          <target id="t290"/>
+          <target id="t291"/>
+          <target id="t292"/>
+          <target id="t293"/>
+          <target id="t294"/>
+          <target id="t295"/>
+          <target id="t296"/>
+          <target id="t297"/>
+          <target id="t298"/>
+          <target id="t299"/>
+          <target id="t300"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:34Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:34Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:03:44" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:11:35CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="30" para="2" offset="5078" length="3" wid="w900">The</wf>
+    <wf sent="30" para="2" offset="5082" length="15" wid="w901">finger-pointing</wf>
+    <wf sent="30" para="2" offset="5098" length="1" wid="w902">"</wf>
+    <wf sent="30" para="2" offset="5099" length="4" wid="w903">will</wf>
+    <wf sent="30" para="2" offset="5104" length="3" wid="w904">not</wf>
+    <wf sent="30" para="2" offset="5108" length="4" wid="w905">make</wf>
+    <wf sent="30" para="2" offset="5113" length="11" wid="w906">cooperation</wf>
+    <wf sent="30" para="2" offset="5125" length="3" wid="w907">any</wf>
+    <wf sent="30" para="2" offset="5129" length="6" wid="w908">easier</wf>
+    <wf sent="30" para="2" offset="5135" length="1" wid="w909">,</wf>
+    <wf sent="30" para="2" offset="5136" length="1" wid="w910">"</wf>
+    <wf sent="30" para="2" offset="5138" length="4" wid="w911">said</wf>
+    <wf sent="30" para="2" offset="5143" length="1" wid="w912">a</wf>
+    <wf sent="30" para="2" offset="5145" length="8" wid="w913">European</wf>
+    <wf sent="30" para="2" offset="5154" length="8" wid="w914">official</wf>
+    <wf sent="30" para="2" offset="5162" length="1" wid="w915">,</wf>
+    <wf sent="30" para="2" offset="5164" length="3" wid="w916">who</wf>
+    <wf sent="30" para="2" offset="5168" length="5" wid="w917">spoke</wf>
+    <wf sent="30" para="2" offset="5174" length="2" wid="w918">on</wf>
+    <wf sent="30" para="2" offset="5177" length="9" wid="w919">condition</wf>
+    <wf sent="30" para="2" offset="5187" length="2" wid="w920">of</wf>
+    <wf sent="30" para="2" offset="5190" length="9" wid="w921">anonymity</wf>
+    <wf sent="30" para="2" offset="5200" length="7" wid="w922">because</wf>
+    <wf sent="30" para="2" offset="5208" length="2" wid="w923">of</wf>
+    <wf sent="30" para="2" offset="5211" length="3" wid="w924">the</wf>
+    <wf sent="30" para="2" offset="5215" length="11" wid="w925">sensitivity</wf>
+    <wf sent="30" para="2" offset="5227" length="2" wid="w926">of</wf>
+    <wf sent="30" para="2" offset="5230" length="3" wid="w927">the</wf>
+    <wf sent="30" para="2" offset="5234" length="7" wid="w928">subject</wf>
+    <wf sent="30" para="2" offset="5241" length="1" wid="w929">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t900">
+      <span>
+        <target id="w900"/>
+      </span>
+    </term>
+    <!--finger-pointing-->
+    <term type="open" lemma="finger-pointing" pos="N" morphofeat="NN" tid="t901">
+      <span>
+        <target id="w901"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="A" morphofeat="RB" tid="t902">
+      <span>
+        <target id="w902"/>
+      </span>
+    </term>
+    <!--will-->
+    <term type="close" lemma="will" pos="O" morphofeat="MD" tid="t903">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w903"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t904">
+      <span>
+        <target id="w904"/>
+      </span>
+    </term>
+    <!--make-->
+    <term type="open" lemma="make" pos="V" morphofeat="VB" tid="t905">
+      <span>
+        <target id="w905"/>
+      </span>
+    </term>
+    <!--cooperation-->
+    <term type="open" lemma="cooperation" pos="N" morphofeat="NN" tid="t906">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w906"/>
+      </span>
+    </term>
+    <!--any-->
+    <term type="close" lemma="any" pos="D" morphofeat="DT" tid="t907">
+      <span>
+        <target id="w907"/>
+      </span>
+    </term>
+    <!--easier-->
+    <term type="open" lemma="easier" pos="G" morphofeat="JJR" tid="t908">
+      <span>
+        <target id="w908"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t909">
+      <span>
+        <target id="w909"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t910">
+      <span>
+        <target id="w910"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t911">
+      <span>
+        <target id="w911"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t912">
+      <span>
+        <target id="w912"/>
+      </span>
+    </term>
+    <!--European-->
+    <term type="open" lemma="european" pos="G" morphofeat="JJ" tid="t913">
+      <span>
+        <target id="w913"/>
+      </span>
+    </term>
+    <!--official-->
+    <term type="open" lemma="official" pos="N" morphofeat="NN" tid="t914">
+      <span>
+        <target id="w914"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t915">
+      <span>
+        <target id="w915"/>
+      </span>
+    </term>
+    <!--who-->
+    <term type="close" lemma="who" pos="Q" morphofeat="WP" tid="t916">
+      <span>
+        <target id="w916"/>
+      </span>
+    </term>
+    <!--spoke-->
+    <term type="open" lemma="speak" pos="V" morphofeat="VBD" tid="t917">
+      <span>
+        <target id="w917"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t918">
+      <span>
+        <target id="w918"/>
+      </span>
+    </term>
+    <!--condition-->
+    <term type="open" lemma="condition" pos="N" morphofeat="NN" tid="t919">
+      <span>
+        <target id="w919"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t920">
+      <span>
+        <target id="w920"/>
+      </span>
+    </term>
+    <!--anonymity-->
+    <term type="open" lemma="anonymity" pos="N" morphofeat="NN" tid="t921">
+      <span>
+        <target id="w921"/>
+      </span>
+    </term>
+    <!--because-->
+    <term type="close" lemma="because" pos="P" morphofeat="IN" tid="t922">
+      <span>
+        <target id="w922"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t923">
+      <span>
+        <target id="w923"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t924">
+      <span>
+        <target id="w924"/>
+      </span>
+    </term>
+    <!--sensitivity-->
+    <term type="open" lemma="sensitivity" pos="N" morphofeat="NN" tid="t925">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w925"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t926">
+      <span>
+        <target id="w926"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t927">
+      <span>
+        <target id="w927"/>
+      </span>
+    </term>
+    <!--subject-->
+    <term type="open" lemma="subject" pos="N" morphofeat="NN" tid="t928">
+      <span>
+        <target id="w928"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t929">
+      <span>
+        <target id="w929"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--a European official-->
+        <span>
+          <target id="t912"/>
+          <target id="t913"/>
+          <target id="t914"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--The finger-pointing-->
+        <span>
+          <target id="t900"/>
+          <target id="t901"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--will not make cooperation any easier-->
+        <span>
+          <target id="t903"/>
+          <target id="t904"/>
+          <target id="t905"/>
+          <target id="t906"/>
+          <target id="t907"/>
+          <target id="t908"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--a European official-->
+        <span>
+          <target id="t912"/>
+          <target id="t913"/>
+          <target id="t914"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--The finger-pointing-->
+        <span>
+          <target id="t900"/>
+          <target id="t901"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--said-->
+        <span>
+          <target id="t911"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

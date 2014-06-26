@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:57:15Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:57:15Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:16:39CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:57:41CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w4" sent="3" para="2" offset="15" length="10">Luxemburgs</wf>
+    <wf wid="w5" sent="3" para="2" offset="26" length="7">Premier</wf>
+    <wf wid="w6" sent="3" para="2" offset="34" length="4">Jean</wf>
+    <wf wid="w7" sent="3" para="2" offset="38" length="1">·</wf>
+    <wf wid="w8" sent="3" para="2" offset="39" length="6">Claude</wf>
+    <wf wid="w9" sent="3" para="2" offset="46" length="7">Juncker</wf>
+    <wf wid="w10" sent="3" para="2" offset="54" length="6">warnte</wf>
+    <wf wid="w11" sent="3" para="2" offset="61" length="10">angesichts</wf>
+    <wf wid="w12" sent="3" para="2" offset="72" length="3">von</wf>
+    <wf wid="w13" sent="3" para="2" offset="76" length="6">Rekord</wf>
+    <wf wid="w14" sent="3" para="2" offset="82" length="1">·</wf>
+    <wf wid="w15" sent="3" para="2" offset="83" length="16">Arbeitslosigkeit</wf>
+    <wf wid="w16" sent="3" para="2" offset="100" length="3">und</wf>
+    <wf wid="w17" sent="3" para="2" offset="104" length="9">Rezession</wf>
+    <wf wid="w18" sent="3" para="2" offset="114" length="2">in</wf>
+    <wf wid="w19" sent="3" para="2" offset="117" length="6">vielen</wf>
+    <wf wid="w20" sent="3" para="2" offset="124" length="12">europäischen</wf>
+    <wf wid="w21" sent="3" para="2" offset="137" length="7">Ländern</wf>
+    <wf wid="w22" sent="3" para="2" offset="145" length="3">vor</wf>
+    <wf wid="w23" sent="3" para="2" offset="149" length="5">einer</wf>
+    <wf wid="w24" sent="3" para="2" offset="155" length="12">dramatischen</wf>
+    <wf wid="w25" sent="3" para="2" offset="168" length="11">Sozialkrise</wf>
+    <wf wid="w26" sent="3" para="2" offset="179" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Luxemburg" morphofeat="NE" pos="R" tid="t4" type="open">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="Premier" morphofeat="NN" pos="N" tid="t5" type="open">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="Jean" morphofeat="NE" pos="R" tid="t6" type="open">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t7" type="open">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="Claude" morphofeat="NE" pos="R" tid="t8" type="open">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="Juncker" morphofeat="NN unknown_lemma" pos="O" tid="t9" type="open">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="warnen" morphofeat="VVFIN" pos="V" tid="t10" type="open">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="angesichts" morphofeat="APPR" pos="P" tid="t11" type="close">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t12" type="close">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="Rekord" morphofeat="NN" pos="N" tid="t13" type="open">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t14" type="open">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="Arbeitslosigkeit" morphofeat="NN" pos="N" tid="t15" type="open">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t16" type="close">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="Rezession" morphofeat="NN" pos="N" tid="t17" type="open">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t18" type="close">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="viele" morphofeat="PIAT" pos="Q" tid="t19" type="close">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="europäisch" morphofeat="ADJA" pos="G" tid="t20" type="open">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="Land" morphofeat="NN" pos="N" tid="t21" type="open">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="vor" morphofeat="APPR" pos="P" tid="t22" type="close">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t23" type="close">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="dramatisch" morphofeat="ADJA" pos="G" tid="t24" type="open">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="Sozialkrise" morphofeat="NN" pos="N" tid="t25" type="open">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t26" type="open">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Luxemburgs Premier Jean · Claude Juncker-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Sozialkrise-->
+        <span>
+          <target id="t25"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--warnte-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Luxemburgs Premier Jean · Claude Juncker-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Sozialkrise-->
+        <span>
+          <target id="t25"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--dramatischen-->
+        <span>
+          <target id="t24"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

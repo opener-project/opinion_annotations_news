@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T12:22:55Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T12:22:55Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:08:12CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T13:23:44CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1233" sent="76" para="33" offset="7526" length="2">UN</wf>
+    <wf wid="w1234" sent="76" para="33" offset="7528" length="1">·</wf>
+    <wf wid="w1235" sent="76" para="33" offset="7529" length="15">Generalsekretär</wf>
+    <wf wid="w1236" sent="76" para="33" offset="7545" length="3">Ban</wf>
+    <wf wid="w1237" sent="76" para="33" offset="7549" length="2">Ki</wf>
+    <wf wid="w1238" sent="76" para="33" offset="7552" length="4">Moon</wf>
+    <wf wid="w1239" sent="76" para="33" offset="7557" length="3">ist</wf>
+    <wf wid="w1240" sent="76" para="33" offset="7561" length="10">beunruhigt</wf>
+    <wf wid="w1241" sent="76" para="33" offset="7572" length="4">über</wf>
+    <wf wid="w1242" sent="76" para="33" offset="7577" length="3">die</wf>
+    <wf wid="w1243" sent="76" para="33" offset="7581" length="9">wachsende</wf>
+    <wf wid="w1244" sent="76" para="33" offset="7591" length="6">Gewalt</wf>
+    <wf wid="w1245" sent="76" para="33" offset="7598" length="2">in</wf>
+    <wf wid="w1246" sent="76" para="33" offset="7601" length="7">Ägypten</wf>
+    <wf wid="w1247" sent="76" para="33" offset="7608" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="UN" morphofeat="NE" pos="R" tid="t1233" type="open">
+      <span>
+        <target id="w1233"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t1234" type="open">
+      <span>
+        <target id="w1234"/>
+      </span>
+    </term>
+    <term lemma="Generalsekretär" morphofeat="NN" pos="N" tid="t1235" type="open">
+      <span>
+        <target id="w1235"/>
+      </span>
+    </term>
+    <term lemma="Ban" morphofeat="NE unknown_lemma" pos="O" tid="t1236" type="open">
+      <span>
+        <target id="w1236"/>
+      </span>
+    </term>
+    <term lemma="Ki" morphofeat="NE" pos="R" tid="t1237" type="open">
+      <span>
+        <target id="w1237"/>
+      </span>
+    </term>
+    <term lemma="Moon" morphofeat="NE unknown_lemma" pos="O" tid="t1238" type="open">
+      <span>
+        <target id="w1238"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t1239" type="open">
+      <span>
+        <target id="w1239"/>
+      </span>
+    </term>
+    <term lemma="beunruhigt" morphofeat="ADJD" pos="G" tid="t1240" type="open">
+      <span>
+        <target id="w1240"/>
+      </span>
+    </term>
+    <term lemma="über" morphofeat="APPR" pos="P" tid="t1241" type="close">
+      <span>
+        <target id="w1241"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t1242" type="close">
+      <span>
+        <target id="w1242"/>
+      </span>
+    </term>
+    <term lemma="wachsend" morphofeat="ADJA" pos="G" tid="t1243" type="open">
+      <span>
+        <target id="w1243"/>
+      </span>
+    </term>
+    <term lemma="Gewalt" morphofeat="NN" pos="N" tid="t1244" type="open">
+      <span>
+        <target id="w1244"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t1245" type="close">
+      <span>
+        <target id="w1245"/>
+      </span>
+    </term>
+    <term lemma="Ägypten" morphofeat="NE" pos="R" tid="t1246" type="open">
+      <span>
+        <target id="w1246"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t1247" type="open">
+      <span>
+        <target id="w1247"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Ban Ki Moon-->
+        <span>
+          <target id="t1236"/>
+          <target id="t1237"/>
+          <target id="t1238"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--über die wachsende Gewalt-->
+        <span>
+          <target id="t1241"/>
+          <target id="t1242"/>
+          <target id="t1243"/>
+          <target id="t1244"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--beunruhigt-->
+        <span>
+          <target id="t1240"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:20:34Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:20:34Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:11:48CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:21:06CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:39CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w9" sent="3" para="2" offset="35" length="6">Merkel</wf>
+    <wf wid="w10" sent="3" para="2" offset="42" length="8">verlangt</wf>
+    <wf wid="w11" sent="3" para="2" offset="51" length="3">Mut</wf>
+    <wf wid="w12" sent="3" para="2" offset="55" length="2">zu</wf>
+    <wf wid="w13" sent="3" para="2" offset="58" length="8">Reformen</wf>
+    <wf wid="w14" sent="3" para="2" offset="67" length="3">und</wf>
+    <wf wid="w15" sent="3" para="2" offset="71" length="5">warnt</wf>
+    <wf wid="w16" sent="3" para="2" offset="77" length="3">die</wf>
+    <wf wid="w17" sent="3" para="2" offset="81" length="3">USA</wf>
+    <wf wid="w370" sent="27" para="15" offset="2143" length="3">Die</wf>
+    <wf wid="w371" sent="27" para="15" offset="2147" length="4">neue</wf>
+    <wf wid="w372" sent="27" para="15" offset="2152" length="8">deutsche</wf>
+    <wf wid="w373" sent="27" para="15" offset="2161" length="9">Regierung</wf>
+    <wf wid="w374" sent="27" para="15" offset="2171" length="3">war</wf>
+    <wf wid="w375" sent="27" para="15" offset="2175" length="2">am</wf>
+    <wf wid="w376" sent="27" para="15" offset="2178" length="3">17.</wf>
+    <wf wid="w377" sent="27" para="15" offset="2182" length="8">Dezember</wf>
+    <wf wid="w378" sent="27" para="15" offset="2191" length="9">vereidigt</wf>
+    <wf wid="w379" sent="27" para="15" offset="2201" length="6">worden</wf>
+    <wf wid="w380" sent="27" para="15" offset="2207" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t9" type="open">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="verlangen" morphofeat="VVFIN" pos="V" tid="t10" type="open">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="Mut" morphofeat="NN" pos="N" tid="t11" type="open">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPR" pos="P" tid="t12" type="close">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="Reform" morphofeat="NN" pos="N" tid="t13" type="open">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t14" type="close">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="warnen" morphofeat="VVFIN" pos="V" tid="t15" type="open">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t16" type="close">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="USA" morphofeat="NE" pos="R" tid="t17" type="open">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t370" type="close">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <term lemma="neu" morphofeat="ADJA" pos="G" tid="t371" type="open">
+      <span>
+        <target id="w371"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="deutsch" morphofeat="ADJA" pos="G" tid="t372" type="open">
+      <span>
+        <target id="w372"/>
+      </span>
+    </term>
+    <term lemma="Regierung" morphofeat="NN" pos="N" tid="t373" type="open">
+      <span>
+        <target id="w373"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t374" type="open">
+      <span>
+        <target id="w374"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t375" type="close">
+      <span>
+        <target id="w375"/>
+      </span>
+    </term>
+    <term lemma="17." morphofeat="CARD" pos="O" tid="t376" type="open">
+      <span>
+        <target id="w376"/>
+      </span>
+    </term>
+    <term lemma="Dezember" morphofeat="NN" pos="N" tid="t377" type="open">
+      <span>
+        <target id="w377"/>
+      </span>
+    </term>
+    <term lemma="vereidigen" morphofeat="VVPP" pos="V" tid="t378" type="open">
+      <span>
+        <target id="w378"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAPP" pos="V" tid="t379" type="open">
+      <span>
+        <target id="w379"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t380" type="open">
+      <span>
+        <target id="w380"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Mut zu Reformen-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--verlangt-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die USA-->
+        <span>
+          <target id="t16"/>
+          <target id="t17"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--warnt-->
+        <span>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t370"/>
+          <target id="t371"/>
+          <target id="t372"/>
+          <target id="t373"/>
+          <target id="t374"/>
+          <target id="t375"/>
+          <target id="t376"/>
+          <target id="t377"/>
+          <target id="t378"/>
+          <target id="t379"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

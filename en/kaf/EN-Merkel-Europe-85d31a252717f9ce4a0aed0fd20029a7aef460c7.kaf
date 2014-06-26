@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:43Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:43Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:27:08" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:21:45CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:48CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="6" para="2" offset="554" length="1" wid="w105">A</wf>
+    <wf sent="6" para="2" offset="556" length="6" wid="w106">recent</wf>
+    <wf sent="6" para="2" offset="563" length="5" wid="w107">cover</wf>
+    <wf sent="6" para="2" offset="569" length="2" wid="w108">of</wf>
+    <wf sent="6" para="2" offset="572" length="3" wid="w109">the</wf>
+    <wf sent="6" para="2" offset="576" length="9" wid="w110">Economist</wf>
+    <wf sent="6" para="2" offset="586" length="4" wid="w111">says</wf>
+    <wf sent="6" para="2" offset="591" length="2" wid="w112">it</wf>
+    <wf sent="6" para="2" offset="594" length="3" wid="w113">all</wf>
+    <wf sent="6" para="2" offset="597" length="1" wid="w114">.</wf>
+  </text>
+  <terms>
+    <!--A-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t105">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--recent-->
+    <term type="open" lemma="recent" pos="G" morphofeat="JJ" tid="t106">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--cover-->
+    <term type="open" lemma="cover" pos="N" morphofeat="NN" tid="t107">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t108">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t109">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--Economist-->
+    <term type="close" lemma="Economist" pos="R" morphofeat="NNP" tid="t110">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--says-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBZ" tid="t111">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t112">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--all-->
+    <term type="open" lemma="all" pos="A" morphofeat="RB" tid="t113">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t114">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

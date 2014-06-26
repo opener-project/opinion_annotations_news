@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:16:36Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:16:36Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:14:01CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:16:50CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w363" sent="22" para="13" offset="2170" length="3">Die</wf>
+    <wf wid="w364" sent="22" para="13" offset="2174" length="16">Vorverhandlungen</wf>
+    <wf wid="w365" sent="22" para="13" offset="2191" length="2">im</wf>
+    <wf wid="w366" sent="22" para="13" offset="2194" length="6">Kreise</wf>
+    <wf wid="w367" sent="22" para="13" offset="2201" length="3">der</wf>
+    <wf wid="w368" sent="22" para="13" offset="2205" length="2">EU</wf>
+    <wf wid="w369" sent="22" para="13" offset="2208" length="5">waren</wf>
+    <wf wid="w370" sent="22" para="13" offset="2214" length="10">allerdings</wf>
+    <wf wid="w371" sent="22" para="13" offset="2225" length="9">schwierig</wf>
+    <wf wid="w372" sent="22" para="13" offset="2234" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t363" type="close">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <term lemma="Vorverhandlung" morphofeat="NN" pos="N" tid="t364" type="open">
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t365" type="close">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <term lemma="Kreis" morphofeat="NN" pos="N" tid="t366" type="open">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t367" type="close">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t368" type="open">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t369" type="open">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <term lemma="allerdings" morphofeat="ADV" pos="A" tid="t370" type="open">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <term lemma="schwierig" morphofeat="ADJD" pos="G" tid="t371" type="open">
+      <span>
+        <target id="w371"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t372" type="open">
+      <span>
+        <target id="w372"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Die Vorverhandlungen im Kreise-->
+        <span>
+          <target id="t363"/>
+          <target id="t364"/>
+          <target id="t365"/>
+          <target id="t366"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--allerdings schwierig-->
+        <span>
+          <target id="t370"/>
+          <target id="t371"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

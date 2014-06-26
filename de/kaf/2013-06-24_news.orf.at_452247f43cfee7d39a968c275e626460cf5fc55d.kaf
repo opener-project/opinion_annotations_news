@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:12:57Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:12:57Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:59:44CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:13:07CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w153" sent="10" para="7" offset="947" length="5">Heute</wf>
+    <wf wid="w154" sent="10" para="7" offset="953" length="5">gehen</wf>
+    <wf wid="w155" sent="10" para="7" offset="959" length="3">die</wf>
+    <wf wid="w156" sent="10" para="7" offset="963" length="10">Beratungen</wf>
+    <wf wid="w157" sent="10" para="7" offset="974" length="3">der</wf>
+    <wf wid="w158" sent="10" para="7" offset="978" length="2">EU</wf>
+    <wf wid="w159" sent="10" para="7" offset="981" length="2">in</wf>
+    <wf wid="w160" sent="10" para="7" offset="984" length="7">Brüssel</wf>
+    <wf wid="w161" sent="10" para="7" offset="992" length="6">weiter</wf>
+    <wf wid="w162" sent="10" para="7" offset="998" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="heute" morphofeat="ADV" pos="A" tid="t153" type="open">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <term lemma="gehen" morphofeat="VVFIN" pos="V" tid="t154" type="open">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t155" type="close">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <term lemma="Beratung" morphofeat="NN" pos="N" tid="t156" type="open">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t157" type="close">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t158" type="open">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t159" type="close">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <term lemma="Brüssel" morphofeat="NE" pos="R" tid="t160" type="open">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <term lemma="weiter" morphofeat="PTKVZ" pos="V" tid="t161" type="open">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t162" type="open">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t153"/>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+          <target id="t157"/>
+          <target id="t158"/>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

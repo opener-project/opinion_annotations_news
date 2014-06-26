@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T16:38:50CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w231" sent="10" para="2" offset="1292" length="6">Eerder</wf>
+    <wf wid="w232" sent="10" para="2" offset="1299" length="4">werd</wf>
+    <wf wid="w233" sent="10" para="2" offset="1304" length="3">dit</wf>
+    <wf wid="w234" sent="10" para="2" offset="1308" length="4">plan</wf>
+    <wf wid="w235" sent="10" para="2" offset="1313" length="10">weggestemd</wf>
+    <wf wid="w236" sent="10" para="2" offset="1324" length="4">door</wf>
+    <wf wid="w237" sent="10" para="2" offset="1329" length="3">het</wf>
+    <wf wid="w238" sent="10" para="2" offset="1333" length="9">parlement</wf>
+    <wf wid="w239" sent="10" para="2" offset="1342" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Eerder-->
+    <term tid="t231" type="open" lemma="eerder" pos="G" morphofeat="adj">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--werd-->
+    <term tid="t232" type="open" lemma="worden" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--dit-->
+    <term tid="t233" type="close" lemma="dit" pos="D" morphofeat="det__demo">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--plan-->
+    <term tid="t234" type="open" lemma="plan" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--weggestemd-->
+    <term tid="t235" type="open" lemma="wegstemmen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--door-->
+    <term tid="t236" type="close" lemma="door" pos="P" morphofeat="prep">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t237" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--parlement-->
+    <term tid="t238" type="open" lemma="parlement" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t239" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--het parlement-->
+        <span>
+          <target id="t237"/>
+          <target id="t238"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--dit plan-->
+        <span>
+          <target id="t233"/>
+          <target id="t234"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--weggestemd-->
+        <span>
+          <target id="t235"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

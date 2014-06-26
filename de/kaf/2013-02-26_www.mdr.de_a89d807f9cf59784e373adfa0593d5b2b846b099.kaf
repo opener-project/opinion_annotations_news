@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:17:57Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:17:57Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:49:29CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:18:14CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w56" sent="7" para="5" offset="347" length="11">Westerwelle</wf>
+    <wf wid="w57" sent="7" para="5" offset="359" length="4">will</wf>
+    <wf wid="w58" sent="7" para="5" offset="364" length="7">schnell</wf>
+    <wf wid="w59" sent="7" para="5" offset="372" length="9">Gespräche</wf>
+    <wf wid="w60" sent="7" para="5" offset="382" length="4">über</wf>
+    <wf wid="w61" sent="7" para="5" offset="387" length="3">ein</wf>
+    <wf wid="w62" sent="7" para="5" offset="391" length="19">Freihandelsabkommen</wf>
+    <wf wid="w63" sent="7" para="5" offset="410" length="1">.</wf>
+    <wf wid="w198" sent="17" para="9" offset="1244" length="2">US</wf>
+    <wf wid="w199" sent="17" para="9" offset="1246" length="1">·</wf>
+    <wf wid="w200" sent="17" para="9" offset="1247" length="13">Außenminister</wf>
+    <wf wid="w201" sent="17" para="9" offset="1261" length="5">Kerry</wf>
+    <wf wid="w202" sent="17" para="9" offset="1267" length="3">und</wf>
+    <wf wid="w203" sent="17" para="9" offset="1271" length="9">Kanzlerin</wf>
+    <wf wid="w204" sent="17" para="9" offset="1281" length="6">Merkel</wf>
+    <wf wid="w205" sent="17" para="9" offset="1288" length="6">hatten</wf>
+    <wf wid="w206" sent="17" para="9" offset="1295" length="5">viele</wf>
+    <wf wid="w207" sent="17" para="9" offset="1301" length="7">lobende</wf>
+    <wf wid="w208" sent="17" para="9" offset="1309" length="5">Worte</wf>
+    <wf wid="w209" sent="17" para="9" offset="1315" length="3">für</wf>
+    <wf wid="w210" sent="17" para="9" offset="1319" length="8">einander</wf>
+    <wf wid="w211" sent="17" para="9" offset="1327" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Westerwelle" morphofeat="NN unknown_lemma" pos="O" tid="t56" type="open">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t57" type="open">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <term lemma="schnell" morphofeat="ADJD" pos="G" tid="t58" type="open">
+      <span>
+        <target id="w58"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Gespräch" morphofeat="NN" pos="N" tid="t59" type="open">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <term lemma="über" morphofeat="APPR" pos="P" tid="t60" type="close">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t61" type="close">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <term lemma="Freihandelsabkommen" morphofeat="NN" pos="N" tid="t62" type="open">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t63" type="open">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <term lemma="US" morphofeat="NE" pos="R" tid="t198" type="open">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t199" type="open">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <term lemma="Außenminister" morphofeat="NN" pos="N" tid="t200" type="open">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <term lemma="Kerry" morphofeat="NE" pos="R" tid="t201" type="open">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t202" type="close">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <term lemma="Kanzlerin" morphofeat="NN" pos="N" tid="t203" type="open">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t204" type="open">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t205" type="open">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <term lemma="viele" morphofeat="PIAT" pos="Q" tid="t206" type="close">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <term lemma="lobend" morphofeat="ADJA" pos="G" tid="t207" type="open">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <term lemma="Wort" morphofeat="NN" pos="N" tid="t208" type="open">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t209" type="close">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <term lemma="einander" morphofeat="PRF" pos="Q" tid="t210" type="close">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t211" type="open">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Westerwelle-->
+        <span>
+          <target id="t56"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Gespräche-->
+        <span>
+          <target id="t59"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--will-->
+        <span>
+          <target id="t57"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder>
+        <!--Kanzlerin Merkel-->
+        <span>
+          <target id="t203"/>
+          <target id="t204"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--einander-->
+        <span>
+          <target id="t210"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--hatten viele lobende Worte für-->
+        <span>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder>
+        <!--US · Außenminister Kerry-->
+        <span>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--einander-->
+        <span>
+          <target id="t210"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--hatten viele lobende Worte für-->
+        <span>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Worte-->
+        <span>
+          <target id="t208"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--viele lobende-->
+        <span>
+          <target id="t206"/>
+          <target id="t207"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

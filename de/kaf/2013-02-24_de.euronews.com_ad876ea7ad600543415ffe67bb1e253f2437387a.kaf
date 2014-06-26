@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:01:08Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:01:08Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:17:36CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:01:15CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w9" sent="3" para="3" offset="21" length="3">Die</wf>
+    <wf wid="w10" sent="3" para="3" offset="25" length="8">deutsche</wf>
+    <wf wid="w11" sent="3" para="3" offset="34" length="15">Bunderkanzlerin</wf>
+    <wf wid="w12" sent="3" para="3" offset="50" length="6">Angela</wf>
+    <wf wid="w13" sent="3" para="3" offset="57" length="6">Merkel</wf>
+    <wf wid="w14" sent="3" para="3" offset="64" length="4">wird</wf>
+    <wf wid="w15" sent="3" para="3" offset="69" length="3">zum</wf>
+    <wf wid="w16" sent="3" para="3" offset="73" length="7">dritten</wf>
+    <wf wid="w17" sent="3" para="3" offset="81" length="3">Mal</wf>
+    <wf wid="w18" sent="3" para="3" offset="85" length="2">in</wf>
+    <wf wid="w19" sent="3" para="3" offset="88" length="5">ihrer</wf>
+    <wf wid="w20" sent="3" para="3" offset="94" length="8">Amtszeit</wf>
+    <wf wid="w21" sent="3" para="3" offset="103" length="3">die</wf>
+    <wf wid="w22" sent="3" para="3" offset="107" length="6">Türkei</wf>
+    <wf wid="w23" sent="3" para="3" offset="114" length="8">besuchen</wf>
+    <wf wid="w24" sent="3" para="3" offset="122" length="1">.</wf>
+    <wf wid="w134" sent="8" para="4" offset="741" length="3">Ich</wf>
+    <wf wid="w135" sent="8" para="4" offset="745" length="4">habe</wf>
+    <wf wid="w136" sent="8" para="4" offset="749" length="1">,</wf>
+    <wf wid="w137" sent="8" para="4" offset="751" length="6">obwohl</wf>
+    <wf wid="w138" sent="8" para="4" offset="758" length="3">ich</wf>
+    <wf wid="w139" sent="8" para="4" offset="762" length="9">skeptisch</wf>
+    <wf wid="w140" sent="8" para="4" offset="772" length="3">bin</wf>
+    <wf wid="w141" sent="8" para="4" offset="775" length="1">,</wf>
+    <wf wid="w142" sent="8" para="4" offset="777" length="3">der</wf>
+    <wf wid="w143" sent="8" para="4" offset="781" length="11">Fortführung</wf>
+    <wf wid="w144" sent="8" para="4" offset="793" length="3">der</wf>
+    <wf wid="w145" sent="8" para="4" offset="797" length="22">Beitrittsverhandlungen</wf>
+    <wf wid="w146" sent="8" para="4" offset="820" length="10">zugestimmt</wf>
+    <wf wid="w147" sent="8" para="4" offset="831" length="1">”</wf>
+    <wf wid="w148" sent="8" para="4" offset="830" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t9" type="close">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="deutsch" morphofeat="ADJA" pos="G" tid="t10" type="open">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="Bunderkanzlerin" morphofeat="NN unknown_lemma" pos="O" tid="t11" type="open">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="Angela" morphofeat="NE" pos="R" tid="t12" type="open">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t13" type="open">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t14" type="open">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPRART" pos="P" tid="t15" type="close">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="dritt" morphofeat="ADJA" pos="G" tid="t16" type="open">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="Mal" morphofeat="NN" pos="N" tid="t17" type="open">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t18" type="close">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="ihr" morphofeat="PPOSAT" pos="Q" tid="t19" type="close">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="Amtszeit" morphofeat="NN" pos="N" tid="t20" type="open">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t21" type="close">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="Türkei" morphofeat="NE" pos="R" tid="t22" type="open">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="besuchen" morphofeat="VVINF" pos="V" tid="t23" type="open">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t24" type="open">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="ich" morphofeat="PPER" pos="Q" tid="t134" type="close">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t135" type="open">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t136" type="open">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <term lemma="obwohl" morphofeat="KOUS" pos="C" tid="t137" type="close">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <term lemma="ich" morphofeat="PPER" pos="Q" tid="t138" type="close">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <term lemma="skeptisch" morphofeat="ADJD" pos="G" tid="t139" type="open">
+      <span>
+        <target id="w139"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t140" type="open">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t141" type="open">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t142" type="close">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <term lemma="Fortführung" morphofeat="NN" pos="N" tid="t143" type="open">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t144" type="close">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <term lemma="Beitrittsverhandlung" morphofeat="NN" pos="N" tid="t145" type="open">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <term lemma="zustimmen" morphofeat="VVPP" pos="V" tid="t146" type="open">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <term lemma="”" morphofeat="ADJD unknown_lemma" pos="O" tid="t147" type="open">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t148" type="open">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--der Beitrittsverhandlungen-->
+        <span>
+          <target id="t144"/>
+          <target id="t145"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--der Fortführung-->
+        <span>
+          <target id="t142"/>
+          <target id="t143"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

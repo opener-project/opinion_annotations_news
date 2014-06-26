@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:42:53CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:29CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w67" sent="6" para="2" offset="354" length="1">'</wf>
+    <wf wid="w68" sent="6" para="2" offset="355" length="2">We</wf>
+    <wf wid="w69" sent="6" para="2" offset="358" length="6">hebben</wf>
+    <wf wid="w70" sent="6" para="2" offset="365" length="3">een</wf>
+    <wf wid="w71" sent="6" para="2" offset="369" length="5">grote</wf>
+    <wf wid="w72" sent="6" para="2" offset="375" length="6">leider</wf>
+    <wf wid="w73" sent="6" para="2" offset="381" length="1">,</wf>
+    <wf wid="w74" sent="6" para="2" offset="383" length="3">een</wf>
+    <wf wid="w75" sent="6" para="2" offset="387" length="5">grote</wf>
+    <wf wid="w76" sent="6" para="2" offset="393" length="7">premier</wf>
+    <wf wid="w77" sent="6" para="2" offset="401" length="2">en</wf>
+    <wf wid="w78" sent="6" para="2" offset="404" length="3">een</wf>
+    <wf wid="w79" sent="6" para="2" offset="408" length="5">grote</wf>
+    <wf wid="w80" sent="6" para="2" offset="414" length="4">Brit</wf>
+    <wf wid="w81" sent="6" para="2" offset="419" length="8">verloren</wf>
+    <wf wid="w82" sent="6" para="2" offset="427" length="1">'</wf>
+    <wf wid="w83" sent="6" para="2" offset="428" length="1">,</wf>
+    <wf wid="w84" sent="6" para="2" offset="430" length="10">verklaarde</wf>
+    <wf wid="w85" sent="6" para="2" offset="441" length="5">David</wf>
+    <wf wid="w86" sent="6" para="2" offset="447" length="7">Cameron</wf>
+    <wf wid="w87" sent="6" para="2" offset="454" length="1">,</wf>
+    <wf wid="w88" sent="6" para="2" offset="456" length="3">die</wf>
+    <wf wid="w89" sent="6" para="2" offset="460" length="3">een</wf>
+    <wf wid="w90" sent="6" para="2" offset="464" length="4">trip</wf>
+    <wf wid="w91" sent="6" para="2" offset="469" length="4">naar</wf>
+    <wf wid="w92" sent="6" para="2" offset="474" length="13">verschillende</wf>
+    <wf wid="w93" sent="6" para="2" offset="488" length="8">Europese</wf>
+    <wf wid="w94" sent="6" para="2" offset="497" length="6">landen</wf>
+    <wf wid="w95" sent="6" para="2" offset="504" length="3">zal</wf>
+    <wf wid="w96" sent="6" para="2" offset="508" length="8">inkorten</wf>
+    <wf wid="w97" sent="6" para="2" offset="516" length="1">.</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term tid="t67" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--We-->
+    <term tid="t68" type="open" lemma="We" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--hebben-->
+    <term tid="t69" type="open" lemma="hebben" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t70" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--grote-->
+    <term tid="t71" type="open" lemma="groot" pos="G" morphofeat="adj">
+      <span>
+        <target id="w71"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--leider-->
+    <term tid="t72" type="open" lemma="leider" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t73" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t74" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--grote-->
+    <term tid="t75" type="open" lemma="groot" pos="G" morphofeat="adj">
+      <span>
+        <target id="w75"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--premier-->
+    <term tid="t76" type="open" lemma="premier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w76"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--en-->
+    <term tid="t77" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t78" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--grote-->
+    <term tid="t79" type="open" lemma="groot" pos="G" morphofeat="adj">
+      <span>
+        <target id="w79"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Brit-->
+    <term tid="t80" type="open" lemma="Brit" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--verloren-->
+    <term tid="t81" type="open" lemma="verliezen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w81"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--'-->
+    <term tid="t82" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t83" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--verklaarde-->
+    <term tid="t84" type="open" lemma="verklaren" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--David-->
+    <term tid="t85" type="open" lemma="David" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t86" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t87" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--die-->
+    <term tid="t88" type="close" lemma="die" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t89" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--trip-->
+    <term tid="t90" type="open" lemma="trip" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--naar-->
+    <term tid="t91" type="close" lemma="naar" pos="P" morphofeat="prep">
+      <span>
+        <target id="w91"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--verschillende-->
+    <term tid="t92" type="open" lemma="verschillend" pos="G" morphofeat="adj">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t93" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--landen-->
+    <term tid="t94" type="open" lemma="land" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--zal-->
+    <term tid="t95" type="open" lemma="zullen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--inkorten-->
+    <term tid="t96" type="open" lemma="inkorten" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t97" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--David Cameron-->
+        <span>
+          <target id="t85"/>
+          <target id="t86"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--grote leider-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--David Cameron-->
+        <span>
+          <target id="t85"/>
+          <target id="t86"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-neutral">
+        <!--verklaarde-->
+        <span>
+          <target id="t84"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--David Cameron-->
+        <span>
+          <target id="t85"/>
+          <target id="t86"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--grote Brit-->
+        <span>
+          <target id="t79"/>
+          <target id="t80"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--David Cameron-->
+        <span>
+          <target id="t85"/>
+          <target id="t86"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--grote premier-->
+        <span>
+          <target id="t75"/>
+          <target id="t76"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

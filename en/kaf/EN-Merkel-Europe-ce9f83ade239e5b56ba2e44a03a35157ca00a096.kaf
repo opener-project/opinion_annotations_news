@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:09:11" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:09:52CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:59CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="17" para="2" offset="2293" length="1" wid="w402">"</wf>
+    <wf sent="17" para="2" offset="2294" length="4" wid="w403">This</wf>
+    <wf sent="17" para="2" offset="2299" length="2" wid="w404">is</wf>
+    <wf sent="17" para="2" offset="2301" length="1" wid="w405">,</wf>
+    <wf sent="17" para="2" offset="2303" length="5" wid="w406">above</wf>
+    <wf sent="17" para="2" offset="2309" length="3" wid="w407">all</wf>
+    <wf sent="17" para="2" offset="2312" length="1" wid="w408">,</wf>
+    <wf sent="17" para="2" offset="2314" length="2" wid="w409">my</wf>
+    <wf sent="17" para="2" offset="2317" length="8" wid="w410">personal</wf>
+    <wf sent="17" para="2" offset="2326" length="6" wid="w411">defeat</wf>
+    <wf sent="17" para="2" offset="2332" length="1" wid="w412">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t402">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <!--This-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t403">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t404">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t405">
+      <span>
+        <target id="w405"/>
+      </span>
+    </term>
+    <!--above-->
+    <term type="close" lemma="above" pos="P" morphofeat="IN" tid="t406">
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+    <!--all-->
+    <term type="open" lemma="all" pos="A" morphofeat="RB" tid="t407">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t408">
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+    <!--my-->
+    <term type="close" lemma="my" pos="Q" morphofeat="PRP$" tid="t409">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <!--personal-->
+    <term type="open" lemma="personal" pos="G" morphofeat="JJ" tid="t410">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <!--defeat-->
+    <term type="open" lemma="defeat" pos="N" morphofeat="NN" tid="t411">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t412">
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--my-->
+        <span>
+          <target id="t409"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--This-->
+        <span>
+          <target id="t403"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--personal defeat-->
+        <span>
+          <target id="t410"/>
+          <target id="t411"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

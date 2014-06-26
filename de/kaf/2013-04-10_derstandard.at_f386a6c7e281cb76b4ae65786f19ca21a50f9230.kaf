@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:50:30Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:50:30Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:47:11CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:50:47CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w17" sent="4" para="3" offset="112" length="3">Das</wf>
+    <wf wid="w18" sent="4" para="3" offset="116" length="3">war</wf>
+    <wf wid="w19" sent="4" para="3" offset="120" length="4">nach</wf>
+    <wf wid="w20" sent="4" para="3" offset="125" length="3">dem</wf>
+    <wf wid="w21" sent="4" para="3" offset="129" length="5">Krieg</wf>
+    <wf wid="w22" sent="4" para="3" offset="135" length="4">1974</wf>
+    <wf wid="w23" sent="4" para="3" offset="139" length="1">.</wf>
+    <wf wid="w325" sent="19" para="6" offset="1902" length="6">Loizou</wf>
+    <wf wid="w326" sent="19" para="6" offset="1909" length="6">stirbt</wf>
+    <wf wid="w327" sent="19" para="6" offset="1916" length="4">1971</wf>
+    <wf wid="w328" sent="19" para="6" offset="1920" length="1">,</wf>
+    <wf wid="w329" sent="19" para="6" offset="1922" length="3">die</wf>
+    <wf wid="w330" sent="19" para="6" offset="1926" length="5">Söhne</wf>
+    <wf wid="w331" sent="19" para="6" offset="1932" length="10">übernehmen</wf>
+    <wf wid="w332" sent="19" para="6" offset="1943" length="3">das</wf>
+    <wf wid="w333" sent="19" para="6" offset="1947" length="8">Geschäft</wf>
+    <wf wid="w334" sent="19" para="6" offset="1955" length="1">.</wf>
+    <wf wid="w425" sent="23" para="8" offset="2505" length="4">Eine</wf>
+    <wf wid="w426" sent="23" para="8" offset="2510" length="7">Million</wf>
+    <wf wid="w427" sent="23" para="8" offset="2518" length="9">britische</wf>
+    <wf wid="w428" sent="23" para="8" offset="2528" length="9">Touristen</wf>
+    <wf wid="w429" sent="23" para="8" offset="2538" length="5">kamen</wf>
+    <wf wid="w430" sent="23" para="8" offset="2544" length="2">im</wf>
+    <wf wid="w431" sent="23" para="8" offset="2547" length="11">vergangenen</wf>
+    <wf wid="w432" sent="23" para="8" offset="2559" length="4">Jahr</wf>
+    <wf wid="w433" sent="23" para="8" offset="2564" length="4">nach</wf>
+    <wf wid="w434" sent="23" para="8" offset="2569" length="6">Zypern</wf>
+    <wf wid="w435" sent="23" para="8" offset="2575" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="PDS" pos="Q" tid="t17" type="close">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t18" type="open">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="nach" morphofeat="APPR" pos="P" tid="t19" type="close">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t20" type="close">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="Krieg" morphofeat="NN" pos="N" tid="t21" type="open">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="1974" morphofeat="CARD" pos="O" tid="t22" type="open">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t23" type="open">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="Loizou" morphofeat="NE unknown_lemma" pos="O" tid="t325" type="open">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <term lemma="sterben" morphofeat="VVFIN" pos="V" tid="t326" type="open">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t327" type="open">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t328" type="open">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t329" type="close">
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+    <term lemma="Sohn" morphofeat="NN" pos="N" tid="t330" type="open">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <term lemma="übernehmen" morphofeat="VVFIN" pos="V" tid="t331" type="open">
+      <span>
+        <target id="w331"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t332" type="close">
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+    <term lemma="Geschäft" morphofeat="NN" pos="N" tid="t333" type="open">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t334" type="open">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t425" type="close">
+      <span>
+        <target id="w425"/>
+      </span>
+    </term>
+    <term lemma="Million" morphofeat="NN" pos="N" tid="t426" type="open">
+      <span>
+        <target id="w426"/>
+      </span>
+    </term>
+    <term lemma="britisch" morphofeat="ADJA" pos="G" tid="t427" type="open">
+      <span>
+        <target id="w427"/>
+      </span>
+    </term>
+    <term lemma="Tourist" morphofeat="NN" pos="N" tid="t428" type="open">
+      <span>
+        <target id="w428"/>
+      </span>
+    </term>
+    <term lemma="kommen" morphofeat="VVFIN" pos="V" tid="t429" type="open">
+      <span>
+        <target id="w429"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t430" type="close">
+      <span>
+        <target id="w430"/>
+      </span>
+    </term>
+    <term lemma="vergangen" morphofeat="ADJA" pos="G" tid="t431" type="open">
+      <span>
+        <target id="w431"/>
+      </span>
+    </term>
+    <term lemma="Jahr" morphofeat="NN" pos="N" tid="t432" type="open">
+      <span>
+        <target id="w432"/>
+      </span>
+    </term>
+    <term lemma="nach" morphofeat="APPR" pos="P" tid="t433" type="close">
+      <span>
+        <target id="w433"/>
+      </span>
+    </term>
+    <term lemma="Zypern" morphofeat="NE" pos="R" tid="t434" type="open">
+      <span>
+        <target id="w434"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t435" type="open">
+      <span>
+        <target id="w435"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t325"/>
+          <target id="t326"/>
+          <target id="t327"/>
+          <target id="t328"/>
+          <target id="t329"/>
+          <target id="t330"/>
+          <target id="t331"/>
+          <target id="t332"/>
+          <target id="t333"/>
+          <target id="t425"/>
+          <target id="t426"/>
+          <target id="t427"/>
+          <target id="t428"/>
+          <target id="t429"/>
+          <target id="t430"/>
+          <target id="t431"/>
+          <target id="t432"/>
+          <target id="t433"/>
+          <target id="t434"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

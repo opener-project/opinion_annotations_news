@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:38Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:38Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:53:12" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:04:40CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="19" para="2" offset="3123" length="2" wid="w528">It</wf>
+    <wf sent="19" para="2" offset="3126" length="2" wid="w529">is</wf>
+    <wf sent="19" para="2" offset="3129" length="14" wid="w530">indiscriminate</wf>
+    <wf sent="19" para="2" offset="3144" length="3" wid="w531">and</wf>
+    <wf sent="19" para="2" offset="3148" length="12" wid="w532">overreaching</wf>
+    <wf sent="19" para="2" offset="3160" length="1" wid="w533">.</wf>
+  </text>
+  <terms>
+    <!--It-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t528">
+      <span>
+        <target id="w528"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t529">
+      <span>
+        <target id="w529"/>
+      </span>
+    </term>
+    <!--indiscriminate-->
+    <term type="open" lemma="indiscriminate" pos="G" morphofeat="JJ" tid="t530">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w530"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t531">
+      <span>
+        <target id="w531"/>
+      </span>
+    </term>
+    <!--overreaching-->
+    <term type="open" lemma="overreaching" pos="G" morphofeat="JJ" tid="t532">
+      <span>
+        <target id="w532"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t533">
+      <span>
+        <target id="w533"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--It-->
+        <span>
+          <target id="t528"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--indiscriminate-->
+        <span>
+          <target id="t530"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--It-->
+        <span>
+          <target id="t528"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--overreaching-->
+        <span>
+          <target id="t532"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

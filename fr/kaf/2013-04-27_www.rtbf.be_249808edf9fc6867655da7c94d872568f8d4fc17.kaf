@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:55:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:55:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:55:09Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:25:36CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w136" sent="6" para="5" offset="751" length="2">On</wf>
+    <wf wid="w137" sent="6" para="5" offset="754" length="2">ne</wf>
+    <wf wid="w138" sent="6" para="5" offset="757" length="4">peut</wf>
+    <wf wid="w139" sent="6" para="5" offset="762" length="7">accuser</wf>
+    <wf wid="w140" sent="6" para="5" offset="770" length="6">Angela</wf>
+    <wf wid="w141" sent="6" para="5" offset="777" length="6">Merkel</wf>
+    <wf wid="w215" sent="8" para="7" offset="1136" length="1">"</wf>
+    <wf wid="w216" sent="8" para="7" offset="1137" length="2">Le</wf>
+    <wf wid="w217" sent="8" para="7" offset="1140" length="4">seul</wf>
+    <wf wid="w218" sent="8" para="7" offset="1145" length="3">qui</wf>
+    <wf wid="w219" sent="8" para="7" offset="1149" length="1">a</wf>
+    <wf wid="w220" sent="8" para="7" offset="1151" length="9">contredit</wf>
+    <wf wid="w221" sent="8" para="7" offset="1161" length="5">cette</wf>
+    <wf wid="w222" sent="8" para="7" offset="1167" length="8">approche</wf>
+    <wf wid="w223" sent="8" para="7" offset="1175" length="1">,</wf>
+    <wf wid="w224" sent="8" para="7" offset="1177" length="2">c'</wf>
+    <wf wid="w225" sent="8" para="7" offset="1179" length="3">est</wf>
+    <wf wid="w226" sent="8" para="7" offset="1183" length="8">François</wf>
+    <wf wid="w227" sent="8" para="7" offset="1192" length="8">Hollande</wf>
+    <wf wid="w228" sent="8" para="7" offset="1200" length="1">,</wf>
+    <wf wid="w229" sent="8" para="7" offset="1202" length="3">qui</wf>
+    <wf wid="w230" sent="8" para="7" offset="1206" length="1">a</wf>
+    <wf wid="w231" sent="8" para="7" offset="1208" length="7">demandé</wf>
+    <wf wid="w232" sent="8" para="7" offset="1216" length="2">un</wf>
+    <wf wid="w233" sent="8" para="7" offset="1219" length="6">paquet</wf>
+    <wf wid="w234" sent="8" para="7" offset="1226" length="10">croissance</wf>
+    <wf wid="w235" sent="8" para="7" offset="1236" length="1">.</wf>
+  </text>
+  <terms>
+    <!--On-->
+    <term tid="t136" type="close" lemma="On" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--ne-->
+    <term tid="t137" type="open" lemma="ne" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--peut-->
+    <term tid="t138" type="open" lemma="pouvoir" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--accuser-->
+    <term tid="t139" type="open" lemma="accuser" pos="V" morphofeat="VW">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t140" type="open" lemma="Angela" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t141" type="open" lemma="Merkel" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t215" type="close" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--Le-->
+    <term tid="t216" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--seul-->
+    <term tid="t217" type="open" lemma="seul" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--qui-->
+    <term tid="t218" type="close" lemma="qui" pos="P" morphofeat="PROR3ms">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t219" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--contredit-->
+    <term tid="t220" type="open" lemma="contredire" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--cette-->
+    <term tid="t221" type="close" lemma="ce" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--approche-->
+    <term tid="t222" type="open" lemma="approche" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t223" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--c'-->
+    <term tid="t224" type="close" lemma="c'" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t225" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--François-->
+    <term tid="t226" type="open" lemma="François" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t227" type="open" lemma="hollande" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t228" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--qui-->
+    <term tid="t229" type="close" lemma="qui" pos="P" morphofeat="PROR3ms">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t230" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--demandé-->
+    <term tid="t231" type="open" lemma="demander" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t232" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--paquet-->
+    <term tid="t233" type="open" lemma="paquet" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--croissance-->
+    <term tid="t234" type="open" lemma="croissance" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t235" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--François Hollande-->
+        <span>
+          <target id="t226"/>
+          <target id="t227"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--cette approche-->
+        <span>
+          <target id="t221"/>
+          <target id="t222"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--contredit-->
+        <span>
+          <target id="t220"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--On-->
+        <span>
+          <target id="t136"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Angela Merkel-->
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ne peut accuser-->
+        <span>
+          <target id="t137"/>
+          <target id="t138"/>
+          <target id="t139"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

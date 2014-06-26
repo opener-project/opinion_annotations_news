@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:47:23Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:47:23Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:47:23Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="2" offset="4817" para="34" sent="58" wid="w958">La</wf>
+    <wf length="1" offset="4820" para="34" sent="58" wid="w959">"</wf>
+    <wf length="4" offset="4821" para="34" sent="58" wid="w960">dame</wf>
+    <wf length="2" offset="4826" para="34" sent="58" wid="w961">de</wf>
+    <wf length="3" offset="4829" para="34" sent="58" wid="w962">fer</wf>
+    <wf length="1" offset="4832" para="34" sent="58" wid="w963">"</wf>
+    <wf length="10" offset="4834" para="34" sent="58" wid="w964">souhaitait</wf>
+    <wf length="3" offset="4845" para="34" sent="58" wid="w965">que</wf>
+    <wf length="3" offset="4849" para="34" sent="58" wid="w966">les</wf>
+    <wf length="14" offset="4853" para="34" sent="58" wid="w967">commémorations</wf>
+    <wf length="8" offset="4868" para="34" sent="58" wid="w968">incluent</wf>
+    <wf length="3" offset="4877" para="34" sent="58" wid="w969">une</wf>
+    <wf length="6" offset="4881" para="34" sent="58" wid="w970">partie</wf>
+    <wf length="9" offset="4888" para="34" sent="58" wid="w971">militaire</wf>
+    <wf length="1" offset="4897" para="34" sent="58" wid="w972">.</wf>
+  </text>
+  <terms>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t958" type="close">
+      <span>
+        <!-- La -->
+        <target id="w958"/>
+      </span>
+    </term>
+    <term lemma="&amp;quot;" morphofeat="&quot;" pos="O" tid="t959" type="close">
+      <span>
+        <!-- " -->
+        <target id="w959"/>
+      </span>
+    </term>
+    <term lemma="dame" morphofeat="NCfs" pos="N" tid="t960" type="open">
+      <span>
+        <!-- dame -->
+        <target id="w960"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t961" type="close">
+      <span>
+        <!-- de -->
+        <target id="w961"/>
+      </span>
+    </term>
+    <term lemma="fer" morphofeat="NCms" pos="N" tid="t962" type="open">
+      <span>
+        <!-- fer -->
+        <target id="w962"/>
+      </span>
+    </term>
+    <term lemma="&amp;quot;" morphofeat="&quot;" pos="O" tid="t963" type="close">
+      <span>
+        <!-- " -->
+        <target id="w963"/>
+      </span>
+    </term>
+    <term lemma="souhaiter" morphofeat="VI3s" pos="V" tid="t964" type="open">
+      <span>
+        <!-- souhaitait -->
+        <target id="w964"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="CS" pos="C" tid="t965" type="close">
+      <span>
+        <!-- que -->
+        <target id="w965"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t966" type="close">
+      <span>
+        <!-- les -->
+        <target id="w966"/>
+      </span>
+    </term>
+    <term lemma="commémoration" morphofeat="NCfp" pos="N" tid="t967" type="open">
+      <span>
+        <!-- commémorations -->
+        <target id="w967"/>
+      </span>
+    </term>
+    <term lemma="inclure" morphofeat="VP3p" pos="V" tid="t968" type="open">
+      <span>
+        <!-- incluent -->
+        <target id="w968"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t969" type="close">
+      <span>
+        <!-- une -->
+        <target id="w969"/>
+      </span>
+    </term>
+    <term lemma="partie" morphofeat="NCfs" pos="N" tid="t970" type="open">
+      <span>
+        <!-- partie -->
+        <target id="w970"/>
+      </span>
+    </term>
+    <term lemma="militaire" morphofeat="Afs" pos="G" tid="t971" type="open">
+      <span>
+        <!-- militaire -->
+        <target id="w971"/>
+      </span>
+    </term>
+  </terms>
+  <chunks/>
+  <coreferences/>
+  <features>
+    <properties/>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--La " dame de fer "-->
+        <span>
+          <target id="t958"/>
+          <target id="t959"/>
+          <target id="t960"/>
+          <target id="t961"/>
+          <target id="t962"/>
+          <target id="t963"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--les commémorations incluent une partie militaire-->
+        <span>
+          <target id="t966"/>
+          <target id="t967"/>
+          <target id="t968"/>
+          <target id="t969"/>
+          <target id="t970"/>
+          <target id="t971"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--souhaitait-->
+        <span>
+          <target id="t964"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

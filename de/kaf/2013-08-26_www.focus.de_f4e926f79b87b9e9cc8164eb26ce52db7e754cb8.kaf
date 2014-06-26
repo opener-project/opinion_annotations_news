@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:54:59Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:54:59Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:13:07CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:55:18CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:28CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w456" sent="24" para="11" offset="2601" length="2">Es</wf>
+    <wf wid="w457" sent="24" para="11" offset="2604" length="5">werde</wf>
+    <wf wid="w458" sent="24" para="11" offset="2610" length="6">keinen</wf>
+    <wf wid="w459" sent="24" para="11" offset="2617" length="5">neuen</wf>
+    <wf wid="w460" sent="24" para="11" offset="2623" length="15">Schuldenschnitt</wf>
+    <wf wid="w461" sent="24" para="11" offset="2639" length="3">für</wf>
+    <wf wid="w462" sent="24" para="11" offset="2643" length="12">Griechenland</wf>
+    <wf wid="w463" sent="24" para="11" offset="2656" length="5">geben</wf>
+    <wf wid="w464" sent="24" para="11" offset="2662" length="1">–</wf>
+    <wf wid="w465" sent="24" para="11" offset="2664" length="3">und</wf>
+    <wf wid="w466" sent="24" para="11" offset="2668" length="4">auch</wf>
+    <wf wid="w467" sent="24" para="11" offset="2673" length="3">ein</wf>
+    <wf wid="w468" sent="24" para="11" offset="2677" length="8">weiteres</wf>
+    <wf wid="w469" sent="24" para="11" offset="2686" length="5">Paket</wf>
+    <wf wid="w470" sent="24" para="11" offset="2692" length="5">stehe</wf>
+    <wf wid="w471" sent="24" para="11" offset="2698" length="9">überhaupt</wf>
+    <wf wid="w472" sent="24" para="11" offset="2708" length="5">nicht</wf>
+    <wf wid="w473" sent="24" para="11" offset="2714" length="3">zur</wf>
+    <wf wid="w474" sent="24" para="11" offset="2718" length="7">Debatte</wf>
+    <wf wid="w475" sent="24" para="11" offset="2725" length="1">,</wf>
+    <wf wid="w476" sent="24" para="11" offset="2727" length="5">sagte</wf>
+    <wf wid="w477" sent="24" para="11" offset="2733" length="8">Dobrindt</wf>
+    <wf wid="w478" sent="24" para="11" offset="2741" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t456" type="close">
+      <span>
+        <target id="w456"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t457" type="open">
+      <span>
+        <target id="w457"/>
+      </span>
+    </term>
+    <term lemma="keine" morphofeat="PIAT" pos="Q" tid="t458" type="close">
+      <span>
+        <target id="w458"/>
+      </span>
+    </term>
+    <term lemma="neu" morphofeat="ADJA" pos="G" tid="t459" type="open">
+      <span>
+        <target id="w459"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Schuldenschnitt" morphofeat="NN unknown_lemma" pos="O" tid="t460" type="open">
+      <span>
+        <target id="w460"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t461" type="close">
+      <span>
+        <target id="w461"/>
+      </span>
+    </term>
+    <term lemma="Griechenland" morphofeat="NE" pos="R" tid="t462" type="open">
+      <span>
+        <target id="w462"/>
+      </span>
+    </term>
+    <term lemma="geben" morphofeat="VVFIN" pos="V" tid="t463" type="open">
+      <span>
+        <target id="w463"/>
+      </span>
+    </term>
+    <term lemma="–" morphofeat="ADJD unknown_lemma" pos="O" tid="t464" type="open">
+      <span>
+        <target id="w464"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t465" type="close">
+      <span>
+        <target id="w465"/>
+      </span>
+    </term>
+    <term lemma="auch" morphofeat="ADV" pos="A" tid="t466" type="open">
+      <span>
+        <target id="w466"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t467" type="close">
+      <span>
+        <target id="w467"/>
+      </span>
+    </term>
+    <term lemma="weit" morphofeat="ADJA" pos="G" tid="t468" type="open">
+      <span>
+        <target id="w468"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Paket" morphofeat="NN" pos="N" tid="t469" type="open">
+      <span>
+        <target id="w469"/>
+      </span>
+    </term>
+    <term lemma="stehen" morphofeat="VVFIN" pos="V" tid="t470" type="open">
+      <span>
+        <target id="w470"/>
+      </span>
+    </term>
+    <term lemma="überhaupt" morphofeat="ADV" pos="A" tid="t471" type="open">
+      <span>
+        <target id="w471"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t472" type="open">
+      <span>
+        <target id="w472"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="zu" morphofeat="APPRART" pos="P" tid="t473" type="close">
+      <span>
+        <target id="w473"/>
+      </span>
+    </term>
+    <term lemma="Debatte" morphofeat="NN" pos="N" tid="t474" type="open">
+      <span>
+        <target id="w474"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t475" type="open">
+      <span>
+        <target id="w475"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t476" type="open">
+      <span>
+        <target id="w476"/>
+      </span>
+    </term>
+    <term lemma="Dobrindt" morphofeat="NE unknown_lemma" pos="O" tid="t477" type="open">
+      <span>
+        <target id="w477"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t478" type="open">
+      <span>
+        <target id="w478"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--Dobrindt-->
+        <span>
+          <target id="t477"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--keinen neuen Schuldenschnitt-->
+        <span>
+          <target id="t458"/>
+          <target id="t459"/>
+          <target id="t460"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Paket-->
+        <span>
+          <target id="t469"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--weiteres-->
+        <span>
+          <target id="t468"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--neuen Schuldenschnitt-->
+        <span>
+          <target id="t459"/>
+          <target id="t460"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--keinen-->
+        <span>
+          <target id="t458"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Dobrindt-->
+        <span>
+          <target id="t477"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--ein weiteres Paket-->
+        <span>
+          <target id="t467"/>
+          <target id="t468"/>
+          <target id="t469"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--nicht zur Debatte-->
+        <span>
+          <target id="t472"/>
+          <target id="t473"/>
+          <target id="t474"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

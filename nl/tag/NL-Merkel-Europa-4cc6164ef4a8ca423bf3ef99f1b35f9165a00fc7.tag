@@ -1,0 +1,11 @@
+w96	Premier	premier	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	95	true	4
+w97	Mark	mark	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	96	true	4
+w98	Rutte	Rutte	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	97	true	4
+w99	woonde	wonen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	98	true	4
+w100	de	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	99	true	4
+w101	uitreiking	uitreiking	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	100	true	4
+w102	van	van	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	101	true	4
+w103	de	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	102	true	4
+w104	prijs	prijs	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	103	true	4
+w105	bij	bij	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	104	true	4
+w106	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	105	true	4

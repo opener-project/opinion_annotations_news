@@ -1,0 +1,9 @@
+w56	Il	lo	D		OpinionHolder	1	Opinion	4		0		0	NON-OPINIONATED	5		0		0		0	55	true	4
+w57	premier	premier	N		OpinionHolder	1	Opinion	4		0		0	NON-OPINIONATED	5		0		0		0	56	true	4
+w58	uscente	uscire	V		OpinionHolder	1	Opinion	4		0		0	NON-OPINIONATED	5		0		0		0	57	true	4
+w59	aveva	avere	V		D-Neutral	2	Opinion	4		0		0	NON-OPINIONATED	5		0		0		0	58	true	4
+w60	indicato	indicare	V		D-Neutral	2	Opinion	4		0		0	NON-OPINIONATED	5		0		0		0	59	true	4
+w61	come	come	A		D-Neutral	2	Opinion	4		0		0	NON-OPINIONATED	5		0		0		0	60	true	4
+w62	obiettivo	obiettivo	G		D-Neutral	2	Opinion	4		0		0	NON-OPINIONATED	5		0		0		0	61	true	4
+w63	quota	quotare	V		OpinionTarget	3	Opinion	4		0		0	NON-OPINIONATED	5		0		0		0	62	true	4
+w64	287	287	N		OpinionTarget	3	Opinion	4		0		0	NON-OPINIONATED	5		0		0		0	63	true	4

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:54Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:54Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:49:21CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:28CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w72" sent="5" para="2" offset="434" length="6">Manuel</wf>
+    <wf wid="w73" sent="5" para="2" offset="441" length="5">Valls</wf>
+    <wf wid="w74" sent="5" para="2" offset="446" length="1">,</wf>
+    <wf wid="w75" sent="5" para="2" offset="448" length="5">wordt</wf>
+    <wf wid="w76" sent="5" para="2" offset="454" length="8">minister</wf>
+    <wf wid="w77" sent="5" para="2" offset="463" length="3">van</wf>
+    <wf wid="w78" sent="5" para="2" offset="467" length="12">Binnenlandse</wf>
+    <wf wid="w79" sent="5" para="2" offset="480" length="5">Zaken</wf>
+    <wf wid="w80" sent="5" para="2" offset="485" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Manuel-->
+    <term tid="t72" type="open" lemma="Manuel" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--Valls-->
+    <term tid="t73" type="open" lemma="Valls" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t74" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--wordt-->
+    <term tid="t75" type="open" lemma="worden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--minister-->
+    <term tid="t76" type="open" lemma="minister" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t77" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--Binnenlandse-->
+    <term tid="t78" type="open" lemma="binnenlands" pos="G" morphofeat="adj">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--Zaken-->
+    <term tid="t79" type="open" lemma="zaak|zaken" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t80" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t72"/>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+          <target id="t79"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

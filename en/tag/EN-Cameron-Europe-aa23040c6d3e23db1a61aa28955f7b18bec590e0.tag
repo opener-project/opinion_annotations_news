@@ -1,0 +1,15 @@
+w228	They	they	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	227	true	8
+w229	include	include	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	228	true	8
+w230	12	12	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	229	true	8
+w231	British	british	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	230	true	8
+w232	nationals	national	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	231	true	8
+w233	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	232	true	8
+w234	some	some	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	233	true	8
+w235	based	base	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	234	true	8
+w236	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	235	true	8
+w237	Portugal	Portugal	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	236	true	8
+w238	and	and	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	237	true	8
+w239	some	some	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	238	true	8
+w240	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	239	true	8
+w241	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	240	true	8
+w242	UK	UK	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	241	true	8

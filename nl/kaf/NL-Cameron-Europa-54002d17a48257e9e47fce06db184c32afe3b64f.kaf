@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:53Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:53Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:25:25CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="12">Pro-Europees</wf>
+    <wf wid="w2" sent="1" para="1" offset="13" length="3">CDA</wf>
+    <wf wid="w3" sent="1" para="1" offset="17" length="3">wil</wf>
+    <wf wid="w4" sent="1" para="1" offset="21" length="3">wel</wf>
+    <wf wid="w5" sent="1" para="1" offset="25" length="12">bevoegdheden</wf>
+    <wf wid="w6" sent="1" para="1" offset="38" length="10">terughalen</wf>
+    <wf wid="w7" sent="1" para="1" offset="49" length="3">uit</wf>
+    <wf wid="w8" sent="1" para="1" offset="53" length="7">Brussel</wf>
+  </text>
+  <terms>
+    <!--Pro-Europees-->
+    <term tid="t1" type="open" lemma="Pro-Europees" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--CDA-->
+    <term tid="t2" type="open" lemma="CDA" pos="N" morphofeat="nounabbr">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t3" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--wel-->
+    <term tid="t4" type="open" lemma="wel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--bevoegdheden-->
+    <term tid="t5" type="open" lemma="bevoegdheid" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--terughalen-->
+    <term tid="t6" type="open" lemma="terughalen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--uit-->
+    <term tid="t7" type="close" lemma="uit" pos="P" morphofeat="prep">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Brussel-->
+    <term tid="t8" type="open" lemma="Brussel" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--CDA-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--Pro-Europees-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bevoegdheden-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Pro-Europees CDA-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bevoegdheden-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--wel terughalen-->
+        <span>
+          <target id="t4"/>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Pro-Europees CDA-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--wel terughalen-->
+        <span>
+          <target id="t4"/>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

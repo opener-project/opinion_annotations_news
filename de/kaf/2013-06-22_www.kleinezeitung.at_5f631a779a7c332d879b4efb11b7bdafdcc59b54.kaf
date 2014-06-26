@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:45:08Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:45:08Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:57:32CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:45:32CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w318" sent="24" para="10" offset="1943" length="6">Merkel</wf>
+    <wf wid="w319" sent="24" para="10" offset="1950" length="5">hatte</wf>
+    <wf wid="w320" sent="24" para="10" offset="1956" length="3">die</wf>
+    <wf wid="w321" sent="24" para="10" offset="1960" length="8">Einsätze</wf>
+    <wf wid="w322" sent="24" para="10" offset="1969" length="3">der</wf>
+    <wf wid="w323" sent="24" para="10" offset="1973" length="10">türkischen</wf>
+    <wf wid="w324" sent="24" para="10" offset="1984" length="7">Polizei</wf>
+    <wf wid="w325" sent="24" para="10" offset="1992" length="3">mit</wf>
+    <wf wid="w326" sent="24" para="10" offset="1996" length="4">vier</wf>
+    <wf wid="w327" sent="24" para="10" offset="2001" length="5">Toten</wf>
+    <wf wid="w328" sent="24" para="10" offset="2007" length="3">und</wf>
+    <wf wid="w329" sent="24" para="10" offset="2011" length="4">7500</wf>
+    <wf wid="w330" sent="24" para="10" offset="2016" length="10">Verletzten</wf>
+    <wf wid="w331" sent="24" para="10" offset="2027" length="2">am</wf>
+    <wf wid="w332" sent="24" para="10" offset="2030" length="6">Montag</wf>
+    <wf wid="w333" sent="24" para="10" offset="2037" length="3">als</wf>
+    <wf wid="w334" sent="24" para="10" offset="2041" length="1">"</wf>
+    <wf wid="w335" sent="24" para="10" offset="2042" length="4">viel</wf>
+    <wf wid="w336" sent="24" para="10" offset="2047" length="2">zu</wf>
+    <wf wid="w337" sent="24" para="10" offset="2050" length="4">hart</wf>
+    <wf wid="w338" sent="24" para="10" offset="2054" length="1">"</wf>
+    <wf wid="w339" sent="24" para="10" offset="2056" length="10">kritisiert</wf>
+    <wf wid="w340" sent="24" para="10" offset="2066" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t318" type="open">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t319" type="open">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t320" type="close">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <term lemma="Einsatz" morphofeat="NN" pos="N" tid="t321" type="open">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t322" type="close">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <term lemma="türkisch" morphofeat="ADJA" pos="G" tid="t323" type="open">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <term lemma="Polizei" morphofeat="NN" pos="N" tid="t324" type="open">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t325" type="close">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <term lemma="vier" morphofeat="CARD" pos="O" tid="t326" type="open">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <term lemma="Tote" morphofeat="NN" pos="N" tid="t327" type="open">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t328" type="close">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t329" type="open">
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+    <term lemma="Verletzte" morphofeat="NN" pos="N" tid="t330" type="open">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t331" type="close">
+      <span>
+        <target id="w331"/>
+      </span>
+    </term>
+    <term lemma="Montag" morphofeat="NN" pos="N" tid="t332" type="open">
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+    <term lemma="als" morphofeat="KOKOM" pos="C" tid="t333" type="close">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t334" type="open">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <term lemma="viel" morphofeat="ADV" pos="A" tid="t335" type="open">
+      <span>
+        <target id="w335"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="zu" morphofeat="PTKA" pos="O" tid="t336" type="open">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <term lemma="hart" morphofeat="ADJD" pos="G" tid="t337" type="open">
+      <span>
+        <target id="w337"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t338" type="open">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <term lemma="kritisieren" morphofeat="VVPP" pos="V" tid="t339" type="open">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t340" type="open">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t318"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Einsätze der türkischen Polizei-->
+        <span>
+          <target id="t321"/>
+          <target id="t322"/>
+          <target id="t323"/>
+          <target id="t324"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--viel zu hart-->
+        <span>
+          <target id="t335"/>
+          <target id="t336"/>
+          <target id="t337"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t318"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Einsätze der türkischen Polizei-->
+        <span>
+          <target id="t321"/>
+          <target id="t322"/>
+          <target id="t323"/>
+          <target id="t324"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--kritisiert-->
+        <span>
+          <target id="t339"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:52:39Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:52:39Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:02:28CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:52:56CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w136" sent="10" para="8" offset="825" length="3">Das</wf>
+    <wf wid="w137" sent="10" para="8" offset="829" length="3">960</wf>
+    <wf wid="w138" sent="10" para="8" offset="833" length="10">Milliarden</wf>
+    <wf wid="w139" sent="10" para="8" offset="844" length="4">Euro</wf>
+    <wf wid="w140" sent="10" para="8" offset="849" length="7">schwere</wf>
+    <wf wid="w141" sent="10" para="8" offset="857" length="2">EU</wf>
+    <wf wid="w142" sent="10" para="8" offset="859" length="1">·</wf>
+    <wf wid="w143" sent="10" para="8" offset="860" length="6">Budget</wf>
+    <wf wid="w144" sent="10" para="8" offset="867" length="3">der</wf>
+    <wf wid="w145" sent="10" para="8" offset="871" length="5">Jahre</wf>
+    <wf wid="w146" sent="10" para="8" offset="877" length="4">2014</wf>
+    <wf wid="w147" sent="10" para="8" offset="881" length="1">·</wf>
+    <wf wid="w148" sent="10" para="8" offset="882" length="4">2020</wf>
+    <wf wid="w149" sent="10" para="8" offset="887" length="3">ist</wf>
+    <wf wid="w150" sent="10" para="8" offset="891" length="4">noch</wf>
+    <wf wid="w151" sent="10" para="8" offset="896" length="5">immer</wf>
+    <wf wid="w152" sent="10" para="8" offset="902" length="5">nicht</wf>
+    <wf wid="w153" sent="10" para="8" offset="908" length="11">beschlossen</wf>
+    <wf wid="w154" sent="10" para="8" offset="920" length="1">.</wf>
+    <wf wid="w337" sent="23" para="14" offset="2103" length="3">Der</wf>
+    <wf wid="w338" sent="23" para="14" offset="2107" length="3">SPD</wf>
+    <wf wid="w339" sent="23" para="14" offset="2110" length="1">·</wf>
+    <wf wid="w340" sent="23" para="14" offset="2111" length="9">Politiker</wf>
+    <wf wid="w341" sent="23" para="14" offset="2121" length="8">beklagte</wf>
+    <wf wid="w342" sent="23" para="14" offset="2130" length="4">eine</wf>
+    <wf wid="w343" sent="23" para="14" offset="2135" length="1">"</wf>
+    <wf wid="w344" sent="23" para="14" offset="2136" length="18">Entsolidarisierung</wf>
+    <wf wid="w345" sent="23" para="14" offset="2154" length="1">"</wf>
+    <wf wid="w346" sent="23" para="14" offset="2156" length="2">in</wf>
+    <wf wid="w347" sent="23" para="14" offset="2159" length="3">der</wf>
+    <wf wid="w348" sent="23" para="14" offset="2163" length="12">Europäischen</wf>
+    <wf wid="w349" sent="23" para="14" offset="2176" length="5">Union</wf>
+    <wf wid="w350" sent="23" para="14" offset="2181" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t136" type="close">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="ADJA" pos="G" tid="t137" type="open">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <term lemma="Milliarde" morphofeat="NN" pos="N" tid="t138" type="open">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <term lemma="Euro" morphofeat="NN" pos="N" tid="t139" type="open">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <term lemma="schwer" morphofeat="ADJA" pos="G" tid="t140" type="open">
+      <span>
+        <target id="w140"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t141" type="open">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t142" type="open">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <term lemma="Budget" morphofeat="NN" pos="N" tid="t143" type="open">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t144" type="close">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <term lemma="Jahr" morphofeat="NN" pos="N" tid="t145" type="open">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="ADJA" pos="G" tid="t146" type="open">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t147" type="open">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <term lemma="2020" morphofeat="CARD" pos="O" tid="t148" type="open">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t149" type="open">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <term lemma="noch" morphofeat="ADV" pos="A" tid="t150" type="open">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <term lemma="immer" morphofeat="ADV" pos="A" tid="t151" type="open">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t152" type="open">
+      <span>
+        <target id="w152"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="beschließen" morphofeat="VVPP" pos="V" tid="t153" type="open">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t154" type="open">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t337" type="close">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <term lemma="SPD" morphofeat="NE" pos="R" tid="t338" type="open">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t339" type="open">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <term lemma="Politiker" morphofeat="NN" pos="N" tid="t340" type="open">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <term lemma="beklagen" morphofeat="VVFIN" pos="V" tid="t341" type="open">
+      <span>
+        <target id="w341"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t342" type="close">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t343" type="open">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <term lemma="Entsolidarisierung" morphofeat="NN unknown_lemma" pos="O" tid="t344" type="open">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t345" type="open">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t346" type="close">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t347" type="close">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <term lemma="europäisch" morphofeat="ADJA" pos="G" tid="t348" type="open">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <term lemma="Union" morphofeat="NN" pos="N" tid="t349" type="open">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t350" type="open">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Das EU · Budget-->
+        <span>
+          <target id="t136"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--ist noch nicht beschlossen-->
+        <span>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t152"/>
+          <target id="t153"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder>
+        <!--Der SPD · Politiker-->
+        <span>
+          <target id="t337"/>
+          <target id="t338"/>
+          <target id="t339"/>
+          <target id="t340"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--eine " Entsolidarisierung-->
+        <span>
+          <target id="t342"/>
+          <target id="t343"/>
+          <target id="t344"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--beklagte-->
+        <span>
+          <target id="t341"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--in der Europäischen Union-->
+        <span>
+          <target id="t346"/>
+          <target id="t347"/>
+          <target id="t348"/>
+          <target id="t349"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--Entsolidarisierung-->
+        <span>
+          <target id="t344"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

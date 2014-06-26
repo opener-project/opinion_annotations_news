@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:54Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:54Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:28:28CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w196" sent="8" para="2" offset="1068" length="2">De</wf>
+    <wf wid="w197" sent="8" para="2" offset="1071" length="6">eerste</wf>
+    <wf wid="w198" sent="8" para="2" offset="1078" length="4">week</wf>
+    <wf wid="w199" sent="8" para="2" offset="1083" length="3">van</wf>
+    <wf wid="w200" sent="8" para="2" offset="1087" length="4">juni</wf>
+    <wf wid="w201" sent="8" para="2" offset="1092" length="4">2014</wf>
+    <wf wid="w202" sent="8" para="2" offset="1097" length="7">stemmen</wf>
+    <wf wid="w203" sent="8" para="2" offset="1105" length="2">we</wf>
+    <wf wid="w204" sent="8" para="2" offset="1108" length="4">over</wf>
+    <wf wid="w205" sent="8" para="2" offset="1113" length="6">Europa</wf>
+    <wf wid="w206" sent="8" para="2" offset="1119" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t196" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--eerste-->
+    <term tid="t197" type="open" lemma="een" pos="O" morphofeat="num__ord">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--week-->
+    <term tid="t198" type="open" lemma="week" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w198"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--van-->
+    <term tid="t199" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--juni-->
+    <term tid="t200" type="open" lemma="juni" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--2014-->
+    <term tid="t201" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--stemmen-->
+    <term tid="t202" type="open" lemma="stemmen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--we-->
+    <term tid="t203" type="close" lemma="we" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t204" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t205" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t206" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

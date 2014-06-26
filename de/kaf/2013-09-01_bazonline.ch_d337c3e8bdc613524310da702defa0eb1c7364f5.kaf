@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:45:19Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:45:19Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:18:09CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:45:46CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w260" sent="18" para="5" offset="1463" length="10">Steinbrück</wf>
+    <wf wid="w261" sent="18" para="5" offset="1474" length="11">bezeichnete</wf>
+    <wf wid="w262" sent="18" para="5" offset="1486" length="3">die</wf>
+    <wf wid="w263" sent="18" para="5" offset="1490" length="15">Krisenstrategie</wf>
+    <wf wid="w264" sent="18" para="5" offset="1506" length="3">der</wf>
+    <wf wid="w265" sent="18" para="5" offset="1510" length="9">Kanzlerin</wf>
+    <wf wid="w266" sent="18" para="5" offset="1520" length="3">als</wf>
+    <wf wid="w267" sent="18" para="5" offset="1524" length="1">«</wf>
+    <wf wid="w268" sent="18" para="5" offset="1525" length="11">gescheitert</wf>
+    <wf wid="w269" sent="18" para="5" offset="1536" length="1">»</wf>
+    <wf wid="w270" sent="18" para="5" offset="1537" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Steinbrück" morphofeat="NN unknown_lemma" pos="O" tid="t260" type="open">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <term lemma="bezeichnen" morphofeat="VVFIN" pos="V" tid="t261" type="open">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t262" type="close">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <term lemma="Krisenstrategie" morphofeat="NN" pos="N" tid="t263" type="open">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t264" type="close">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <term lemma="Kanzlerin" morphofeat="NN" pos="N" tid="t265" type="open">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <term lemma="als" morphofeat="KOKOM" pos="C" tid="t266" type="close">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <term lemma="«" morphofeat="$(" pos="O" tid="t267" type="open">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <term lemma="scheitern" morphofeat="VVPP" pos="V" tid="t268" type="open">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <term lemma="»" morphofeat="$(" pos="O" tid="t269" type="open">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t270" type="open">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Steinbrück-->
+        <span>
+          <target id="t260"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die Krisenstrategie der Kanzlerin-->
+        <span>
+          <target id="t262"/>
+          <target id="t263"/>
+          <target id="t264"/>
+          <target id="t265"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--gescheitert-->
+        <span>
+          <target id="t268"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

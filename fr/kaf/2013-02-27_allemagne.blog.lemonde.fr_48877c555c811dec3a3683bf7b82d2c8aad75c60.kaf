@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:44:19Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:44:19Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:44:19Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:34:51CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w134" sent="10" para="4" offset="620" length="10">Maintenant</wf>
+    <wf wid="w135" sent="10" para="4" offset="630" length="1">,</wf>
+    <wf wid="w136" sent="10" para="4" offset="632" length="2">on</wf>
+    <wf wid="w137" sent="10" para="4" offset="635" length="2">ne</wf>
+    <wf wid="w138" sent="10" para="4" offset="638" length="4">peut</wf>
+    <wf wid="w139" sent="10" para="4" offset="643" length="4">plus</wf>
+    <wf wid="w140" sent="10" para="4" offset="648" length="4">rien</wf>
+    <wf wid="w141" sent="10" para="4" offset="653" length="5">faire</wf>
+    <wf wid="w142" sent="10" para="4" offset="659" length="2">et</wf>
+    <wf wid="w143" sent="10" para="4" offset="662" length="2">il</wf>
+    <wf wid="w144" sent="10" para="4" offset="665" length="4">faut</wf>
+    <wf wid="w145" sent="10" para="4" offset="670" length="4">donc</wf>
+    <wf wid="w146" sent="10" para="4" offset="675" length="7">tailler</wf>
+    <wf wid="w147" sent="10" para="4" offset="683" length="4">dans</wf>
+    <wf wid="w148" sent="10" para="4" offset="688" length="3">les</wf>
+    <wf wid="w149" sent="10" para="4" offset="692" length="8">dépenses</wf>
+    <wf wid="w150" sent="10" para="4" offset="700" length="1">.</wf>
+    <wf wid="w233" sent="13" para="6" offset="1104" length="3">Les</wf>
+    <wf wid="w234" sent="13" para="6" offset="1108" length="7">traiter</wf>
+    <wf wid="w235" sent="13" para="6" offset="1116" length="2">de</wf>
+    <wf wid="w236" sent="13" para="6" offset="1119" length="6">clowns</wf>
+    <wf wid="w237" sent="13" para="6" offset="1126" length="2">ne</wf>
+    <wf wid="w238" sent="13" para="6" offset="1129" length="7">rajoute</wf>
+    <wf wid="w239" sent="13" para="6" offset="1137" length="4">rien</wf>
+    <wf wid="w240" sent="13" para="6" offset="1141" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Maintenant-->
+    <term tid="t134" type="open" lemma="Maintenant" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t135" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--on-->
+    <term tid="t136" type="close" lemma="on" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--ne-->
+    <term tid="t137" type="open" lemma="ne" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--peut-->
+    <term tid="t138" type="open" lemma="pouvoir" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--plus-->
+    <term tid="t139" type="open" lemma="plus" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--rien-->
+    <term tid="t140" type="close" lemma="rien" pos="P" morphofeat="PRO3ms">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--faire-->
+    <term tid="t141" type="open" lemma="faire" pos="V" morphofeat="VW">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t142" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t143" type="close" lemma="il" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--faut-->
+    <term tid="t144" type="open" lemma="faillir" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--donc-->
+    <term tid="t145" type="open" lemma="donc" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--tailler-->
+    <term tid="t146" type="open" lemma="tailler" pos="V" morphofeat="VW">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--dans-->
+    <term tid="t147" type="close" lemma="dans" pos="P" morphofeat="P">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t148" type="close" lemma="le" pos="D" morphofeat="Dfp">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--dépenses-->
+    <term tid="t149" type="open" lemma="dépense" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t150" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--Les-->
+    <term tid="t233" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--traiter-->
+    <term tid="t234" type="open" lemma="traiter" pos="V" morphofeat="VW">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t235" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--clowns-->
+    <term tid="t236" type="open" lemma="clowns" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--ne-->
+    <term tid="t237" type="open" lemma="ne" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--rajoute-->
+    <term tid="t238" type="open" lemma="rajouter" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--rien-->
+    <term tid="t239" type="close" lemma="rien" pos="P" morphofeat="PRO3ms">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t240" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--on-->
+        <span>
+          <target id="t136"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--rien faire-->
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ne peut plus-->
+        <span>
+          <target id="t137"/>
+          <target id="t138"/>
+          <target id="t139"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--tailler dans les dépenses-->
+        <span>
+          <target id="t146"/>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t233"/>
+          <target id="t234"/>
+          <target id="t235"/>
+          <target id="t236"/>
+          <target id="t237"/>
+          <target id="t238"/>
+          <target id="t239"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

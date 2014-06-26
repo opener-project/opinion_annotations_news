@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:08:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:08:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:37:35" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:05:35CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="32" para="2" offset="4992" length="7" wid="w1004">Patrick</wf>
+    <wf sent="32" para="2" offset="5000" length="7" wid="w1005">Diamond</wf>
+    <wf sent="32" para="2" offset="5007" length="1" wid="w1006">,</wf>
+    <wf sent="32" para="2" offset="5009" length="1" wid="w1007">a</wf>
+    <wf sent="32" para="2" offset="5011" length="5" wid="w1008">close</wf>
+    <wf sent="32" para="2" offset="5017" length="4" wid="w1009">ally</wf>
+    <wf sent="32" para="2" offset="5022" length="2" wid="w1010">of</wf>
+    <wf sent="32" para="2" offset="5025" length="5" wid="w1011">Peter</wf>
+    <wf sent="32" para="2" offset="5031" length="9" wid="w1012">Mandelson</wf>
+    <wf sent="32" para="2" offset="5040" length="2" wid="w1013">'s</wf>
+    <wf sent="32" para="2" offset="5042" length="1" wid="w1014">,</wf>
+    <wf sent="32" para="2" offset="5044" length="3" wid="w1015">who</wf>
+    <wf sent="32" para="2" offset="5048" length="8" wid="w1016">co-wrote</wf>
+    <wf sent="32" para="2" offset="5057" length="6" wid="w1017">Labour</wf>
+    <wf sent="32" para="2" offset="5063" length="2" wid="w1018">'s</wf>
+    <wf sent="32" para="2" offset="5066" length="9" wid="w1019">manifesto</wf>
+    <wf sent="32" para="2" offset="5076" length="3" wid="w1020">for</wf>
+    <wf sent="32" para="2" offset="5080" length="3" wid="w1021">the</wf>
+    <wf sent="32" para="2" offset="5084" length="4" wid="w1022">most</wf>
+    <wf sent="32" para="2" offset="5089" length="6" wid="w1023">recent</wf>
+    <wf sent="32" para="2" offset="5096" length="8" wid="w1024">election</wf>
+    <wf sent="32" para="2" offset="5105" length="4" wid="w1025">with</wf>
+    <wf sent="32" para="2" offset="5110" length="8" wid="w1026">Miliband</wf>
+    <wf sent="32" para="2" offset="5118" length="1" wid="w1027">,</wf>
+    <wf sent="32" para="2" offset="5120" length="7" wid="w1028">praised</wf>
+    <wf sent="32" para="2" offset="5128" length="3" wid="w1029">him</wf>
+    <wf sent="32" para="2" offset="5132" length="3" wid="w1030">for</wf>
+    <wf sent="32" para="2" offset="5136" length="9" wid="w1031">demanding</wf>
+    <wf sent="32" para="2" offset="5146" length="6" wid="w1032">reform</wf>
+    <wf sent="32" para="2" offset="5153" length="2" wid="w1033">of</wf>
+    <wf sent="32" para="2" offset="5156" length="3" wid="w1034">the</wf>
+    <wf sent="32" para="2" offset="5160" length="2" wid="w1035">EU</wf>
+    <wf sent="32" para="2" offset="5162" length="1" wid="w1036">.</wf>
+  </text>
+  <terms>
+    <!--Patrick-->
+    <term type="close" lemma="Patrick" pos="R" morphofeat="NNP" tid="t1004">
+      <span>
+        <target id="w1004"/>
+      </span>
+    </term>
+    <!--Diamond-->
+    <term type="close" lemma="Diamond" pos="R" morphofeat="NNP" tid="t1005">
+      <span>
+        <target id="w1005"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t1006">
+      <span>
+        <target id="w1006"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t1007">
+      <span>
+        <target id="w1007"/>
+      </span>
+    </term>
+    <!--close-->
+    <term type="open" lemma="close" pos="G" morphofeat="JJ" tid="t1008">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w1008"/>
+      </span>
+    </term>
+    <!--ally-->
+    <term type="open" lemma="ally" pos="N" morphofeat="NN" tid="t1009">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w1009"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t1010">
+      <span>
+        <target id="w1010"/>
+      </span>
+    </term>
+    <!--Peter-->
+    <term type="close" lemma="Peter" pos="R" morphofeat="NNP" tid="t1011">
+      <span>
+        <target id="w1011"/>
+      </span>
+    </term>
+    <!--Mandelson-->
+    <term type="close" lemma="Mandelson" pos="R" morphofeat="NNP" tid="t1012">
+      <span>
+        <target id="w1012"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t1013">
+      <span>
+        <target id="w1013"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t1014">
+      <span>
+        <target id="w1014"/>
+      </span>
+    </term>
+    <!--who-->
+    <term type="close" lemma="who" pos="Q" morphofeat="WP" tid="t1015">
+      <span>
+        <target id="w1015"/>
+      </span>
+    </term>
+    <!--co-wrote-->
+    <term type="open" lemma="co-wrote" pos="V" morphofeat="VBP" tid="t1016">
+      <span>
+        <target id="w1016"/>
+      </span>
+    </term>
+    <!--Labour-->
+    <term type="close" lemma="Labour" pos="R" morphofeat="NNP" tid="t1017">
+      <span>
+        <target id="w1017"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t1018">
+      <span>
+        <target id="w1018"/>
+      </span>
+    </term>
+    <!--manifesto-->
+    <term type="open" lemma="manifesto" pos="N" morphofeat="NN" tid="t1019">
+      <span>
+        <target id="w1019"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t1020">
+      <span>
+        <target id="w1020"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t1021">
+      <span>
+        <target id="w1021"/>
+      </span>
+    </term>
+    <!--most-->
+    <term type="open" lemma="much" pos="A" morphofeat="RBS" tid="t1022">
+      <span>
+        <target id="w1022"/>
+      </span>
+    </term>
+    <!--recent-->
+    <term type="open" lemma="recent" pos="G" morphofeat="JJ" tid="t1023">
+      <span>
+        <target id="w1023"/>
+      </span>
+    </term>
+    <!--election-->
+    <term type="open" lemma="election" pos="N" morphofeat="NN" tid="t1024">
+      <span>
+        <target id="w1024"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t1025">
+      <span>
+        <target id="w1025"/>
+      </span>
+    </term>
+    <!--Miliband-->
+    <term type="close" lemma="Miliband" pos="R" morphofeat="NNP" tid="t1026">
+      <span>
+        <target id="w1026"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t1027">
+      <span>
+        <target id="w1027"/>
+      </span>
+    </term>
+    <!--praised-->
+    <term type="open" lemma="praise" pos="V" morphofeat="VBD" tid="t1028">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w1028"/>
+      </span>
+    </term>
+    <!--him-->
+    <term type="close" lemma="him" pos="Q" morphofeat="PRP" tid="t1029">
+      <span>
+        <target id="w1029"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t1030">
+      <span>
+        <target id="w1030"/>
+      </span>
+    </term>
+    <!--demanding-->
+    <term type="open" lemma="demand" pos="V" morphofeat="VBG" tid="t1031">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="both"/>
+      <span>
+        <target id="w1031"/>
+      </span>
+    </term>
+    <!--reform-->
+    <term type="open" lemma="reform" pos="N" morphofeat="NN" tid="t1032">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w1032"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t1033">
+      <span>
+        <target id="w1033"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t1034">
+      <span>
+        <target id="w1034"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term type="close" lemma="EU" pos="R" morphofeat="NNP" tid="t1035">
+      <span>
+        <target id="w1035"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t1036">
+      <span>
+        <target id="w1036"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Patrick Diamond-->
+        <span>
+          <target id="t1004"/>
+          <target id="t1005"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--him-->
+        <span>
+          <target id="t1029"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--praised-->
+        <span>
+          <target id="t1028"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

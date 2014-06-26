@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T10:47:54Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T10:47:54Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:07:52CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T11:48:12CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w36" sent="4" para="3" offset="213" length="5">Letta</wf>
+    <wf wid="w37" sent="4" para="3" offset="219" length="4">will</wf>
+    <wf wid="w38" sent="4" para="3" offset="224" length="3">die</wf>
+    <wf wid="w39" sent="4" para="3" offset="228" length="10">Wirtschaft</wf>
+    <wf wid="w40" sent="4" para="3" offset="239" length="9">ankurbeln</wf>
+    <wf wid="w41" sent="4" para="3" offset="249" length="3">und</wf>
+    <wf wid="w42" sent="4" para="3" offset="253" length="10">politische</wf>
+    <wf wid="w43" sent="4" para="3" offset="264" length="8">Reformen</wf>
+    <wf wid="w44" sent="4" para="3" offset="273" length="11">durchsetzen</wf>
+    <wf wid="w45" sent="4" para="3" offset="284" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Letta" morphofeat="NE unknown_lemma" pos="O" tid="t36" type="open">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t37" type="open">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t38" type="close">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="Wirtschaft" morphofeat="NN" pos="N" tid="t39" type="open">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="ankurbeln" morphofeat="VVINF" pos="V" tid="t40" type="open">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t41" type="close">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term lemma="politisch" morphofeat="ADJA" pos="G" tid="t42" type="open">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term lemma="Reform" morphofeat="NN" pos="N" tid="t43" type="open">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term lemma="durchsetzen" morphofeat="VVINF" pos="V" tid="t44" type="open">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t45" type="open">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Letta-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--politische Reformen-->
+        <span>
+          <target id="t42"/>
+          <target id="t43"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--durchsetzen-->
+        <span>
+          <target id="t44"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

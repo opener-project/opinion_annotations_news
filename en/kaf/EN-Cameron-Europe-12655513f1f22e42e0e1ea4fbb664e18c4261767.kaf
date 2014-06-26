@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:55Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:55Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:01:47" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:00:52CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="15" para="2" offset="1687" length="8" wid="w304">Regional</wf>
+    <wf sent="15" para="2" offset="1696" length="3" wid="w305">and</wf>
+    <wf sent="15" para="2" offset="1700" length="7" wid="w306">Western</wf>
+    <wf sent="15" para="2" offset="1708" length="11" wid="w307">governments</wf>
+    <wf sent="15" para="2" offset="1720" length="4" wid="w308">have</wf>
+    <wf sent="15" para="2" offset="1725" length="9" wid="w309">expressed</wf>
+    <wf sent="15" para="2" offset="1735" length="7" wid="w310">growing</wf>
+    <wf sent="15" para="2" offset="1743" length="7" wid="w311">concern</wf>
+    <wf sent="15" para="2" offset="1751" length="5" wid="w312">about</wf>
+    <wf sent="15" para="2" offset="1757" length="3" wid="w313">the</wf>
+    <wf sent="15" para="2" offset="1761" length="8" wid="w314">security</wf>
+    <wf sent="15" para="2" offset="1770" length="6" wid="w315">threat</wf>
+    <wf sent="15" para="2" offset="1777" length="4" wid="w316">from</wf>
+    <wf sent="15" para="2" offset="1782" length="10" wid="w317">extremists</wf>
+    <wf sent="15" para="2" offset="1793" length="3" wid="w318">and</wf>
+    <wf sent="15" para="2" offset="1797" length="9" wid="w319">organised</wf>
+    <wf sent="15" para="2" offset="1807" length="5" wid="w320">crime</wf>
+    <wf sent="15" para="2" offset="1812" length="1" wid="w321">.</wf>
+  </text>
+  <terms>
+    <!--Regional-->
+    <term type="open" lemma="regional" pos="G" morphofeat="JJ" tid="t304">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t305">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--Western-->
+    <term type="open" lemma="western" pos="G" morphofeat="JJ" tid="t306">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <!--governments-->
+    <term type="open" lemma="government" pos="N" morphofeat="NNS" tid="t307">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <!--have-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBP" tid="t308">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <!--expressed-->
+    <term type="open" lemma="express" pos="V" morphofeat="VBN" tid="t309">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <!--growing-->
+    <term type="open" lemma="grow" pos="V" morphofeat="VBG" tid="t310">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <!--concern-->
+    <term type="open" lemma="concern" pos="N" morphofeat="NN" tid="t311">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <!--about-->
+    <term type="close" lemma="about" pos="P" morphofeat="IN" tid="t312">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t313">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <!--security-->
+    <term type="open" lemma="security" pos="N" morphofeat="NN" tid="t314">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <!--threat-->
+    <term type="open" lemma="threat" pos="N" morphofeat="NN" tid="t315">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t316">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--extremists-->
+    <term type="open" lemma="extremist" pos="N" morphofeat="NNS" tid="t317">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t318">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <!--organised-->
+    <term type="open" lemma="organise" pos="V" morphofeat="VBN" tid="t319">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--crime-->
+    <term type="open" lemma="crime" pos="N" morphofeat="NN" tid="t320">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t321">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--the security-->
+        <span>
+          <target id="t313"/>
+          <target id="t314"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--threat-->
+        <span>
+          <target id="t315"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Regional and Western governments-->
+        <span>
+          <target id="t304"/>
+          <target id="t305"/>
+          <target id="t306"/>
+          <target id="t307"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--organised crime-->
+        <span>
+          <target id="t319"/>
+          <target id="t320"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--have expressed growing concern-->
+        <span>
+          <target id="t308"/>
+          <target id="t309"/>
+          <target id="t310"/>
+          <target id="t311"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Regional and Western governments-->
+        <span>
+          <target id="t304"/>
+          <target id="t305"/>
+          <target id="t306"/>
+          <target id="t307"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the security threat from extremists-->
+        <span>
+          <target id="t313"/>
+          <target id="t314"/>
+          <target id="t315"/>
+          <target id="t316"/>
+          <target id="t317"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--have expressed growing concern-->
+        <span>
+          <target id="t308"/>
+          <target id="t309"/>
+          <target id="t310"/>
+          <target id="t311"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

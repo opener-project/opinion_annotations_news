@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:30:57" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:04:12CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:51CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="12" para="2" offset="1702" length="3" wid="w316">The</wf>
+    <wf sent="12" para="2" offset="1706" length="4" wid="w317">cost</wf>
+    <wf sent="12" para="2" offset="1711" length="2" wid="w318">of</wf>
+    <wf sent="12" para="2" offset="1714" length="1" wid="w319">a</wf>
+    <wf sent="12" para="2" offset="1716" length="7" wid="w320">one-way</wf>
+    <wf sent="12" para="2" offset="1724" length="5" wid="w321">train</wf>
+    <wf sent="12" para="2" offset="1730" length="6" wid="w322">ticket</wf>
+    <wf sent="12" para="2" offset="1737" length="3" wid="w323">for</wf>
+    <wf sent="12" para="2" offset="1741" length="3" wid="w324">the</wf>
+    <wf sent="12" para="2" offset="1745" length="7" wid="w325">journey</wf>
+    <wf sent="12" para="2" offset="1753" length="2" wid="w326">is</wf>
+    <wf sent="12" para="2" offset="1756" length="5" wid="w327">about</wf>
+    <wf sent="12" para="2" offset="1762" length="1" wid="w328">$</wf>
+    <wf sent="12" para="2" offset="1763" length="2" wid="w329">12</wf>
+    <wf sent="12" para="2" offset="1765" length="1" wid="w330">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t316">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--cost-->
+    <term type="open" lemma="cost" pos="N" morphofeat="NN" tid="t317">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t318">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t319">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--one-way-->
+    <term type="open" lemma="one-way" pos="G" morphofeat="JJ" tid="t320">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <!--train-->
+    <term type="open" lemma="train" pos="N" morphofeat="NN" tid="t321">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <!--ticket-->
+    <term type="open" lemma="ticket" pos="N" morphofeat="NN" tid="t322">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t323">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t324">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--journey-->
+    <term type="open" lemma="journey" pos="N" morphofeat="NN" tid="t325">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t326">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <!--about-->
+    <term type="close" lemma="about" pos="P" morphofeat="IN" tid="t327">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <!--$-->
+    <term type="close" lemma="$" pos="O" morphofeat="$" tid="t328">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--12-->
+    <term type="close" lemma="12" pos="O" morphofeat="CD" tid="t329">
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t330">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t316"/>
+          <target id="t317"/>
+          <target id="t318"/>
+          <target id="t319"/>
+          <target id="t320"/>
+          <target id="t321"/>
+          <target id="t322"/>
+          <target id="t323"/>
+          <target id="t324"/>
+          <target id="t325"/>
+          <target id="t326"/>
+          <target id="t327"/>
+          <target id="t328"/>
+          <target id="t329"/>
+          <target id="t330"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

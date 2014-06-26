@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:37:26CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Britse</wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="11">vicepremier</wf>
+    <wf wid="w3" sent="1" para="1" offset="19" length="5">Clegg</wf>
+    <wf wid="w4" sent="1" para="1" offset="25" length="10">waarschuwt</wf>
+    <wf wid="w5" sent="1" para="1" offset="36" length="7">Cameron</wf>
+    <wf wid="w227" sent="14" para="2" offset="1360" length="2">In</wf>
+    <wf wid="w228" sent="14" para="2" offset="1363" length="4">mijn</wf>
+    <wf wid="w229" sent="14" para="2" offset="1368" length="4">ogen</wf>
+    <wf wid="w230" sent="14" para="2" offset="1373" length="2">is</wf>
+    <wf wid="w231" sent="14" para="2" offset="1376" length="11">onzekerheid</wf>
+    <wf wid="w232" sent="14" para="2" offset="1388" length="2">de</wf>
+    <wf wid="w233" sent="14" para="2" offset="1391" length="6">vijand</wf>
+    <wf wid="w234" sent="14" para="2" offset="1398" length="3">van</wf>
+    <wf wid="w235" sent="14" para="2" offset="1402" length="5">groei</wf>
+    <wf wid="w236" sent="14" para="2" offset="1408" length="2">en</wf>
+    <wf wid="w237" sent="14" para="2" offset="1411" length="5">banen</wf>
+    <wf wid="w238" sent="14" para="2" offset="1416" length="1">'</wf>
+    <wf wid="w239" sent="14" para="2" offset="1417" length="1">,</wf>
+    <wf wid="w240" sent="14" para="2" offset="1419" length="5">aldus</wf>
+    <wf wid="w241" sent="14" para="2" offset="1425" length="5">Clegg</wf>
+    <wf wid="w242" sent="14" para="2" offset="1430" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Britse-->
+    <term tid="t1" type="open" lemma="Brits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--vicepremier-->
+    <term tid="t2" type="open" lemma="vicepremier" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Clegg-->
+    <term tid="t3" type="open" lemma="Clegg" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--waarschuwt-->
+    <term tid="t4" type="open" lemma="waarschuwen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t5" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--In-->
+    <term tid="t227" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--mijn-->
+    <term tid="t228" type="close" lemma="mijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--ogen-->
+    <term tid="t229" type="open" lemma="ogen" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w229"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--is-->
+    <term tid="t230" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--onzekerheid-->
+    <term tid="t231" type="open" lemma="onzekerheid" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w231"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--de-->
+    <term tid="t232" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--vijand-->
+    <term tid="t233" type="open" lemma="vijand" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w233"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--van-->
+    <term tid="t234" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--groei-->
+    <term tid="t235" type="open" lemma="groei" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t236" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--banen-->
+    <term tid="t237" type="open" lemma="baan" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t238" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t239" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--aldus-->
+    <term tid="t240" type="open" lemma="aldus" pos="A" morphofeat="adv">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--Clegg-->
+    <term tid="t241" type="open" lemma="Clegg" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t242" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--onzekerheid-->
+        <span>
+          <target id="t231"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--groei-->
+        <span>
+          <target id="t235"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--vijand van-->
+        <span>
+          <target id="t233"/>
+          <target id="t234"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--banen-->
+        <span>
+          <target id="t237"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--vijand van-->
+        <span>
+          <target id="t233"/>
+          <target id="t234"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Britse vicepremier Clegg-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Cameron-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--waarschuwt-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

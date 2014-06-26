@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:45:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:45:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:45:02Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="3" offset="227" para="2" sent="3" wid="w48">Une</wf>
+    <wf length="9" offset="231" para="2" sent="3" wid="w49">polémique</wf>
+    <wf length="3" offset="241" para="2" sent="3" wid="w50">est</wf>
+    <wf length="3" offset="245" para="2" sent="3" wid="w51">née</wf>
+    <wf length="8" offset="249" para="2" sent="3" wid="w52">vendredi</wf>
+    <wf length="5" offset="258" para="2" sent="3" wid="w53">après</wf>
+    <wf length="3" offset="264" para="2" sent="3" wid="w54">une</wf>
+    <wf length="9" offset="268" para="2" sent="3" wid="w55">interview</wf>
+    <wf length="2" offset="278" para="2" sent="3" wid="w56">de</wf>
+    <wf length="6" offset="281" para="2" sent="3" wid="w57">Claude</wf>
+    <wf length="9" offset="288" para="2" sent="3" wid="w58">Bartolone</wf>
+    <wf length="1" offset="297" para="2" sent="3" wid="w59">.</wf>
+    <wf length="3" offset="299" para="3" sent="4" wid="w60">Pas</wf>
+    <wf length="2" offset="303" para="3" sent="4" wid="w61">de</wf>
+    <wf length="4" offset="306" para="3" sent="4" wid="w62">week</wf>
+    <wf length="1" offset="310" para="3" sent="4" wid="w63">·</wf>
+    <wf length="3" offset="311" para="3" sent="4" wid="w64">end</wf>
+    <wf length="1" offset="315" para="3" sent="4" wid="w65">à</wf>
+    <wf length="8" offset="317" para="3" sent="4" wid="w66">Matignon</wf>
+    <wf length="1" offset="325" para="3" sent="4" wid="w67">.</wf>
+  </text>
+  <terms>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t48" type="close">
+      <span>
+        <!-- Une -->
+        <target id="w48"/>
+      </span>
+    </term>
+    <term lemma="polémique" morphofeat="NCfs" pos="N" tid="t49" type="open">
+      <span>
+        <!-- polémique -->
+        <target id="w49"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t50" type="open">
+      <span>
+        <!-- est -->
+        <target id="w50"/>
+      </span>
+    </term>
+    <term lemma="naître" morphofeat="VKfs" pos="V" tid="t51" type="open">
+      <span>
+        <!-- née -->
+        <target id="w51"/>
+      </span>
+    </term>
+    <term lemma="vendredi" morphofeat="NCms" pos="N" tid="t52" type="open">
+      <span>
+        <!-- vendredi -->
+        <target id="w52"/>
+      </span>
+    </term>
+    <term lemma="après" morphofeat="P" pos="P" tid="t53" type="close">
+      <span>
+        <!-- après -->
+        <target id="w53"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t54" type="close">
+      <span>
+        <!-- une -->
+        <target id="w54"/>
+      </span>
+    </term>
+    <term lemma="interview" morphofeat="NCfs" pos="N" tid="t55" type="open">
+      <span>
+        <!-- interview -->
+        <target id="w55"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t56" type="close">
+      <span>
+        <!-- de -->
+        <target id="w56"/>
+      </span>
+    </term>
+    <term lemma="claude" morphofeat="NPms" pos="N" tid="t57" type="open">
+      <span>
+        <!-- Claude -->
+        <target id="w57"/>
+      </span>
+    </term>
+    <term lemma="Bartolone" morphofeat="NPms" pos="N" tid="t58" type="open">
+      <span>
+        <!-- Bartolone -->
+        <target id="w58"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t59" type="close">
+      <span>
+        <!-- . -->
+        <target id="w59"/>
+      </span>
+    </term>
+    <term lemma="Pas" morphofeat="ADV" pos="G" tid="t60" type="open">
+      <span>
+        <!-- Pas -->
+        <target id="w60"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t61" type="close">
+      <span>
+        <!-- de -->
+        <target id="w61"/>
+      </span>
+    </term>
+    <term lemma="week" morphofeat="NCms" pos="N" tid="t62" type="open">
+      <span>
+        <!-- week -->
+        <target id="w62"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="Ams" pos="G" tid="t63" type="open">
+      <span>
+        <!-- · -->
+        <target id="w63"/>
+      </span>
+    </term>
+    <term lemma="end" morphofeat="VP3s" pos="V" tid="t64" type="open">
+      <span>
+        <!-- end -->
+        <target id="w64"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t65" type="close">
+      <span>
+        <!-- à -->
+        <target id="w65"/>
+      </span>
+    </term>
+    <term lemma="Matignon" morphofeat="NPms" pos="N" tid="t66" type="open">
+      <span>
+        <!-- Matignon -->
+        <target id="w66"/>
+      </span>
+    </term>
+  </terms>
+  <chunks/>
+  <coreferences/>
+  <features>
+    <properties/>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

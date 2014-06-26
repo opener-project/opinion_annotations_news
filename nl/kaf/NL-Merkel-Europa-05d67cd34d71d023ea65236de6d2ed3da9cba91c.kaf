@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:59Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:59Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T16:02:13CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w239" sent="13" para="2" offset="1310" length="9">Frankrijk</wf>
+    <wf wid="w240" sent="13" para="2" offset="1320" length="11">bestempelde</wf>
+    <wf wid="w241" sent="13" para="2" offset="1332" length="3">het</wf>
+    <wf wid="w242" sent="13" para="2" offset="1336" length="7">besluit</wf>
+    <wf wid="w243" sent="13" para="2" offset="1344" length="3">als</wf>
+    <wf wid="w244" sent="13" para="2" offset="1348" length="3">een</wf>
+    <wf wid="w245" sent="13" para="2" offset="1352" length="1">,</wf>
+    <wf wid="w246" sent="13" para="2" offset="1353" length="8">,perfect</wf>
+    <wf wid="w247" sent="13" para="2" offset="1362" length="7">bericht</wf>
+    <wf wid="w248" sent="13" para="2" offset="1370" length="4">voor</wf>
+    <wf wid="w249" sent="13" para="2" offset="1375" length="8">iedereen</wf>
+    <wf wid="w250" sent="13" para="2" offset="1383" length="1">"</wf>
+    <wf wid="w251" sent="13" para="2" offset="1385" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Frankrijk-->
+    <term tid="t239" type="open" lemma="Frankrijk" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--bestempelde-->
+    <term tid="t240" type="open" lemma="bestempelen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t241" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--besluit-->
+    <term tid="t242" type="open" lemma="besluit" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w242"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--als-->
+    <term tid="t243" type="close" lemma="als" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t244" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t245" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--,perfect-->
+    <term tid="t246" type="open" lemma=",perfect" pos="O" morphofeat="punc">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--bericht-->
+    <term tid="t247" type="open" lemma="bericht" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t248" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--iedereen-->
+    <term tid="t249" type="close" lemma="iedereen" pos="Q" morphofeat="pronindef">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t250" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t251" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bericht-->
+        <span>
+          <target id="t247"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--,perfect-->
+        <span>
+          <target id="t246"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

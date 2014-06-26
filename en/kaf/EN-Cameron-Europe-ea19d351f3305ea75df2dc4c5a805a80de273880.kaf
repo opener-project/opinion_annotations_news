@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:04:32" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:34:35CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="201" length="3" wid="w41">Two</wf>
+    <wf sent="3" para="2" offset="205" length="3" wid="w42">RAF</wf>
+    <wf sent="3" para="2" offset="209" length="3" wid="w43">C17</wf>
+    <wf sent="3" para="2" offset="213" length="5" wid="w44">cargo</wf>
+    <wf sent="3" para="2" offset="219" length="6" wid="w45">planes</wf>
+    <wf sent="3" para="2" offset="226" length="3" wid="w46">are</wf>
+    <wf sent="3" para="2" offset="230" length="7" wid="w47">helping</wf>
+    <wf sent="3" para="2" offset="238" length="6" wid="w48">French</wf>
+    <wf sent="3" para="2" offset="245" length="8" wid="w49">military</wf>
+    <wf sent="3" para="2" offset="254" length="7" wid="w50">efforts</wf>
+    <wf sent="3" para="2" offset="262" length="7" wid="w51">against</wf>
+    <wf sent="3" para="2" offset="270" length="8" wid="w52">Islamist</wf>
+    <wf sent="3" para="2" offset="279" length="6" wid="w53">rebels</wf>
+    <wf sent="3" para="2" offset="285" length="1" wid="w54">.</wf>
+  </text>
+  <terms>
+    <!--Two-->
+    <term type="close" lemma="two" pos="O" morphofeat="CD" tid="t41">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--RAF-->
+    <term type="close" lemma="RAF" pos="R" morphofeat="NNP" tid="t42">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--C17-->
+    <term type="close" lemma="C17" pos="R" morphofeat="NNP" tid="t43">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--cargo-->
+    <term type="open" lemma="cargo" pos="N" morphofeat="NN" tid="t44">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--planes-->
+    <term type="open" lemma="plane" pos="N" morphofeat="NNS" tid="t45">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t46">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--helping-->
+    <term type="open" lemma="help" pos="V" morphofeat="VBG" tid="t47">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--French-->
+    <term type="open" lemma="french" pos="G" morphofeat="JJ" tid="t48">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--military-->
+    <term type="open" lemma="military" pos="G" morphofeat="JJ" tid="t49">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--efforts-->
+    <term type="open" lemma="effort" pos="N" morphofeat="NNS" tid="t50">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--against-->
+    <term type="close" lemma="against" pos="P" morphofeat="IN" tid="t51">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--Islamist-->
+    <term type="open" lemma="islamist" pos="G" morphofeat="JJ" tid="t52">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--rebels-->
+    <term type="open" lemma="rebel" pos="N" morphofeat="NNS" tid="t53">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t54">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Two RAF C17 cargo planes-->
+        <span>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--French military efforts-->
+        <span>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--are helping-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--French military-->
+        <span>
+          <target id="t48"/>
+          <target id="t49"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Islamist rebels-->
+        <span>
+          <target id="t52"/>
+          <target id="t53"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--against-->
+        <span>
+          <target id="t51"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

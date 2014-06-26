@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:39Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:39Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:18:20" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:19:48CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="17" para="2" offset="2591" length="10" wid="w494">Journalist</wf>
+    <wf sent="17" para="2" offset="2602" length="8" wid="w495">Thanasis</wf>
+    <wf sent="17" para="2" offset="2611" length="10" wid="w496">Trompoukis</wf>
+    <wf sent="17" para="2" offset="2621" length="1" wid="w497">,</wf>
+    <wf sent="17" para="2" offset="2623" length="5" wid="w498">based</wf>
+    <wf sent="17" para="2" offset="2629" length="2" wid="w499">in</wf>
+    <wf sent="17" para="2" offset="2632" length="6" wid="w500">Athens</wf>
+    <wf sent="17" para="2" offset="2638" length="1" wid="w501">,</wf>
+    <wf sent="17" para="2" offset="2640" length="4" wid="w502">also</wf>
+    <wf sent="17" para="2" offset="2645" length="8" wid="w503">rejected</wf>
+    <wf sent="17" para="2" offset="2654" length="3" wid="w504">the</wf>
+    <wf sent="17" para="2" offset="2658" length="4" wid="w505">idea</wf>
+    <wf sent="17" para="2" offset="2663" length="4" wid="w506">that</wf>
+    <wf sent="17" para="2" offset="2668" length="3" wid="w507">his</wf>
+    <wf sent="17" para="2" offset="2672" length="6" wid="w508">fellow</wf>
+    <wf sent="17" para="2" offset="2679" length="8" wid="w509">citizens</wf>
+    <wf sent="17" para="2" offset="2688" length="3" wid="w510">are</wf>
+    <wf sent="17" para="2" offset="2692" length="9" wid="w511">panicking</wf>
+    <wf sent="17" para="2" offset="2701" length="1" wid="w512">,</wf>
+    <wf sent="17" para="2" offset="2703" length="3" wid="w513">but</wf>
+    <wf sent="17" para="2" offset="2707" length="2" wid="w514">he</wf>
+    <wf sent="17" para="2" offset="2710" length="4" wid="w515">said</wf>
+    <wf sent="17" para="2" offset="2715" length="4" wid="w516">many</wf>
+    <wf sent="17" para="2" offset="2720" length="4" wid="w517">fear</wf>
+    <wf sent="17" para="2" offset="2725" length="3" wid="w518">for</wf>
+    <wf sent="17" para="2" offset="2729" length="3" wid="w519">the</wf>
+    <wf sent="17" para="2" offset="2733" length="6" wid="w520">future</wf>
+    <wf sent="17" para="2" offset="2739" length="1" wid="w521">.</wf>
+  </text>
+  <terms>
+    <!--Journalist-->
+    <term type="close" lemma="Journalist" pos="R" morphofeat="NNP" tid="t494">
+      <span>
+        <target id="w494"/>
+      </span>
+    </term>
+    <!--Thanasis-->
+    <term type="close" lemma="Thanasis" pos="R" morphofeat="NNP" tid="t495">
+      <span>
+        <target id="w495"/>
+      </span>
+    </term>
+    <!--Trompoukis-->
+    <term type="close" lemma="Trompoukis" pos="R" morphofeat="NNP" tid="t496">
+      <span>
+        <target id="w496"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t497">
+      <span>
+        <target id="w497"/>
+      </span>
+    </term>
+    <!--based-->
+    <term type="open" lemma="base" pos="V" morphofeat="VBN" tid="t498">
+      <span>
+        <target id="w498"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t499">
+      <span>
+        <target id="w499"/>
+      </span>
+    </term>
+    <!--Athens-->
+    <term type="close" lemma="Athens" pos="R" morphofeat="NNP" tid="t500">
+      <span>
+        <target id="w500"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t501">
+      <span>
+        <target id="w501"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t502">
+      <span>
+        <target id="w502"/>
+      </span>
+    </term>
+    <!--rejected-->
+    <term type="open" lemma="reject" pos="V" morphofeat="VBD" tid="t503">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w503"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t504">
+      <span>
+        <target id="w504"/>
+      </span>
+    </term>
+    <!--idea-->
+    <term type="open" lemma="idea" pos="N" morphofeat="NN" tid="t505">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w505"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="P" morphofeat="IN" tid="t506">
+      <span>
+        <target id="w506"/>
+      </span>
+    </term>
+    <!--his-->
+    <term type="close" lemma="his" pos="Q" morphofeat="PRP$" tid="t507">
+      <span>
+        <target id="w507"/>
+      </span>
+    </term>
+    <!--fellow-->
+    <term type="open" lemma="fellow" pos="G" morphofeat="JJ" tid="t508">
+      <span>
+        <target id="w508"/>
+      </span>
+    </term>
+    <!--citizens-->
+    <term type="open" lemma="citizen" pos="N" morphofeat="NNS" tid="t509">
+      <span>
+        <target id="w509"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t510">
+      <span>
+        <target id="w510"/>
+      </span>
+    </term>
+    <!--panicking-->
+    <term type="open" lemma="panic" pos="V" morphofeat="VBG" tid="t511">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w511"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t512">
+      <span>
+        <target id="w512"/>
+      </span>
+    </term>
+    <!--but-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t513">
+      <span>
+        <target id="w513"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t514">
+      <span>
+        <target id="w514"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t515">
+      <span>
+        <target id="w515"/>
+      </span>
+    </term>
+    <!--many-->
+    <term type="open" lemma="many" pos="G" morphofeat="JJ" tid="t516">
+      <span>
+        <target id="w516"/>
+      </span>
+    </term>
+    <!--fear-->
+    <term type="open" lemma="fear" pos="N" morphofeat="NN" tid="t517">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w517"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t518">
+      <span>
+        <target id="w518"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t519">
+      <span>
+        <target id="w519"/>
+      </span>
+    </term>
+    <!--future-->
+    <term type="open" lemma="future" pos="N" morphofeat="NN" tid="t520">
+      <span>
+        <target id="w520"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t521">
+      <span>
+        <target id="w521"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder>
+        <!--he-->
+        <span>
+          <target id="t514"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--many-->
+        <span>
+          <target id="t516"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--fear for the future-->
+        <span>
+          <target id="t517"/>
+          <target id="t518"/>
+          <target id="t519"/>
+          <target id="t520"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--the future-->
+        <span>
+          <target id="t519"/>
+          <target id="t520"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--fear for-->
+        <span>
+          <target id="t517"/>
+          <target id="t518"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Journalist Thanasis Trompoukis-->
+        <span>
+          <target id="t494"/>
+          <target id="t495"/>
+          <target id="t496"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the idea that his fellow citizens are panicking-->
+        <span>
+          <target id="t504"/>
+          <target id="t505"/>
+          <target id="t506"/>
+          <target id="t507"/>
+          <target id="t508"/>
+          <target id="t509"/>
+          <target id="t510"/>
+          <target id="t511"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--rejected-->
+        <span>
+          <target id="t503"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--his fellow citizens-->
+        <span>
+          <target id="t507"/>
+          <target id="t508"/>
+          <target id="t509"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--panicking-->
+        <span>
+          <target id="t511"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

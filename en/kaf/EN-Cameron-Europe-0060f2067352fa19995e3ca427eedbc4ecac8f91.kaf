@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:07:54" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:27:38CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="524" length="7" wid="w91">Cameron</wf>
+    <wf sent="5" para="2" offset="532" length="6" wid="w92">called</wf>
+    <wf sent="5" para="2" offset="539" length="3" wid="w93">the</wf>
+    <wf sent="5" para="2" offset="543" length="6" wid="w94">crisis</wf>
+    <wf sent="5" para="2" offset="550" length="2" wid="w95">in</wf>
+    <wf sent="5" para="2" offset="553" length="7" wid="w96">Algeria</wf>
+    <wf sent="5" para="2" offset="561" length="1" wid="w97">a</wf>
+    <wf sent="5" para="2" offset="563" length="1" wid="w98">"</wf>
+    <wf sent="5" para="2" offset="564" length="9" wid="w99">difficult</wf>
+    <wf sent="5" para="2" offset="573" length="1" wid="w100">,</wf>
+    <wf sent="5" para="2" offset="575" length="9" wid="w101">dangerous</wf>
+    <wf sent="5" para="2" offset="585" length="3" wid="w102">and</wf>
+    <wf sent="5" para="2" offset="589" length="11" wid="w103">potentially</wf>
+    <wf sent="5" para="2" offset="601" length="4" wid="w104">very</wf>
+    <wf sent="5" para="2" offset="606" length="3" wid="w105">bad</wf>
+    <wf sent="5" para="2" offset="610" length="9" wid="w106">situation</wf>
+    <wf sent="5" para="2" offset="619" length="1" wid="w107">.</wf>
+  </text>
+  <terms>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t91">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--called-->
+    <term type="open" lemma="call" pos="V" morphofeat="VBD" tid="t92">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t93">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--crisis-->
+    <term type="open" lemma="crisis" pos="N" morphofeat="NN" tid="t94">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t95">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--Algeria-->
+    <term type="close" lemma="Algeria" pos="R" morphofeat="NNP" tid="t96">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t97">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t98">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--difficult-->
+    <term type="open" lemma="difficult" pos="G" morphofeat="JJ" tid="t99">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t100">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--dangerous-->
+    <term type="open" lemma="dangerous" pos="G" morphofeat="JJ" tid="t101">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t102">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--potentially-->
+    <term type="open" lemma="potentially" pos="A" morphofeat="RB" tid="t103">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--very-->
+    <term type="open" lemma="very" pos="A" morphofeat="RB" tid="t104">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--bad-->
+    <term type="open" lemma="bad" pos="G" morphofeat="JJ" tid="t105">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--situation-->
+    <term type="open" lemma="situation" pos="N" morphofeat="NN" tid="t106">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t107">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Cameron-->
+        <span>
+          <target id="t91"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the crisis in Algeria-->
+        <span>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--difficult-->
+        <span>
+          <target id="t99"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Cameron-->
+        <span>
+          <target id="t91"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the crisis in Algeria-->
+        <span>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--potentially very bad situation-->
+        <span>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Cameron-->
+        <span>
+          <target id="t91"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the crisis in Algeria-->
+        <span>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--dangerous-->
+        <span>
+          <target id="t101"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--situation-->
+        <span>
+          <target id="t106"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--difficult-->
+        <span>
+          <target id="t99"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--situation-->
+        <span>
+          <target id="t106"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--potentially very bad-->
+        <span>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--situation-->
+        <span>
+          <target id="t106"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--dangerous-->
+        <span>
+          <target id="t101"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:53:05Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:53:05Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:12:48CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:53:22CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w308" sent="19" para="6" offset="1983" length="1">"</wf>
+    <wf wid="w309" sent="19" para="6" offset="1984" length="3">Wir</wf>
+    <wf wid="w310" sent="19" para="6" offset="1988" length="8">brauchen</wf>
+    <wf wid="w311" sent="19" para="6" offset="1997" length="2">in</wf>
+    <wf wid="w312" sent="19" para="6" offset="2000" length="7">unserer</wf>
+    <wf wid="w313" sent="19" para="6" offset="2008" length="12">Gesellschaft</wf>
+    <wf wid="w314" sent="19" para="6" offset="2021" length="4">neue</wf>
+    <wf wid="w315" sent="19" para="6" offset="2026" length="8">Konsense</wf>
+    <wf wid="w316" sent="19" para="6" offset="2034" length="1">"</wf>
+    <wf wid="w317" sent="19" para="6" offset="2035" length="1">,</wf>
+    <wf wid="w318" sent="19" para="6" offset="2037" length="6">mahnte</wf>
+    <wf wid="w319" sent="19" para="6" offset="2044" length="7">Robbers</wf>
+    <wf wid="w320" sent="19" para="6" offset="2051" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t308" type="open">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <term lemma="wir" morphofeat="PPER" pos="Q" tid="t309" type="close">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <term lemma="brauchen" morphofeat="VVFIN" pos="V" tid="t310" type="open">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t311" type="close">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <term lemma="unser" morphofeat="PPOSAT" pos="Q" tid="t312" type="close">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <term lemma="Gesellschaft" morphofeat="NN" pos="N" tid="t313" type="open">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <term lemma="neu" morphofeat="ADJA" pos="G" tid="t314" type="open">
+      <span>
+        <target id="w314"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Konsens" morphofeat="NN" pos="N" tid="t315" type="open">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t316" type="open">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t317" type="open">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <term lemma="mahnen" morphofeat="VVFIN" pos="V" tid="t318" type="open">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <term lemma="Robber" morphofeat="NN" pos="N" tid="t319" type="open">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t320" type="open">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder>
+        <!--Wir-->
+        <span>
+          <target id="t309"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--neue Konsense-->
+        <span>
+          <target id="t314"/>
+          <target id="t315"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--brauchen-->
+        <span>
+          <target id="t310"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder>
+        <!--Robbers-->
+        <span>
+          <target id="t319"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Wir brauchen in unserer Gesellschaft neue Konsense-->
+        <span>
+          <target id="t309"/>
+          <target id="t310"/>
+          <target id="t311"/>
+          <target id="t312"/>
+          <target id="t313"/>
+          <target id="t314"/>
+          <target id="t315"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--mahnte-->
+        <span>
+          <target id="t318"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

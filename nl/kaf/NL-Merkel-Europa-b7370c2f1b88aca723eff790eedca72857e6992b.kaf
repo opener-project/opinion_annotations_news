@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:17Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:17Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:43:50CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w212" sent="13" para="2" offset="1293" length="2">De</wf>
+    <wf wid="w213" sent="13" para="2" offset="1296" length="6">komiek</wf>
+    <wf wid="w214" sent="13" para="2" offset="1302" length="1">,</wf>
+    <wf wid="w215" sent="13" para="2" offset="1304" length="3">die</wf>
+    <wf wid="w216" sent="13" para="2" offset="1308" length="4">zelf</wf>
+    <wf wid="w217" sent="13" para="2" offset="1313" length="4">niet</wf>
+    <wf wid="w218" sent="13" para="2" offset="1318" length="11">verkiesbaar</wf>
+    <wf wid="w219" sent="13" para="2" offset="1330" length="3">was</wf>
+    <wf wid="w220" sent="13" para="2" offset="1333" length="1">,</wf>
+    <wf wid="w221" sent="13" para="2" offset="1335" length="3">wil</wf>
+    <wf wid="w222" sent="13" para="2" offset="1339" length="3">dat</wf>
+    <wf wid="w223" sent="13" para="2" offset="1343" length="6">Italië</wf>
+    <wf wid="w224" sent="13" para="2" offset="1350" length="3">uit</wf>
+    <wf wid="w225" sent="13" para="2" offset="1354" length="2">de</wf>
+    <wf wid="w226" sent="13" para="2" offset="1357" length="4">euro</wf>
+    <wf wid="w227" sent="13" para="2" offset="1362" length="5">stapt</wf>
+    <wf wid="w228" sent="13" para="2" offset="1367" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t212" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--komiek-->
+    <term tid="t213" type="open" lemma="komiek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w213"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t214" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--die-->
+    <term tid="t215" type="close" lemma="die" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--zelf-->
+    <term tid="t216" type="close" lemma="zelf" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t217" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--verkiesbaar-->
+    <term tid="t218" type="open" lemma="verkiesbaar" pos="G" morphofeat="adj">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--was-->
+    <term tid="t219" type="open" lemma="wezen|zijn" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t220" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t221" type="open" lemma="wil" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t222" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--Italië-->
+    <term tid="t223" type="open" lemma="Italië" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--uit-->
+    <term tid="t224" type="close" lemma="uit" pos="P" morphofeat="prep">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t225" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t226" type="open" lemma="euro" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--stapt-->
+    <term tid="t227" type="open" lemma="stappen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t228" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Italië-->
+        <span>
+          <target id="t223"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t221"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--De komiek-->
+        <span>
+          <target id="t212"/>
+          <target id="t213"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t221"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Italië-->
+        <span>
+          <target id="t223"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--uit de euro stapt-->
+        <span>
+          <target id="t224"/>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--De komiek-->
+        <span>
+          <target id="t212"/>
+          <target id="t213"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--uit de euro stapt-->
+        <span>
+          <target id="t224"/>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

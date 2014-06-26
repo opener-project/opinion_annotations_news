@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:57:10" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:24:52CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:51CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="1007" length="2" wid="w186">Mr</wf>
+    <wf sent="9" para="2" offset="1010" length="8" wid="w187">Hollande</wf>
+    <wf sent="9" para="2" offset="1018" length="2" wid="w188">'s</wf>
+    <wf sent="9" para="2" offset="1021" length="5" wid="w189">first</wf>
+    <wf sent="9" para="2" offset="1027" length="8" wid="w190">official</wf>
+    <wf sent="9" para="2" offset="1036" length="7" wid="w191">foreign</wf>
+    <wf sent="9" para="2" offset="1044" length="4" wid="w192">trip</wf>
+    <wf sent="9" para="2" offset="1049" length="4" wid="w193">will</wf>
+    <wf sent="9" para="2" offset="1054" length="2" wid="w194">be</wf>
+    <wf sent="9" para="2" offset="1057" length="2" wid="w195">to</wf>
+    <wf sent="9" para="2" offset="1060" length="6" wid="w196">Berlin</wf>
+    <wf sent="9" para="2" offset="1067" length="3" wid="w197">for</wf>
+    <wf sent="9" para="2" offset="1071" length="1" wid="w198">a</wf>
+    <wf sent="9" para="2" offset="1073" length="7" wid="w199">meeting</wf>
+    <wf sent="9" para="2" offset="1081" length="4" wid="w200">with</wf>
+    <wf sent="9" para="2" offset="1086" length="2" wid="w201">Ms</wf>
+    <wf sent="9" para="2" offset="1089" length="6" wid="w202">Merkel</wf>
+    <wf sent="9" para="2" offset="1096" length="5" wid="w203">after</wf>
+    <wf sent="9" para="2" offset="1102" length="3" wid="w204">his</wf>
+    <wf sent="9" para="2" offset="1106" length="12" wid="w205">inauguration</wf>
+    <wf sent="9" para="2" offset="1119" length="2" wid="w206">on</wf>
+    <wf sent="9" para="2" offset="1122" length="3" wid="w207">May</wf>
+    <wf sent="9" para="2" offset="1126" length="2" wid="w208">15</wf>
+    <wf sent="9" para="2" offset="1128" length="1" wid="w209">.</wf>
+  </text>
+  <terms>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t186">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term type="close" lemma="Hollande" pos="R" morphofeat="NNP" tid="t187">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t188">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--first-->
+    <term type="open" lemma="1" pos="G" morphofeat="JJ" tid="t189">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--official-->
+    <term type="open" lemma="official" pos="G" morphofeat="JJ" tid="t190">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--foreign-->
+    <term type="open" lemma="foreign" pos="G" morphofeat="JJ" tid="t191">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--trip-->
+    <term type="open" lemma="trip" pos="N" morphofeat="NN" tid="t192">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--will-->
+    <term type="close" lemma="will" pos="O" morphofeat="MD" tid="t193">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t194">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t195">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--Berlin-->
+    <term type="close" lemma="Berlin" pos="R" morphofeat="NNP" tid="t196">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t197">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t198">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--meeting-->
+    <term type="open" lemma="meeting" pos="N" morphofeat="NN" tid="t199">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t200">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--Ms-->
+    <term type="open" lemma="ms" pos="N" morphofeat="NNS" tid="t201">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t202">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--after-->
+    <term type="close" lemma="after" pos="P" morphofeat="IN" tid="t203">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--his-->
+    <term type="close" lemma="his" pos="Q" morphofeat="PRP$" tid="t204">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--inauguration-->
+    <term type="open" lemma="inauguration" pos="N" morphofeat="NN" tid="t205">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t206">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--May-->
+    <term type="close" lemma="May" pos="R" morphofeat="NNP" tid="t207">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--15-->
+    <term type="close" lemma="15" pos="O" morphofeat="CD" tid="t208">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t209">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

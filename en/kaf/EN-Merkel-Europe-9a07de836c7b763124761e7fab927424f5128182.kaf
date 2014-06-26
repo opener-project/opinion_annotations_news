@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:49:10" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:52:03CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:52CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="194" length="8" wid="w33">Hollande</wf>
+    <wf sent="3" para="2" offset="202" length="1" wid="w34">,</wf>
+    <wf sent="3" para="2" offset="204" length="2" wid="w35">57</wf>
+    <wf sent="3" para="2" offset="206" length="1" wid="w36">,</wf>
+    <wf sent="3" para="2" offset="208" length="2" wid="w37">is</wf>
+    <wf sent="3" para="2" offset="211" length="3" wid="w38">the</wf>
+    <wf sent="3" para="2" offset="215" length="5" wid="w39">first</wf>
+    <wf sent="3" para="2" offset="221" length="9" wid="w40">socialist</wf>
+    <wf sent="3" para="2" offset="231" length="6" wid="w41">leader</wf>
+    <wf sent="3" para="2" offset="238" length="2" wid="w42">of</wf>
+    <wf sent="3" para="2" offset="241" length="6" wid="w43">France</wf>
+    <wf sent="3" para="2" offset="248" length="5" wid="w44">since</wf>
+    <wf sent="3" para="2" offset="254" length="8" wid="w45">Francois</wf>
+    <wf sent="3" para="2" offset="263" length="10" wid="w46">Mitterrand</wf>
+    <wf sent="3" para="2" offset="274" length="4" wid="w47">left</wf>
+    <wf sent="3" para="2" offset="279" length="6" wid="w48">office</wf>
+    <wf sent="3" para="2" offset="286" length="2" wid="w49">in</wf>
+    <wf sent="3" para="2" offset="289" length="4" wid="w50">1995</wf>
+    <wf sent="3" para="2" offset="293" length="1" wid="w51">.</wf>
+  </text>
+  <terms>
+    <!--Hollande-->
+    <term type="close" lemma="Hollande" pos="R" morphofeat="NNP" tid="t33">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t34">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--57-->
+    <term type="close" lemma="57" pos="O" morphofeat="CD" tid="t35">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t36">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t37">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t38">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--first-->
+    <term type="open" lemma="1" pos="G" morphofeat="JJ" tid="t39">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--socialist-->
+    <term type="open" lemma="socialist" pos="G" morphofeat="JJ" tid="t40">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--leader-->
+    <term type="open" lemma="leader" pos="N" morphofeat="NN" tid="t41">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t42">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--France-->
+    <term type="close" lemma="France" pos="R" morphofeat="NNP" tid="t43">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--since-->
+    <term type="close" lemma="since" pos="P" morphofeat="IN" tid="t44">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--Francois-->
+    <term type="close" lemma="Francois" pos="R" morphofeat="NNP" tid="t45">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--Mitterrand-->
+    <term type="close" lemma="Mitterrand" pos="R" morphofeat="NNP" tid="t46">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--left-->
+    <term type="open" lemma="leave" pos="V" morphofeat="VBD" tid="t47">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--office-->
+    <term type="open" lemma="office" pos="N" morphofeat="NN" tid="t48">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t49">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--1995-->
+    <term type="close" lemma="1995" pos="O" morphofeat="CD" tid="t50">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t51">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

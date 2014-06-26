@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:26:54CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w53" sent="4" para="2" offset="340" length="6">Merkel</wf>
+    <wf wid="w54" sent="4" para="2" offset="347" length="3">gaf</wf>
+    <wf wid="w55" sent="4" para="2" offset="351" length="3">aan</wf>
+    <wf wid="w56" sent="4" para="2" offset="355" length="3">dat</wf>
+    <wf wid="w57" sent="4" para="2" offset="359" length="2">ze</wf>
+    <wf wid="w58" sent="4" para="2" offset="362" length="3">het</wf>
+    <wf wid="w59" sent="4" para="2" offset="366" length="7">besluit</wf>
+    <wf wid="w60" sent="4" para="2" offset="374" length="3">van</wf>
+    <wf wid="w61" sent="4" para="2" offset="378" length="3">het</wf>
+    <wf wid="w62" sent="4" para="2" offset="382" length="12">Cypriotische</wf>
+    <wf wid="w63" sent="4" para="2" offset="395" length="9">parlement</wf>
+    <wf wid="w64" sent="4" para="2" offset="405" length="2">om</wf>
+    <wf wid="w65" sent="4" para="2" offset="408" length="3">het</wf>
+    <wf wid="w66" sent="4" para="2" offset="412" length="3">dit</wf>
+    <wf wid="w67" sent="4" para="2" offset="416" length="9">weekeinde</wf>
+    <wf wid="w68" sent="4" para="2" offset="426" length="11">afgesproken</wf>
+    <wf wid="w69" sent="4" para="2" offset="438" length="4">plan</wf>
+    <wf wid="w70" sent="4" para="2" offset="443" length="4">voor</wf>
+    <wf wid="w71" sent="4" para="2" offset="448" length="10">financiële</wf>
+    <wf wid="w72" sent="4" para="2" offset="459" length="5">steun</wf>
+    <wf wid="w73" sent="4" para="2" offset="465" length="2">te</wf>
+    <wf wid="w74" sent="4" para="2" offset="468" length="9">verwerpen</wf>
+    <wf wid="w75" sent="4" para="2" offset="477" length="1">,</wf>
+    <wf wid="w76" sent="4" para="2" offset="479" length="1">,</wf>
+    <wf wid="w77" sent="4" para="2" offset="480" length="1">,</wf>
+    <wf wid="w78" sent="4" para="2" offset="481" length="8">betreurt</wf>
+    <wf wid="w79" sent="4" para="2" offset="489" length="1">"</wf>
+    <wf wid="w80" sent="4" para="2" offset="491" length="1">,</wf>
+    <wf wid="w81" sent="4" para="2" offset="493" length="4">maar</wf>
+    <wf wid="w82" sent="4" para="2" offset="498" length="3">ook</wf>
+    <wf wid="w83" sent="4" para="2" offset="502" length="10">accepteert</wf>
+    <wf wid="w84" sent="4" para="2" offset="512" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t53" type="open" lemma="Merkel" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--gaf-->
+    <term tid="t54" type="open" lemma="geven" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t55" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t56" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--ze-->
+    <term tid="t57" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t58" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--besluit-->
+    <term tid="t59" type="open" lemma="besluit" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w59"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--van-->
+    <term tid="t60" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t61" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--Cypriotische-->
+    <term tid="t62" type="open" lemma="Cypriotisch" pos="G" morphofeat="adj">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--parlement-->
+    <term tid="t63" type="open" lemma="parlement" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t64" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t65" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--dit-->
+    <term tid="t66" type="close" lemma="dit" pos="D" morphofeat="det__demo">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--weekeinde-->
+    <term tid="t67" type="open" lemma="weekeinde" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--afgesproken-->
+    <term tid="t68" type="open" lemma="afspreken" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--plan-->
+    <term tid="t69" type="open" lemma="plan" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t70" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--financiële-->
+    <term tid="t71" type="open" lemma="financieel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--steun-->
+    <term tid="t72" type="open" lemma="steun" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w72"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--te-->
+    <term tid="t73" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--verwerpen-->
+    <term tid="t74" type="open" lemma="verwerpen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w74"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t75" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t76" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t77" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--betreurt-->
+    <term tid="t78" type="open" lemma="betreuren" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w78"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--"-->
+    <term tid="t79" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t80" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--maar-->
+    <term tid="t81" type="close" lemma="maar" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w81"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--ook-->
+    <term tid="t82" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--accepteert-->
+    <term tid="t83" type="open" lemma="accepteren" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w83"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t84" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--plan-->
+        <span>
+          <target id="t69"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--verwerpen-->
+        <span>
+          <target id="t74"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t53"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--het besluit-->
+        <span>
+          <target id="t58"/>
+          <target id="t59"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--betreurt-->
+        <span>
+          <target id="t78"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t53"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--het besluit-->
+        <span>
+          <target id="t58"/>
+          <target id="t59"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--accepteert-->
+        <span>
+          <target id="t83"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

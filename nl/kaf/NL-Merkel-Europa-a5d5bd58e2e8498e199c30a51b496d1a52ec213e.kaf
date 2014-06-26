@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:49:47CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w257" sent="15" para="2" offset="1577" length="3">Een</wf>
+    <wf wid="w258" sent="15" para="2" offset="1581" length="5">ander</wf>
+    <wf wid="w259" sent="15" para="2" offset="1587" length="4">deel</wf>
+    <wf wid="w260" sent="15" para="2" offset="1592" length="3">van</wf>
+    <wf wid="w261" sent="15" para="2" offset="1596" length="2">de</wf>
+    <wf wid="w262" sent="15" para="2" offset="1599" length="9">bevolking</wf>
+    <wf wid="w263" sent="15" para="2" offset="1609" length="4">ziet</wf>
+    <wf wid="w264" sent="15" para="2" offset="1614" length="5">juist</wf>
+    <wf wid="w265" sent="15" para="2" offset="1620" length="6">liever</wf>
+    <wf wid="w266" sent="15" para="2" offset="1627" length="3">een</wf>
+    <wf wid="w267" sent="15" para="2" offset="1631" length="5">nauwe</wf>
+    <wf wid="w268" sent="15" para="2" offset="1637" length="4">band</wf>
+    <wf wid="w269" sent="15" para="2" offset="1642" length="3">met</wf>
+    <wf wid="w270" sent="15" para="2" offset="1646" length="7">Rusland</wf>
+    <wf wid="w271" sent="15" para="2" offset="1653" length="1">.</wf>
+    <wf wid="w295" sent="17" para="2" offset="1772" length="3">Die</wf>
+    <wf wid="w296" sent="17" para="2" offset="1776" length="5">begon</wf>
+    <wf wid="w297" sent="17" para="2" offset="1782" length="1">'</wf>
+    <wf wid="w298" sent="17" para="2" offset="1783" length="1">s</wf>
+    <wf wid="w299" sent="17" para="2" offset="1785" length="6">avonds</wf>
+    <wf wid="w300" sent="17" para="2" offset="1792" length="3">met</wf>
+    <wf wid="w301" sent="17" para="2" offset="1796" length="3">een</wf>
+    <wf wid="w302" sent="17" para="2" offset="1800" length="5">diner</wf>
+    <wf wid="w303" sent="17" para="2" offset="1805" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Een-->
+    <term tid="t257" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--ander-->
+    <term tid="t258" type="open" lemma="ander" pos="G" morphofeat="adj">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--deel-->
+    <term tid="t259" type="open" lemma="deel" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t260" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t261" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--bevolking-->
+    <term tid="t262" type="open" lemma="bevolking" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--ziet-->
+    <term tid="t263" type="open" lemma="zien" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--juist-->
+    <term tid="t264" type="open" lemma="juist" pos="G" morphofeat="adj">
+      <span>
+        <target id="w264"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--liever-->
+    <term tid="t265" type="open" lemma="lief" pos="G" morphofeat="adj">
+      <span>
+        <target id="w265"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--een-->
+    <term tid="t266" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--nauwe-->
+    <term tid="t267" type="open" lemma="nauw" pos="G" morphofeat="adj">
+      <span>
+        <target id="w267"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--band-->
+    <term tid="t268" type="open" lemma="band" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t269" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--Rusland-->
+    <term tid="t270" type="open" lemma="Rusland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t271" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--Die-->
+    <term tid="t295" type="close" lemma="die" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--begon-->
+    <term tid="t296" type="open" lemma="beginnen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t297" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--s-->
+    <term tid="t298" type="open" lemma="s" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--avonds-->
+    <term tid="t299" type="open" lemma="avond" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t300" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t301" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--diner-->
+    <term tid="t302" type="open" lemma="diner" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t303" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Rusland-->
+        <span>
+          <target id="t270"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--nauwe band met-->
+        <span>
+          <target id="t267"/>
+          <target id="t268"/>
+          <target id="t269"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--Een ander deel van de bevolking-->
+        <span>
+          <target id="t257"/>
+          <target id="t258"/>
+          <target id="t259"/>
+          <target id="t260"/>
+          <target id="t261"/>
+          <target id="t262"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--een nauwe band met Rusland-->
+        <span>
+          <target id="t266"/>
+          <target id="t267"/>
+          <target id="t268"/>
+          <target id="t269"/>
+          <target id="t270"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--liever-->
+        <span>
+          <target id="t265"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t295"/>
+          <target id="t296"/>
+          <target id="t297"/>
+          <target id="t298"/>
+          <target id="t299"/>
+          <target id="t300"/>
+          <target id="t301"/>
+          <target id="t302"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

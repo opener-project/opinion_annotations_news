@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:04:44Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:04:44Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:50:09" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:27:19CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="23" para="2" offset="3511" length="1" wid="w667">"</wf>
+    <wf sent="23" para="2" offset="3512" length="2" wid="w668">We</wf>
+    <wf sent="23" para="2" offset="3515" length="5" wid="w669">think</wf>
+    <wf sent="23" para="2" offset="3521" length="4" wid="w670">this</wf>
+    <wf sent="23" para="2" offset="3526" length="3" wid="w671">has</wf>
+    <wf sent="23" para="2" offset="3530" length="4" wid="w672">been</wf>
+    <wf sent="23" para="2" offset="3535" length="1" wid="w673">a</wf>
+    <wf sent="23" para="2" offset="3537" length="4" wid="w674">good</wf>
+    <wf sent="23" para="2" offset="3542" length="7" wid="w675">process</wf>
+    <wf sent="23" para="2" offset="3550" length="3" wid="w676">and</wf>
+    <wf sent="23" para="2" offset="3554" length="1" wid="w677">a</wf>
+    <wf sent="23" para="2" offset="3556" length="4" wid="w678">fair</wf>
+    <wf sent="23" para="2" offset="3561" length="7" wid="w679">process</wf>
+    <wf sent="23" para="2" offset="3568" length="1" wid="w680">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t667">
+      <span>
+        <target id="w667"/>
+      </span>
+    </term>
+    <!--We-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t668">
+      <span>
+        <target id="w668"/>
+      </span>
+    </term>
+    <!--think-->
+    <term type="open" lemma="think" pos="V" morphofeat="VBP" tid="t669">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w669"/>
+      </span>
+    </term>
+    <!--this-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t670">
+      <span>
+        <target id="w670"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t671">
+      <span>
+        <target id="w671"/>
+      </span>
+    </term>
+    <!--been-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBN" tid="t672">
+      <span>
+        <target id="w672"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t673">
+      <span>
+        <target id="w673"/>
+      </span>
+    </term>
+    <!--good-->
+    <term type="open" lemma="good" pos="G" morphofeat="JJ" tid="t674">
+      <span>
+        <target id="w674"/>
+      </span>
+    </term>
+    <!--process-->
+    <term type="open" lemma="process" pos="N" morphofeat="NN" tid="t675">
+      <span>
+        <target id="w675"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t676">
+      <span>
+        <target id="w676"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t677">
+      <span>
+        <target id="w677"/>
+      </span>
+    </term>
+    <!--fair-->
+    <term type="open" lemma="fair" pos="G" morphofeat="JJ" tid="t678">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w678"/>
+      </span>
+    </term>
+    <!--process-->
+    <term type="open" lemma="process" pos="N" morphofeat="NN" tid="t679">
+      <span>
+        <target id="w679"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t680">
+      <span>
+        <target id="w680"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--process-->
+        <span>
+          <target id="t675"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--good-->
+        <span>
+          <target id="t674"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--process-->
+        <span>
+          <target id="t679"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--fair-->
+        <span>
+          <target id="t678"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t668"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--this-->
+        <span>
+          <target id="t670"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--a fair process-->
+        <span>
+          <target id="t677"/>
+          <target id="t678"/>
+          <target id="t679"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t668"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--this-->
+        <span>
+          <target id="t670"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--a good process-->
+        <span>
+          <target id="t673"/>
+          <target id="t674"/>
+          <target id="t675"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

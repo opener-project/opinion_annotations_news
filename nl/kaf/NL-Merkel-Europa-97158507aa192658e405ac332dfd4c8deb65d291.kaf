@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:58Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:58Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T16:03:38CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w141" sent="6" para="2" offset="878" length="2">De</wf>
+    <wf wid="w142" sent="6" para="2" offset="881" length="11">Amerikaanse</wf>
+    <wf wid="w143" sent="6" para="2" offset="893" length="9">president</wf>
+    <wf wid="w144" sent="6" para="2" offset="903" length="6">Barack</wf>
+    <wf wid="w145" sent="6" para="2" offset="910" length="5">Obama</wf>
+    <wf wid="w146" sent="6" para="2" offset="916" length="5">sprak</wf>
+    <wf wid="w147" sent="6" para="2" offset="922" length="8">eveneens</wf>
+    <wf wid="w148" sent="6" para="2" offset="931" length="4">zijn</wf>
+    <wf wid="w149" sent="6" para="2" offset="936" length="10">vertrouwen</wf>
+    <wf wid="w150" sent="6" para="2" offset="947" length="3">uit</wf>
+    <wf wid="w151" sent="6" para="2" offset="951" length="2">in</wf>
+    <wf wid="w152" sent="6" para="2" offset="954" length="6">Europa</wf>
+    <wf wid="w153" sent="6" para="2" offset="960" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t141" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--Amerikaanse-->
+    <term tid="t142" type="open" lemma="Amerikaans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--president-->
+    <term tid="t143" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--Barack-->
+    <term tid="t144" type="open" lemma="Barack" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term tid="t145" type="open" lemma="Obama" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--sprak-->
+    <term tid="t146" type="open" lemma="spreken" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--eveneens-->
+    <term tid="t147" type="open" lemma="eveneens" pos="A" morphofeat="adv">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t148" type="open" lemma="zijn" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--vertrouwen-->
+    <term tid="t149" type="open" lemma="vertrouwen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w149"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--uit-->
+    <term tid="t150" type="close" lemma="uit" pos="P" morphofeat="prep">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t151" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t152" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t153" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--De Amerikaanse president Barack Obama-->
+        <span>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Europa-->
+        <span>
+          <target id="t152"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--vertrouwen-->
+        <span>
+          <target id="t149"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

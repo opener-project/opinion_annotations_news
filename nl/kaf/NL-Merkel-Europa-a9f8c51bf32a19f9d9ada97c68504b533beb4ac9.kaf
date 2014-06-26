@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:28:09CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:29CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w189" sent="11" para="2" offset="1223" length="7">Volgens</wf>
+    <wf wid="w190" sent="11" para="2" offset="1231" length="2">de</wf>
+    <wf wid="w191" sent="11" para="2" offset="1234" length="9">peilingen</wf>
+    <wf wid="w192" sent="11" para="2" offset="1244" length="5">flirt</wf>
+    <wf wid="w193" sent="11" para="2" offset="1250" length="2">de</wf>
+    <wf wid="w194" sent="11" para="2" offset="1253" length="3">FDP</wf>
+    <wf wid="w195" sent="11" para="2" offset="1257" length="3">met</wf>
+    <wf wid="w196" sent="11" para="2" offset="1261" length="2">de</wf>
+    <wf wid="w197" sent="11" para="2" offset="1264" length="11">kiesdrempel</wf>
+    <wf wid="w198" sent="11" para="2" offset="1276" length="3">van</wf>
+    <wf wid="w199" sent="11" para="2" offset="1280" length="1">5</wf>
+    <wf wid="w200" sent="11" para="2" offset="1282" length="7">procent</wf>
+    <wf wid="w201" sent="11" para="2" offset="1289" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Volgens-->
+    <term tid="t189" type="close" lemma="volgens" pos="P" morphofeat="prep">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t190" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--peilingen-->
+    <term tid="t191" type="open" lemma="peiling" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--flirt-->
+    <term tid="t192" type="open" lemma="flirten" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w192"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--de-->
+    <term tid="t193" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--FDP-->
+    <term tid="t194" type="open" lemma="FDP" pos="N" morphofeat="nounabbr">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t195" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t196" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--kiesdrempel-->
+    <term tid="t197" type="open" lemma="kiesdrempel" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t198" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--5-->
+    <term tid="t199" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--procent-->
+    <term tid="t200" type="open" lemma="procent" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t201" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Volgens de peilingen-->
+        <span>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de FDP-->
+        <span>
+          <target id="t193"/>
+          <target id="t194"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--flirt-->
+        <span>
+          <target id="t192"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

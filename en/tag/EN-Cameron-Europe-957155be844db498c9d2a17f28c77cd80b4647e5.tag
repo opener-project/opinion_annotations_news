@@ -1,0 +1,10 @@
+w124	Mr	Mr	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	123	true	8
+w125	Cameron	Cameron	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	124	true	8
+w126	also	also	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	125	true	8
+w127	ordered	order	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	126	true	8
+w128	a	a	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	127	true	8
+w129	review	review	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	128	true	8
+w130	into	into	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	129	true	8
+w131	so-called	so-called	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	130	true	8
+w132	green	green	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	131	true	8
+w133	taxes	tax	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	132	true	8

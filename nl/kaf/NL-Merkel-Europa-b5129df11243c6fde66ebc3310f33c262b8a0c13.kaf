@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T16:19:58CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:39CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w118" sent="9" para="2" offset="672" length="3">Hij</wf>
+    <wf wid="w119" sent="9" para="2" offset="676" length="3">zei</wf>
+    <wf wid="w120" sent="9" para="2" offset="680" length="4">open</wf>
+    <wf wid="w121" sent="9" para="2" offset="685" length="2">te</wf>
+    <wf wid="w122" sent="9" para="2" offset="688" length="5">staan</wf>
+    <wf wid="w123" sent="9" para="2" offset="694" length="4">voor</wf>
+    <wf wid="w124" sent="9" para="2" offset="699" length="10">argumenten</wf>
+    <wf wid="w125" sent="9" para="2" offset="709" length="1">.</wf>
+    <wf wid="w254" sent="19" para="2" offset="1429" length="6">Verzet</wf>
+    <wf wid="w255" sent="19" para="2" offset="1436" length="9">hiertegen</wf>
+    <wf wid="w256" sent="19" para="2" offset="1446" length="4">kwam</wf>
+    <wf wid="w257" sent="19" para="2" offset="1451" length="2">er</wf>
+    <wf wid="w258" sent="19" para="2" offset="1454" length="3">ook</wf>
+    <wf wid="w259" sent="19" para="2" offset="1458" length="3">van</wf>
+    <wf wid="w260" sent="19" para="2" offset="1462" length="5">onder</wf>
+    <wf wid="w261" sent="19" para="2" offset="1468" length="7">anderen</wf>
+    <wf wid="w262" sent="19" para="2" offset="1476" length="2">de</wf>
+    <wf wid="w263" sent="19" para="2" offset="1479" length="6">Duitse</wf>
+    <wf wid="w264" sent="19" para="2" offset="1486" length="14">bondskanselier</wf>
+    <wf wid="w265" sent="19" para="2" offset="1501" length="6">Angela</wf>
+    <wf wid="w266" sent="19" para="2" offset="1508" length="6">Merkel</wf>
+    <wf wid="w267" sent="19" para="2" offset="1514" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hij-->
+    <term tid="t118" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--zei-->
+    <term tid="t119" type="open" lemma="zeggen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--open-->
+    <term tid="t120" type="open" lemma="open" pos="G" morphofeat="adj">
+      <span>
+        <target id="w120"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--te-->
+    <term tid="t121" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--staan-->
+    <term tid="t122" type="open" lemma="staan" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t123" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--argumenten-->
+    <term tid="t124" type="open" lemma="argument" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w124"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t125" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--Verzet-->
+    <term tid="t254" type="open" lemma="verzet" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w254"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--hiertegen-->
+    <term tid="t255" type="close" lemma="hiertegen" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--kwam-->
+    <term tid="t256" type="open" lemma="komen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--er-->
+    <term tid="t257" type="close" lemma="er" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--ook-->
+    <term tid="t258" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t259" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--onder-->
+    <term tid="t260" type="close" lemma="onder" pos="P" morphofeat="prep">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--anderen-->
+    <term tid="t261" type="open" lemma="ander" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t262" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t263" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--bondskanselier-->
+    <term tid="t264" type="open" lemma="bondskanselier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t265" type="open" lemma="Angela" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t266" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t267" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--de Duitse bondskanselier Angela Merkel-->
+        <span>
+          <target id="t262"/>
+          <target id="t263"/>
+          <target id="t264"/>
+          <target id="t265"/>
+          <target id="t266"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--hiertegen-->
+        <span>
+          <target id="t255"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--Verzet-->
+        <span>
+          <target id="t254"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Hij-->
+        <span>
+          <target id="t118"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--argumenten-->
+        <span>
+          <target id="t124"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--open te staan-->
+        <span>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Hij-->
+        <span>
+          <target id="t118"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--argumenten-->
+        <span>
+          <target id="t124"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--zei-->
+        <span>
+          <target id="t119"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

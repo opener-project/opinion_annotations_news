@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:48Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:48Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:30:04" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:30:39CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="8" para="2" offset="707" length="1" wid="w138">"</wf>
+    <wf sent="8" para="2" offset="708" length="2" wid="w139">We</wf>
+    <wf sent="8" para="2" offset="711" length="3" wid="w140">don</wf>
+    <wf sent="8" para="2" offset="714" length="2" wid="w141">'t</wf>
+    <wf sent="8" para="2" offset="717" length="7" wid="w142">believe</wf>
+    <wf sent="8" para="2" offset="725" length="4" wid="w143">that</wf>
+    <wf sent="8" para="2" offset="730" length="4" wid="w144">this</wf>
+    <wf sent="8" para="2" offset="735" length="4" wid="w145">will</wf>
+    <wf sent="8" para="2" offset="740" length="4" wid="w146">help</wf>
+    <wf sent="8" para="2" offset="745" length="2" wid="w147">us</wf>
+    <wf sent="8" para="2" offset="748" length="2" wid="w148">so</wf>
+    <wf sent="8" para="2" offset="751" length="2" wid="w149">we</wf>
+    <wf sent="8" para="2" offset="754" length="4" wid="w150">want</wf>
+    <wf sent="8" para="2" offset="759" length="2" wid="w151">to</wf>
+    <wf sent="8" para="2" offset="762" length="3" wid="w152">use</wf>
+    <wf sent="8" para="2" offset="766" length="3" wid="w153">the</wf>
+    <wf sent="8" para="2" offset="770" length="4" wid="w154">next</wf>
+    <wf sent="8" para="2" offset="775" length="3" wid="w155">six</wf>
+    <wf sent="8" para="2" offset="779" length="6" wid="w156">months</wf>
+    <wf sent="8" para="2" offset="786" length="11" wid="w157">intensively</wf>
+    <wf sent="8" para="2" offset="797" length="1" wid="w158">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t138">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--We-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t139">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--don-->
+    <term type="open" lemma="don" pos="V" morphofeat="VBP" tid="t140">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--'t-->
+    <term type="open" lemma="'t" pos="A" morphofeat="RB" tid="t141">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--believe-->
+    <term type="open" lemma="believe" pos="V" morphofeat="VBP" tid="t142">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="P" morphofeat="IN" tid="t143">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--this-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t144">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--will-->
+    <term type="close" lemma="will" pos="O" morphofeat="MD" tid="t145">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--help-->
+    <term type="open" lemma="help" pos="V" morphofeat="VB" tid="t146">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--us-->
+    <term type="close" lemma="us" pos="Q" morphofeat="PRP" tid="t147">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--so-->
+    <term type="close" lemma="so" pos="P" morphofeat="IN" tid="t148">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--we-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t149">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--want-->
+    <term type="open" lemma="want" pos="V" morphofeat="VBP" tid="t150">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t151">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--use-->
+    <term type="open" lemma="use" pos="V" morphofeat="VB" tid="t152">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t153">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--next-->
+    <term type="open" lemma="next" pos="G" morphofeat="JJ" tid="t154">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--six-->
+    <term type="close" lemma="six" pos="O" morphofeat="CD" tid="t155">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--months-->
+    <term type="open" lemma="month" pos="N" morphofeat="NNS" tid="t156">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--intensively-->
+    <term type="open" lemma="intensively" pos="A" morphofeat="RB" tid="t157">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t158">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t139"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--this will help us-->
+        <span>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--don 't believe-->
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--this-->
+        <span>
+          <target id="t144"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--will help us-->
+        <span>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

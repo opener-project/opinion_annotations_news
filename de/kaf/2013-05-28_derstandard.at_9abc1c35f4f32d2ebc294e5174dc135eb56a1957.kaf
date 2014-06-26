@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:51:00Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:51:00Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:12:42CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:51:22CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:39CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w164" sent="13" para="8" offset="1056" length="8">Hollande</wf>
+    <wf wid="w165" sent="13" para="8" offset="1065" length="5">mahnt</wf>
+    <wf wid="w166" sent="13" para="8" offset="1071" length="3">zur</wf>
+    <wf wid="w167" sent="13" para="8" offset="1075" length="4">Eile</wf>
+  </text>
+  <terms>
+    <term lemma="Hollande" morphofeat="NE unknown_lemma" pos="O" tid="t164" type="open">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <term lemma="mahnen" morphofeat="VVFIN" pos="V" tid="t165" type="open">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPRART" pos="P" tid="t166" type="close">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <term lemma="Eile" morphofeat="NN" pos="N" tid="t167" type="open">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--Hollande-->
+        <span>
+          <target id="t164"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--mahnt zur Eile-->
+        <span>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

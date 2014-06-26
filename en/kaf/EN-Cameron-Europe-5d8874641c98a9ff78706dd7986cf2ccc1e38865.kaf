@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:25Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:25Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:01:34" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:20:38CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="12" para="2" offset="2177" length="1" wid="w394">"</wf>
+    <wf sent="12" para="2" offset="2178" length="1" wid="w395">I</wf>
+    <wf sent="12" para="2" offset="2180" length="5" wid="w396">heard</wf>
+    <wf sent="12" para="2" offset="2186" length="5" wid="w397">there</wf>
+    <wf sent="12" para="2" offset="2192" length="3" wid="w398">are</wf>
+    <wf sent="12" para="2" offset="2196" length="3" wid="w399">now</wf>
+    <wf sent="12" para="2" offset="2200" length="8" wid="w400">American</wf>
+    <wf sent="12" para="2" offset="2209" length="6" wid="w401">planes</wf>
+    <wf sent="12" para="2" offset="2215" length="1" wid="w402">,</wf>
+    <wf sent="12" para="2" offset="2216" length="1" wid="w403">"</wf>
+    <wf sent="12" para="2" offset="2218" length="11" wid="w404">28-year-old</wf>
+    <wf sent="12" para="2" offset="2230" length="5" wid="w405">Merly</wf>
+    <wf sent="12" para="2" offset="2236" length="7" wid="w406">Araneta</wf>
+    <wf sent="12" para="2" offset="2244" length="4" wid="w407">said</wf>
+    <wf sent="12" para="2" offset="2248" length="1" wid="w408">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t394">
+      <span>
+        <target id="w394"/>
+      </span>
+    </term>
+    <!--I-->
+    <term type="close" lemma="i" pos="Q" morphofeat="PRP" tid="t395">
+      <span>
+        <target id="w395"/>
+      </span>
+    </term>
+    <!--heard-->
+    <term type="open" lemma="hear" pos="V" morphofeat="VBD" tid="t396">
+      <span>
+        <target id="w396"/>
+      </span>
+    </term>
+    <!--there-->
+    <term type="close" lemma="there" pos="O" morphofeat="EX" tid="t397">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t398">
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <!--now-->
+    <term type="open" lemma="now" pos="A" morphofeat="RB" tid="t399">
+      <span>
+        <target id="w399"/>
+      </span>
+    </term>
+    <!--American-->
+    <term type="open" lemma="american" pos="G" morphofeat="JJ" tid="t400">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+    <!--planes-->
+    <term type="open" lemma="plane" pos="N" morphofeat="NNS" tid="t401">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t402">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t403">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+    <!--28-year-old-->
+    <term type="close" lemma="28-year-old" pos="O" morphofeat="CD" tid="t404">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+    <!--Merly-->
+    <term type="close" lemma="Merly" pos="R" morphofeat="NNP" tid="t405">
+      <span>
+        <target id="w405"/>
+      </span>
+    </term>
+    <!--Araneta-->
+    <term type="close" lemma="Araneta" pos="R" morphofeat="NNP" tid="t406">
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t407">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t408">
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t394"/>
+          <target id="t395"/>
+          <target id="t396"/>
+          <target id="t397"/>
+          <target id="t398"/>
+          <target id="t399"/>
+          <target id="t400"/>
+          <target id="t401"/>
+          <target id="t402"/>
+          <target id="t403"/>
+          <target id="t404"/>
+          <target id="t405"/>
+          <target id="t406"/>
+          <target id="t407"/>
+          <target id="t408"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

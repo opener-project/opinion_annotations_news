@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:16:00CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w188" sent="11" para="2" offset="1169" length="2">De</wf>
+    <wf wid="w189" sent="11" para="2" offset="1172" length="6">nieuwe</wf>
+    <wf wid="w190" sent="11" para="2" offset="1179" length="6">Franse</wf>
+    <wf wid="w191" sent="11" para="2" offset="1186" length="9">president</wf>
+    <wf wid="w192" sent="11" para="2" offset="1196" length="8">Francois</wf>
+    <wf wid="w193" sent="11" para="2" offset="1205" length="8">Hollande</wf>
+    <wf wid="w194" sent="11" para="2" offset="1214" length="4">kwam</wf>
+    <wf wid="w195" sent="11" para="2" offset="1219" length="3">als</wf>
+    <wf wid="w196" sent="11" para="2" offset="1223" length="7">laatste</wf>
+    <wf wid="w197" sent="11" para="2" offset="1231" length="3">aan</wf>
+    <wf wid="w198" sent="11" para="2" offset="1235" length="2">op</wf>
+    <wf wid="w199" sent="11" para="2" offset="1238" length="3">het</wf>
+    <wf wid="w200" sent="11" para="2" offset="1242" length="14">buitenverblijf</wf>
+    <wf wid="w201" sent="11" para="2" offset="1257" length="3">van</wf>
+    <wf wid="w202" sent="11" para="2" offset="1261" length="2">de</wf>
+    <wf wid="w203" sent="11" para="2" offset="1264" length="11">Amerikaanse</wf>
+    <wf wid="w204" sent="11" para="2" offset="1276" length="9">president</wf>
+    <wf wid="w205" sent="11" para="2" offset="1285" length="1">,</wf>
+    <wf wid="w206" sent="11" para="2" offset="1287" length="2">zo</wf>
+    <wf wid="w207" sent="11" para="2" offset="1289" length="1">'</wf>
+    <wf wid="w208" sent="11" para="2" offset="1290" length="1">n</wf>
+    <wf wid="w209" sent="11" para="2" offset="1292" length="3">100</wf>
+    <wf wid="w210" sent="11" para="2" offset="1296" length="9">kilometer</wf>
+    <wf wid="w211" sent="11" para="2" offset="1306" length="3">ten</wf>
+    <wf wid="w212" sent="11" para="2" offset="1310" length="11">noordwesten</wf>
+    <wf wid="w213" sent="11" para="2" offset="1322" length="3">van</wf>
+    <wf wid="w214" sent="11" para="2" offset="1326" length="10">Washington</wf>
+    <wf wid="w215" sent="11" para="2" offset="1336" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t188" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--nieuwe-->
+    <term tid="t189" type="open" lemma="nieuw" pos="G" morphofeat="adj">
+      <span>
+        <target id="w189"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Franse-->
+    <term tid="t190" type="open" lemma="Frans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--president-->
+    <term tid="t191" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--Francois-->
+    <term tid="t192" type="open" lemma="Francois" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t193" type="open" lemma="Hollande" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--kwam-->
+    <term tid="t194" type="open" lemma="komen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--als-->
+    <term tid="t195" type="close" lemma="als" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--laatste-->
+    <term tid="t196" type="open" lemma="laatste" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t197" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t198" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t199" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--buitenverblijf-->
+    <term tid="t200" type="open" lemma="buitenverblijf" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t201" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t202" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--Amerikaanse-->
+    <term tid="t203" type="open" lemma="Amerikaans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--president-->
+    <term tid="t204" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t205" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--zo-->
+    <term tid="t206" type="open" lemma="zo" pos="A" morphofeat="adv">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t207" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--n-->
+    <term tid="t208" type="open" lemma="n" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--100-->
+    <term tid="t209" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--kilometer-->
+    <term tid="t210" type="open" lemma="kilometer" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--ten-->
+    <term tid="t211" type="close" lemma="te" pos="P" morphofeat="prep">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--noordwesten-->
+    <term tid="t212" type="open" lemma="noordwesten" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t213" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--Washington-->
+    <term tid="t214" type="open" lemma="Washington" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t215" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

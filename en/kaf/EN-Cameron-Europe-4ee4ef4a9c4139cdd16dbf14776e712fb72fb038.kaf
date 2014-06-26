@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:08:05" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:17:42CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:53CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="8" para="2" offset="1140" length="1" wid="w218">“</wf>
+    <wf sent="8" para="2" offset="1141" length="2" wid="w219">We</wf>
+    <wf sent="8" para="2" offset="1144" length="2" wid="w220">do</wf>
+    <wf sent="8" para="2" offset="1147" length="3" wid="w221">not</wf>
+    <wf sent="8" para="2" offset="1151" length="4" wid="w222">want</wf>
+    <wf sent="8" para="2" offset="1156" length="2" wid="w223">to</wf>
+    <wf sent="8" para="2" offset="1159" length="10" wid="w224">intimidate</wf>
+    <wf sent="8" para="2" offset="1170" length="6" wid="w225">others</wf>
+    <wf sent="8" para="2" offset="1176" length="1" wid="w226">,</wf>
+    <wf sent="8" para="2" offset="1178" length="3" wid="w227">nor</wf>
+    <wf sent="8" para="2" offset="1182" length="5" wid="w228">force</wf>
+    <wf sent="8" para="2" offset="1188" length="3" wid="w229">our</wf>
+    <wf sent="8" para="2" offset="1192" length="5" wid="w230">ideas</wf>
+    <wf sent="8" para="2" offset="1198" length="2" wid="w231">on</wf>
+    <wf sent="8" para="2" offset="1201" length="4" wid="w232">them</wf>
+    <wf sent="8" para="2" offset="1205" length="1" wid="w233">.</wf>
+  </text>
+  <terms>
+    <!--“-->
+    <term type="open" lemma="“" pos="N" morphofeat="NN" tid="t218">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--We-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t219">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--do-->
+    <term type="open" lemma="do" pos="V" morphofeat="VBP" tid="t220">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t221">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--want-->
+    <term type="open" lemma="want" pos="V" morphofeat="VB" tid="t222">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t223">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--intimidate-->
+    <term type="open" lemma="intimidate" pos="V" morphofeat="VB" tid="t224">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--others-->
+    <term type="open" lemma="other" pos="N" morphofeat="NNS" tid="t225">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t226">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--nor-->
+    <term type="close" lemma="nor" pos="C" morphofeat="CC" tid="t227">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--force-->
+    <term type="open" lemma="force" pos="V" morphofeat="VB" tid="t228">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--our-->
+    <term type="close" lemma="our" pos="Q" morphofeat="PRP$" tid="t229">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--ideas-->
+    <term type="open" lemma="idea" pos="N" morphofeat="NNS" tid="t230">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t231">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--them-->
+    <term type="close" lemma="them" pos="Q" morphofeat="PRP" tid="t232">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t233">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t219"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--others-->
+        <span>
+          <target id="t225"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--nor force-->
+        <span>
+          <target id="t227"/>
+          <target id="t228"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t219"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--our ideas-->
+        <span>
+          <target id="t229"/>
+          <target id="t230"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--nor force-->
+        <span>
+          <target id="t227"/>
+          <target id="t228"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t219"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--others-->
+        <span>
+          <target id="t225"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--do not want to intimidate-->
+        <span>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t219"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--our ideas-->
+        <span>
+          <target id="t229"/>
+          <target id="t230"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--do not want to intimidate-->
+        <span>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

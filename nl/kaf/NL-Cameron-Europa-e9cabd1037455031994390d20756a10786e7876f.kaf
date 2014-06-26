@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:15:46CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:29CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="7">Cameron</wf>
+    <wf wid="w2" sent="1" para="1" offset="8" length="4">gaat</wf>
+    <wf wid="w3" sent="1" para="1" offset="13" length="4">voor</wf>
+    <wf wid="w4" sent="1" para="1" offset="18" length="7">strenge</wf>
+    <wf wid="w5" sent="1" para="1" offset="26" length="6">aanpak</wf>
+    <wf wid="w6" sent="1" para="1" offset="33" length="12">EU-migranten</wf>
+    <wf wid="w68" sent="4" para="2" offset="411" length="2">De</wf>
+    <wf wid="w69" sent="4" para="2" offset="414" length="8">Europese</wf>
+    <wf wid="w70" sent="4" para="2" offset="423" length="9">Commissie</wf>
+    <wf wid="w71" sent="4" para="2" offset="433" length="5">heeft</wf>
+    <wf wid="w72" sent="4" para="2" offset="439" length="3">het</wf>
+    <wf wid="w73" sent="4" para="2" offset="443" length="4">over</wf>
+    <wf wid="w74" sent="4" para="2" offset="448" length="3">een</wf>
+    <wf wid="w75" sent="4" para="2" offset="452" length="1">"</wf>
+    <wf wid="w76" sent="4" para="2" offset="453" length="10">excessieve</wf>
+    <wf wid="w77" sent="4" para="2" offset="464" length="7">reactie</wf>
+    <wf wid="w78" sent="4" para="2" offset="471" length="1">"</wf>
+    <wf wid="w79" sent="4" para="2" offset="472" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Cameron-->
+    <term tid="t1" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--gaat-->
+    <term tid="t2" type="open" lemma="gaan" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t3" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--strenge-->
+    <term tid="t4" type="open" lemma="streng" pos="G" morphofeat="adj">
+      <span>
+        <target id="w4"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--aanpak-->
+    <term tid="t5" type="open" lemma="aanpak" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--EU-migranten-->
+    <term tid="t6" type="open" lemma="EU-migranten" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t68" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t69" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--Commissie-->
+    <term tid="t70" type="open" lemma="commissie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w70"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--heeft-->
+    <term tid="t71" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t72" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t73" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t74" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t75" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--excessieve-->
+    <term tid="t76" type="open" lemma="excessief" pos="G" morphofeat="adj">
+      <span>
+        <target id="w76"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--reactie-->
+    <term tid="t77" type="open" lemma="reactie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t78" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t79" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder>
+        <!--De Europese Commissie-->
+        <span>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t70"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--een " excessieve reactie "-->
+        <span>
+          <target id="t74"/>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Cameron-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--strenge aanpak EU-migranten-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--gaat voor-->
+        <span>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--aanpak EU-migranten-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--strenge-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

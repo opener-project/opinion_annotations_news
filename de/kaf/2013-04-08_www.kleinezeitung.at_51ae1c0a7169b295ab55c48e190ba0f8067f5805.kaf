@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:42:28Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:42:28Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:46:24CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:42:40CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:35CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w33" sent="5" para="3" offset="194" length="2">Er</wf>
+    <wf wid="w34" sent="5" para="3" offset="197" length="4">will</wf>
+    <wf wid="w35" sent="5" para="3" offset="202" length="3">die</wf>
+    <wf wid="w36" sent="5" para="3" offset="206" length="11">Kompetenzen</wf>
+    <wf wid="w37" sent="5" para="3" offset="218" length="3">der</wf>
+    <wf wid="w38" sent="5" para="3" offset="222" length="2">EU</wf>
+    <wf wid="w39" sent="5" para="3" offset="225" length="12">einschränken</wf>
+    <wf wid="w40" sent="5" para="3" offset="237" length="1">,</wf>
+    <wf wid="w41" sent="5" para="3" offset="239" length="2">um</wf>
+    <wf wid="w42" sent="5" para="3" offset="242" length="3">die</wf>
+    <wf wid="w43" sent="5" para="3" offset="246" length="10">Interessen</wf>
+    <wf wid="w44" sent="5" para="3" offset="257" length="6">seines</wf>
+    <wf wid="w45" sent="5" para="3" offset="264" length="6">Landes</wf>
+    <wf wid="w46" sent="5" para="3" offset="271" length="2">zu</wf>
+    <wf wid="w47" sent="5" para="3" offset="274" length="8">schützen</wf>
+    <wf wid="w48" sent="5" para="3" offset="282" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t33" type="close">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t34" type="open">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t35" type="close">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="Kompetenz" morphofeat="NN" pos="N" tid="t36" type="open">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t37" type="close">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t38" type="open">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="einschränken" morphofeat="VVINF" pos="V" tid="t39" type="open">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t40" type="open">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="um" morphofeat="KOUI" pos="C" tid="t41" type="close">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t42" type="close">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term lemma="Interesse" morphofeat="NN" pos="N" tid="t43" type="open">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="PPOSAT" pos="Q" tid="t44" type="close">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="Land" morphofeat="NN" pos="N" tid="t45" type="open">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="PTKZU" pos="O" tid="t46" type="open">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <term lemma="schützen" morphofeat="VVINF" pos="V" tid="t47" type="open">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t48" type="open">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die Kompetenzen-->
+        <span>
+          <target id="t35"/>
+          <target id="t36"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--einschränken-->
+        <span>
+          <target id="t39"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Er-->
+        <span>
+          <target id="t33"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die Kompetenzen einschränken-->
+        <span>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t39"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--will-->
+        <span>
+          <target id="t34"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

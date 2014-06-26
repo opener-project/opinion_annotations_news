@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T18:13:09Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T18:13:09Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:53:34CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T19:13:35CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w369" sent="29" para="13" offset="2339" length="3">Und</wf>
+    <wf wid="w370" sent="29" para="13" offset="2343" length="6">Merkel</wf>
+    <wf wid="w371" sent="29" para="13" offset="2350" length="11">unterstützt</wf>
+    <wf wid="w372" sent="29" para="13" offset="2362" length="5">diese</wf>
+    <wf wid="w373" sent="29" para="13" offset="2368" length="10">Bemühungen</wf>
+    <wf wid="w374" sent="29" para="13" offset="2378" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t369" type="close">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t370" type="open">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <term lemma="unterstützen" morphofeat="VVFIN" pos="V" tid="t371" type="open">
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+    <term lemma="dies" morphofeat="PDAT" pos="Q" tid="t372" type="close">
+      <span>
+        <target id="w372"/>
+      </span>
+    </term>
+    <term lemma="Bemühung" morphofeat="NN" pos="N" tid="t373" type="open">
+      <span>
+        <target id="w373"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t374" type="open">
+      <span>
+        <target id="w374"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t370"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--diese Bemühungen-->
+        <span>
+          <target id="t372"/>
+          <target id="t373"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--unterstützt-->
+        <span>
+          <target id="t371"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

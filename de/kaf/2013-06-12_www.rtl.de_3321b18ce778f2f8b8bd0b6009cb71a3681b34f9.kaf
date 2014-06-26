@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T11:36:17Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T11:36:17Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:05:55CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T12:36:38CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:35CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w384" sent="27" para="12" offset="2406" length="20">Versammlungsfreiheit</wf>
+    <wf wid="w385" sent="27" para="12" offset="2427" length="3">und</wf>
+    <wf wid="w386" sent="27" para="12" offset="2431" length="5">freie</wf>
+    <wf wid="w387" sent="27" para="12" offset="2437" length="16">Meinungsäußerung</wf>
+    <wf wid="w388" sent="27" para="12" offset="2454" length="5">seien</wf>
+    <wf wid="w389" sent="27" para="12" offset="2460" length="15">unveräußerliche</wf>
+    <wf wid="w390" sent="27" para="12" offset="2476" length="11">Grundrechte</wf>
+    <wf wid="w391" sent="27" para="12" offset="2488" length="2">in</wf>
+    <wf wid="w392" sent="27" para="12" offset="2491" length="5">jeder</wf>
+    <wf wid="w393" sent="27" para="12" offset="2497" length="10">Demokratie</wf>
+    <wf wid="w394" sent="27" para="12" offset="2507" length="1">,</wf>
+    <wf wid="w395" sent="27" para="12" offset="2509" length="5">sagte</wf>
+    <wf wid="w396" sent="27" para="12" offset="2515" length="2">er</wf>
+    <wf wid="w397" sent="27" para="12" offset="2517" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Versammlungsfreiheit" morphofeat="NN" pos="N" tid="t384" type="open">
+      <span>
+        <target id="w384"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t385" type="close">
+      <span>
+        <target id="w385"/>
+      </span>
+    </term>
+    <term lemma="frei" morphofeat="ADJA" pos="G" tid="t386" type="open">
+      <span>
+        <target id="w386"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Meinungsäußerung" morphofeat="NN" pos="N" tid="t387" type="open">
+      <span>
+        <target id="w387"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t388" type="open">
+      <span>
+        <target id="w388"/>
+      </span>
+    </term>
+    <term lemma="unveräußerlich" morphofeat="ADJA" pos="G" tid="t389" type="open">
+      <span>
+        <target id="w389"/>
+      </span>
+    </term>
+    <term lemma="Grundrecht" morphofeat="NN" pos="N" tid="t390" type="open">
+      <span>
+        <target id="w390"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t391" type="close">
+      <span>
+        <target id="w391"/>
+      </span>
+    </term>
+    <term lemma="jede" morphofeat="PIAT" pos="Q" tid="t392" type="close">
+      <span>
+        <target id="w392"/>
+      </span>
+    </term>
+    <term lemma="Demokratie" morphofeat="NN" pos="N" tid="t393" type="open">
+      <span>
+        <target id="w393"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t394" type="open">
+      <span>
+        <target id="w394"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t395" type="open">
+      <span>
+        <target id="w395"/>
+      </span>
+    </term>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t396" type="close">
+      <span>
+        <target id="w396"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t397" type="open">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--er-->
+        <span>
+          <target id="t396"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--freie Meinungsäußerung-->
+        <span>
+          <target id="t386"/>
+          <target id="t387"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--unveräußerliche Grundrechte-->
+        <span>
+          <target id="t389"/>
+          <target id="t390"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--er-->
+        <span>
+          <target id="t396"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Versammlungsfreiheit-->
+        <span>
+          <target id="t384"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--unveräußerliche Grundrechte-->
+        <span>
+          <target id="t389"/>
+          <target id="t390"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--er-->
+        <span>
+          <target id="t396"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--freie Meinungsäußerung-->
+        <span>
+          <target id="t386"/>
+          <target id="t387"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--sagte-->
+        <span>
+          <target id="t395"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--er-->
+        <span>
+          <target id="t396"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Versammlungsfreiheit-->
+        <span>
+          <target id="t384"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--sagte-->
+        <span>
+          <target id="t395"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

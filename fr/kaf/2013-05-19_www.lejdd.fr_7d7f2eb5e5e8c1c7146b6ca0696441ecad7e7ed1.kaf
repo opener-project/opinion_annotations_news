@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:49:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:49:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:49:21Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:32:21CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w205" sent="10" para="7" offset="1029" length="1">"</wf>
+    <wf wid="w206" sent="10" para="7" offset="1030" length="2">C'</wf>
+    <wf wid="w207" sent="10" para="7" offset="1032" length="3">est</wf>
+    <wf wid="w208" sent="10" para="7" offset="1036" length="12">inexplicable</wf>
+    <wf wid="w209" sent="10" para="7" offset="1048" length="1">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term tid="t205" type="close" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--C'-->
+    <term tid="t206" type="close" lemma="C'" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t207" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--inexplicable-->
+    <term tid="t208" type="open" lemma="inexplicable" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t209" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--C'-->
+        <span>
+          <target id="t206"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--inexplicable-->
+        <span>
+          <target id="t208"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

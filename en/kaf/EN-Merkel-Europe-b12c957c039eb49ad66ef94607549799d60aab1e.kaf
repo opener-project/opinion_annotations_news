@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:10:20" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:47:30CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="16" para="2" offset="2685" length="1" wid="w481">"</wf>
+    <wf sent="16" para="2" offset="2686" length="3" wid="w482">But</wf>
+    <wf sent="16" para="2" offset="2690" length="7" wid="w483">America</wf>
+    <wf sent="16" para="2" offset="2698" length="3" wid="w484">has</wf>
+    <wf sent="16" para="2" offset="2702" length="5" wid="w485">those</wf>
+    <wf sent="16" para="2" offset="2708" length="6" wid="w486">checks</wf>
+    <wf sent="16" para="2" offset="2714" length="1" wid="w487">;</wf>
+    <wf sent="16" para="2" offset="2716" length="7" wid="w488">America</wf>
+    <wf sent="16" para="2" offset="2724" length="3" wid="w489">has</wf>
+    <wf sent="16" para="2" offset="2728" length="5" wid="w490">those</wf>
+    <wf sent="16" para="2" offset="2734" length="8" wid="w491">balances</wf>
+    <wf sent="16" para="2" offset="2742" length="1" wid="w492">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="close" lemma="&quot;" pos="O" morphofeat="SYM" tid="t481">
+      <span>
+        <target id="w481"/>
+      </span>
+    </term>
+    <!--But-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t482">
+      <span>
+        <target id="w482"/>
+      </span>
+    </term>
+    <!--America-->
+    <term type="close" lemma="America" pos="R" morphofeat="NNP" tid="t483">
+      <span>
+        <target id="w483"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t484">
+      <span>
+        <target id="w484"/>
+      </span>
+    </term>
+    <!--those-->
+    <term type="close" lemma="those" pos="D" morphofeat="DT" tid="t485">
+      <span>
+        <target id="w485"/>
+      </span>
+    </term>
+    <!--checks-->
+    <term type="open" lemma="check" pos="N" morphofeat="NNS" tid="t486">
+      <span>
+        <target id="w486"/>
+      </span>
+    </term>
+    <!--;-->
+    <term type="close" lemma=";" pos="O" morphofeat=":" tid="t487">
+      <span>
+        <target id="w487"/>
+      </span>
+    </term>
+    <!--America-->
+    <term type="close" lemma="America" pos="R" morphofeat="NNP" tid="t488">
+      <span>
+        <target id="w488"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t489">
+      <span>
+        <target id="w489"/>
+      </span>
+    </term>
+    <!--those-->
+    <term type="close" lemma="those" pos="D" morphofeat="DT" tid="t490">
+      <span>
+        <target id="w490"/>
+      </span>
+    </term>
+    <!--balances-->
+    <term type="open" lemma="balance" pos="N" morphofeat="NNS" tid="t491">
+      <span>
+        <target id="w491"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t492">
+      <span>
+        <target id="w492"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t481"/>
+          <target id="t482"/>
+          <target id="t483"/>
+          <target id="t484"/>
+          <target id="t485"/>
+          <target id="t486"/>
+          <target id="t487"/>
+          <target id="t488"/>
+          <target id="t489"/>
+          <target id="t490"/>
+          <target id="t491"/>
+          <target id="t492"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

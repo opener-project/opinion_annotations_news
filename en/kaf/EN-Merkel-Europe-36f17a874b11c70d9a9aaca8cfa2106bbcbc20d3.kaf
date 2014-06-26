@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:04:45Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:04:45Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:00:55" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:00:41CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:52CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="6" para="2" offset="1288" length="3" wid="w239">But</wf>
+    <wf sent="6" para="2" offset="1292" length="3" wid="w240">the</wf>
+    <wf sent="6" para="2" offset="1296" length="9" wid="w241">agreement</wf>
+    <wf sent="6" para="2" offset="1306" length="4" wid="w242">will</wf>
+    <wf sent="6" para="2" offset="1311" length="2" wid="w243">be</wf>
+    <wf sent="6" para="2" offset="1314" length="7" wid="w244">greeted</wf>
+    <wf sent="6" para="2" offset="1322" length="4" wid="w245">with</wf>
+    <wf sent="6" para="2" offset="1327" length="1" wid="w246">a</wf>
+    <wf sent="6" para="2" offset="1329" length="4" wid="w247">sigh</wf>
+    <wf sent="6" para="2" offset="1334" length="2" wid="w248">of</wf>
+    <wf sent="6" para="2" offset="1337" length="6" wid="w249">relief</wf>
+    <wf sent="6" para="2" offset="1344" length="2" wid="w250">in</wf>
+    <wf sent="6" para="2" offset="1347" length="5" wid="w251">other</wf>
+    <wf sent="6" para="2" offset="1353" length="8" wid="w252">European</wf>
+    <wf sent="6" para="2" offset="1362" length="8" wid="w253">capitals</wf>
+    <wf sent="6" para="2" offset="1370" length="1" wid="w254">.</wf>
+    <wf sent="10" para="2" offset="1758" length="6" wid="w333">Martin</wf>
+    <wf sent="10" para="2" offset="1765" length="6" wid="w334">Schulz</wf>
+    <wf sent="10" para="2" offset="1771" length="1" wid="w335">,</wf>
+    <wf sent="10" para="2" offset="1773" length="9" wid="w336">president</wf>
+    <wf sent="10" para="2" offset="1783" length="2" wid="w337">of</wf>
+    <wf sent="10" para="2" offset="1786" length="3" wid="w338">the</wf>
+    <wf sent="10" para="2" offset="1790" length="8" wid="w339">European</wf>
+    <wf sent="10" para="2" offset="1799" length="10" wid="w340">Parliament</wf>
+    <wf sent="10" para="2" offset="1810" length="3" wid="w341">and</wf>
+    <wf sent="10" para="2" offset="1814" length="1" wid="w342">a</wf>
+    <wf sent="10" para="2" offset="1816" length="6" wid="w343">senior</wf>
+    <wf sent="10" para="2" offset="1823" length="3" wid="w344">SPD</wf>
+    <wf sent="10" para="2" offset="1827" length="10" wid="w345">negotiator</wf>
+    <wf sent="10" para="2" offset="1837" length="1" wid="w346">,</wf>
+    <wf sent="10" para="2" offset="1839" length="6" wid="w347">called</wf>
+    <wf sent="10" para="2" offset="1846" length="2" wid="w348">it</wf>
+    <wf sent="10" para="2" offset="1849" length="2" wid="w349">an</wf>
+    <wf sent="10" para="2" offset="1852" length="1" wid="w350">“</wf>
+    <wf sent="10" para="2" offset="1853" length="9" wid="w351">excellent</wf>
+    <wf sent="10" para="2" offset="1863" length="6" wid="w352">result</wf>
+    <wf sent="10" para="2" offset="1869" length="1" wid="w353">”</wf>
+    <wf sent="10" para="2" offset="1871" length="3" wid="w354">for</wf>
+    <wf sent="10" para="2" offset="1875" length="3" wid="w355">his</wf>
+    <wf sent="10" para="2" offset="1879" length="5" wid="w356">party</wf>
+    <wf sent="10" para="2" offset="1884" length="1" wid="w357">.</wf>
+  </text>
+  <terms>
+    <!--But-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t239">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t240">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--agreement-->
+    <term type="open" lemma="agreement" pos="N" morphofeat="NN" tid="t241">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--will-->
+    <term type="close" lemma="will" pos="O" morphofeat="MD" tid="t242">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t243">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--greeted-->
+    <term type="open" lemma="greet" pos="V" morphofeat="VBN" tid="t244">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t245">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t246">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--sigh-->
+    <term type="open" lemma="sigh" pos="N" morphofeat="NN" tid="t247">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t248">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--relief-->
+    <term type="open" lemma="relief" pos="N" morphofeat="NN" tid="t249">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t250">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--other-->
+    <term type="open" lemma="other" pos="G" morphofeat="JJ" tid="t251">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--European-->
+    <term type="open" lemma="european" pos="G" morphofeat="JJ" tid="t252">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--capitals-->
+    <term type="open" lemma="capital" pos="N" morphofeat="NNS" tid="t253">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t254">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--Martin-->
+    <term type="close" lemma="Martin" pos="R" morphofeat="NNP" tid="t333">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <!--Schulz-->
+    <term type="close" lemma="Schulz" pos="R" morphofeat="NNP" tid="t334">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t335">
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <!--president-->
+    <term type="open" lemma="president" pos="N" morphofeat="NN" tid="t336">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t337">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t338">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <!--European-->
+    <term type="close" lemma="European" pos="R" morphofeat="NNP" tid="t339">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--Parliament-->
+    <term type="close" lemma="Parliament" pos="R" morphofeat="NNP" tid="t340">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t341">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t342">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--senior-->
+    <term type="open" lemma="senior" pos="G" morphofeat="JJ" tid="t343">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--SPD-->
+    <term type="close" lemma="SPD" pos="R" morphofeat="NNP" tid="t344">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--negotiator-->
+    <term type="open" lemma="negotiator" pos="N" morphofeat="NN" tid="t345">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t346">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--called-->
+    <term type="open" lemma="call" pos="V" morphofeat="VBD" tid="t347">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t348">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <!--an-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t349">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <!--“-->
+    <term type="open" lemma="“" pos="N" morphofeat="NN" tid="t350">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <!--excellent-->
+    <term type="open" lemma="excellent" pos="G" morphofeat="JJ" tid="t351">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <!--result-->
+    <term type="open" lemma="result" pos="N" morphofeat="NN" tid="t352">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="N" morphofeat="NN" tid="t353">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t354">
+      <span>
+        <target id="w354"/>
+      </span>
+    </term>
+    <!--his-->
+    <term type="close" lemma="his" pos="Q" morphofeat="PRP$" tid="t355">
+      <span>
+        <target id="w355"/>
+      </span>
+    </term>
+    <!--party-->
+    <term type="open" lemma="party" pos="N" morphofeat="NN" tid="t356">
+      <span>
+        <target id="w356"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t357">
+      <span>
+        <target id="w357"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--other European capitals-->
+        <span>
+          <target id="t251"/>
+          <target id="t252"/>
+          <target id="t253"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the agreement-->
+        <span>
+          <target id="t240"/>
+          <target id="t241"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--will be greeted with a sigh of relief-->
+        <span>
+          <target id="t242"/>
+          <target id="t243"/>
+          <target id="t244"/>
+          <target id="t245"/>
+          <target id="t246"/>
+          <target id="t247"/>
+          <target id="t248"/>
+          <target id="t249"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--result-->
+        <span>
+          <target id="t352"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--excellent-->
+        <span>
+          <target id="t351"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Martin Schulz-->
+        <span>
+          <target id="t333"/>
+          <target id="t334"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--it-->
+        <span>
+          <target id="t348"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--excellent result-->
+        <span>
+          <target id="t351"/>
+          <target id="t352"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

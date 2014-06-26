@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:35:17CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w101" sent="7" para="2" offset="579" length="2">In</wf>
+    <wf wid="w102" sent="7" para="2" offset="582" length="2">de</wf>
+    <wf wid="w103" sent="7" para="2" offset="585" length="4">stad</wf>
+    <wf wid="w104" sent="7" para="2" offset="590" length="11">Maagdenburg</wf>
+    <wf wid="w105" sent="7" para="2" offset="601" length="1">,</wf>
+    <wf wid="w106" sent="7" para="2" offset="603" length="2">de</wf>
+    <wf wid="w107" sent="7" para="2" offset="606" length="9">hoofdstad</wf>
+    <wf wid="w108" sent="7" para="2" offset="616" length="3">van</wf>
+    <wf wid="w109" sent="7" para="2" offset="620" length="2">de</wf>
+    <wf wid="w110" sent="7" para="2" offset="623" length="6">Duitse</wf>
+    <wf wid="w111" sent="7" para="2" offset="630" length="9">deelstaat</wf>
+    <wf wid="w112" sent="7" para="2" offset="640" length="13">Saksen-Anhalt</wf>
+    <wf wid="w113" sent="7" para="2" offset="653" length="1">,</wf>
+    <wf wid="w114" sent="7" para="2" offset="655" length="5">stond</wf>
+    <wf wid="w115" sent="7" para="2" offset="661" length="3">het</wf>
+    <wf wid="w116" sent="7" para="2" offset="665" length="5">water</wf>
+    <wf wid="w117" sent="7" para="2" offset="671" length="3">van</wf>
+    <wf wid="w118" sent="7" para="2" offset="675" length="2">de</wf>
+    <wf wid="w119" sent="7" para="2" offset="678" length="4">Elbe</wf>
+    <wf wid="w120" sent="7" para="2" offset="683" length="2">op</wf>
+    <wf wid="w121" sent="7" para="2" offset="686" length="3">een</wf>
+    <wf wid="w122" sent="7" para="2" offset="690" length="7">bepaald</wf>
+    <wf wid="w123" sent="7" para="2" offset="698" length="6">moment</wf>
+    <wf wid="w124" sent="7" para="2" offset="705" length="2">op</wf>
+    <wf wid="w125" sent="7" para="2" offset="708" length="4">7,40</wf>
+    <wf wid="w126" sent="7" para="2" offset="713" length="5">meter</wf>
+    <wf wid="w127" sent="7" para="2" offset="718" length="1">.</wf>
+  </text>
+  <terms>
+    <!--In-->
+    <term tid="t101" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t102" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--stad-->
+    <term tid="t103" type="open" lemma="stad" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--Maagdenburg-->
+    <term tid="t104" type="open" lemma="Maagdenburg" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t105" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t106" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--hoofdstad-->
+    <term tid="t107" type="open" lemma="hoofdstad" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t108" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t109" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t110" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--deelstaat-->
+    <term tid="t111" type="open" lemma="deelstaat" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--Saksen-Anhalt-->
+    <term tid="t112" type="open" lemma="Saksen-Anhalt" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t113" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--stond-->
+    <term tid="t114" type="open" lemma="staan" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t115" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--water-->
+    <term tid="t116" type="open" lemma="water" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t117" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t118" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--Elbe-->
+    <term tid="t119" type="open" lemma="Elbe" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t120" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t121" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--bepaald-->
+    <term tid="t122" type="open" lemma="bepalen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--moment-->
+    <term tid="t123" type="open" lemma="moment" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t124" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--7,40-->
+    <term tid="t125" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--meter-->
+    <term tid="t126" type="open" lemma="meter" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t127" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

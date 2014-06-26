@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:44Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:44Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:25:02" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:11:15CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:57CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="5" wid="w1">6,000</wf>
+    <wf sent="1" para="1" offset="6" length="5" wid="w2">Greek</wf>
+    <wf sent="1" para="1" offset="12" length="6" wid="w3">police</wf>
+    <wf sent="1" para="1" offset="19" length="2" wid="w4">to</wf>
+    <wf sent="1" para="1" offset="22" length="5" wid="w5">guard</wf>
+    <wf sent="1" para="1" offset="28" length="6" wid="w6">Angela</wf>
+    <wf sent="1" para="1" offset="35" length="6" wid="w7">Merkel</wf>
+    <wf sent="1" para="1" offset="42" length="6" wid="w8">during</wf>
+    <wf sent="1" para="1" offset="49" length="3" wid="w9">her</wf>
+    <wf sent="1" para="1" offset="53" length="8" wid="w10">SIX-HOUR</wf>
+    <wf sent="1" para="1" offset="62" length="5" wid="w11">visit</wf>
+    <wf sent="1" para="1" offset="68" length="2" wid="w12">to</wf>
+    <wf sent="1" para="1" offset="71" length="6" wid="w13">Athens</wf>
+  </text>
+  <terms>
+    <!--6,000-->
+    <term type="close" lemma="6,000" pos="O" morphofeat="CD" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Greek-->
+    <term type="open" lemma="greek" pos="G" morphofeat="JJ" tid="t2">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--police-->
+    <term type="open" lemma="police" pos="N" morphofeat="NNS" tid="t3">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t4">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--guard-->
+    <term type="open" lemma="guard" pos="V" morphofeat="VB" tid="t5">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term type="close" lemma="Angela" pos="R" morphofeat="NNP" tid="t6">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t7">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--during-->
+    <term type="close" lemma="during" pos="P" morphofeat="IN" tid="t8">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--her-->
+    <term type="close" lemma="her" pos="Q" morphofeat="PRP$" tid="t9">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--SIX-HOUR-->
+    <term type="open" lemma="SIX-HOUR" pos="G" morphofeat="JJ" tid="t10">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--visit-->
+    <term type="open" lemma="visit" pos="N" morphofeat="NN" tid="t11">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t12">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--Athens-->
+    <term type="close" lemma="Athens" pos="R" morphofeat="NNP" tid="t13">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

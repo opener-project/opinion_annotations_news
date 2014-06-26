@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:52:38Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:52:38Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:10:11CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:52:45CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:57CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w198" sent="12" para="4" offset="1248" length="3">Das</wf>
+    <wf wid="w199" sent="12" para="4" offset="1252" length="15">Branchentreffen</wf>
+    <wf wid="w200" sent="12" para="4" offset="1268" length="6">öffnet</wf>
+    <wf wid="w201" sent="12" para="4" offset="1275" length="6">diesen</wf>
+    <wf wid="w202" sent="12" para="4" offset="1282" length="6">Montag</wf>
+    <wf wid="w203" sent="12" para="4" offset="1289" length="8">erstmals</wf>
+    <wf wid="w204" sent="12" para="4" offset="1298" length="5">seine</wf>
+    <wf wid="w205" sent="12" para="4" offset="1304" length="4">Tore</wf>
+    <wf wid="w206" sent="12" para="4" offset="1308" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t198" type="close">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <term lemma="Branchentreffen" morphofeat="NN unknown_lemma" pos="O" tid="t199" type="open">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <term lemma="öffnen" morphofeat="VVFIN" pos="V" tid="t200" type="open">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <term lemma="dies" morphofeat="PDAT" pos="Q" tid="t201" type="close">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <term lemma="Montag" morphofeat="NN" pos="N" tid="t202" type="open">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <term lemma="erstmals" morphofeat="ADV" pos="A" tid="t203" type="open">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="PPOSAT" pos="Q" tid="t204" type="close">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <term lemma="Tor" morphofeat="NN" pos="N" tid="t205" type="open">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t206" type="open">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

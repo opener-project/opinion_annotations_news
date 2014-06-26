@@ -1,0 +1,16 @@
+w121	De	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	120	true	6
+w122	nieuwe	nieuw	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	121	true	6
+w123	afspraken	afspraak	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	122	true	6
+w124	worden	worden	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	123	true	6
+w125	vervolgens	vervolgens	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	124	true	6
+w126	uiterlijk	uiterlijk	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	125	true	6
+w127	eind	eind	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	126	true	6
+w128	2017	@card@	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	127	true	6
+w129	aan	aan	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	128	true	6
+w130	de	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	129	true	6
+w131	Britse	Brits	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	130	true	6
+w132	bevolking	bevolking	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	131	true	6
+w133	voorgelegd	voorleggen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	132	true	6
+w134	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	133	true	6
+w135	een	een	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	134	true	6
+w136	referendum	referendum	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	135	true	6

@@ -1,0 +1,9 @@
+w804	Das	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	803	true	40
+w805	Zentrum	Zentrum	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	804	true	40
+w806	soll	sollen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	805	true	40
+w807	bis	bis	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	806	true	40
+w808	Ende	Ende	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	807	true	40
+w809	2015	@card@	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	808	true	40
+w810	fertig	fertig	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	809	true	40
+w811	sein	sein	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	810	true	40
+w812	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	811	true	40

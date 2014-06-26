@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:29:04" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:58:52CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="16" para="2" offset="2259" length="1" wid="w416">"</wf>
+    <wf sent="16" para="2" offset="2260" length="9" wid="w417">Meanwhile</wf>
+    <wf sent="16" para="2" offset="2269" length="1" wid="w418">,</wf>
+    <wf sent="16" para="2" offset="2271" length="3" wid="w419">the</wf>
+    <wf sent="16" para="2" offset="2275" length="6" wid="w420">summit</wf>
+    <wf sent="16" para="2" offset="2282" length="3" wid="w421">did</wf>
+    <wf sent="16" para="2" offset="2286" length="3" wid="w422">not</wf>
+    <wf sent="16" para="2" offset="2290" length="5" wid="w423">agree</wf>
+    <wf sent="16" para="2" offset="2296" length="3" wid="w424">any</wf>
+    <wf sent="16" para="2" offset="2300" length="3" wid="w425">new</wf>
+    <wf sent="16" para="2" offset="2304" length="19" wid="w426">employment-boosting</wf>
+    <wf sent="16" para="2" offset="2324" length="8" wid="w427">measures</wf>
+    <wf sent="16" para="2" offset="2332" length="1" wid="w428">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t416">
+      <span>
+        <target id="w416"/>
+      </span>
+    </term>
+    <!--Meanwhile-->
+    <term type="open" lemma="meanwhile" pos="A" morphofeat="RB" tid="t417">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t418">
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t419">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+    <!--summit-->
+    <term type="open" lemma="summit" pos="N" morphofeat="NN" tid="t420">
+      <span>
+        <target id="w420"/>
+      </span>
+    </term>
+    <!--did-->
+    <term type="open" lemma="do" pos="V" morphofeat="VBD" tid="t421">
+      <span>
+        <target id="w421"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t422">
+      <span>
+        <target id="w422"/>
+      </span>
+    </term>
+    <!--agree-->
+    <term type="open" lemma="agree" pos="V" morphofeat="VB" tid="t423">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w423"/>
+      </span>
+    </term>
+    <!--any-->
+    <term type="close" lemma="any" pos="D" morphofeat="DT" tid="t424">
+      <span>
+        <target id="w424"/>
+      </span>
+    </term>
+    <!--new-->
+    <term type="open" lemma="new" pos="G" morphofeat="JJ" tid="t425">
+      <span>
+        <target id="w425"/>
+      </span>
+    </term>
+    <!--employment-boosting-->
+    <term type="open" lemma="employment-boosting" pos="N" morphofeat="NN" tid="t426">
+      <span>
+        <target id="w426"/>
+      </span>
+    </term>
+    <!--measures-->
+    <term type="open" lemma="measure" pos="N" morphofeat="NNS" tid="t427">
+      <span>
+        <target id="w427"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t428">
+      <span>
+        <target id="w428"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--the summit-->
+        <span>
+          <target id="t419"/>
+          <target id="t420"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--any new employment-boosting measures-->
+        <span>
+          <target id="t424"/>
+          <target id="t425"/>
+          <target id="t426"/>
+          <target id="t427"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--did not agree-->
+        <span>
+          <target id="t421"/>
+          <target id="t422"/>
+          <target id="t423"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:53Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:53Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:26:58CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:26CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w454" sent="19" para="2" offset="2601" length="3">Ook</wf>
+    <wf wid="w455" sent="19" para="2" offset="2605" length="2">de</wf>
+    <wf wid="w456" sent="19" para="2" offset="2608" length="6">Duitse</wf>
+    <wf wid="w457" sent="19" para="2" offset="2615" length="8">minister</wf>
+    <wf wid="w458" sent="19" para="2" offset="2624" length="3">van</wf>
+    <wf wid="w459" sent="19" para="2" offset="2628" length="12">Buitenlandse</wf>
+    <wf wid="w460" sent="19" para="2" offset="2641" length="5">Zaken</wf>
+    <wf wid="w461" sent="19" para="2" offset="2647" length="5">Guido</wf>
+    <wf wid="w462" sent="19" para="2" offset="2653" length="11">Westerwelle</wf>
+    <wf wid="w463" sent="19" para="2" offset="2665" length="4">liet</wf>
+    <wf wid="w464" sent="19" para="2" offset="2670" length="4">zich</wf>
+    <wf wid="w465" sent="19" para="2" offset="2675" length="2">in</wf>
+    <wf wid="w466" sent="19" para="2" offset="2678" length="12">soortgelijke</wf>
+    <wf wid="w467" sent="19" para="2" offset="2691" length="12">bewoordingen</wf>
+    <wf wid="w468" sent="19" para="2" offset="2704" length="3">uit</wf>
+    <wf wid="w469" sent="19" para="2" offset="2707" length="1">.</wf>
+    <wf wid="w539" sent="23" para="2" offset="3033" length="4">Maar</wf>
+    <wf wid="w540" sent="23" para="2" offset="3038" length="2">nu</wf>
+    <wf wid="w541" sent="23" para="2" offset="3041" length="5">wordt</wf>
+    <wf wid="w542" sent="23" para="2" offset="3047" length="2">de</wf>
+    <wf wid="w543" sent="23" para="2" offset="3050" length="2">EU</wf>
+    <wf wid="w544" sent="23" para="2" offset="3053" length="7">volgens</wf>
+    <wf wid="w545" sent="23" para="2" offset="3061" length="7">Cameron</wf>
+    <wf wid="w546" sent="23" para="2" offset="3069" length="6">alleen</wf>
+    <wf wid="w547" sent="23" para="2" offset="3076" length="3">nog</wf>
+    <wf wid="w548" sent="23" para="2" offset="3080" length="4">maar</wf>
+    <wf wid="w549" sent="23" para="2" offset="3085" length="7">ingezet</wf>
+    <wf wid="w550" sent="23" para="2" offset="3093" length="2">om</wf>
+    <wf wid="w551" sent="23" para="2" offset="3096" length="2">de</wf>
+    <wf wid="w552" sent="23" para="2" offset="3099" length="8">welvaart</wf>
+    <wf wid="w553" sent="23" para="2" offset="3108" length="6">veilig</wf>
+    <wf wid="w554" sent="23" para="2" offset="3115" length="2">te</wf>
+    <wf wid="w555" sent="23" para="2" offset="3118" length="7">stellen</wf>
+    <wf wid="w556" sent="23" para="2" offset="3125" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ook-->
+    <term tid="t454" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w454"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t455" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w455"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t456" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w456"/>
+      </span>
+    </term>
+    <!--minister-->
+    <term tid="t457" type="open" lemma="minister" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w457"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t458" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w458"/>
+      </span>
+    </term>
+    <!--Buitenlandse-->
+    <term tid="t459" type="open" lemma="buitenlands" pos="G" morphofeat="adj">
+      <span>
+        <target id="w459"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Zaken-->
+    <term tid="t460" type="open" lemma="zaak|zaken" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w460"/>
+      </span>
+    </term>
+    <!--Guido-->
+    <term tid="t461" type="open" lemma="Guido" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w461"/>
+      </span>
+    </term>
+    <!--Westerwelle-->
+    <term tid="t462" type="open" lemma="Westerwelle" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w462"/>
+      </span>
+    </term>
+    <!--liet-->
+    <term tid="t463" type="open" lemma="laten" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w463"/>
+      </span>
+    </term>
+    <!--zich-->
+    <term tid="t464" type="close" lemma="zich" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w464"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t465" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w465"/>
+      </span>
+    </term>
+    <!--soortgelijke-->
+    <term tid="t466" type="open" lemma="soortgelijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w466"/>
+      </span>
+    </term>
+    <!--bewoordingen-->
+    <term tid="t467" type="open" lemma="bewoordingen" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w467"/>
+      </span>
+    </term>
+    <!--uit-->
+    <term tid="t468" type="open" lemma="uit" pos="A" morphofeat="adv">
+      <span>
+        <target id="w468"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t469" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w469"/>
+      </span>
+    </term>
+    <!--Maar-->
+    <term tid="t539" type="close" lemma="maar" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w539"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--nu-->
+    <term tid="t540" type="open" lemma="nu" pos="A" morphofeat="adv">
+      <span>
+        <target id="w540"/>
+      </span>
+    </term>
+    <!--wordt-->
+    <term tid="t541" type="open" lemma="worden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w541"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t542" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w542"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term tid="t543" type="open" lemma="EU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w543"/>
+      </span>
+    </term>
+    <!--volgens-->
+    <term tid="t544" type="close" lemma="volgens" pos="P" morphofeat="prep">
+      <span>
+        <target id="w544"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t545" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w545"/>
+      </span>
+    </term>
+    <!--alleen-->
+    <term tid="t546" type="open" lemma="alleen" pos="A" morphofeat="adv">
+      <span>
+        <target id="w546"/>
+      </span>
+    </term>
+    <!--nog-->
+    <term tid="t547" type="open" lemma="nog" pos="A" morphofeat="adv">
+      <span>
+        <target id="w547"/>
+      </span>
+    </term>
+    <!--maar-->
+    <term tid="t548" type="open" lemma="maar" pos="A" morphofeat="adv">
+      <span>
+        <target id="w548"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--ingezet-->
+    <term tid="t549" type="open" lemma="inzetten" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w549"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--om-->
+    <term tid="t550" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w550"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t551" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w551"/>
+      </span>
+    </term>
+    <!--welvaart-->
+    <term tid="t552" type="open" lemma="welvaart" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w552"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--veilig-->
+    <term tid="t553" type="open" lemma="veilig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w553"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--te-->
+    <term tid="t554" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w554"/>
+      </span>
+    </term>
+    <!--stellen-->
+    <term tid="t555" type="open" lemma="stellen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w555"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t556" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w556"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--welvaart-->
+        <span>
+          <target id="t552"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--veilig te stellen-->
+        <span>
+          <target id="t553"/>
+          <target id="t554"/>
+          <target id="t555"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t454"/>
+          <target id="t455"/>
+          <target id="t456"/>
+          <target id="t457"/>
+          <target id="t458"/>
+          <target id="t459"/>
+          <target id="t460"/>
+          <target id="t461"/>
+          <target id="t462"/>
+          <target id="t463"/>
+          <target id="t464"/>
+          <target id="t465"/>
+          <target id="t466"/>
+          <target id="t467"/>
+          <target id="t468"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

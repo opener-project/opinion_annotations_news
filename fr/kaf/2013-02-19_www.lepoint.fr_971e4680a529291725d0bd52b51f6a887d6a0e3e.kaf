@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:50:55Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:50:55Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:50:55Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:29:55CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w8" sent="2" para="2" offset="17" length="8">François</wf>
+    <wf wid="w9" sent="2" para="2" offset="26" length="8">Hollande</wf>
+    <wf wid="w10" sent="2" para="2" offset="35" length="5">salué</wf>
+    <wf wid="w11" sent="2" para="2" offset="41" length="1">à</wf>
+    <wf wid="w12" sent="2" para="2" offset="43" length="7">Athènes</wf>
+    <wf wid="w13" sent="2" para="2" offset="51" length="4">pour</wf>
+    <wf wid="w14" sent="2" para="2" offset="56" length="3">son</wf>
+    <wf wid="w15" sent="2" para="2" offset="60" length="7">soutien</wf>
+    <wf wid="w16" sent="2" para="2" offset="68" length="1">à</wf>
+    <wf wid="w17" sent="2" para="2" offset="70" length="2">la</wf>
+    <wf wid="w18" sent="2" para="2" offset="73" length="5">Grèce</wf>
+    <wf wid="w140" sent="6" para="5" offset="713" length="2">La</wf>
+    <wf wid="w141" sent="6" para="5" offset="716" length="5">Grèce</wf>
+    <wf wid="w142" sent="6" para="5" offset="722" length="3">est</wf>
+    <wf wid="w143" sent="6" para="5" offset="726" length="6">entrée</wf>
+    <wf wid="w144" sent="6" para="5" offset="733" length="4">dans</wf>
+    <wf wid="w145" sent="6" para="5" offset="738" length="2">sa</wf>
+    <wf wid="w146" sent="6" para="5" offset="741" length="7">sixième</wf>
+    <wf wid="w147" sent="6" para="5" offset="749" length="5">année</wf>
+    <wf wid="w148" sent="6" para="5" offset="755" length="11">consécutive</wf>
+    <wf wid="w149" sent="6" para="5" offset="767" length="2">de</wf>
+    <wf wid="w150" sent="6" para="5" offset="770" length="9">récession</wf>
+    <wf wid="w151" sent="6" para="5" offset="780" length="2">et</wf>
+    <wf wid="w152" sent="6" para="5" offset="783" length="2">le</wf>
+    <wf wid="w153" sent="6" para="5" offset="786" length="4">taux</wf>
+    <wf wid="w154" sent="6" para="5" offset="791" length="2">de</wf>
+    <wf wid="w155" sent="6" para="5" offset="794" length="7">chômage</wf>
+    <wf wid="w156" sent="6" para="5" offset="802" length="1">y</wf>
+    <wf wid="w157" sent="6" para="5" offset="804" length="7">atteint</wf>
+    <wf wid="w158" sent="6" para="5" offset="812" length="9">désormais</wf>
+    <wf wid="w159" sent="6" para="5" offset="822" length="2">27</wf>
+    <wf wid="w160" sent="6" para="5" offset="824" length="1">%</wf>
+    <wf wid="w161" sent="6" para="5" offset="825" length="1">.</wf>
+  </text>
+  <terms>
+    <!--François-->
+    <term tid="t8" type="open" lemma="François" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t9" type="open" lemma="hollande" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--salué-->
+    <term tid="t10" type="open" lemma="saluer" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t11" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--Athènes-->
+    <term tid="t12" type="open" lemma="Athènes" pos="N" morphofeat="NPs">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t13" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--son-->
+    <term tid="t14" type="close" lemma="son" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--soutien-->
+    <term tid="t15" type="open" lemma="soutien" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t16" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t17" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--Grèce-->
+    <term tid="t18" type="open" lemma="Grèce" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--La-->
+    <term tid="t140" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--Grèce-->
+    <term tid="t141" type="open" lemma="Grèce" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t142" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--entrée-->
+    <term tid="t143" type="open" lemma="entrer" pos="V" morphofeat="VKfs">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--dans-->
+    <term tid="t144" type="close" lemma="dans" pos="P" morphofeat="P">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--sa-->
+    <term tid="t145" type="close" lemma="son" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--sixième-->
+    <term tid="t146" type="open" lemma="sixième" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--année-->
+    <term tid="t147" type="open" lemma="année" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--consécutive-->
+    <term tid="t148" type="open" lemma="consécutif" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t149" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--récession-->
+    <term tid="t150" type="open" lemma="récession" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t151" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t152" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--taux-->
+    <term tid="t153" type="open" lemma="taux" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t154" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--chômage-->
+    <term tid="t155" type="open" lemma="chômage" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--y-->
+    <term tid="t156" type="close" lemma="y" pos="Q" morphofeat="CL3fs">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--atteint-->
+    <term tid="t157" type="open" lemma="atteindre" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--désormais-->
+    <term tid="t158" type="open" lemma="désormais" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--27-->
+    <term tid="t159" type="close" lemma="27" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t160" type="open" lemma="pourcent" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t161" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--François Hollande-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--la Grèce-->
+        <span>
+          <target id="t17"/>
+          <target id="t18"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--soutien-->
+        <span>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+          <target id="t153"/>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+          <target id="t157"/>
+          <target id="t158"/>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

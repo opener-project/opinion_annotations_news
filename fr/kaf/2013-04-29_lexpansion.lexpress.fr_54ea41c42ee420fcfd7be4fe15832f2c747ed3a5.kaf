@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:45:47Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:45:47Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:45:48Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:29:07CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w20" sent="3" para="3" offset="96" length="2">C'</wf>
+    <wf wid="w21" sent="3" para="3" offset="98" length="3">est</wf>
+    <wf wid="w22" sent="3" para="3" offset="102" length="4">avec</wf>
+    <wf wid="w23" sent="3" para="3" offset="107" length="2">un</wf>
+    <wf wid="w24" sent="3" para="3" offset="110" length="7">mélange</wf>
+    <wf wid="w25" sent="3" para="3" offset="118" length="2">de</wf>
+    <wf wid="w26" sent="3" para="3" offset="121" length="9">raillerie</wf>
+    <wf wid="w27" sent="3" para="3" offset="131" length="2">et</wf>
+    <wf wid="w28" sent="3" para="3" offset="134" length="2">d'</wf>
+    <wf wid="w29" sent="3" para="3" offset="136" length="12">indifférence</wf>
+    <wf wid="w30" sent="3" para="3" offset="149" length="3">que</wf>
+    <wf wid="w31" sent="3" para="3" offset="153" length="2">la</wf>
+    <wf wid="w32" sent="3" para="3" offset="156" length="6">presse</wf>
+    <wf wid="w33" sent="3" para="3" offset="163" length="9">allemande</wf>
+    <wf wid="w34" sent="3" para="3" offset="173" length="8">commente</wf>
+    <wf wid="w35" sent="3" para="3" offset="181" length="1">,</wf>
+    <wf wid="w36" sent="3" para="3" offset="183" length="2">ce</wf>
+    <wf wid="w37" sent="3" para="3" offset="186" length="5">lundi</wf>
+    <wf wid="w38" sent="3" para="3" offset="192" length="2">29</wf>
+    <wf wid="w39" sent="3" para="3" offset="195" length="5">avril</wf>
+    <wf wid="w40" sent="3" para="3" offset="200" length="1">,</wf>
+    <wf wid="w41" sent="3" para="3" offset="202" length="2">l'</wf>
+    <wf wid="w42" sent="3" para="3" offset="204" length="9">offensive</wf>
+    <wf wid="w43" sent="3" para="3" offset="214" length="4">anti</wf>
+    <wf wid="w44" sent="3" para="3" offset="218" length="1">·</wf>
+    <wf wid="w45" sent="3" para="3" offset="219" length="6">Merkel</wf>
+    <wf wid="w46" sent="3" para="3" offset="226" length="3">des</wf>
+    <wf wid="w47" sent="3" para="3" offset="230" length="11">socialistes</wf>
+    <wf wid="w48" sent="3" para="3" offset="242" length="8">français</wf>
+    <wf wid="w49" sent="3" para="3" offset="251" length="1">.</wf>
+  </text>
+  <terms>
+    <!--C'-->
+    <term tid="t20" type="close" lemma="C'" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t21" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--avec-->
+    <term tid="t22" type="close" lemma="avec" pos="P" morphofeat="P">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t23" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--mélange-->
+    <term tid="t24" type="open" lemma="mélange" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t25" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--raillerie-->
+    <term tid="t26" type="open" lemma="raillerie" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t27" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--d'-->
+    <term tid="t28" type="close" lemma="d'" pos="P" morphofeat="P">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--indifférence-->
+    <term tid="t29" type="open" lemma="indifférence" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--que-->
+    <term tid="t30" type="close" lemma="que" pos="C" morphofeat="CS">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t31" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--presse-->
+    <term tid="t32" type="open" lemma="presse" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--allemande-->
+    <term tid="t33" type="open" lemma="allemand" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--commente-->
+    <term tid="t34" type="open" lemma="commenter" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t35" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--ce-->
+    <term tid="t36" type="close" lemma="ce" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--lundi-->
+    <term tid="t37" type="open" lemma="lundi" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--29-->
+    <term tid="t38" type="open" lemma="29" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--avril-->
+    <term tid="t39" type="open" lemma="avril" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t40" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t41" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--offensive-->
+    <term tid="t42" type="open" lemma="offensive" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--anti-->
+    <term tid="t43" type="open" lemma="anti" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--·-->
+    <term tid="t44" type="close" lemma="·" pos="P" morphofeat="P">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t45" type="open" lemma="Merkel" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t46" type="close" lemma="des" pos="P" morphofeat="P">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--socialistes-->
+    <term tid="t47" type="open" lemma="socialiste" pos="N" morphofeat="NCmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--français-->
+    <term tid="t48" type="open" lemma="français" pos="G" morphofeat="Amp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t49" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--la presse allemande-->
+        <span>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--l' offensive anti · Merkel des socialistes français-->
+        <span>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--commente-->
+        <span>
+          <target id="t34"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

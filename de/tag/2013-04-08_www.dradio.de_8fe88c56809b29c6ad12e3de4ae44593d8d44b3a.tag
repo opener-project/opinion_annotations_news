@@ -1,0 +1,10 @@
+w910	In	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	909	true	64
+w911	der	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	910	true	64
+w912	alpinen	alpin	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	911	true	64
+w913	Abfahrt	Abfahrt	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	912	true	64
+w914	der	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	913	true	64
+w915	Frauen	Frau	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	914	true	64
+w916	wurden	werden	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	915	true	64
+w917	zwei	zwei	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	916	true	64
+w918	Goldmedaillen	Goldmedaille	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	917	true	64
+w919	vergeben	vergeben	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	918	true	64

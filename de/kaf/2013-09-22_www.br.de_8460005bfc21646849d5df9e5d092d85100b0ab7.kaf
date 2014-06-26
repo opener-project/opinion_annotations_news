@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:41:35Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:41:35Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:02:08CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:42:14CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w165" sent="16" para="10" offset="862" length="3">Die</wf>
+    <wf wid="w166" sent="16" para="10" offset="866" length="16">parlamentarische</wf>
+    <wf wid="w167" sent="16" para="10" offset="883" length="10">Demokratie</wf>
+    <wf wid="w168" sent="16" para="10" offset="894" length="8">befindet</wf>
+    <wf wid="w169" sent="16" para="10" offset="903" length="4">sich</wf>
+    <wf wid="w170" sent="16" para="10" offset="908" length="2">in</wf>
+    <wf wid="w171" sent="16" para="10" offset="911" length="5">einer</wf>
+    <wf wid="w172" sent="16" para="10" offset="917" length="9">Sackgasse</wf>
+    <wf wid="w173" sent="16" para="10" offset="926" length="1">!</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t165" type="close">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <term lemma="parlamentarisch" morphofeat="ADJA" pos="G" tid="t166" type="open">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <term lemma="Demokratie" morphofeat="NN" pos="N" tid="t167" type="open">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <term lemma="befinden" morphofeat="VVFIN" pos="V" tid="t168" type="open">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t169" type="close">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t170" type="close">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t171" type="close">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <term lemma="Sackgasse" morphofeat="NN" pos="N" tid="t172" type="open">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="$." pos="O" tid="t173" type="open">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Die parlamentarische Demokratie-->
+        <span>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--befindet sich in einer Sackgasse-->
+        <span>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

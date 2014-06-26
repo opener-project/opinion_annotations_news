@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:52:35Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:52:35Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:52:35Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:36:24CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w88" sent="5" para="5" offset="441" length="1">6</wf>
+    <wf wid="w89" sent="5" para="5" offset="443" length="5">pôles</wf>
+    <wf wid="w90" sent="5" para="5" offset="449" length="2">de</wf>
+    <wf wid="w91" sent="5" para="5" offset="452" length="13">compétitivité</wf>
+    <wf wid="w92" sent="5" para="5" offset="466" length="8">français</wf>
+    <wf wid="w93" sent="5" para="5" offset="475" length="3">ont</wf>
+    <wf wid="w94" sent="5" para="5" offset="479" length="4">reçu</wf>
+    <wf wid="w95" sent="5" para="5" offset="484" length="2">le</wf>
+    <wf wid="w96" sent="5" para="5" offset="487" length="5">label</wf>
+    <wf wid="w97" sent="5" para="5" offset="493" length="4">Gold</wf>
+    <wf wid="w98" sent="5" para="5" offset="497" length="1">,</wf>
+    <wf wid="w99" sent="5" para="5" offset="499" length="7">décerné</wf>
+    <wf wid="w100" sent="5" para="5" offset="507" length="3">par</wf>
+    <wf wid="w101" sent="5" para="5" offset="511" length="2">l'</wf>
+    <wf wid="w102" sent="5" para="5" offset="513" length="8">European</wf>
+    <wf wid="w103" sent="5" para="5" offset="522" length="7">Cluster</wf>
+    <wf wid="w104" sent="5" para="5" offset="530" length="10">Excellence</wf>
+    <wf wid="w105" sent="5" para="5" offset="541" length="10">Initiative</wf>
+    <wf wid="w106" sent="5" para="5" offset="552" length="1">(</wf>
+    <wf wid="w107" sent="5" para="5" offset="553" length="4">Ecei</wf>
+    <wf wid="w108" sent="5" para="5" offset="557" length="1">)</wf>
+    <wf wid="w109" sent="5" para="5" offset="558" length="1">.</wf>
+    <wf wid="w768" sent="55" para="43" offset="3968" length="12">Crowdfunding</wf>
+    <wf wid="w769" sent="55" para="43" offset="3981" length="1">:</wf>
+    <wf wid="w770" sent="55" para="43" offset="3983" length="3">Les</wf>
+    <wf wid="w771" sent="55" para="43" offset="3987" length="3">PME</wf>
+    <wf wid="w772" sent="55" para="43" offset="3991" length="8">pourront</wf>
+    <wf wid="w773" sent="55" para="43" offset="4000" length="5">lever</wf>
+    <wf wid="w774" sent="55" para="43" offset="4006" length="1">1</wf>
+    <wf wid="w775" sent="55" para="43" offset="4008" length="7">million</wf>
+    <wf wid="w776" sent="55" para="43" offset="4016" length="2">d'</wf>
+    <wf wid="w777" sent="55" para="43" offset="4018" length="5">euros</wf>
+    <wf wid="w778" sent="55" para="43" offset="4024" length="6">auprès</wf>
+    <wf wid="w779" sent="55" para="43" offset="4031" length="3">des</wf>
+    <wf wid="w780" sent="55" para="43" offset="4035" length="11">internautes</wf>
+  </text>
+  <terms>
+    <!--6-->
+    <term tid="t88" type="close" lemma="6" pos="D" morphofeat="D">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--pôles-->
+    <term tid="t89" type="open" lemma="pôle" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t90" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--compétitivité-->
+    <term tid="t91" type="open" lemma="compétitivité" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--français-->
+    <term tid="t92" type="open" lemma="français" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--ont-->
+    <term tid="t93" type="open" lemma="avoir" pos="V" morphofeat="VP3p">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--reçu-->
+    <term tid="t94" type="open" lemma="recevoir" pos="V" morphofeat="VKms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t95" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--label-->
+    <term tid="t96" type="open" lemma="label" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--Gold-->
+    <term tid="t97" type="open" lemma="Gold" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t98" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--décerné-->
+    <term tid="t99" type="open" lemma="décerner" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--par-->
+    <term tid="t100" type="close" lemma="par" pos="P" morphofeat="P">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t101" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--European-->
+    <term tid="t102" type="open" lemma="European" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--Cluster-->
+    <term tid="t103" type="open" lemma="Cluster" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--Excellence-->
+    <term tid="t104" type="open" lemma="excellence" pos="N" morphofeat="NPms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--Initiative-->
+    <term tid="t105" type="open" lemma="initiative" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--(-->
+    <term tid="t106" type="close" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--Ecei-->
+    <term tid="t107" type="open" lemma="Ecei" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t108" type="close" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t109" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--Crowdfunding-->
+    <term tid="t768" type="open" lemma="Crowdfunding" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w768"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t769" type="close" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w769"/>
+      </span>
+    </term>
+    <!--Les-->
+    <term tid="t770" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w770"/>
+      </span>
+    </term>
+    <!--PME-->
+    <term tid="t771" type="open" lemma="PME" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w771"/>
+      </span>
+    </term>
+    <!--pourront-->
+    <term tid="t772" type="open" lemma="pouvoir" pos="V" morphofeat="VF3p">
+      <span>
+        <target id="w772"/>
+      </span>
+    </term>
+    <!--lever-->
+    <term tid="t773" type="open" lemma="lever" pos="V" morphofeat="VW">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w773"/>
+      </span>
+    </term>
+    <!--1-->
+    <term tid="t774" type="close" lemma="1" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w774"/>
+      </span>
+    </term>
+    <!--million-->
+    <term tid="t775" type="open" lemma="million" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w775"/>
+      </span>
+    </term>
+    <!--d'-->
+    <term tid="t776" type="close" lemma="d'" pos="P" morphofeat="P">
+      <span>
+        <target id="w776"/>
+      </span>
+    </term>
+    <!--euros-->
+    <term tid="t777" type="open" lemma="euro" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w777"/>
+      </span>
+    </term>
+    <!--auprès-->
+    <term tid="t778" type="close" lemma="auprès" pos="P" morphofeat="P">
+      <span>
+        <target id="w778"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t779" type="close" lemma="un" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w779"/>
+      </span>
+    </term>
+    <!--internautes-->
+    <term tid="t780" type="open" lemma="internaute" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w780"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t768"/>
+          <target id="t769"/>
+          <target id="t770"/>
+          <target id="t771"/>
+          <target id="t772"/>
+          <target id="t773"/>
+          <target id="t774"/>
+          <target id="t775"/>
+          <target id="t776"/>
+          <target id="t777"/>
+          <target id="t778"/>
+          <target id="t779"/>
+          <target id="t780"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

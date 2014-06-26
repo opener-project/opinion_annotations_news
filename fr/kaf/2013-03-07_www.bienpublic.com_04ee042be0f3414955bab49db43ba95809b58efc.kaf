@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:46:47Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:46:47Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:46:47Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:16:26CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w18" sent="3" para="2" offset="81" length="8">FRANÇOIS</wf>
+    <wf wid="w19" sent="3" para="2" offset="90" length="8">HOLLANDE</wf>
+    <wf wid="w20" sent="3" para="2" offset="99" length="5">ÉTAIT</wf>
+    <wf wid="w21" sent="3" para="2" offset="105" length="2">CE</wf>
+    <wf wid="w22" sent="3" para="2" offset="108" length="8">MERCREDI</wf>
+    <wf wid="w23" sent="3" para="2" offset="117" length="1">À</wf>
+    <wf wid="w24" sent="3" para="2" offset="119" length="8">VARSOVIE</wf>
+    <wf wid="w25" sent="3" para="2" offset="127" length="1">.</wf>
+    <wf wid="w181" sent="8" para="6" offset="976" length="2">Ce</wf>
+    <wf wid="w182" sent="8" para="6" offset="979" length="6">sommet</wf>
+    <wf wid="w183" sent="8" para="6" offset="986" length="6">visait</wf>
+    <wf wid="w184" sent="8" para="6" offset="993" length="1">à</wf>
+    <wf wid="w185" sent="8" para="6" offset="995" length="8">préparer</wf>
+    <wf wid="w186" sent="8" para="6" offset="1004" length="2">un</wf>
+    <wf wid="w187" sent="8" para="6" offset="1007" length="7">Conseil</wf>
+    <wf wid="w188" sent="8" para="6" offset="1015" length="8">européen</wf>
+    <wf wid="w189" sent="8" para="6" offset="1024" length="3">qui</wf>
+    <wf wid="w190" sent="8" para="6" offset="1028" length="4">sera</wf>
+    <wf wid="w191" sent="8" para="6" offset="1033" length="8">consacré</wf>
+    <wf wid="w192" sent="8" para="6" offset="1042" length="2">en</wf>
+    <wf wid="w193" sent="8" para="6" offset="1045" length="8">décembre</wf>
+    <wf wid="w194" sent="8" para="6" offset="1054" length="2">au</wf>
+    <wf wid="w195" sent="8" para="6" offset="1057" length="12">renforcement</wf>
+    <wf wid="w196" sent="8" para="6" offset="1070" length="2">de</wf>
+    <wf wid="w197" sent="8" para="6" offset="1073" length="2">l’</wf>
+    <wf wid="w198" sent="8" para="6" offset="1075" length="6">Europe</wf>
+    <wf wid="w199" sent="8" para="6" offset="1082" length="2">de</wf>
+    <wf wid="w200" sent="8" para="6" offset="1085" length="2">la</wf>
+    <wf wid="w201" sent="8" para="6" offset="1088" length="7">défense</wf>
+    <wf wid="w202" sent="8" para="6" offset="1095" length="1">.</wf>
+  </text>
+  <terms>
+    <!--FRANÇOIS-->
+    <term tid="t18" type="open" lemma="FRANÇOIS" pos="N" morphofeat="NPs">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--HOLLANDE-->
+    <term tid="t19" type="open" lemma="hollande" pos="N" morphofeat="NPs">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--ÉTAIT-->
+    <term tid="t20" type="open" lemma="ÉTAIT" pos="N" morphofeat="NPs">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--CE-->
+    <term tid="t21" type="open" lemma="CE" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--MERCREDI-->
+    <term tid="t22" type="open" lemma="mercredi" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--À-->
+    <term tid="t23" type="close" lemma="À" pos="P" morphofeat="P">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--VARSOVIE-->
+    <term tid="t24" type="open" lemma="VARSOVIE" pos="N" morphofeat="NPs">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t25" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--Ce-->
+    <term tid="t181" type="close" lemma="ce" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--sommet-->
+    <term tid="t182" type="open" lemma="sommet" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--visait-->
+    <term tid="t183" type="open" lemma="viser" pos="V" morphofeat="VI3s">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t184" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--préparer-->
+    <term tid="t185" type="open" lemma="préparer" pos="V" morphofeat="VW">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t186" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--Conseil-->
+    <term tid="t187" type="open" lemma="conseil" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--européen-->
+    <term tid="t188" type="open" lemma="européen" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--qui-->
+    <term tid="t189" type="close" lemma="qui" pos="P" morphofeat="PROR3ms">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--sera-->
+    <term tid="t190" type="open" lemma="être" pos="V" morphofeat="VF3s">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--consacré-->
+    <term tid="t191" type="open" lemma="consacrer" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t192" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--décembre-->
+    <term tid="t193" type="open" lemma="décembre" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--au-->
+    <term tid="t194" type="close" lemma="au" pos="P" morphofeat="P">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--renforcement-->
+    <term tid="t195" type="open" lemma="renforcement" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t196" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t197" type="close" lemma="l’" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term tid="t198" type="open" lemma="Europe" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t199" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t200" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--défense-->
+    <term tid="t201" type="open" lemma="défense" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t202" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

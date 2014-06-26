@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:59Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:59Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:39:38CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w323" sent="12" para="2" offset="1902" length="1">"</wf>
+    <wf wid="w324" sent="12" para="2" offset="1903" length="2">We</wf>
+    <wf wid="w325" sent="12" para="2" offset="1906" length="6">willen</wf>
+    <wf wid="w326" sent="12" para="2" offset="1913" length="4">meer</wf>
+    <wf wid="w327" sent="12" para="2" offset="1918" length="6">Europa</wf>
+    <wf wid="w328" sent="12" para="2" offset="1924" length="1">,</wf>
+    <wf wid="w329" sent="12" para="2" offset="1926" length="4">maar</wf>
+    <wf wid="w330" sent="12" para="2" offset="1931" length="2">de</wf>
+    <wf wid="w331" sent="12" para="2" offset="1934" length="9">lidstaten</wf>
+    <wf wid="w332" sent="12" para="2" offset="1944" length="6">moeten</wf>
+    <wf wid="w333" sent="12" para="2" offset="1951" length="4">zich</wf>
+    <wf wid="w334" sent="12" para="2" offset="1956" length="3">aan</wf>
+    <wf wid="w335" sent="12" para="2" offset="1960" length="2">de</wf>
+    <wf wid="w336" sent="12" para="2" offset="1963" length="6">regels</wf>
+    <wf wid="w337" sent="12" para="2" offset="1970" length="6">houden</wf>
+    <wf wid="w338" sent="12" para="2" offset="1976" length="1">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term tid="t323" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--We-->
+    <term tid="t324" type="close" lemma="we" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--willen-->
+    <term tid="t325" type="open" lemma="willen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <!--meer-->
+    <term tid="t326" type="open" lemma="meer" pos="A" morphofeat="adv">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t327" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t328" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--maar-->
+    <term tid="t329" type="close" lemma="maar" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w329"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--de-->
+    <term tid="t330" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <!--lidstaten-->
+    <term tid="t331" type="open" lemma="lidstaat" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w331"/>
+      </span>
+    </term>
+    <!--moeten-->
+    <term tid="t332" type="open" lemma="moeten" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+    <!--zich-->
+    <term tid="t333" type="close" lemma="zich" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t334" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t335" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <!--regels-->
+    <term tid="t336" type="open" lemma="regel" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--houden-->
+    <term tid="t337" type="open" lemma="houden" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w337"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t338" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Europa-->
+        <span>
+          <target id="t327"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--meer-->
+        <span>
+          <target id="t326"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t324"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--meer Europa-->
+        <span>
+          <target id="t326"/>
+          <target id="t327"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--willen-->
+        <span>
+          <target id="t325"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

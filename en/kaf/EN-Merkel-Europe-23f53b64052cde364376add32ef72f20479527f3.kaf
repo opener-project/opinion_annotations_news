@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:41Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:41Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:24:30" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:03:39CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="129" length="1" wid="w28">'</wf>
+    <wf sent="3" para="2" offset="130" length="2" wid="w29">To</wf>
+    <wf sent="3" para="2" offset="133" length="6" wid="w30">German</wf>
+    <wf sent="3" para="2" offset="140" length="10" wid="w31">chancellor</wf>
+    <wf sent="3" para="2" offset="151" length="6" wid="w32">Angela</wf>
+    <wf sent="3" para="2" offset="158" length="6" wid="w33">Merkel</wf>
+    <wf sent="3" para="2" offset="164" length="1" wid="w34">,</wf>
+    <wf sent="3" para="2" offset="166" length="2" wid="w35">Mr</wf>
+    <wf sent="3" para="2" offset="169" length="5" wid="w36">Obama</wf>
+    <wf sent="3" para="2" offset="175" length="4" wid="w37">said</wf>
+    <wf sent="3" para="2" offset="179" length="1" wid="w38">:</wf>
+    <wf sent="3" para="2" offset="181" length="1" wid="w39">'</wf>
+    <wf sent="3" para="2" offset="182" length="6" wid="w40">Angela</wf>
+    <wf sent="3" para="2" offset="188" length="1" wid="w41">!</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="''" tid="t28">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--To-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t29">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--German-->
+    <term type="open" lemma="german" pos="G" morphofeat="JJ" tid="t30">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--chancellor-->
+    <term type="open" lemma="chancellor" pos="N" morphofeat="NN" tid="t31">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term type="close" lemma="Angela" pos="R" morphofeat="NNP" tid="t32">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t33">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t34">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t35">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term type="close" lemma="Obama" pos="R" morphofeat="NNP" tid="t36">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t37">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--:-->
+    <term type="close" lemma=":" pos="O" morphofeat=":" tid="t38">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="''" tid="t39">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term type="close" lemma="Angela" pos="R" morphofeat="NNP" tid="t40">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--!-->
+    <term type="close" lemma="!" pos="O" morphofeat="." tid="t41">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

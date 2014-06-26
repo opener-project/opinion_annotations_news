@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:29Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:29Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:52:23" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:49:37CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="57" para="2" offset="10146" length="3" wid="w1872">The</wf>
+    <wf sent="57" para="2" offset="10150" length="5" wid="w1873">siege</wf>
+    <wf sent="57" para="2" offset="10156" length="2" wid="w1874">of</wf>
+    <wf sent="57" para="2" offset="10159" length="7" wid="w1875">Yarmouk</wf>
+    <wf sent="57" para="2" offset="10166" length="1" wid="w1876">,</wf>
+    <wf sent="57" para="2" offset="10168" length="11" wid="w1877">highlighted</wf>
+    <wf sent="57" para="2" offset="10180" length="2" wid="w1878">in</wf>
+    <wf sent="57" para="2" offset="10183" length="8" wid="w1879">Thursday</wf>
+    <wf sent="57" para="2" offset="10191" length="2" wid="w1880">’s</wf>
+    <wf sent="57" para="2" offset="10194" length="11" wid="w1881">Independent</wf>
+    <wf sent="57" para="2" offset="10205" length="1" wid="w1882">,</wf>
+    <wf sent="57" para="2" offset="10207" length="3" wid="w1883">has</wf>
+    <wf sent="57" para="2" offset="10211" length="3" wid="w1884">led</wf>
+    <wf sent="57" para="2" offset="10215" length="2" wid="w1885">to</wf>
+    <wf sent="57" para="2" offset="10218" length="4" wid="w1886">more</wf>
+    <wf sent="57" para="2" offset="10223" length="4" wid="w1887">than</wf>
+    <wf sent="57" para="2" offset="10228" length="2" wid="w1888">50</wf>
+    <wf sent="57" para="2" offset="10231" length="14" wid="w1889">hunger-related</wf>
+    <wf sent="57" para="2" offset="10246" length="6" wid="w1890">deaths</wf>
+    <wf sent="57" para="2" offset="10253" length="5" wid="w1891">since</wf>
+    <wf sent="57" para="2" offset="10259" length="7" wid="w1892">October</wf>
+    <wf sent="57" para="2" offset="10266" length="1" wid="w1893">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t1872">
+      <span>
+        <target id="w1872"/>
+      </span>
+    </term>
+    <!--siege-->
+    <term type="open" lemma="siege" pos="N" morphofeat="NN" tid="t1873">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w1873"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t1874">
+      <span>
+        <target id="w1874"/>
+      </span>
+    </term>
+    <!--Yarmouk-->
+    <term type="close" lemma="Yarmouk" pos="R" morphofeat="NNP" tid="t1875">
+      <span>
+        <target id="w1875"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t1876">
+      <span>
+        <target id="w1876"/>
+      </span>
+    </term>
+    <!--highlighted-->
+    <term type="open" lemma="highlight" pos="V" morphofeat="VBD" tid="t1877">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w1877"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t1878">
+      <span>
+        <target id="w1878"/>
+      </span>
+    </term>
+    <!--Thursday-->
+    <term type="close" lemma="Thursday" pos="R" morphofeat="NNP" tid="t1879">
+      <span>
+        <target id="w1879"/>
+      </span>
+    </term>
+    <!--’s-->
+    <term type="open" lemma="’s" pos="N" morphofeat="NNS" tid="t1880">
+      <span>
+        <target id="w1880"/>
+      </span>
+    </term>
+    <!--Independent-->
+    <term type="close" lemma="Independent" pos="R" morphofeat="NNP" tid="t1881">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w1881"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t1882">
+      <span>
+        <target id="w1882"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t1883">
+      <span>
+        <target id="w1883"/>
+      </span>
+    </term>
+    <!--led-->
+    <term type="open" lemma="lead" pos="V" morphofeat="VBN" tid="t1884">
+      <span>
+        <target id="w1884"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t1885">
+      <span>
+        <target id="w1885"/>
+      </span>
+    </term>
+    <!--more-->
+    <term type="open" lemma="more" pos="G" morphofeat="JJR" tid="t1886">
+      <span>
+        <target id="w1886"/>
+      </span>
+    </term>
+    <!--than-->
+    <term type="close" lemma="than" pos="P" morphofeat="IN" tid="t1887">
+      <span>
+        <target id="w1887"/>
+      </span>
+    </term>
+    <!--50-->
+    <term type="close" lemma="50" pos="O" morphofeat="CD" tid="t1888">
+      <span>
+        <target id="w1888"/>
+      </span>
+    </term>
+    <!--hunger-related-->
+    <term type="open" lemma="hunger-related" pos="G" morphofeat="JJ" tid="t1889">
+      <span>
+        <target id="w1889"/>
+      </span>
+    </term>
+    <!--deaths-->
+    <term type="open" lemma="death" pos="N" morphofeat="NNS" tid="t1890">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w1890"/>
+      </span>
+    </term>
+    <!--since-->
+    <term type="close" lemma="since" pos="P" morphofeat="IN" tid="t1891">
+      <span>
+        <target id="w1891"/>
+      </span>
+    </term>
+    <!--October-->
+    <term type="close" lemma="October" pos="R" morphofeat="NNP" tid="t1892">
+      <span>
+        <target id="w1892"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t1893">
+      <span>
+        <target id="w1893"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t1872"/>
+          <target id="t1873"/>
+          <target id="t1874"/>
+          <target id="t1875"/>
+          <target id="t1876"/>
+          <target id="t1877"/>
+          <target id="t1878"/>
+          <target id="t1879"/>
+          <target id="t1880"/>
+          <target id="t1881"/>
+          <target id="t1882"/>
+          <target id="t1883"/>
+          <target id="t1884"/>
+          <target id="t1885"/>
+          <target id="t1886"/>
+          <target id="t1887"/>
+          <target id="t1888"/>
+          <target id="t1889"/>
+          <target id="t1890"/>
+          <target id="t1891"/>
+          <target id="t1892"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

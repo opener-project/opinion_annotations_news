@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:04:56Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:04:56Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:24:26" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:51:49CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="32" para="2" offset="2506" length="3" wid="w487">The</wf>
+    <wf sent="32" para="2" offset="2510" length="7" wid="w488">program</wf>
+    <wf sent="32" para="2" offset="2518" length="3" wid="w489">had</wf>
+    <wf sent="32" para="2" offset="2522" length="4" wid="w490">been</wf>
+    <wf sent="32" para="2" offset="2527" length="9" wid="w491">scheduled</wf>
+    <wf sent="32" para="2" offset="2537" length="2" wid="w492">to</wf>
+    <wf sent="32" para="2" offset="2540" length="3" wid="w493">end</wf>
+    <wf sent="32" para="2" offset="2544" length="4" wid="w494">this</wf>
+    <wf sent="32" para="2" offset="2549" length="5" wid="w495">month</wf>
+    <wf sent="32" para="2" offset="2554" length="1" wid="w496">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t487">
+      <span>
+        <target id="w487"/>
+      </span>
+    </term>
+    <!--program-->
+    <term type="open" lemma="program" pos="N" morphofeat="NN" tid="t488">
+      <span>
+        <target id="w488"/>
+      </span>
+    </term>
+    <!--had-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBD" tid="t489">
+      <span>
+        <target id="w489"/>
+      </span>
+    </term>
+    <!--been-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBN" tid="t490">
+      <span>
+        <target id="w490"/>
+      </span>
+    </term>
+    <!--scheduled-->
+    <term type="open" lemma="schedule" pos="V" morphofeat="VBN" tid="t491">
+      <span>
+        <target id="w491"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t492">
+      <span>
+        <target id="w492"/>
+      </span>
+    </term>
+    <!--end-->
+    <term type="open" lemma="end" pos="V" morphofeat="VB" tid="t493">
+      <span>
+        <target id="w493"/>
+      </span>
+    </term>
+    <!--this-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t494">
+      <span>
+        <target id="w494"/>
+      </span>
+    </term>
+    <!--month-->
+    <term type="open" lemma="month" pos="N" morphofeat="NN" tid="t495">
+      <span>
+        <target id="w495"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t496">
+      <span>
+        <target id="w496"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t487"/>
+          <target id="t488"/>
+          <target id="t489"/>
+          <target id="t490"/>
+          <target id="t491"/>
+          <target id="t492"/>
+          <target id="t493"/>
+          <target id="t494"/>
+          <target id="t495"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

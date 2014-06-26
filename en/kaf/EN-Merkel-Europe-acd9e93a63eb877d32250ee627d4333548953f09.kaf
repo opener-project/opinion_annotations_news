@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:40Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:40Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:39:47" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:04:27CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="29" para="2" offset="3595" length="1" wid="w675">"</wf>
+    <wf sent="29" para="2" offset="3596" length="2" wid="w676">We</wf>
+    <wf sent="29" para="2" offset="3599" length="5" wid="w677">fully</wf>
+    <wf sent="29" para="2" offset="3605" length="7" wid="w678">respect</wf>
+    <wf sent="29" para="2" offset="3613" length="3" wid="w679">its</wf>
+    <wf sent="29" para="2" offset="3617" length="10" wid="w680">democratic</wf>
+    <wf sent="29" para="2" offset="3628" length="6" wid="w681">choice</wf>
+    <wf sent="29" para="2" offset="3634" length="1" wid="w682">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t675">
+      <span>
+        <target id="w675"/>
+      </span>
+    </term>
+    <!--We-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t676">
+      <span>
+        <target id="w676"/>
+      </span>
+    </term>
+    <!--fully-->
+    <term type="open" lemma="fully" pos="A" morphofeat="RB" tid="t677">
+      <span>
+        <target id="w677"/>
+      </span>
+    </term>
+    <!--respect-->
+    <term type="open" lemma="respect" pos="V" morphofeat="VBP" tid="t678">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w678"/>
+      </span>
+    </term>
+    <!--its-->
+    <term type="close" lemma="its" pos="Q" morphofeat="PRP$" tid="t679">
+      <span>
+        <target id="w679"/>
+      </span>
+    </term>
+    <!--democratic-->
+    <term type="open" lemma="democratic" pos="G" morphofeat="JJ" tid="t680">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w680"/>
+      </span>
+    </term>
+    <!--choice-->
+    <term type="open" lemma="choice" pos="N" morphofeat="NN" tid="t681">
+      <span>
+        <target id="w681"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t682">
+      <span>
+        <target id="w682"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t676"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--its democratic choice-->
+        <span>
+          <target id="t679"/>
+          <target id="t680"/>
+          <target id="t681"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--fully respect-->
+        <span>
+          <target id="t677"/>
+          <target id="t678"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

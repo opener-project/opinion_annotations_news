@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:45Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:45Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:03:12" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:40:04CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="17" para="2" offset="2152" length="9" wid="w405">Draconian</wf>
+    <wf sent="17" para="2" offset="2162" length="8" wid="w406">security</wf>
+    <wf sent="17" para="2" offset="2171" length="8" wid="w407">measures</wf>
+    <wf sent="17" para="2" offset="2181" length="7" wid="w408">include</wf>
+    <wf sent="17" para="2" offset="2189" length="1" wid="w409">a</wf>
+    <wf sent="17" para="2" offset="2191" length="3" wid="w410">ban</wf>
+    <wf sent="17" para="2" offset="2195" length="2" wid="w411">on</wf>
+    <wf sent="17" para="2" offset="2198" length="6" wid="w412">public</wf>
+    <wf sent="17" para="2" offset="2205" length="10" wid="w413">gatherings</wf>
+    <wf sent="17" para="2" offset="2216" length="7" wid="w414">outside</wf>
+    <wf sent="17" para="2" offset="2224" length="3" wid="w415">the</wf>
+    <wf sent="17" para="2" offset="2228" length="6" wid="w416">German</wf>
+    <wf sent="17" para="2" offset="2235" length="7" wid="w417">Embassy</wf>
+    <wf sent="17" para="2" offset="2243" length="3" wid="w418">and</wf>
+    <wf sent="17" para="2" offset="2247" length="5" wid="w419">other</wf>
+    <wf sent="17" para="2" offset="2254" length="5" wid="w420">parts</wf>
+    <wf sent="17" para="2" offset="2260" length="2" wid="w421">of</wf>
+    <wf sent="17" para="2" offset="2263" length="7" wid="w422">central</wf>
+    <wf sent="17" para="2" offset="2271" length="6" wid="w423">Athens</wf>
+    <wf sent="17" para="2" offset="2278" length="2" wid="w424">as</wf>
+    <wf sent="17" para="2" offset="2281" length="4" wid="w425">well</wf>
+    <wf sent="17" para="2" offset="2286" length="2" wid="w426">as</wf>
+    <wf sent="17" para="2" offset="2289" length="6" wid="w427">within</wf>
+    <wf sent="17" para="2" offset="2296" length="3" wid="w428">100</wf>
+    <wf sent="17" para="2" offset="2300" length="6" wid="w429">meters</wf>
+    <wf sent="17" para="2" offset="2307" length="1" wid="w430">(</wf>
+    <wf sent="17" para="2" offset="2308" length="3" wid="w431">330</wf>
+    <wf sent="17" para="2" offset="2312" length="4" wid="w432">feet</wf>
+    <wf sent="17" para="2" offset="2316" length="1" wid="w433">)</wf>
+    <wf sent="17" para="2" offset="2318" length="2" wid="w434">of</wf>
+    <wf sent="17" para="2" offset="2321" length="3" wid="w435">her</wf>
+    <wf sent="17" para="2" offset="2326" length="9" wid="w436">motorcade</wf>
+    <wf sent="17" para="2" offset="2336" length="5" wid="w437">route</wf>
+    <wf sent="17" para="2" offset="2342" length="4" wid="w438">from</wf>
+    <wf sent="17" para="2" offset="2347" length="3" wid="w439">the</wf>
+    <wf sent="17" para="2" offset="2351" length="7" wid="w440">airport</wf>
+    <wf sent="17" para="2" offset="2358" length="1" wid="w441">.</wf>
+  </text>
+  <terms>
+    <!--Draconian-->
+    <term type="open" lemma="draconian" pos="G" morphofeat="JJ" tid="t405">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w405"/>
+      </span>
+    </term>
+    <!--security-->
+    <term type="open" lemma="security" pos="N" morphofeat="NN" tid="t406">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+    <!--measures-->
+    <term type="open" lemma="measure" pos="N" morphofeat="NNS" tid="t407">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+    <!--include-->
+    <term type="open" lemma="include" pos="V" morphofeat="VBP" tid="t408">
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t409">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <!--ban-->
+    <term type="open" lemma="ban" pos="N" morphofeat="NN" tid="t410">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t411">
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <!--public-->
+    <term type="open" lemma="public" pos="G" morphofeat="JJ" tid="t412">
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <!--gatherings-->
+    <term type="open" lemma="gathering" pos="N" morphofeat="NNS" tid="t413">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+    <!--outside-->
+    <term type="close" lemma="outside" pos="P" morphofeat="IN" tid="t414">
+      <span>
+        <target id="w414"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t415">
+      <span>
+        <target id="w415"/>
+      </span>
+    </term>
+    <!--German-->
+    <term type="open" lemma="german" pos="G" morphofeat="JJ" tid="t416">
+      <span>
+        <target id="w416"/>
+      </span>
+    </term>
+    <!--Embassy-->
+    <term type="close" lemma="Embassy" pos="R" morphofeat="NNP" tid="t417">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t418">
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <!--other-->
+    <term type="open" lemma="other" pos="G" morphofeat="JJ" tid="t419">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+    <!--parts-->
+    <term type="open" lemma="part" pos="N" morphofeat="NNS" tid="t420">
+      <span>
+        <target id="w420"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t421">
+      <span>
+        <target id="w421"/>
+      </span>
+    </term>
+    <!--central-->
+    <term type="open" lemma="central" pos="G" morphofeat="JJ" tid="t422">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w422"/>
+      </span>
+    </term>
+    <!--Athens-->
+    <term type="close" lemma="Athens" pos="R" morphofeat="NNP" tid="t423">
+      <span>
+        <target id="w423"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="open" lemma="as" pos="A" morphofeat="RB" tid="t424">
+      <span>
+        <target id="w424"/>
+      </span>
+    </term>
+    <!--well-->
+    <term type="open" lemma="well" pos="A" morphofeat="RB" tid="t425">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w425"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t426">
+      <span>
+        <target id="w426"/>
+      </span>
+    </term>
+    <!--within-->
+    <term type="close" lemma="within" pos="P" morphofeat="IN" tid="t427">
+      <span>
+        <target id="w427"/>
+      </span>
+    </term>
+    <!--100-->
+    <term type="close" lemma="100" pos="O" morphofeat="CD" tid="t428">
+      <span>
+        <target id="w428"/>
+      </span>
+    </term>
+    <!--meters-->
+    <term type="open" lemma="meter" pos="N" morphofeat="NNS" tid="t429">
+      <span>
+        <target id="w429"/>
+      </span>
+    </term>
+    <!--(-->
+    <term type="close" lemma="(" pos="O" morphofeat="(" tid="t430">
+      <span>
+        <target id="w430"/>
+      </span>
+    </term>
+    <!--330-->
+    <term type="close" lemma="330" pos="O" morphofeat="CD" tid="t431">
+      <span>
+        <target id="w431"/>
+      </span>
+    </term>
+    <!--feet-->
+    <term type="open" lemma="foot" pos="N" morphofeat="NNS" tid="t432">
+      <span>
+        <target id="w432"/>
+      </span>
+    </term>
+    <!--)-->
+    <term type="close" lemma=")" pos="O" morphofeat=")" tid="t433">
+      <span>
+        <target id="w433"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t434">
+      <span>
+        <target id="w434"/>
+      </span>
+    </term>
+    <!--her-->
+    <term type="close" lemma="her" pos="Q" morphofeat="PRP$" tid="t435">
+      <span>
+        <target id="w435"/>
+      </span>
+    </term>
+    <!--motorcade-->
+    <term type="open" lemma="motorcade" pos="N" morphofeat="NN" tid="t436">
+      <span>
+        <target id="w436"/>
+      </span>
+    </term>
+    <!--route-->
+    <term type="open" lemma="route" pos="N" morphofeat="NN" tid="t437">
+      <span>
+        <target id="w437"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t438">
+      <span>
+        <target id="w438"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t439">
+      <span>
+        <target id="w439"/>
+      </span>
+    </term>
+    <!--airport-->
+    <term type="open" lemma="airport" pos="N" morphofeat="NN" tid="t440">
+      <span>
+        <target id="w440"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t441">
+      <span>
+        <target id="w441"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t405"/>
+          <target id="t406"/>
+          <target id="t407"/>
+          <target id="t408"/>
+          <target id="t409"/>
+          <target id="t410"/>
+          <target id="t411"/>
+          <target id="t412"/>
+          <target id="t413"/>
+          <target id="t414"/>
+          <target id="t415"/>
+          <target id="t416"/>
+          <target id="t417"/>
+          <target id="t418"/>
+          <target id="t419"/>
+          <target id="t420"/>
+          <target id="t421"/>
+          <target id="t422"/>
+          <target id="t423"/>
+          <target id="t424"/>
+          <target id="t425"/>
+          <target id="t426"/>
+          <target id="t427"/>
+          <target id="t428"/>
+          <target id="t429"/>
+          <target id="t430"/>
+          <target id="t431"/>
+          <target id="t432"/>
+          <target id="t433"/>
+          <target id="t434"/>
+          <target id="t435"/>
+          <target id="t436"/>
+          <target id="t437"/>
+          <target id="t438"/>
+          <target id="t439"/>
+          <target id="t440"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

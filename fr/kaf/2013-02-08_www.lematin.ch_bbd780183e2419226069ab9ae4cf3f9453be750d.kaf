@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:49:25Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:49:25Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:49:26Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:22:36CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w146" sent="22" para="18" offset="709" length="2">Le</wf>
+    <wf wid="w147" sent="22" para="18" offset="712" length="7">Conseil</wf>
+    <wf wid="w148" sent="22" para="18" offset="720" length="8">européen</wf>
+    <wf wid="w149" sent="22" para="18" offset="729" length="2">s'</wf>
+    <wf wid="w150" sent="22" para="18" offset="731" length="3">est</wf>
+    <wf wid="w151" sent="22" para="18" offset="735" length="3">mis</wf>
+    <wf wid="w152" sent="22" para="18" offset="739" length="2">d'</wf>
+    <wf wid="w153" sent="22" para="18" offset="741" length="6">accord</wf>
+    <wf wid="w154" sent="22" para="18" offset="748" length="3">sur</wf>
+    <wf wid="w155" sent="22" para="18" offset="752" length="2">un</wf>
+    <wf wid="w156" sent="22" para="18" offset="755" length="5">cadre</wf>
+    <wf wid="w157" sent="22" para="18" offset="761" length="9">financier</wf>
+    <wf wid="w158" sent="22" para="18" offset="771" length="11">pluriannuel</wf>
+    <wf wid="w159" sent="22" para="18" offset="783" length="4">pour</wf>
+    <wf wid="w160" sent="22" para="18" offset="788" length="2">le</wf>
+    <wf wid="w161" sent="22" para="18" offset="791" length="5">reste</wf>
+    <wf wid="w162" sent="22" para="18" offset="797" length="2">de</wf>
+    <wf wid="w163" sent="22" para="18" offset="800" length="2">la</wf>
+    <wf wid="w164" sent="22" para="18" offset="803" length="8">décennie</wf>
+    <wf wid="w165" sent="22" para="18" offset="811" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Le-->
+    <term tid="t146" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--Conseil-->
+    <term tid="t147" type="open" lemma="conseil" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--européen-->
+    <term tid="t148" type="open" lemma="européen" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--s'-->
+    <term tid="t149" type="close" lemma="s'" pos="Q" morphofeat="CLR3ms">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t150" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--mis-->
+    <term tid="t151" type="open" lemma="mettre" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--d'-->
+    <term tid="t152" type="close" lemma="d'" pos="P" morphofeat="P">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--accord-->
+    <term tid="t153" type="open" lemma="accord" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--sur-->
+    <term tid="t154" type="close" lemma="sur" pos="P" morphofeat="P">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t155" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--cadre-->
+    <term tid="t156" type="open" lemma="cadre" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--financier-->
+    <term tid="t157" type="open" lemma="financier" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--pluriannuel-->
+    <term tid="t158" type="open" lemma="pluriannuel" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t159" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t160" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--reste-->
+    <term tid="t161" type="open" lemma="reste" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t162" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t163" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--décennie-->
+    <term tid="t164" type="open" lemma="décennie" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t165" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t146"/>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+          <target id="t153"/>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+          <target id="t157"/>
+          <target id="t158"/>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

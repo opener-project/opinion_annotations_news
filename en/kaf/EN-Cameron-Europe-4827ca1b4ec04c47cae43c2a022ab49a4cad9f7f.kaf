@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:29Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:29Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:51:48" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:22:11CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="14" para="2" offset="1820" length="5" wid="w366">After</wf>
+    <wf sent="14" para="2" offset="1826" length="6" wid="w367">stints</wf>
+    <wf sent="14" para="2" offset="1833" length="2" wid="w368">of</wf>
+    <wf sent="14" para="2" offset="1836" length="6" wid="w369">living</wf>
+    <wf sent="14" para="2" offset="1843" length="2" wid="w370">in</wf>
+    <wf sent="14" para="2" offset="1846" length="5" wid="w371">Japan</wf>
+    <wf sent="14" para="2" offset="1852" length="3" wid="w372">and</wf>
+    <wf sent="14" para="2" offset="1856" length="6" wid="w373">Bhutan</wf>
+    <wf sent="14" para="2" offset="1862" length="1" wid="w374">,</wf>
+    <wf sent="14" para="2" offset="1864" length="3" wid="w375">she</wf>
+    <wf sent="14" para="2" offset="1868" length="7" wid="w376">settled</wf>
+    <wf sent="14" para="2" offset="1876" length="2" wid="w377">in</wf>
+    <wf sent="14" para="2" offset="1879" length="3" wid="w378">the</wf>
+    <wf sent="14" para="2" offset="1883" length="2" wid="w379">UK</wf>
+    <wf sent="14" para="2" offset="1886" length="2" wid="w380">to</wf>
+    <wf sent="14" para="2" offset="1889" length="5" wid="w381">raise</wf>
+    <wf sent="14" para="2" offset="1895" length="5" wid="w382">their</wf>
+    <wf sent="14" para="2" offset="1901" length="3" wid="w383">two</wf>
+    <wf sent="14" para="2" offset="1905" length="8" wid="w384">children</wf>
+    <wf sent="14" para="2" offset="1913" length="1" wid="w385">.</wf>
+  </text>
+  <terms>
+    <!--After-->
+    <term type="close" lemma="after" pos="P" morphofeat="IN" tid="t366">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <!--stints-->
+    <term type="open" lemma="stint" pos="N" morphofeat="NNS" tid="t367">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t368">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <!--living-->
+    <term type="open" lemma="live" pos="V" morphofeat="VBG" tid="t369">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t370">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <!--Japan-->
+    <term type="close" lemma="Japan" pos="R" morphofeat="NNP" tid="t371">
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t372">
+      <span>
+        <target id="w372"/>
+      </span>
+    </term>
+    <!--Bhutan-->
+    <term type="close" lemma="Bhutan" pos="R" morphofeat="NNP" tid="t373">
+      <span>
+        <target id="w373"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t374">
+      <span>
+        <target id="w374"/>
+      </span>
+    </term>
+    <!--she-->
+    <term type="close" lemma="she" pos="Q" morphofeat="PRP" tid="t375">
+      <span>
+        <target id="w375"/>
+      </span>
+    </term>
+    <!--settled-->
+    <term type="open" lemma="settle" pos="V" morphofeat="VBD" tid="t376">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w376"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t377">
+      <span>
+        <target id="w377"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t378">
+      <span>
+        <target id="w378"/>
+      </span>
+    </term>
+    <!--UK-->
+    <term type="close" lemma="UK" pos="R" morphofeat="NNP" tid="t379">
+      <span>
+        <target id="w379"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t380">
+      <span>
+        <target id="w380"/>
+      </span>
+    </term>
+    <!--raise-->
+    <term type="open" lemma="raise" pos="V" morphofeat="VB" tid="t381">
+      <span>
+        <target id="w381"/>
+      </span>
+    </term>
+    <!--their-->
+    <term type="close" lemma="their" pos="Q" morphofeat="PRP$" tid="t382">
+      <span>
+        <target id="w382"/>
+      </span>
+    </term>
+    <!--two-->
+    <term type="close" lemma="two" pos="O" morphofeat="CD" tid="t383">
+      <span>
+        <target id="w383"/>
+      </span>
+    </term>
+    <!--children-->
+    <term type="open" lemma="child" pos="N" morphofeat="NNS" tid="t384">
+      <span>
+        <target id="w384"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t385">
+      <span>
+        <target id="w385"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t366"/>
+          <target id="t367"/>
+          <target id="t368"/>
+          <target id="t369"/>
+          <target id="t370"/>
+          <target id="t371"/>
+          <target id="t372"/>
+          <target id="t373"/>
+          <target id="t374"/>
+          <target id="t375"/>
+          <target id="t376"/>
+          <target id="t377"/>
+          <target id="t378"/>
+          <target id="t379"/>
+          <target id="t380"/>
+          <target id="t381"/>
+          <target id="t382"/>
+          <target id="t383"/>
+          <target id="t384"/>
+          <target id="t385"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

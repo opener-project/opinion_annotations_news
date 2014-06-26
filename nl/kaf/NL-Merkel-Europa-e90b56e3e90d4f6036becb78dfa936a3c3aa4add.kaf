@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:17Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:17Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:23:04CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w151" sent="10" para="2" offset="910" length="5">Links</wf>
+    <wf wid="w152" sent="10" para="2" offset="916" length="5">heeft</wf>
+    <wf wid="w153" sent="10" para="2" offset="922" length="7">bezwaar</wf>
+    <wf wid="w154" sent="10" para="2" offset="930" length="5">tegen</wf>
+    <wf wid="w155" sent="10" para="2" offset="936" length="9">verlaging</wf>
+    <wf wid="w156" sent="10" para="2" offset="946" length="3">van</wf>
+    <wf wid="w157" sent="10" para="2" offset="950" length="8">inkomens</wf>
+    <wf wid="w158" sent="10" para="2" offset="959" length="2">en</wf>
+    <wf wid="w159" sent="10" para="2" offset="962" length="10">pensioenen</wf>
+    <wf wid="w160" sent="10" para="2" offset="973" length="2">en</wf>
+    <wf wid="w161" sent="10" para="2" offset="976" length="3">wil</wf>
+    <wf wid="w162" sent="10" para="2" offset="980" length="3">dat</wf>
+    <wf wid="w163" sent="10" para="2" offset="984" length="2">er</wf>
+    <wf wid="w164" sent="10" para="2" offset="987" length="4">meer</wf>
+    <wf wid="w165" sent="10" para="2" offset="992" length="5">wordt</wf>
+    <wf wid="w166" sent="10" para="2" offset="998" length="6">gedaan</wf>
+    <wf wid="w167" sent="10" para="2" offset="1005" length="2">om</wf>
+    <wf wid="w168" sent="10" para="2" offset="1008" length="2">de</wf>
+    <wf wid="w169" sent="10" para="2" offset="1011" length="8">economie</wf>
+    <wf wid="w170" sent="10" para="2" offset="1020" length="2">te</wf>
+    <wf wid="w171" sent="10" para="2" offset="1023" length="10">stimuleren</wf>
+    <wf wid="w172" sent="10" para="2" offset="1033" length="1">.</wf>
+    <wf wid="w341" sent="21" para="2" offset="1987" length="7">Maandag</wf>
+    <wf wid="w342" sent="21" para="2" offset="1995" length="5">staat</wf>
+    <wf wid="w343" sent="21" para="2" offset="2001" length="3">een</wf>
+    <wf wid="w344" sent="21" para="2" offset="2005" length="10">ontmoeting</wf>
+    <wf wid="w345" sent="21" para="2" offset="2016" length="3">van</wf>
+    <wf wid="w346" sent="21" para="2" offset="2020" length="2">de</wf>
+    <wf wid="w347" sent="21" para="2" offset="2023" length="6">trojka</wf>
+    <wf wid="w348" sent="21" para="2" offset="2030" length="7">gepland</wf>
+    <wf wid="w349" sent="21" para="2" offset="2038" length="3">met</wf>
+    <wf wid="w350" sent="21" para="2" offset="2042" length="7">premier</wf>
+    <wf wid="w351" sent="21" para="2" offset="2050" length="7">Antonis</wf>
+    <wf wid="w352" sent="21" para="2" offset="2058" length="7">Samaras</wf>
+    <wf wid="w353" sent="21" para="2" offset="2065" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Links-->
+    <term tid="t151" type="open" lemma="links" pos="G" morphofeat="adj">
+      <span>
+        <target id="w151"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--heeft-->
+    <term tid="t152" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--bezwaar-->
+    <term tid="t153" type="open" lemma="bezwaar" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w153"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--tegen-->
+    <term tid="t154" type="close" lemma="tegen" pos="P" morphofeat="prep">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--verlaging-->
+    <term tid="t155" type="open" lemma="verlaging" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t156" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--inkomens-->
+    <term tid="t157" type="open" lemma="inkomen" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w157"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--en-->
+    <term tid="t158" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--pensioenen-->
+    <term tid="t159" type="open" lemma="pensioen" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t160" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t161" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t162" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--er-->
+    <term tid="t163" type="close" lemma="er" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--meer-->
+    <term tid="t164" type="open" lemma="meer" pos="A" morphofeat="adv">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--wordt-->
+    <term tid="t165" type="open" lemma="worden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--gedaan-->
+    <term tid="t166" type="open" lemma="doen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t167" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t168" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--economie-->
+    <term tid="t169" type="open" lemma="economie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w169"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--te-->
+    <term tid="t170" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--stimuleren-->
+    <term tid="t171" type="open" lemma="stimuleren" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w171"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t172" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--Maandag-->
+    <term tid="t341" type="open" lemma="maandag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--staat-->
+    <term tid="t342" type="open" lemma="staan" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t343" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--ontmoeting-->
+    <term tid="t344" type="open" lemma="ontmoeting" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t345" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t346" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--trojka-->
+    <term tid="t347" type="open" lemma="trojka" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--gepland-->
+    <term tid="t348" type="open" lemma="plannen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t349" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t350" type="open" lemma="premier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w350"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Antonis-->
+    <term tid="t351" type="open" lemma="Antonis" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <!--Samaras-->
+    <term tid="t352" type="open" lemma="Samaras" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t353" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder>
+        <!--Links-->
+        <span>
+          <target id="t151"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--dat er meer wordt gedaan om de economie te stimuleren-->
+        <span>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t161"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--Links-->
+        <span>
+          <target id="t151"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--verlaging van inkomens en pensioenen-->
+        <span>
+          <target id="t155"/>
+          <target id="t156"/>
+          <target id="t157"/>
+          <target id="t158"/>
+          <target id="t159"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--heeft bezwaar tegen-->
+        <span>
+          <target id="t152"/>
+          <target id="t153"/>
+          <target id="t154"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--economie-->
+        <span>
+          <target id="t169"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--stimuleren-->
+        <span>
+          <target id="t171"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--inkomens-->
+        <span>
+          <target id="t157"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--verlaging-->
+        <span>
+          <target id="t155"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--pensioenen-->
+        <span>
+          <target id="t159"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--verlaging-->
+        <span>
+          <target id="t155"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t341"/>
+          <target id="t342"/>
+          <target id="t343"/>
+          <target id="t344"/>
+          <target id="t345"/>
+          <target id="t346"/>
+          <target id="t347"/>
+          <target id="t348"/>
+          <target id="t349"/>
+          <target id="t350"/>
+          <target id="t351"/>
+          <target id="t352"/>
+          <target id="t353"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:43Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:43Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:27:15" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:27:06CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:59CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="55" length="1" wid="w283">“</wf>
+    <wf sent="9" para="2" offset="522" length="1" wid="w284">I</wf>
+    <wf sent="9" para="2" offset="1620" length="7" wid="w285">believe</wf>
+    <wf sent="9" para="2" offset="1628" length="9" wid="w286">September</wf>
+    <wf sent="9" para="2" offset="1638" length="2" wid="w287">is</wf>
+    <wf sent="9" para="2" offset="1641" length="5" wid="w288">still</wf>
+    <wf sent="9" para="2" offset="1647" length="4" wid="w289">fast</wf>
+    <wf sent="9" para="2" offset="1652" length="6" wid="w290">enough</wf>
+    <wf sent="9" para="2" offset="1659" length="2" wid="w291">to</wf>
+    <wf sent="9" para="2" offset="1662" length="4" wid="w292">keep</wf>
+    <wf sent="9" para="2" offset="1667" length="7" wid="w293">markets</wf>
+    <wf sent="9" para="2" offset="1675" length="4" wid="w294">from</wf>
+    <wf sent="9" para="2" offset="1680" length="7" wid="w295">falling</wf>
+    <wf sent="9" para="2" offset="1688" length="4" wid="w296">into</wf>
+    <wf sent="9" para="2" offset="1693" length="7" wid="w297">turmoil</wf>
+    <wf sent="9" para="2" offset="55" length="1" wid="w298">”</wf>
+    <wf sent="9" para="2" offset="270" length="1" wid="w299">.</wf>
+  </text>
+  <terms>
+    <!--“-->
+    <term type="close" lemma="“" pos="P" morphofeat="IN" tid="t283">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--I-->
+    <term type="close" lemma="i" pos="Q" morphofeat="PRP" tid="t284">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--believe-->
+    <term type="open" lemma="believe" pos="V" morphofeat="VBP" tid="t285">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--September-->
+    <term type="close" lemma="September" pos="R" morphofeat="NNP" tid="t286">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t287">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--still-->
+    <term type="open" lemma="still" pos="A" morphofeat="RB" tid="t288">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--fast-->
+    <term type="open" lemma="fast" pos="A" morphofeat="RB" tid="t289">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--enough-->
+    <term type="open" lemma="enough" pos="A" morphofeat="RB" tid="t290">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t291">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--keep-->
+    <term type="open" lemma="keep" pos="V" morphofeat="VB" tid="t292">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--markets-->
+    <term type="open" lemma="market" pos="N" morphofeat="NNS" tid="t293">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t294">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--falling-->
+    <term type="open" lemma="fall" pos="V" morphofeat="VBG" tid="t295">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--into-->
+    <term type="close" lemma="into" pos="P" morphofeat="IN" tid="t296">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--turmoil-->
+    <term type="open" lemma="turmoil" pos="N" morphofeat="NN" tid="t297">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="N" morphofeat="NN" tid="t298">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t299">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--markets-->
+        <span>
+          <target id="t293"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--falling into turmoil-->
+        <span>
+          <target id="t295"/>
+          <target id="t296"/>
+          <target id="t297"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

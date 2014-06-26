@@ -1,0 +1,57 @@
+w1	L'	le	D		D-StrongNegative	1	Opinion	3		0		0		0		0		0		0	0	true	1
+w2	intransigeante	intransigeant	N		D-StrongNegative	1	Opinion	3		0		0		0		0		0		0	1	true	1
+w3	Margaret	Margaret	N		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	2	true	1
+w4	Thatcher	Thatcher	N		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	3	true	1
+w5	s'	s'	Q			0	Opinion	3		0		0		0		0		0		0	4	true	1
+w6	est	être	V			0	Opinion	3		0		0		0		0		0		0	5	true	1
+w7	éteinte	éteindre	V			0	Opinion	3		0		0		0		0		0		0	6	true	1
+w11	Margaret	Margaret	N			0		0		0		0	NON-OPINIONATED	4		0		0		0	10	true	4
+w12	Thatcher	Thatcher	N			0		0		0		0	NON-OPINIONATED	4		0		0		0	11	true	4
+w13	,	,	O			0		0		0		0	NON-OPINIONATED	4		0		0		0	12	true	4
+w14	ex	ex	P			0		0		0		0	NON-OPINIONATED	4		0		0		0	13	true	4
+w15	·	·	N			0		0		0		0	NON-OPINIONATED	4		0		0		0	14	true	4
+w16	Premier	premier	G			0		0		0		0	NON-OPINIONATED	4		0		0		0	15	true	4
+w17	ministre	ministre	N			0		0		0		0	NON-OPINIONATED	4		0		0		0	16	true	4
+w18	britannique	britannique	G			0		0		0		0	NON-OPINIONATED	4		0		0		0	17	true	4
+w19	,	,	O			0		0		0		0	NON-OPINIONATED	4		0		0		0	18	true	4
+w20	est	être	V			0		0		0		0	NON-OPINIONATED	4		0		0		0	19	true	4
+w21	décédée	décéder	V			0		0		0		0	NON-OPINIONATED	4		0		0		0	20	true	4
+w609	Première	premier	G			0		0		0		0	NON-OPINIONATED	5		0		0		0	608	true	41
+w610	femme	femme	N			0		0		0		0	NON-OPINIONATED	5		0		0		0	609	true	41
+w611	Elle	lui	Q			0		0		0		0	NON-OPINIONATED	5		0		0		0	610	true	42
+w612	devient	devenir	V			0		0		0		0	NON-OPINIONATED	5		0		0		0	611	true	42
+w613	la	le	D			0		0		0		0	NON-OPINIONATED	5		0		0		0	612	true	42
+w614	première	premier	G			0		0		0		0	NON-OPINIONATED	5		0		0		0	613	true	42
+w615	femme	femme	N			0		0		0		0	NON-OPINIONATED	5		0		0		0	614	true	42
+w616	Premier	premier	N			0		0		0		0	NON-OPINIONATED	5		0		0		0	615	true	42
+w617	ministre	ministre	N			0		0		0		0	NON-OPINIONATED	5		0		0		0	616	true	42
+w618	du	du	P			0		0		0		0	NON-OPINIONATED	5		0		0		0	617	true	42
+w619	pays	pays	N			0		0		0		0	NON-OPINIONATED	5		0		0		0	618	true	42
+w620	,	,	O			0		0		0		0	NON-OPINIONATED	5		0		0		0	619	true	42
+w621	s'	s'	Q			0		0		0		0	NON-OPINIONATED	5		0		0		0	620	true	42
+w622	installant	installer	V			0		0		0		0	NON-OPINIONATED	5		0		0		0	621	true	42
+w623	au	au	O			0		0		0		0	NON-OPINIONATED	5		0		0		0	622	true	42
+w624	10	10	D			0		0		0		0	NON-OPINIONATED	5		0		0		0	623	true	42
+w625	Downing	Downing	N			0		0		0		0	NON-OPINIONATED	5		0		0		0	624	true	42
+w626	Street	Street	N			0		0		0		0	NON-OPINIONATED	5		0		0		0	625	true	42
+w627	jusqu'	jusque	P			0		0		0		0	NON-OPINIONATED	5		0		0		0	626	true	42
+w628	au	au	P			0		0		0		0	NON-OPINIONATED	5		0		0		0	627	true	42
+w629	22	22	D			0		0		0		0	NON-OPINIONATED	5		0		0		0	628	true	42
+w630	novembre	novembre	N			0		0		0		0	NON-OPINIONATED	5		0		0		0	629	true	42
+w631	1990	1990	N			0		0		0		0	NON-OPINIONATED	5		0		0		0	630	true	42
+w632	:	:	O			0		0		0		0	NON-OPINIONATED	5		0		0		0	631	true	42
+w633	une	un	D			0		0		0		0	NON-OPINIONATED	5		0		0		0	632	true	42
+w634	longévité	longévité	N			0		0		0		0	NON-OPINIONATED	5		0		0		0	633	true	42
+w635	record	record	G			0		0		0		0	NON-OPINIONATED	5		0		0		0	634	true	42
+w636	au	au	P			0		0		0		0	NON-OPINIONATED	5		0		0		0	635	true	42
+w637	20ème	20ème	D			0		0		0		0	NON-OPINIONATED	5		0		0		0	636	true	42
+w638	siècle	siècle	N			0		0		0		0	NON-OPINIONATED	5		0		0		0	637	true	42
+w740	La	le	D			0		0		0		0	NON-OPINIONATED	6		0		0		0	739	true	48
+w741	reconquête	reconquête	N			0		0		0		0	NON-OPINIONATED	6		0		0		0	740	true	48
+w742	des	des	P			0		0		0		0	NON-OPINIONATED	6		0		0		0	741	true	48
+w743	îles	île	N			0		0		0		0	NON-OPINIONATED	6		0		0		0	742	true	48
+w744	Malouines	Malouines	G			0		0		0		0	NON-OPINIONATED	6		0		0		0	743	true	48
+w745	en	en	P			0		0		0		0	NON-OPINIONATED	6		0		0		0	744	true	48
+w746	1982	1982	N			0		0		0		0	NON-OPINIONATED	6		0		0		0	745	true	48
+w747	y	y	Q			0		0		0		0	NON-OPINIONATED	6		0		0		0	746	true	48
+w748	contribue	contribuer	V			0		0		0		0	NON-OPINIONATED	6		0		0		0	747	true	48

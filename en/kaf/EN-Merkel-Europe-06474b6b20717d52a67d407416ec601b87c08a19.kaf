@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:36Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:36Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:16:37" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:04:37CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="459" length="1" wid="w92">A</wf>
+    <wf sent="5" para="2" offset="461" length="3" wid="w93">man</wf>
+    <wf sent="5" para="2" offset="465" length="7" wid="w94">empties</wf>
+    <wf sent="5" para="2" offset="473" length="1" wid="w95">a</wf>
+    <wf sent="5" para="2" offset="475" length="6" wid="w96">bucket</wf>
+    <wf sent="5" para="2" offset="482" length="2" wid="w97">of</wf>
+    <wf sent="5" para="2" offset="485" length="5" wid="w98">water</wf>
+    <wf sent="5" para="2" offset="491" length="2" wid="w99">in</wf>
+    <wf sent="5" para="2" offset="494" length="5" wid="w100">front</wf>
+    <wf sent="5" para="2" offset="500" length="2" wid="w101">of</wf>
+    <wf sent="5" para="2" offset="503" length="3" wid="w102">his</wf>
+    <wf sent="5" para="2" offset="507" length="5" wid="w103">house</wf>
+    <wf sent="5" para="2" offset="513" length="2" wid="w104">in</wf>
+    <wf sent="5" para="2" offset="516" length="9" wid="w105">Hohnstorf</wf>
+    <wf sent="5" para="2" offset="525" length="1" wid="w106">,</wf>
+    <wf sent="5" para="2" offset="527" length="7" wid="w107">Germany</wf>
+    <wf sent="5" para="2" offset="534" length="1" wid="w108">,</wf>
+    <wf sent="5" para="2" offset="536" length="2" wid="w109">on</wf>
+    <wf sent="5" para="2" offset="539" length="4" wid="w110">June</wf>
+    <wf sent="5" para="2" offset="544" length="2" wid="w111">12</wf>
+    <wf sent="5" para="2" offset="546" length="1" wid="w112">.</wf>
+  </text>
+  <terms>
+    <!--A-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t92">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--man-->
+    <term type="open" lemma="man" pos="N" morphofeat="NN" tid="t93">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--empties-->
+    <term type="open" lemma="empty" pos="V" morphofeat="VBZ" tid="t94">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t95">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--bucket-->
+    <term type="open" lemma="bucket" pos="N" morphofeat="NN" tid="t96">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t97">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--water-->
+    <term type="open" lemma="water" pos="N" morphofeat="NN" tid="t98">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t99">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--front-->
+    <term type="open" lemma="front" pos="N" morphofeat="NN" tid="t100">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t101">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--his-->
+    <term type="close" lemma="his" pos="Q" morphofeat="PRP$" tid="t102">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--house-->
+    <term type="open" lemma="house" pos="N" morphofeat="NN" tid="t103">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t104">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--Hohnstorf-->
+    <term type="close" lemma="Hohnstorf" pos="R" morphofeat="NNP" tid="t105">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t106">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--Germany-->
+    <term type="close" lemma="Germany" pos="R" morphofeat="NNP" tid="t107">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t108">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t109">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--June-->
+    <term type="close" lemma="June" pos="R" morphofeat="NNP" tid="t110">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--12-->
+    <term type="close" lemma="12" pos="O" morphofeat="CD" tid="t111">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t112">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

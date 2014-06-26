@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:29Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:29Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:55:42" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:15:55CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:51CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="31" para="2" offset="3866" length="2" wid="w729">At</wf>
+    <wf sent="31" para="2" offset="3869" length="5" wid="w730">least</wf>
+    <wf sent="31" para="2" offset="3875" length="4" wid="w731">five</wf>
+    <wf sent="31" para="2" offset="3880" length="8" wid="w732">children</wf>
+    <wf sent="31" para="2" offset="3889" length="4" wid="w733">were</wf>
+    <wf sent="31" para="2" offset="3894" length="6" wid="w734">killed</wf>
+    <wf sent="31" para="2" offset="3901" length="2" wid="w735">in</wf>
+    <wf sent="31" para="2" offset="3904" length="3" wid="w736">the</wf>
+    <wf sent="31" para="2" offset="3908" length="9" wid="w737">collision</wf>
+    <wf sent="31" para="2" offset="3917" length="1" wid="w738">,</wf>
+    <wf sent="31" para="2" offset="3919" length="9" wid="w739">officials</wf>
+    <wf sent="31" para="2" offset="3929" length="4" wid="w740">said</wf>
+    <wf sent="31" para="2" offset="3933" length="1" wid="w741">.</wf>
+  </text>
+  <terms>
+    <!--At-->
+    <term type="close" lemma="at" pos="P" morphofeat="IN" tid="t729">
+      <span>
+        <target id="w729"/>
+      </span>
+    </term>
+    <!--least-->
+    <term type="open" lemma="little" pos="G" morphofeat="JJS" tid="t730">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w730"/>
+      </span>
+    </term>
+    <!--five-->
+    <term type="close" lemma="five" pos="O" morphofeat="CD" tid="t731">
+      <span>
+        <target id="w731"/>
+      </span>
+    </term>
+    <!--children-->
+    <term type="open" lemma="child" pos="N" morphofeat="NNS" tid="t732">
+      <span>
+        <target id="w732"/>
+      </span>
+    </term>
+    <!--were-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t733">
+      <span>
+        <target id="w733"/>
+      </span>
+    </term>
+    <!--killed-->
+    <term type="open" lemma="kill" pos="V" morphofeat="VBN" tid="t734">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w734"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t735">
+      <span>
+        <target id="w735"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t736">
+      <span>
+        <target id="w736"/>
+      </span>
+    </term>
+    <!--collision-->
+    <term type="open" lemma="collision" pos="N" morphofeat="NN" tid="t737">
+      <span>
+        <target id="w737"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t738">
+      <span>
+        <target id="w738"/>
+      </span>
+    </term>
+    <!--officials-->
+    <term type="open" lemma="official" pos="N" morphofeat="NNS" tid="t739">
+      <span>
+        <target id="w739"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t740">
+      <span>
+        <target id="w740"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t741">
+      <span>
+        <target id="w741"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t729"/>
+          <target id="t730"/>
+          <target id="t731"/>
+          <target id="t732"/>
+          <target id="t733"/>
+          <target id="t734"/>
+          <target id="t735"/>
+          <target id="t736"/>
+          <target id="t737"/>
+          <target id="t738"/>
+          <target id="t739"/>
+          <target id="t740"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:53:04" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:58:57CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="16" para="2" offset="1948" length="5" wid="w356">Other</wf>
+    <wf sent="16" para="2" offset="1954" length="8" wid="w357">European</wf>
+    <wf sent="16" para="2" offset="1963" length="7" wid="w358">leaders</wf>
+    <wf sent="16" para="2" offset="1971" length="8" wid="w359">arriving</wf>
+    <wf sent="16" para="2" offset="1980" length="3" wid="w360">for</wf>
+    <wf sent="16" para="2" offset="1984" length="3" wid="w361">the</wf>
+    <wf sent="16" para="2" offset="1988" length="9" wid="w362">28-nation</wf>
+    <wf sent="16" para="2" offset="1998" length="7" wid="w363">meeting</wf>
+    <wf sent="16" para="2" offset="2006" length="6" wid="w364">echoed</wf>
+    <wf sent="16" para="2" offset="2013" length="6" wid="w365">Merkel</wf>
+    <wf sent="16" para="2" offset="2019" length="2" wid="w366">'s</wf>
+    <wf sent="16" para="2" offset="2022" length="11" wid="w367">displeasure</wf>
+    <wf sent="16" para="2" offset="2033" length="1" wid="w368">.</wf>
+    <wf sent="24" para="2" offset="2983" length="5" wid="w546">After</wf>
+    <wf sent="24" para="2" offset="2989" length="6" wid="w547">summit</wf>
+    <wf sent="24" para="2" offset="2996" length="5" wid="w548">talks</wf>
+    <wf sent="24" para="2" offset="3002" length="4" wid="w549">that</wf>
+    <wf sent="24" para="2" offset="3007" length="6" wid="w550">lasted</wf>
+    <wf sent="24" para="2" offset="3014" length="5" wid="w551">until</wf>
+    <wf sent="24" para="2" offset="3020" length="5" wid="w552">after</wf>
+    <wf sent="24" para="2" offset="3026" length="1" wid="w553">1</wf>
+    <wf sent="24" para="2" offset="3028" length="4" wid="w554">a.m.</wf>
+  </text>
+  <terms>
+    <!--Other-->
+    <term type="open" lemma="other" pos="G" morphofeat="JJ" tid="t356">
+      <span>
+        <target id="w356"/>
+      </span>
+    </term>
+    <!--European-->
+    <term type="open" lemma="european" pos="G" morphofeat="JJ" tid="t357">
+      <span>
+        <target id="w357"/>
+      </span>
+    </term>
+    <!--leaders-->
+    <term type="open" lemma="leader" pos="N" morphofeat="NNS" tid="t358">
+      <span>
+        <target id="w358"/>
+      </span>
+    </term>
+    <!--arriving-->
+    <term type="open" lemma="arrive" pos="V" morphofeat="VBG" tid="t359">
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t360">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t361">
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <!--28-nation-->
+    <term type="open" lemma="28-nation" pos="G" morphofeat="JJ" tid="t362">
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <!--meeting-->
+    <term type="open" lemma="meeting" pos="N" morphofeat="NN" tid="t363">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <!--echoed-->
+    <term type="open" lemma="echo" pos="V" morphofeat="VBD" tid="t364">
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t365">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t366">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <!--displeasure-->
+    <term type="open" lemma="displeasure" pos="N" morphofeat="NN" tid="t367">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t368">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <!--After-->
+    <term type="close" lemma="after" pos="P" morphofeat="IN" tid="t546">
+      <span>
+        <target id="w546"/>
+      </span>
+    </term>
+    <!--summit-->
+    <term type="open" lemma="summit" pos="N" morphofeat="NN" tid="t547">
+      <span>
+        <target id="w547"/>
+      </span>
+    </term>
+    <!--talks-->
+    <term type="open" lemma="talk" pos="N" morphofeat="NNS" tid="t548">
+      <span>
+        <target id="w548"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="O" morphofeat="WDT" tid="t549">
+      <span>
+        <target id="w549"/>
+      </span>
+    </term>
+    <!--lasted-->
+    <term type="open" lemma="last" pos="V" morphofeat="VBD" tid="t550">
+      <span>
+        <target id="w550"/>
+      </span>
+    </term>
+    <!--until-->
+    <term type="close" lemma="until" pos="P" morphofeat="IN" tid="t551">
+      <span>
+        <target id="w551"/>
+      </span>
+    </term>
+    <!--after-->
+    <term type="close" lemma="after" pos="P" morphofeat="IN" tid="t552">
+      <span>
+        <target id="w552"/>
+      </span>
+    </term>
+    <!--1-->
+    <term type="close" lemma="1" pos="O" morphofeat="CD" tid="t553">
+      <span>
+        <target id="w553"/>
+      </span>
+    </term>
+    <!--a.m.-->
+    <term type="open" lemma="a.m." pos="A" morphofeat="RB" tid="t554">
+      <span>
+        <target id="w554"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel 's-->
+        <span>
+          <target id="t365"/>
+          <target id="t366"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-neutral">
+        <!--echoed-->
+        <span>
+          <target id="t364"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Other European leaders-->
+        <span>
+          <target id="t356"/>
+          <target id="t357"/>
+          <target id="t358"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-neutral">
+        <!--echoed-->
+        <span>
+          <target id="t364"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel 's-->
+        <span>
+          <target id="t365"/>
+          <target id="t366"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--displeasure-->
+        <span>
+          <target id="t367"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Other European leaders-->
+        <span>
+          <target id="t356"/>
+          <target id="t357"/>
+          <target id="t358"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--displeasure-->
+        <span>
+          <target id="t367"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Merkel 's-->
+        <span>
+          <target id="t365"/>
+          <target id="t366"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--displeasure-->
+        <span>
+          <target id="t367"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t546"/>
+          <target id="t547"/>
+          <target id="t548"/>
+          <target id="t549"/>
+          <target id="t550"/>
+          <target id="t551"/>
+          <target id="t552"/>
+          <target id="t553"/>
+          <target id="t554"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

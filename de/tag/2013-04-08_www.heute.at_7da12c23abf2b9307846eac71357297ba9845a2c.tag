@@ -1,0 +1,10 @@
+w271	Russland	Russland	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	270	true	20
+w272	ist	sein	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	271	true	20
+w273	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	272	true	20
+w274	diesem	dies	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	273	true	20
+w275	Jahr	Jahr	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	274	true	20
+w276	Partnerland	Partnerland	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	275	true	20
+w277	der	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	276	true	20
+w278	Hannover	Hannover	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	277	true	20
+w279	·	·	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	278	true	20
+w280	Messe	Messe	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	279	true	20

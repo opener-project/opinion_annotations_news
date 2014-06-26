@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:40:40Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:40:40Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:12:23CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:40:53CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w318" sent="19" para="9" offset="2083" length="3">Ein</wf>
+    <wf wid="w319" sent="19" para="9" offset="2087" length="9">Telefonat</wf>
+    <wf wid="w320" sent="19" para="9" offset="2097" length="3">mit</wf>
+    <wf wid="w321" sent="19" para="9" offset="2101" length="5">Obama</wf>
+    <wf wid="w322" sent="19" para="9" offset="2107" length="6">genüge</wf>
+    <wf wid="w323" sent="19" para="9" offset="2114" length="5">nicht</wf>
+    <wf wid="w324" sent="19" para="9" offset="2119" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t318" type="close">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <term lemma="Telefonat" morphofeat="NN" pos="N" tid="t319" type="open">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t320" type="close">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <term lemma="Obama" morphofeat="NN unknown_lemma" pos="O" tid="t321" type="open">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <term lemma="genügen" morphofeat="VVFIN" pos="V" tid="t322" type="open">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t323" type="open">
+      <span>
+        <target id="w323"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t324" type="open">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Ein Telefonat mit Obama-->
+        <span>
+          <target id="t318"/>
+          <target id="t319"/>
+          <target id="t320"/>
+          <target id="t321"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--genüge nicht-->
+        <span>
+          <target id="t322"/>
+          <target id="t323"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

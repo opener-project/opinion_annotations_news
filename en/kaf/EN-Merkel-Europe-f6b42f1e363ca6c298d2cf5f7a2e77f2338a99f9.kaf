@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:26Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:26Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:49:17" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:54:21CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="22" para="2" offset="3096" length="4" wid="w585">Even</wf>
+    <wf sent="22" para="2" offset="3101" length="3" wid="w586">New</wf>
+    <wf sent="22" para="2" offset="3105" length="9" wid="w587">Democracy</wf>
+    <wf sent="22" para="2" offset="3115" length="7" wid="w588">reacted</wf>
+    <wf sent="22" para="2" offset="3123" length="7" wid="w589">angrily</wf>
+    <wf sent="22" para="2" offset="3131" length="2" wid="w590">to</wf>
+    <wf sent="22" para="2" offset="3134" length="3" wid="w591">the</wf>
+    <wf sent="22" para="2" offset="3138" length="11" wid="w592">endorsement</wf>
+    <wf sent="22" para="2" offset="3150" length="4" wid="w593">from</wf>
+    <wf sent="22" para="2" offset="3155" length="1" wid="w594">a</wf>
+    <wf sent="22" para="2" offset="3157" length="9" wid="w595">newspaper</wf>
+    <wf sent="22" para="2" offset="3167" length="2" wid="w596">in</wf>
+    <wf sent="22" para="2" offset="3170" length="1" wid="w597">a</wf>
+    <wf sent="22" para="2" offset="3172" length="7" wid="w598">country</wf>
+    <wf sent="22" para="2" offset="3180" length="4" wid="w599">that</wf>
+    <wf sent="22" para="2" offset="3185" length="2" wid="w600">is</wf>
+    <wf sent="22" para="2" offset="3188" length="6" wid="w601">widely</wf>
+    <wf sent="22" para="2" offset="3195" length="7" wid="w602">reviled</wf>
+    <wf sent="22" para="2" offset="3203" length="2" wid="w603">in</wf>
+    <wf sent="22" para="2" offset="3206" length="6" wid="w604">Greece</wf>
+    <wf sent="22" para="2" offset="3213" length="2" wid="w605">as</wf>
+    <wf sent="22" para="2" offset="3216" length="2" wid="w606">it</wf>
+    <wf sent="22" para="2" offset="3219" length="2" wid="w607">is</wf>
+    <wf sent="22" para="2" offset="3222" length="4" wid="w608">seen</wf>
+    <wf sent="22" para="2" offset="3227" length="2" wid="w609">as</wf>
+    <wf sent="22" para="2" offset="3230" length="3" wid="w610">the</wf>
+    <wf sent="22" para="2" offset="3234" length="4" wid="w611">main</wf>
+    <wf sent="22" para="2" offset="3239" length="5" wid="w612">force</wf>
+    <wf sent="22" para="2" offset="3245" length="6" wid="w613">behind</wf>
+    <wf sent="22" para="2" offset="3252" length="3" wid="w614">the</wf>
+    <wf sent="22" para="2" offset="3256" length="9" wid="w615">austerity</wf>
+    <wf sent="22" para="2" offset="3265" length="1" wid="w616">.</wf>
+  </text>
+  <terms>
+    <!--Even-->
+    <term type="open" lemma="even" pos="A" morphofeat="RB" tid="t585">
+      <span>
+        <target id="w585"/>
+      </span>
+    </term>
+    <!--New-->
+    <term type="open" lemma="new" pos="G" morphofeat="JJ" tid="t586">
+      <span>
+        <target id="w586"/>
+      </span>
+    </term>
+    <!--Democracy-->
+    <term type="close" lemma="Democracy" pos="R" morphofeat="NNP" tid="t587">
+      <span>
+        <target id="w587"/>
+      </span>
+    </term>
+    <!--reacted-->
+    <term type="open" lemma="react" pos="V" morphofeat="VBD" tid="t588">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w588"/>
+      </span>
+    </term>
+    <!--angrily-->
+    <term type="open" lemma="angrily" pos="A" morphofeat="RB" tid="t589">
+      <span>
+        <target id="w589"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t590">
+      <span>
+        <target id="w590"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t591">
+      <span>
+        <target id="w591"/>
+      </span>
+    </term>
+    <!--endorsement-->
+    <term type="open" lemma="endorsement" pos="N" morphofeat="NN" tid="t592">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w592"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t593">
+      <span>
+        <target id="w593"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t594">
+      <span>
+        <target id="w594"/>
+      </span>
+    </term>
+    <!--newspaper-->
+    <term type="open" lemma="newspaper" pos="N" morphofeat="NN" tid="t595">
+      <span>
+        <target id="w595"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t596">
+      <span>
+        <target id="w596"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t597">
+      <span>
+        <target id="w597"/>
+      </span>
+    </term>
+    <!--country-->
+    <term type="open" lemma="country" pos="N" morphofeat="NN" tid="t598">
+      <span>
+        <target id="w598"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="O" morphofeat="WDT" tid="t599">
+      <span>
+        <target id="w599"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t600">
+      <span>
+        <target id="w600"/>
+      </span>
+    </term>
+    <!--widely-->
+    <term type="open" lemma="widely" pos="A" morphofeat="RB" tid="t601">
+      <span>
+        <target id="w601"/>
+      </span>
+    </term>
+    <!--reviled-->
+    <term type="open" lemma="revile" pos="V" morphofeat="VBN" tid="t602">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w602"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="open" lemma="in" pos="A" morphofeat="RB" tid="t603">
+      <span>
+        <target id="w603"/>
+      </span>
+    </term>
+    <!--Greece-->
+    <term type="close" lemma="Greece" pos="R" morphofeat="NNP" tid="t604">
+      <span>
+        <target id="w604"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t605">
+      <span>
+        <target id="w605"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t606">
+      <span>
+        <target id="w606"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t607">
+      <span>
+        <target id="w607"/>
+      </span>
+    </term>
+    <!--seen-->
+    <term type="open" lemma="see" pos="V" morphofeat="VBN" tid="t608">
+      <span>
+        <target id="w608"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t609">
+      <span>
+        <target id="w609"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t610">
+      <span>
+        <target id="w610"/>
+      </span>
+    </term>
+    <!--main-->
+    <term type="open" lemma="main" pos="G" morphofeat="JJ" tid="t611">
+      <span>
+        <target id="w611"/>
+      </span>
+    </term>
+    <!--force-->
+    <term type="open" lemma="force" pos="N" morphofeat="NN" tid="t612">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w612"/>
+      </span>
+    </term>
+    <!--behind-->
+    <term type="close" lemma="behind" pos="P" morphofeat="IN" tid="t613">
+      <span>
+        <target id="w613"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t614">
+      <span>
+        <target id="w614"/>
+      </span>
+    </term>
+    <!--austerity-->
+    <term type="open" lemma="austerity" pos="N" morphofeat="NN" tid="t615">
+      <span>
+        <target id="w615"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t616">
+      <span>
+        <target id="w616"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--country-->
+        <span>
+          <target id="t598"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--widely reviled-->
+        <span>
+          <target id="t601"/>
+          <target id="t602"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--it-->
+        <span>
+          <target id="t606"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--the main force behind the austerity-->
+        <span>
+          <target id="t610"/>
+          <target id="t611"/>
+          <target id="t612"/>
+          <target id="t613"/>
+          <target id="t614"/>
+          <target id="t615"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--New Democracy-->
+        <span>
+          <target id="t586"/>
+          <target id="t587"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the endorsement-->
+        <span>
+          <target id="t591"/>
+          <target id="t592"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--reacted angrily to-->
+        <span>
+          <target id="t588"/>
+          <target id="t589"/>
+          <target id="t590"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--reacted-->
+        <span>
+          <target id="t588"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--angrily-->
+        <span>
+          <target id="t589"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

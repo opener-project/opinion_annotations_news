@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:34:15Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:34:15Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:16:18CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:34:29CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w138" sent="10" para="7" offset="864" length="3">Die</wf>
+    <wf wid="w139" sent="10" para="7" offset="868" length="11">Europäische</wf>
+    <wf wid="w140" sent="10" para="7" offset="880" length="5">Union</wf>
+    <wf wid="w141" sent="10" para="7" offset="886" length="3">und</wf>
+    <wf wid="w142" sent="10" para="7" offset="890" length="8">Russland</wf>
+    <wf wid="w143" sent="10" para="7" offset="899" length="6">wollen</wf>
+    <wf wid="w144" sent="10" para="7" offset="906" length="3">die</wf>
+    <wf wid="w145" sent="10" para="7" offset="910" length="7">Ukraine</wf>
+    <wf wid="w146" sent="10" para="7" offset="917" length="1">,</wf>
+    <wf wid="w147" sent="10" para="7" offset="919" length="3">die</wf>
+    <wf wid="w148" sent="10" para="7" offset="923" length="3">ein</wf>
+    <wf wid="w149" sent="10" para="7" offset="927" length="9">wichtiges</wf>
+    <wf wid="w150" sent="10" para="7" offset="937" length="11">Transitland</wf>
+    <wf wid="w151" sent="10" para="7" offset="949" length="3">für</wf>
+    <wf wid="w152" sent="10" para="7" offset="953" length="14">Gaslieferungen</wf>
+    <wf wid="w153" sent="10" para="7" offset="968" length="2">in</wf>
+    <wf wid="w154" sent="10" para="7" offset="971" length="3">den</wf>
+    <wf wid="w155" sent="10" para="7" offset="975" length="6">Westen</wf>
+    <wf wid="w156" sent="10" para="7" offset="982" length="3">ist</wf>
+    <wf wid="w157" sent="10" para="7" offset="985" length="1">,</wf>
+    <wf wid="w158" sent="10" para="7" offset="987" length="7">jeweils</wf>
+    <wf wid="w159" sent="10" para="7" offset="995" length="7">stärker</wf>
+    <wf wid="w160" sent="10" para="7" offset="1003" length="2">an</wf>
+    <wf wid="w161" sent="10" para="7" offset="1006" length="4">sich</wf>
+    <wf wid="w162" sent="10" para="7" offset="1011" length="6">binden</wf>
+    <wf wid="w163" sent="10" para="7" offset="1017" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t138" type="close">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <term lemma="europäisch" morphofeat="ADJA" pos="G" tid="t139" type="open">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <term lemma="Union" morphofeat="NN" pos="N" tid="t140" type="open">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t141" type="close">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <term lemma="Rußland" morphofeat="NN" pos="N" tid="t142" type="open">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t143" type="open">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t144" type="close">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <term lemma="Ukraine" morphofeat="NE" pos="R" tid="t145" type="open">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t146" type="open">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="PRELS" pos="Q" tid="t147" type="close">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t148" type="close">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <term lemma="wichtig" morphofeat="ADJA" pos="G" tid="t149" type="open">
+      <span>
+        <target id="w149"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Transitland" morphofeat="NN" pos="N" tid="t150" type="open">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t151" type="close">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <term lemma="Gaslieferung" morphofeat="NN" pos="N" tid="t152" type="open">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t153" type="close">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t154" type="close">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <term lemma="Weste|Westen" morphofeat="NN" pos="N" tid="t155" type="open">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t156" type="open">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t157" type="open">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <term lemma="jeweils" morphofeat="ADV" pos="A" tid="t158" type="open">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <term lemma="stark" morphofeat="ADJD" pos="G" tid="t159" type="open">
+      <span>
+        <target id="w159"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="an" morphofeat="APPR" pos="P" tid="t160" type="close">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t161" type="close">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <term lemma="binden" morphofeat="VVFIN" pos="V" tid="t162" type="open">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t163" type="open">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Russland-->
+        <span>
+          <target id="t142"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die Ukraine-->
+        <span>
+          <target id="t144"/>
+          <target id="t145"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wollen-->
+        <span>
+          <target id="t143"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Die Europäische Union-->
+        <span>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die Ukraine-->
+        <span>
+          <target id="t144"/>
+          <target id="t145"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wollen-->
+        <span>
+          <target id="t143"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Russland-->
+        <span>
+          <target id="t142"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die Ukraine-->
+        <span>
+          <target id="t144"/>
+          <target id="t145"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--stärker an sich binden-->
+        <span>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Die Europäische Union-->
+        <span>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die Ukraine-->
+        <span>
+          <target id="t144"/>
+          <target id="t145"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--stärker an sich binden-->
+        <span>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die Ukraine-->
+        <span>
+          <target id="t144"/>
+          <target id="t145"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--ein wichtiges Transitland für Gaslieferungen-->
+        <span>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

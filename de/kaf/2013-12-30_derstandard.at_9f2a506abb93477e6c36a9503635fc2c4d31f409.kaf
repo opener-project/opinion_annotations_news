@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:00:02Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:00:02Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:56:41CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:00:21CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w21" sent="4" para="4" offset="148" length="2">EU</wf>
+    <wf wid="w22" sent="4" para="4" offset="150" length="1">·</wf>
+    <wf wid="w23" sent="4" para="4" offset="151" length="15">Sozialkommissar</wf>
+    <wf wid="w24" sent="4" para="4" offset="167" length="6">glaubt</wf>
+    <wf wid="w25" sent="4" para="4" offset="174" length="2">an</wf>
+    <wf wid="w26" sent="4" para="4" offset="177" length="8">positive</wf>
+    <wf wid="w27" sent="4" para="4" offset="186" length="7">Effekte</wf>
+    <wf wid="w28" sent="4" para="4" offset="194" length="3">des</wf>
+    <wf wid="w29" sent="4" para="4" offset="198" length="6">Zuzugs</wf>
+    <wf wid="w30" sent="4" para="4" offset="205" length="11">rumänischer</wf>
+    <wf wid="w31" sent="4" para="4" offset="217" length="3">und</wf>
+    <wf wid="w32" sent="4" para="4" offset="221" length="12">bulgarischer</wf>
+    <wf wid="w33" sent="4" para="4" offset="234" length="13">Arbeitskräfte</wf>
+  </text>
+  <terms>
+    <term lemma="EU" morphofeat="NE" pos="R" tid="t21" type="open">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t22" type="open">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="Sozialkommissar" morphofeat="NN unknown_lemma" pos="O" tid="t23" type="open">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="glauben" morphofeat="VVFIN" pos="V" tid="t24" type="open">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPR" pos="P" tid="t25" type="close">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="positiv" morphofeat="ADJA" pos="G" tid="t26" type="open">
+      <span>
+        <target id="w26"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Effekt" morphofeat="NN" pos="N" tid="t27" type="open">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t28" type="close">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="Zuzug" morphofeat="NN" pos="N" tid="t29" type="open">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="rumänisch" morphofeat="ADJA" pos="G" tid="t30" type="open">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t31" type="close">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="bulgarisch" morphofeat="ADJA" pos="G" tid="t32" type="open">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="Arbeitskraft" morphofeat="NN" pos="N" tid="t33" type="open">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--EU · Sozialkommissar-->
+        <span>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--positive Effekte des Zuzugs rumänischer und bulgarischer Arbeitskräfte-->
+        <span>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--glaubt an-->
+        <span>
+          <target id="t24"/>
+          <target id="t25"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Effekte-->
+        <span>
+          <target id="t27"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--positive-->
+        <span>
+          <target id="t26"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:16Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:16Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:35:15CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w751" sent="36" para="2" offset="4205" length="10">GroenLinks</wf>
+    <wf wid="w752" sent="36" para="2" offset="4216" length="6">leider</wf>
+    <wf wid="w753" sent="36" para="2" offset="4223" length="3">Sap</wf>
+    <wf wid="w754" sent="36" para="2" offset="4227" length="7">verweet</wf>
+    <wf wid="w755" sent="36" para="2" offset="4235" length="6">Roemer</wf>
+    <wf wid="w756" sent="36" para="2" offset="4242" length="4">geen</wf>
+    <wf wid="w757" sent="36" para="2" offset="4247" length="10">duidelijke</wf>
+    <wf wid="w758" sent="36" para="2" offset="4258" length="5">visie</wf>
+    <wf wid="w759" sent="36" para="2" offset="4264" length="4">over</wf>
+    <wf wid="w760" sent="36" para="2" offset="4269" length="6">Europa</wf>
+    <wf wid="w761" sent="36" para="2" offset="4276" length="2">te</wf>
+    <wf wid="w762" sent="36" para="2" offset="4279" length="6">hebben</wf>
+    <wf wid="w763" sent="36" para="2" offset="4285" length="1">.</wf>
+  </text>
+  <terms>
+    <!--GroenLinks-->
+    <term tid="t751" type="open" lemma="GroenLinks" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w751"/>
+      </span>
+    </term>
+    <!--leider-->
+    <term tid="t752" type="open" lemma="leider" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w752"/>
+      </span>
+    </term>
+    <!--Sap-->
+    <term tid="t753" type="open" lemma="sap" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w753"/>
+      </span>
+    </term>
+    <!--verweet-->
+    <term tid="t754" type="open" lemma="verwijten" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w754"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Roemer-->
+    <term tid="t755" type="open" lemma="roemer" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w755"/>
+      </span>
+    </term>
+    <!--geen-->
+    <term tid="t756" type="close" lemma="geen" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w756"/>
+      </span>
+    </term>
+    <!--duidelijke-->
+    <term tid="t757" type="open" lemma="duidelijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w757"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--visie-->
+    <term tid="t758" type="open" lemma="visie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w758"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t759" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w759"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t760" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w760"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t761" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w761"/>
+      </span>
+    </term>
+    <!--hebben-->
+    <term tid="t762" type="open" lemma="hebben" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w762"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t763" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w763"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder>
+        <!--GroenLinks leider Sap-->
+        <span>
+          <target id="t751"/>
+          <target id="t752"/>
+          <target id="t753"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Roemer-->
+        <span>
+          <target id="t755"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--verweet-->
+        <span>
+          <target id="t754"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--visie over Europa-->
+        <span>
+          <target id="t758"/>
+          <target id="t759"/>
+          <target id="t760"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--geen duidelijke-->
+        <span>
+          <target id="t756"/>
+          <target id="t757"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder>
+        <!--GroenLinks leider Sap-->
+        <span>
+          <target id="t751"/>
+          <target id="t752"/>
+          <target id="t753"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Roemer-->
+        <span>
+          <target id="t755"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--geen duidelijke visie over Europa-->
+        <span>
+          <target id="t756"/>
+          <target id="t757"/>
+          <target id="t758"/>
+          <target id="t759"/>
+          <target id="t760"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

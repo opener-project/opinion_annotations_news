@@ -1,0 +1,15 @@
+w114	In	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	113	true	11
+w115	großer	groß	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	114	true	11
+w116	Runde	Runde	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	115	true	11
+w117	wollen	wollen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	116	true	11
+w118	sich	sich	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	117	true	11
+w119	die	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	118	true	11
+w120	75	75	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	119	true	11
+w121	Parteienvertreter	Parteienvertreter	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	120	true	11
+w122	bis	bis	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	121	true	11
+w123	Ende	Ende	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	122	true	11
+w124	November	November	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	123	true	11
+w125	insgesamt	insgesamt	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	124	true	11
+w126	acht	acht	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	125	true	11
+w127	Mal	Mal	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	126	true	11
+w128	treffen	treffen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	127	true	11

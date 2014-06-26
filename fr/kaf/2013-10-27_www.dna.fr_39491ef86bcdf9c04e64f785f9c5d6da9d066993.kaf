@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:47:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:47:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:47:00Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:17:58CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:13CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w215" sent="9" para="8" offset="1147" length="2">Le</wf>
+    <wf wid="w216" sent="9" para="8" offset="1150" length="7">cabinet</wf>
+    <wf wid="w217" sent="9" para="8" offset="1158" length="2">de</wf>
+    <wf wid="w218" sent="9" para="8" offset="1161" length="3">Mme</wf>
+    <wf wid="w219" sent="9" para="8" offset="1165" length="6">Merkel</wf>
+    <wf wid="w220" sent="9" para="8" offset="1172" length="2">n’</wf>
+    <wf wid="w221" sent="9" para="8" offset="1174" length="1">a</wf>
+    <wf wid="w222" sent="9" para="8" offset="1176" length="3">pas</wf>
+    <wf wid="w223" sent="9" para="8" offset="1180" length="8">souhaité</wf>
+    <wf wid="w224" sent="9" para="8" offset="1189" length="9">commenter</wf>
+    <wf wid="w225" sent="9" para="8" offset="1199" length="3">cet</wf>
+    <wf wid="w226" sent="9" para="8" offset="1203" length="7">échange</wf>
+    <wf wid="w227" sent="9" para="8" offset="1211" length="12">téléphonique</wf>
+    <wf wid="w228" sent="9" para="8" offset="1223" length="1">.</wf>
+    <wf wid="w568" sent="20" para="17" offset="3078" length="4">Bush</wf>
+    <wf wid="w569" sent="20" para="17" offset="3083" length="2">se</wf>
+    <wf wid="w570" sent="20" para="17" offset="3086" length="7">méfiait</wf>
+    <wf wid="w571" sent="20" para="17" offset="3094" length="3">des</wf>
+    <wf wid="w572" sent="20" para="17" offset="3098" length="7">sociaux</wf>
+    <wf wid="w573" sent="20" para="17" offset="3105" length="1">·</wf>
+    <wf wid="w574" sent="20" para="17" offset="3106" length="10">démocrates</wf>
+    <wf wid="w575" sent="20" para="17" offset="3117" length="9">allemands</wf>
+    <wf wid="w576" sent="20" para="17" offset="3127" length="1">à</wf>
+    <wf wid="w577" sent="20" para="17" offset="3129" length="5">cause</wf>
+    <wf wid="w578" sent="20" para="17" offset="3135" length="2">de</wf>
+    <wf wid="w579" sent="20" para="17" offset="3138" length="5">leurs</wf>
+    <wf wid="w580" sent="20" para="17" offset="3144" length="5">liens</wf>
+    <wf wid="w581" sent="20" para="17" offset="3150" length="4">avec</wf>
+    <wf wid="w582" sent="20" para="17" offset="3155" length="2">le</wf>
+    <wf wid="w583" sent="20" para="17" offset="3158" length="9">Président</wf>
+    <wf wid="w584" sent="20" para="17" offset="3168" length="5">russe</wf>
+    <wf wid="w585" sent="20" para="17" offset="3174" length="8">Vladimir</wf>
+    <wf wid="w586" sent="20" para="17" offset="3183" length="7">Poutine</wf>
+    <wf wid="w587" sent="20" para="17" offset="3190" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Le-->
+    <term tid="t215" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--cabinet-->
+    <term tid="t216" type="open" lemma="cabinet" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t217" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--Mme-->
+    <term tid="t218" type="open" lemma="Mme" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t219" type="open" lemma="Merkel" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--n’-->
+    <term tid="t220" type="close" lemma="n’" pos="Q" morphofeat="CL3fs">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t221" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--pas-->
+    <term tid="t222" type="open" lemma="pas" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative" sentiment_modifier="shifter"/>
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--souhaité-->
+    <term tid="t223" type="open" lemma="souhaiter" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--commenter-->
+    <term tid="t224" type="open" lemma="commenter" pos="V" morphofeat="VW">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--cet-->
+    <term tid="t225" type="close" lemma="ce" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--échange-->
+    <term tid="t226" type="open" lemma="échange" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--téléphonique-->
+    <term tid="t227" type="open" lemma="téléphonique" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t228" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--Bush-->
+    <term tid="t568" type="open" lemma="bush" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w568"/>
+      </span>
+    </term>
+    <!--se-->
+    <term tid="t569" type="close" lemma="se" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w569"/>
+      </span>
+    </term>
+    <!--méfiait-->
+    <term tid="t570" type="open" lemma="méfiait" pos="V" morphofeat="VI3s">
+      <span>
+        <target id="w570"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t571" type="close" lemma="des" pos="P" morphofeat="P">
+      <span>
+        <target id="w571"/>
+      </span>
+    </term>
+    <!--sociaux-->
+    <term tid="t572" type="open" lemma="sociaux" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w572"/>
+      </span>
+    </term>
+    <!--·-->
+    <term tid="t573" type="open" lemma="·" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w573"/>
+      </span>
+    </term>
+    <!--démocrates-->
+    <term tid="t574" type="open" lemma="démocrate" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w574"/>
+      </span>
+    </term>
+    <!--allemands-->
+    <term tid="t575" type="open" lemma="allemand" pos="N" morphofeat="NCmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w575"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t576" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w576"/>
+      </span>
+    </term>
+    <!--cause-->
+    <term tid="t577" type="open" lemma="cause" pos="N" morphofeat="N">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w577"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t578" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w578"/>
+      </span>
+    </term>
+    <!--leurs-->
+    <term tid="t579" type="close" lemma="son" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w579"/>
+      </span>
+    </term>
+    <!--liens-->
+    <term tid="t580" type="open" lemma="lien" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w580"/>
+      </span>
+    </term>
+    <!--avec-->
+    <term tid="t581" type="close" lemma="avec" pos="P" morphofeat="P">
+      <span>
+        <target id="w581"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t582" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w582"/>
+      </span>
+    </term>
+    <!--Président-->
+    <term tid="t583" type="open" lemma="président" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w583"/>
+      </span>
+    </term>
+    <!--russe-->
+    <term tid="t584" type="open" lemma="russe" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w584"/>
+      </span>
+    </term>
+    <!--Vladimir-->
+    <term tid="t585" type="open" lemma="Vladimir" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w585"/>
+      </span>
+    </term>
+    <!--Poutine-->
+    <term tid="t586" type="open" lemma="Poutine" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w586"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t587" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w587"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--Bush-->
+        <span>
+          <target id="t568"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--des sociaux · démocrates allemands-->
+        <span>
+          <target id="t571"/>
+          <target id="t572"/>
+          <target id="t573"/>
+          <target id="t574"/>
+          <target id="t575"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--se méfiait-->
+        <span>
+          <target id="t569"/>
+          <target id="t570"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Le cabinet de Mme Merkel-->
+        <span>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--commenter cet échange téléphonique-->
+        <span>
+          <target id="t224"/>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--n’ a pas souhaité-->
+        <span>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

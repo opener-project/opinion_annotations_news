@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T07:59:24Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T07:59:24Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:00:07CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T08:59:42CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w15" sent="4" para="3" offset="73" length="3">Die</wf>
+    <wf wid="w16" sent="4" para="3" offset="77" length="8">deutsche</wf>
+    <wf wid="w17" sent="4" para="3" offset="86" length="11">Autobranche</wf>
+    <wf wid="w18" sent="4" para="3" offset="98" length="6">kämpft</wf>
+    <wf wid="w19" sent="4" para="3" offset="105" length="8">vehement</wf>
+    <wf wid="w20" sent="4" para="3" offset="114" length="5">gegen</wf>
+    <wf wid="w21" sent="4" para="3" offset="120" length="9">schärfere</wf>
+    <wf wid="w22" sent="4" para="3" offset="130" length="22">Klimaschutzrichtlinien</wf>
+    <wf wid="w23" sent="4" para="3" offset="153" length="3">der</wf>
+    <wf wid="w24" sent="4" para="3" offset="157" length="2">EU</wf>
+    <wf wid="w25" sent="4" para="3" offset="159" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t15" type="close">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="deutsch" morphofeat="ADJA" pos="G" tid="t16" type="open">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="Autobranche" morphofeat="NN" pos="N" tid="t17" type="open">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="kämpfen" morphofeat="VVFIN" pos="V" tid="t18" type="open">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="vehement" morphofeat="ADJD" pos="G" tid="t19" type="open">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="gegen" morphofeat="APPR" pos="P" tid="t20" type="close">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="scharf" morphofeat="ADJA" pos="G" tid="t21" type="open">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="Klimaschutzrichtlinien" morphofeat="NN unknown_lemma" pos="O" tid="t22" type="open">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t23" type="close">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t24" type="open">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t25" type="open">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Klimaschutzrichtlinien-->
+        <span>
+          <target id="t22"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--schärfere-->
+        <span>
+          <target id="t21"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Die deutsche Autobranche-->
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--schärfere Klimaschutzrichtlinien-->
+        <span>
+          <target id="t21"/>
+          <target id="t22"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--kämpft vehement gegen-->
+        <span>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

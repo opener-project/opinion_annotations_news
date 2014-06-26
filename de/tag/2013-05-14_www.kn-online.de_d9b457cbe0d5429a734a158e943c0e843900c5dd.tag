@@ -1,0 +1,9 @@
+w108	Jeder	jede	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	107	true	9
+w109	Dritte	Dritte	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	108	true	9
+w110	wird	werden	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	109	true	9
+w111	dann	dann	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	110	true	9
+w112	65	65	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	111	true	9
+w113	Jahre	Jahr	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	112	true	9
+w114	oder	oder	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	113	true	9
+w115	älter	alt	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	114	true	9
+w116	sein	sein	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	115	true	9

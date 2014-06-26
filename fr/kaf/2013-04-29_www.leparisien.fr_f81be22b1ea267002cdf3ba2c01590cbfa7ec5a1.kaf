@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:50:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:50:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:50:15Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:33:30CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w581" sent="18" para="5" offset="3087" length="4">Mais</wf>
+    <wf wid="w582" sent="18" para="5" offset="3092" length="2">M.</wf>
+    <wf wid="w583" sent="18" para="5" offset="3095" length="8">Schaüble</wf>
+    <wf wid="w584" sent="18" para="5" offset="3104" length="6">refuse</wf>
+    <wf wid="w585" sent="18" para="5" offset="3111" length="2">de</wf>
+    <wf wid="w586" sent="18" para="5" offset="3114" length="6">servir</wf>
+    <wf wid="w587" sent="18" para="5" offset="3121" length="2">de</wf>
+    <wf wid="w588" sent="18" para="5" offset="3124" length="4">bouc</wf>
+    <wf wid="w589" sent="18" para="5" offset="3129" length="9">émissaire</wf>
+    <wf wid="w590" sent="18" para="5" offset="3138" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Mais-->
+    <term tid="t581" type="close" lemma="Mais" pos="C" morphofeat="CC">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w581"/>
+      </span>
+    </term>
+    <!--M.-->
+    <term tid="t582" type="open" lemma="M." pos="N" morphofeat="NCms">
+      <span>
+        <target id="w582"/>
+      </span>
+    </term>
+    <!--Schaüble-->
+    <term tid="t583" type="open" lemma="Schaüble" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w583"/>
+      </span>
+    </term>
+    <!--refuse-->
+    <term tid="t584" type="open" lemma="refuser" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w584"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t585" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w585"/>
+      </span>
+    </term>
+    <!--servir-->
+    <term tid="t586" type="open" lemma="servir" pos="V" morphofeat="VW">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w586"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t587" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w587"/>
+      </span>
+    </term>
+    <!--bouc-->
+    <term tid="t588" type="open" lemma="bouc" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w588"/>
+      </span>
+    </term>
+    <!--émissaire-->
+    <term tid="t589" type="open" lemma="émissaire" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w589"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t590" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w590"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--M. Schaüble-->
+        <span>
+          <target id="t582"/>
+          <target id="t583"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--servir de bouc émissaire-->
+        <span>
+          <target id="t586"/>
+          <target id="t587"/>
+          <target id="t588"/>
+          <target id="t589"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--refuse-->
+        <span>
+          <target id="t584"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

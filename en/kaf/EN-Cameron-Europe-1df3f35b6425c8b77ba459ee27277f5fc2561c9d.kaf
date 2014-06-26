@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:32:36" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:11:10CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="18" para="2" offset="2294" length="6" wid="w417">Rupert</wf>
+    <wf sent="18" para="2" offset="2301" length="7" wid="w418">Murdoch</wf>
+    <wf sent="18" para="2" offset="2309" length="9" wid="w419">describes</wf>
+    <wf sent="18" para="2" offset="2319" length="7" wid="w420">Salmond</wf>
+    <wf sent="18" para="2" offset="2327" length="2" wid="w421">as</wf>
+    <wf sent="18" para="2" offset="2330" length="3" wid="w422">the</wf>
+    <wf sent="18" para="2" offset="2334" length="2" wid="w423">UK</wf>
+    <wf sent="18" para="2" offset="2336" length="2" wid="w424">'s</wf>
+    <wf sent="18" para="2" offset="2339" length="1" wid="w425">"</wf>
+    <wf sent="18" para="2" offset="2340" length="4" wid="w426">most</wf>
+    <wf sent="18" para="2" offset="2345" length="9" wid="w427">brilliant</wf>
+    <wf sent="18" para="2" offset="2355" length="10" wid="w428">politician</wf>
+    <wf sent="18" para="2" offset="2365" length="1" wid="w429">"</wf>
+    <wf sent="18" para="2" offset="2366" length="1" wid="w430">.</wf>
+  </text>
+  <terms>
+    <!--Rupert-->
+    <term type="close" lemma="Rupert" pos="R" morphofeat="NNP" tid="t417">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <!--Murdoch-->
+    <term type="close" lemma="Murdoch" pos="R" morphofeat="NNP" tid="t418">
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <!--describes-->
+    <term type="open" lemma="describe" pos="V" morphofeat="VBZ" tid="t419">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+    <!--Salmond-->
+    <term type="close" lemma="Salmond" pos="R" morphofeat="NNP" tid="t420">
+      <span>
+        <target id="w420"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t421">
+      <span>
+        <target id="w421"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t422">
+      <span>
+        <target id="w422"/>
+      </span>
+    </term>
+    <!--UK-->
+    <term type="close" lemma="UK" pos="R" morphofeat="NNP" tid="t423">
+      <span>
+        <target id="w423"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t424">
+      <span>
+        <target id="w424"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t425">
+      <span>
+        <target id="w425"/>
+      </span>
+    </term>
+    <!--most-->
+    <term type="open" lemma="much" pos="A" morphofeat="RBS" tid="t426">
+      <span>
+        <target id="w426"/>
+      </span>
+    </term>
+    <!--brilliant-->
+    <term type="open" lemma="brilliant" pos="G" morphofeat="JJ" tid="t427">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w427"/>
+      </span>
+    </term>
+    <!--politician-->
+    <term type="open" lemma="politician" pos="N" morphofeat="NN" tid="t428">
+      <span>
+        <target id="w428"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t429">
+      <span>
+        <target id="w429"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t430">
+      <span>
+        <target id="w430"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--politician-->
+        <span>
+          <target id="t428"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--most brilliant-->
+        <span>
+          <target id="t426"/>
+          <target id="t427"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

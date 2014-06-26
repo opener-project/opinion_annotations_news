@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T11:07:47Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T11:07:47Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:10:17CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T12:08:03CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w73" sent="6" para="4" offset="443" length="6">Kramer</wf>
+    <wf wid="w74" sent="6" para="4" offset="450" length="6">warnte</wf>
+    <wf wid="w75" sent="6" para="4" offset="457" length="5">Union</wf>
+    <wf wid="w76" sent="6" para="4" offset="463" length="3">und</wf>
+    <wf wid="w77" sent="6" para="4" offset="467" length="3">SPD</wf>
+    <wf wid="w78" sent="6" para="4" offset="471" length="3">vor</wf>
+    <wf wid="w79" sent="6" para="4" offset="475" length="5">einem</wf>
+    <wf wid="w80" sent="6" para="4" offset="481" length="12">gesetzlichen</wf>
+    <wf wid="w81" sent="6" para="4" offset="494" length="11">Mindestlohn</wf>
+    <wf wid="w82" sent="6" para="4" offset="506" length="3">und</wf>
+    <wf wid="w83" sent="6" para="4" offset="510" length="4">mehr</wf>
+    <wf wid="w84" sent="6" para="4" offset="515" length="11">Regulierung</wf>
+    <wf wid="w85" sent="6" para="4" offset="527" length="3">bei</wf>
+    <wf wid="w86" sent="6" para="4" offset="531" length="3">der</wf>
+    <wf wid="w87" sent="6" para="4" offset="535" length="10">Zeitarbeit</wf>
+    <wf wid="w88" sent="6" para="4" offset="545" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Kramer" morphofeat="NE" pos="R" tid="t73" type="open">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <term lemma="warnen" morphofeat="VVFIN" pos="V" tid="t74" type="open">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <term lemma="Union" morphofeat="NE" pos="R" tid="t75" type="open">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t76" type="close">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <term lemma="SPD" morphofeat="NE" pos="R" tid="t77" type="open">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <term lemma="vor" morphofeat="APPR" pos="P" tid="t78" type="close">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t79" type="close">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <term lemma="gesetzlich" morphofeat="ADJA" pos="G" tid="t80" type="open">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <term lemma="Mindestlohn" morphofeat="NN" pos="N" tid="t81" type="open">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t82" type="close">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <term lemma="mehr" morphofeat="PIAT" pos="Q" tid="t83" type="close">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <term lemma="Regulierung" morphofeat="NN" pos="N" tid="t84" type="open">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <term lemma="bei" morphofeat="APPR" pos="P" tid="t85" type="close">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t86" type="close">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <term lemma="Zeitarbeit" morphofeat="NN" pos="N" tid="t87" type="open">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t88" type="open">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Kramer-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--mehr Regulierung-->
+        <span>
+          <target id="t83"/>
+          <target id="t84"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--warnte vor-->
+        <span>
+          <target id="t74"/>
+          <target id="t78"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Kramer-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--einem gesetzlichen Mindestlohn-->
+        <span>
+          <target id="t79"/>
+          <target id="t80"/>
+          <target id="t81"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--warnte vor-->
+        <span>
+          <target id="t74"/>
+          <target id="t78"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

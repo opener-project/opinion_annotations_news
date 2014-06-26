@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:53Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:53Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:04:10CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:37CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w328" sent="13" para="2" offset="1930" length="1">“</wf>
+    <wf wid="w329" sent="13" para="2" offset="1931" length="8">Vrienden</wf>
+    <wf wid="w330" sent="13" para="2" offset="1940" length="2">en</wf>
+    <wf wid="w331" sent="13" para="2" offset="1943" length="8">partners</wf>
+    <wf wid="w332" sent="13" para="2" offset="1952" length="11">bespioneren</wf>
+    <wf wid="w333" sent="13" para="2" offset="1964" length="4">niet</wf>
+    <wf wid="w334" sent="13" para="2" offset="1968" length="1">”</wf>
+    <wf wid="w335" sent="13" para="2" offset="1969" length="1">,</wf>
+    <wf wid="w336" sent="13" para="2" offset="1971" length="3">zei</wf>
+    <wf wid="w337" sent="13" para="2" offset="1975" length="13">vicepresident</wf>
+    <wf wid="w338" sent="13" para="2" offset="1989" length="3">van</wf>
+    <wf wid="w339" sent="13" para="2" offset="1993" length="2">de</wf>
+    <wf wid="w340" sent="13" para="2" offset="1996" length="8">Europese</wf>
+    <wf wid="w341" sent="13" para="2" offset="2005" length="9">Commissie</wf>
+    <wf wid="w342" sent="13" para="2" offset="2015" length="7">Viviane</wf>
+    <wf wid="w343" sent="13" para="2" offset="2023" length="6">Reding</wf>
+    <wf wid="w344" sent="13" para="2" offset="2030" length="6">eerder</wf>
+    <wf wid="w345" sent="13" para="2" offset="2037" length="7">vandaag</wf>
+    <wf wid="w346" sent="13" para="2" offset="2045" length="2">in</wf>
+    <wf wid="w347" sent="13" para="2" offset="2048" length="10">Washington</wf>
+    <wf wid="w348" sent="13" para="2" offset="2058" length="1">.</wf>
+    <wf wid="w924" sent="39" para="2" offset="5348" length="4">Over</wf>
+    <wf wid="w925" sent="39" para="2" offset="5353" length="9">Nederland</wf>
+    <wf wid="w926" sent="39" para="2" offset="5363" length="4">kwam</wf>
+    <wf wid="w927" sent="39" para="2" offset="5368" length="6">eerder</wf>
+    <wf wid="w928" sent="39" para="2" offset="5375" length="4">naar</wf>
+    <wf wid="w929" sent="39" para="2" offset="5380" length="6">buiten</wf>
+    <wf wid="w930" sent="39" para="2" offset="5387" length="3">dat</wf>
+    <wf wid="w931" sent="39" para="2" offset="5391" length="2">de</wf>
+    <wf wid="w932" sent="39" para="2" offset="5394" length="3">NSA</wf>
+    <wf wid="w933" sent="39" para="2" offset="5398" length="2">in</wf>
+    <wf wid="w934" sent="39" para="2" offset="5401" length="3">een</wf>
+    <wf wid="w935" sent="39" para="2" offset="5405" length="5">maand</wf>
+    <wf wid="w936" sent="39" para="2" offset="5411" length="4">tijd</wf>
+    <wf wid="w937" sent="39" para="2" offset="5416" length="2">de</wf>
+    <wf wid="w938" sent="39" para="2" offset="5419" length="8">metadata</wf>
+    <wf wid="w939" sent="39" para="2" offset="5428" length="3">van</wf>
+    <wf wid="w940" sent="39" para="2" offset="5432" length="3">1,8</wf>
+    <wf wid="w941" sent="39" para="2" offset="5436" length="7">miljoen</wf>
+    <wf wid="w942" sent="39" para="2" offset="5444" length="12">telefoontjes</wf>
+    <wf wid="w943" sent="39" para="2" offset="5457" length="12">onderschepte</wf>
+    <wf wid="w944" sent="39" para="2" offset="5469" length="1">.</wf>
+  </text>
+  <terms>
+    <!--“-->
+    <term tid="t328" type="open" lemma="“" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--Vrienden-->
+    <term tid="t329" type="open" lemma="vriend" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w329"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--en-->
+    <term tid="t330" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <!--partners-->
+    <term tid="t331" type="open" lemma="partner" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w331"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--bespioneren-->
+    <term tid="t332" type="open" lemma="bespioneren" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t333" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <!--”-->
+    <term tid="t334" type="open" lemma="”" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t335" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <!--zei-->
+    <term tid="t336" type="open" lemma="zeggen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--vicepresident-->
+    <term tid="t337" type="open" lemma="vicepresident" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t338" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t339" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t340" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--Commissie-->
+    <term tid="t341" type="open" lemma="commissie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w341"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Viviane-->
+    <term tid="t342" type="open" lemma="Viviane" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--Reding-->
+    <term tid="t343" type="open" lemma="Reding" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--eerder-->
+    <term tid="t344" type="open" lemma="eerder" pos="G" morphofeat="adj">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--vandaag-->
+    <term tid="t345" type="open" lemma="vandaag" pos="A" morphofeat="adv">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t346" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--Washington-->
+    <term tid="t347" type="open" lemma="Washington" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t348" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <!--Over-->
+    <term tid="t924" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w924"/>
+      </span>
+    </term>
+    <!--Nederland-->
+    <term tid="t925" type="open" lemma="Nederland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w925"/>
+      </span>
+    </term>
+    <!--kwam-->
+    <term tid="t926" type="open" lemma="komen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w926"/>
+      </span>
+    </term>
+    <!--eerder-->
+    <term tid="t927" type="open" lemma="eerder" pos="A" morphofeat="adv">
+      <span>
+        <target id="w927"/>
+      </span>
+    </term>
+    <!--naar-->
+    <term tid="t928" type="close" lemma="naar" pos="P" morphofeat="prep">
+      <span>
+        <target id="w928"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--buiten-->
+    <term tid="t929" type="open" lemma="buiten" pos="A" morphofeat="adv">
+      <span>
+        <target id="w929"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t930" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w930"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t931" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w931"/>
+      </span>
+    </term>
+    <!--NSA-->
+    <term tid="t932" type="open" lemma="NSA" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w932"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t933" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w933"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t934" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w934"/>
+      </span>
+    </term>
+    <!--maand-->
+    <term tid="t935" type="open" lemma="maand" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w935"/>
+      </span>
+    </term>
+    <!--tijd-->
+    <term tid="t936" type="open" lemma="tijd" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w936"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t937" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w937"/>
+      </span>
+    </term>
+    <!--metadata-->
+    <term tid="t938" type="open" lemma="metadata" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w938"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t939" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w939"/>
+      </span>
+    </term>
+    <!--1,8-->
+    <term tid="t940" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w940"/>
+      </span>
+    </term>
+    <!--miljoen-->
+    <term tid="t941" type="open" lemma="miljoen" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w941"/>
+      </span>
+    </term>
+    <!--telefoontjes-->
+    <term tid="t942" type="open" lemma="telefoon" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w942"/>
+      </span>
+    </term>
+    <!--onderschepte-->
+    <term tid="t943" type="open" lemma="onderscheppen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w943"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t944" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w944"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--vicepresident van de Europese Commissie-->
+        <span>
+          <target id="t337"/>
+          <target id="t338"/>
+          <target id="t339"/>
+          <target id="t340"/>
+          <target id="t341"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--partners-->
+        <span>
+          <target id="t331"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--bespioneren niet-->
+        <span>
+          <target id="t332"/>
+          <target id="t333"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--vicepresident van de Europese Commissie-->
+        <span>
+          <target id="t337"/>
+          <target id="t338"/>
+          <target id="t339"/>
+          <target id="t340"/>
+          <target id="t341"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Vrienden-->
+        <span>
+          <target id="t329"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--bespioneren niet-->
+        <span>
+          <target id="t332"/>
+          <target id="t333"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t924"/>
+          <target id="t925"/>
+          <target id="t926"/>
+          <target id="t927"/>
+          <target id="t928"/>
+          <target id="t929"/>
+          <target id="t930"/>
+          <target id="t931"/>
+          <target id="t932"/>
+          <target id="t933"/>
+          <target id="t934"/>
+          <target id="t935"/>
+          <target id="t936"/>
+          <target id="t937"/>
+          <target id="t938"/>
+          <target id="t939"/>
+          <target id="t940"/>
+          <target id="t941"/>
+          <target id="t942"/>
+          <target id="t943"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

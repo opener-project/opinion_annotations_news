@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:00:24CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w428" sent="21" para="2" offset="2378" length="4">Zelf</wf>
+    <wf wid="w429" sent="21" para="2" offset="2383" length="5">pleit</wf>
+    <wf wid="w430" sent="21" para="2" offset="2389" length="3">hij</wf>
+    <wf wid="w431" sent="21" para="2" offset="2393" length="4">voor</wf>
+    <wf wid="w432" sent="21" para="2" offset="2398" length="6">genoeg</wf>
+    <wf wid="w433" sent="21" para="2" offset="2405" length="12">landbouwgeld</wf>
+    <wf wid="w434" sent="21" para="2" offset="2417" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Zelf-->
+    <term tid="t428" type="close" lemma="zelf" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w428"/>
+      </span>
+    </term>
+    <!--pleit-->
+    <term tid="t429" type="open" lemma="pleiten" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w429"/>
+      </span>
+    </term>
+    <!--hij-->
+    <term tid="t430" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w430"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t431" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w431"/>
+      </span>
+    </term>
+    <!--genoeg-->
+    <term tid="t432" type="open" lemma="genoeg" pos="A" morphofeat="adv">
+      <span>
+        <target id="w432"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--landbouwgeld-->
+    <term tid="t433" type="open" lemma="landbouwgeld" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w433"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t434" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w434"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--landbouwgeld-->
+        <span>
+          <target id="t433"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--genoeg-->
+        <span>
+          <target id="t432"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

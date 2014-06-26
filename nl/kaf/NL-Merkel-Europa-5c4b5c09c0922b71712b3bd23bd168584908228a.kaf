@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:58Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:58Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:57:29CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:31CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w35" sent="3" para="2" offset="255" length="7">Volgens</wf>
+    <wf wid="w36" sent="3" para="2" offset="263" length="6">Merkel</wf>
+    <wf wid="w37" sent="3" para="2" offset="270" length="2">is</wf>
+    <wf wid="w38" sent="3" para="2" offset="273" length="3">dat</wf>
+    <wf wid="w39" sent="3" para="2" offset="277" length="1">'</wf>
+    <wf wid="w40" sent="3" para="2" offset="278" length="9">volstrekt</wf>
+    <wf wid="w41" sent="3" para="2" offset="288" length="12">onacceptabel</wf>
+    <wf wid="w42" sent="3" para="2" offset="300" length="1">'</wf>
+    <wf wid="w43" sent="3" para="2" offset="301" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Volgens-->
+    <term tid="t35" type="close" lemma="volgens" pos="P" morphofeat="prep">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t36" type="open" lemma="Merkel" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t37" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t38" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t39" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--volstrekt-->
+    <term tid="t40" type="open" lemma="volstrekt" pos="G" morphofeat="adj">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--onacceptabel-->
+    <term tid="t41" type="open" lemma="onacceptabel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t42" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t43" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--dat-->
+        <span>
+          <target id="t38"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--volstrekt onacceptabel-->
+        <span>
+          <target id="t40"/>
+          <target id="t41"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

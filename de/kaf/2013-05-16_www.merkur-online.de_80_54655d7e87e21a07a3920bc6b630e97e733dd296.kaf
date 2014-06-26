@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:24:12Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:24:12Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:53:08CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:24:34CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:28CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w79" sent="9" para="6" offset="493" length="3">Sie</wf>
+    <wf wid="w80" sent="9" para="6" offset="497" length="5">freut</wf>
+    <wf wid="w81" sent="9" para="6" offset="503" length="4">sich</wf>
+    <wf wid="w82" sent="9" para="6" offset="508" length="4">über</wf>
+    <wf wid="w83" sent="9" para="6" offset="513" length="3">die</wf>
+    <wf wid="w84" sent="9" para="6" offset="517" length="13">Böllerschüsse</wf>
+    <wf wid="w85" sent="9" para="6" offset="531" length="3">vor</wf>
+    <wf wid="w86" sent="9" para="6" offset="535" length="3">dem</wf>
+    <wf wid="w87" sent="9" para="6" offset="539" length="11">Truderinger</wf>
+    <wf wid="w88" sent="9" para="6" offset="551" length="8">Festzelt</wf>
+    <wf wid="w89" sent="9" para="6" offset="560" length="3">und</wf>
+    <wf wid="w90" sent="9" para="6" offset="564" length="3">die</wf>
+    <wf wid="w91" sent="9" para="6" offset="568" length="6">vielen</wf>
+    <wf wid="w92" sent="9" para="6" offset="575" length="3">mit</wf>
+    <wf wid="w93" sent="9" para="6" offset="579" length="5">ihren</wf>
+    <wf wid="w94" sent="9" para="6" offset="585" length="6">Fahnen</wf>
+    <wf wid="w95" sent="9" para="6" offset="592" length="12">aufgezogenen</wf>
+    <wf wid="w96" sent="9" para="6" offset="605" length="7">Vereine</wf>
+    <wf wid="w97" sent="9" para="6" offset="612" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Sie|sie" morphofeat="PPER" pos="Q" tid="t79" type="close">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <term lemma="freuen" morphofeat="VVFIN" pos="V" tid="t80" type="open">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t81" type="close">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <term lemma="über" morphofeat="APPR" pos="P" tid="t82" type="close">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t83" type="close">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <term lemma="Böllerschuss" morphofeat="NN" pos="N" tid="t84" type="open">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <term lemma="vor" morphofeat="APPR" pos="P" tid="t85" type="close">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t86" type="close">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <term lemma="Truderinger" morphofeat="NN unknown_lemma" pos="O" tid="t87" type="open">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <term lemma="Festzelt" morphofeat="NN" pos="N" tid="t88" type="open">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t89" type="close">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t90" type="close">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <term lemma="viele" morphofeat="PIAT" pos="Q" tid="t91" type="close">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t92" type="close">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <term lemma="ihr" morphofeat="PPOSAT" pos="Q" tid="t93" type="close">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <term lemma="Fahne" morphofeat="NN" pos="N" tid="t94" type="open">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <term lemma="aufgezogen" morphofeat="ADJA" pos="G" tid="t95" type="open">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <term lemma="Verein" morphofeat="NN" pos="N" tid="t96" type="open">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t97" type="open">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Sie-->
+        <span>
+          <target id="t79"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die Böllerschüsse-->
+        <span>
+          <target id="t83"/>
+          <target id="t84"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--freut sich über-->
+        <span>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Sie-->
+        <span>
+          <target id="t79"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die vielen mit ihren Fahnen aufgezogenen Vereine-->
+        <span>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--freut sich über-->
+        <span>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

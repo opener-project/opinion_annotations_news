@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:54:36Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:54:36Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:54:36Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:30:29CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="2">L’</wf>
+    <wf wid="w2" sent="1" para="1" offset="2" length="6">Europe</wf>
+    <wf wid="w3" sent="1" para="1" offset="9" length="4">veut</wf>
+    <wf wid="w4" sent="1" para="1" offset="14" length="10">réexaminer</wf>
+    <wf wid="w5" sent="1" para="1" offset="25" length="3">ses</wf>
+    <wf wid="w6" sent="1" para="1" offset="29" length="9">relations</wf>
+    <wf wid="w7" sent="1" para="1" offset="39" length="4">avec</wf>
+    <wf wid="w8" sent="1" para="1" offset="44" length="2">l’</wf>
+    <wf wid="w9" sent="1" para="1" offset="46" length="6">Égypte</wf>
+    <wf wid="w538" sent="19" para="10" offset="2894" length="8">Ailleurs</wf>
+    <wf wid="w539" sent="19" para="10" offset="2903" length="4">dans</wf>
+    <wf wid="w540" sent="19" para="10" offset="2908" length="2">le</wf>
+    <wf wid="w541" sent="19" para="10" offset="2911" length="5">monde</wf>
+    <wf wid="w542" sent="19" para="10" offset="2916" length="1">,</wf>
+    <wf wid="w543" sent="19" para="10" offset="2918" length="9">plusieurs</wf>
+    <wf wid="w544" sent="19" para="10" offset="2928" length="9">capitales</wf>
+    <wf wid="w545" sent="19" para="10" offset="2938" length="3">ont</wf>
+    <wf wid="w546" sent="19" para="10" offset="2942" length="9">également</wf>
+    <wf wid="w547" sent="19" para="10" offset="2952" length="5">durci</wf>
+    <wf wid="w548" sent="19" para="10" offset="2958" length="2">le</wf>
+    <wf wid="w549" sent="19" para="10" offset="2961" length="3">ton</wf>
+    <wf wid="w550" sent="19" para="10" offset="2964" length="1">.</wf>
+  </text>
+  <terms>
+    <!--L’-->
+    <term tid="t1" type="close" lemma="L’" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term tid="t2" type="open" lemma="Europe" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--veut-->
+    <term tid="t3" type="open" lemma="vouloir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--réexaminer-->
+    <term tid="t4" type="open" lemma="réexaminer" pos="V" morphofeat="VW">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--ses-->
+    <term tid="t5" type="close" lemma="son" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--relations-->
+    <term tid="t6" type="open" lemma="relation" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--avec-->
+    <term tid="t7" type="close" lemma="avec" pos="P" morphofeat="P">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t8" type="close" lemma="l’" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--Égypte-->
+    <term tid="t9" type="open" lemma="Égypte" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--Ailleurs-->
+    <term tid="t538" type="open" lemma="Ailleurs" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w538"/>
+      </span>
+    </term>
+    <!--dans-->
+    <term tid="t539" type="close" lemma="dans" pos="P" morphofeat="P">
+      <span>
+        <target id="w539"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t540" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w540"/>
+      </span>
+    </term>
+    <!--monde-->
+    <term tid="t541" type="open" lemma="monde" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w541"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t542" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w542"/>
+      </span>
+    </term>
+    <!--plusieurs-->
+    <term tid="t543" type="close" lemma="plusieurs" pos="D" morphofeat="Dmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w543"/>
+      </span>
+    </term>
+    <!--capitales-->
+    <term tid="t544" type="open" lemma="capitale" pos="N" morphofeat="NCmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w544"/>
+      </span>
+    </term>
+    <!--ont-->
+    <term tid="t545" type="open" lemma="avoir" pos="V" morphofeat="VP3p">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w545"/>
+      </span>
+    </term>
+    <!--également-->
+    <term tid="t546" type="open" lemma="également" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w546"/>
+      </span>
+    </term>
+    <!--durci-->
+    <term tid="t547" type="close" lemma="durci" pos="P" morphofeat="P">
+      <span>
+        <target id="w547"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t548" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w548"/>
+      </span>
+    </term>
+    <!--ton-->
+    <term tid="t549" type="open" lemma="ton" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w549"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t550" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w550"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--L’ Europe-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--ses relations avec l’ Égypte-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--veut réexaminer-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t538"/>
+          <target id="t539"/>
+          <target id="t540"/>
+          <target id="t541"/>
+          <target id="t542"/>
+          <target id="t543"/>
+          <target id="t544"/>
+          <target id="t545"/>
+          <target id="t546"/>
+          <target id="t547"/>
+          <target id="t548"/>
+          <target id="t549"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

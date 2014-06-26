@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:57:27Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:57:27Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:02:42CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:58:12CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w997" sent="72" para="21" offset="6716" length="11">Tiefstwerte</wf>
+    <wf wid="w998" sent="72" para="21" offset="6728" length="4">plus</wf>
+    <wf wid="w999" sent="72" para="21" offset="6733" length="1">5</wf>
+    <wf wid="w1000" sent="72" para="21" offset="6735" length="3">bis</wf>
+    <wf wid="w1001" sent="72" para="21" offset="6739" length="5">minus</wf>
+    <wf wid="w1002" sent="72" para="21" offset="6745" length="1">·</wf>
+    <wf wid="w1003" sent="72" para="21" offset="6746" length="1">6</wf>
+    <wf wid="w1004" sent="72" para="21" offset="6748" length="4">Grad</wf>
+    <wf wid="w1005" sent="72" para="21" offset="6752" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Tiefstwert" morphofeat="NN" pos="N" tid="t997" type="open">
+      <span>
+        <target id="w997"/>
+      </span>
+    </term>
+    <term lemma="plus" morphofeat="ADV" pos="A" tid="t998" type="open">
+      <span>
+        <target id="w998"/>
+      </span>
+    </term>
+    <term lemma="5" morphofeat="CARD" pos="O" tid="t999" type="open">
+      <span>
+        <target id="w999"/>
+      </span>
+    </term>
+    <term lemma="bis" morphofeat="APPR" pos="P" tid="t1000" type="close">
+      <span>
+        <target id="w1000"/>
+      </span>
+    </term>
+    <term lemma="minus" morphofeat="ADV" pos="A" tid="t1001" type="open">
+      <span>
+        <target id="w1001"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t1002" type="open">
+      <span>
+        <target id="w1002"/>
+      </span>
+    </term>
+    <term lemma="6" morphofeat="CARD" pos="O" tid="t1003" type="open">
+      <span>
+        <target id="w1003"/>
+      </span>
+    </term>
+    <term lemma="Grad" morphofeat="NN" pos="N" tid="t1004" type="open">
+      <span>
+        <target id="w1004"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t1005" type="open">
+      <span>
+        <target id="w1005"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t997"/>
+          <target id="t998"/>
+          <target id="t999"/>
+          <target id="t1000"/>
+          <target id="t1001"/>
+          <target id="t1002"/>
+          <target id="t1003"/>
+          <target id="t1004"/>
+          <target id="t1005"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

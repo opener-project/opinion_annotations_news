@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T11:09:25Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T11:09:25Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:52:26CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T12:09:50CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w187" sent="13" para="7" offset="1093" length="1">"</wf>
+    <wf wid="w188" sent="13" para="7" offset="1094" length="11">Langfristig</wf>
+    <wf wid="w189" sent="13" para="7" offset="1106" length="3">ist</wf>
+    <wf wid="w190" sent="13" para="7" offset="1110" length="3">das</wf>
+    <wf wid="w191" sent="13" para="7" offset="1114" length="11">unglaublich</wf>
+    <wf wid="w192" sent="13" para="7" offset="1126" length="7">wichtig</wf>
+    <wf wid="w193" sent="13" para="7" offset="1133" length="1">"</wf>
+    <wf wid="w194" sent="13" para="7" offset="1134" length="1">,</wf>
+    <wf wid="w195" sent="13" para="7" offset="1136" length="5">sagte</wf>
+    <wf wid="w196" sent="13" para="7" offset="1142" length="3">ein</wf>
+    <wf wid="w197" sent="13" para="7" offset="1146" length="16">Verantwortlicher</wf>
+    <wf wid="w198" sent="13" para="7" offset="1162" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t187" type="open">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <term lemma="langfristig" morphofeat="ADJD" pos="G" tid="t188" type="open">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t189" type="open">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="PDS" pos="Q" tid="t190" type="close">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <term lemma="unglaublich" morphofeat="ADJD" pos="G" tid="t191" type="open">
+      <span>
+        <target id="w191"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="wichtig" morphofeat="ADJD" pos="G" tid="t192" type="open">
+      <span>
+        <target id="w192"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t193" type="open">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t194" type="open">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t195" type="open">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t196" type="close">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <term lemma="Verantwortliche" morphofeat="NN" pos="N" tid="t197" type="open">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t198" type="open">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--ein Verantwortlicher-->
+        <span>
+          <target id="t196"/>
+          <target id="t197"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--das-->
+        <span>
+          <target id="t190"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--sagte-->
+        <span>
+          <target id="t195"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--ein Verantwortlicher-->
+        <span>
+          <target id="t196"/>
+          <target id="t197"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--das-->
+        <span>
+          <target id="t190"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--unglaublich wichtig-->
+        <span>
+          <target id="t191"/>
+          <target id="t192"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

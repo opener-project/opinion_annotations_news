@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:44:48Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:44:48Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:44:48Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:38:03CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w38" sent="5" para="5" offset="189" length="2">La</wf>
+    <wf wid="w39" sent="5" para="5" offset="192" length="11">chancelière</wf>
+    <wf wid="w40" sent="5" para="5" offset="204" length="8">sortante</wf>
+    <wf wid="w41" sent="5" para="5" offset="213" length="1">a</wf>
+    <wf wid="w42" sent="5" para="5" offset="215" length="3">été</wf>
+    <wf wid="w43" sent="5" para="5" offset="219" length="10">accueillie</wf>
+    <wf wid="w44" sent="5" para="5" offset="230" length="14">triomphalement</wf>
+    <wf wid="w45" sent="5" para="5" offset="245" length="4">pour</wf>
+    <wf wid="w46" sent="5" para="5" offset="250" length="3">son</wf>
+    <wf wid="w47" sent="5" para="5" offset="254" length="7">dernier</wf>
+    <wf wid="w48" sent="5" para="5" offset="262" length="5">grand</wf>
+    <wf wid="w49" sent="5" para="5" offset="268" length="8">discours</wf>
+    <wf wid="w50" sent="5" para="5" offset="277" length="1">à</wf>
+    <wf wid="w51" sent="5" para="5" offset="279" length="6">Berlin</wf>
+    <wf wid="w52" sent="5" para="5" offset="285" length="1">.</wf>
+    <wf wid="w179" sent="10" para="9" offset="955" length="4">Pour</wf>
+    <wf wid="w180" sent="10" para="9" offset="960" length="2">ce</wf>
+    <wf wid="w181" sent="10" para="9" offset="963" length="8">militant</wf>
+    <wf wid="w182" sent="10" para="9" offset="972" length="2">de</wf>
+    <wf wid="w183" sent="10" para="9" offset="975" length="2">la</wf>
+    <wf wid="w184" sent="10" para="9" offset="978" length="3">CDU</wf>
+    <wf wid="w185" sent="10" para="9" offset="981" length="1">,</wf>
+    <wf wid="w186" sent="10" para="9" offset="983" length="7">Florian</wf>
+    <wf wid="w187" sent="10" para="9" offset="991" length="4">Graf</wf>
+    <wf wid="w188" sent="10" para="9" offset="996" length="1">:</wf>
+    <wf wid="w189" sent="10" para="9" offset="998" length="1">“</wf>
+    <wf wid="w190" sent="10" para="9" offset="999" length="2">C’</wf>
+    <wf wid="w191" sent="10" para="9" offset="1001" length="3">est</wf>
+    <wf wid="w192" sent="10" para="9" offset="1005" length="3">une</wf>
+    <wf wid="w193" sent="10" para="9" offset="1009" length="6">source</wf>
+    <wf wid="w194" sent="10" para="9" offset="1016" length="2">de</wf>
+    <wf wid="w195" sent="10" para="9" offset="1019" length="10">motivation</wf>
+    <wf wid="w196" sent="10" para="9" offset="1030" length="2">en</wf>
+    <wf wid="w197" sent="10" para="9" offset="1033" length="3">ces</wf>
+    <wf wid="w198" sent="10" para="9" offset="1037" length="9">dernières</wf>
+    <wf wid="w199" sent="10" para="9" offset="1047" length="6">heures</wf>
+    <wf wid="w200" sent="10" para="9" offset="1054" length="2">de</wf>
+    <wf wid="w201" sent="10" para="9" offset="1057" length="8">campagne</wf>
+    <wf wid="w202" sent="10" para="9" offset="1065" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t38" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--chancelière-->
+    <term tid="t39" type="open" lemma="chancelier" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--sortante-->
+    <term tid="t40" type="open" lemma="sortant" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t41" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--été-->
+    <term tid="t42" type="open" lemma="être" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--accueillie-->
+    <term tid="t43" type="open" lemma="accueillir" pos="V" morphofeat="VKfs">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--triomphalement-->
+    <term tid="t44" type="open" lemma="triomphalement" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t45" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--son-->
+    <term tid="t46" type="close" lemma="son" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--dernier-->
+    <term tid="t47" type="open" lemma="dernier" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--grand-->
+    <term tid="t48" type="open" lemma="grand" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--discours-->
+    <term tid="t49" type="open" lemma="discours" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t50" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--Berlin-->
+    <term tid="t51" type="open" lemma="Berlin" pos="N" morphofeat="NPs">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t52" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--Pour-->
+    <term tid="t179" type="close" lemma="Pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--ce-->
+    <term tid="t180" type="close" lemma="ce" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--militant-->
+    <term tid="t181" type="open" lemma="militant" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t182" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t183" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--CDU-->
+    <term tid="t184" type="open" lemma="CDU" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t185" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--Florian-->
+    <term tid="t186" type="open" lemma="Florian" pos="N" morphofeat="NPs">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--Graf-->
+    <term tid="t187" type="open" lemma="Graf" pos="N" morphofeat="NPs">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t188" type="close" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--“-->
+    <term tid="t189" type="close" lemma="“" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--C’-->
+    <term tid="t190" type="open" lemma="C’" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t191" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--une-->
+    <term tid="t192" type="close" lemma="un" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--source-->
+    <term tid="t193" type="open" lemma="source" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t194" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--motivation-->
+    <term tid="t195" type="open" lemma="motivation" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t196" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--ces-->
+    <term tid="t197" type="close" lemma="ce" pos="D" morphofeat="Dfp">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--dernières-->
+    <term tid="t198" type="open" lemma="dernier" pos="G" morphofeat="Afp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--heures-->
+    <term tid="t199" type="open" lemma="heure" pos="N" morphofeat="NCfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t200" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--campagne-->
+    <term tid="t201" type="open" lemma="campagne" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t202" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--ce militant de la CDU , Florian Graf-->
+        <span>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--une source de motivation-->
+        <span>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--La chancelière sortante-->
+        <span>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--été accueillie triomphalement-->
+        <span>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:56Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:56Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:42:39CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:37CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w247" sent="12" para="2" offset="1577" length="9">Duitsland</wf>
+    <wf wid="w248" sent="12" para="2" offset="1587" length="5">heeft</wf>
+    <wf wid="w249" sent="12" para="2" offset="1593" length="4">zich</wf>
+    <wf wid="w250" sent="12" para="2" offset="1598" length="6">altijd</wf>
+    <wf wid="w251" sent="12" para="2" offset="1605" length="6">verzet</wf>
+    <wf wid="w252" sent="12" para="2" offset="1612" length="5">tegen</wf>
+    <wf wid="w253" sent="12" para="2" offset="1618" length="2">de</wf>
+    <wf wid="w254" sent="12" para="2" offset="1621" length="9">invoering</wf>
+    <wf wid="w255" sent="12" para="2" offset="1631" length="3">van</wf>
+    <wf wid="w256" sent="12" para="2" offset="1635" length="15">euro-obligaties</wf>
+    <wf wid="w257" sent="12" para="2" offset="1650" length="1">,</wf>
+    <wf wid="w258" sent="12" para="2" offset="1652" length="5">omdat</wf>
+    <wf wid="w259" sent="12" para="2" offset="1658" length="6">alleen</wf>
+    <wf wid="w260" sent="12" para="2" offset="1665" length="2">de</wf>
+    <wf wid="w261" sent="12" para="2" offset="1668" length="12">noodlijdende</wf>
+    <wf wid="w262" sent="12" para="2" offset="1681" length="6">landen</wf>
+    <wf wid="w263" sent="12" para="2" offset="1688" length="3">van</wf>
+    <wf wid="w264" sent="12" para="2" offset="1692" length="4">deze</wf>
+    <wf wid="w265" sent="12" para="2" offset="1697" length="9">maatregel</wf>
+    <wf wid="w266" sent="12" para="2" offset="1707" length="10">profiteren</wf>
+    <wf wid="w267" sent="12" para="2" offset="1717" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Duitsland-->
+    <term tid="t247" type="open" lemma="Duitsland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--heeft-->
+    <term tid="t248" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--zich-->
+    <term tid="t249" type="close" lemma="zich" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--altijd-->
+    <term tid="t250" type="open" lemma="altijd" pos="A" morphofeat="adv">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--verzet-->
+    <term tid="t251" type="open" lemma="verzet" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w251"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--tegen-->
+    <term tid="t252" type="close" lemma="tegen" pos="P" morphofeat="prep">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t253" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--invoering-->
+    <term tid="t254" type="open" lemma="invoering" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t255" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--euro-obligaties-->
+    <term tid="t256" type="open" lemma="euro-obligaties" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t257" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--omdat-->
+    <term tid="t258" type="close" lemma="omdat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--alleen-->
+    <term tid="t259" type="open" lemma="alleen" pos="A" morphofeat="adv">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t260" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--noodlijdende-->
+    <term tid="t261" type="open" lemma="noodlijdend" pos="G" morphofeat="adj">
+      <span>
+        <target id="w261"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--landen-->
+    <term tid="t262" type="open" lemma="land" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t263" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--deze-->
+    <term tid="t264" type="close" lemma="deze" pos="D" morphofeat="det__demo">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--maatregel-->
+    <term tid="t265" type="open" lemma="maatregel" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--profiteren-->
+    <term tid="t266" type="open" lemma="profiteren" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t267" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--de noodlijdende landen-->
+        <span>
+          <target id="t260"/>
+          <target id="t261"/>
+          <target id="t262"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--van deze maatregel profiteren-->
+        <span>
+          <target id="t263"/>
+          <target id="t264"/>
+          <target id="t265"/>
+          <target id="t266"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--landen-->
+        <span>
+          <target id="t262"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--noodlijdende-->
+        <span>
+          <target id="t261"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Duitsland-->
+        <span>
+          <target id="t247"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de invoering-->
+        <span>
+          <target id="t253"/>
+          <target id="t254"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--altijd verzet tegen-->
+        <span>
+          <target id="t250"/>
+          <target id="t251"/>
+          <target id="t252"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

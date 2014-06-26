@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T10:06:02Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T10:06:02Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:14:39CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T11:06:32CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w2" sent="2" para="2" offset="12" length="2">EU</wf>
+    <wf wid="w3" sent="2" para="2" offset="15" length="4">will</wf>
+    <wf wid="w4" sent="2" para="2" offset="19" length="1">,</wf>
+    <wf wid="w5" sent="2" para="2" offset="21" length="4">dass</wf>
+    <wf wid="w6" sent="2" para="2" offset="26" length="6">Berlin</wf>
+    <wf wid="w7" sent="2" para="2" offset="33" length="3">für</wf>
+    <wf wid="w8" sent="2" para="2" offset="37" length="7">Europas</wf>
+    <wf wid="w9" sent="2" para="2" offset="45" length="11">Arbeitslose</wf>
+    <wf wid="w10" sent="2" para="2" offset="57" length="5">zahlt</wf>
+  </text>
+  <terms>
+    <term lemma="EU" morphofeat="NE" pos="R" tid="t2" type="open">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t3" type="open">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t4" type="open">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="dass" morphofeat="KOUS" pos="C" tid="t5" type="close">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="Berlin" morphofeat="NE" pos="R" tid="t6" type="open">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t7" type="close">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="Europa" morphofeat="NE" pos="R" tid="t8" type="open">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="Arbeitslose" morphofeat="NN" pos="N" tid="t9" type="open">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="zahlen" morphofeat="VVFIN" pos="V" tid="t10" type="open">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--EU-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--dass Berlin für Europas Arbeitslose zahlt-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--will-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

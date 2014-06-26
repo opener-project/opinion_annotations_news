@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:50:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:50:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:50:52Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:23:17CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Accord</wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="2">en</wf>
+    <wf wid="w3" sent="1" para="1" offset="10" length="3">vue</wf>
+    <wf wid="w4" sent="1" para="1" offset="14" length="3">sur</wf>
+    <wf wid="w5" sent="1" para="1" offset="18" length="2">le</wf>
+    <wf wid="w6" sent="1" para="1" offset="21" length="6">budget</wf>
+    <wf wid="w7" sent="1" para="1" offset="28" length="8">européen</wf>
+    <wf wid="w594" sent="19" para="19" offset="3181" length="2">Ce</wf>
+    <wf wid="w595" sent="19" para="19" offset="3184" length="5">degré</wf>
+    <wf wid="w596" sent="19" para="19" offset="3190" length="2">de</wf>
+    <wf wid="w597" sent="19" para="19" offset="3193" length="11">flexibilité</wf>
+    <wf wid="w598" sent="19" para="19" offset="3205" length="3">est</wf>
+    <wf wid="w599" sent="19" para="19" offset="3209" length="12">actuellement</wf>
+    <wf wid="w600" sent="19" para="19" offset="3222" length="2">en</wf>
+    <wf wid="w601" sent="19" para="19" offset="3225" length="5">cours</wf>
+    <wf wid="w602" sent="19" para="19" offset="3231" length="2">de</wf>
+    <wf wid="w603" sent="19" para="19" offset="3234" length="11">négociation</wf>
+    <wf wid="w604" sent="19" para="19" offset="3245" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Accord-->
+    <term tid="t1" type="open" lemma="accord" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t2" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--vue-->
+    <term tid="t3" type="open" lemma="vue" pos="N" morphofeat="N">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--sur-->
+    <term tid="t4" type="close" lemma="sur" pos="P" morphofeat="P">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t5" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--budget-->
+    <term tid="t6" type="open" lemma="budget" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--européen-->
+    <term tid="t7" type="open" lemma="européen" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Ce-->
+    <term tid="t594" type="close" lemma="ce" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w594"/>
+      </span>
+    </term>
+    <!--degré-->
+    <term tid="t595" type="open" lemma="degré" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w595"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t596" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w596"/>
+      </span>
+    </term>
+    <!--flexibilité-->
+    <term tid="t597" type="open" lemma="flexibilité" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w597"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t598" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w598"/>
+      </span>
+    </term>
+    <!--actuellement-->
+    <term tid="t599" type="open" lemma="actuellement" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w599"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t600" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w600"/>
+      </span>
+    </term>
+    <!--cours-->
+    <term tid="t601" type="open" lemma="cour" pos="N" morphofeat="N">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w601"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t602" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w602"/>
+      </span>
+    </term>
+    <!--négociation-->
+    <term tid="t603" type="open" lemma="négociation" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w603"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t604" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w604"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t594"/>
+          <target id="t595"/>
+          <target id="t596"/>
+          <target id="t597"/>
+          <target id="t598"/>
+          <target id="t599"/>
+          <target id="t600"/>
+          <target id="t601"/>
+          <target id="t602"/>
+          <target id="t603"/>
+          <target id="t604"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

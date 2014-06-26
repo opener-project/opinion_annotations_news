@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:36Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:36Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:32:42" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:36:07CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="7" para="2" offset="866" length="2" wid="w158">US</wf>
+    <wf sent="7" para="2" offset="869" length="9" wid="w159">President</wf>
+    <wf sent="7" para="2" offset="879" length="6" wid="w160">Barack</wf>
+    <wf sent="7" para="2" offset="886" length="5" wid="w161">Obama</wf>
+    <wf sent="7" para="2" offset="892" length="4" wid="w162">said</wf>
+    <wf sent="7" para="2" offset="897" length="2" wid="w163">it</wf>
+    <wf sent="7" para="2" offset="900" length="3" wid="w164">was</wf>
+    <wf sent="7" para="2" offset="904" length="2" wid="w165">an</wf>
+    <wf sent="7" para="2" offset="907" length="9" wid="w166">important</wf>
+    <wf sent="7" para="2" offset="917" length="5" wid="w167">first</wf>
+    <wf sent="7" para="2" offset="923" length="4" wid="w168">step</wf>
+    <wf sent="7" para="2" offset="928" length="7" wid="w169">towards</wf>
+    <wf sent="7" para="2" offset="936" length="1" wid="w170">a</wf>
+    <wf sent="7" para="2" offset="938" length="13" wid="w171">comprehensive</wf>
+    <wf sent="7" para="2" offset="952" length="8" wid="w172">solution</wf>
+    <wf sent="7" para="2" offset="961" length="2" wid="w173">to</wf>
+    <wf sent="7" para="2" offset="964" length="4" wid="w174">Iran</wf>
+    <wf sent="7" para="2" offset="968" length="2" wid="w175">'s</wf>
+    <wf sent="7" para="2" offset="971" length="7" wid="w176">nuclear</wf>
+    <wf sent="7" para="2" offset="979" length="9" wid="w177">programme</wf>
+    <wf sent="7" para="2" offset="988" length="1" wid="w178">.</wf>
+  </text>
+  <terms>
+    <!--US-->
+    <term type="close" lemma="US" pos="R" morphofeat="NNP" tid="t158">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--President-->
+    <term type="close" lemma="President" pos="R" morphofeat="NNP" tid="t159">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--Barack-->
+    <term type="close" lemma="Barack" pos="R" morphofeat="NNP" tid="t160">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term type="close" lemma="Obama" pos="R" morphofeat="NNP" tid="t161">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t162">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t163">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t164">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--an-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t165">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--important-->
+    <term type="open" lemma="important" pos="G" morphofeat="JJ" tid="t166">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--first-->
+    <term type="open" lemma="1" pos="G" morphofeat="JJ" tid="t167">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--step-->
+    <term type="open" lemma="step" pos="N" morphofeat="NN" tid="t168">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--towards-->
+    <term type="close" lemma="towards" pos="P" morphofeat="IN" tid="t169">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t170">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--comprehensive-->
+    <term type="open" lemma="comprehensive" pos="G" morphofeat="JJ" tid="t171">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--solution-->
+    <term type="open" lemma="solution" pos="N" morphofeat="NN" tid="t172">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t173">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--Iran-->
+    <term type="close" lemma="Iran" pos="R" morphofeat="NNP" tid="t174">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t175">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--nuclear-->
+    <term type="open" lemma="nuclear" pos="G" morphofeat="JJ" tid="t176">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--programme-->
+    <term type="open" lemma="programme" pos="N" morphofeat="NN" tid="t177">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t178">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--solution-->
+        <span>
+          <target id="t172"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--comprehensive-->
+        <span>
+          <target id="t171"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--first step-->
+        <span>
+          <target id="t167"/>
+          <target id="t168"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--important-->
+        <span>
+          <target id="t166"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

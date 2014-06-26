@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:44:12Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:44:12Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:17:03CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:44:50CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w271" sent="24" para="16" offset="1772" length="5">Julia</wf>
+    <wf wid="w272" sent="24" para="16" offset="1778" length="11">Timoschenko</wf>
+    <wf wid="w273" sent="24" para="16" offset="1790" length="4">wird</wf>
+    <wf wid="w274" sent="24" para="16" offset="1795" length="19">Ministerpräsidentin</wf>
+    <wf wid="w275" sent="24" para="16" offset="1815" length="3">der</wf>
+    <wf wid="w276" sent="24" para="16" offset="1819" length="10">ehemaligen</wf>
+    <wf wid="w277" sent="24" para="16" offset="1830" length="14">Sowjetrepublik</wf>
+    <wf wid="w278" sent="24" para="16" offset="1844" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Julia" morphofeat="NE" pos="R" tid="t271" type="open">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <term lemma="Timoschenko" morphofeat="NE unknown_lemma" pos="O" tid="t272" type="open">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t273" type="open">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <term lemma="Ministerpräsidentin" morphofeat="NN" pos="N" tid="t274" type="open">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t275" type="close">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <term lemma="ehemalig" morphofeat="ADJA" pos="G" tid="t276" type="open">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <term lemma="Sowjetrepublik" morphofeat="NN" pos="N" tid="t277" type="open">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t278" type="open">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t271"/>
+          <target id="t272"/>
+          <target id="t273"/>
+          <target id="t274"/>
+          <target id="t275"/>
+          <target id="t276"/>
+          <target id="t277"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

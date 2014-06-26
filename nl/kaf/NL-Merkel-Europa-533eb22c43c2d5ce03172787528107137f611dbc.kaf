@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:51Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:51Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:29:51CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w153" sent="8" para="2" offset="852" length="2">En</wf>
+    <wf wid="w154" sent="8" para="2" offset="855" length="2">de</wf>
+    <wf wid="w155" sent="8" para="2" offset="858" length="3">SPD</wf>
+    <wf wid="w156" sent="8" para="2" offset="862" length="3">wil</wf>
+    <wf wid="w157" sent="8" para="2" offset="866" length="4">niet</wf>
+    <wf wid="w158" sent="8" para="2" offset="871" length="2">in</wf>
+    <wf wid="w159" sent="8" para="2" offset="874" length="3">zee</wf>
+    <wf wid="w160" sent="8" para="2" offset="878" length="4">gaan</wf>
+    <wf wid="w161" sent="8" para="2" offset="883" length="3">met</wf>
+    <wf wid="w162" sent="8" para="2" offset="887" length="2">de</wf>
+    <wf wid="w163" sent="8" para="2" offset="890" length="11">Linkspartei</wf>
+    <wf wid="w164" sent="8" para="2" offset="901" length="1">.</wf>
+  </text>
+  <terms>
+    <!--En-->
+    <term tid="t153" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t154" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--SPD-->
+    <term tid="t155" type="open" lemma="SPD" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t156" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t157" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t158" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--zee-->
+    <term tid="t159" type="open" lemma="zee" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--gaan-->
+    <term tid="t160" type="open" lemma="gaan" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t161" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t162" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--Linkspartei-->
+    <term tid="t163" type="open" lemma="Linkspartei" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t164" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--de SPD-->
+        <span>
+          <target id="t154"/>
+          <target id="t155"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Linkspartei-->
+        <span>
+          <target id="t163"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--wil niet in zee gaan met-->
+        <span>
+          <target id="t156"/>
+          <target id="t157"/>
+          <target id="t158"/>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

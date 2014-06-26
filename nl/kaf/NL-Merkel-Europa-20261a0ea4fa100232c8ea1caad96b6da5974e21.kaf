@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:14:40CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w102" sent="5" para="2" offset="661" length="2">De</wf>
+    <wf wid="w103" sent="5" para="2" offset="664" length="6">eerste</wf>
+    <wf wid="w104" sent="5" para="2" offset="671" length="4">twee</wf>
+    <wf wid="w105" sent="5" para="2" offset="676" length="7">maanden</wf>
+    <wf wid="w106" sent="5" para="2" offset="684" length="6">blijft</wf>
+    <wf wid="w107" sent="5" para="2" offset="691" length="2">de</wf>
+    <wf wid="w108" sent="5" para="2" offset="694" length="7">heffing</wf>
+    <wf wid="w109" sent="5" para="2" offset="702" length="3">wel</wf>
+    <wf wid="w110" sent="5" para="2" offset="706" length="7">beperkt</wf>
+    <wf wid="w111" sent="5" para="2" offset="714" length="3">tot</wf>
+    <wf wid="w112" sent="5" para="2" offset="718" length="4">11,8</wf>
+    <wf wid="w113" sent="5" para="2" offset="723" length="7">procent</wf>
+    <wf wid="w114" sent="5" para="2" offset="730" length="1">.</wf>
+    <wf wid="w160" sent="8" para="2" offset="1000" length="2">De</wf>
+    <wf wid="w161" sent="8" para="2" offset="1003" length="6">eerste</wf>
+    <wf wid="w162" sent="8" para="2" offset="1010" length="4">twee</wf>
+    <wf wid="w163" sent="8" para="2" offset="1015" length="7">maanden</wf>
+    <wf wid="w164" sent="8" para="2" offset="1023" length="5">wordt</wf>
+    <wf wid="w165" sent="8" para="2" offset="1029" length="3">een</wf>
+    <wf wid="w166" sent="8" para="2" offset="1033" length="6">tarief</wf>
+    <wf wid="w167" sent="8" para="2" offset="1040" length="3">van</wf>
+    <wf wid="w168" sent="8" para="2" offset="1044" length="4">11,8</wf>
+    <wf wid="w169" sent="8" para="2" offset="1049" length="7">procent</wf>
+    <wf wid="w170" sent="8" para="2" offset="1057" length="10">gehanteerd</wf>
+    <wf wid="w171" sent="8" para="2" offset="1067" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t102" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--eerste-->
+    <term tid="t103" type="open" lemma="een" pos="O" morphofeat="num__ord">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--twee-->
+    <term tid="t104" type="open" lemma="twee" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--maanden-->
+    <term tid="t105" type="open" lemma="maand" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--blijft-->
+    <term tid="t106" type="open" lemma="blijven" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t107" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--heffing-->
+    <term tid="t108" type="open" lemma="heffing" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--wel-->
+    <term tid="t109" type="open" lemma="wel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--beperkt-->
+    <term tid="t110" type="open" lemma="beperken" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w110"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--tot-->
+    <term tid="t111" type="close" lemma="tot" pos="P" morphofeat="prep">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--11,8-->
+    <term tid="t112" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--procent-->
+    <term tid="t113" type="open" lemma="procent" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t114" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t160" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--eerste-->
+    <term tid="t161" type="open" lemma="een" pos="O" morphofeat="num__ord">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--twee-->
+    <term tid="t162" type="open" lemma="twee" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--maanden-->
+    <term tid="t163" type="open" lemma="maand" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--wordt-->
+    <term tid="t164" type="open" lemma="worden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t165" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--tarief-->
+    <term tid="t166" type="open" lemma="tarief" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t167" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--11,8-->
+    <term tid="t168" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--procent-->
+    <term tid="t169" type="open" lemma="procent" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--gehanteerd-->
+    <term tid="t170" type="open" lemma="hanteren" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t171" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

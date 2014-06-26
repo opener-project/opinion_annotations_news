@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:55Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:55Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:03:36CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w466" sent="21" para="2" offset="2593" length="5">Zowel</wf>
+    <wf wid="w467" sent="21" para="2" offset="2599" length="6">Merkel</wf>
+    <wf wid="w468" sent="21" para="2" offset="2606" length="3">als</wf>
+    <wf wid="w469" sent="21" para="2" offset="2610" length="10">Steinbrück</wf>
+    <wf wid="w470" sent="21" para="2" offset="2621" length="3">zei</wf>
+    <wf wid="w471" sent="21" para="2" offset="2625" length="8">vanavond</wf>
+    <wf wid="w472" sent="21" para="2" offset="2634" length="4">niet</wf>
+    <wf wid="w473" sent="21" para="2" offset="2639" length="3">mee</wf>
+    <wf wid="w474" sent="21" para="2" offset="2643" length="2">te</wf>
+    <wf wid="w475" sent="21" para="2" offset="2646" length="6">willen</wf>
+    <wf wid="w476" sent="21" para="2" offset="2653" length="4">doen</wf>
+    <wf wid="w477" sent="21" para="2" offset="2658" length="3">aan</wf>
+    <wf wid="w478" sent="21" para="2" offset="2662" length="3">een</wf>
+    <wf wid="w479" sent="21" para="2" offset="2666" length="9">eventuele</wf>
+    <wf wid="w480" sent="21" para="2" offset="2676" length="4">door</wf>
+    <wf wid="w481" sent="21" para="2" offset="2681" length="7">Amerika</wf>
+    <wf wid="w482" sent="21" para="2" offset="2689" length="12">geïnitieerde</wf>
+    <wf wid="w483" sent="21" para="2" offset="2702" length="6">aanval</wf>
+    <wf wid="w484" sent="21" para="2" offset="2709" length="2">op</wf>
+    <wf wid="w485" sent="21" para="2" offset="2712" length="5">Syrië</wf>
+    <wf wid="w486" sent="21" para="2" offset="2717" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Zowel-->
+    <term tid="t466" type="close" lemma="zowel" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w466"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t467" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w467"/>
+      </span>
+    </term>
+    <!--als-->
+    <term tid="t468" type="close" lemma="als" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w468"/>
+      </span>
+    </term>
+    <!--Steinbrück-->
+    <term tid="t469" type="open" lemma="Steinbrück" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w469"/>
+      </span>
+    </term>
+    <!--zei-->
+    <term tid="t470" type="open" lemma="zeggen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w470"/>
+      </span>
+    </term>
+    <!--vanavond-->
+    <term tid="t471" type="open" lemma="vanavond" pos="A" morphofeat="adv">
+      <span>
+        <target id="w471"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t472" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w472"/>
+      </span>
+    </term>
+    <!--mee-->
+    <term tid="t473" type="open" lemma="mee" pos="A" morphofeat="adv">
+      <span>
+        <target id="w473"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t474" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w474"/>
+      </span>
+    </term>
+    <!--willen-->
+    <term tid="t475" type="open" lemma="willen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w475"/>
+      </span>
+    </term>
+    <!--doen-->
+    <term tid="t476" type="open" lemma="doen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w476"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t477" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w477"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t478" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w478"/>
+      </span>
+    </term>
+    <!--eventuele-->
+    <term tid="t479" type="open" lemma="eventueel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w479"/>
+      </span>
+    </term>
+    <!--door-->
+    <term tid="t480" type="close" lemma="door" pos="P" morphofeat="prep">
+      <span>
+        <target id="w480"/>
+      </span>
+    </term>
+    <!--Amerika-->
+    <term tid="t481" type="open" lemma="Amerika" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w481"/>
+      </span>
+    </term>
+    <!--geïnitieerde-->
+    <term tid="t482" type="open" lemma="initiëren" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w482"/>
+      </span>
+    </term>
+    <!--aanval-->
+    <term tid="t483" type="open" lemma="aanvallen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w483"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--op-->
+    <term tid="t484" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w484"/>
+      </span>
+    </term>
+    <!--Syrië-->
+    <term tid="t485" type="open" lemma="Syrië" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w485"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t486" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w486"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t467"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--aan een eventuele aanval-->
+        <span>
+          <target id="t477"/>
+          <target id="t478"/>
+          <target id="t479"/>
+          <target id="t483"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--zei-->
+        <span>
+          <target id="t470"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Steinbrück-->
+        <span>
+          <target id="t469"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--aan een eventuele aanval-->
+        <span>
+          <target id="t477"/>
+          <target id="t478"/>
+          <target id="t479"/>
+          <target id="t483"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--zei-->
+        <span>
+          <target id="t470"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t467"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--aan een eventuele aanval-->
+        <span>
+          <target id="t477"/>
+          <target id="t478"/>
+          <target id="t479"/>
+          <target id="t483"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--niet mee willen doen-->
+        <span>
+          <target id="t472"/>
+          <target id="t473"/>
+          <target id="t475"/>
+          <target id="t476"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Steinbrück-->
+        <span>
+          <target id="t469"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--aan een eventuele aanval-->
+        <span>
+          <target id="t477"/>
+          <target id="t478"/>
+          <target id="t479"/>
+          <target id="t483"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--niet mee willen doen-->
+        <span>
+          <target id="t472"/>
+          <target id="t473"/>
+          <target id="t475"/>
+          <target id="t476"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

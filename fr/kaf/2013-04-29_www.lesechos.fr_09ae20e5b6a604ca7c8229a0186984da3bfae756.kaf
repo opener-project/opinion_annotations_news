@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:52:34Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:52:34Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:52:34Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:34:05CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w13" sent="2" para="2" offset="46" length="2">Il</wf>
+    <wf wid="w14" sent="2" para="2" offset="49" length="1">y</wf>
+    <wf wid="w15" sent="2" para="2" offset="51" length="1">a</wf>
+    <wf wid="w16" sent="2" para="2" offset="53" length="3">des</wf>
+    <wf wid="w17" sent="2" para="2" offset="57" length="6">lignes</wf>
+    <wf wid="w18" sent="2" para="2" offset="64" length="1">à</wf>
+    <wf wid="w19" sent="2" para="2" offset="66" length="2">ne</wf>
+    <wf wid="w20" sent="2" para="2" offset="69" length="3">pas</wf>
+    <wf wid="w21" sent="2" para="2" offset="73" length="8">franchir</wf>
+    <wf wid="w22" sent="2" para="2" offset="81" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t13" type="close" lemma="Il" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--y-->
+    <term tid="t14" type="close" lemma="y" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t15" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t16" type="close" lemma="un" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--lignes-->
+    <term tid="t17" type="open" lemma="ligne" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t18" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--ne-->
+    <term tid="t19" type="open" lemma="ne" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--pas-->
+    <term tid="t20" type="open" lemma="pas" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative" sentiment_modifier="shifter"/>
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--franchir-->
+    <term tid="t21" type="open" lemma="franchir" pos="V" morphofeat="VW">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t22" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--des lignes-->
+        <span>
+          <target id="t16"/>
+          <target id="t17"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--ne pas franchir-->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

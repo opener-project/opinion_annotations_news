@@ -1,0 +1,15 @@
+w164	Wealthier	wealthier	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	163	true	5
+w165	nations	nation	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	164	true	5
+w166	like	like	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	165	true	5
+w167	Germany	Germany	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	166	true	5
+w168	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	167	true	5
+w169	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	168	true	5
+w170	Netherlands	Netherlands	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	169	true	5
+w171	and	and	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	170	true	5
+w172	Denmark	Denmark	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	171	true	5
+w173	saw	see	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	172	true	5
+w174	only	only	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	173	true	5
+w175	small	small	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	174	true	5
+w176	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	175	true	5
+w177	sedate	sedate	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	176	true	5
+w178	demonstrations	demonstration	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	177	true	5

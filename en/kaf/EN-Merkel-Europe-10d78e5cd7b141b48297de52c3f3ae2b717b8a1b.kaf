@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:59:04" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:09:42CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="18" para="2" offset="2135" length="1" wid="w426">"</wf>
+    <wf sent="18" para="2" offset="2136" length="1" wid="w427">I</wf>
+    <wf sent="18" para="2" offset="2138" length="5" wid="w428">never</wf>
+    <wf sent="18" para="2" offset="2144" length="4" wid="w429">want</wf>
+    <wf sent="18" para="2" offset="2149" length="2" wid="w430">us</wf>
+    <wf sent="18" para="2" offset="2152" length="2" wid="w431">to</wf>
+    <wf sent="18" para="2" offset="2155" length="4" wid="w432">pull</wf>
+    <wf sent="18" para="2" offset="2160" length="2" wid="w433">up</wf>
+    <wf sent="18" para="2" offset="2163" length="3" wid="w434">the</wf>
+    <wf sent="18" para="2" offset="2167" length="10" wid="w435">drawbridge</wf>
+    <wf sent="18" para="2" offset="2178" length="3" wid="w436">and</wf>
+    <wf sent="18" para="2" offset="2182" length="7" wid="w437">retreat</wf>
+    <wf sent="18" para="2" offset="2190" length="4" wid="w438">from</wf>
+    <wf sent="18" para="2" offset="2195" length="3" wid="w439">the</wf>
+    <wf sent="18" para="2" offset="2199" length="5" wid="w440">world</wf>
+    <wf sent="18" para="2" offset="2204" length="1" wid="w441">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="close" lemma="&quot;" pos="P" morphofeat="IN" tid="t426">
+      <span>
+        <target id="w426"/>
+      </span>
+    </term>
+    <!--I-->
+    <term type="close" lemma="i" pos="Q" morphofeat="PRP" tid="t427">
+      <span>
+        <target id="w427"/>
+      </span>
+    </term>
+    <!--never-->
+    <term type="open" lemma="never" pos="A" morphofeat="RB" tid="t428">
+      <span>
+        <target id="w428"/>
+      </span>
+    </term>
+    <!--want-->
+    <term type="open" lemma="want" pos="V" morphofeat="VBP" tid="t429">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w429"/>
+      </span>
+    </term>
+    <!--us-->
+    <term type="close" lemma="us" pos="Q" morphofeat="PRP" tid="t430">
+      <span>
+        <target id="w430"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t431">
+      <span>
+        <target id="w431"/>
+      </span>
+    </term>
+    <!--pull-->
+    <term type="open" lemma="pull" pos="V" morphofeat="VB" tid="t432">
+      <span>
+        <target id="w432"/>
+      </span>
+    </term>
+    <!--up-->
+    <term type="close" lemma="up" pos="O" morphofeat="RP" tid="t433">
+      <span>
+        <target id="w433"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t434">
+      <span>
+        <target id="w434"/>
+      </span>
+    </term>
+    <!--drawbridge-->
+    <term type="open" lemma="drawbridge" pos="N" morphofeat="NN" tid="t435">
+      <span>
+        <target id="w435"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t436">
+      <span>
+        <target id="w436"/>
+      </span>
+    </term>
+    <!--retreat-->
+    <term type="open" lemma="retreat" pos="N" morphofeat="NN" tid="t437">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w437"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t438">
+      <span>
+        <target id="w438"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t439">
+      <span>
+        <target id="w439"/>
+      </span>
+    </term>
+    <!--world-->
+    <term type="open" lemma="world" pos="N" morphofeat="NN" tid="t440">
+      <span>
+        <target id="w440"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t441">
+      <span>
+        <target id="w441"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--the world-->
+        <span>
+          <target id="t439"/>
+          <target id="t440"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--retreat from-->
+        <span>
+          <target id="t437"/>
+          <target id="t438"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--the drawbridge-->
+        <span>
+          <target id="t434"/>
+          <target id="t435"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--pull up-->
+        <span>
+          <target id="t432"/>
+          <target id="t433"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder>
+        <!--I-->
+        <span>
+          <target id="t427"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--to pull up the drawbridge-->
+        <span>
+          <target id="t431"/>
+          <target id="t432"/>
+          <target id="t433"/>
+          <target id="t434"/>
+          <target id="t435"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--never want-->
+        <span>
+          <target id="t428"/>
+          <target id="t429"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder>
+        <!--I-->
+        <span>
+          <target id="t427"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--retreat from the world-->
+        <span>
+          <target id="t437"/>
+          <target id="t438"/>
+          <target id="t439"/>
+          <target id="t440"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--never want-->
+        <span>
+          <target id="t428"/>
+          <target id="t429"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

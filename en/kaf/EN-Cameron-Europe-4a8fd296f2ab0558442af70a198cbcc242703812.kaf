@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:41:47" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:36:51CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="19" para="2" offset="2248" length="2" wid="w425">UK</wf>
+    <wf sent="19" para="2" offset="2251" length="7" wid="w426">Foreign</wf>
+    <wf sent="19" para="2" offset="2259" length="9" wid="w427">Secretary</wf>
+    <wf sent="19" para="2" offset="2269" length="7" wid="w428">William</wf>
+    <wf sent="19" para="2" offset="2277" length="5" wid="w429">Hague</wf>
+    <wf sent="19" para="2" offset="2283" length="4" wid="w430">said</wf>
+    <wf sent="19" para="2" offset="2288" length="3" wid="w431">the</wf>
+    <wf sent="19" para="2" offset="2292" length="9" wid="w432">agreement</wf>
+    <wf sent="19" para="2" offset="2302" length="3" wid="w433">was</wf>
+    <wf sent="19" para="2" offset="2306" length="1" wid="w434">“</wf>
+    <wf sent="19" para="2" offset="2307" length="4" wid="w435">good</wf>
+    <wf sent="19" para="2" offset="2312" length="4" wid="w436">news</wf>
+    <wf sent="19" para="2" offset="2317" length="3" wid="w437">for</wf>
+    <wf sent="19" para="2" offset="2321" length="3" wid="w438">the</wf>
+    <wf sent="19" para="2" offset="2325" length="5" wid="w439">whole</wf>
+    <wf sent="19" para="2" offset="2331" length="5" wid="w440">world</wf>
+    <wf sent="19" para="2" offset="2336" length="1" wid="w441">”</wf>
+    <wf sent="19" para="2" offset="2337" length="1" wid="w442">.</wf>
+  </text>
+  <terms>
+    <!--UK-->
+    <term type="close" lemma="UK" pos="R" morphofeat="NNP" tid="t425">
+      <span>
+        <target id="w425"/>
+      </span>
+    </term>
+    <!--Foreign-->
+    <term type="close" lemma="Foreign" pos="R" morphofeat="NNP" tid="t426">
+      <span>
+        <target id="w426"/>
+      </span>
+    </term>
+    <!--Secretary-->
+    <term type="close" lemma="Secretary" pos="R" morphofeat="NNP" tid="t427">
+      <span>
+        <target id="w427"/>
+      </span>
+    </term>
+    <!--William-->
+    <term type="close" lemma="William" pos="R" morphofeat="NNP" tid="t428">
+      <span>
+        <target id="w428"/>
+      </span>
+    </term>
+    <!--Hague-->
+    <term type="close" lemma="Hague" pos="R" morphofeat="NNP" tid="t429">
+      <span>
+        <target id="w429"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t430">
+      <span>
+        <target id="w430"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t431">
+      <span>
+        <target id="w431"/>
+      </span>
+    </term>
+    <!--agreement-->
+    <term type="open" lemma="agreement" pos="N" morphofeat="NN" tid="t432">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w432"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t433">
+      <span>
+        <target id="w433"/>
+      </span>
+    </term>
+    <!--“-->
+    <term type="open" lemma="“" pos="A" morphofeat="RB" tid="t434">
+      <span>
+        <target id="w434"/>
+      </span>
+    </term>
+    <!--good-->
+    <term type="open" lemma="good" pos="G" morphofeat="JJ" tid="t435">
+      <span>
+        <target id="w435"/>
+      </span>
+    </term>
+    <!--news-->
+    <term type="open" lemma="news" pos="N" morphofeat="NN" tid="t436">
+      <span>
+        <target id="w436"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t437">
+      <span>
+        <target id="w437"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t438">
+      <span>
+        <target id="w438"/>
+      </span>
+    </term>
+    <!--whole-->
+    <term type="open" lemma="whole" pos="G" morphofeat="JJ" tid="t439">
+      <span>
+        <target id="w439"/>
+      </span>
+    </term>
+    <!--world-->
+    <term type="open" lemma="world" pos="N" morphofeat="NN" tid="t440">
+      <span>
+        <target id="w440"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="N" morphofeat="NN" tid="t441">
+      <span>
+        <target id="w441"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t442">
+      <span>
+        <target id="w442"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--for the whole world-->
+        <span>
+          <target id="t437"/>
+          <target id="t438"/>
+          <target id="t439"/>
+          <target id="t440"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--good news-->
+        <span>
+          <target id="t435"/>
+          <target id="t436"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

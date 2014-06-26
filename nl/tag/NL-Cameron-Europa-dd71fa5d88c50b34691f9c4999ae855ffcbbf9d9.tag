@@ -1,0 +1,11 @@
+w168	Daar	daar	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	167	true	10
+w169	zullen	zullen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	168	true	10
+w170	de	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	169	true	10
+w171	leiders	leider	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	170	true	10
+w172	dan	dan	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	171	true	10
+w173	'	'	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	172	true	10
+w174	s	s	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	173	true	10
+w175	avonds	avond	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	174	true	10
+w176	samen	samen	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	175	true	10
+w177	over	over	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	176	true	10
+w178	debatteren	debatteren	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	177	true	10

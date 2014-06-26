@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:48:02CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:29CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w260" sent="14" para="2" offset="1617" length="3">Hij</wf>
+    <wf wid="w261" sent="14" para="2" offset="1621" length="4">riep</wf>
+    <wf wid="w262" sent="14" para="2" offset="1626" length="2">de</wf>
+    <wf wid="w263" sent="14" para="2" offset="1629" length="6">Britse</wf>
+    <wf wid="w264" sent="14" para="2" offset="1636" length="8">regering</wf>
+    <wf wid="w265" sent="14" para="2" offset="1645" length="2">op</wf>
+    <wf wid="w266" sent="14" para="2" offset="1648" length="4">niet</wf>
+    <wf wid="w267" sent="14" para="2" offset="1653" length="2">de</wf>
+    <wf wid="w268" sent="14" para="2" offset="1656" length="1">"</wf>
+    <wf wid="w269" sent="14" para="2" offset="1657" length="8">hysterie</wf>
+    <wf wid="w270" sent="14" para="2" offset="1665" length="1">"</wf>
+    <wf wid="w271" sent="14" para="2" offset="1667" length="2">te</wf>
+    <wf wid="w272" sent="14" para="2" offset="1670" length="6">voeden</wf>
+    <wf wid="w273" sent="14" para="2" offset="1676" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hij-->
+    <term tid="t260" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--riep-->
+    <term tid="t261" type="open" lemma="roepen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t262" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--Britse-->
+    <term tid="t263" type="open" lemma="Brits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--regering-->
+    <term tid="t264" type="open" lemma="regering" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t265" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t266" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t267" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t268" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--hysterie-->
+    <term tid="t269" type="open" lemma="hysterie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w269"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--"-->
+    <term tid="t270" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t271" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--voeden-->
+    <term tid="t272" type="open" lemma="voeden" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w272"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t273" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--hysterie-->
+        <span>
+          <target id="t269"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

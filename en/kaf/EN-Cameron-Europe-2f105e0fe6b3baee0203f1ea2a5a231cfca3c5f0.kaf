@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:57Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:57Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:02:02" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:52:21CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="15" para="2" offset="1743" length="1" wid="w335">A</wf>
+    <wf sent="15" para="2" offset="1745" length="6" wid="w336">Briton</wf>
+    <wf sent="15" para="2" offset="1752" length="3" wid="w337">and</wf>
+    <wf sent="15" para="2" offset="1756" length="2" wid="w338">an</wf>
+    <wf sent="15" para="2" offset="1759" length="8" wid="w339">Algerian</wf>
+    <wf sent="15" para="2" offset="1768" length="10" wid="w340">reportedly</wf>
+    <wf sent="15" para="2" offset="1779" length="4" wid="w341">died</wf>
+    <wf sent="15" para="2" offset="1784" length="2" wid="w342">in</wf>
+    <wf sent="15" para="2" offset="1787" length="3" wid="w343">the</wf>
+    <wf sent="15" para="2" offset="1791" length="8" wid="w344">incident</wf>
+    <wf sent="15" para="2" offset="1799" length="1" wid="w345">.</wf>
+  </text>
+  <terms>
+    <!--A-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t335">
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <!--Briton-->
+    <term type="close" lemma="Briton" pos="R" morphofeat="NNP" tid="t336">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t337">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <!--an-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t338">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <!--Algerian-->
+    <term type="close" lemma="Algerian" pos="R" morphofeat="NNP" tid="t339">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--reportedly-->
+    <term type="open" lemma="reportedly" pos="A" morphofeat="RB" tid="t340">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--died-->
+    <term type="open" lemma="die" pos="V" morphofeat="VBD" tid="t341">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t342">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t343">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--incident-->
+    <term type="open" lemma="incident" pos="N" morphofeat="NN" tid="t344">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t345">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t335"/>
+          <target id="t336"/>
+          <target id="t337"/>
+          <target id="t338"/>
+          <target id="t339"/>
+          <target id="t340"/>
+          <target id="t341"/>
+          <target id="t342"/>
+          <target id="t343"/>
+          <target id="t344"/>
+          <target id="t345"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

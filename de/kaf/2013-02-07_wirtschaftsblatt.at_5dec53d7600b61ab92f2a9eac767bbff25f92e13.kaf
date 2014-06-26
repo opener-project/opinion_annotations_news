@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:13:52Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:13:52Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:56:49CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:14:09CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w109" sent="12" para="6" offset="641" length="3">Die</wf>
+    <wf wid="w110" sent="12" para="6" offset="645" length="10">Vorzeichen</wf>
+    <wf wid="w111" sent="12" para="6" offset="656" length="7">standen</wf>
+    <wf wid="w112" sent="12" para="6" offset="664" length="2">zu</wf>
+    <wf wid="w113" sent="12" para="6" offset="667" length="6">Beginn</wf>
+    <wf wid="w114" sent="12" para="6" offset="674" length="5">alles</wf>
+    <wf wid="w115" sent="12" para="6" offset="680" length="6">andere</wf>
+    <wf wid="w116" sent="12" para="6" offset="687" length="3">als</wf>
+    <wf wid="w117" sent="12" para="6" offset="691" length="7">günstig</wf>
+    <wf wid="w118" sent="12" para="6" offset="698" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t109" type="close">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <term lemma="Vorzeichen" morphofeat="NN" pos="N" tid="t110" type="open">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <term lemma="stehen" morphofeat="VVFIN" pos="V" tid="t111" type="open">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPR" pos="P" tid="t112" type="close">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <term lemma="Beginn" morphofeat="NN" pos="N" tid="t113" type="open">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <term lemma="alle" morphofeat="PIAT" pos="Q" tid="t114" type="close">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <term lemma="andere" morphofeat="PIS" pos="Q" tid="t115" type="close">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <term lemma="als" morphofeat="KOKOM" pos="C" tid="t116" type="close">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <term lemma="günstig" morphofeat="ADJD" pos="G" tid="t117" type="open">
+      <span>
+        <target id="w117"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t118" type="open">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Die Vorzeichen-->
+        <span>
+          <target id="t109"/>
+          <target id="t110"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--alles andere als günstig-->
+        <span>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

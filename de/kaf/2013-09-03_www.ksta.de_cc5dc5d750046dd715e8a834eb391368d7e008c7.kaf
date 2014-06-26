@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:07:31Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:07:31Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:51:08CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:07:51CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:59CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w16" sent="4" para="3" offset="82" length="6">Merkel</wf>
+    <wf wid="w17" sent="4" para="3" offset="89" length="8">forderte</wf>
+    <wf wid="w18" sent="4" para="3" offset="98" length="3">die</wf>
+    <wf wid="w19" sent="4" para="3" offset="102" length="2">EU</wf>
+    <wf wid="w20" sent="4" para="3" offset="104" length="1">·</wf>
+    <wf wid="w21" sent="4" para="3" offset="105" length="7">Staaten</wf>
+    <wf wid="w22" sent="4" para="3" offset="113" length="2">in</wf>
+    <wf wid="w23" sent="4" para="3" offset="116" length="5">ihrer</wf>
+    <wf wid="w24" sent="4" para="3" offset="122" length="4">Rede</wf>
+    <wf wid="w25" sent="4" para="3" offset="127" length="3">auf</wf>
+    <wf wid="w26" sent="4" para="3" offset="130" length="1">,</wf>
+    <wf wid="w27" sent="4" para="3" offset="132" length="4">mehr</wf>
+    <wf wid="w28" sent="4" para="3" offset="137" length="8">syrische</wf>
+    <wf wid="w29" sent="4" para="3" offset="146" length="11">Flüchtlinge</wf>
+    <wf wid="w30" sent="4" para="3" offset="158" length="11">aufzunehmen</wf>
+    <wf wid="w31" sent="4" para="3" offset="169" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t16" type="open">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="fordern" morphofeat="VVFIN" pos="V" tid="t17" type="open">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t18" type="close">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t19" type="open">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t20" type="open">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="Staat" morphofeat="NN" pos="N" tid="t21" type="open">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t22" type="close">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="ihr" morphofeat="PPOSAT" pos="Q" tid="t23" type="close">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="Rede" morphofeat="NN" pos="N" tid="t24" type="open">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="auf" morphofeat="PTKVZ" pos="V" tid="t25" type="open">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t26" type="open">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="mehr" morphofeat="ADV" pos="A" tid="t27" type="open">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="syrisch" morphofeat="ADJA" pos="G" tid="t28" type="open">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="Flüchtling" morphofeat="NN" pos="N" tid="t29" type="open">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="aufnehmen" morphofeat="VVIZU" pos="V" tid="t30" type="open">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t31" type="open">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t16"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--mehr syrische Flüchtlinge aufzunehmen-->
+        <span>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--forderte-->
+        <span>
+          <target id="t17"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

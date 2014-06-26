@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:33Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:33Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:31:10" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:00:46CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="1011" length="3" wid="w200">The</wf>
+    <wf sent="9" para="2" offset="1015" length="5" wid="w201">Prime</wf>
+    <wf sent="9" para="2" offset="1021" length="8" wid="w202">Minister</wf>
+    <wf sent="9" para="2" offset="1030" length="5" wid="w203">plans</wf>
+    <wf sent="9" para="2" offset="1036" length="2" wid="w204">to</wf>
+    <wf sent="9" para="2" offset="1039" length="11" wid="w205">renegotiate</wf>
+    <wf sent="9" para="2" offset="1051" length="3" wid="w206">the</wf>
+    <wf sent="9" para="2" offset="1055" length="4" wid="w207">deal</wf>
+    <wf sent="9" para="2" offset="1060" length="3" wid="w208">the</wf>
+    <wf sent="9" para="2" offset="1064" length="2" wid="w209">UK</wf>
+    <wf sent="9" para="2" offset="1067" length="3" wid="w210">has</wf>
+    <wf sent="9" para="2" offset="1071" length="4" wid="w211">with</wf>
+    <wf sent="9" para="2" offset="1076" length="6" wid="w212">Europe</wf>
+    <wf sent="9" para="2" offset="1083" length="3" wid="w213">and</wf>
+    <wf sent="9" para="2" offset="1087" length="4" wid="w214">said</wf>
+    <wf sent="9" para="2" offset="1092" length="5" wid="w215">there</wf>
+    <wf sent="9" para="2" offset="1098" length="5" wid="w216">would</wf>
+    <wf sent="9" para="2" offset="1104" length="3" wid="w217">not</wf>
+    <wf sent="9" para="2" offset="1108" length="2" wid="w218">be</wf>
+    <wf sent="9" para="2" offset="1111" length="3" wid="w219">any</wf>
+    <wf sent="9" para="2" offset="1115" length="6" wid="w220">in-out</wf>
+    <wf sent="9" para="2" offset="1122" length="10" wid="w221">referendum</wf>
+    <wf sent="9" para="2" offset="1133" length="5" wid="w222">until</wf>
+    <wf sent="9" para="2" offset="1139" length="4" wid="w223">2017</wf>
+    <wf sent="9" para="2" offset="1143" length="1" wid="w224">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t200">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--Prime-->
+    <term type="close" lemma="Prime" pos="R" morphofeat="NNP" tid="t201">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--Minister-->
+    <term type="close" lemma="Minister" pos="R" morphofeat="NNP" tid="t202">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--plans-->
+    <term type="open" lemma="plan" pos="V" morphofeat="VBZ" tid="t203">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t204">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--renegotiate-->
+    <term type="open" lemma="renegotiate" pos="V" morphofeat="VB" tid="t205">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t206">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--deal-->
+    <term type="open" lemma="deal" pos="N" morphofeat="NN" tid="t207">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t208">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--UK-->
+    <term type="close" lemma="UK" pos="R" morphofeat="NNP" tid="t209">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t210">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t211">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term type="close" lemma="Europe" pos="R" morphofeat="NNP" tid="t212">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t213">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t214">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--there-->
+    <term type="close" lemma="there" pos="O" morphofeat="EX" tid="t215">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--would-->
+    <term type="close" lemma="would" pos="O" morphofeat="MD" tid="t216">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t217">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t218">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--any-->
+    <term type="close" lemma="any" pos="D" morphofeat="DT" tid="t219">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--in-out-->
+    <term type="open" lemma="in-out" pos="G" morphofeat="JJ" tid="t220">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--referendum-->
+    <term type="open" lemma="referendum" pos="N" morphofeat="NN" tid="t221">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--until-->
+    <term type="close" lemma="until" pos="P" morphofeat="IN" tid="t222">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--2017-->
+    <term type="close" lemma="2017" pos="O" morphofeat="CD" tid="t223">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t224">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--The Prime Minister-->
+        <span>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--in-out referendum-->
+        <span>
+          <target id="t220"/>
+          <target id="t221"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--said-->
+        <span>
+          <target id="t214"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--The Prime Minister-->
+        <span>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--in-out referendum-->
+        <span>
+          <target id="t220"/>
+          <target id="t221"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--would not be any-->
+        <span>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--The Prime Minister-->
+        <span>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the deal the UK has with Europe-->
+        <span>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--plans to renegotiate-->
+        <span>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

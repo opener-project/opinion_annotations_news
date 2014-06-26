@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:27Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:27Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:52:46" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:33:18CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="20" para="2" offset="2874" length="7" wid="w531">Eleanor</wf>
+    <wf sent="20" para="2" offset="2882" length="5" wid="w532">Laing</wf>
+    <wf sent="20" para="2" offset="2887" length="1" wid="w533">,</wf>
+    <wf sent="20" para="2" offset="2889" length="3" wid="w534">the</wf>
+    <wf sent="20" para="2" offset="2893" length="2" wid="w535">MP</wf>
+    <wf sent="20" para="2" offset="2896" length="3" wid="w536">for</wf>
+    <wf sent="20" para="2" offset="2900" length="6" wid="w537">Epping</wf>
+    <wf sent="20" para="2" offset="2907" length="6" wid="w538">Forest</wf>
+    <wf sent="20" para="2" offset="2913" length="1" wid="w539">,</wf>
+    <wf sent="20" para="2" offset="2915" length="4" wid="w540">said</wf>
+    <wf sent="20" para="2" offset="2920" length="4" wid="w541">many</wf>
+    <wf sent="20" para="2" offset="2925" length="6" wid="w542">Tories</wf>
+    <wf sent="20" para="2" offset="2932" length="4" wid="w543">felt</wf>
+    <wf sent="20" para="2" offset="2937" length="1" wid="w544">“</wf>
+    <wf sent="20" para="2" offset="2938" length="4" wid="w545">hurt</wf>
+    <wf sent="20" para="2" offset="2943" length="3" wid="w546">and</wf>
+    <wf sent="20" para="2" offset="2947" length="4" wid="w547">left</wf>
+    <wf sent="20" para="2" offset="2952" length="3" wid="w548">out</wf>
+    <wf sent="20" para="2" offset="2955" length="1" wid="w549">”</wf>
+    <wf sent="20" para="2" offset="2957" length="5" wid="w550">under</wf>
+    <wf sent="20" para="2" offset="2963" length="2" wid="w551">Mr</wf>
+    <wf sent="20" para="2" offset="2966" length="7" wid="w552">Cameron</wf>
+    <wf sent="20" para="2" offset="2973" length="2" wid="w553">’s</wf>
+    <wf sent="20" para="2" offset="2976" length="10" wid="w554">leadership</wf>
+    <wf sent="20" para="2" offset="2986" length="1" wid="w555">.</wf>
+  </text>
+  <terms>
+    <!--Eleanor-->
+    <term type="close" lemma="Eleanor" pos="R" morphofeat="NNP" tid="t531">
+      <span>
+        <target id="w531"/>
+      </span>
+    </term>
+    <!--Laing-->
+    <term type="close" lemma="Laing" pos="R" morphofeat="NNP" tid="t532">
+      <span>
+        <target id="w532"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t533">
+      <span>
+        <target id="w533"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t534">
+      <span>
+        <target id="w534"/>
+      </span>
+    </term>
+    <!--MP-->
+    <term type="close" lemma="MP" pos="R" morphofeat="NNP" tid="t535">
+      <span>
+        <target id="w535"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t536">
+      <span>
+        <target id="w536"/>
+      </span>
+    </term>
+    <!--Epping-->
+    <term type="close" lemma="Epping" pos="R" morphofeat="NNP" tid="t537">
+      <span>
+        <target id="w537"/>
+      </span>
+    </term>
+    <!--Forest-->
+    <term type="close" lemma="Forest" pos="R" morphofeat="NNP" tid="t538">
+      <span>
+        <target id="w538"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t539">
+      <span>
+        <target id="w539"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t540">
+      <span>
+        <target id="w540"/>
+      </span>
+    </term>
+    <!--many-->
+    <term type="open" lemma="many" pos="G" morphofeat="JJ" tid="t541">
+      <span>
+        <target id="w541"/>
+      </span>
+    </term>
+    <!--Tories-->
+    <term type="close" lemma="Tories" pos="R" morphofeat="NNPS" tid="t542">
+      <span>
+        <target id="w542"/>
+      </span>
+    </term>
+    <!--felt-->
+    <term type="open" lemma="feel" pos="V" morphofeat="VBD" tid="t543">
+      <span>
+        <target id="w543"/>
+      </span>
+    </term>
+    <!--“-->
+    <term type="open" lemma="“" pos="G" morphofeat="JJ" tid="t544">
+      <span>
+        <target id="w544"/>
+      </span>
+    </term>
+    <!--hurt-->
+    <term type="open" lemma="hurt" pos="V" morphofeat="VBN" tid="t545">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w545"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t546">
+      <span>
+        <target id="w546"/>
+      </span>
+    </term>
+    <!--left-->
+    <term type="open" lemma="leave" pos="V" morphofeat="VBN" tid="t547">
+      <span>
+        <target id="w547"/>
+      </span>
+    </term>
+    <!--out-->
+    <term type="open" lemma="out" pos="A" morphofeat="RB" tid="t548">
+      <span>
+        <target id="w548"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="A" morphofeat="RB" tid="t549">
+      <span>
+        <target id="w549"/>
+      </span>
+    </term>
+    <!--under-->
+    <term type="close" lemma="under" pos="P" morphofeat="IN" tid="t550">
+      <span>
+        <target id="w550"/>
+      </span>
+    </term>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t551">
+      <span>
+        <target id="w551"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t552">
+      <span>
+        <target id="w552"/>
+      </span>
+    </term>
+    <!--’s-->
+    <term type="open" lemma="’s" pos="V" morphofeat="VBZ" tid="t553">
+      <span>
+        <target id="w553"/>
+      </span>
+    </term>
+    <!--leadership-->
+    <term type="open" lemma="leadership" pos="N" morphofeat="NN" tid="t554">
+      <span>
+        <target id="w554"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t555">
+      <span>
+        <target id="w555"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--many Tories-->
+        <span>
+          <target id="t541"/>
+          <target id="t542"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--under Mr Cameron ’s leadership-->
+        <span>
+          <target id="t550"/>
+          <target id="t551"/>
+          <target id="t552"/>
+          <target id="t553"/>
+          <target id="t554"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--felt “ hurt and left out-->
+        <span>
+          <target id="t543"/>
+          <target id="t544"/>
+          <target id="t545"/>
+          <target id="t546"/>
+          <target id="t547"/>
+          <target id="t548"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Eleanor Laing , the MP for Epping Forest-->
+        <span>
+          <target id="t531"/>
+          <target id="t532"/>
+          <target id="t533"/>
+          <target id="t534"/>
+          <target id="t535"/>
+          <target id="t536"/>
+          <target id="t537"/>
+          <target id="t538"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-neutral">
+        <!--said-->
+        <span>
+          <target id="t540"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--under Mr Cameron ’s leadership-->
+        <span>
+          <target id="t550"/>
+          <target id="t551"/>
+          <target id="t552"/>
+          <target id="t553"/>
+          <target id="t554"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--hurt-->
+        <span>
+          <target id="t545"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--under Mr Cameron ’s leadership-->
+        <span>
+          <target id="t550"/>
+          <target id="t551"/>
+          <target id="t552"/>
+          <target id="t553"/>
+          <target id="t554"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--left out-->
+        <span>
+          <target id="t547"/>
+          <target id="t548"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

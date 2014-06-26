@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:01Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:01Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:59:03" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:33:54CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="1726" length="3" wid="w309">The</wf>
+    <wf sent="9" para="2" offset="1730" length="11" wid="w310">sovereignty</wf>
+    <wf sent="9" para="2" offset="1742" length="3" wid="w311">row</wf>
+    <wf sent="9" para="2" offset="1746" length="3" wid="w312">has</wf>
+    <wf sent="9" para="2" offset="1750" length="9" wid="w313">prevented</wf>
+    <wf sent="9" para="2" offset="1760" length="3" wid="w314">the</wf>
+    <wf sent="9" para="2" offset="1764" length="3" wid="w315">two</wf>
+    <wf sent="9" para="2" offset="1768" length="9" wid="w316">countries</wf>
+    <wf sent="9" para="2" offset="1778" length="4" wid="w317">from</wf>
+    <wf sent="9" para="2" offset="1783" length="8" wid="w318">agreeing</wf>
+    <wf sent="9" para="2" offset="1792" length="1" wid="w319">a</wf>
+    <wf sent="9" para="2" offset="1794" length="7" wid="w320">postwar</wf>
+    <wf sent="9" para="2" offset="1802" length="5" wid="w321">peace</wf>
+    <wf sent="9" para="2" offset="1808" length="6" wid="w322">accord</wf>
+    <wf sent="9" para="2" offset="1814" length="1" wid="w323">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t309">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <!--sovereignty-->
+    <term type="open" lemma="sovereignty" pos="N" morphofeat="NN" tid="t310">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <!--row-->
+    <term type="open" lemma="row" pos="N" morphofeat="NN" tid="t311">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t312">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <!--prevented-->
+    <term type="open" lemma="prevent" pos="V" morphofeat="VBN" tid="t313">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t314">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <!--two-->
+    <term type="close" lemma="two" pos="O" morphofeat="CD" tid="t315">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <!--countries-->
+    <term type="open" lemma="country" pos="N" morphofeat="NNS" tid="t316">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t317">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--agreeing-->
+    <term type="open" lemma="agree" pos="V" morphofeat="VBG" tid="t318">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t319">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--postwar-->
+    <term type="open" lemma="postwar" pos="G" morphofeat="JJ" tid="t320">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <!--peace-->
+    <term type="open" lemma="peace" pos="N" morphofeat="NN" tid="t321">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <!--accord-->
+    <term type="open" lemma="accord" pos="N" morphofeat="NN" tid="t322">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t323">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--The sovereignty row-->
+        <span>
+          <target id="t309"/>
+          <target id="t310"/>
+          <target id="t311"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the two countries from agreeing a postwar peace accord-->
+        <span>
+          <target id="t314"/>
+          <target id="t315"/>
+          <target id="t316"/>
+          <target id="t317"/>
+          <target id="t318"/>
+          <target id="t319"/>
+          <target id="t320"/>
+          <target id="t321"/>
+          <target id="t322"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--has prevented-->
+        <span>
+          <target id="t312"/>
+          <target id="t313"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--postwar peace accord-->
+        <span>
+          <target id="t320"/>
+          <target id="t321"/>
+          <target id="t322"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--agreeing-->
+        <span>
+          <target id="t318"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:04:36Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:04:36Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:30:39" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:37:47CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="2" para="2" offset="57" length="3" wid="w10">The</wf>
+    <wf sent="2" para="2" offset="61" length="7" wid="w11">Israeli</wf>
+    <wf sent="2" para="2" offset="69" length="5" wid="w12">prime</wf>
+    <wf sent="2" para="2" offset="75" length="8" wid="w13">minister</wf>
+    <wf sent="2" para="2" offset="84" length="3" wid="w14">has</wf>
+    <wf sent="2" para="2" offset="88" length="8" wid="w15">remained</wf>
+    <wf sent="2" para="2" offset="97" length="7" wid="w16">defiant</wf>
+    <wf sent="2" para="2" offset="105" length="4" wid="w17">over</wf>
+    <wf sent="2" para="2" offset="110" length="13" wid="w18">controversial</wf>
+    <wf sent="2" para="2" offset="124" length="10" wid="w19">settlement</wf>
+    <wf sent="2" para="2" offset="135" length="5" wid="w20">plans</wf>
+    <wf sent="2" para="2" offset="141" length="6" wid="w21">during</wf>
+    <wf sent="2" para="2" offset="148" length="1" wid="w22">a</wf>
+    <wf sent="2" para="2" offset="150" length="5" wid="w23">visit</wf>
+    <wf sent="2" para="2" offset="156" length="2" wid="w24">to</wf>
+    <wf sent="2" para="2" offset="159" length="6" wid="w25">Europe</wf>
+    <wf sent="2" para="2" offset="165" length="1" wid="w26">,</wf>
+    <wf sent="2" para="2" offset="167" length="2" wid="w27">as</wf>
+    <wf sent="2" para="2" offset="170" length="6" wid="w28">Israel</wf>
+    <wf sent="2" para="2" offset="177" length="7" wid="w29">presses</wf>
+    <wf sent="2" para="2" offset="185" length="5" wid="w30">ahead</wf>
+    <wf sent="2" para="2" offset="191" length="4" wid="w31">with</wf>
+    <wf sent="2" para="2" offset="196" length="9" wid="w32">proposals</wf>
+    <wf sent="2" para="2" offset="206" length="2" wid="w33">to</wf>
+    <wf sent="2" para="2" offset="209" length="5" wid="w34">build</wf>
+    <wf sent="2" para="2" offset="215" length="2" wid="w35">in</wf>
+    <wf sent="2" para="2" offset="218" length="3" wid="w36">one</wf>
+    <wf sent="2" para="2" offset="222" length="2" wid="w37">of</wf>
+    <wf sent="2" para="2" offset="225" length="3" wid="w38">the</wf>
+    <wf sent="2" para="2" offset="229" length="4" wid="w39">most</wf>
+    <wf sent="2" para="2" offset="234" length="9" wid="w40">sensitive</wf>
+    <wf sent="2" para="2" offset="244" length="5" wid="w41">areas</wf>
+    <wf sent="2" para="2" offset="250" length="2" wid="w42">of</wf>
+    <wf sent="2" para="2" offset="253" length="3" wid="w43">the</wf>
+    <wf sent="2" para="2" offset="257" length="8" wid="w44">occupied</wf>
+    <wf sent="2" para="2" offset="266" length="4" wid="w45">West</wf>
+    <wf sent="2" para="2" offset="271" length="4" wid="w46">Bank</wf>
+    <wf sent="2" para="2" offset="275" length="1" wid="w47">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t10">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--Israeli-->
+    <term type="open" lemma="israeli" pos="G" morphofeat="JJ" tid="t11">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--prime-->
+    <term type="open" lemma="prime" pos="G" morphofeat="JJ" tid="t12">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--minister-->
+    <term type="open" lemma="minister" pos="N" morphofeat="NN" tid="t13">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t14">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--remained-->
+    <term type="open" lemma="remain" pos="V" morphofeat="VBN" tid="t15">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--defiant-->
+    <term type="open" lemma="defiant" pos="G" morphofeat="JJ" tid="t16">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--over-->
+    <term type="close" lemma="over" pos="P" morphofeat="IN" tid="t17">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--controversial-->
+    <term type="open" lemma="controversial" pos="G" morphofeat="JJ" tid="t18">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--settlement-->
+    <term type="open" lemma="settlement" pos="N" morphofeat="NN" tid="t19">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--plans-->
+    <term type="open" lemma="plan" pos="N" morphofeat="NNS" tid="t20">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--during-->
+    <term type="close" lemma="during" pos="P" morphofeat="IN" tid="t21">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t22">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--visit-->
+    <term type="open" lemma="visit" pos="N" morphofeat="NN" tid="t23">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t24">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term type="close" lemma="Europe" pos="R" morphofeat="NNP" tid="t25">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t26">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="open" lemma="as" pos="A" morphofeat="RB" tid="t27">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--Israel-->
+    <term type="close" lemma="Israel" pos="R" morphofeat="NNP" tid="t28">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--presses-->
+    <term type="open" lemma="press" pos="V" morphofeat="VBZ" tid="t29">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--ahead-->
+    <term type="open" lemma="ahead" pos="A" morphofeat="RB" tid="t30">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t31">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--proposals-->
+    <term type="open" lemma="proposal" pos="N" morphofeat="NNS" tid="t32">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t33">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--build-->
+    <term type="open" lemma="build" pos="V" morphofeat="VB" tid="t34">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t35">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--one-->
+    <term type="close" lemma="one" pos="O" morphofeat="CD" tid="t36">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t37">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t38">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--most-->
+    <term type="open" lemma="much" pos="A" morphofeat="RBS" tid="t39">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--sensitive-->
+    <term type="open" lemma="sensitive" pos="G" morphofeat="JJ" tid="t40">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--areas-->
+    <term type="open" lemma="area" pos="N" morphofeat="NNS" tid="t41">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t42">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t43">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--occupied-->
+    <term type="open" lemma="occupy" pos="V" morphofeat="VBN" tid="t44">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--West-->
+    <term type="close" lemma="West" pos="R" morphofeat="NNP" tid="t45">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--Bank-->
+    <term type="close" lemma="Bank" pos="R" morphofeat="NNP" tid="t46">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t47">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--The Israeli prime minister-->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--over settlement plans-->
+        <span>
+          <target id="t17"/>
+          <target id="t19"/>
+          <target id="t20"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--has remained defiant-->
+        <span>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

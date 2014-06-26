@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T10:47:15Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T10:47:15Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:47:03CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T11:47:32CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:29CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w43" sent="4" para="3" offset="272" length="2">Er</wf>
+    <wf wid="w44" sent="4" para="3" offset="275" length="8">verlangt</wf>
+    <wf wid="w45" sent="4" para="3" offset="284" length="5">zudem</wf>
+    <wf wid="w46" sent="4" para="3" offset="290" length="3">die</wf>
+    <wf wid="w47" sent="4" para="3" offset="294" length="6">rasche</wf>
+    <wf wid="w48" sent="4" para="3" offset="301" length="10">Einführung</wf>
+    <wf wid="w49" sent="4" para="3" offset="312" length="3">der</wf>
+    <wf wid="w50" sent="4" para="3" offset="316" length="9">doppelten</wf>
+    <wf wid="w51" sent="4" para="3" offset="326" length="18">Staatsbürgerschaft</wf>
+    <wf wid="w52" sent="4" para="3" offset="344" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t43" type="close">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term lemma="verlangen" morphofeat="VVFIN" pos="V" tid="t44" type="open">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="zudem" morphofeat="ADV" pos="A" tid="t45" type="open">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t46" type="close">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <term lemma="rasch" morphofeat="ADJA" pos="G" tid="t47" type="open">
+      <span>
+        <target id="w47"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Einführung" morphofeat="NN" pos="N" tid="t48" type="open">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t49" type="close">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <term lemma="doppelt" morphofeat="ADJA" pos="G" tid="t50" type="open">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <term lemma="Staatsbürgerschaft" morphofeat="NN" pos="N" tid="t51" type="open">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t52" type="open">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Einführung-->
+        <span>
+          <target id="t48"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--rasche-->
+        <span>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Er-->
+        <span>
+          <target id="t43"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die rasche Einführung-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--verlangt-->
+        <span>
+          <target id="t44"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

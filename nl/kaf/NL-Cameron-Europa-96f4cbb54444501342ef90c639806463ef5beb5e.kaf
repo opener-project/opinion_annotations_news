@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:16Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:16Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:50:15CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w50" sent="4" para="2" offset="337" length="3">Dat</wf>
+    <wf wid="w51" sent="4" para="2" offset="341" length="5">heeft</wf>
+    <wf wid="w52" sent="4" para="2" offset="347" length="4">zijn</wf>
+    <wf wid="w53" sent="4" para="2" offset="352" length="12">woordvoerder</wf>
+    <wf wid="w54" sent="4" para="2" offset="365" length="7">maandag</wf>
+    <wf wid="w55" sent="4" para="2" offset="373" length="5">laten</wf>
+    <wf wid="w56" sent="4" para="2" offset="379" length="5">weten</wf>
+    <wf wid="w57" sent="4" para="2" offset="384" length="1">.</wf>
+    <wf wid="w87" sent="7" para="2" offset="567" length="3">Het</wf>
+    <wf wid="w88" sent="7" para="2" offset="571" length="8">opzeggen</wf>
+    <wf wid="w89" sent="7" para="2" offset="580" length="3">van</wf>
+    <wf wid="w90" sent="7" para="2" offset="584" length="3">het</wf>
+    <wf wid="w91" sent="7" para="2" offset="588" length="15">EU-lidmaatschap</wf>
+    <wf wid="w92" sent="7" para="2" offset="604" length="4">gaat</wf>
+    <wf wid="w93" sent="7" para="2" offset="609" length="3">hem</wf>
+    <wf wid="w94" sent="7" para="2" offset="613" length="6">echter</wf>
+    <wf wid="w95" sent="7" para="2" offset="620" length="2">te</wf>
+    <wf wid="w96" sent="7" para="2" offset="623" length="4">ver.</wf>
+  </text>
+  <terms>
+    <!--Dat-->
+    <term tid="t50" type="close" lemma="dat" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--heeft-->
+    <term tid="t51" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t52" type="close" lemma="zijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--woordvoerder-->
+    <term tid="t53" type="open" lemma="woordvoerder" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--maandag-->
+    <term tid="t54" type="open" lemma="maandag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--laten-->
+    <term tid="t55" type="open" lemma="laten" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--weten-->
+    <term tid="t56" type="open" lemma="weten" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t57" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--Het-->
+    <term tid="t87" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--opzeggen-->
+    <term tid="t88" type="open" lemma="opzeggen" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w88"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--van-->
+    <term tid="t89" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t90" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--EU-lidmaatschap-->
+    <term tid="t91" type="open" lemma="EU-lidmaatschap" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--gaat-->
+    <term tid="t92" type="open" lemma="gaan" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--hem-->
+    <term tid="t93" type="close" lemma="hem" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--echter-->
+    <term tid="t94" type="open" lemma="echter" pos="A" morphofeat="adv">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t95" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--ver.-->
+    <term tid="t96" type="open" lemma="ver." pos="G" morphofeat="adj">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--het EU-lidmaatschap-->
+        <span>
+          <target id="t90"/>
+          <target id="t91"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--opzeggen-->
+        <span>
+          <target id="t88"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

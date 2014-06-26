@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:53Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:53Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:02:34" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:41:39CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="14" para="2" offset="1462" length="4" wid="w271">Five</wf>
+    <wf sent="14" para="2" offset="1467" length="8" wid="w272">American</wf>
+    <wf sent="14" para="2" offset="1476" length="8" wid="w273">hostages</wf>
+    <wf sent="14" para="2" offset="1485" length="3" wid="w274">had</wf>
+    <wf sent="14" para="2" offset="1489" length="8" wid="w275">survived</wf>
+    <wf sent="14" para="2" offset="1498" length="3" wid="w276">and</wf>
+    <wf sent="14" para="2" offset="1502" length="4" wid="w277">left</wf>
+    <wf sent="14" para="2" offset="1507" length="3" wid="w278">the</wf>
+    <wf sent="14" para="2" offset="1511" length="7" wid="w279">country</wf>
+    <wf sent="14" para="2" offset="1518" length="1" wid="w280">,</wf>
+    <wf sent="14" para="2" offset="1520" length="2" wid="w281">US</wf>
+    <wf sent="14" para="2" offset="1523" length="9" wid="w282">officials</wf>
+    <wf sent="14" para="2" offset="1533" length="4" wid="w283">told</wf>
+    <wf sent="14" para="2" offset="1538" length="3" wid="w284">ABC</wf>
+    <wf sent="14" para="2" offset="1542" length="4" wid="w285">News</wf>
+    <wf sent="14" para="2" offset="1546" length="1" wid="w286">.</wf>
+  </text>
+  <terms>
+    <!--Five-->
+    <term type="close" lemma="five" pos="O" morphofeat="CD" tid="t271">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--American-->
+    <term type="open" lemma="american" pos="G" morphofeat="JJ" tid="t272">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--hostages-->
+    <term type="open" lemma="hostage" pos="N" morphofeat="NNS" tid="t273">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--had-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBD" tid="t274">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--survived-->
+    <term type="open" lemma="survive" pos="V" morphofeat="VBN" tid="t275">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t276">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--left-->
+    <term type="open" lemma="leave" pos="V" morphofeat="VBN" tid="t277">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t278">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--country-->
+    <term type="open" lemma="country" pos="N" morphofeat="NN" tid="t279">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t280">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--US-->
+    <term type="close" lemma="US" pos="R" morphofeat="NNP" tid="t281">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--officials-->
+    <term type="open" lemma="official" pos="N" morphofeat="NNS" tid="t282">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--told-->
+    <term type="open" lemma="tell" pos="V" morphofeat="VBD" tid="t283">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--ABC-->
+    <term type="close" lemma="ABC" pos="R" morphofeat="NNP" tid="t284">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--News-->
+    <term type="close" lemma="News" pos="R" morphofeat="NNP" tid="t285">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t286">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Five American hostages-->
+        <span>
+          <target id="t271"/>
+          <target id="t272"/>
+          <target id="t273"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--had survived-->
+        <span>
+          <target id="t274"/>
+          <target id="t275"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

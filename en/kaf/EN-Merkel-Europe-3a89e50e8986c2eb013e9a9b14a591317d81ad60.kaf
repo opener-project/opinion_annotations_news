@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:01:44" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:16:45CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="373" length="2" wid="w53">In</wf>
+    <wf sent="3" para="2" offset="376" length="2" wid="w54">an</wf>
+    <wf sent="3" para="2" offset="379" length="9" wid="w55">interview</wf>
+    <wf sent="3" para="2" offset="389" length="4" wid="w56">with</wf>
+    <wf sent="3" para="2" offset="394" length="3" wid="w57">six</wf>
+    <wf sent="3" para="2" offset="398" length="8" wid="w58">European</wf>
+    <wf sent="3" para="2" offset="407" length="10" wid="w59">newspapers</wf>
+    <wf sent="3" para="2" offset="417" length="1" wid="w60">,</wf>
+    <wf sent="3" para="2" offset="419" length="6" wid="w61">Merkel</wf>
+    <wf sent="3" para="2" offset="426" length="9" wid="w62">expressed</wf>
+    <wf sent="3" para="2" offset="436" length="6" wid="w63">doubts</wf>
+    <wf sent="3" para="2" offset="443" length="5" wid="w64">about</wf>
+    <wf sent="3" para="2" offset="449" length="3" wid="w65">the</wf>
+    <wf sent="3" para="2" offset="453" length="7" wid="w66">outlook</wf>
+    <wf sent="3" para="2" offset="461" length="3" wid="w67">for</wf>
+    <wf sent="3" para="2" offset="465" length="6" wid="w68">Greece</wf>
+    <wf sent="3" para="2" offset="471" length="1" wid="w69">,</wf>
+    <wf sent="3" para="2" offset="473" length="5" wid="w70">which</wf>
+    <wf sent="3" para="2" offset="479" length="3" wid="w71">she</wf>
+    <wf sent="3" para="2" offset="483" length="6" wid="w72">called</wf>
+    <wf sent="3" para="2" offset="490" length="1" wid="w73">a</wf>
+    <wf sent="3" para="2" offset="492" length="7" wid="w74">special</wf>
+    <wf sent="3" para="2" offset="500" length="4" wid="w75">case</wf>
+    <wf sent="3" para="2" offset="504" length="1" wid="w76">.</wf>
+  </text>
+  <terms>
+    <!--In-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t53">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--an-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t54">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--interview-->
+    <term type="open" lemma="interview" pos="N" morphofeat="NN" tid="t55">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t56">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--six-->
+    <term type="close" lemma="six" pos="O" morphofeat="CD" tid="t57">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--European-->
+    <term type="open" lemma="european" pos="G" morphofeat="JJ" tid="t58">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--newspapers-->
+    <term type="open" lemma="newspaper" pos="N" morphofeat="NNS" tid="t59">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t60">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t61">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--expressed-->
+    <term type="open" lemma="express" pos="V" morphofeat="VBD" tid="t62">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--doubts-->
+    <term type="open" lemma="doubt" pos="N" morphofeat="NNS" tid="t63">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--about-->
+    <term type="close" lemma="about" pos="P" morphofeat="IN" tid="t64">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t65">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--outlook-->
+    <term type="open" lemma="outlook" pos="N" morphofeat="NN" tid="t66">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t67">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--Greece-->
+    <term type="close" lemma="Greece" pos="R" morphofeat="NNP" tid="t68">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t69">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--which-->
+    <term type="close" lemma="which" pos="O" morphofeat="WDT" tid="t70">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--she-->
+    <term type="close" lemma="she" pos="Q" morphofeat="PRP" tid="t71">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--called-->
+    <term type="open" lemma="call" pos="V" morphofeat="VBD" tid="t72">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t73">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--special-->
+    <term type="open" lemma="special" pos="G" morphofeat="JJ" tid="t74">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--case-->
+    <term type="open" lemma="case" pos="N" morphofeat="NN" tid="t75">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t76">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t61"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--about the outlook for Greece-->
+        <span>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--expressed-->
+        <span>
+          <target id="t62"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t61"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--about the outlook for Greece-->
+        <span>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--doubts-->
+        <span>
+          <target id="t63"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder>
+        <!--she-->
+        <span>
+          <target id="t71"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--which-->
+        <span>
+          <target id="t70"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--a special case-->
+        <span>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder>
+        <!--she-->
+        <span>
+          <target id="t71"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--which-->
+        <span>
+          <target id="t70"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--called-->
+        <span>
+          <target id="t72"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:38:24Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:38:24Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:03:02CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:38:50CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:57CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w113" sent="7" para="2" offset="696" length="7">Bereits</wf>
+    <wf wid="w114" sent="7" para="2" offset="704" length="2">in</wf>
+    <wf wid="w115" sent="7" para="2" offset="707" length="3">der</wf>
+    <wf wid="w116" sent="7" para="2" offset="711" length="13">Vergangenheit</wf>
+    <wf wid="w117" sent="7" para="2" offset="725" length="6">wurden</wf>
+    <wf wid="w118" sent="7" para="2" offset="732" length="3">die</wf>
+    <wf wid="w119" sent="7" para="2" offset="736" length="6">Bürger</wf>
+    <wf wid="w120" sent="7" para="2" offset="743" length="5">nicht</wf>
+    <wf wid="w121" sent="7" para="2" offset="750" length="7">gefragt</wf>
+    <wf wid="w122" sent="7" para="2" offset="757" length="1">,</wf>
+    <wf wid="w123" sent="7" para="2" offset="759" length="3">wie</wf>
+    <wf wid="w124" sent="7" para="2" offset="763" length="4">viel</wf>
+    <wf wid="w125" sent="7" para="2" offset="768" length="6">Europa</wf>
+    <wf wid="w126" sent="7" para="2" offset="775" length="3">sie</wf>
+    <wf wid="w127" sent="7" para="2" offset="779" length="9">überhaupt</wf>
+    <wf wid="w128" sent="7" para="2" offset="789" length="6">wollen</wf>
+    <wf wid="w129" sent="7" para="2" offset="795" length="1">.</wf>
+    <wf wid="w206" sent="11" para="2" offset="1251" length="3">Die</wf>
+    <wf wid="w207" sent="11" para="2" offset="1255" length="11">eigentliche</wf>
+    <wf wid="w208" sent="11" para="2" offset="1267" length="7">Aufgabe</wf>
+    <wf wid="w209" sent="11" para="2" offset="1276" length="3">der</wf>
+    <wf wid="w210" sent="11" para="2" offset="1280" length="3">EZB</wf>
+    <wf wid="w211" sent="11" para="2" offset="1284" length="3">ist</wf>
+    <wf wid="w212" sent="11" para="2" offset="1288" length="2">es</wf>
+    <wf wid="w213" sent="11" para="2" offset="1290" length="1">,</wf>
+    <wf wid="w214" sent="11" para="2" offset="1292" length="3">für</wf>
+    <wf wid="w215" sent="11" para="2" offset="1296" length="18">Geldwertstabilität</wf>
+    <wf wid="w216" sent="11" para="2" offset="1315" length="2">zu</wf>
+    <wf wid="w217" sent="11" para="2" offset="1318" length="6">sorgen</wf>
+    <wf wid="w218" sent="11" para="2" offset="1324" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="bereits" morphofeat="ADV" pos="A" tid="t113" type="open">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t114" type="close">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t115" type="close">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <term lemma="Vergangenheit" morphofeat="NN" pos="N" tid="t116" type="open">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t117" type="open">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t118" type="close">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <term lemma="Bürger" morphofeat="NN" pos="N" tid="t119" type="open">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t120" type="open">
+      <span>
+        <target id="w120"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="fragen" morphofeat="VVPP" pos="V" tid="t121" type="open">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t122" type="open">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <term lemma="wie" morphofeat="KOUS" pos="C" tid="t123" type="close">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <term lemma="viele" morphofeat="PIS" pos="Q" tid="t124" type="close">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <term lemma="Europa" morphofeat="NE" pos="R" tid="t125" type="open">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <term lemma="sie" morphofeat="PPER" pos="Q" tid="t126" type="close">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <term lemma="überhaupt" morphofeat="ADV" pos="A" tid="t127" type="open">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t128" type="open">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t129" type="open">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t206" type="close">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <term lemma="eigentlich" morphofeat="ADJA" pos="G" tid="t207" type="open">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <term lemma="Aufgabe" morphofeat="NN" pos="N" tid="t208" type="open">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t209" type="close">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <term lemma="EZB" morphofeat="NE" pos="R" tid="t210" type="open">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t211" type="open">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t212" type="close">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t213" type="open">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t214" type="close">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <term lemma="Geldwertstabilität" morphofeat="NN" pos="N" tid="t215" type="open">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="PTKZU" pos="O" tid="t216" type="open">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <term lemma="sorgen" morphofeat="VVINF" pos="V" tid="t217" type="open">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t218" type="open">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die Bürger-->
+        <span>
+          <target id="t118"/>
+          <target id="t119"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--nicht gefragt-->
+        <span>
+          <target id="t120"/>
+          <target id="t121"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

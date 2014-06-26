@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:32:58Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:32:58Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:56:38CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:33:11CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w33" sent="5" para="3" offset="228" length="3">Die</wf>
+    <wf wid="w34" sent="5" para="3" offset="232" length="7">Brücken</wf>
+    <wf wid="w35" sent="5" para="3" offset="240" length="5">seien</wf>
+    <wf wid="w36" sent="5" para="3" offset="246" length="5">nicht</wf>
+    <wf wid="w37" sent="5" para="3" offset="252" length="2">so</wf>
+    <wf wid="w38" sent="5" para="3" offset="255" length="6">stabil</wf>
+    <wf wid="w39" sent="5" para="3" offset="261" length="1">,</wf>
+    <wf wid="w40" sent="5" para="3" offset="263" length="4">dass</wf>
+    <wf wid="w41" sent="5" para="3" offset="268" length="3">sie</wf>
+    <wf wid="w42" sent="5" para="3" offset="272" length="4">vier</wf>
+    <wf wid="w43" sent="5" para="3" offset="277" length="5">Jahre</wf>
+    <wf wid="w44" sent="5" para="3" offset="283" length="6">halten</wf>
+    <wf wid="w45" sent="5" para="3" offset="290" length="7">könnten</wf>
+    <wf wid="w46" sent="5" para="3" offset="297" length="1">,</wf>
+    <wf wid="w47" sent="5" para="3" offset="299" length="5">sagte</wf>
+    <wf wid="w48" sent="5" para="3" offset="305" length="3">der</wf>
+    <wf wid="w49" sent="5" para="3" offset="309" length="11">Vorsitzende</wf>
+    <wf wid="w50" sent="5" para="3" offset="321" length="3">Cem</wf>
+    <wf wid="w51" sent="5" para="3" offset="325" length="7">Özdemir</wf>
+    <wf wid="w52" sent="5" para="3" offset="332" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t33" type="close">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="Brücke" morphofeat="NN" pos="N" tid="t34" type="open">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t35" type="open">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t36" type="open">
+      <span>
+        <target id="w36"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="so" morphofeat="ADV" pos="A" tid="t37" type="open">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="stabil" morphofeat="ADJD" pos="G" tid="t38" type="open">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t39" type="open">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="dass" morphofeat="KOUS" pos="C" tid="t40" type="close">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="sie" morphofeat="PPER" pos="Q" tid="t41" type="close">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term lemma="vier" morphofeat="CARD" pos="O" tid="t42" type="open">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term lemma="Jahr" morphofeat="NN" pos="N" tid="t43" type="open">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term lemma="halten" morphofeat="VVINF" pos="V" tid="t44" type="open">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="können" morphofeat="VMFIN" pos="V" tid="t45" type="open">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t46" type="open">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t47" type="open">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t48" type="close">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <term lemma="Vorsitzende" morphofeat="NN" pos="N" tid="t49" type="open">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <term lemma="Cem" morphofeat="NE" pos="R" tid="t50" type="open">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <term lemma="Özdemir" morphofeat="NE" pos="R" tid="t51" type="open">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t52" type="open">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--der Vorsitzende Cem Özdemir-->
+        <span>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Die Brücken-->
+        <span>
+          <target id="t33"/>
+          <target id="t34"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--nicht so stabil-->
+        <span>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--der Vorsitzende Cem Özdemir-->
+        <span>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Die Brücken-->
+        <span>
+          <target id="t33"/>
+          <target id="t34"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--sagte-->
+        <span>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

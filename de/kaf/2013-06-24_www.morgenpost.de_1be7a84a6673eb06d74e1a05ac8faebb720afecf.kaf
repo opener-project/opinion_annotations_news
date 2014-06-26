@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:51:41Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:51:41Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:01:20CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:52:55CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w208" sent="18" para="11" offset="1252" length="3">Wir</wf>
+    <wf wid="w209" sent="18" para="11" offset="1256" length="6">wollen</wf>
+    <wf wid="w210" sent="18" para="11" offset="1263" length="3">die</wf>
+    <wf wid="w211" sent="18" para="11" offset="1267" length="8">Mehrheit</wf>
+    <wf wid="w212" sent="18" para="11" offset="1276" length="3">und</wf>
+    <wf wid="w213" sent="18" para="11" offset="1280" length="3">den</wf>
+    <wf wid="w214" sent="18" para="11" offset="1284" length="7">Kanzler</wf>
+    <wf wid="w215" sent="18" para="11" offset="1292" length="7">stellen</wf>
+    <wf wid="w216" sent="18" para="11" offset="1299" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="wir" morphofeat="PPER" pos="Q" tid="t208" type="close">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t209" type="open">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t210" type="close">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <term lemma="Mehrheit" morphofeat="NN" pos="N" tid="t211" type="open">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t212" type="close">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t213" type="close">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <term lemma="Kanzler" morphofeat="NN" pos="N" tid="t214" type="open">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <term lemma="stellen" morphofeat="VVINF" pos="V" tid="t215" type="open">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t216" type="open">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Wir-->
+        <span>
+          <target id="t208"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die Mehrheit-->
+        <span>
+          <target id="t210"/>
+          <target id="t211"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wollen-->
+        <span>
+          <target id="t209"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Wir-->
+        <span>
+          <target id="t208"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--den Kanzler stellen-->
+        <span>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wollen-->
+        <span>
+          <target id="t209"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

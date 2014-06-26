@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:25Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:25Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:53:11" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:33:50CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="714" length="3" wid="w136">The</wf>
+    <wf sent="9" para="2" offset="718" length="4" wid="w137">trip</wf>
+    <wf sent="9" para="2" offset="723" length="2" wid="w138">to</wf>
+    <wf sent="9" para="2" offset="726" length="4" wid="w139">Ohio</wf>
+    <wf sent="9" para="2" offset="731" length="3" wid="w140">was</wf>
+    <wf sent="9" para="2" offset="735" length="2" wid="w141">to</wf>
+    <wf sent="9" para="2" offset="738" length="2" wid="w142">be</wf>
+    <wf sent="9" para="2" offset="741" length="2" wid="w143">on</wf>
+    <wf sent="9" para="2" offset="744" length="3" wid="w144">Air</wf>
+    <wf sent="9" para="2" offset="748" length="5" wid="w145">Force</wf>
+    <wf sent="9" para="2" offset="754" length="3" wid="w146">One</wf>
+    <wf sent="9" para="2" offset="758" length="3" wid="w147">and</wf>
+    <wf sent="9" para="2" offset="762" length="2" wid="w148">Mr</wf>
+    <wf sent="9" para="2" offset="765" length="7" wid="w149">Cameron</wf>
+    <wf sent="9" para="2" offset="773" length="2" wid="w150">is</wf>
+    <wf sent="9" para="2" offset="776" length="3" wid="w151">the</wf>
+    <wf sent="9" para="2" offset="780" length="5" wid="w152">first</wf>
+    <wf sent="9" para="2" offset="786" length="7" wid="w153">foreign</wf>
+    <wf sent="9" para="2" offset="794" length="6" wid="w154">leader</wf>
+    <wf sent="9" para="2" offset="801" length="7" wid="w155">invited</wf>
+    <wf sent="9" para="2" offset="809" length="2" wid="w156">on</wf>
+    <wf sent="9" para="2" offset="812" length="5" wid="w157">board</wf>
+    <wf sent="9" para="2" offset="818" length="2" wid="w158">by</wf>
+    <wf sent="9" para="2" offset="821" length="2" wid="w159">Mr</wf>
+    <wf sent="9" para="2" offset="824" length="5" wid="w160">Obama</wf>
+    <wf sent="9" para="2" offset="829" length="1" wid="w161">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t136">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--trip-->
+    <term type="open" lemma="trip" pos="N" morphofeat="NN" tid="t137">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t138">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--Ohio-->
+    <term type="close" lemma="Ohio" pos="R" morphofeat="NNP" tid="t139">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t140">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t141">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t142">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="open" lemma="on" pos="A" morphofeat="RB" tid="t143">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--Air-->
+    <term type="close" lemma="Air" pos="R" morphofeat="NNP" tid="t144">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--Force-->
+    <term type="close" lemma="Force" pos="R" morphofeat="NNP" tid="t145">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--One-->
+    <term type="close" lemma="one" pos="O" morphofeat="CD" tid="t146">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t147">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t148">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t149">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t150">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t151">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--first-->
+    <term type="open" lemma="1" pos="G" morphofeat="JJ" tid="t152">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--foreign-->
+    <term type="open" lemma="foreign" pos="G" morphofeat="JJ" tid="t153">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--leader-->
+    <term type="open" lemma="leader" pos="N" morphofeat="NN" tid="t154">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--invited-->
+    <term type="open" lemma="invite" pos="V" morphofeat="VBN" tid="t155">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t156">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--board-->
+    <term type="open" lemma="board" pos="N" morphofeat="NN" tid="t157">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t158">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t159">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term type="close" lemma="Obama" pos="R" morphofeat="NNP" tid="t160">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t161">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t136"/>
+          <target id="t137"/>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+          <target id="t153"/>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+          <target id="t157"/>
+          <target id="t158"/>
+          <target id="t159"/>
+          <target id="t160"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

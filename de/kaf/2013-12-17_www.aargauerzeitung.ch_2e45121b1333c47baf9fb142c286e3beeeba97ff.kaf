@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:19:01Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:19:01Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:14:28CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:19:20CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w43" sent="6" para="3" offset="222" length="2">Um</wf>
+    <wf wid="w44" sent="6" para="3" offset="225" length="5">11.00</wf>
+    <wf wid="w45" sent="6" para="3" offset="231" length="3">Uhr</wf>
+    <wf wid="w46" sent="6" para="3" offset="235" length="4">soll</wf>
+    <wf wid="w47" sent="6" para="3" offset="240" length="6">Merkel</wf>
+    <wf wid="w48" sent="6" para="3" offset="247" length="3">von</wf>
+    <wf wid="w49" sent="6" para="3" offset="251" length="15">Bundespräsident</wf>
+    <wf wid="w50" sent="6" para="3" offset="267" length="7">Joachim</wf>
+    <wf wid="w51" sent="6" para="3" offset="275" length="5">Gauck</wf>
+    <wf wid="w52" sent="6" para="3" offset="281" length="4">ihre</wf>
+    <wf wid="w53" sent="6" para="3" offset="286" length="17">Ernennungsurkunde</wf>
+    <wf wid="w54" sent="6" para="3" offset="304" length="8">erhalten</wf>
+    <wf wid="w55" sent="6" para="3" offset="312" length="1">,</wf>
+    <wf wid="w56" sent="6" para="3" offset="314" length="6">danach</wf>
+    <wf wid="w57" sent="6" para="3" offset="321" length="4">wird</wf>
+    <wf wid="w58" sent="6" para="3" offset="326" length="3">sie</wf>
+    <wf wid="w59" sent="6" para="3" offset="330" length="2">im</wf>
+    <wf wid="w60" sent="6" para="3" offset="333" length="9">Bundestag</wf>
+    <wf wid="w61" sent="6" para="3" offset="343" length="9">vereidigt</wf>
+    <wf wid="w62" sent="6" para="3" offset="352" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="um" morphofeat="APPR" pos="P" tid="t43" type="close">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t44" type="open">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="Uhr" morphofeat="NN" pos="N" tid="t45" type="open">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term lemma="sollen" morphofeat="VMFIN" pos="V" tid="t46" type="open">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t47" type="open">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t48" type="close">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <term lemma="Bundespräsident" morphofeat="NN" pos="N" tid="t49" type="open">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <term lemma="Joachim" morphofeat="NE" pos="R" tid="t50" type="open">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <term lemma="Gauck" morphofeat="NE" pos="R" tid="t51" type="open">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <term lemma="ihr" morphofeat="PPOSAT" pos="Q" tid="t52" type="close">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <term lemma="Ernennungsurkunde" morphofeat="NN" pos="N" tid="t53" type="open">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <term lemma="erhalten" morphofeat="VVPP" pos="V" tid="t54" type="open">
+      <span>
+        <target id="w54"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t55" type="open">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <term lemma="danach" morphofeat="PAV" pos="Q" tid="t56" type="close">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t57" type="open">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <term lemma="sie" morphofeat="PPER" pos="Q" tid="t58" type="close">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t59" type="close">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <term lemma="Bundestag" morphofeat="NN" pos="N" tid="t60" type="open">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <term lemma="vereidigen" morphofeat="VVPP" pos="V" tid="t61" type="open">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t62" type="open">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

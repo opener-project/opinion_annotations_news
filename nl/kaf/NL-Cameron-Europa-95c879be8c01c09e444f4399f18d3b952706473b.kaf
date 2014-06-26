@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:54Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:54Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:38:53CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="7">Vandaag</wf>
+    <wf wid="w2" sent="1" para="1" offset="8" length="9">toespraak</wf>
+    <wf wid="w3" sent="1" para="1" offset="18" length="7">Cameron</wf>
+    <wf wid="w4" sent="1" para="1" offset="26" length="4">over</wf>
+    <wf wid="w5" sent="1" para="1" offset="31" length="2">de</wf>
+    <wf wid="w6" sent="1" para="1" offset="34" length="2">EU</wf>
+    <wf wid="w7" sent="1" para="1" offset="36" length="1">:</wf>
+    <wf wid="w8" sent="1" para="1" offset="38" length="3">hij</wf>
+    <wf wid="w9" sent="1" para="1" offset="42" length="3">wil</wf>
+    <wf wid="w10" sent="1" para="1" offset="46" length="3">een</wf>
+    <wf wid="w11" sent="1" para="1" offset="50" length="10">referendum</wf>
+  </text>
+  <terms>
+    <!--Vandaag-->
+    <term tid="t1" type="open" lemma="vandaag" pos="A" morphofeat="adv">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--toespraak-->
+    <term tid="t2" type="open" lemma="toespraak" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t3" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t4" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t5" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term tid="t6" type="open" lemma="EU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t7" type="open" lemma=":" pos="O" morphofeat="$.">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--hij-->
+    <term tid="t8" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t9" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t10" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--referendum-->
+    <term tid="t11" type="open" lemma="referendum" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--hij-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--een referendum-->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

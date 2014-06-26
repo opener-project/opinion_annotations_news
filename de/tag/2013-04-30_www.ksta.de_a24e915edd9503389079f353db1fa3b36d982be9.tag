@@ -1,0 +1,9 @@
+w52	Danach	danach	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	51	true	8
+w53	reist	reisen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	52	true	8
+w54	der	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	53	true	8
+w55	Linksliberale	Linksliberale	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	54	true	8
+w56	nach	nach	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	55	true	8
+w57	Paris	Paris	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	56	true	8
+w58	und	und	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	57	true	8
+w59	Brüssel	Brüssel	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	58	true	8
+w60	weiter	weiter	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	59	true	8

@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:19Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:19Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:11:16" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:30:22CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="6" wid="w1">French</wf>
+    <wf sent="1" para="1" offset="7" length="2" wid="w2">FM</wf>
+    <wf sent="1" para="1" offset="10" length="5" wid="w3">warns</wf>
+    <wf sent="1" para="1" offset="16" length="2" wid="w4">of</wf>
+    <wf sent="1" para="1" offset="19" length="5" wid="w5">risky</wf>
+    <wf sent="1" para="1" offset="25" length="7" wid="w6">British</wf>
+    <wf sent="1" para="1" offset="33" length="10" wid="w7">referendum</wf>
+    <wf sent="1" para="1" offset="44" length="7" wid="w8">promise</wf>
+  </text>
+  <terms>
+    <!--French-->
+    <term type="open" lemma="french" pos="G" morphofeat="JJ" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--FM-->
+    <term type="open" lemma="FM" pos="N" morphofeat="NN" tid="t2">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--warns-->
+    <term type="open" lemma="warns" pos="N" morphofeat="NNS" tid="t3">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t4">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--risky-->
+    <term type="open" lemma="risky" pos="G" morphofeat="JJ" tid="t5">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--British-->
+    <term type="open" lemma="british" pos="G" morphofeat="JJ" tid="t6">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--referendum-->
+    <term type="open" lemma="referendum" pos="N" morphofeat="NN" tid="t7">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--promise-->
+    <term type="open" lemma="promise" pos="N" morphofeat="NN" tid="t8">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--French FM-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--risky British referendum promise-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--warns of-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--promise-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--risky-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

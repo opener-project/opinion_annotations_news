@@ -1,0 +1,11 @@
+w12	Bundeskanzlerin	Bundeskanzlerin	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	11	true	4
+w13	Angela	Angela	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	12	true	4
+w14	Merkel	Merkel	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	13	true	4
+w15	empfing	empfangen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	14	true	4
+w16	Chinas	China	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	15	true	4
+w17	Ministerpräsidenten	Ministerpräsident	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	16	true	4
+w18	Li	Li	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	17	true	4
+w19	Keqiang	Keqiang	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	18	true	4
+w20	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	19	true	4
+w21	Berlin	Berlin	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	20	true	4
+w22	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	21	true	4

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:18Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:18Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:04:52CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:29CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="1">'</wf>
+    <wf wid="w2" sent="1" para="1" offset="1" length="2">Ik</wf>
+    <wf wid="w3" sent="1" para="1" offset="4" length="3">wil</wf>
+    <wf wid="w4" sent="1" para="1" offset="8" length="6">Europa</wf>
+    <wf wid="w5" sent="1" para="1" offset="15" length="2">de</wf>
+    <wf wid="w6" sent="1" para="1" offset="18" length="3">rug</wf>
+    <wf wid="w7" sent="1" para="1" offset="22" length="4">niet</wf>
+    <wf wid="w8" sent="1" para="1" offset="27" length="8">toekeren</wf>
+    <wf wid="w9" sent="1" para="1" offset="35" length="1">'</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term tid="t1" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Ik-->
+    <term tid="t2" type="open" lemma="Ik" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t3" type="open" lemma="wil" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t4" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t5" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--rug-->
+    <term tid="t6" type="open" lemma="rug" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t7" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--toekeren-->
+    <term tid="t8" type="open" lemma="toekeren" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t9" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Europa-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--de rug toekeren-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

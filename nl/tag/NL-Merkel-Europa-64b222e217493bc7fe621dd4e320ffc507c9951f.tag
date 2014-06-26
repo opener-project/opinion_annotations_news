@@ -1,0 +1,10 @@
+w238	zijn	zijn	V		D-Negative	2	Opinion	4		0		0		0		0		0		0	237	true	10
+w239	veel	veel	A		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	238	true	10
+w240	Europese	Europees	G		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	239	true	10
+w241	landen	land	N		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	240	true	10
+w242	tegen	tegen	P		D-Negative	2	Opinion	4		0		0		0		0		0		0	241	true	10
+w243	de	de	D		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	242	true	10
+w244	belasting	belasting	N		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	243	true	10
+w245	op	op	P		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	244	true	10
+w246	Chinese	Chinees	G		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	245	true	10
+w247	zonnepanelen	zonnepanelen	O		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	246	true	10

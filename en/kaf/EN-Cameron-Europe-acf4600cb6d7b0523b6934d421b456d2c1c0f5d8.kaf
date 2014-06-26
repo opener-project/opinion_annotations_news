@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:58:13" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:03:34CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:13CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="21" para="2" offset="2747" length="3" wid="w537">The</wf>
+    <wf sent="21" para="2" offset="2751" length="11" wid="w538">association</wf>
+    <wf sent="21" para="2" offset="2763" length="4" wid="w539">said</wf>
+    <wf sent="21" para="2" offset="2768" length="2" wid="w540">in</wf>
+    <wf sent="21" para="2" offset="2771" length="1" wid="w541">a</wf>
+    <wf sent="21" para="2" offset="2773" length="9" wid="w542">statement</wf>
+    <wf sent="21" para="2" offset="2782" length="1" wid="w543">:</wf>
+    <wf sent="21" para="2" offset="2784" length="1" wid="w544">"</wf>
+    <wf sent="21" para="2" offset="2785" length="3" wid="w545">The</wf>
+    <wf sent="21" para="2" offset="2789" length="7" wid="w546">British</wf>
+    <wf sent="21" para="2" offset="2797" length="7" wid="w547">Bankers</wf>
+    <wf sent="21" para="2" offset="2804" length="1" wid="w548">'</wf>
+    <wf sent="21" para="2" offset="2806" length="11" wid="w549">Association</wf>
+    <wf sent="21" para="2" offset="2818" length="2" wid="w550">is</wf>
+    <wf sent="21" para="2" offset="2821" length="7" wid="w551">shocked</wf>
+    <wf sent="21" para="2" offset="2829" length="2" wid="w552">by</wf>
+    <wf sent="21" para="2" offset="2832" length="3" wid="w553">the</wf>
+    <wf sent="21" para="2" offset="2836" length="6" wid="w554">report</wf>
+    <wf sent="21" para="2" offset="2843" length="5" wid="w555">about</wf>
+    <wf sent="21" para="2" offset="2849" length="5" wid="w556">Libor</wf>
+    <wf sent="21" para="2" offset="2854" length="1" wid="w557">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t537">
+      <span>
+        <target id="w537"/>
+      </span>
+    </term>
+    <!--association-->
+    <term type="open" lemma="association" pos="N" morphofeat="NN" tid="t538">
+      <span>
+        <target id="w538"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t539">
+      <span>
+        <target id="w539"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t540">
+      <span>
+        <target id="w540"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t541">
+      <span>
+        <target id="w541"/>
+      </span>
+    </term>
+    <!--statement-->
+    <term type="open" lemma="statement" pos="N" morphofeat="NN" tid="t542">
+      <span>
+        <target id="w542"/>
+      </span>
+    </term>
+    <!--:-->
+    <term type="close" lemma=":" pos="O" morphofeat=":" tid="t543">
+      <span>
+        <target id="w543"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t544">
+      <span>
+        <target id="w544"/>
+      </span>
+    </term>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t545">
+      <span>
+        <target id="w545"/>
+      </span>
+    </term>
+    <!--British-->
+    <term type="open" lemma="british" pos="G" morphofeat="JJ" tid="t546">
+      <span>
+        <target id="w546"/>
+      </span>
+    </term>
+    <!--Bankers-->
+    <term type="close" lemma="Bankers" pos="R" morphofeat="NNPS" tid="t547">
+      <span>
+        <target id="w547"/>
+      </span>
+    </term>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="POS" tid="t548">
+      <span>
+        <target id="w548"/>
+      </span>
+    </term>
+    <!--Association-->
+    <term type="close" lemma="Association" pos="R" morphofeat="NNP" tid="t549">
+      <span>
+        <target id="w549"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t550">
+      <span>
+        <target id="w550"/>
+      </span>
+    </term>
+    <!--shocked-->
+    <term type="open" lemma="shock" pos="V" morphofeat="VBN" tid="t551">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w551"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t552">
+      <span>
+        <target id="w552"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t553">
+      <span>
+        <target id="w553"/>
+      </span>
+    </term>
+    <!--report-->
+    <term type="open" lemma="report" pos="N" morphofeat="NN" tid="t554">
+      <span>
+        <target id="w554"/>
+      </span>
+    </term>
+    <!--about-->
+    <term type="close" lemma="about" pos="P" morphofeat="IN" tid="t555">
+      <span>
+        <target id="w555"/>
+      </span>
+    </term>
+    <!--Libor-->
+    <term type="close" lemma="Libor" pos="R" morphofeat="NNP" tid="t556">
+      <span>
+        <target id="w556"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t557">
+      <span>
+        <target id="w557"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--The British Bankers ' Association-->
+        <span>
+          <target id="t545"/>
+          <target id="t546"/>
+          <target id="t547"/>
+          <target id="t548"/>
+          <target id="t549"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--by the report-->
+        <span>
+          <target id="t552"/>
+          <target id="t553"/>
+          <target id="t554"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--shocked-->
+        <span>
+          <target id="t551"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:04:33Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:04:33Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:26:21" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:16:30CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="7" para="2" offset="715" length="5" wid="w124">Firms</wf>
+    <wf sent="7" para="2" offset="721" length="8" wid="w125">assessed</wf>
+    <wf sent="7" para="2" offset="730" length="5" wid="w126">their</wf>
+    <wf sent="7" para="2" offset="736" length="8" wid="w127">business</wf>
+    <wf sent="7" para="2" offset="745" length="7" wid="w128">outlook</wf>
+    <wf sent="7" para="2" offset="753" length="8" wid="w129">slightly</wf>
+    <wf sent="7" para="2" offset="762" length="4" wid="w130">less</wf>
+    <wf sent="7" para="2" offset="767" length="14" wid="w131">optimistically</wf>
+    <wf sent="7" para="2" offset="782" length="4" wid="w132">than</wf>
+    <wf sent="7" para="2" offset="787" length="4" wid="w133">last</wf>
+    <wf sent="7" para="2" offset="792" length="5" wid="w134">month</wf>
+    <wf sent="7" para="2" offset="797" length="1" wid="w135">,</wf>
+    <wf sent="7" para="2" offset="799" length="4" wid="w136">said</wf>
+    <wf sent="7" para="2" offset="804" length="3" wid="w137">the</wf>
+    <wf sent="7" para="2" offset="808" length="11" wid="w138">think-tanks</wf>
+    <wf sent="7" para="2" offset="820" length="9" wid="w139">economist</wf>
+    <wf sent="7" para="2" offset="830" length="3" wid="w140">Kai</wf>
+    <wf sent="7" para="2" offset="834" length="10" wid="w141">Carstensen</wf>
+    <wf sent="7" para="2" offset="844" length="1" wid="w142">.</wf>
+  </text>
+  <terms>
+    <!--Firms-->
+    <term type="open" lemma="firm" pos="N" morphofeat="NNS" tid="t124">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--assessed-->
+    <term type="open" lemma="assess" pos="V" morphofeat="VBD" tid="t125">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--their-->
+    <term type="close" lemma="their" pos="Q" morphofeat="PRP$" tid="t126">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--business-->
+    <term type="open" lemma="business" pos="N" morphofeat="NN" tid="t127">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--outlook-->
+    <term type="open" lemma="outlook" pos="V" morphofeat="VBD" tid="t128">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--slightly-->
+    <term type="open" lemma="slightly" pos="A" morphofeat="RB" tid="t129">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--less-->
+    <term type="open" lemma="less" pos="A" morphofeat="RBR" tid="t130">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--optimistically-->
+    <term type="open" lemma="optimistically" pos="A" morphofeat="RB" tid="t131">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--than-->
+    <term type="close" lemma="than" pos="P" morphofeat="IN" tid="t132">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--last-->
+    <term type="open" lemma="last" pos="G" morphofeat="JJ" tid="t133">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--month-->
+    <term type="open" lemma="month" pos="N" morphofeat="NN" tid="t134">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t135">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t136">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t137">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--think-tanks-->
+    <term type="open" lemma="think-tanks" pos="N" morphofeat="NNS" tid="t138">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--economist-->
+    <term type="open" lemma="economist" pos="N" morphofeat="NN" tid="t139">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--Kai-->
+    <term type="close" lemma="Kai" pos="R" morphofeat="NNP" tid="t140">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--Carstensen-->
+    <term type="close" lemma="Carstensen" pos="R" morphofeat="NNP" tid="t141">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t142">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Kai Carstensen-->
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--assessed-->
+        <span>
+          <target id="t125"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--slightly less optimistically-->
+        <span>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Kai Carstensen-->
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--assessed-->
+        <span>
+          <target id="t125"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--said-->
+        <span>
+          <target id="t136"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

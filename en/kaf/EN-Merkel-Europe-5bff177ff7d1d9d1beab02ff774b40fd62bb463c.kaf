@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:45Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:45Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:25:00" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:43:23CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="1577" length="6" wid="w289">Berlin</wf>
+    <wf sent="9" para="2" offset="1584" length="3" wid="w290">has</wf>
+    <wf sent="9" para="2" offset="1588" length="2" wid="w291">so</wf>
+    <wf sent="9" para="2" offset="1591" length="3" wid="w292">far</wf>
+    <wf sent="9" para="2" offset="1595" length="8" wid="w293">rejected</wf>
+    <wf sent="9" para="2" offset="1604" length="3" wid="w294">any</wf>
+    <wf sent="9" para="2" offset="1608" length="5" wid="w295">joint</wf>
+    <wf sent="9" para="2" offset="1615" length="7" wid="w296">deposit</wf>
+    <wf sent="9" para="2" offset="1623" length="9" wid="w297">guarantee</wf>
+    <wf sent="9" para="2" offset="1633" length="2" wid="w298">or</wf>
+    <wf sent="9" para="2" offset="1636" length="10" wid="w299">resolution</wf>
+    <wf sent="9" para="2" offset="1647" length="4" wid="w300">fund</wf>
+    <wf sent="9" para="2" offset="1651" length="1" wid="w301">.</wf>
+  </text>
+  <terms>
+    <!--Berlin-->
+    <term type="close" lemma="Berlin" pos="R" morphofeat="NNP" tid="t289">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t290">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--so-->
+    <term type="open" lemma="so" pos="A" morphofeat="RB" tid="t291">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--far-->
+    <term type="open" lemma="far" pos="A" morphofeat="RB" tid="t292">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--rejected-->
+    <term type="open" lemma="reject" pos="V" morphofeat="VBN" tid="t293">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--any-->
+    <term type="close" lemma="any" pos="D" morphofeat="DT" tid="t294">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--joint-->
+    <term type="open" lemma="joint" pos="G" morphofeat="JJ" tid="t295">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--deposit-->
+    <term type="open" lemma="deposit" pos="N" morphofeat="NN" tid="t296">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--guarantee-->
+    <term type="open" lemma="guarantee" pos="N" morphofeat="NN" tid="t297">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--or-->
+    <term type="close" lemma="or" pos="C" morphofeat="CC" tid="t298">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--resolution-->
+    <term type="open" lemma="resolution" pos="N" morphofeat="NN" tid="t299">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--fund-->
+    <term type="open" lemma="fund" pos="N" morphofeat="NN" tid="t300">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t301">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Berlin-->
+        <span>
+          <target id="t289"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--joint deposit guarantee-->
+        <span>
+          <target id="t295"/>
+          <target id="t296"/>
+          <target id="t297"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--has rejected-->
+        <span>
+          <target id="t290"/>
+          <target id="t293"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Berlin-->
+        <span>
+          <target id="t289"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--resolution fund-->
+        <span>
+          <target id="t299"/>
+          <target id="t300"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--has rejected-->
+        <span>
+          <target id="t290"/>
+          <target id="t293"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

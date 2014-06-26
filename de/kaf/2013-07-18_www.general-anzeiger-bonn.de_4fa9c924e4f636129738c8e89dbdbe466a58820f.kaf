@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:01:44Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:01:44Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:17:04CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:02:07CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w804" sent="40" para="16" offset="4752" length="3">Das</wf>
+    <wf wid="w805" sent="40" para="16" offset="4756" length="7">Zentrum</wf>
+    <wf wid="w806" sent="40" para="16" offset="4764" length="4">soll</wf>
+    <wf wid="w807" sent="40" para="16" offset="4769" length="3">bis</wf>
+    <wf wid="w808" sent="40" para="16" offset="4773" length="4">Ende</wf>
+    <wf wid="w809" sent="40" para="16" offset="4778" length="4">2015</wf>
+    <wf wid="w810" sent="40" para="16" offset="4783" length="6">fertig</wf>
+    <wf wid="w811" sent="40" para="16" offset="4790" length="4">sein</wf>
+    <wf wid="w812" sent="40" para="16" offset="4794" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t804" type="close">
+      <span>
+        <target id="w804"/>
+      </span>
+    </term>
+    <term lemma="Zentrum" morphofeat="NN" pos="N" tid="t805" type="open">
+      <span>
+        <target id="w805"/>
+      </span>
+    </term>
+    <term lemma="sollen" morphofeat="VMFIN" pos="V" tid="t806" type="open">
+      <span>
+        <target id="w806"/>
+      </span>
+    </term>
+    <term lemma="bis" morphofeat="APPR" pos="P" tid="t807" type="close">
+      <span>
+        <target id="w807"/>
+      </span>
+    </term>
+    <term lemma="Ende" morphofeat="NN" pos="N" tid="t808" type="open">
+      <span>
+        <target id="w808"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t809" type="open">
+      <span>
+        <target id="w809"/>
+      </span>
+    </term>
+    <term lemma="fertig" morphofeat="ADJD" pos="G" tid="t810" type="open">
+      <span>
+        <target id="w810"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAINF" pos="V" tid="t811" type="open">
+      <span>
+        <target id="w811"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t812" type="open">
+      <span>
+        <target id="w812"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t804"/>
+          <target id="t805"/>
+          <target id="t806"/>
+          <target id="t807"/>
+          <target id="t808"/>
+          <target id="t809"/>
+          <target id="t810"/>
+          <target id="t811"/>
+          <target id="t812"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

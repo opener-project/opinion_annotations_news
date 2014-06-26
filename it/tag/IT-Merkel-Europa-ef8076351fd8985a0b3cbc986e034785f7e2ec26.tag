@@ -1,0 +1,9 @@
+w240	Atene	atene	R		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	239	true	13
+w241	torna	tornare	V		I-Positive	2	Opinion	3		0		0		0		0		0		0	240	true	13
+w242	quindi	quindi	A		I-Positive	2	Opinion	3		0		0		0		0		0		0	241	true	13
+w243	alla	alla	P		I-Positive	2	Opinion	3		0		0		0		0		0		0	242	true	13
+w244	piena	pieno	G		I-Positive	2	Opinion	3		0		0		0		0		0		0	243	true	13
+w245	legittimità	legittimita'	R		I-Positive	2	Opinion	3		0		0		0		0		0		0	244	true	13
+w246	e	e	Q		I-Positive	2	Opinion	3		0		0		0		0		0		0	245	true	13
+w247	normalità	normalita'	N		I-Positive	2	Opinion	3		0		0		0		0		0		0	246	true	13
+w248	democratica	democratico	G		I-Positive	2	Opinion	3		0		0		0		0		0		0	247	true	13

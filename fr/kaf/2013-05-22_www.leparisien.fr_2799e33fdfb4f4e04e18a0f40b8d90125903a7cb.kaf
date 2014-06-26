@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:50:17Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:50:17Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:50:17Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:35:40CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w334" sent="14" para="9" offset="1503" length="2">L'</wf>
+    <wf wid="w335" sent="14" para="9" offset="1505" length="12">optimisation</wf>
+    <wf wid="w336" sent="14" para="9" offset="1518" length="7">fiscale</wf>
+    <wf wid="w337" sent="14" para="9" offset="1526" length="3">des</wf>
+    <wf wid="w338" sent="14" para="9" offset="1530" length="11">entreprises</wf>
+    <wf wid="w339" sent="14" para="9" offset="1542" length="3">est</wf>
+    <wf wid="w340" sent="14" para="9" offset="1546" length="8">aujourd'</wf>
+    <wf wid="w341" sent="14" para="9" offset="1554" length="3">hui</wf>
+    <wf wid="w342" sent="14" para="9" offset="1558" length="13">indispensable</wf>
+    <wf wid="w343" sent="14" para="9" offset="1572" length="1">a</wf>
+    <wf wid="w344" sent="14" para="9" offset="1574" length="4">leur</wf>
+    <wf wid="w345" sent="14" para="9" offset="1579" length="6">survie</wf>
+    <wf wid="w346" sent="14" para="9" offset="1585" length="1">.</wf>
+    <wf wid="w647" sent="24" para="17" offset="3046" length="8">Hollande</wf>
+    <wf wid="w648" sent="24" para="17" offset="3055" length="2">n'</wf>
+    <wf wid="w649" sent="24" para="17" offset="3057" length="1">a</wf>
+    <wf wid="w650" sent="24" para="17" offset="3059" length="3">pas</wf>
+    <wf wid="w651" sent="24" para="17" offset="3063" length="2">su</wf>
+    <wf wid="w652" sent="24" para="17" offset="3066" length="10">contredire</wf>
+    <wf wid="w653" sent="24" para="17" offset="3077" length="6">Merkel</wf>
+    <wf wid="w654" sent="24" para="17" offset="3084" length="3">dès</wf>
+    <wf wid="w655" sent="24" para="17" offset="3088" length="2">le</wf>
+    <wf wid="w656" sent="24" para="17" offset="3091" length="6">départ</wf>
+    <wf wid="w657" sent="24" para="17" offset="3097" length="1">.</wf>
+    <wf wid="w658" sent="25" para="17" offset="3099" length="2">C'</wf>
+    <wf wid="w659" sent="25" para="17" offset="3101" length="3">est</wf>
+    <wf wid="w660" sent="25" para="17" offset="3105" length="4">raté</wf>
+    <wf wid="w661" sent="25" para="17" offset="3110" length="10">maintenant</wf>
+    <wf wid="w662" sent="25" para="17" offset="3120" length="1">.</wf>
+  </text>
+  <terms>
+    <!--L'-->
+    <term tid="t334" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <!--optimisation-->
+    <term tid="t335" type="open" lemma="optimisation" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <!--fiscale-->
+    <term tid="t336" type="open" lemma="fiscal" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t337" type="close" lemma="des" pos="P" morphofeat="P">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <!--entreprises-->
+    <term tid="t338" type="open" lemma="entreprise" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t339" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--aujourd'-->
+    <term tid="t340" type="close" lemma="aujourd'" pos="P" morphofeat="P">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--hui-->
+    <term tid="t341" type="open" lemma="hui" pos="N" morphofeat="N">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--indispensable-->
+    <term tid="t342" type="open" lemma="indispensable" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t343" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--leur-->
+    <term tid="t344" type="close" lemma="son" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--survie-->
+    <term tid="t345" type="open" lemma="survie" pos="V" morphofeat="VKfs">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t346" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t647" type="open" lemma="hollande" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w647"/>
+      </span>
+    </term>
+    <!--n'-->
+    <term tid="t648" type="open" lemma="n'" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w648"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t649" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w649"/>
+      </span>
+    </term>
+    <!--pas-->
+    <term tid="t650" type="open" lemma="pas" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative" sentiment_modifier="shifter"/>
+      <span>
+        <target id="w650"/>
+      </span>
+    </term>
+    <!--su-->
+    <term tid="t651" type="open" lemma="savoir" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w651"/>
+      </span>
+    </term>
+    <!--contredire-->
+    <term tid="t652" type="open" lemma="contredire" pos="V" morphofeat="VW">
+      <span>
+        <target id="w652"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t653" type="open" lemma="Merkel" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w653"/>
+      </span>
+    </term>
+    <!--dès-->
+    <term tid="t654" type="close" lemma="dès" pos="P" morphofeat="P">
+      <span>
+        <target id="w654"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t655" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w655"/>
+      </span>
+    </term>
+    <!--départ-->
+    <term tid="t656" type="open" lemma="départ" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w656"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t657" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w657"/>
+      </span>
+    </term>
+    <!--C'-->
+    <term tid="t658" type="close" lemma="C'" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w658"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t659" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w659"/>
+      </span>
+    </term>
+    <!--raté-->
+    <term tid="t660" type="open" lemma="rater" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w660"/>
+      </span>
+    </term>
+    <!--maintenant-->
+    <term tid="t661" type="open" lemma="maintenant" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w661"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t662" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w662"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--C'-->
+        <span>
+          <target id="t658"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--raté maintenant-->
+        <span>
+          <target id="t660"/>
+          <target id="t661"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--L' optimisation fiscale des entreprises-->
+        <span>
+          <target id="t334"/>
+          <target id="t335"/>
+          <target id="t336"/>
+          <target id="t337"/>
+          <target id="t338"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--indispensable-->
+        <span>
+          <target id="t342"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Hollande-->
+        <span>
+          <target id="t647"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--n' a pas su contredire Merkel-->
+        <span>
+          <target id="t648"/>
+          <target id="t649"/>
+          <target id="t650"/>
+          <target id="t651"/>
+          <target id="t652"/>
+          <target id="t653"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T10:08:26Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T10:08:26Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:03:40CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T11:09:02CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w417" sent="23" para="12" offset="2479" length="8">Ramsauer</wf>
+    <wf wid="w418" sent="23" para="12" offset="2488" length="3">war</wf>
+    <wf wid="w419" sent="23" para="12" offset="2492" length="7">anfangs</wf>
+    <wf wid="w420" sent="23" para="12" offset="2500" length="3">ein</wf>
+    <wf wid="w421" sent="23" para="12" offset="2504" length="9">Skeptiker</wf>
+    <wf wid="w422" sent="23" para="12" offset="2514" length="3">der</wf>
+    <wf wid="w423" sent="23" para="12" offset="2518" length="4">Maut</wf>
+    <wf wid="w424" sent="23" para="12" offset="2522" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Ramsauer" morphofeat="ADJD unknown_lemma" pos="O" tid="t417" type="open">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t418" type="open">
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <term lemma="anfangs" morphofeat="ADV" pos="A" tid="t419" type="open">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t420" type="close">
+      <span>
+        <target id="w420"/>
+      </span>
+    </term>
+    <term lemma="Skeptiker" morphofeat="NN" pos="N" tid="t421" type="open">
+      <span>
+        <target id="w421"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t422" type="close">
+      <span>
+        <target id="w422"/>
+      </span>
+    </term>
+    <term lemma="Maut" morphofeat="NN unknown_lemma" pos="O" tid="t423" type="open">
+      <span>
+        <target id="w423"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t424" type="open">
+      <span>
+        <target id="w424"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Ramsauer-->
+        <span>
+          <target id="t417"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--der Maut-->
+        <span>
+          <target id="t422"/>
+          <target id="t423"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--war-->
+        <span>
+          <target id="t418"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Ramsauer-->
+        <span>
+          <target id="t417"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--der Maut-->
+        <span>
+          <target id="t422"/>
+          <target id="t423"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--ein Skeptiker-->
+        <span>
+          <target id="t420"/>
+          <target id="t421"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

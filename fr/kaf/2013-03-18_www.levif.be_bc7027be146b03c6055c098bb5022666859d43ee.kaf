@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:53:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:53:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:53:13Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:23:54CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:22CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w163" sent="9" para="8" offset="864" length="2">La</wf>
+    <wf wid="w164" sent="9" para="8" offset="867" length="5">messe</wf>
+    <wf wid="w165" sent="9" para="8" offset="873" length="2">d'</wf>
+    <wf wid="w166" sent="9" para="8" offset="875" length="12">installation</wf>
+    <wf wid="w167" sent="9" para="8" offset="888" length="2">du</wf>
+    <wf wid="w168" sent="9" para="8" offset="891" length="7">premier</wf>
+    <wf wid="w169" sent="9" para="8" offset="899" length="4">pape</wf>
+    <wf wid="w170" sent="9" para="8" offset="904" length="4">venu</wf>
+    <wf wid="w171" sent="9" para="8" offset="909" length="3">des</wf>
+    <wf wid="w172" sent="9" para="8" offset="913" length="9">Amériques</wf>
+    <wf wid="w173" sent="9" para="8" offset="923" length="4">aura</wf>
+    <wf wid="w174" sent="9" para="8" offset="928" length="4">lieu</wf>
+    <wf wid="w175" sent="9" para="8" offset="933" length="5">place</wf>
+    <wf wid="w176" sent="9" para="8" offset="939" length="5">Saint</wf>
+    <wf wid="w177" sent="9" para="8" offset="944" length="1">·</wf>
+    <wf wid="w178" sent="9" para="8" offset="945" length="6">Pierre</wf>
+    <wf wid="w179" sent="9" para="8" offset="952" length="2">le</wf>
+    <wf wid="w180" sent="9" para="8" offset="955" length="2">19</wf>
+    <wf wid="w181" sent="9" para="8" offset="958" length="4">mars</wf>
+    <wf wid="w182" sent="9" para="8" offset="962" length="1">,</wf>
+    <wf wid="w183" sent="9" para="8" offset="964" length="4">jour</wf>
+    <wf wid="w184" sent="9" para="8" offset="969" length="2">de</wf>
+    <wf wid="w185" sent="9" para="8" offset="972" length="2">la</wf>
+    <wf wid="w186" sent="9" para="8" offset="975" length="5">Saint</wf>
+    <wf wid="w187" sent="9" para="8" offset="981" length="6">Joseph</wf>
+    <wf wid="w188" sent="9" para="8" offset="987" length="1">,</wf>
+    <wf wid="w189" sent="9" para="8" offset="989" length="6">patron</wf>
+    <wf wid="w190" sent="9" para="8" offset="996" length="2">de</wf>
+    <wf wid="w191" sent="9" para="8" offset="999" length="2">l'</wf>
+    <wf wid="w192" sent="9" para="8" offset="1001" length="6">Église</wf>
+    <wf wid="w193" sent="9" para="8" offset="1007" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t163" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--messe-->
+    <term tid="t164" type="open" lemma="messe" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--d'-->
+    <term tid="t165" type="close" lemma="d'" pos="P" morphofeat="P">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--installation-->
+    <term tid="t166" type="open" lemma="installation" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t167" type="close" lemma="du" pos="P" morphofeat="P">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t168" type="open" lemma="premier" pos="V" morphofeat="VW">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--pape-->
+    <term tid="t169" type="open" lemma="pape" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--venu-->
+    <term tid="t170" type="open" lemma="venir" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t171" type="close" lemma="des" pos="P" morphofeat="P">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--Amériques-->
+    <term tid="t172" type="open" lemma="Amériques" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--aura-->
+    <term tid="t173" type="open" lemma="avoir" pos="V" morphofeat="VF3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--lieu-->
+    <term tid="t174" type="close" lemma="lieu" pos="O" morphofeat="default">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--place-->
+    <term tid="t175" type="open" lemma="place" pos="N" morphofeat="N">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--Saint-->
+    <term tid="t176" type="open" lemma="saint" pos="N" morphofeat="NPms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--·-->
+    <term tid="t177" type="close" lemma="·" pos="O" morphofeat=",">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--Pierre-->
+    <term tid="t178" type="open" lemma="pierre" pos="N" morphofeat="NPms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t179" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--19-->
+    <term tid="t180" type="open" lemma="19" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--mars-->
+    <term tid="t181" type="open" lemma="mar" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t182" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--jour-->
+    <term tid="t183" type="open" lemma="jour" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t184" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t185" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--Saint-->
+    <term tid="t186" type="open" lemma="saint" pos="N" morphofeat="NPfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--Joseph-->
+    <term tid="t187" type="open" lemma="joseph" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t188" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--patron-->
+    <term tid="t189" type="open" lemma="patron" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t190" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t191" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--Église-->
+    <term tid="t192" type="open" lemma="église" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t193" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

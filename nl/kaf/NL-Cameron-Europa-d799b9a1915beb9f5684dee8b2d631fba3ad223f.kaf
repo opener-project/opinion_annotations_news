@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:19Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:19Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:11:05CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:37CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w9" sent="2" para="2" offset="50" length="3">Dat</wf>
+    <wf wid="w10" sent="2" para="2" offset="54" length="3">zei</wf>
+    <wf wid="w11" sent="2" para="2" offset="58" length="7">Cameron</wf>
+    <wf wid="w12" sent="2" para="2" offset="66" length="7">maandag</wf>
+    <wf wid="w13" sent="2" para="2" offset="74" length="5">tegen</wf>
+    <wf wid="w14" sent="2" para="2" offset="80" length="2">de</wf>
+    <wf wid="w15" sent="2" para="2" offset="83" length="3">BBC</wf>
+    <wf wid="w16" sent="2" para="2" offset="87" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Dat-->
+    <term tid="t9" type="close" lemma="dat" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--zei-->
+    <term tid="t10" type="open" lemma="zeggen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t11" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--maandag-->
+    <term tid="t12" type="open" lemma="maandag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--tegen-->
+    <term tid="t13" type="close" lemma="tegen" pos="P" morphofeat="prep">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t14" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--BBC-->
+    <term tid="t15" type="open" lemma="BBC" pos="N" morphofeat="nounabbr">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t16" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

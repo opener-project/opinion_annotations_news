@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:12:31" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:01:22CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="14" para="2" offset="2141" length="6" wid="w391">German</wf>
+    <wf sent="14" para="2" offset="2148" length="11" wid="w392">authorities</wf>
+    <wf sent="14" para="2" offset="2160" length="2" wid="w393">in</wf>
+    <wf sent="14" para="2" offset="2163" length="4" wid="w394">July</wf>
+    <wf sent="14" para="2" offset="2168" length="6" wid="w395">raided</wf>
+    <wf sent="14" para="2" offset="2175" length="3" wid="w396">the</wf>
+    <wf sent="14" para="2" offset="2179" length="5" wid="w397">homes</wf>
+    <wf sent="14" para="2" offset="2185" length="2" wid="w398">of</wf>
+    <wf sent="14" para="2" offset="2188" length="7" wid="w399">clients</wf>
+    <wf sent="14" para="2" offset="2196" length="2" wid="w400">of</wf>
+    <wf sent="14" para="2" offset="2199" length="6" wid="w401">Credit</wf>
+    <wf sent="14" para="2" offset="2206" length="6" wid="w402">Suisse</wf>
+    <wf sent="14" para="2" offset="2212" length="1" wid="w403">.</wf>
+  </text>
+  <terms>
+    <!--German-->
+    <term type="open" lemma="german" pos="G" morphofeat="JJ" tid="t391">
+      <span>
+        <target id="w391"/>
+      </span>
+    </term>
+    <!--authorities-->
+    <term type="open" lemma="authority" pos="N" morphofeat="NNS" tid="t392">
+      <span>
+        <target id="w392"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t393">
+      <span>
+        <target id="w393"/>
+      </span>
+    </term>
+    <!--July-->
+    <term type="close" lemma="July" pos="R" morphofeat="NNP" tid="t394">
+      <span>
+        <target id="w394"/>
+      </span>
+    </term>
+    <!--raided-->
+    <term type="open" lemma="raid" pos="V" morphofeat="VBD" tid="t395">
+      <span>
+        <target id="w395"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t396">
+      <span>
+        <target id="w396"/>
+      </span>
+    </term>
+    <!--homes-->
+    <term type="open" lemma="home" pos="N" morphofeat="NNS" tid="t397">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t398">
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <!--clients-->
+    <term type="open" lemma="client" pos="N" morphofeat="NNS" tid="t399">
+      <span>
+        <target id="w399"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t400">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+    <!--Credit-->
+    <term type="close" lemma="Credit" pos="R" morphofeat="NNP" tid="t401">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <!--Suisse-->
+    <term type="close" lemma="Suisse" pos="R" morphofeat="NNP" tid="t402">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t403">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--German authorities-->
+        <span>
+          <target id="t391"/>
+          <target id="t392"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the homes of clients of Credit Suisse-->
+        <span>
+          <target id="t396"/>
+          <target id="t397"/>
+          <target id="t398"/>
+          <target id="t399"/>
+          <target id="t400"/>
+          <target id="t401"/>
+          <target id="t402"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--raided-->
+        <span>
+          <target id="t395"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

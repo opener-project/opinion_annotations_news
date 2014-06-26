@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:39:24Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:39:24Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:07:53CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:39:38CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w175" sent="16" para="8" offset="1124" length="3">Die</wf>
+    <wf wid="w176" sent="16" para="8" offset="1128" length="3">FDP</wf>
+    <wf wid="w177" sent="16" para="8" offset="1131" length="1">·</wf>
+    <wf wid="w178" sent="16" para="8" offset="1132" length="16">Innenpolitikerin</wf>
+    <wf wid="w179" sent="16" para="8" offset="1149" length="6">Gisela</wf>
+    <wf wid="w180" sent="16" para="8" offset="1156" length="5">Piltz</wf>
+    <wf wid="w181" sent="16" para="8" offset="1162" length="11">kritisierte</wf>
+    <wf wid="w182" sent="16" para="8" offset="1173" length="1">,</wf>
+    <wf wid="w183" sent="16" para="8" offset="1175" length="4">ihre</wf>
+    <wf wid="w184" sent="16" para="8" offset="1180" length="8">Fraktion</wf>
+    <wf wid="w185" sent="16" para="8" offset="1189" length="5">lehne</wf>
+    <wf wid="w186" sent="16" para="8" offset="1195" length="3">die</wf>
+    <wf wid="w187" sent="16" para="8" offset="1199" length="10">Vorschläge</wf>
+    <wf wid="w188" sent="16" para="8" offset="1210" length="4">nach</wf>
+    <wf wid="w189" sent="16" para="8" offset="1215" length="4">mehr</wf>
+    <wf wid="w190" sent="16" para="8" offset="1220" length="11">Überwachung</wf>
+    <wf wid="w191" sent="16" para="8" offset="1232" length="2">ab</wf>
+    <wf wid="w192" sent="16" para="8" offset="1234" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t175" type="close">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <term lemma="FDP" morphofeat="NE" pos="R" tid="t176" type="open">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t177" type="open">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <term lemma="Innenpolitikerin" morphofeat="NN unknown_lemma" pos="O" tid="t178" type="open">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <term lemma="Gisela" morphofeat="NE" pos="R" tid="t179" type="open">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <term lemma="Piltz" morphofeat="NE" pos="R" tid="t180" type="open">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <term lemma="kritisieren" morphofeat="VVFIN" pos="V" tid="t181" type="open">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t182" type="open">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <term lemma="ihr" morphofeat="PPOSAT" pos="Q" tid="t183" type="close">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <term lemma="Fraktion" morphofeat="NN" pos="N" tid="t184" type="open">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <term lemma="lehnen" morphofeat="VVFIN" pos="V" tid="t185" type="open">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t186" type="close">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <term lemma="Vorschlag" morphofeat="NN" pos="N" tid="t187" type="open">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <term lemma="nach" morphofeat="APPR" pos="P" tid="t188" type="close">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <term lemma="mehr" morphofeat="PIAT" pos="Q" tid="t189" type="close">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <term lemma="Überwachung" morphofeat="NN" pos="N" tid="t190" type="open">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <term lemma="ab" morphofeat="PTKVZ" pos="V" tid="t191" type="open">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t192" type="open">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Die FDP · Innenpolitikerin Gisela Piltz-->
+        <span>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--ihre Fraktion-->
+        <span>
+          <target id="t183"/>
+          <target id="t184"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--kritisierte-->
+        <span>
+          <target id="t181"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

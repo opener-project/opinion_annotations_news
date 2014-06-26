@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T18:11:46Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T18:11:46Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:04:29CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T19:12:19CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w365" sent="28" para="10" offset="2047" length="3">Ich</wf>
+    <wf wid="w366" sent="28" para="10" offset="2051" length="6">kämpfe</wf>
+    <wf wid="w367" sent="28" para="10" offset="2058" length="3">für</wf>
+    <wf wid="w368" sent="28" para="10" offset="2062" length="6">starke</wf>
+    <wf wid="w369" sent="28" para="10" offset="2069" length="5">Grüne</wf>
+    <wf wid="w370" sent="28" para="10" offset="2074" length="1">.</wf>
+    <wf wid="w779" sent="57" para="18" offset="4438" length="3">Das</wf>
+    <wf wid="w780" sent="57" para="18" offset="4442" length="8">Gespräch</wf>
+    <wf wid="w781" sent="57" para="18" offset="4451" length="6">führte</wf>
+    <wf wid="w782" sent="57" para="18" offset="4458" length="8">Thorsten</wf>
+    <wf wid="w783" sent="57" para="18" offset="4467" length="4">Knuf</wf>
+    <wf wid="w784" sent="57" para="18" offset="4471" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="ich" morphofeat="PPER" pos="Q" tid="t365" type="close">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <term lemma="kämpfen" morphofeat="VVFIN" pos="V" tid="t366" type="open">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t367" type="close">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <term lemma="stark" morphofeat="ADJA" pos="G" tid="t368" type="open">
+      <span>
+        <target id="w368"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Grüne" morphofeat="NN" pos="N" tid="t369" type="open">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t370" type="open">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t779" type="close">
+      <span>
+        <target id="w779"/>
+      </span>
+    </term>
+    <term lemma="Gespräch" morphofeat="NN" pos="N" tid="t780" type="open">
+      <span>
+        <target id="w780"/>
+      </span>
+    </term>
+    <term lemma="führen" morphofeat="VVFIN" pos="V" tid="t781" type="open">
+      <span>
+        <target id="w781"/>
+      </span>
+    </term>
+    <term lemma="Thorsten" morphofeat="NE" pos="R" tid="t782" type="open">
+      <span>
+        <target id="w782"/>
+      </span>
+    </term>
+    <term lemma="Knuf" morphofeat="NN unknown_lemma" pos="O" tid="t783" type="open">
+      <span>
+        <target id="w783"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t784" type="open">
+      <span>
+        <target id="w784"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Ich-->
+        <span>
+          <target id="t365"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--starke Grüne-->
+        <span>
+          <target id="t368"/>
+          <target id="t369"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--kämpfe für-->
+        <span>
+          <target id="t366"/>
+          <target id="t367"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Grüne-->
+        <span>
+          <target id="t369"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--starke-->
+        <span>
+          <target id="t368"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t779"/>
+          <target id="t780"/>
+          <target id="t781"/>
+          <target id="t782"/>
+          <target id="t783"/>
+          <target id="t784"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

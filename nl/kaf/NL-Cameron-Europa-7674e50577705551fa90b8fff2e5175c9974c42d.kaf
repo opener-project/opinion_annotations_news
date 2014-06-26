@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:29:01CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w292" sent="17" para="2" offset="1633" length="1">"</wf>
+    <wf wid="w293" sent="17" para="2" offset="1634" length="7">Maandag</wf>
+    <wf wid="w294" sent="17" para="2" offset="1642" length="4">zijn</wf>
+    <wf wid="w295" sent="17" para="2" offset="1647" length="2">de</wf>
+    <wf wid="w296" sent="17" para="2" offset="1650" length="7">leiders</wf>
+    <wf wid="w297" sent="17" para="2" offset="1658" length="3">van</wf>
+    <wf wid="w298" sent="17" para="2" offset="1662" length="2">de</wf>
+    <wf wid="w299" sent="17" para="2" offset="1665" length="9">G8-landen</wf>
+    <wf wid="w300" sent="17" para="2" offset="1675" length="3">bij</wf>
+    <wf wid="w301" sent="17" para="2" offset="1679" length="6">elkaar</wf>
+    <wf wid="w302" sent="17" para="2" offset="1686" length="2">in</wf>
+    <wf wid="w303" sent="17" para="2" offset="1689" length="3">het</wf>
+    <wf wid="w304" sent="17" para="2" offset="1693" length="11">Noord-Ierse</wf>
+    <wf wid="w305" sent="17" para="2" offset="1705" length="10">graafschap</wf>
+    <wf wid="w306" sent="17" para="2" offset="1716" length="9">Fermanagh</wf>
+    <wf wid="w307" sent="17" para="2" offset="1725" length="1">.</wf>
+    <wf wid="w336" sent="20" para="2" offset="1888" length="1">"</wf>
+    <wf wid="w337" sent="20" para="2" offset="1889" length="2">Ik</wf>
+    <wf wid="w338" sent="20" para="2" offset="1892" length="5">vrees</wf>
+    <wf wid="w339" sent="20" para="2" offset="1898" length="3">dat</wf>
+    <wf wid="w340" sent="20" para="2" offset="1902" length="2">de</wf>
+    <wf wid="w341" sent="20" para="2" offset="1905" length="11">standpunten</wf>
+    <wf wid="w342" sent="20" para="2" offset="1917" length="3">erg</wf>
+    <wf wid="w343" sent="20" para="2" offset="1921" length="3">uit</wf>
+    <wf wid="w344" sent="20" para="2" offset="1925" length="6">elkaar</wf>
+    <wf wid="w345" sent="20" para="2" offset="1932" length="6">liggen</wf>
+    <wf wid="w346" sent="20" para="2" offset="1938" length="1">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term tid="t292" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--Maandag-->
+    <term tid="t293" type="open" lemma="maandag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t294" type="open" lemma="zijn" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t295" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--leiders-->
+    <term tid="t296" type="open" lemma="leider" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t297" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t298" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--G8-landen-->
+    <term tid="t299" type="open" lemma="G8-landen" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--bij-->
+    <term tid="t300" type="close" lemma="bij" pos="P" morphofeat="prep">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--elkaar-->
+    <term tid="t301" type="close" lemma="elkaar" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t302" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t303" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--Noord-Ierse-->
+    <term tid="t304" type="open" lemma="Noord-Ierse" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <!--graafschap-->
+    <term tid="t305" type="open" lemma="graafschap" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--Fermanagh-->
+    <term tid="t306" type="open" lemma="Fermanagh" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t307" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t336" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--Ik-->
+    <term tid="t337" type="close" lemma="ik" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <!--vrees-->
+    <term tid="t338" type="open" lemma="vrezen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w338"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t339" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t340" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--standpunten-->
+    <term tid="t341" type="open" lemma="standpunt" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--erg-->
+    <term tid="t342" type="open" lemma="erg" pos="G" morphofeat="adj">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--uit-->
+    <term tid="t343" type="close" lemma="uit" pos="P" morphofeat="prep">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--elkaar-->
+    <term tid="t344" type="close" lemma="elkaar" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--liggen-->
+    <term tid="t345" type="open" lemma="liggen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w345"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t346" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--de standpunten-->
+        <span>
+          <target id="t340"/>
+          <target id="t341"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--erg uit elkaar-->
+        <span>
+          <target id="t342"/>
+          <target id="t343"/>
+          <target id="t344"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Ik-->
+        <span>
+          <target id="t337"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de standpunten erg uit elkaar liggen-->
+        <span>
+          <target id="t340"/>
+          <target id="t341"/>
+          <target id="t342"/>
+          <target id="t343"/>
+          <target id="t344"/>
+          <target id="t345"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--vrees-->
+        <span>
+          <target id="t338"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t292"/>
+          <target id="t293"/>
+          <target id="t294"/>
+          <target id="t295"/>
+          <target id="t296"/>
+          <target id="t297"/>
+          <target id="t298"/>
+          <target id="t299"/>
+          <target id="t300"/>
+          <target id="t301"/>
+          <target id="t302"/>
+          <target id="t303"/>
+          <target id="t304"/>
+          <target id="t305"/>
+          <target id="t306"/>
+          <target id="t307"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:56:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:56:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:56:00Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:33:56CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w274" sent="21" para="14" offset="1461" length="5">Après</wf>
+    <wf wid="w275" sent="21" para="14" offset="1467" length="2">la</wf>
+    <wf wid="w276" sent="21" para="14" offset="1470" length="8">bataille</wf>
+    <wf wid="w277" sent="21" para="14" offset="1478" length="1">,</wf>
+    <wf wid="w278" sent="21" para="14" offset="1480" length="1">«</wf>
+    <wf wid="w279" sent="21" para="14" offset="1481" length="2">il</wf>
+    <wf wid="w280" sent="21" para="14" offset="1484" length="3">est</wf>
+    <wf wid="w281" sent="21" para="14" offset="1488" length="9">important</wf>
+    <wf wid="w282" sent="21" para="14" offset="1498" length="2">d'</wf>
+    <wf wid="w283" sent="21" para="14" offset="1500" length="7">adopter</wf>
+    <wf wid="w284" sent="21" para="14" offset="1508" length="2">un</wf>
+    <wf wid="w285" sent="21" para="14" offset="1511" length="5">autre</wf>
+    <wf wid="w286" sent="21" para="14" offset="1517" length="3">ton</wf>
+    <wf wid="w287" sent="21" para="14" offset="1521" length="2">et</wf>
+    <wf wid="w288" sent="21" para="14" offset="1524" length="2">d'</wf>
+    <wf wid="w289" sent="21" para="14" offset="1526" length="7">établir</wf>
+    <wf wid="w290" sent="21" para="14" offset="1534" length="3">des</wf>
+    <wf wid="w291" sent="21" para="14" offset="1538" length="9">relations</wf>
+    <wf wid="w292" sent="21" para="14" offset="1548" length="12">personnelles</wf>
+    <wf wid="w293" sent="21" para="14" offset="1560" length="1">»</wf>
+    <wf wid="w294" sent="21" para="14" offset="1561" length="1">,</wf>
+    <wf wid="w295" sent="21" para="14" offset="1563" length="1">a</wf>
+    <wf wid="w296" sent="21" para="14" offset="1565" length="8">renchéri</wf>
+    <wf wid="w297" sent="21" para="14" offset="1574" length="3">son</wf>
+    <wf wid="w298" sent="21" para="14" offset="1578" length="9">homologue</wf>
+    <wf wid="w299" sent="21" para="14" offset="1588" length="2">du</wf>
+    <wf wid="w300" sent="21" para="14" offset="1591" length="5">Parti</wf>
+    <wf wid="w301" sent="21" para="14" offset="1597" length="6">social</wf>
+    <wf wid="w302" sent="21" para="14" offset="1603" length="1">·</wf>
+    <wf wid="w303" sent="21" para="14" offset="1604" length="9">démocrate</wf>
+    <wf wid="w304" sent="21" para="14" offset="1614" length="1">(</wf>
+    <wf wid="w305" sent="21" para="14" offset="1615" length="3">SPD</wf>
+    <wf wid="w306" sent="21" para="14" offset="1618" length="1">)</wf>
+    <wf wid="w307" sent="21" para="14" offset="1619" length="1">,</wf>
+    <wf wid="w308" sent="21" para="14" offset="1621" length="6">Andrea</wf>
+    <wf wid="w309" sent="21" para="14" offset="1628" length="6">Nahles</wf>
+    <wf wid="w310" sent="21" para="14" offset="1634" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Après-->
+    <term tid="t274" type="close" lemma="Après" pos="P" morphofeat="P">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t275" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--bataille-->
+    <term tid="t276" type="open" lemma="bataille" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t277" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t278" type="close" lemma="«" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t279" type="close" lemma="il" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t280" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--important-->
+    <term tid="t281" type="open" lemma="important" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--d'-->
+    <term tid="t282" type="close" lemma="d'" pos="P" morphofeat="P">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--adopter-->
+    <term tid="t283" type="open" lemma="adopter" pos="V" morphofeat="VW">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t284" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--autre-->
+    <term tid="t285" type="open" lemma="autre" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--ton-->
+    <term tid="t286" type="open" lemma="ton" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t287" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--d'-->
+    <term tid="t288" type="close" lemma="d'" pos="P" morphofeat="P">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--établir-->
+    <term tid="t289" type="open" lemma="établir" pos="V" morphofeat="VW">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t290" type="close" lemma="un" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--relations-->
+    <term tid="t291" type="open" lemma="relation" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--personnelles-->
+    <term tid="t292" type="open" lemma="personnel" pos="G" morphofeat="Afp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t293" type="close" lemma="»" pos="P" morphofeat="PROR3fp">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t294" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t295" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--renchéri-->
+    <term tid="t296" type="open" lemma="renchérir" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--son-->
+    <term tid="t297" type="close" lemma="son" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--homologue-->
+    <term tid="t298" type="open" lemma="homologue" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t299" type="close" lemma="du" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--Parti-->
+    <term tid="t300" type="open" lemma="parti" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--social-->
+    <term tid="t301" type="open" lemma="social" pos="G" morphofeat="A">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--·-->
+    <term tid="t302" type="close" lemma="·" pos="P" morphofeat="PONCT">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--démocrate-->
+    <term tid="t303" type="open" lemma="démocrate" pos="G" morphofeat="A">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--(-->
+    <term tid="t304" type="close" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <!--SPD-->
+    <term tid="t305" type="open" lemma="SPD" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t306" type="close" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t307" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <!--Andrea-->
+    <term tid="t308" type="open" lemma="Andrea" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <!--Nahles-->
+    <term tid="t309" type="open" lemma="Nahles" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t310" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Andrea Nahles-->
+        <span>
+          <target id="t308"/>
+          <target id="t309"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--adopter un autre ton et d' établir des relations personnelles-->
+        <span>
+          <target id="t283"/>
+          <target id="t284"/>
+          <target id="t285"/>
+          <target id="t286"/>
+          <target id="t287"/>
+          <target id="t288"/>
+          <target id="t289"/>
+          <target id="t290"/>
+          <target id="t291"/>
+          <target id="t292"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--est important-->
+        <span>
+          <target id="t280"/>
+          <target id="t281"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

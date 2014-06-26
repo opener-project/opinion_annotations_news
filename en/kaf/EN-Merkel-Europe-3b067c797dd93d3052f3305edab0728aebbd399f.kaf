@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:17:24" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:31:15CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="19" para="2" offset="3095" length="4" wid="w563">Mrs.</wf>
+    <wf sent="19" para="2" offset="3100" length="6" wid="w564">Merkel</wf>
+    <wf sent="19" para="2" offset="3107" length="3" wid="w565">was</wf>
+    <wf sent="19" para="2" offset="3111" length="7" wid="w566">pouring</wf>
+    <wf sent="19" para="2" offset="3119" length="4" wid="w567">fuel</wf>
+    <wf sent="19" para="2" offset="3124" length="2" wid="w568">on</wf>
+    <wf sent="19" para="2" offset="3127" length="3" wid="w569">the</wf>
+    <wf sent="19" para="2" offset="3131" length="6" wid="w570">flames</wf>
+    <wf sent="19" para="2" offset="3138" length="2" wid="w571">of</wf>
+    <wf sent="19" para="2" offset="3141" length="3" wid="w572">the</wf>
+    <wf sent="19" para="2" offset="3145" length="6" wid="w573">crisis</wf>
+    <wf sent="19" para="2" offset="3151" length="1" wid="w574">,</wf>
+    <wf sent="19" para="2" offset="3153" length="2" wid="w575">he</wf>
+    <wf sent="19" para="2" offset="3156" length="7" wid="w576">claimed</wf>
+    <wf sent="19" para="2" offset="3163" length="1" wid="w577">.</wf>
+  </text>
+  <terms>
+    <!--Mrs.-->
+    <term type="close" lemma="Mrs." pos="R" morphofeat="NNP" tid="t563">
+      <span>
+        <target id="w563"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t564">
+      <span>
+        <target id="w564"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t565">
+      <span>
+        <target id="w565"/>
+      </span>
+    </term>
+    <!--pouring-->
+    <term type="open" lemma="pour" pos="V" morphofeat="VBG" tid="t566">
+      <span>
+        <target id="w566"/>
+      </span>
+    </term>
+    <!--fuel-->
+    <term type="open" lemma="fuel" pos="N" morphofeat="NN" tid="t567">
+      <span>
+        <target id="w567"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t568">
+      <span>
+        <target id="w568"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t569">
+      <span>
+        <target id="w569"/>
+      </span>
+    </term>
+    <!--flames-->
+    <term type="open" lemma="flame" pos="N" morphofeat="NNS" tid="t570">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w570"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t571">
+      <span>
+        <target id="w571"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t572">
+      <span>
+        <target id="w572"/>
+      </span>
+    </term>
+    <!--crisis-->
+    <term type="open" lemma="crisis" pos="N" morphofeat="NN" tid="t573">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w573"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t574">
+      <span>
+        <target id="w574"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t575">
+      <span>
+        <target id="w575"/>
+      </span>
+    </term>
+    <!--claimed-->
+    <term type="open" lemma="claim" pos="V" morphofeat="VBD" tid="t576">
+      <span>
+        <target id="w576"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t577">
+      <span>
+        <target id="w577"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--of the crisis-->
+        <span>
+          <target id="t571"/>
+          <target id="t572"/>
+          <target id="t573"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--pouring fuel on the flames-->
+        <span>
+          <target id="t566"/>
+          <target id="t567"/>
+          <target id="t568"/>
+          <target id="t569"/>
+          <target id="t570"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

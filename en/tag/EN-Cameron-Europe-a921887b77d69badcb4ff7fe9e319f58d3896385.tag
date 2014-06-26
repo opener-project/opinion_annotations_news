@@ -1,0 +1,20 @@
+w198	S	S	N		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	197	true	9
+w199	&	&	C		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	198	true	9
+w200	P	P	R		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	199	true	9
+w201	said	say	V		D-Neutral	2	Opinion	5		0		0		0		0		0		0	200	true	9
+w202	its	its	Q		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	201	true	9
+w203	outlook	outlook	N		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	202	true	9
+w204	for	for	P		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	203	true	9
+w205	the	the	D		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	204	true	9
+w206	UK	UK	R		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	205	true	9
+w207	's	's	O		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	206	true	9
+w208	coveted	coveted	G		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	207	true	9
+w209	rating	rating	N		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	208	true	9
+w210	was	be	V			0	Opinion	5		0		0		0		0		0		0	209	true	9
+w211	stable	stable	G		I-Positive	4	Opinion	5		0		0		0		0		0		0	210	true	9
+w213	predicted	predict	V		D-Neutral	6	OH1-OP	9		0		0		0		0		0		0	212	true	9
+w214	the	the	D		OpinionTarget	7	OH1-OP	9		0		0		0		0		0		0	213	true	9
+w215	economy	economy	N		OpinionTarget	7	OH1-OP	9		0		0		0		0		0		0	214	true	9
+w216	would	would	O		I-Positive	8	OH1-OP	9		0		0		0		0		0		0	215	true	9
+w217	pick	pick	V		I-Positive	8	OH1-OP	9		0		0		0		0		0		0	216	true	9
+w218	up	up	O		I-Positive	8	OH1-OP	9		0		0		0		0		0		0	217	true	9

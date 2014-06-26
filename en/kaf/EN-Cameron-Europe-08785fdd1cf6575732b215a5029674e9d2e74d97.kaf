@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:49:35" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:14:02CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="10" para="2" offset="895" length="3" wid="w187">Two</wf>
+    <wf sent="10" para="2" offset="899" length="2" wid="w188">of</wf>
+    <wf sent="10" para="2" offset="902" length="3" wid="w189">the</wf>
+    <wf sent="10" para="2" offset="906" length="7" wid="w190">largest</wf>
+    <wf sent="10" para="2" offset="914" length="7" wid="w191">foreign</wf>
+    <wf sent="10" para="2" offset="922" length="9" wid="w192">investors</wf>
+    <wf sent="10" para="2" offset="932" length="2" wid="w193">in</wf>
+    <wf sent="10" para="2" offset="935" length="5" wid="w194">India</wf>
+    <wf sent="10" para="2" offset="941" length="3" wid="w195">are</wf>
+    <wf sent="10" para="2" offset="945" length="7" wid="w196">British</wf>
+    <wf sent="10" para="2" offset="953" length="1" wid="w197">—</wf>
+    <wf sent="10" para="2" offset="955" length="8" wid="w198">Vodafone</wf>
+    <wf sent="10" para="2" offset="964" length="3" wid="w199">and</wf>
+    <wf sent="10" para="2" offset="968" length="2" wid="w200">BP</wf>
+    <wf sent="10" para="2" offset="970" length="1" wid="w201">.</wf>
+  </text>
+  <terms>
+    <!--Two-->
+    <term type="close" lemma="two" pos="O" morphofeat="CD" tid="t187">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t188">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t189">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--largest-->
+    <term type="open" lemma="largest" pos="G" morphofeat="JJS" tid="t190">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--foreign-->
+    <term type="open" lemma="foreign" pos="G" morphofeat="JJ" tid="t191">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--investors-->
+    <term type="open" lemma="investor" pos="N" morphofeat="NNS" tid="t192">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t193">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--India-->
+    <term type="close" lemma="India" pos="R" morphofeat="NNP" tid="t194">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t195">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--British-->
+    <term type="open" lemma="british" pos="G" morphofeat="JJ" tid="t196">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--—-->
+    <term type="open" lemma="—" pos="N" morphofeat="NNS" tid="t197">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--Vodafone-->
+    <term type="close" lemma="Vodafone" pos="R" morphofeat="NNP" tid="t198">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t199">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--BP-->
+    <term type="close" lemma="BP" pos="R" morphofeat="NNP" tid="t200">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t201">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

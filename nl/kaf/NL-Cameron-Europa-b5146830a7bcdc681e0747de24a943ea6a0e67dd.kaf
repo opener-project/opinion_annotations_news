@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:51Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:51Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:55:39CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w159" sent="8" para="2" offset="951" length="2">De</wf>
+    <wf wid="w160" sent="8" para="2" offset="954" length="8">stemming</wf>
+    <wf wid="w161" sent="8" para="2" offset="963" length="2">in</wf>
+    <wf wid="w162" sent="8" para="2" offset="966" length="3">het</wf>
+    <wf wid="w163" sent="8" para="2" offset="970" length="9">parlement</wf>
+    <wf wid="w164" sent="8" para="2" offset="980" length="2">is</wf>
+    <wf wid="w165" sent="8" para="2" offset="983" length="4">niet</wf>
+    <wf wid="w166" sent="8" para="2" offset="988" length="7">bindend</wf>
+    <wf wid="w167" sent="8" para="2" offset="995" length="1">.</wf>
+    <wf wid="w240" sent="12" para="2" offset="1431" length="5">Clegg</wf>
+    <wf wid="w241" sent="12" para="2" offset="1437" length="6">vreest</wf>
+    <wf wid="w242" sent="12" para="2" offset="1444" length="3">dat</wf>
+    <wf wid="w243" sent="12" para="2" offset="1448" length="16">Groot-Brittannië</wf>
+    <wf wid="w244" sent="12" para="2" offset="1465" length="4">zich</wf>
+    <wf wid="w245" sent="12" para="2" offset="1470" length="8">daardoor</wf>
+    <wf wid="w246" sent="12" para="2" offset="1479" length="2">op</wf>
+    <wf wid="w247" sent="12" para="2" offset="1482" length="3">den</wf>
+    <wf wid="w248" sent="12" para="2" offset="1486" length="4">duur</wf>
+    <wf wid="w249" sent="12" para="2" offset="1491" length="6">buiten</wf>
+    <wf wid="w250" sent="12" para="2" offset="1498" length="2">de</wf>
+    <wf wid="w251" sent="12" para="2" offset="1501" length="2">EU</wf>
+    <wf wid="w252" sent="12" para="2" offset="1504" length="7">plaatst</wf>
+    <wf wid="w253" sent="12" para="2" offset="1511" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t159" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--stemming-->
+    <term tid="t160" type="open" lemma="stemming" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t161" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t162" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--parlement-->
+    <term tid="t163" type="open" lemma="parlement" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t164" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t165" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--bindend-->
+    <term tid="t166" type="open" lemma="binden" pos="V" morphofeat="verbpresp">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t167" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--Clegg-->
+    <term tid="t240" type="open" lemma="Clegg" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--vreest-->
+    <term tid="t241" type="open" lemma="vrezen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w241"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t242" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--Groot-Brittannië-->
+    <term tid="t243" type="open" lemma="Groot-Brittannië" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--zich-->
+    <term tid="t244" type="close" lemma="zich" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--daardoor-->
+    <term tid="t245" type="close" lemma="daardoor" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t246" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--den-->
+    <term tid="t247" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--duur-->
+    <term tid="t248" type="open" lemma="duur" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w248"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--buiten-->
+    <term tid="t249" type="close" lemma="buiten" pos="P" morphofeat="prep">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t250" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term tid="t251" type="open" lemma="EU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--plaatst-->
+    <term tid="t252" type="open" lemma="plaatsen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w252"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t253" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Clegg-->
+        <span>
+          <target id="t240"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Groot-Brittannië zich buiten de EU plaatst-->
+        <span>
+          <target id="t243"/>
+          <target id="t244"/>
+          <target id="t249"/>
+          <target id="t250"/>
+          <target id="t251"/>
+          <target id="t252"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--vreest-->
+        <span>
+          <target id="t241"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

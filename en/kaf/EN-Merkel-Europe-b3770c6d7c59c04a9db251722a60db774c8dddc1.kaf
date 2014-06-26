@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:29:08" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:13:53CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="171" length="4" wid="w33">They</wf>
+    <wf sent="3" para="2" offset="176" length="4" wid="w34">said</wf>
+    <wf sent="3" para="2" offset="181" length="3" wid="w35">the</wf>
+    <wf sent="3" para="2" offset="185" length="5" wid="w36">first</wf>
+    <wf sent="3" para="2" offset="191" length="5" wid="w37">round</wf>
+    <wf sent="3" para="2" offset="197" length="2" wid="w38">of</wf>
+    <wf sent="3" para="2" offset="200" length="6" wid="w39">Serbia</wf>
+    <wf sent="3" para="2" offset="207" length="5" wid="w40">talks</wf>
+    <wf sent="3" para="2" offset="213" length="4" wid="w41">will</wf>
+    <wf sent="3" para="2" offset="218" length="4" wid="w42">take</wf>
+    <wf sent="3" para="2" offset="223" length="5" wid="w43">place</wf>
+    <wf sent="3" para="2" offset="229" length="2" wid="w44">no</wf>
+    <wf sent="3" para="2" offset="232" length="5" wid="w45">later</wf>
+    <wf sent="3" para="2" offset="238" length="4" wid="w46">than</wf>
+    <wf sent="3" para="2" offset="243" length="7" wid="w47">January</wf>
+    <wf sent="3" para="2" offset="251" length="4" wid="w48">2014</wf>
+    <wf sent="3" para="2" offset="255" length="1" wid="w49">.</wf>
+  </text>
+  <terms>
+    <!--They-->
+    <term type="close" lemma="they" pos="Q" morphofeat="PRP" tid="t33">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t34">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t35">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--first-->
+    <term type="open" lemma="1" pos="G" morphofeat="JJ" tid="t36">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--round-->
+    <term type="open" lemma="round" pos="N" morphofeat="NN" tid="t37">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t38">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--Serbia-->
+    <term type="close" lemma="Serbia" pos="R" morphofeat="NNP" tid="t39">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--talks-->
+    <term type="open" lemma="talk" pos="N" morphofeat="NNS" tid="t40">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--will-->
+    <term type="close" lemma="will" pos="O" morphofeat="MD" tid="t41">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--take-->
+    <term type="open" lemma="take" pos="V" morphofeat="VB" tid="t42">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--place-->
+    <term type="open" lemma="place" pos="N" morphofeat="NN" tid="t43">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--no-->
+    <term type="open" lemma="no" pos="A" morphofeat="RB" tid="t44">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--later-->
+    <term type="open" lemma="later" pos="A" morphofeat="RB" tid="t45">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--than-->
+    <term type="close" lemma="than" pos="P" morphofeat="IN" tid="t46">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--January-->
+    <term type="close" lemma="January" pos="R" morphofeat="NNP" tid="t47">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--2014-->
+    <term type="close" lemma="2014" pos="O" morphofeat="CD" tid="t48">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t49">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

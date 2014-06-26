@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T18:03:21Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T18:03:21Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:03:23CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T19:03:41CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:39CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w691" sent="34" para="14" offset="4166" length="9">Beispiele</wf>
+    <wf wid="w692" sent="34" para="14" offset="4176" length="3">aus</wf>
+    <wf wid="w693" sent="34" para="14" offset="4180" length="3">der</wf>
+    <wf wid="w694" sent="34" para="14" offset="4184" length="8">jüngeren</wf>
+    <wf wid="w695" sent="34" para="14" offset="4193" length="13">Vergangenheit</wf>
+    <wf wid="w696" sent="34" para="14" offset="4207" length="4">sind</wf>
+    <wf wid="w697" sent="34" para="14" offset="4212" length="3">die</wf>
+    <wf wid="w698" sent="34" para="14" offset="4216" length="12">Intervention</wf>
+    <wf wid="w699" sent="34" para="14" offset="4229" length="2">in</wf>
+    <wf wid="w700" sent="34" para="14" offset="4232" length="4">Mali</wf>
+    <wf wid="w701" sent="34" para="14" offset="4237" length="3">und</wf>
+    <wf wid="w702" sent="34" para="14" offset="4241" length="3">die</wf>
+    <wf wid="w703" sent="34" para="14" offset="4245" length="14">diplomatischen</wf>
+    <wf wid="w704" sent="34" para="14" offset="4260" length="11">Scharmützel</wf>
+    <wf wid="w705" sent="34" para="14" offset="4272" length="2">im</wf>
+    <wf wid="w706" sent="34" para="14" offset="4275" length="2">UN</wf>
+    <wf wid="w707" sent="34" para="14" offset="4277" length="1">·</wf>
+    <wf wid="w708" sent="34" para="14" offset="4278" length="14">Sicherheitsrat</wf>
+    <wf wid="w709" sent="34" para="14" offset="4293" length="3">zum</wf>
+    <wf wid="w710" sent="34" para="14" offset="4297" length="6">Syrien</wf>
+    <wf wid="w711" sent="34" para="14" offset="4303" length="1">·</wf>
+    <wf wid="w712" sent="34" para="14" offset="4304" length="8">Konflikt</wf>
+    <wf wid="w713" sent="34" para="14" offset="4312" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Beispiel" morphofeat="NN" pos="N" tid="t691" type="open">
+      <span>
+        <target id="w691"/>
+      </span>
+    </term>
+    <term lemma="aus" morphofeat="APPR" pos="P" tid="t692" type="close">
+      <span>
+        <target id="w692"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t693" type="close">
+      <span>
+        <target id="w693"/>
+      </span>
+    </term>
+    <term lemma="jung" morphofeat="ADJA" pos="G" tid="t694" type="open">
+      <span>
+        <target id="w694"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Vergangenheit" morphofeat="NN" pos="N" tid="t695" type="open">
+      <span>
+        <target id="w695"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t696" type="open">
+      <span>
+        <target id="w696"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t697" type="close">
+      <span>
+        <target id="w697"/>
+      </span>
+    </term>
+    <term lemma="Intervention" morphofeat="NN" pos="N" tid="t698" type="open">
+      <span>
+        <target id="w698"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t699" type="close">
+      <span>
+        <target id="w699"/>
+      </span>
+    </term>
+    <term lemma="Mali" morphofeat="NE" pos="R" tid="t700" type="open">
+      <span>
+        <target id="w700"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t701" type="close">
+      <span>
+        <target id="w701"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t702" type="close">
+      <span>
+        <target id="w702"/>
+      </span>
+    </term>
+    <term lemma="diplomatisch" morphofeat="ADJA" pos="G" tid="t703" type="open">
+      <span>
+        <target id="w703"/>
+      </span>
+    </term>
+    <term lemma="Scharmützel" morphofeat="NN" pos="N" tid="t704" type="open">
+      <span>
+        <target id="w704"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t705" type="close">
+      <span>
+        <target id="w705"/>
+      </span>
+    </term>
+    <term lemma="UN" morphofeat="NE" pos="R" tid="t706" type="open">
+      <span>
+        <target id="w706"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t707" type="open">
+      <span>
+        <target id="w707"/>
+      </span>
+    </term>
+    <term lemma="Sicherheitsrat" morphofeat="NN" pos="N" tid="t708" type="open">
+      <span>
+        <target id="w708"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPRART" pos="P" tid="t709" type="close">
+      <span>
+        <target id="w709"/>
+      </span>
+    </term>
+    <term lemma="Syrien" morphofeat="NE" pos="R" tid="t710" type="open">
+      <span>
+        <target id="w710"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t711" type="open">
+      <span>
+        <target id="w711"/>
+      </span>
+    </term>
+    <term lemma="Konflikt" morphofeat="NN" pos="N" tid="t712" type="open">
+      <span>
+        <target id="w712"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t713" type="open">
+      <span>
+        <target id="w713"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t691"/>
+          <target id="t692"/>
+          <target id="t693"/>
+          <target id="t694"/>
+          <target id="t695"/>
+          <target id="t696"/>
+          <target id="t697"/>
+          <target id="t698"/>
+          <target id="t699"/>
+          <target id="t700"/>
+          <target id="t701"/>
+          <target id="t702"/>
+          <target id="t703"/>
+          <target id="t704"/>
+          <target id="t705"/>
+          <target id="t706"/>
+          <target id="t707"/>
+          <target id="t708"/>
+          <target id="t709"/>
+          <target id="t710"/>
+          <target id="t711"/>
+          <target id="t712"/>
+          <target id="t713"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T11:45:37Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T11:45:37Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:49:03CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T12:45:50CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:37CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w254" sent="18" para="8" offset="1530" length="3">Die</wf>
+    <wf wid="w255" sent="18" para="8" offset="1534" length="2">57</wf>
+    <wf wid="w256" sent="18" para="8" offset="1536" length="1">·</wf>
+    <wf wid="w257" sent="18" para="8" offset="1537" length="7">Jährige</wf>
+    <wf wid="w258" sent="18" para="8" offset="1545" length="3">ist</wf>
+    <wf wid="w259" sent="18" para="8" offset="1549" length="3">die</wf>
+    <wf wid="w260" sent="18" para="8" offset="1553" length="3">55.</wf>
+    <wf wid="w261" sent="18" para="8" offset="1557" length="8">Trägerin</wf>
+    <wf wid="w262" sent="18" para="8" offset="1566" length="3">des</wf>
+    <wf wid="w263" sent="18" para="8" offset="1570" length="12">Karlspreises</wf>
+    <wf wid="w264" sent="18" para="8" offset="1582" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t254" type="close">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="ADJA" pos="G" tid="t255" type="open">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t256" type="open">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <term lemma="Jährige" morphofeat="ADJA unknown_lemma" pos="O" tid="t257" type="open">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t258" type="open">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t259" type="close">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <term lemma="@card@." morphofeat="CARD" pos="O" tid="t260" type="open">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <term lemma="Trägerin" morphofeat="NN" pos="N" tid="t261" type="open">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t262" type="close">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <term lemma="Karlspreises" morphofeat="NN unknown_lemma" pos="O" tid="t263" type="open">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t264" type="open">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t254"/>
+          <target id="t255"/>
+          <target id="t256"/>
+          <target id="t257"/>
+          <target id="t258"/>
+          <target id="t259"/>
+          <target id="t260"/>
+          <target id="t261"/>
+          <target id="t262"/>
+          <target id="t263"/>
+          <target id="t264"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

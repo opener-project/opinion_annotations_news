@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:31:52Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:31:52Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:11:49CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:32:12CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:28CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w360" sent="25" para="15" offset="2129" length="3">Die</wf>
+    <wf wid="w361" sent="25" para="15" offset="2133" length="2">IG</wf>
+    <wf wid="w362" sent="25" para="15" offset="2136" length="6">Metall</wf>
+    <wf wid="w363" sent="25" para="15" offset="2143" length="11">kritisierte</wf>
+    <wf wid="w364" sent="25" para="15" offset="2155" length="3">die</wf>
+    <wf wid="w365" sent="25" para="15" offset="2159" length="7">Zunahme</wf>
+    <wf wid="w366" sent="25" para="15" offset="2167" length="3">von</wf>
+    <wf wid="w367" sent="25" para="15" offset="2171" length="10">Leiharbeit</wf>
+    <wf wid="w368" sent="25" para="15" offset="2182" length="3">und</wf>
+    <wf wid="w369" sent="25" para="15" offset="2186" length="8">Minijobs</wf>
+    <wf wid="w370" sent="25" para="15" offset="2194" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t360" type="close">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+    <term lemma="IG" morphofeat="NN" pos="N" tid="t361" type="open">
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <term lemma="Metall" morphofeat="NN" pos="N" tid="t362" type="open">
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <term lemma="kritisieren" morphofeat="VVFIN" pos="V" tid="t363" type="open">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t364" type="close">
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <term lemma="Zunahme" morphofeat="NN" pos="N" tid="t365" type="open">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t366" type="close">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <term lemma="Leiharbeit" morphofeat="NN" pos="N" tid="t367" type="open">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t368" type="close">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <term lemma="Minijob" morphofeat="NN" pos="N" tid="t369" type="open">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t370" type="open">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Die IG Metall-->
+        <span>
+          <target id="t360"/>
+          <target id="t361"/>
+          <target id="t362"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die Zunahme-->
+        <span>
+          <target id="t364"/>
+          <target id="t365"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--kritisierte-->
+        <span>
+          <target id="t363"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

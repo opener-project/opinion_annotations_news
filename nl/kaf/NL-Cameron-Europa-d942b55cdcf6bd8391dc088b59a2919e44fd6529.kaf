@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:24:32CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w347" sent="21" para="2" offset="1913" length="2">Ze</wf>
+    <wf wid="w348" sent="21" para="2" offset="1916" length="3">was</wf>
+    <wf wid="w349" sent="21" para="2" offset="1920" length="3">een</wf>
+    <wf wid="w350" sent="21" para="2" offset="1924" length="4">hele</wf>
+    <wf wid="w351" sent="21" para="2" offset="1929" length="6">sterke</wf>
+    <wf wid="w352" sent="21" para="2" offset="1936" length="2">en</wf>
+    <wf wid="w353" sent="21" para="2" offset="1939" length="9">dominante</wf>
+    <wf wid="w354" sent="21" para="2" offset="1949" length="7">premier</wf>
+    <wf wid="w355" sent="21" para="2" offset="1956" length="1">.</wf>
+    <wf wid="w551" sent="34" para="2" offset="3068" length="2">Ze</wf>
+    <wf wid="w552" sent="34" para="2" offset="3071" length="6">hadden</wf>
+    <wf wid="w553" sent="34" para="2" offset="3078" length="13">vergelijkbare</wf>
+    <wf wid="w554" sent="34" para="2" offset="3092" length="6">Ideeën</wf>
+    <wf wid="w555" sent="34" para="2" offset="3099" length="4">over</wf>
+    <wf wid="w556" sent="34" para="2" offset="3104" length="8">economie</wf>
+    <wf wid="w557" sent="34" para="2" offset="3113" length="2">en</wf>
+    <wf wid="w558" sent="34" para="2" offset="3116" length="14">internationale</wf>
+    <wf wid="w559" sent="34" para="2" offset="3131" length="8">politiek</wf>
+    <wf wid="w560" sent="34" para="2" offset="3139" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ze-->
+    <term tid="t347" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--was-->
+    <term tid="t348" type="open" lemma="wezen|zijn" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t349" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <!--hele-->
+    <term tid="t350" type="open" lemma="heel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <!--sterke-->
+    <term tid="t351" type="open" lemma="sterk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w351"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--en-->
+    <term tid="t352" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <!--dominante-->
+    <term tid="t353" type="open" lemma="dominant" pos="G" morphofeat="adj">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t354" type="open" lemma="premier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w354"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t355" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w355"/>
+      </span>
+    </term>
+    <!--Ze-->
+    <term tid="t551" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w551"/>
+      </span>
+    </term>
+    <!--hadden-->
+    <term tid="t552" type="open" lemma="hebben" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w552"/>
+      </span>
+    </term>
+    <!--vergelijkbare-->
+    <term tid="t553" type="open" lemma="vergelijkbaar" pos="G" morphofeat="adj">
+      <span>
+        <target id="w553"/>
+      </span>
+    </term>
+    <!--Ideeën-->
+    <term tid="t554" type="open" lemma="idee" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w554"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t555" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w555"/>
+      </span>
+    </term>
+    <!--economie-->
+    <term tid="t556" type="open" lemma="economie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w556"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--en-->
+    <term tid="t557" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w557"/>
+      </span>
+    </term>
+    <!--internationale-->
+    <term tid="t558" type="open" lemma="internationaal" pos="G" morphofeat="adj">
+      <span>
+        <target id="w558"/>
+      </span>
+    </term>
+    <!--politiek-->
+    <term tid="t559" type="open" lemma="politiek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w559"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t560" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w560"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--premier-->
+        <span>
+          <target id="t354"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--dominante-->
+        <span>
+          <target id="t353"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--premier-->
+        <span>
+          <target id="t354"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--hele sterke-->
+        <span>
+          <target id="t350"/>
+          <target id="t351"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Ze-->
+        <span>
+          <target id="t347"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--hele sterke en dominante premier-->
+        <span>
+          <target id="t350"/>
+          <target id="t351"/>
+          <target id="t352"/>
+          <target id="t353"/>
+          <target id="t354"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t551"/>
+          <target id="t552"/>
+          <target id="t553"/>
+          <target id="t554"/>
+          <target id="t555"/>
+          <target id="t556"/>
+          <target id="t557"/>
+          <target id="t558"/>
+          <target id="t559"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

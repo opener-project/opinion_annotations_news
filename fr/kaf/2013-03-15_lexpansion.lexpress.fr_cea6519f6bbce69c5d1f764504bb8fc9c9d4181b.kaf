@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:45:42Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:45:42Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:45:43Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:20:15CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w27" sent="3" para="3" offset="131" length="6">Chypre</wf>
+    <wf wid="w28" sent="3" para="3" offset="138" length="1">a</wf>
+    <wf wid="w29" sent="3" para="3" offset="140" length="6">besoin</wf>
+    <wf wid="w30" sent="3" para="3" offset="147" length="2">de</wf>
+    <wf wid="w31" sent="3" para="3" offset="150" length="2">17</wf>
+    <wf wid="w32" sent="3" para="3" offset="153" length="9">milliards</wf>
+    <wf wid="w33" sent="3" para="3" offset="163" length="2">d'</wf>
+    <wf wid="w34" sent="3" para="3" offset="165" length="5">euros</wf>
+    <wf wid="w35" sent="3" para="3" offset="171" length="4">pour</wf>
+    <wf wid="w36" sent="3" para="3" offset="176" length="9">renflouer</wf>
+    <wf wid="w37" sent="3" para="3" offset="186" length="3">ses</wf>
+    <wf wid="w38" sent="3" para="3" offset="190" length="7">banques</wf>
+    <wf wid="w39" sent="3" para="3" offset="197" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Chypre-->
+    <term tid="t27" type="open" lemma="Chypre" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t28" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--besoin-->
+    <term tid="t29" type="open" lemma="besoin" pos="N" morphofeat="N">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t30" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--17-->
+    <term tid="t31" type="close" lemma="17" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--milliards-->
+    <term tid="t32" type="open" lemma="milliard" pos="N" morphofeat="NCmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--d'-->
+    <term tid="t33" type="close" lemma="d'" pos="P" morphofeat="P">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--euros-->
+    <term tid="t34" type="open" lemma="euro" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t35" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--renflouer-->
+    <term tid="t36" type="open" lemma="renflouer" pos="V" morphofeat="VW">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--ses-->
+    <term tid="t37" type="close" lemma="son" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--banques-->
+    <term tid="t38" type="open" lemma="banque" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t39" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

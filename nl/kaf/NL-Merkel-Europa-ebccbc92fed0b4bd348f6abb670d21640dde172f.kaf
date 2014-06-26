@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:40:57CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w445" sent="27" para="2" offset="2506" length="3">Ook</wf>
+    <wf wid="w446" sent="27" para="2" offset="2510" length="9">Duitsland</wf>
+    <wf wid="w447" sent="27" para="2" offset="2520" length="3">wil</wf>
+    <wf wid="w448" sent="27" para="2" offset="2524" length="10">natuurlijk</wf>
+    <wf wid="w449" sent="27" para="2" offset="2535" length="3">dat</wf>
+    <wf wid="w450" sent="27" para="2" offset="2539" length="2">er</wf>
+    <wf wid="w451" sent="27" para="2" offset="2542" length="3">een</wf>
+    <wf wid="w452" sent="27" para="2" offset="2546" length="9">oplossing</wf>
+    <wf wid="w453" sent="27" para="2" offset="2556" length="4">komt</wf>
+    <wf wid="w454" sent="27" para="2" offset="2560" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ook-->
+    <term tid="t445" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w445"/>
+      </span>
+    </term>
+    <!--Duitsland-->
+    <term tid="t446" type="open" lemma="Duitsland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w446"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t447" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w447"/>
+      </span>
+    </term>
+    <!--natuurlijk-->
+    <term tid="t448" type="open" lemma="natuurlijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w448"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t449" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w449"/>
+      </span>
+    </term>
+    <!--er-->
+    <term tid="t450" type="close" lemma="er" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w450"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t451" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w451"/>
+      </span>
+    </term>
+    <!--oplossing-->
+    <term tid="t452" type="open" lemma="oplossing" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w452"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--komt-->
+    <term tid="t453" type="open" lemma="komen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w453"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t454" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w454"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Duitsland-->
+        <span>
+          <target id="t446"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--een oplossing-->
+        <span>
+          <target id="t451"/>
+          <target id="t452"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t447"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--oplossing-->
+        <span>
+          <target id="t452"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

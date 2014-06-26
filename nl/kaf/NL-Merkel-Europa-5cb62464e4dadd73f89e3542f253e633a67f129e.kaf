@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:08:35CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w47" sent="5" para="2" offset="284" length="2">De</wf>
+    <wf wid="w48" sent="5" para="2" offset="287" length="19">belastingontduikers</wf>
+    <wf wid="w49" sent="5" para="2" offset="307" length="4">zijn</wf>
+    <wf wid="w50" sent="5" para="2" offset="312" length="3">nog</wf>
+    <wf wid="w51" sent="5" para="2" offset="316" length="6">steeds</wf>
+    <wf wid="w52" sent="5" para="2" offset="323" length="4">niet</wf>
+    <wf wid="w53" sent="5" para="2" offset="328" length="9">aangepakt</wf>
+    <wf wid="w54" sent="5" para="2" offset="337" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t47" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--belastingontduikers-->
+    <term tid="t48" type="open" lemma="belastingontduikers" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t49" type="open" lemma="zijn" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--nog-->
+    <term tid="t50" type="open" lemma="nog" pos="A" morphofeat="adv">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--steeds-->
+    <term tid="t51" type="open" lemma="steeds" pos="A" morphofeat="adv">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t52" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--aangepakt-->
+    <term tid="t53" type="open" lemma="aanpakken" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w53"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t54" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--De belastingontduikers-->
+        <span>
+          <target id="t47"/>
+          <target id="t48"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--nog steeds niet aangepakt-->
+        <span>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

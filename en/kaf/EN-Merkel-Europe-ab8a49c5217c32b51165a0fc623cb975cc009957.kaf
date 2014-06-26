@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:05:17" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:42:24CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:52CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="125" length="1" wid="w20">7</wf>
+    <wf sent="3" para="2" offset="127" length="7" wid="w21">million</wf>
+    <wf sent="3" para="2" offset="135" length="9" wid="w22">Spaniards</wf>
+    <wf sent="3" para="2" offset="144" length="1" wid="w23">,</wf>
+    <wf sent="3" para="2" offset="146" length="10" wid="w24">equivalent</wf>
+    <wf sent="3" para="2" offset="157" length="2" wid="w25">to</wf>
+    <wf sent="3" para="2" offset="160" length="6" wid="w26">almost</wf>
+    <wf sent="3" para="2" offset="167" length="3" wid="w27">one</wf>
+    <wf sent="3" para="2" offset="171" length="2" wid="w28">in</wf>
+    <wf sent="3" para="2" offset="174" length="4" wid="w29">four</wf>
+    <wf sent="3" para="2" offset="179" length="2" wid="w30">of</wf>
+    <wf sent="3" para="2" offset="182" length="3" wid="w31">the</wf>
+    <wf sent="3" para="2" offset="186" length="9" wid="w32">workforce</wf>
+    <wf sent="3" para="2" offset="195" length="1" wid="w33">,</wf>
+    <wf sent="3" para="2" offset="197" length="3" wid="w34">are</wf>
+    <wf sent="3" para="2" offset="201" length="3" wid="w35">now</wf>
+    <wf sent="3" para="2" offset="205" length="7" wid="w36">seeking</wf>
+    <wf sent="3" para="2" offset="213" length="4" wid="w37">jobs</wf>
+    <wf sent="3" para="2" offset="217" length="1" wid="w38">,</wf>
+    <wf sent="3" para="2" offset="219" length="9" wid="w39">according</wf>
+    <wf sent="3" para="2" offset="229" length="2" wid="w40">to</wf>
+    <wf sent="3" para="2" offset="232" length="8" wid="w41">official</wf>
+    <wf sent="3" para="2" offset="241" length="7" wid="w42">figures</wf>
+    <wf sent="3" para="2" offset="248" length="1" wid="w43">.</wf>
+  </text>
+  <terms>
+    <!--7-->
+    <term type="close" lemma="7" pos="O" morphofeat="CD" tid="t20">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--million-->
+    <term type="close" lemma="million" pos="O" morphofeat="CD" tid="t21">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--Spaniards-->
+    <term type="open" lemma="spaniards" pos="N" morphofeat="NNS" tid="t22">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t23">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--equivalent-->
+    <term type="open" lemma="equivalent" pos="G" morphofeat="JJ" tid="t24">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t25">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--almost-->
+    <term type="open" lemma="almost" pos="A" morphofeat="RB" tid="t26">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--one-->
+    <term type="close" lemma="one" pos="O" morphofeat="CD" tid="t27">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t28">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--four-->
+    <term type="close" lemma="four" pos="O" morphofeat="CD" tid="t29">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t30">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t31">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--workforce-->
+    <term type="open" lemma="workforce" pos="N" morphofeat="NN" tid="t32">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t33">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t34">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--now-->
+    <term type="open" lemma="now" pos="A" morphofeat="RB" tid="t35">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--seeking-->
+    <term type="open" lemma="seek" pos="V" morphofeat="VBG" tid="t36">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--jobs-->
+    <term type="open" lemma="job" pos="N" morphofeat="NNS" tid="t37">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t38">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--according-->
+    <term type="open" lemma="accord" pos="V" morphofeat="VBG" tid="t39">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t40">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--official-->
+    <term type="open" lemma="official" pos="G" morphofeat="JJ" tid="t41">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--figures-->
+    <term type="open" lemma="figure" pos="N" morphofeat="NNS" tid="t42">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t43">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

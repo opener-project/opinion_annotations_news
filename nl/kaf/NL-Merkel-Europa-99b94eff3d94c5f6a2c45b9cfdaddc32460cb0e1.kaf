@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:59Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:59Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:21:18CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w81" sent="3" para="2" offset="425" length="6">Alleen</wf>
+    <wf wid="w82" sent="3" para="2" offset="432" length="3">dan</wf>
+    <wf wid="w83" sent="3" para="2" offset="436" length="6">krijgt</wf>
+    <wf wid="w84" sent="3" para="2" offset="443" length="11">Griekenland</wf>
+    <wf wid="w85" sent="3" para="2" offset="455" length="10">financiële</wf>
+    <wf wid="w86" sent="3" para="2" offset="466" length="5">steun</wf>
+    <wf wid="w87" sent="3" para="2" offset="471" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Alleen-->
+    <term tid="t81" type="open" lemma="alleen" pos="A" morphofeat="adv">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--dan-->
+    <term tid="t82" type="close" lemma="dan" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--krijgt-->
+    <term tid="t83" type="open" lemma="krijgen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--Griekenland-->
+    <term tid="t84" type="open" lemma="Griekenland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--financiële-->
+    <term tid="t85" type="open" lemma="financieel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--steun-->
+    <term tid="t86" type="open" lemma="steun" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w86"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t87" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

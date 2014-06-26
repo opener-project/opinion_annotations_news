@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:16:16" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:45:54CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:45CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="36" para="2" offset="5609" length="1" wid="w1035">"</wf>
+    <wf sent="36" para="2" offset="5610" length="4" wid="w1036">This</wf>
+    <wf sent="36" para="2" offset="5615" length="2" wid="w1037">is</wf>
+    <wf sent="36" para="2" offset="5618" length="10" wid="w1038">completely</wf>
+    <wf sent="36" para="2" offset="5629" length="12" wid="w1039">unacceptable</wf>
+    <wf sent="36" para="2" offset="5642" length="3" wid="w1040">and</wf>
+    <wf sent="36" para="2" offset="5646" length="4" wid="w1041">like</wf>
+    <wf sent="36" para="2" offset="5651" length="5" wid="w1042">other</wf>
+    <wf sent="36" para="2" offset="5657" length="8" wid="w1043">affected</wf>
+    <wf sent="36" para="2" offset="5666" length="9" wid="w1044">companies</wf>
+    <wf sent="36" para="2" offset="5675" length="1" wid="w1045">,</wf>
+    <wf sent="36" para="2" offset="5677" length="2" wid="w1046">we</wf>
+    <wf sent="36" para="2" offset="5680" length="4" wid="w1047">feel</wf>
+    <wf sent="36" para="2" offset="5685" length="5" wid="w1048">angry</wf>
+    <wf sent="36" para="2" offset="5691" length="3" wid="w1049">and</wf>
+    <wf sent="36" para="2" offset="5695" length="3" wid="w1050">let</wf>
+    <wf sent="36" para="2" offset="5699" length="4" wid="w1051">down</wf>
+    <wf sent="36" para="2" offset="5704" length="2" wid="w1052">by</wf>
+    <wf sent="36" para="2" offset="5707" length="3" wid="w1053">our</wf>
+    <wf sent="36" para="2" offset="5711" length="8" wid="w1054">supplier</wf>
+    <wf sent="36" para="2" offset="5719" length="1" wid="w1055">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t1035">
+      <span>
+        <target id="w1035"/>
+      </span>
+    </term>
+    <!--This-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t1036">
+      <span>
+        <target id="w1036"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t1037">
+      <span>
+        <target id="w1037"/>
+      </span>
+    </term>
+    <!--completely-->
+    <term type="open" lemma="completely" pos="A" morphofeat="RB" tid="t1038">
+      <span>
+        <target id="w1038"/>
+      </span>
+    </term>
+    <!--unacceptable-->
+    <term type="open" lemma="unacceptable" pos="G" morphofeat="JJ" tid="t1039">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w1039"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t1040">
+      <span>
+        <target id="w1040"/>
+      </span>
+    </term>
+    <!--like-->
+    <term type="open" lemma="like" pos="G" morphofeat="JJ" tid="t1041">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w1041"/>
+      </span>
+    </term>
+    <!--other-->
+    <term type="open" lemma="other" pos="G" morphofeat="JJ" tid="t1042">
+      <span>
+        <target id="w1042"/>
+      </span>
+    </term>
+    <!--affected-->
+    <term type="open" lemma="affected" pos="G" morphofeat="JJ" tid="t1043">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w1043"/>
+      </span>
+    </term>
+    <!--companies-->
+    <term type="open" lemma="company" pos="N" morphofeat="NNS" tid="t1044">
+      <span>
+        <target id="w1044"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t1045">
+      <span>
+        <target id="w1045"/>
+      </span>
+    </term>
+    <!--we-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t1046">
+      <span>
+        <target id="w1046"/>
+      </span>
+    </term>
+    <!--feel-->
+    <term type="open" lemma="feel" pos="V" morphofeat="VBP" tid="t1047">
+      <span>
+        <target id="w1047"/>
+      </span>
+    </term>
+    <!--angry-->
+    <term type="open" lemma="angry" pos="G" morphofeat="JJ" tid="t1048">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w1048"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t1049">
+      <span>
+        <target id="w1049"/>
+      </span>
+    </term>
+    <!--let-->
+    <term type="open" lemma="let" pos="V" morphofeat="VB" tid="t1050">
+      <span>
+        <target id="w1050"/>
+      </span>
+    </term>
+    <!--down-->
+    <term type="open" lemma="down" pos="A" morphofeat="RB" tid="t1051">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w1051"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t1052">
+      <span>
+        <target id="w1052"/>
+      </span>
+    </term>
+    <!--our-->
+    <term type="close" lemma="our" pos="Q" morphofeat="PRP$" tid="t1053">
+      <span>
+        <target id="w1053"/>
+      </span>
+    </term>
+    <!--supplier-->
+    <term type="open" lemma="supplier" pos="N" morphofeat="NN" tid="t1054">
+      <span>
+        <target id="w1054"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t1055">
+      <span>
+        <target id="w1055"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--This-->
+        <span>
+          <target id="t1036"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--completely unacceptable-->
+        <span>
+          <target id="t1038"/>
+          <target id="t1039"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--we-->
+        <span>
+          <target id="t1046"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--by our supplier-->
+        <span>
+          <target id="t1052"/>
+          <target id="t1053"/>
+          <target id="t1054"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--feel angry-->
+        <span>
+          <target id="t1047"/>
+          <target id="t1048"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--we-->
+        <span>
+          <target id="t1046"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--by our supplier-->
+        <span>
+          <target id="t1052"/>
+          <target id="t1053"/>
+          <target id="t1054"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--let down-->
+        <span>
+          <target id="t1050"/>
+          <target id="t1051"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:49:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:49:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:49:12Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:35:52CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w47" sent="9" para="9" offset="242" length="2">L’</wf>
+    <wf wid="w48" sent="9" para="9" offset="244" length="9">Allemagne</wf>
+    <wf wid="w49" sent="9" para="9" offset="254" length="4">nous</wf>
+    <wf wid="w50" sent="9" para="9" offset="259" length="7">renvoie</wf>
+    <wf wid="w51" sent="9" para="9" offset="267" length="8">toujours</wf>
+    <wf wid="w52" sent="9" para="9" offset="276" length="2">l’</wf>
+    <wf wid="w53" sent="9" para="9" offset="278" length="5">image</wf>
+    <wf wid="w54" sent="9" para="9" offset="284" length="2">de</wf>
+    <wf wid="w55" sent="9" para="9" offset="287" length="2">l’</wf>
+    <wf wid="w56" sent="9" para="9" offset="289" length="9">Allemagne</wf>
+    <wf wid="w57" sent="9" para="9" offset="299" length="5">forte</wf>
+    <wf wid="w58" sent="9" para="9" offset="305" length="2">et</wf>
+    <wf wid="w59" sent="9" para="9" offset="308" length="2">en</wf>
+    <wf wid="w60" sent="9" para="9" offset="311" length="5">bonne</wf>
+    <wf wid="w61" sent="9" para="9" offset="317" length="5">santé</wf>
+    <wf wid="w62" sent="9" para="9" offset="322" length="1">.</wf>
+    <wf wid="w162" sent="16" para="11" offset="886" length="4">Pour</wf>
+    <wf wid="w163" sent="16" para="11" offset="891" length="2">d’</wf>
+    <wf wid="w164" sent="16" para="11" offset="893" length="6">autres</wf>
+    <wf wid="w165" sent="16" para="11" offset="899" length="1">,</wf>
+    <wf wid="w166" sent="16" para="11" offset="901" length="5">cette</wf>
+    <wf wid="w167" sent="16" para="11" offset="907" length="9">politique</wf>
+    <wf wid="w168" sent="16" para="11" offset="917" length="5">était</wf>
+    <wf wid="w169" sent="16" para="11" offset="923" length="5">juste</wf>
+    <wf wid="w170" sent="16" para="11" offset="929" length="2">et</wf>
+    <wf wid="w171" sent="16" para="11" offset="932" length="11">pragmatique</wf>
+    <wf wid="w172" sent="16" para="11" offset="943" length="1">,</wf>
+    <wf wid="w173" sent="16" para="11" offset="945" length="2">au</wf>
+    <wf wid="w174" sent="16" para="11" offset="948" length="6">moment</wf>
+    <wf wid="w175" sent="16" para="11" offset="955" length="2">d’</wf>
+    <wf wid="w176" sent="16" para="11" offset="957" length="3">une</wf>
+    <wf wid="w177" sent="16" para="11" offset="961" length="3">des</wf>
+    <wf wid="w178" sent="16" para="11" offset="965" length="4">plus</wf>
+    <wf wid="w179" sent="16" para="11" offset="970" length="6">fortes</wf>
+    <wf wid="w180" sent="16" para="11" offset="977" length="6">crises</wf>
+    <wf wid="w181" sent="16" para="11" offset="984" length="11">économiques</wf>
+    <wf wid="w182" sent="16" para="11" offset="995" length="1">.</wf>
+  </text>
+  <terms>
+    <!--L’-->
+    <term tid="t47" type="close" lemma="L’" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--Allemagne-->
+    <term tid="t48" type="open" lemma="Allemagne" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--nous-->
+    <term tid="t49" type="close" lemma="lui" pos="Q" morphofeat="CLS1mp">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--renvoie-->
+    <term tid="t50" type="open" lemma="renvoyer" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--toujours-->
+    <term tid="t51" type="open" lemma="toujours" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t52" type="close" lemma="l’" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--image-->
+    <term tid="t53" type="open" lemma="image" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t54" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t55" type="close" lemma="l’" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--Allemagne-->
+    <term tid="t56" type="open" lemma="Allemagne" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--forte-->
+    <term tid="t57" type="open" lemma="fort" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral" sentiment_modifier="intensifier"/>
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t58" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t59" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--bonne-->
+    <term tid="t60" type="open" lemma="bon" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--santé-->
+    <term tid="t61" type="open" lemma="santé" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t62" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--Pour-->
+    <term tid="t162" type="close" lemma="Pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--d’-->
+    <term tid="t163" type="close" lemma="d’" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--autres-->
+    <term tid="t164" type="close" lemma="autres" pos="P" morphofeat="PROmp">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t165" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--cette-->
+    <term tid="t166" type="close" lemma="ce" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--politique-->
+    <term tid="t167" type="open" lemma="politique" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--était-->
+    <term tid="t168" type="open" lemma="être" pos="V" morphofeat="VI3s">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--juste-->
+    <term tid="t169" type="open" lemma="juste" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t170" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--pragmatique-->
+    <term tid="t171" type="open" lemma="pragmatique" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t172" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--au-->
+    <term tid="t173" type="close" lemma="au" pos="P" morphofeat="P">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--moment-->
+    <term tid="t174" type="open" lemma="moment" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--d’-->
+    <term tid="t175" type="open" lemma="d’" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--une-->
+    <term tid="t176" type="close" lemma="un" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t177" type="close" lemma="un" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--plus-->
+    <term tid="t178" type="open" lemma="plus" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--fortes-->
+    <term tid="t179" type="open" lemma="fort" pos="G" morphofeat="Afp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral" sentiment_modifier="intensifier"/>
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--crises-->
+    <term tid="t180" type="open" lemma="crise" pos="N" morphofeat="NCfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--économiques-->
+    <term tid="t181" type="open" lemma="économique" pos="G" morphofeat="Afp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t182" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--Pour d’ autres-->
+        <span>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--cette politique-->
+        <span>
+          <target id="t166"/>
+          <target id="t167"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--juste et pragmatique-->
+        <span>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

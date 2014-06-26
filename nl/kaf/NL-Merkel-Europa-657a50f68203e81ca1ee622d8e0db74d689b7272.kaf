@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:12:32CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w107" sent="9" para="2" offset="659" length="7">Maandag</wf>
+    <wf wid="w108" sent="9" para="2" offset="667" length="3">zei</wf>
+    <wf wid="w109" sent="9" para="2" offset="671" length="7">premier</wf>
+    <wf wid="w110" sent="9" para="2" offset="679" length="4">Mark</wf>
+    <wf wid="w111" sent="9" para="2" offset="684" length="5">Rutte</wf>
+    <wf wid="w112" sent="9" para="2" offset="690" length="3">nog</wf>
+    <wf wid="w113" sent="9" para="2" offset="694" length="4">niks</wf>
+    <wf wid="w114" sent="9" para="2" offset="699" length="2">te</wf>
+    <wf wid="w115" sent="9" para="2" offset="702" length="6">voelen</wf>
+    <wf wid="w116" sent="9" para="2" offset="709" length="4">voor</wf>
+    <wf wid="w117" sent="9" para="2" offset="714" length="9">eurobonds</wf>
+    <wf wid="w118" sent="9" para="2" offset="724" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Maandag-->
+    <term tid="t107" type="open" lemma="maandag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--zei-->
+    <term tid="t108" type="open" lemma="zeggen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t109" type="open" lemma="premier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w109"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Mark-->
+    <term tid="t110" type="open" lemma="mark" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--Rutte-->
+    <term tid="t111" type="open" lemma="Rutte" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--nog-->
+    <term tid="t112" type="open" lemma="nog" pos="A" morphofeat="adv">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--niks-->
+    <term tid="t113" type="close" lemma="niks" pos="Q" morphofeat="pronindef">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t114" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--voelen-->
+    <term tid="t115" type="open" lemma="voelen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t116" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--eurobonds-->
+    <term tid="t117" type="open" lemma="eurobonds" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t118" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--premier Mark Rutte-->
+        <span>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--eurobonds-->
+        <span>
+          <target id="t117"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--niks voelen voor-->
+        <span>
+          <target id="t113"/>
+          <target id="t115"/>
+          <target id="t116"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

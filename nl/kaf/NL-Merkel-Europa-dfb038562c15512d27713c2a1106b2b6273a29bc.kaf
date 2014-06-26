@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:21:18CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w241" sent="16" para="2" offset="1369" length="14">Donderdagavond</wf>
+    <wf wid="w242" sent="16" para="2" offset="1384" length="4">zien</wf>
+    <wf wid="w243" sent="16" para="2" offset="1389" length="8">Hollande</wf>
+    <wf wid="w244" sent="16" para="2" offset="1398" length="2">en</wf>
+    <wf wid="w245" sent="16" para="2" offset="1401" length="6">Merkel</wf>
+    <wf wid="w246" sent="16" para="2" offset="1408" length="6">elkaar</wf>
+    <wf wid="w247" sent="16" para="2" offset="1415" length="2">in</wf>
+    <wf wid="w248" sent="16" para="2" offset="1418" length="6">Parijs</wf>
+    <wf wid="w249" sent="16" para="2" offset="1424" length="1">.</wf>
+    <wf wid="w264" sent="18" para="2" offset="1501" length="7">Vrijdag</wf>
+    <wf wid="w265" sent="18" para="2" offset="1509" length="2">en</wf>
+    <wf wid="w266" sent="18" para="2" offset="1512" length="8">zaterdag</wf>
+    <wf wid="w267" sent="18" para="2" offset="1521" length="9">ontmoeten</wf>
+    <wf wid="w268" sent="18" para="2" offset="1531" length="5">beide</wf>
+    <wf wid="w269" sent="18" para="2" offset="1537" length="16">regeringsleiders</wf>
+    <wf wid="w270" sent="18" para="2" offset="1554" length="7">Antonis</wf>
+    <wf wid="w271" sent="18" para="2" offset="1562" length="7">Samaras</wf>
+    <wf wid="w272" sent="18" para="2" offset="1569" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Donderdagavond-->
+    <term tid="t241" type="open" lemma="Donderdagavond" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--zien-->
+    <term tid="t242" type="open" lemma="zien" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t243" type="open" lemma="Hollande" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t244" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t245" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--elkaar-->
+    <term tid="t246" type="close" lemma="elkaar" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t247" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--Parijs-->
+    <term tid="t248" type="open" lemma="Parijs" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t249" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--Vrijdag-->
+    <term tid="t264" type="open" lemma="vrijdag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t265" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--zaterdag-->
+    <term tid="t266" type="open" lemma="zaterdag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--ontmoeten-->
+    <term tid="t267" type="open" lemma="ontmoeten" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--beide-->
+    <term tid="t268" type="open" lemma="beide" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--regeringsleiders-->
+    <term tid="t269" type="open" lemma="regeringsleider" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w269"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Antonis-->
+    <term tid="t270" type="open" lemma="Antonis" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--Samaras-->
+    <term tid="t271" type="open" lemma="Samaras" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t272" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t241"/>
+          <target id="t242"/>
+          <target id="t243"/>
+          <target id="t244"/>
+          <target id="t245"/>
+          <target id="t246"/>
+          <target id="t247"/>
+          <target id="t248"/>
+          <target id="t264"/>
+          <target id="t265"/>
+          <target id="t266"/>
+          <target id="t267"/>
+          <target id="t268"/>
+          <target id="t269"/>
+          <target id="t270"/>
+          <target id="t271"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

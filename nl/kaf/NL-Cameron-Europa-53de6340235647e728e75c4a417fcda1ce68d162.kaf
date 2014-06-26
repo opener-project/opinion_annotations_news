@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:19:54CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w11" sent="2" para="2" offset="52" length="17">BinnenlandPremier</wf>
+    <wf wid="w12" sent="2" para="2" offset="70" length="4">Elio</wf>
+    <wf wid="w13" sent="2" para="2" offset="75" length="2">Di</wf>
+    <wf wid="w14" sent="2" para="2" offset="78" length="4">Rupo</wf>
+    <wf wid="w15" sent="2" para="2" offset="83" length="5">vindt</wf>
+    <wf wid="w16" sent="2" para="2" offset="89" length="3">dat</wf>
+    <wf wid="w17" sent="2" para="2" offset="93" length="2">de</wf>
+    <wf wid="w18" sent="2" para="2" offset="96" length="8">Europese</wf>
+    <wf wid="w19" sent="2" para="2" offset="105" length="4">Unie</wf>
+    <wf wid="w20" sent="2" para="2" offset="110" length="3">een</wf>
+    <wf wid="w21" sent="2" para="2" offset="114" length="9">verdiende</wf>
+    <wf wid="w22" sent="2" para="2" offset="124" length="7">winnaar</wf>
+    <wf wid="w23" sent="2" para="2" offset="132" length="2">is</wf>
+    <wf wid="w24" sent="2" para="2" offset="135" length="3">van</wf>
+    <wf wid="w25" sent="2" para="2" offset="139" length="2">de</wf>
+    <wf wid="w26" sent="2" para="2" offset="142" length="10">Nobelprijs</wf>
+    <wf wid="w27" sent="2" para="2" offset="153" length="4">voor</wf>
+    <wf wid="w28" sent="2" para="2" offset="158" length="2">de</wf>
+    <wf wid="w29" sent="2" para="2" offset="161" length="5">Vrede</wf>
+    <wf wid="w30" sent="2" para="2" offset="166" length="1">.</wf>
+  </text>
+  <terms>
+    <!--BinnenlandPremier-->
+    <term tid="t11" type="open" lemma="BinnenlandPremier" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--Elio-->
+    <term tid="t12" type="open" lemma="Elio" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--Di-->
+    <term tid="t13" type="open" lemma="Di" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--Rupo-->
+    <term tid="t14" type="open" lemma="Rupo" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--vindt-->
+    <term tid="t15" type="open" lemma="vinden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t16" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t17" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t18" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--Unie-->
+    <term tid="t19" type="open" lemma="unie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w19"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--een-->
+    <term tid="t20" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--verdiende-->
+    <term tid="t21" type="open" lemma="verdiend" pos="G" morphofeat="adj">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--winnaar-->
+    <term tid="t22" type="open" lemma="winnaar" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t23" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t24" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t25" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--Nobelprijs-->
+    <term tid="t26" type="open" lemma="Nobelprijs" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t27" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t28" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--Vrede-->
+    <term tid="t29" type="open" lemma="vrede" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w29"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t30" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--winnaar-->
+        <span>
+          <target id="t22"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--verdiende-->
+        <span>
+          <target id="t21"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

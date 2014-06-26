@@ -1,0 +1,10 @@
+w59	The	the	D		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	58	true	3
+w60	Norwegian	norwegian	G		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	59	true	3
+w61	foreign	foreign	G		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	60	true	3
+w62	ministry	ministry	N		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	61	true	3
+w63	said	say	V		D-neutral	2	Opinion	5		0		0		0		0		0		0	62	true	3
+w64	she	she	Q		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	63	true	3
+w65	was	be	V		I-Positive	4	Opinion	5		0		0		0		0		0		0	64	true	3
+w66	expected	expect	V		I-Positive	4	Opinion	5		0		0		0		0		0		0	65	true	3
+w67	to	to	P		I-Positive	4	Opinion	5		0		0		0		0		0		0	66	true	3
+w68	visit	visit	V		I-Positive	4	Opinion	5		0		0		0		0		0		0	67	true	3

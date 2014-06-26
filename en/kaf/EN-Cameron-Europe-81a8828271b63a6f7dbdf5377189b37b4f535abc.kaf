@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:44Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:44Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:22:13" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:24:32CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="245" length="3" wid="w48">And</wf>
+    <wf sent="3" para="2" offset="249" length="3" wid="w49">the</wf>
+    <wf sent="3" para="2" offset="253" length="6" wid="w50">Deputy</wf>
+    <wf sent="3" para="2" offset="260" length="5" wid="w51">Prime</wf>
+    <wf sent="3" para="2" offset="266" length="8" wid="w52">Minister</wf>
+    <wf sent="3" para="2" offset="275" length="6" wid="w53">joined</wf>
+    <wf sent="3" para="2" offset="282" length="3" wid="w54">the</wf>
+    <wf sent="3" para="2" offset="286" length="10" wid="w55">one-to-one</wf>
+    <wf sent="3" para="2" offset="297" length="5" wid="w56">talks</wf>
+    <wf sent="3" para="2" offset="303" length="4" wid="w57">with</wf>
+    <wf sent="3" para="2" offset="308" length="3" wid="w58">the</wf>
+    <wf sent="3" para="2" offset="312" length="7" wid="w59">Belgian</wf>
+    <wf sent="3" para="2" offset="320" length="10" wid="w60">bureaucrat</wf>
+    <wf sent="3" para="2" offset="330" length="1" wid="w61">.</wf>
+  </text>
+  <terms>
+    <!--And-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t48">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t49">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--Deputy-->
+    <term type="close" lemma="Deputy" pos="R" morphofeat="NNP" tid="t50">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--Prime-->
+    <term type="close" lemma="Prime" pos="R" morphofeat="NNP" tid="t51">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--Minister-->
+    <term type="close" lemma="Minister" pos="R" morphofeat="NNP" tid="t52">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--joined-->
+    <term type="open" lemma="join" pos="V" morphofeat="VBD" tid="t53">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t54">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--one-to-one-->
+    <term type="open" lemma="one-to-one" pos="G" morphofeat="JJ" tid="t55">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--talks-->
+    <term type="open" lemma="talk" pos="N" morphofeat="NNS" tid="t56">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t57">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t58">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--Belgian-->
+    <term type="open" lemma="belgian" pos="G" morphofeat="JJ" tid="t59">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--bureaucrat-->
+    <term type="open" lemma="bureaucrat" pos="N" morphofeat="NN" tid="t60">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t61">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

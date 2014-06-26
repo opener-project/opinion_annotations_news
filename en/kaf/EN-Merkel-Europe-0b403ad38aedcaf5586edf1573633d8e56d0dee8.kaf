@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:08:14Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:08:14Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:10:51" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:41:36CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="7" para="2" offset="1231" length="1" wid="w220">"</wf>
+    <wf sent="7" para="2" offset="1232" length="6" wid="w221">Global</wf>
+    <wf sent="7" para="2" offset="1239" length="9" wid="w222">prospects</wf>
+    <wf sent="7" para="2" offset="1249" length="4" wid="w223">have</wf>
+    <wf sent="7" para="2" offset="1254" length="8" wid="w224">improved</wf>
+    <wf sent="7" para="2" offset="1263" length="5" wid="w225">again</wf>
+    <wf sent="7" para="2" offset="1268" length="1" wid="w226">,</wf>
+    <wf sent="7" para="2" offset="1270" length="3" wid="w227">but</wf>
+    <wf sent="7" para="2" offset="1274" length="3" wid="w228">the</wf>
+    <wf sent="7" para="2" offset="1278" length="4" wid="w229">road</wf>
+    <wf sent="7" para="2" offset="1283" length="2" wid="w230">to</wf>
+    <wf sent="7" para="2" offset="1286" length="8" wid="w231">recovery</wf>
+    <wf sent="7" para="2" offset="1295" length="2" wid="w232">in</wf>
+    <wf sent="7" para="2" offset="1298" length="3" wid="w233">the</wf>
+    <wf sent="7" para="2" offset="1302" length="8" wid="w234">advanced</wf>
+    <wf sent="7" para="2" offset="1311" length="9" wid="w235">economies</wf>
+    <wf sent="7" para="2" offset="1321" length="4" wid="w236">will</wf>
+    <wf sent="7" para="2" offset="1326" length="6" wid="w237">remain</wf>
+    <wf sent="7" para="2" offset="1333" length="5" wid="w238">bumpy</wf>
+    <wf sent="7" para="2" offset="1338" length="1" wid="w239">,</wf>
+    <wf sent="7" para="2" offset="1339" length="1" wid="w240">"</wf>
+    <wf sent="7" para="2" offset="1341" length="3" wid="w241">the</wf>
+    <wf sent="7" para="2" offset="1345" length="3" wid="w242">IMF</wf>
+    <wf sent="7" para="2" offset="1349" length="4" wid="w243">said</wf>
+    <wf sent="7" para="2" offset="1354" length="2" wid="w244">in</wf>
+    <wf sent="7" para="2" offset="1357" length="3" wid="w245">its</wf>
+    <wf sent="7" para="2" offset="1361" length="5" wid="w246">World</wf>
+    <wf sent="7" para="2" offset="1367" length="8" wid="w247">Economic</wf>
+    <wf sent="7" para="2" offset="1376" length="7" wid="w248">Outlook</wf>
+    <wf sent="7" para="2" offset="1384" length="4" wid="w249">this</wf>
+    <wf sent="7" para="2" offset="1389" length="4" wid="w250">week</wf>
+    <wf sent="7" para="2" offset="1393" length="1" wid="w251">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t220">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--Global-->
+    <term type="open" lemma="global" pos="G" morphofeat="JJ" tid="t221">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--prospects-->
+    <term type="open" lemma="prospect" pos="N" morphofeat="NNS" tid="t222">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--have-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBP" tid="t223">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--improved-->
+    <term type="open" lemma="improve" pos="V" morphofeat="VBN" tid="t224">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--again-->
+    <term type="open" lemma="again" pos="A" morphofeat="RB" tid="t225">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t226">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--but-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t227">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t228">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--road-->
+    <term type="open" lemma="road" pos="N" morphofeat="NN" tid="t229">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t230">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--recovery-->
+    <term type="open" lemma="recovery" pos="N" morphofeat="NN" tid="t231">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t232">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t233">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--advanced-->
+    <term type="open" lemma="advanced" pos="G" morphofeat="JJ" tid="t234">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--economies-->
+    <term type="open" lemma="economy" pos="N" morphofeat="NNS" tid="t235">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--will-->
+    <term type="close" lemma="will" pos="O" morphofeat="MD" tid="t236">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--remain-->
+    <term type="open" lemma="remain" pos="V" morphofeat="VB" tid="t237">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--bumpy-->
+    <term type="open" lemma="bumpy" pos="G" morphofeat="JJ" tid="t238">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t239">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="V" morphofeat="VB" tid="t240">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t241">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--IMF-->
+    <term type="close" lemma="IMF" pos="R" morphofeat="NNP" tid="t242">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t243">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t244">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--its-->
+    <term type="close" lemma="its" pos="Q" morphofeat="PRP$" tid="t245">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--World-->
+    <term type="close" lemma="World" pos="R" morphofeat="NNP" tid="t246">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--Economic-->
+    <term type="close" lemma="Economic" pos="R" morphofeat="NNP" tid="t247">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--Outlook-->
+    <term type="close" lemma="Outlook" pos="R" morphofeat="NNP" tid="t248">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--this-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t249">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--week-->
+    <term type="open" lemma="week" pos="N" morphofeat="NN" tid="t250">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t251">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--the IMF-->
+        <span>
+          <target id="t241"/>
+          <target id="t242"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the road-->
+        <span>
+          <target id="t228"/>
+          <target id="t229"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--bumpy-->
+        <span>
+          <target id="t238"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

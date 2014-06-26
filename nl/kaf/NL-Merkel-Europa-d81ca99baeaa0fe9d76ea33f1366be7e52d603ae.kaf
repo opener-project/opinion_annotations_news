@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:40:01CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w387" sent="26" para="2" offset="2184" length="2">De</wf>
+    <wf wid="w388" sent="26" para="2" offset="2187" length="16">vierentwintigste</wf>
+    <wf wid="w389" sent="26" para="2" offset="2204" length="9">president</wf>
+    <wf wid="w390" sent="26" para="2" offset="2214" length="3">van</wf>
+    <wf wid="w391" sent="26" para="2" offset="2218" length="9">Frankrijk</wf>
+    <wf wid="w392" sent="26" para="2" offset="2228" length="3">wil</wf>
+    <wf wid="w393" sent="26" para="2" offset="2232" length="2">de</wf>
+    <wf wid="w394" sent="26" para="2" offset="2235" length="7">Fransen</wf>
+    <wf wid="w395" sent="26" para="2" offset="2243" length="4">weer</wf>
+    <wf wid="w396" sent="26" para="2" offset="2248" length="12">samenbrengen</wf>
+    <wf wid="w397" sent="26" para="2" offset="2261" length="3">met</wf>
+    <wf wid="w398" sent="26" para="2" offset="2265" length="3">een</wf>
+    <wf wid="w399" sent="26" para="2" offset="2269" length="14">rechtvaardiger</wf>
+    <wf wid="w400" sent="26" para="2" offset="2284" length="10">economisch</wf>
+    <wf wid="w401" sent="26" para="2" offset="2295" length="6">beleid</wf>
+    <wf wid="w402" sent="26" para="2" offset="2301" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t387" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w387"/>
+      </span>
+    </term>
+    <!--vierentwintigste-->
+    <term tid="t388" type="open" lemma="vierentwintigste" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w388"/>
+      </span>
+    </term>
+    <!--president-->
+    <term tid="t389" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w389"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t390" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w390"/>
+      </span>
+    </term>
+    <!--Frankrijk-->
+    <term tid="t391" type="open" lemma="Frankrijk" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w391"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t392" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w392"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t393" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w393"/>
+      </span>
+    </term>
+    <!--Fransen-->
+    <term tid="t394" type="open" lemma="Franse|Fransman" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w394"/>
+      </span>
+    </term>
+    <!--weer-->
+    <term tid="t395" type="open" lemma="weer" pos="A" morphofeat="adv">
+      <span>
+        <target id="w395"/>
+      </span>
+    </term>
+    <!--samenbrengen-->
+    <term tid="t396" type="open" lemma="samenbrengen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w396"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t397" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t398" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <!--rechtvaardiger-->
+    <term tid="t399" type="open" lemma="rechtvaardig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w399"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--economisch-->
+    <term tid="t400" type="open" lemma="economisch" pos="G" morphofeat="adj">
+      <span>
+        <target id="w400"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--beleid-->
+    <term tid="t401" type="open" lemma="beleid" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t402" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--economisch beleid-->
+        <span>
+          <target id="t400"/>
+          <target id="t401"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--rechtvaardiger-->
+        <span>
+          <target id="t399"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Fransen-->
+        <span>
+          <target id="t394"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--weer samenbrengen-->
+        <span>
+          <target id="t395"/>
+          <target id="t396"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--vierentwintigste president van Frankrijk-->
+        <span>
+          <target id="t388"/>
+          <target id="t389"/>
+          <target id="t390"/>
+          <target id="t391"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--rechtvaardiger economisch beleid-->
+        <span>
+          <target id="t399"/>
+          <target id="t400"/>
+          <target id="t401"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t392"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--vierentwintigste president van Frankrijk-->
+        <span>
+          <target id="t388"/>
+          <target id="t389"/>
+          <target id="t390"/>
+          <target id="t391"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de Fransen weer samenbrengen-->
+        <span>
+          <target id="t393"/>
+          <target id="t394"/>
+          <target id="t395"/>
+          <target id="t396"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t392"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

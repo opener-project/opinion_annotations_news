@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:11:35Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:11:35Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:07:13CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:12:29CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w296" sent="19" para="11" offset="1724" length="2">70</wf>
+    <wf wid="w297" sent="19" para="11" offset="1727" length="10">amtierende</wf>
+    <wf wid="w298" sent="19" para="11" offset="1738" length="3">und</wf>
+    <wf wid="w299" sent="19" para="11" offset="1742" length="2">10</wf>
+    <wf wid="w300" sent="19" para="11" offset="1745" length="9">ehemalige</wf>
+    <wf wid="w301" sent="19" para="11" offset="1755" length="11">Staatschefs</wf>
+    <wf wid="w302" sent="19" para="11" offset="1767" length="4">sind</wf>
+    <wf wid="w303" sent="19" para="11" offset="1772" length="3">bei</wf>
+    <wf wid="w304" sent="19" para="11" offset="1776" length="3">der</wf>
+    <wf wid="w305" sent="19" para="11" offset="1780" length="13">Veranstaltung</wf>
+    <wf wid="w306" sent="19" para="11" offset="1794" length="5">dabei</wf>
+    <wf wid="w307" sent="19" para="11" offset="1799" length="1">;</wf>
+    <wf wid="w308" sent="19" para="11" offset="1801" length="6">Barack</wf>
+    <wf wid="w309" sent="19" para="11" offset="1808" length="5">Obama</wf>
+    <wf wid="w310" sent="19" para="11" offset="1813" length="1">,</wf>
+    <wf wid="w311" sent="19" para="11" offset="1815" length="5">Dilma</wf>
+    <wf wid="w312" sent="19" para="11" offset="1821" length="8">Rousseff</wf>
+    <wf wid="w313" sent="19" para="11" offset="1830" length="4">oder</wf>
+    <wf wid="w314" sent="19" para="11" offset="1835" length="4">Raul</wf>
+    <wf wid="w315" sent="19" para="11" offset="1840" length="6">Castro</wf>
+    <wf wid="w316" sent="19" para="11" offset="1847" length="6">halten</wf>
+    <wf wid="w317" sent="19" para="11" offset="1854" length="5">Reden</wf>
+    <wf wid="w318" sent="19" para="11" offset="1859" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="70" morphofeat="CARD" pos="O" tid="t296" type="open">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <term lemma="amtierend" morphofeat="ADJA" pos="G" tid="t297" type="open">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t298" type="close">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <term lemma="10" morphofeat="CARD" pos="O" tid="t299" type="open">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <term lemma="ehemalig" morphofeat="ADJA" pos="G" tid="t300" type="open">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <term lemma="Staatschef" morphofeat="NN" pos="N" tid="t301" type="open">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t302" type="open">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <term lemma="bei" morphofeat="APPR" pos="P" tid="t303" type="close">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t304" type="close">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <term lemma="Veranstaltung" morphofeat="NN" pos="N" tid="t305" type="open">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <term lemma="dabei" morphofeat="PTKVZ" pos="V" tid="t306" type="open">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <term lemma=";" morphofeat="$." pos="O" tid="t307" type="open">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <term lemma="Barack" morphofeat="NN unknown_lemma" pos="O" tid="t308" type="open">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <term lemma="Obama" morphofeat="NN unknown_lemma" pos="O" tid="t309" type="open">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t310" type="open">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <term lemma="Dilma" morphofeat="NE unknown_lemma" pos="O" tid="t311" type="open">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <term lemma="Rousseff" morphofeat="NE unknown_lemma" pos="O" tid="t312" type="open">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <term lemma="oder" morphofeat="KON" pos="C" tid="t313" type="close">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <term lemma="Raul" morphofeat="NE" pos="R" tid="t314" type="open">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <term lemma="Castro" morphofeat="NE" pos="R" tid="t315" type="open">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <term lemma="halten" morphofeat="VVFIN" pos="V" tid="t316" type="open">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <term lemma="Rede|Reden" morphofeat="NN" pos="N" tid="t317" type="open">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t318" type="open">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t296"/>
+          <target id="t297"/>
+          <target id="t298"/>
+          <target id="t299"/>
+          <target id="t300"/>
+          <target id="t301"/>
+          <target id="t302"/>
+          <target id="t303"/>
+          <target id="t304"/>
+          <target id="t305"/>
+          <target id="t306"/>
+          <target id="t307"/>
+          <target id="t308"/>
+          <target id="t309"/>
+          <target id="t310"/>
+          <target id="t311"/>
+          <target id="t312"/>
+          <target id="t313"/>
+          <target id="t314"/>
+          <target id="t315"/>
+          <target id="t316"/>
+          <target id="t317"/>
+          <target id="t318"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

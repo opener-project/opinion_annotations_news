@@ -1,0 +1,11 @@
+w129	Het	het	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	128	true	7
+w130	was	wezen|zijn	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	129	true	7
+w131	het	het	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	130	true	7
+w132	enige	enig	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	131	true	7
+w133	tv-debat	tv-debat	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	132	true	7
+w134	voor	voor	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	133	true	7
+w135	de	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	134	true	7
+w136	verkiezingen	verkiezing	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	135	true	7
+w137	op	op	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	136	true	7
+w138	22	@card@	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	137	true	7
+w139	september	september	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	138	true	7

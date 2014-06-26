@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:42:46CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w228" sent="13" para="2" offset="1291" length="3">Het</wf>
+    <wf wid="w229" sent="13" para="2" offset="1295" length="4">gaat</wf>
+    <wf wid="w230" sent="13" para="2" offset="1300" length="2">om</wf>
+    <wf wid="w231" sent="13" para="2" offset="1303" length="11">maatregelen</wf>
+    <wf wid="w232" sent="13" para="2" offset="1315" length="4">voor</wf>
+    <wf wid="w233" sent="13" para="2" offset="1320" length="2">de</wf>
+    <wf wid="w234" sent="13" para="2" offset="1323" length="5">grote</wf>
+    <wf wid="w235" sent="13" para="2" offset="1328" length="1">,</wf>
+    <wf wid="w236" sent="13" para="2" offset="1330" length="13">systeembanken</wf>
+    <wf wid="w237" sent="13" para="2" offset="1343" length="1">,</wf>
+    <wf wid="w238" sent="13" para="2" offset="1345" length="2">zo</wf>
+    <wf wid="w239" sent="13" para="2" offset="1348" length="6">blijkt</wf>
+    <wf wid="w240" sent="13" para="2" offset="1355" length="3">uit</wf>
+    <wf wid="w241" sent="13" para="2" offset="1359" length="3">een</wf>
+    <wf wid="w242" sent="13" para="2" offset="1363" length="8">voorstel</wf>
+    <wf wid="w243" sent="13" para="2" offset="1372" length="3">van</wf>
+    <wf wid="w244" sent="13" para="2" offset="1376" length="2">de</wf>
+    <wf wid="w245" sent="13" para="2" offset="1379" length="17">regeringsfracties</wf>
+    <wf wid="w246" sent="13" para="2" offset="1397" length="3">dat</wf>
+    <wf wid="w247" sent="13" para="2" offset="1401" length="9">donderdag</wf>
+    <wf wid="w248" sent="13" para="2" offset="1411" length="9">behandeld</wf>
+    <wf wid="w249" sent="13" para="2" offset="1421" length="5">wordt</wf>
+    <wf wid="w250" sent="13" para="2" offset="1427" length="2">in</wf>
+    <wf wid="w251" sent="13" para="2" offset="1430" length="3">het</wf>
+    <wf wid="w252" sent="13" para="2" offset="1434" length="9">parlement</wf>
+    <wf wid="w253" sent="13" para="2" offset="1443" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Het-->
+    <term tid="t228" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--gaat-->
+    <term tid="t229" type="open" lemma="gaan" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t230" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--maatregelen-->
+    <term tid="t231" type="open" lemma="maatregel" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t232" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t233" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--grote-->
+    <term tid="t234" type="open" lemma="groot" pos="G" morphofeat="adj">
+      <span>
+        <target id="w234"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t235" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--systeembanken-->
+    <term tid="t236" type="open" lemma="systeembanken" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t237" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--zo-->
+    <term tid="t238" type="open" lemma="zo" pos="A" morphofeat="adv">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--blijkt-->
+    <term tid="t239" type="open" lemma="blijken" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--uit-->
+    <term tid="t240" type="close" lemma="uit" pos="P" morphofeat="prep">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t241" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--voorstel-->
+    <term tid="t242" type="open" lemma="voorstel" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t243" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t244" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--regeringsfracties-->
+    <term tid="t245" type="open" lemma="regeringsfractie" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t246" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--donderdag-->
+    <term tid="t247" type="open" lemma="donderdag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--behandeld-->
+    <term tid="t248" type="open" lemma="behandelen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w248"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--wordt-->
+    <term tid="t249" type="open" lemma="worden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t250" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t251" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--parlement-->
+    <term tid="t252" type="open" lemma="parlement" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t253" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t228"/>
+          <target id="t229"/>
+          <target id="t230"/>
+          <target id="t231"/>
+          <target id="t232"/>
+          <target id="t233"/>
+          <target id="t234"/>
+          <target id="t235"/>
+          <target id="t236"/>
+          <target id="t237"/>
+          <target id="t238"/>
+          <target id="t239"/>
+          <target id="t240"/>
+          <target id="t241"/>
+          <target id="t242"/>
+          <target id="t243"/>
+          <target id="t244"/>
+          <target id="t245"/>
+          <target id="t246"/>
+          <target id="t247"/>
+          <target id="t248"/>
+          <target id="t249"/>
+          <target id="t250"/>
+          <target id="t251"/>
+          <target id="t252"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:57:34" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:38:58CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="11" para="2" offset="1451" length="2" wid="w267">He</wf>
+    <wf sent="11" para="2" offset="1454" length="9" wid="w268">indicated</wf>
+    <wf sent="11" para="2" offset="1464" length="4" wid="w269">that</wf>
+    <wf sent="11" para="2" offset="1469" length="2" wid="w270">he</wf>
+    <wf sent="11" para="2" offset="1472" length="3" wid="w271">did</wf>
+    <wf sent="11" para="2" offset="1476" length="3" wid="w272">not</wf>
+    <wf sent="11" para="2" offset="1480" length="7" wid="w273">believe</wf>
+    <wf sent="11" para="2" offset="1488" length="2" wid="w274">he</wf>
+    <wf sent="11" para="2" offset="1491" length="3" wid="w275">had</wf>
+    <wf sent="11" para="2" offset="1495" length="4" wid="w276">been</wf>
+    <wf sent="11" para="2" offset="1500" length="5" wid="w277">spied</wf>
+    <wf sent="11" para="2" offset="1506" length="2" wid="w278">on</wf>
+    <wf sent="11" para="2" offset="1509" length="2" wid="w279">by</wf>
+    <wf sent="11" para="2" offset="1512" length="3" wid="w280">the</wf>
+    <wf sent="11" para="2" offset="1516" length="9" wid="w281">Americans</wf>
+    <wf sent="11" para="2" offset="1525" length="1" wid="w282">.</wf>
+  </text>
+  <terms>
+    <!--He-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t267">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--indicated-->
+    <term type="open" lemma="indicate" pos="V" morphofeat="VBD" tid="t268">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="P" morphofeat="IN" tid="t269">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t270">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--did-->
+    <term type="open" lemma="do" pos="V" morphofeat="VBD" tid="t271">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t272">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--believe-->
+    <term type="open" lemma="believe" pos="V" morphofeat="VB" tid="t273">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t274">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--had-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBD" tid="t275">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--been-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBN" tid="t276">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--spied-->
+    <term type="open" lemma="spy" pos="V" morphofeat="VBN" tid="t277">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="open" lemma="on" pos="A" morphofeat="RB" tid="t278">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t279">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t280">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--Americans-->
+    <term type="close" lemma="Americans" pos="R" morphofeat="NNPS" tid="t281">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t282">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--He-->
+        <span>
+          <target id="t267"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--had been spied-->
+        <span>
+          <target id="t275"/>
+          <target id="t276"/>
+          <target id="t277"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--indicated-->
+        <span>
+          <target id="t268"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--He-->
+        <span>
+          <target id="t267"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--had been spied-->
+        <span>
+          <target id="t275"/>
+          <target id="t276"/>
+          <target id="t277"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--did not believe-->
+        <span>
+          <target id="t271"/>
+          <target id="t272"/>
+          <target id="t273"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

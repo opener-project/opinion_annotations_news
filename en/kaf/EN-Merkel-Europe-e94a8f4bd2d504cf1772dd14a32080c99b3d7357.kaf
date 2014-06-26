@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:20:28" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:05:09CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:53CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="21" para="2" offset="2526" length="1" wid="w473">"</wf>
+    <wf sent="21" para="2" offset="2527" length="5" wid="w474">Today</wf>
+    <wf sent="21" para="2" offset="2532" length="1" wid="w475">,</wf>
+    <wf sent="21" para="2" offset="2534" length="9" wid="w476">officials</wf>
+    <wf sent="21" para="2" offset="2544" length="2" wid="w477">in</wf>
+    <wf sent="21" para="2" offset="2547" length="5" wid="w478">Cairo</wf>
+    <wf sent="21" para="2" offset="2553" length="3" wid="w479">are</wf>
+    <wf sent="21" para="2" offset="2557" length="5" wid="w480">happy</wf>
+    <wf sent="21" para="2" offset="2563" length="2" wid="w481">to</wf>
+    <wf sent="21" para="2" offset="2566" length="7" wid="w482">attract</wf>
+    <wf sent="21" para="2" offset="2574" length="4" wid="w483">half</wf>
+    <wf sent="21" para="2" offset="2579" length="2" wid="w484">as</wf>
+    <wf sent="21" para="2" offset="2582" length="4" wid="w485">many</wf>
+    <wf sent="21" para="2" offset="2586" length="1" wid="w486">,</wf>
+    <wf sent="21" para="2" offset="2587" length="1" wid="w487">"</wf>
+    <wf sent="21" para="2" offset="2589" length="6" wid="w488">writes</wf>
+    <wf sent="21" para="2" offset="2596" length="3" wid="w489">Der</wf>
+    <wf sent="21" para="2" offset="2600" length="7" wid="w490">Spiegel</wf>
+    <wf sent="21" para="2" offset="2607" length="1" wid="w491">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t473">
+      <span>
+        <target id="w473"/>
+      </span>
+    </term>
+    <!--Today-->
+    <term type="close" lemma="Today" pos="R" morphofeat="NNP" tid="t474">
+      <span>
+        <target id="w474"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t475">
+      <span>
+        <target id="w475"/>
+      </span>
+    </term>
+    <!--officials-->
+    <term type="open" lemma="official" pos="N" morphofeat="NNS" tid="t476">
+      <span>
+        <target id="w476"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t477">
+      <span>
+        <target id="w477"/>
+      </span>
+    </term>
+    <!--Cairo-->
+    <term type="close" lemma="Cairo" pos="R" morphofeat="NNP" tid="t478">
+      <span>
+        <target id="w478"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t479">
+      <span>
+        <target id="w479"/>
+      </span>
+    </term>
+    <!--happy-->
+    <term type="open" lemma="happy" pos="G" morphofeat="JJ" tid="t480">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w480"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t481">
+      <span>
+        <target id="w481"/>
+      </span>
+    </term>
+    <!--attract-->
+    <term type="open" lemma="attract" pos="V" morphofeat="VB" tid="t482">
+      <span>
+        <target id="w482"/>
+      </span>
+    </term>
+    <!--half-->
+    <term type="close" lemma="half" pos="D" morphofeat="DT" tid="t483">
+      <span>
+        <target id="w483"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="open" lemma="as" pos="A" morphofeat="RB" tid="t484">
+      <span>
+        <target id="w484"/>
+      </span>
+    </term>
+    <!--many-->
+    <term type="open" lemma="many" pos="G" morphofeat="JJ" tid="t485">
+      <span>
+        <target id="w485"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t486">
+      <span>
+        <target id="w486"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="G" morphofeat="JJ" tid="t487">
+      <span>
+        <target id="w487"/>
+      </span>
+    </term>
+    <!--writes-->
+    <term type="open" lemma="writes" pos="N" morphofeat="NNS" tid="t488">
+      <span>
+        <target id="w488"/>
+      </span>
+    </term>
+    <!--Der-->
+    <term type="close" lemma="Der" pos="R" morphofeat="NNP" tid="t489">
+      <span>
+        <target id="w489"/>
+      </span>
+    </term>
+    <!--Spiegel-->
+    <term type="close" lemma="Spiegel" pos="R" morphofeat="NNP" tid="t490">
+      <span>
+        <target id="w490"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t491">
+      <span>
+        <target id="w491"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--many-->
+        <span>
+          <target id="t485"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--half as-->
+        <span>
+          <target id="t483"/>
+          <target id="t484"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--officials in Cairo-->
+        <span>
+          <target id="t476"/>
+          <target id="t477"/>
+          <target id="t478"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--half as many-->
+        <span>
+          <target id="t483"/>
+          <target id="t484"/>
+          <target id="t485"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--are happy to attract-->
+        <span>
+          <target id="t479"/>
+          <target id="t480"/>
+          <target id="t481"/>
+          <target id="t482"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Der Spiegel-->
+        <span>
+          <target id="t489"/>
+          <target id="t490"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--writes-->
+        <span>
+          <target id="t488"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

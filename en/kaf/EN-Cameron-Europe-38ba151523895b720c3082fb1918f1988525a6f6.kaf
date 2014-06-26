@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:12:03" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:27:39CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="11" para="2" offset="51" length="1" wid="w376">“</wf>
+    <wf sent="11" para="2" offset="496" length="2" wid="w377">We</wf>
+    <wf sent="11" para="2" offset="2125" length="7" wid="w378">deplore</wf>
+    <wf sent="11" para="2" offset="2133" length="3" wid="w379">the</wf>
+    <wf sent="11" para="2" offset="2137" length="6" wid="w380">recent</wf>
+    <wf sent="11" para="2" offset="2144" length="7" wid="w381">Israeli</wf>
+    <wf sent="11" para="2" offset="2152" length="8" wid="w382">decision</wf>
+    <wf sent="11" para="2" offset="2161" length="2" wid="w383">to</wf>
+    <wf sent="11" para="2" offset="2164" length="5" wid="w384">build</wf>
+    <wf sent="11" para="2" offset="2170" length="5" wid="w385">3,000</wf>
+    <wf sent="11" para="2" offset="2176" length="3" wid="w386">new</wf>
+    <wf sent="11" para="2" offset="2180" length="7" wid="w387">housing</wf>
+    <wf sent="11" para="2" offset="2188" length="5" wid="w388">units</wf>
+    <wf sent="11" para="2" offset="2194" length="3" wid="w389">and</wf>
+    <wf sent="11" para="2" offset="2198" length="8" wid="w390">unfreeze</wf>
+    <wf sent="11" para="2" offset="2207" length="11" wid="w391">development</wf>
+    <wf sent="11" para="2" offset="2219" length="2" wid="w392">in</wf>
+    <wf sent="11" para="2" offset="2222" length="3" wid="w393">the</wf>
+    <wf sent="11" para="2" offset="2226" length="2" wid="w394">E1</wf>
+    <wf sent="11" para="2" offset="2229" length="5" wid="w395">block</wf>
+    <wf sent="11" para="2" offset="2234" length="1" wid="w396">,</wf>
+    <wf sent="11" para="2" offset="51" length="1" wid="w397">”</wf>
+    <wf sent="11" para="2" offset="102" length="1" wid="w398">a</wf>
+    <wf sent="11" para="2" offset="2240" length="7" wid="w399">Foreign</wf>
+    <wf sent="11" para="2" offset="2248" length="6" wid="w400">Office</wf>
+    <wf sent="11" para="2" offset="2255" length="9" wid="w401">spokesman</wf>
+    <wf sent="11" para="2" offset="2265" length="4" wid="w402">said</wf>
+    <wf sent="11" para="2" offset="2269" length="1" wid="w403">.</wf>
+  </text>
+  <terms>
+    <!--“-->
+    <term type="open" lemma="“" pos="N" morphofeat="NN" tid="t376">
+      <span>
+        <target id="w376"/>
+      </span>
+    </term>
+    <!--We-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t377">
+      <span>
+        <target id="w377"/>
+      </span>
+    </term>
+    <!--deplore-->
+    <term type="open" lemma="deplore" pos="V" morphofeat="VBP" tid="t378">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w378"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t379">
+      <span>
+        <target id="w379"/>
+      </span>
+    </term>
+    <!--recent-->
+    <term type="open" lemma="recent" pos="G" morphofeat="JJ" tid="t380">
+      <span>
+        <target id="w380"/>
+      </span>
+    </term>
+    <!--Israeli-->
+    <term type="open" lemma="israeli" pos="G" morphofeat="JJ" tid="t381">
+      <span>
+        <target id="w381"/>
+      </span>
+    </term>
+    <!--decision-->
+    <term type="open" lemma="decision" pos="N" morphofeat="NN" tid="t382">
+      <span>
+        <target id="w382"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t383">
+      <span>
+        <target id="w383"/>
+      </span>
+    </term>
+    <!--build-->
+    <term type="open" lemma="build" pos="V" morphofeat="VB" tid="t384">
+      <span>
+        <target id="w384"/>
+      </span>
+    </term>
+    <!--3,000-->
+    <term type="close" lemma="3,000" pos="O" morphofeat="CD" tid="t385">
+      <span>
+        <target id="w385"/>
+      </span>
+    </term>
+    <!--new-->
+    <term type="open" lemma="new" pos="G" morphofeat="JJ" tid="t386">
+      <span>
+        <target id="w386"/>
+      </span>
+    </term>
+    <!--housing-->
+    <term type="open" lemma="housing" pos="N" morphofeat="NN" tid="t387">
+      <span>
+        <target id="w387"/>
+      </span>
+    </term>
+    <!--units-->
+    <term type="open" lemma="unit" pos="N" morphofeat="NNS" tid="t388">
+      <span>
+        <target id="w388"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t389">
+      <span>
+        <target id="w389"/>
+      </span>
+    </term>
+    <!--unfreeze-->
+    <term type="open" lemma="unfreeze" pos="G" morphofeat="JJ" tid="t390">
+      <span>
+        <target id="w390"/>
+      </span>
+    </term>
+    <!--development-->
+    <term type="open" lemma="development" pos="N" morphofeat="NN" tid="t391">
+      <span>
+        <target id="w391"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t392">
+      <span>
+        <target id="w392"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t393">
+      <span>
+        <target id="w393"/>
+      </span>
+    </term>
+    <!--E1-->
+    <term type="close" lemma="E1" pos="R" morphofeat="NNP" tid="t394">
+      <span>
+        <target id="w394"/>
+      </span>
+    </term>
+    <!--block-->
+    <term type="open" lemma="block" pos="N" morphofeat="NN" tid="t395">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w395"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t396">
+      <span>
+        <target id="w396"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="V" morphofeat="VBP" tid="t397">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t398">
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <!--Foreign-->
+    <term type="close" lemma="Foreign" pos="R" morphofeat="NNP" tid="t399">
+      <span>
+        <target id="w399"/>
+      </span>
+    </term>
+    <!--Office-->
+    <term type="close" lemma="Office" pos="R" morphofeat="NNP" tid="t400">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+    <!--spokesman-->
+    <term type="open" lemma="spokesman" pos="N" morphofeat="NN" tid="t401">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t402">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t403">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t377"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the recent Israeli decision-->
+        <span>
+          <target id="t379"/>
+          <target id="t380"/>
+          <target id="t381"/>
+          <target id="t382"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--deplore-->
+        <span>
+          <target id="t378"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

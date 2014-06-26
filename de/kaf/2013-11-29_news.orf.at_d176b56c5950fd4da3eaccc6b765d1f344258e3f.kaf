@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:13:24Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:13:24Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:59:17CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:13:33CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w72" sent="6" para="6" offset="477" length="3">Der</wf>
+    <wf wid="w73" sent="6" para="6" offset="481" length="5">Ungar</wf>
+    <wf wid="w74" sent="6" para="6" offset="487" length="5">hatte</wf>
+    <wf wid="w75" sent="6" para="6" offset="493" length="8">Camerons</wf>
+    <wf wid="w76" sent="6" para="6" offset="502" length="5">Pläne</wf>
+    <wf wid="w77" sent="6" para="6" offset="507" length="1">,</wf>
+    <wf wid="w78" sent="6" para="6" offset="509" length="3">die</wf>
+    <wf wid="w79" sent="6" para="6" offset="513" length="25">Arbeitnehmerfreizügigkeit</wf>
+    <wf wid="w80" sent="6" para="6" offset="539" length="8">einengen</wf>
+    <wf wid="w81" sent="6" para="6" offset="548" length="2">zu</wf>
+    <wf wid="w82" sent="6" para="6" offset="551" length="6">wollen</wf>
+    <wf wid="w83" sent="6" para="6" offset="557" length="1">,</wf>
+    <wf wid="w84" sent="6" para="6" offset="559" length="6">scharf</wf>
+    <wf wid="w85" sent="6" para="6" offset="566" length="10">kritisiert</wf>
+    <wf wid="w86" sent="6" para="6" offset="576" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t72" type="close">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <term lemma="Ungar" morphofeat="NN" pos="N" tid="t73" type="open">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t74" type="open">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <term lemma="Camerons" morphofeat="NN unknown_lemma" pos="O" tid="t75" type="open">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <term lemma="Plan" morphofeat="NN" pos="N" tid="t76" type="open">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t77" type="open">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t78" type="close">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <term lemma="Arbeitnehmerfreizügigkeit" morphofeat="NN unknown_lemma" pos="O" tid="t79" type="open">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <term lemma="einengen" morphofeat="VVINF" pos="V" tid="t80" type="open">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="PTKZU" pos="O" tid="t81" type="open">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMINF" pos="V" tid="t82" type="open">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t83" type="open">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <term lemma="scharf" morphofeat="ADJD" pos="G" tid="t84" type="open">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <term lemma="kritisieren" morphofeat="VVPP" pos="V" tid="t85" type="open">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t86" type="open">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Der Ungar-->
+        <span>
+          <target id="t72"/>
+          <target id="t73"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Camerons Pläne-->
+        <span>
+          <target id="t75"/>
+          <target id="t76"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--scharf kritisiert-->
+        <span>
+          <target id="t84"/>
+          <target id="t85"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

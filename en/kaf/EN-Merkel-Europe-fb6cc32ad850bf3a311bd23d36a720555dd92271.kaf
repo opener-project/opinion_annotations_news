@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:06:55" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:40:49CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="966" length="2" wid="w175">We</wf>
+    <wf sent="9" para="2" offset="969" length="4" wid="w176">will</wf>
+    <wf sent="9" para="2" offset="974" length="7" wid="w177">restore</wf>
+    <wf sent="9" para="2" offset="982" length="3" wid="w178">our</wf>
+    <wf sent="9" para="2" offset="986" length="11" wid="w179">credibility</wf>
+    <wf sent="9" para="2" offset="998" length="2" wid="w180">in</wf>
+    <wf sent="9" para="2" offset="1001" length="3" wid="w181">the</wf>
+    <wf sent="9" para="2" offset="1005" length="8" wid="w182">European</wf>
+    <wf sent="9" para="2" offset="1014" length="3" wid="w183">and</wf>
+    <wf sent="9" para="2" offset="1018" length="13" wid="w184">international</wf>
+    <wf sent="9" para="2" offset="1032" length="5" wid="w185">arena</wf>
+    <wf sent="9" para="2" offset="1037" length="1" wid="w186">.</wf>
+  </text>
+  <terms>
+    <!--We-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t175">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--will-->
+    <term type="close" lemma="will" pos="O" morphofeat="MD" tid="t176">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--restore-->
+    <term type="open" lemma="restore" pos="V" morphofeat="VB" tid="t177">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--our-->
+    <term type="close" lemma="our" pos="Q" morphofeat="PRP$" tid="t178">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--credibility-->
+    <term type="open" lemma="credibility" pos="N" morphofeat="NN" tid="t179">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t180">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t181">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--European-->
+    <term type="open" lemma="european" pos="G" morphofeat="JJ" tid="t182">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t183">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--international-->
+    <term type="open" lemma="international" pos="G" morphofeat="JJ" tid="t184">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--arena-->
+    <term type="open" lemma="arena" pos="N" morphofeat="NN" tid="t185">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t186">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t175"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--our credibility-->
+        <span>
+          <target id="t178"/>
+          <target id="t179"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--will restore-->
+        <span>
+          <target id="t176"/>
+          <target id="t177"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

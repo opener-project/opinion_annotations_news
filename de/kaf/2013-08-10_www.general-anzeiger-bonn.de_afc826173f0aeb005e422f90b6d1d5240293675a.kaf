@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:04:01Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:04:01Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:57:57CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:04:16CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w179" sent="12" para="7" offset="1102" length="6">Linken</wf>
+    <wf wid="w180" sent="12" para="7" offset="1108" length="1">·</wf>
+    <wf wid="w181" sent="12" para="7" offset="1109" length="4">Chef</wf>
+    <wf wid="w182" sent="12" para="7" offset="1114" length="5">Bernd</wf>
+    <wf wid="w183" sent="12" para="7" offset="1120" length="9">Riexinger</wf>
+    <wf wid="w184" sent="12" para="7" offset="1130" length="9">verlangte</wf>
+    <wf wid="w185" sent="12" para="7" offset="1140" length="4">eine</wf>
+    <wf wid="w186" sent="12" para="7" offset="1145" length="14">Entschuldigung</wf>
+    <wf wid="w187" sent="12" para="7" offset="1160" length="3">von</wf>
+    <wf wid="w188" sent="12" para="7" offset="1164" length="10">Steinbrück</wf>
+    <wf wid="w189" sent="12" para="7" offset="1174" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="link" morphofeat="ADJA" pos="G" tid="t179" type="open">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t180" type="open">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <term lemma="Chef" morphofeat="NN" pos="N" tid="t181" type="open">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <term lemma="Bernd" morphofeat="NE" pos="R" tid="t182" type="open">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <term lemma="Riexinger" morphofeat="NE unknown_lemma" pos="O" tid="t183" type="open">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <term lemma="verlangen" morphofeat="VVFIN" pos="V" tid="t184" type="open">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t185" type="close">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <term lemma="Entschuldigung" morphofeat="NN" pos="N" tid="t186" type="open">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t187" type="close">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <term lemma="Steinbrück" morphofeat="NN unknown_lemma" pos="O" tid="t188" type="open">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t189" type="open">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Linken · Chef Bernd Riexinger-->
+        <span>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--eine Entschuldigung-->
+        <span>
+          <target id="t185"/>
+          <target id="t186"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--verlangte-->
+        <span>
+          <target id="t184"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,12 @@
+w509	Im	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	508	true	29
+w510	ersten	erst	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	509	true	29
+w511	Entwurf	Entwurf	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	510	true	29
+w512	für	für	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	511	true	29
+w513	den	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	512	true	29
+w514	Koalitionsvertrag	Koalitionsvertrag	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	513	true	29
+w515	taucht	tauchen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	514	true	29
+w516	das	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	515	true	29
+w517	Thema	Thema	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	516	true	29
+w518	gar	gar	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	517	true	29
+w519	nicht	nicht	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	518	true	29
+w520	auf	auf	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	519	true	29

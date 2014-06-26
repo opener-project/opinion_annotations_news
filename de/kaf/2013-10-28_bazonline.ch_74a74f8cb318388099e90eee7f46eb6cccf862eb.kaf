@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:46:21Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:46:21Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:52:33CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:46:42CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w83" sent="6" para="4" offset="505" length="1">«</wf>
+    <wf wid="w84" sent="6" para="4" offset="506" length="2">Es</wf>
+    <wf wid="w85" sent="6" para="4" offset="509" length="3">ist</wf>
+    <wf wid="w86" sent="6" para="4" offset="513" length="10">übermässig</wf>
+    <wf wid="w87" sent="6" para="4" offset="524" length="4">klar</wf>
+    <wf wid="w88" sent="6" para="4" offset="528" length="1">,</wf>
+    <wf wid="w89" sent="6" para="4" offset="530" length="4">dass</wf>
+    <wf wid="w90" sent="6" para="4" offset="535" length="4">eine</wf>
+    <wf wid="w91" sent="6" para="4" offset="540" length="6">totale</wf>
+    <wf wid="w92" sent="6" para="4" offset="547" length="11">Überprüfung</wf>
+    <wf wid="w93" sent="6" para="4" offset="559" length="5">aller</wf>
+    <wf wid="w94" sent="6" para="4" offset="565" length="21">Geheimdienstprogramme</wf>
+    <wf wid="w95" sent="6" para="4" offset="587" length="9">notwendig</wf>
+    <wf wid="w96" sent="6" para="4" offset="597" length="3">ist</wf>
+    <wf wid="w97" sent="6" para="4" offset="600" length="1">»</wf>
+    <wf wid="w98" sent="6" para="4" offset="601" length="1">,</wf>
+    <wf wid="w99" sent="6" para="4" offset="603" length="8">erklärte</wf>
+    <wf wid="w100" sent="6" para="4" offset="612" length="9">Feinstein</wf>
+    <wf wid="w101" sent="6" para="4" offset="621" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="«" morphofeat="$(" pos="O" tid="t83" type="open">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t84" type="close">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t85" type="open">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term lemma="übermässig" morphofeat="ADJD" pos="G" tid="t86" type="open">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <term lemma="klar" morphofeat="ADJD" pos="G" tid="t87" type="open">
+      <span>
+        <target id="w87"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t88" type="open">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <term lemma="dass" morphofeat="KOUS" pos="C" tid="t89" type="close">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t90" type="close">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <term lemma="total" morphofeat="ADJA" pos="G" tid="t91" type="open">
+      <span>
+        <target id="w91"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="Überprüfung" morphofeat="NN" pos="N" tid="t92" type="open">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <term lemma="alle" morphofeat="PIAT" pos="Q" tid="t93" type="close">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <term lemma="Geheimdienstprogramme" morphofeat="NN unknown_lemma" pos="O" tid="t94" type="open">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <term lemma="notwendig" morphofeat="ADJD" pos="G" tid="t95" type="open">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t96" type="open">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <term lemma="»" morphofeat="$(" pos="O" tid="t97" type="open">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t98" type="open">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <term lemma="erklären" morphofeat="VVFIN" pos="V" tid="t99" type="open">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <term lemma="Feinstein" morphofeat="NE" pos="R" tid="t100" type="open">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t101" type="open">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Es-->
+        <span>
+          <target id="t84"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--übermässig klar-->
+        <span>
+          <target id="t86"/>
+          <target id="t87"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Feinstein-->
+        <span>
+          <target id="t100"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--eine totale Überprüfung-->
+        <span>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--erklärte-->
+        <span>
+          <target id="t99"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Feinstein-->
+        <span>
+          <target id="t100"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--eine totale Überprüfung-->
+        <span>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--notwendig ist-->
+        <span>
+          <target id="t95"/>
+          <target id="t96"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

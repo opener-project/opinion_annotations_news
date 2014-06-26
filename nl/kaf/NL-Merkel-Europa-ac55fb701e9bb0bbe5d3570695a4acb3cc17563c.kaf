@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:54Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:54Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:14:04CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w239" sent="13" para="2" offset="1516" length="3">Het</wf>
+    <wf wid="w240" sent="13" para="2" offset="1520" length="10">ministerie</wf>
+    <wf wid="w241" sent="13" para="2" offset="1531" length="3">van</wf>
+    <wf wid="w242" sent="13" para="2" offset="1535" length="9">Financiën</wf>
+    <wf wid="w243" sent="13" para="2" offset="1545" length="3">wil</wf>
+    <wf wid="w244" sent="13" para="2" offset="1549" length="4">niet</wf>
+    <wf wid="w245" sent="13" para="2" offset="1554" length="9">officieel</wf>
+    <wf wid="w246" sent="13" para="2" offset="1564" length="8">reageren</wf>
+    <wf wid="w247" sent="13" para="2" offset="1572" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Het-->
+    <term tid="t239" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--ministerie-->
+    <term tid="t240" type="open" lemma="ministerie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t241" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--Financiën-->
+    <term tid="t242" type="open" lemma="financiën" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t243" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t244" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--officieel-->
+    <term tid="t245" type="open" lemma="officieel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--reageren-->
+    <term tid="t246" type="open" lemma="reageren" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t247" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Het ministerie van Financiën-->
+        <span>
+          <target id="t239"/>
+          <target id="t240"/>
+          <target id="t241"/>
+          <target id="t242"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--officieel reageren-->
+        <span>
+          <target id="t245"/>
+          <target id="t246"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--wil niet-->
+        <span>
+          <target id="t243"/>
+          <target id="t244"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

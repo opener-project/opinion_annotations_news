@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T18:02:33Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T18:02:33Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:59:00CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T19:02:59CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w96" sent="6" para="4" offset="559" length="4">Mehr</wf>
+    <wf wid="w97" sent="6" para="4" offset="564" length="3">als</wf>
+    <wf wid="w98" sent="6" para="4" offset="568" length="4">1500</wf>
+    <wf wid="w99" sent="6" para="4" offset="573" length="10">Mitglieder</wf>
+    <wf wid="w100" sent="6" para="4" offset="584" length="3">der</wf>
+    <wf wid="w101" sent="6" para="4" offset="588" length="3">AfD</wf>
+    <wf wid="w102" sent="6" para="4" offset="592" length="4">sind</wf>
+    <wf wid="w103" sent="6" para="4" offset="597" length="3">zum</wf>
+    <wf wid="w104" sent="6" para="4" offset="601" length="18">Gründungsparteitag</wf>
+    <wf wid="w105" sent="6" para="4" offset="620" length="16">zusammengekommen</wf>
+    <wf wid="w106" sent="6" para="4" offset="636" length="1">.</wf>
+    <wf wid="w273" sent="18" para="8" offset="1575" length="9">Insgesamt</wf>
+    <wf wid="w274" sent="18" para="8" offset="1585" length="3">hat</wf>
+    <wf wid="w275" sent="18" para="8" offset="1589" length="3">die</wf>
+    <wf wid="w276" sent="18" para="8" offset="1593" length="3">AfD</wf>
+    <wf wid="w277" sent="18" para="8" offset="1597" length="7">derzeit</wf>
+    <wf wid="w278" sent="18" para="8" offset="1605" length="4">etwa</wf>
+    <wf wid="w279" sent="18" para="8" offset="1610" length="4">7500</wf>
+    <wf wid="w280" sent="18" para="8" offset="1615" length="10">Mitglieder</wf>
+    <wf wid="w281" sent="18" para="8" offset="1626" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="mehr" morphofeat="ADV" pos="A" tid="t96" type="open">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <term lemma="als" morphofeat="KOKOM" pos="C" tid="t97" type="close">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <term lemma="1500" morphofeat="CARD" pos="O" tid="t98" type="open">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <term lemma="Mitglied" morphofeat="NN" pos="N" tid="t99" type="open">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t100" type="close">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <term lemma="AfD" morphofeat="NN unknown_lemma" pos="O" tid="t101" type="open">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t102" type="open">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPRART" pos="P" tid="t103" type="close">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <term lemma="Gründungsparteitag" morphofeat="NN" pos="N" tid="t104" type="open">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <term lemma="zusammenkommen" morphofeat="VVPP" pos="V" tid="t105" type="open">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t106" type="open">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <term lemma="insgesamt" morphofeat="ADV" pos="A" tid="t273" type="open">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t274" type="open">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t275" type="close">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <term lemma="AfD" morphofeat="NN unknown_lemma" pos="O" tid="t276" type="open">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <term lemma="derzeit" morphofeat="ADV" pos="A" tid="t277" type="open">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <term lemma="etwa" morphofeat="ADV" pos="A" tid="t278" type="open">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t279" type="open">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <term lemma="Mitglied" morphofeat="NN" pos="N" tid="t280" type="open">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t281" type="open">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t273"/>
+          <target id="t274"/>
+          <target id="t275"/>
+          <target id="t276"/>
+          <target id="t277"/>
+          <target id="t278"/>
+          <target id="t279"/>
+          <target id="t280"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

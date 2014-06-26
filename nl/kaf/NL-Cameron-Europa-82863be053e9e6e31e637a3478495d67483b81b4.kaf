@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:37:33CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w64" sent="4" para="2" offset="383" length="3">Dat</wf>
+    <wf wid="w65" sent="4" para="2" offset="387" length="3">zei</wf>
+    <wf wid="w66" sent="4" para="2" offset="391" length="7">Cameron</wf>
+    <wf wid="w67" sent="4" para="2" offset="399" length="13">zondagochtend</wf>
+    <wf wid="w68" sent="4" para="2" offset="413" length="5">tegen</wf>
+    <wf wid="w69" sent="4" para="2" offset="419" length="2">de</wf>
+    <wf wid="w70" sent="4" para="2" offset="422" length="3">BBC</wf>
+    <wf wid="w71" sent="4" para="2" offset="425" length="1">.</wf>
+    <wf wid="w94" sent="6" para="2" offset="561" length="2">De</wf>
+    <wf wid="w95" sent="6" para="2" offset="564" length="7">huidige</wf>
+    <wf wid="w96" sent="6" para="2" offset="572" length="21">conservatief-liberale</wf>
+    <wf wid="w97" sent="6" para="2" offset="594" length="8">coalitie</wf>
+    <wf wid="w98" sent="6" para="2" offset="603" length="5">hinkt</wf>
+    <wf wid="w99" sent="6" para="2" offset="609" length="2">op</wf>
+    <wf wid="w100" sent="6" para="2" offset="612" length="4">twee</wf>
+    <wf wid="w101" sent="6" para="2" offset="617" length="9">gedachten</wf>
+    <wf wid="w102" sent="6" para="2" offset="627" length="4">over</wf>
+    <wf wid="w103" sent="6" para="2" offset="632" length="6">Europa</wf>
+    <wf wid="w104" sent="6" para="2" offset="638" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Dat-->
+    <term tid="t64" type="close" lemma="dat" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--zei-->
+    <term tid="t65" type="open" lemma="zeggen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t66" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--zondagochtend-->
+    <term tid="t67" type="open" lemma="zondagochtend" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--tegen-->
+    <term tid="t68" type="close" lemma="tegen" pos="P" morphofeat="prep">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t69" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--BBC-->
+    <term tid="t70" type="open" lemma="BBC" pos="N" morphofeat="nounabbr">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t71" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t94" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--huidige-->
+    <term tid="t95" type="open" lemma="huidig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--conservatief-liberale-->
+    <term tid="t96" type="open" lemma="conservatief-liberale" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--coalitie-->
+    <term tid="t97" type="open" lemma="coalitie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--hinkt-->
+    <term tid="t98" type="open" lemma="hinken" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w98"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--op-->
+    <term tid="t99" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--twee-->
+    <term tid="t100" type="open" lemma="twee" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--gedachten-->
+    <term tid="t101" type="open" lemma="gedachte" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t102" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t103" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t104" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--huidige conservatief-liberale coalitie-->
+        <span>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Europa-->
+        <span>
+          <target id="t103"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--hinkt op twee gedachten-->
+        <span>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t70"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:38Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:38Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:53:01" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:10:48CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="8" para="2" offset="884" length="3" wid="w156">She</wf>
+    <wf sent="8" para="2" offset="888" length="4" wid="w157">said</wf>
+    <wf sent="8" para="2" offset="893" length="7" wid="w158">Germany</wf>
+    <wf sent="8" para="2" offset="901" length="4" wid="w159">will</wf>
+    <wf sent="8" para="2" offset="906" length="4" wid="w160">tell</wf>
+    <wf sent="8" para="2" offset="911" length="8" wid="w161">Brussels</wf>
+    <wf sent="8" para="2" offset="920" length="4" wid="w162">that</wf>
+    <wf sent="8" para="2" offset="925" length="1" wid="w163">"</wf>
+    <wf sent="8" para="2" offset="926" length="7" wid="w164">Germany</wf>
+    <wf sent="8" para="2" offset="934" length="5" wid="w165">wants</wf>
+    <wf sent="8" para="2" offset="940" length="2" wid="w166">to</wf>
+    <wf sent="8" para="2" offset="943" length="6" wid="w167">remain</wf>
+    <wf sent="8" para="2" offset="950" length="1" wid="w168">a</wf>
+    <wf sent="8" para="2" offset="952" length="6" wid="w169">strong</wf>
+    <wf sent="8" para="2" offset="959" length="10" wid="w170">industrial</wf>
+    <wf sent="8" para="2" offset="970" length="8" wid="w171">location</wf>
+    <wf sent="8" para="2" offset="978" length="1" wid="w172">.</wf>
+  </text>
+  <terms>
+    <!--She-->
+    <term type="close" lemma="she" pos="Q" morphofeat="PRP" tid="t156">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t157">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--Germany-->
+    <term type="close" lemma="Germany" pos="R" morphofeat="NNP" tid="t158">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--will-->
+    <term type="close" lemma="will" pos="O" morphofeat="MD" tid="t159">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--tell-->
+    <term type="open" lemma="tell" pos="V" morphofeat="VB" tid="t160">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--Brussels-->
+    <term type="close" lemma="Brussels" pos="R" morphofeat="NNP" tid="t161">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="P" morphofeat="IN" tid="t162">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="close" lemma="&quot;" pos="R" morphofeat="NNP" tid="t163">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--Germany-->
+    <term type="close" lemma="Germany" pos="R" morphofeat="NNP" tid="t164">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--wants-->
+    <term type="open" lemma="want" pos="V" morphofeat="VBZ" tid="t165">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t166">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--remain-->
+    <term type="open" lemma="remain" pos="V" morphofeat="VB" tid="t167">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t168">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--strong-->
+    <term type="open" lemma="strong" pos="G" morphofeat="JJ" tid="t169">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--industrial-->
+    <term type="open" lemma="industrial" pos="G" morphofeat="JJ" tid="t170">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--location-->
+    <term type="open" lemma="location" pos="N" morphofeat="NN" tid="t171">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t172">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Germany-->
+        <span>
+          <target id="t164"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--remain a strong industrial location-->
+        <span>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wants-->
+        <span>
+          <target id="t165"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--industrial location-->
+        <span>
+          <target id="t170"/>
+          <target id="t171"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--strong-->
+        <span>
+          <target id="t169"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

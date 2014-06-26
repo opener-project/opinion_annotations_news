@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:45:01Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:45:01Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:45:01Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:18:55CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w222" sent="11" para="11" offset="1064" length="3">Les</wf>
+    <wf wid="w223" sent="11" para="11" offset="1068" length="11">socialistes</wf>
+    <wf wid="w224" sent="11" para="11" offset="1080" length="10">combattent</wf>
+    <wf wid="w225" sent="11" para="11" offset="1091" length="1">"</wf>
+    <wf wid="w226" sent="11" para="11" offset="1092" length="2">l'</wf>
+    <wf wid="w227" sent="11" para="11" offset="1094" length="6">Europe</wf>
+    <wf wid="w228" sent="11" para="11" offset="1101" length="2">de</wf>
+    <wf wid="w229" sent="11" para="11" offset="1104" length="6">droite</wf>
+    <wf wid="w230" sent="11" para="11" offset="1110" length="1">"</wf>
+  </text>
+  <terms>
+    <!--Les-->
+    <term tid="t222" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--socialistes-->
+    <term tid="t223" type="open" lemma="socialiste" pos="N" morphofeat="NCmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--combattent-->
+    <term tid="t224" type="open" lemma="combattre" pos="V" morphofeat="VP3p">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t225" type="close" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t226" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term tid="t227" type="open" lemma="Europe" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t228" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--droite-->
+    <term tid="t229" type="open" lemma="droite" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t230" type="close" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Les socialistes-->
+        <span>
+          <target id="t222"/>
+          <target id="t223"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--l' Europe de droite-->
+        <span>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+          <target id="t229"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--combattent-->
+        <span>
+          <target id="t224"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

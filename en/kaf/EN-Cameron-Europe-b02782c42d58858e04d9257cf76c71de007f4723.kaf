@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:44Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:44Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:23:38" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:54:36CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="21" para="2" offset="3341" length="5" wid="w635">Those</wf>
+    <wf sent="21" para="2" offset="3347" length="7" wid="w636">earning</wf>
+    <wf sent="21" para="2" offset="3355" length="4" wid="w637">more</wf>
+    <wf sent="21" para="2" offset="3360" length="4" wid="w638">than</wf>
+    <wf sent="21" para="2" offset="3365" length="1" wid="w639">€</wf>
+    <wf sent="21" para="2" offset="3366" length="8" wid="w640">1million</wf>
+    <wf sent="21" para="2" offset="3375" length="1" wid="w641">(</wf>
+    <wf sent="21" para="2" offset="3376" length="1" wid="w642">£</wf>
+    <wf sent="21" para="2" offset="3377" length="7" wid="w643">800,000</wf>
+    <wf sent="21" para="2" offset="3384" length="1" wid="w644">)</wf>
+    <wf sent="21" para="2" offset="3386" length="1" wid="w645">a</wf>
+    <wf sent="21" para="2" offset="3388" length="4" wid="w646">year</wf>
+    <wf sent="21" para="2" offset="3393" length="4" wid="w647">will</wf>
+    <wf sent="21" para="2" offset="3398" length="3" wid="w648">pay</wf>
+    <wf sent="21" para="2" offset="3402" length="2" wid="w649">75</wf>
+    <wf sent="21" para="2" offset="3405" length="3" wid="w650">per</wf>
+    <wf sent="21" para="2" offset="3409" length="4" wid="w651">cent</wf>
+    <wf sent="21" para="2" offset="3414" length="3" wid="w652">tax</wf>
+    <wf sent="21" para="2" offset="3417" length="1" wid="w653">.</wf>
+  </text>
+  <terms>
+    <!--Those-->
+    <term type="close" lemma="those" pos="D" morphofeat="DT" tid="t635">
+      <span>
+        <target id="w635"/>
+      </span>
+    </term>
+    <!--earning-->
+    <term type="open" lemma="earn" pos="V" morphofeat="VBG" tid="t636">
+      <span>
+        <target id="w636"/>
+      </span>
+    </term>
+    <!--more-->
+    <term type="open" lemma="more" pos="G" morphofeat="JJR" tid="t637">
+      <span>
+        <target id="w637"/>
+      </span>
+    </term>
+    <!--than-->
+    <term type="close" lemma="than" pos="P" morphofeat="IN" tid="t638">
+      <span>
+        <target id="w638"/>
+      </span>
+    </term>
+    <!--€-->
+    <term type="open" lemma="€" pos="G" morphofeat="JJ" tid="t639">
+      <span>
+        <target id="w639"/>
+      </span>
+    </term>
+    <!--1million-->
+    <term type="close" lemma="1million" pos="O" morphofeat="CD" tid="t640">
+      <span>
+        <target id="w640"/>
+      </span>
+    </term>
+    <!--(-->
+    <term type="close" lemma="(" pos="O" morphofeat="(" tid="t641">
+      <span>
+        <target id="w641"/>
+      </span>
+    </term>
+    <!--£-->
+    <term type="open" lemma="£" pos="N" morphofeat="NN" tid="t642">
+      <span>
+        <target id="w642"/>
+      </span>
+    </term>
+    <!--800,000-->
+    <term type="close" lemma="800,000" pos="O" morphofeat="CD" tid="t643">
+      <span>
+        <target id="w643"/>
+      </span>
+    </term>
+    <!--)-->
+    <term type="close" lemma=")" pos="O" morphofeat=")" tid="t644">
+      <span>
+        <target id="w644"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t645">
+      <span>
+        <target id="w645"/>
+      </span>
+    </term>
+    <!--year-->
+    <term type="open" lemma="year" pos="N" morphofeat="NN" tid="t646">
+      <span>
+        <target id="w646"/>
+      </span>
+    </term>
+    <!--will-->
+    <term type="close" lemma="will" pos="O" morphofeat="MD" tid="t647">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w647"/>
+      </span>
+    </term>
+    <!--pay-->
+    <term type="open" lemma="pay" pos="V" morphofeat="VB" tid="t648">
+      <span>
+        <target id="w648"/>
+      </span>
+    </term>
+    <!--75-->
+    <term type="close" lemma="75" pos="O" morphofeat="CD" tid="t649">
+      <span>
+        <target id="w649"/>
+      </span>
+    </term>
+    <!--per-->
+    <term type="close" lemma="per" pos="P" morphofeat="IN" tid="t650">
+      <span>
+        <target id="w650"/>
+      </span>
+    </term>
+    <!--cent-->
+    <term type="open" lemma="cent" pos="G" morphofeat="JJ" tid="t651">
+      <span>
+        <target id="w651"/>
+      </span>
+    </term>
+    <!--tax-->
+    <term type="open" lemma="tax" pos="N" morphofeat="NN" tid="t652">
+      <span>
+        <target id="w652"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t653">
+      <span>
+        <target id="w653"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t635"/>
+          <target id="t636"/>
+          <target id="t637"/>
+          <target id="t638"/>
+          <target id="t639"/>
+          <target id="t640"/>
+          <target id="t641"/>
+          <target id="t642"/>
+          <target id="t643"/>
+          <target id="t644"/>
+          <target id="t645"/>
+          <target id="t646"/>
+          <target id="t647"/>
+          <target id="t648"/>
+          <target id="t649"/>
+          <target id="t650"/>
+          <target id="t651"/>
+          <target id="t652"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

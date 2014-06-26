@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:15:51Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:15:51Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:52:04CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:16:06CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w138" sent="11" para="5" offset="857" length="5">Jetzt</wf>
+    <wf wid="w139" sent="11" para="5" offset="863" length="12">entschuldigt</wf>
+    <wf wid="w140" sent="11" para="5" offset="876" length="4">sich</wf>
+    <wf wid="w141" sent="11" para="5" offset="881" length="3">die</wf>
+    <wf wid="w142" sent="11" para="5" offset="885" length="13">amerikanische</wf>
+    <wf wid="w143" sent="11" para="5" offset="899" length="10">Diplomatin</wf>
+    <wf wid="w144" sent="11" para="5" offset="909" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="jetzt" morphofeat="ADV" pos="A" tid="t138" type="open">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <term lemma="entschuldigen" morphofeat="VVFIN" pos="V" tid="t139" type="open">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t140" type="close">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t141" type="close">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <term lemma="amerikanisch" morphofeat="ADJA" pos="G" tid="t142" type="open">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <term lemma="Diplomatin" morphofeat="NN" pos="N" tid="t143" type="open">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t144" type="open">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--die amerikanische Diplomatin-->
+        <span>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--entschuldigt sich-->
+        <span>
+          <target id="t139"/>
+          <target id="t140"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:45:35Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:45:35Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:45:36Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:15:47CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w178" sent="9" para="7" offset="985" length="6">Hasard</wf>
+    <wf wid="w179" sent="9" para="7" offset="992" length="2">ou</wf>
+    <wf wid="w180" sent="9" para="7" offset="995" length="3">pas</wf>
+    <wf wid="w181" sent="9" para="7" offset="998" length="1">,</wf>
+    <wf wid="w182" sent="9" para="7" offset="1000" length="2">le</wf>
+    <wf wid="w183" sent="9" para="7" offset="1003" length="4">site</wf>
+    <wf wid="w184" sent="9" para="7" offset="1008" length="8">internet</wf>
+    <wf wid="w185" sent="9" para="7" offset="1017" length="2">de</wf>
+    <wf wid="w186" sent="9" para="7" offset="1020" length="2">la</wf>
+    <wf wid="w187" sent="9" para="7" offset="1023" length="3">NSA</wf>
+    <wf wid="w188" sent="9" para="7" offset="1027" length="5">était</wf>
+    <wf wid="w189" sent="9" para="7" offset="1033" length="2">en</wf>
+    <wf wid="w190" sent="9" para="7" offset="1036" length="5">panne</wf>
+    <wf wid="w191" sent="9" para="7" offset="1042" length="8">vendredi</wf>
+    <wf wid="w192" sent="9" para="7" offset="1051" length="4">soir</wf>
+    <wf wid="w193" sent="9" para="7" offset="1056" length="2">25</wf>
+    <wf wid="w194" sent="9" para="7" offset="1059" length="7">octobre</wf>
+    <wf wid="w195" sent="9" para="7" offset="1066" length="1">,</wf>
+    <wf wid="w196" sent="9" para="7" offset="1068" length="2">et</wf>
+    <wf wid="w197" sent="9" para="7" offset="1071" length="2">l'</wf>
+    <wf wid="w198" sent="9" para="7" offset="1073" length="6">agence</wf>
+    <wf wid="w199" sent="9" para="7" offset="1080" length="2">de</wf>
+    <wf wid="w200" sent="9" para="7" offset="1083" length="13">renseignement</wf>
+    <wf wid="w201" sent="9" para="7" offset="1097" length="10">américaine</wf>
+    <wf wid="w202" sent="9" para="7" offset="1108" length="9">enquêtait</wf>
+    <wf wid="w203" sent="9" para="7" offset="1118" length="4">pour</wf>
+    <wf wid="w204" sent="9" para="7" offset="1123" length="2">en</wf>
+    <wf wid="w205" sent="9" para="7" offset="1126" length="7">trouver</wf>
+    <wf wid="w206" sent="9" para="7" offset="1134" length="2">la</wf>
+    <wf wid="w207" sent="9" para="7" offset="1137" length="6">raison</wf>
+    <wf wid="w208" sent="9" para="7" offset="1143" length="1">,</wf>
+    <wf wid="w209" sent="9" para="7" offset="1145" length="5">selon</wf>
+    <wf wid="w210" sent="9" para="7" offset="1151" length="3">une</wf>
+    <wf wid="w211" sent="9" para="7" offset="1155" length="5">porte</wf>
+    <wf wid="w212" sent="9" para="7" offset="1160" length="1">·</wf>
+    <wf wid="w213" sent="9" para="7" offset="1161" length="6">parole</wf>
+    <wf wid="w214" sent="9" para="7" offset="1167" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hasard-->
+    <term tid="t178" type="open" lemma="hasard" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--ou-->
+    <term tid="t179" type="close" lemma="ou" pos="C" morphofeat="CC">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--pas-->
+    <term tid="t180" type="open" lemma="pas" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative" sentiment_modifier="shifter"/>
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t181" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t182" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--site-->
+    <term tid="t183" type="open" lemma="site" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--internet-->
+    <term tid="t184" type="open" lemma="internet" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t185" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t186" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--NSA-->
+    <term tid="t187" type="open" lemma="NSA" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--était-->
+    <term tid="t188" type="open" lemma="être" pos="V" morphofeat="VI3s">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t189" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--panne-->
+    <term tid="t190" type="open" lemma="panne" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--vendredi-->
+    <term tid="t191" type="open" lemma="vendredi" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--soir-->
+    <term tid="t192" type="open" lemma="soir" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--25-->
+    <term tid="t193" type="open" lemma="25" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--octobre-->
+    <term tid="t194" type="open" lemma="octobre" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t195" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t196" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t197" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--agence-->
+    <term tid="t198" type="open" lemma="agence" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t199" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--renseignement-->
+    <term tid="t200" type="open" lemma="renseignement" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--américaine-->
+    <term tid="t201" type="open" lemma="américain" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--enquêtait-->
+    <term tid="t202" type="open" lemma="enquêter" pos="V" morphofeat="VI3s">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t203" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t204" type="close" lemma="en" pos="Q" morphofeat="CL3fs">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--trouver-->
+    <term tid="t205" type="open" lemma="trouver" pos="V" morphofeat="VW">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t206" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--raison-->
+    <term tid="t207" type="open" lemma="raison" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t208" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--selon-->
+    <term tid="t209" type="close" lemma="selon]" pos="P" morphofeat="P">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--une-->
+    <term tid="t210" type="close" lemma="un" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--porte-->
+    <term tid="t211" type="open" lemma="porte" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--·-->
+    <term tid="t212" type="close" lemma="·" pos="P" morphofeat="P">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--parole-->
+    <term tid="t213" type="open" lemma="parole" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t214" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

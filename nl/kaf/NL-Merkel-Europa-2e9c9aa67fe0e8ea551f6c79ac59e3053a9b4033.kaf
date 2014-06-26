@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:32:24CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w65" sent="5" para="2" offset="371" length="2">De</wf>
+    <wf wid="w66" sent="5" para="2" offset="374" length="6">Linkse</wf>
+    <wf wid="w67" sent="5" para="2" offset="381" length="6">Partij</wf>
+    <wf wid="w68" sent="5" para="2" offset="388" length="6">stemde</wf>
+    <wf wid="w69" sent="5" para="2" offset="395" length="5">tegen</wf>
+    <wf wid="w70" sent="5" para="2" offset="400" length="1">.</wf>
+    <wf wid="w146" sent="9" para="2" offset="873" length="5">Later</wf>
+    <wf wid="w147" sent="9" para="2" offset="879" length="2">in</wf>
+    <wf wid="w148" sent="9" para="2" offset="882" length="2">de</wf>
+    <wf wid="w149" sent="9" para="2" offset="885" length="5">nacht</wf>
+    <wf wid="w150" sent="9" para="2" offset="891" length="5">heeft</wf>
+    <wf wid="w151" sent="9" para="2" offset="897" length="3">ook</wf>
+    <wf wid="w152" sent="9" para="2" offset="901" length="2">de</wf>
+    <wf wid="w153" sent="9" para="2" offset="904" length="6">Duitse</wf>
+    <wf wid="w154" sent="9" para="2" offset="911" length="9">Bondsraad</wf>
+    <wf wid="w155" sent="9" para="2" offset="920" length="1">,</wf>
+    <wf wid="w156" sent="9" para="2" offset="922" length="2">de</wf>
+    <wf wid="w157" sent="9" para="2" offset="925" length="17">vertegenwoordiger</wf>
+    <wf wid="w158" sent="9" para="2" offset="943" length="3">van</wf>
+    <wf wid="w159" sent="9" para="2" offset="947" length="2">de</wf>
+    <wf wid="w160" sent="9" para="2" offset="950" length="7">zestien</wf>
+    <wf wid="w161" sent="9" para="2" offset="958" length="19">deelstaatregeringen</wf>
+    <wf wid="w162" sent="9" para="2" offset="977" length="1">,</wf>
+    <wf wid="w163" sent="9" para="2" offset="979" length="9">ingestemd</wf>
+    <wf wid="w164" sent="9" para="2" offset="989" length="3">met</wf>
+    <wf wid="w165" sent="9" para="2" offset="993" length="3">het</wf>
+    <wf wid="w166" sent="9" para="2" offset="997" length="6">nieuwe</wf>
+    <wf wid="w167" sent="9" para="2" offset="1004" length="14">begrotingspact</wf>
+    <wf wid="w168" sent="9" para="2" offset="1019" length="2">en</wf>
+    <wf wid="w169" sent="9" para="2" offset="1022" length="3">het</wf>
+    <wf wid="w170" sent="9" para="2" offset="1026" length="8">Europese</wf>
+    <wf wid="w171" sent="9" para="2" offset="1035" length="9">noodfonds</wf>
+    <wf wid="w172" sent="9" para="2" offset="1045" length="3">ESM</wf>
+    <wf wid="w173" sent="9" para="2" offset="1048" length="1">.</wf>
+    <wf wid="w208" sent="12" para="2" offset="1244" length="3">Het</wf>
+    <wf wid="w209" sent="12" para="2" offset="1248" length="3">ESM</wf>
+    <wf wid="w210" sent="12" para="2" offset="1252" length="6">krijgt</wf>
+    <wf wid="w211" sent="12" para="2" offset="1259" length="3">een</wf>
+    <wf wid="w212" sent="12" para="2" offset="1263" length="15">maatschappelijk</wf>
+    <wf wid="w213" sent="12" para="2" offset="1279" length="8">kapitaal</wf>
+    <wf wid="w214" sent="12" para="2" offset="1288" length="3">van</wf>
+    <wf wid="w215" sent="12" para="2" offset="1292" length="3">700</wf>
+    <wf wid="w216" sent="12" para="2" offset="1296" length="7">miljard</wf>
+    <wf wid="w217" sent="12" para="2" offset="1304" length="4">euro</wf>
+    <wf wid="w218" sent="12" para="2" offset="1308" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t65" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--Linkse-->
+    <term tid="t66" type="open" lemma="links" pos="G" morphofeat="adj">
+      <span>
+        <target id="w66"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Partij-->
+    <term tid="t67" type="open" lemma="partij" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--stemde-->
+    <term tid="t68" type="open" lemma="stemmen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--tegen-->
+    <term tid="t69" type="close" lemma="tegen" pos="P" morphofeat="prep">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t70" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--Later-->
+    <term tid="t146" type="open" lemma="laat|later" pos="G" morphofeat="adj">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t147" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t148" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--nacht-->
+    <term tid="t149" type="open" lemma="nacht" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--heeft-->
+    <term tid="t150" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--ook-->
+    <term tid="t151" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t152" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t153" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--Bondsraad-->
+    <term tid="t154" type="open" lemma="Bondsraad" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t155" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t156" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--vertegenwoordiger-->
+    <term tid="t157" type="open" lemma="vertegenwoordiger" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t158" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t159" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--zestien-->
+    <term tid="t160" type="open" lemma="zestien" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--deelstaatregeringen-->
+    <term tid="t161" type="open" lemma="deelstaatregeringen" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t162" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--ingestemd-->
+    <term tid="t163" type="open" lemma="instemmen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w163"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--met-->
+    <term tid="t164" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t165" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--nieuwe-->
+    <term tid="t166" type="open" lemma="nieuw" pos="G" morphofeat="adj">
+      <span>
+        <target id="w166"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--begrotingspact-->
+    <term tid="t167" type="open" lemma="begrotingspact" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t168" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t169" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t170" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--noodfonds-->
+    <term tid="t171" type="open" lemma="noodfonds" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--ESM-->
+    <term tid="t172" type="open" lemma="ESM" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t173" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--Het-->
+    <term tid="t208" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--ESM-->
+    <term tid="t209" type="open" lemma="ESM" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--krijgt-->
+    <term tid="t210" type="open" lemma="krijgen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t211" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--maatschappelijk-->
+    <term tid="t212" type="open" lemma="maatschappelijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--kapitaal-->
+    <term tid="t213" type="open" lemma="kapitaal" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w213"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--van-->
+    <term tid="t214" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--700-->
+    <term tid="t215" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--miljard-->
+    <term tid="t216" type="open" lemma="miljard" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t217" type="open" lemma="euro" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t218" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder>
+        <!--De Linkse Partij-->
+        <span>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--stemde tegen-->
+        <span>
+          <target id="t68"/>
+          <target id="t69"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--de Duitse Bondsraad-->
+        <span>
+          <target id="t152"/>
+          <target id="t153"/>
+          <target id="t154"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--het Europese noodfonds ESM-->
+        <span>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ingestemd-->
+        <span>
+          <target id="t163"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--de Duitse Bondsraad-->
+        <span>
+          <target id="t152"/>
+          <target id="t153"/>
+          <target id="t154"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--het nieuwe begrotingspact-->
+        <span>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ingestemd-->
+        <span>
+          <target id="t163"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:31:21Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:31:21Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:03:25CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:31:32CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w186" sent="13" para="6" offset="1234" length="10">Mindestens</wf>
+    <wf wid="w187" sent="13" para="6" offset="1245" length="3">165</wf>
+    <wf wid="w188" sent="13" para="6" offset="1249" length="8">Menschen</wf>
+    <wf wid="w189" sent="13" para="6" offset="1258" length="5">seien</wf>
+    <wf wid="w190" sent="13" para="6" offset="1264" length="5">dabei</wf>
+    <wf wid="w191" sent="13" para="6" offset="1270" length="8">verletzt</wf>
+    <wf wid="w192" sent="13" para="6" offset="1279" length="6">worden</wf>
+    <wf wid="w193" sent="13" para="6" offset="1285" length="1">,</wf>
+    <wf wid="w194" sent="13" para="6" offset="1287" length="7">teilten</wf>
+    <wf wid="w195" sent="13" para="6" offset="1295" length="3">die</wf>
+    <wf wid="w196" sent="13" para="6" offset="1299" length="12">ukrainischen</wf>
+    <wf wid="w197" sent="13" para="6" offset="1312" length="8">Behörden</wf>
+    <wf wid="w198" sent="13" para="6" offset="1321" length="3">mit</wf>
+    <wf wid="w199" sent="13" para="6" offset="1324" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="mindestens" morphofeat="ADV" pos="A" tid="t186" type="open">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t187" type="open">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <term lemma="Mensch" morphofeat="NN" pos="N" tid="t188" type="open">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t189" type="open">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <term lemma="dabei" morphofeat="PAV" pos="Q" tid="t190" type="close">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <term lemma="verletzen" morphofeat="VVPP" pos="V" tid="t191" type="open">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAPP" pos="V" tid="t192" type="open">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t193" type="open">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <term lemma="teilen" morphofeat="VVFIN" pos="V" tid="t194" type="open">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t195" type="close">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <term lemma="ukrainisch" morphofeat="ADJA" pos="G" tid="t196" type="open">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <term lemma="Behörde" morphofeat="NN" pos="N" tid="t197" type="open">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="PTKVZ" pos="V" tid="t198" type="open">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t199" type="open">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

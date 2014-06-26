@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:04:36Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:04:36Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:30:23" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:44:12CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="4" para="2" offset="436" length="1" wid="w82">“</wf>
+    <wf sent="4" para="2" offset="437" length="4" wid="w83">Time</wf>
+    <wf sent="4" para="2" offset="442" length="2" wid="w84">is</wf>
+    <wf sent="4" para="2" offset="445" length="7" wid="w85">running</wf>
+    <wf sent="4" para="2" offset="453" length="3" wid="w86">out</wf>
+    <wf sent="4" para="2" offset="456" length="1" wid="w87">,</wf>
+    <wf sent="4" para="2" offset="457" length="1" wid="w88">”</wf>
+    <wf sent="4" para="2" offset="459" length="4" wid="w89">said</wf>
+    <wf sent="4" para="2" offset="464" length="6" wid="w90">Baader</wf>
+    <wf sent="4" para="2" offset="471" length="4" wid="w91">Bank</wf>
+    <wf sent="4" para="2" offset="476" length="7" wid="w92">analyst</wf>
+    <wf sent="4" para="2" offset="484" length="6" wid="w93">Robert</wf>
+    <wf sent="4" para="2" offset="491" length="6" wid="w94">Halver</wf>
+    <wf sent="4" para="2" offset="497" length="1" wid="w95">.</wf>
+  </text>
+  <terms>
+    <!--“-->
+    <term type="open" lemma="“" pos="N" morphofeat="NN" tid="t82">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--Time-->
+    <term type="close" lemma="Time" pos="R" morphofeat="NNP" tid="t83">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t84">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--running-->
+    <term type="open" lemma="run" pos="V" morphofeat="VBG" tid="t85">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--out-->
+    <term type="open" lemma="out" pos="A" morphofeat="RB" tid="t86">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t87">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="N" morphofeat="NN" tid="t88">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t89">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--Baader-->
+    <term type="close" lemma="Baader" pos="R" morphofeat="NNP" tid="t90">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--Bank-->
+    <term type="close" lemma="Bank" pos="R" morphofeat="NNP" tid="t91">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--analyst-->
+    <term type="open" lemma="analyst" pos="N" morphofeat="NN" tid="t92">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--Robert-->
+    <term type="close" lemma="Robert" pos="R" morphofeat="NNP" tid="t93">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--Halver-->
+    <term type="close" lemma="Halver" pos="R" morphofeat="NNP" tid="t94">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t95">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Baader Bank analyst Robert Halver-->
+        <span>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Time-->
+        <span>
+          <target id="t83"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--said-->
+        <span>
+          <target id="t89"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Baader Bank analyst Robert Halver-->
+        <span>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Time-->
+        <span>
+          <target id="t83"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--running out-->
+        <span>
+          <target id="t85"/>
+          <target id="t86"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:38Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:38Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:16:53" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:55:38CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="17" para="2" offset="2399" length="3" wid="w437">The</wf>
+    <wf sent="17" para="2" offset="2403" length="11" wid="w438">explanation</wf>
+    <wf sent="17" para="2" offset="2415" length="3" wid="w439">was</wf>
+    <wf sent="17" para="2" offset="2419" length="6" wid="w440">backed</wf>
+    <wf sent="17" para="2" offset="2426" length="2" wid="w441">by</wf>
+    <wf sent="17" para="2" offset="2429" length="1" wid="w442">a</wf>
+    <wf sent="17" para="2" offset="2431" length="6" wid="w443">former</wf>
+    <wf sent="17" para="2" offset="2438" length="6" wid="w444">senior</wf>
+    <wf sent="17" para="2" offset="2445" length="14" wid="w445">administration</wf>
+    <wf sent="17" para="2" offset="2460" length="8" wid="w446">official</wf>
+    <wf sent="17" para="2" offset="2469" length="3" wid="w447">who</wf>
+    <wf sent="17" para="2" offset="2473" length="6" wid="w448">worked</wf>
+    <wf sent="17" para="2" offset="2480" length="2" wid="w449">on</wf>
+    <wf sent="17" para="2" offset="2483" length="8" wid="w450">national</wf>
+    <wf sent="17" para="2" offset="2492" length="8" wid="w451">security</wf>
+    <wf sent="17" para="2" offset="2501" length="3" wid="w452">for</wf>
+    <wf sent="17" para="2" offset="2505" length="3" wid="w453">the</wf>
+    <wf sent="17" para="2" offset="2509" length="5" wid="w454">Obama</wf>
+    <wf sent="17" para="2" offset="2515" length="5" wid="w455">White</wf>
+    <wf sent="17" para="2" offset="2521" length="5" wid="w456">House</wf>
+    <wf sent="17" para="2" offset="2526" length="1" wid="w457">.</wf>
+    <wf sent="23" para="2" offset="3028" length="1" wid="w558">A</wf>
+    <wf sent="23" para="2" offset="3030" length="6" wid="w559">report</wf>
+    <wf sent="23" para="2" offset="3037" length="2" wid="w560">on</wf>
+    <wf sent="23" para="2" offset="3040" length="4" wid="w561">that</wf>
+    <wf sent="23" para="2" offset="3045" length="6" wid="w562">effort</wf>
+    <wf sent="23" para="2" offset="3052" length="2" wid="w563">is</wf>
+    <wf sent="23" para="2" offset="3055" length="3" wid="w564">due</wf>
+    <wf sent="23" para="2" offset="3059" length="2" wid="w565">by</wf>
+    <wf sent="23" para="2" offset="3062" length="3" wid="w566">the</wf>
+    <wf sent="23" para="2" offset="3066" length="3" wid="w567">end</wf>
+    <wf sent="23" para="2" offset="3070" length="2" wid="w568">of</wf>
+    <wf sent="23" para="2" offset="3073" length="3" wid="w569">the</wf>
+    <wf sent="23" para="2" offset="3077" length="4" wid="w570">year</wf>
+    <wf sent="23" para="2" offset="3081" length="1" wid="w571">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t437">
+      <span>
+        <target id="w437"/>
+      </span>
+    </term>
+    <!--explanation-->
+    <term type="open" lemma="explanation" pos="N" morphofeat="NN" tid="t438">
+      <span>
+        <target id="w438"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t439">
+      <span>
+        <target id="w439"/>
+      </span>
+    </term>
+    <!--backed-->
+    <term type="open" lemma="back" pos="V" morphofeat="VBN" tid="t440">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w440"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t441">
+      <span>
+        <target id="w441"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t442">
+      <span>
+        <target id="w442"/>
+      </span>
+    </term>
+    <!--former-->
+    <term type="open" lemma="former" pos="G" morphofeat="JJ" tid="t443">
+      <span>
+        <target id="w443"/>
+      </span>
+    </term>
+    <!--senior-->
+    <term type="open" lemma="senior" pos="G" morphofeat="JJ" tid="t444">
+      <span>
+        <target id="w444"/>
+      </span>
+    </term>
+    <!--administration-->
+    <term type="open" lemma="administration" pos="N" morphofeat="NN" tid="t445">
+      <span>
+        <target id="w445"/>
+      </span>
+    </term>
+    <!--official-->
+    <term type="open" lemma="official" pos="N" morphofeat="NN" tid="t446">
+      <span>
+        <target id="w446"/>
+      </span>
+    </term>
+    <!--who-->
+    <term type="close" lemma="who" pos="Q" morphofeat="WP" tid="t447">
+      <span>
+        <target id="w447"/>
+      </span>
+    </term>
+    <!--worked-->
+    <term type="open" lemma="work" pos="V" morphofeat="VBD" tid="t448">
+      <span>
+        <target id="w448"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t449">
+      <span>
+        <target id="w449"/>
+      </span>
+    </term>
+    <!--national-->
+    <term type="open" lemma="national" pos="G" morphofeat="JJ" tid="t450">
+      <span>
+        <target id="w450"/>
+      </span>
+    </term>
+    <!--security-->
+    <term type="open" lemma="security" pos="N" morphofeat="NN" tid="t451">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w451"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t452">
+      <span>
+        <target id="w452"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t453">
+      <span>
+        <target id="w453"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term type="close" lemma="Obama" pos="R" morphofeat="NNP" tid="t454">
+      <span>
+        <target id="w454"/>
+      </span>
+    </term>
+    <!--White-->
+    <term type="close" lemma="White" pos="R" morphofeat="NNP" tid="t455">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w455"/>
+      </span>
+    </term>
+    <!--House-->
+    <term type="close" lemma="House" pos="R" morphofeat="NNP" tid="t456">
+      <span>
+        <target id="w456"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t457">
+      <span>
+        <target id="w457"/>
+      </span>
+    </term>
+    <!--A-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t558">
+      <span>
+        <target id="w558"/>
+      </span>
+    </term>
+    <!--report-->
+    <term type="open" lemma="report" pos="N" morphofeat="NN" tid="t559">
+      <span>
+        <target id="w559"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="open" lemma="on" pos="A" morphofeat="RB" tid="t560">
+      <span>
+        <target id="w560"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="D" morphofeat="DT" tid="t561">
+      <span>
+        <target id="w561"/>
+      </span>
+    </term>
+    <!--effort-->
+    <term type="open" lemma="effort" pos="N" morphofeat="NN" tid="t562">
+      <span>
+        <target id="w562"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t563">
+      <span>
+        <target id="w563"/>
+      </span>
+    </term>
+    <!--due-->
+    <term type="open" lemma="due" pos="G" morphofeat="JJ" tid="t564">
+      <span>
+        <target id="w564"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t565">
+      <span>
+        <target id="w565"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t566">
+      <span>
+        <target id="w566"/>
+      </span>
+    </term>
+    <!--end-->
+    <term type="open" lemma="end" pos="N" morphofeat="NN" tid="t567">
+      <span>
+        <target id="w567"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t568">
+      <span>
+        <target id="w568"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t569">
+      <span>
+        <target id="w569"/>
+      </span>
+    </term>
+    <!--year-->
+    <term type="open" lemma="year" pos="N" morphofeat="NN" tid="t570">
+      <span>
+        <target id="w570"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t571">
+      <span>
+        <target id="w571"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--a former senior administration official-->
+        <span>
+          <target id="t442"/>
+          <target id="t443"/>
+          <target id="t444"/>
+          <target id="t445"/>
+          <target id="t446"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--The explanation-->
+        <span>
+          <target id="t437"/>
+          <target id="t438"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--was backed-->
+        <span>
+          <target id="t439"/>
+          <target id="t440"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t558"/>
+          <target id="t559"/>
+          <target id="t560"/>
+          <target id="t561"/>
+          <target id="t562"/>
+          <target id="t563"/>
+          <target id="t564"/>
+          <target id="t565"/>
+          <target id="t566"/>
+          <target id="t567"/>
+          <target id="t568"/>
+          <target id="t569"/>
+          <target id="t570"/>
+          <target id="t571"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

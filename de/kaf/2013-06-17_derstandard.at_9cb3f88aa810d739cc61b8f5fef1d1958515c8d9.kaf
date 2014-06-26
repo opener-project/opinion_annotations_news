@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:52:14Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:52:14Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:11:28CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:52:38CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w8" sent="2" para="2" offset="65" length="6">Türkei</wf>
+    <wf wid="w9" sent="2" para="2" offset="72" length="5">droht</wf>
+    <wf wid="w10" sent="2" para="2" offset="78" length="3">mit</wf>
+    <wf wid="w11" sent="2" para="2" offset="82" length="7">Einsatz</wf>
+    <wf wid="w12" sent="2" para="2" offset="90" length="3">der</wf>
+    <wf wid="w13" sent="2" para="2" offset="94" length="5">Armee</wf>
+    <wf wid="w178" sent="14" para="7" offset="1112" length="4">Fünf</wf>
+    <wf wid="w179" sent="14" para="7" offset="1117" length="8">Menschen</wf>
+    <wf wid="w180" sent="14" para="7" offset="1126" length="5">kamen</wf>
+    <wf wid="w181" sent="14" para="7" offset="1132" length="6">bisher</wf>
+    <wf wid="w182" sent="14" para="7" offset="1139" length="3">ums</wf>
+    <wf wid="w183" sent="14" para="7" offset="1143" length="5">Leben</wf>
+    <wf wid="w184" sent="14" para="7" offset="1148" length="1">,</wf>
+    <wf wid="w185" sent="14" para="7" offset="1150" length="3">ein</wf>
+    <wf wid="w186" sent="14" para="7" offset="1154" length="2">16</wf>
+    <wf wid="w187" sent="14" para="7" offset="1156" length="1">·</wf>
+    <wf wid="w188" sent="14" para="7" offset="1157" length="8">Jähriger</wf>
+    <wf wid="w189" sent="14" para="7" offset="1166" length="5">liegt</wf>
+    <wf wid="w190" sent="14" para="7" offset="1172" length="2">im</wf>
+    <wf wid="w191" sent="14" para="7" offset="1175" length="4">Koma</wf>
+    <wf wid="w192" sent="14" para="7" offset="1179" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Türkei" morphofeat="NE" pos="R" tid="t8" type="open">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="drohen" morphofeat="VVFIN" pos="V" tid="t9" type="open">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t10" type="close">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="Einsatz" morphofeat="NN" pos="N" tid="t11" type="open">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t12" type="close">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="Armee" morphofeat="NN" pos="N" tid="t13" type="open">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="fünf" morphofeat="CARD" pos="O" tid="t178" type="open">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <term lemma="Mensch" morphofeat="NN" pos="N" tid="t179" type="open">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <term lemma="kommen" morphofeat="VVFIN" pos="V" tid="t180" type="open">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <term lemma="bisher" morphofeat="ADV" pos="A" tid="t181" type="open">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <term lemma="ums" morphofeat="APPRART" pos="P" tid="t182" type="close">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <term lemma="Leben" morphofeat="NN" pos="N" tid="t183" type="open">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t184" type="open">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t185" type="close">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <term lemma="16" morphofeat="CARD" pos="O" tid="t186" type="open">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t187" type="open">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <term lemma="Jähriger" morphofeat="ADJD unknown_lemma" pos="O" tid="t188" type="open">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <term lemma="liegen" morphofeat="VVFIN" pos="V" tid="t189" type="open">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t190" type="close">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <term lemma="Koma" morphofeat="NN" pos="N" tid="t191" type="open">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t192" type="open">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t11"/>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

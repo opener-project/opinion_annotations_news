@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:07:13Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:07:13Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:15:47CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:07:49CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w168" sent="11" para="7" offset="994" length="3">Der</wf>
+    <wf wid="w169" sent="11" para="7" offset="998" length="9">Präsident</wf>
+    <wf wid="w170" sent="11" para="7" offset="1008" length="5">wolle</wf>
+    <wf wid="w171" sent="11" para="7" offset="1014" length="3">die</wf>
+    <wf wid="w172" sent="11" para="7" offset="1018" length="10">taktischen</wf>
+    <wf wid="w173" sent="11" para="7" offset="1029" length="10">Atomwaffen</wf>
+    <wf wid="w174" sent="11" para="7" offset="1040" length="3">der</wf>
+    <wf wid="w175" sent="11" para="7" offset="1044" length="3">USA</wf>
+    <wf wid="w176" sent="11" para="7" offset="1048" length="3">und</wf>
+    <wf wid="w177" sent="11" para="7" offset="1052" length="9">Russlands</wf>
+    <wf wid="w178" sent="11" para="7" offset="1062" length="2">in</wf>
+    <wf wid="w179" sent="11" para="7" offset="1065" length="6">Europa</wf>
+    <wf wid="w180" sent="11" para="7" offset="1072" length="10">reduzieren</wf>
+    <wf wid="w181" sent="11" para="7" offset="1082" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t168" type="close">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <term lemma="Präsident" morphofeat="NN" pos="N" tid="t169" type="open">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t170" type="open">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t171" type="close">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <term lemma="taktisch" morphofeat="ADJA" pos="G" tid="t172" type="open">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <term lemma="Atomwaffe" morphofeat="NN" pos="N" tid="t173" type="open">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t174" type="close">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <term lemma="USA" morphofeat="NE" pos="R" tid="t175" type="open">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t176" type="close">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <term lemma="Rußlands" morphofeat="NE" pos="R" tid="t177" type="open">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t178" type="close">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <term lemma="Europa" morphofeat="NE" pos="R" tid="t179" type="open">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <term lemma="reduzieren" morphofeat="VVINF" pos="V" tid="t180" type="open">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t181" type="open">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Der Präsident-->
+        <span>
+          <target id="t168"/>
+          <target id="t169"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die taktischen Atomwaffen reduzieren-->
+        <span>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t180"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wolle-->
+        <span>
+          <target id="t170"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die taktischen Atomwaffen-->
+        <span>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--reduzieren-->
+        <span>
+          <target id="t180"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

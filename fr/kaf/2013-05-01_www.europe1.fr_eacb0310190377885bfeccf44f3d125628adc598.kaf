@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:47:26Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:47:26Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:47:27Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:15:39CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w209" sent="12" para="7" offset="1066" length="5">Enfin</wf>
+    <wf wid="w210" sent="12" para="7" offset="1071" length="1">,</wf>
+    <wf wid="w211" sent="12" para="7" offset="1073" length="2">le</wf>
+    <wf wid="w212" sent="12" para="7" offset="1076" length="2">PS</wf>
+    <wf wid="w213" sent="12" para="7" offset="1079" length="2">n'</wf>
+    <wf wid="w214" sent="12" para="7" offset="1081" length="7">appelle</wf>
+    <wf wid="w215" sent="12" para="7" offset="1089" length="4">plus</wf>
+    <wf wid="w216" sent="12" para="7" offset="1094" length="1">à</wf>
+    <wf wid="w217" sent="12" para="7" offset="1096" length="1">"</wf>
+    <wf wid="w218" sent="12" para="7" offset="1097" length="2">l’</wf>
+    <wf wid="w219" sent="12" para="7" offset="1099" length="12">affrontement</wf>
+    <wf wid="w220" sent="12" para="7" offset="1112" length="12">démocratique</wf>
+    <wf wid="w221" sent="12" para="7" offset="1124" length="1">"</wf>
+    <wf wid="w222" sent="12" para="7" offset="1126" length="4">avec</wf>
+    <wf wid="w223" sent="12" para="7" offset="1131" length="2">l’</wf>
+    <wf wid="w224" sent="12" para="7" offset="1133" length="9">Allemagne</wf>
+    <wf wid="w225" sent="12" para="7" offset="1142" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Enfin-->
+    <term tid="t209" type="open" lemma="Enfin" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t210" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t211" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--PS-->
+    <term tid="t212" type="open" lemma="PS" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--n'-->
+    <term tid="t213" type="open" lemma="n'" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--appelle-->
+    <term tid="t214" type="open" lemma="appeler" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--plus-->
+    <term tid="t215" type="open" lemma="plus" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t216" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t217" type="close" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t218" type="close" lemma="l’" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--affrontement-->
+    <term tid="t219" type="open" lemma="affrontement" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--démocratique-->
+    <term tid="t220" type="open" lemma="démocratique" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t221" type="close" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--avec-->
+    <term tid="t222" type="close" lemma="avec" pos="P" morphofeat="P">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t223" type="close" lemma="l’" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--Allemagne-->
+    <term tid="t224" type="open" lemma="Allemagne" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t225" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--le PS-->
+        <span>
+          <target id="t211"/>
+          <target id="t212"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--à " l’ affrontement démocratique " avec l’ Allemagne-->
+        <span>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--n' appelle-->
+        <span>
+          <target id="t213"/>
+          <target id="t214"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

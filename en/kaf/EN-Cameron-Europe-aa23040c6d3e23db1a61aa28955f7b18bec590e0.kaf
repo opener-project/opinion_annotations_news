@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:49Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:49Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:38:42" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:36:26CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="8" para="2" offset="1341" length="4" wid="w228">They</wf>
+    <wf sent="8" para="2" offset="1346" length="7" wid="w229">include</wf>
+    <wf sent="8" para="2" offset="1354" length="2" wid="w230">12</wf>
+    <wf sent="8" para="2" offset="1357" length="7" wid="w231">British</wf>
+    <wf sent="8" para="2" offset="1365" length="9" wid="w232">nationals</wf>
+    <wf sent="8" para="2" offset="1374" length="1" wid="w233">,</wf>
+    <wf sent="8" para="2" offset="1376" length="4" wid="w234">some</wf>
+    <wf sent="8" para="2" offset="1381" length="5" wid="w235">based</wf>
+    <wf sent="8" para="2" offset="1387" length="2" wid="w236">in</wf>
+    <wf sent="8" para="2" offset="1390" length="8" wid="w237">Portugal</wf>
+    <wf sent="8" para="2" offset="1399" length="3" wid="w238">and</wf>
+    <wf sent="8" para="2" offset="1403" length="4" wid="w239">some</wf>
+    <wf sent="8" para="2" offset="1408" length="2" wid="w240">in</wf>
+    <wf sent="8" para="2" offset="1411" length="3" wid="w241">the</wf>
+    <wf sent="8" para="2" offset="1415" length="2" wid="w242">UK</wf>
+    <wf sent="8" para="2" offset="1417" length="1" wid="w243">.</wf>
+  </text>
+  <terms>
+    <!--They-->
+    <term type="close" lemma="they" pos="Q" morphofeat="PRP" tid="t228">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--include-->
+    <term type="open" lemma="include" pos="V" morphofeat="VBP" tid="t229">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--12-->
+    <term type="close" lemma="12" pos="O" morphofeat="CD" tid="t230">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--British-->
+    <term type="open" lemma="british" pos="G" morphofeat="JJ" tid="t231">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--nationals-->
+    <term type="open" lemma="national" pos="N" morphofeat="NNS" tid="t232">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t233">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--some-->
+    <term type="close" lemma="some" pos="D" morphofeat="DT" tid="t234">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--based-->
+    <term type="open" lemma="base" pos="V" morphofeat="VBN" tid="t235">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t236">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--Portugal-->
+    <term type="close" lemma="Portugal" pos="R" morphofeat="NNP" tid="t237">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t238">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--some-->
+    <term type="close" lemma="some" pos="D" morphofeat="DT" tid="t239">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t240">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t241">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--UK-->
+    <term type="close" lemma="UK" pos="R" morphofeat="NNP" tid="t242">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t243">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t228"/>
+          <target id="t229"/>
+          <target id="t230"/>
+          <target id="t231"/>
+          <target id="t232"/>
+          <target id="t233"/>
+          <target id="t234"/>
+          <target id="t235"/>
+          <target id="t236"/>
+          <target id="t237"/>
+          <target id="t238"/>
+          <target id="t239"/>
+          <target id="t240"/>
+          <target id="t241"/>
+          <target id="t242"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

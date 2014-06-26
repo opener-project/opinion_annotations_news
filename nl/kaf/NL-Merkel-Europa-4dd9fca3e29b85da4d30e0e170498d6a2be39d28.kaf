@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:55Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:55Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:15:02CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w38" sent="4" para="2" offset="247" length="2">De</wf>
+    <wf wid="w39" sent="4" para="2" offset="250" length="6">linkse</wf>
+    <wf wid="w40" sent="4" para="2" offset="257" length="9">oppositie</wf>
+    <wf wid="w41" sent="4" para="2" offset="267" length="5">hoopt</wf>
+    <wf wid="w42" sent="4" para="2" offset="273" length="2">op</wf>
+    <wf wid="w43" sent="4" para="2" offset="276" length="3">een</wf>
+    <wf wid="w44" sent="4" para="2" offset="280" length="11">overwinning</wf>
+    <wf wid="w45" sent="4" para="2" offset="292" length="2">op</wf>
+    <wf wid="w46" sent="4" para="2" offset="295" length="2">de</wf>
+    <wf wid="w47" sent="4" para="2" offset="298" length="4">daar</wf>
+    <wf wid="w48" sent="4" para="2" offset="303" length="12">traditioneel</wf>
+    <wf wid="w49" sent="4" para="2" offset="316" length="9">regerende</wf>
+    <wf wid="w50" sent="4" para="2" offset="326" length="3">CDU</wf>
+    <wf wid="w51" sent="4" para="2" offset="330" length="2">en</wf>
+    <wf wid="w52" sent="4" para="2" offset="333" length="3">FDP</wf>
+    <wf wid="w53" sent="4" para="2" offset="336" length="1">.</wf>
+    <wf wid="w160" sent="9" para="2" offset="990" length="7">Merkels</wf>
+    <wf wid="w161" sent="9" para="2" offset="998" length="5">eigen</wf>
+    <wf wid="w162" sent="9" para="2" offset="1004" length="3">CDU</wf>
+    <wf wid="w163" sent="9" para="2" offset="1008" length="5">lijkt</wf>
+    <wf wid="w164" sent="9" para="2" offset="1014" length="7">stabiel</wf>
+    <wf wid="w165" sent="9" para="2" offset="1022" length="2">in</wf>
+    <wf wid="w166" sent="9" para="2" offset="1025" length="2">de</wf>
+    <wf wid="w167" sent="9" para="2" offset="1028" length="9">peilingen</wf>
+    <wf wid="w168" sent="9" para="2" offset="1037" length="1">,</wf>
+    <wf wid="w169" sent="9" para="2" offset="1039" length="4">maar</wf>
+    <wf wid="w170" sent="9" para="2" offset="1044" length="2">de</wf>
+    <wf wid="w171" sent="9" para="2" offset="1047" length="3">FDP</wf>
+    <wf wid="w172" sent="9" para="2" offset="1051" length="5">heeft</wf>
+    <wf wid="w173" sent="9" para="2" offset="1057" length="2">in</wf>
+    <wf wid="w174" sent="9" para="2" offset="1060" length="2">de</wf>
+    <wf wid="w175" sent="9" para="2" offset="1063" length="9">afgelopen</wf>
+    <wf wid="w176" sent="9" para="2" offset="1073" length="13">regeerperiode</wf>
+    <wf wid="w177" sent="9" para="2" offset="1087" length="4">veel</wf>
+    <wf wid="w178" sent="9" para="2" offset="1092" length="5">steun</wf>
+    <wf wid="w179" sent="9" para="2" offset="1098" length="8">verloren</wf>
+    <wf wid="w180" sent="9" para="2" offset="1106" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t38" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--linkse-->
+    <term tid="t39" type="open" lemma="links" pos="G" morphofeat="adj">
+      <span>
+        <target id="w39"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--oppositie-->
+    <term tid="t40" type="open" lemma="oppositie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w40"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--hoopt-->
+    <term tid="t41" type="open" lemma="hopen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w41"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--op-->
+    <term tid="t42" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t43" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--overwinning-->
+    <term tid="t44" type="open" lemma="overwinning" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w44"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--op-->
+    <term tid="t45" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t46" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--daar-->
+    <term tid="t47" type="open" lemma="daar" pos="A" morphofeat="adv">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--traditioneel-->
+    <term tid="t48" type="open" lemma="traditioneel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--regerende-->
+    <term tid="t49" type="open" lemma="regerende" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--CDU-->
+    <term tid="t50" type="open" lemma="CDU" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t51" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--FDP-->
+    <term tid="t52" type="open" lemma="FDP" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t53" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--Merkels-->
+    <term tid="t160" type="open" lemma="Merkels" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--eigen-->
+    <term tid="t161" type="open" lemma="eigen" pos="G" morphofeat="adj">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--CDU-->
+    <term tid="t162" type="open" lemma="CDU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--lijkt-->
+    <term tid="t163" type="open" lemma="lijken" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--stabiel-->
+    <term tid="t164" type="open" lemma="stabiel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w164"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--in-->
+    <term tid="t165" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t166" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--peilingen-->
+    <term tid="t167" type="open" lemma="peiling" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t168" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--maar-->
+    <term tid="t169" type="close" lemma="maar" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w169"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--de-->
+    <term tid="t170" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--FDP-->
+    <term tid="t171" type="open" lemma="FDP" pos="N" morphofeat="nounabbr">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--heeft-->
+    <term tid="t172" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t173" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t174" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--afgelopen-->
+    <term tid="t175" type="open" lemma="aflopen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--regeerperiode-->
+    <term tid="t176" type="open" lemma="regeerperiode" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--veel-->
+    <term tid="t177" type="open" lemma="veel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--steun-->
+    <term tid="t178" type="open" lemma="steun" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w178"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--verloren-->
+    <term tid="t179" type="open" lemma="verliezen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w179"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t180" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--De linkse oppositie-->
+        <span>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--een overwinning-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--hoopt op-->
+        <span>
+          <target id="t41"/>
+          <target id="t42"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--de FDP-->
+        <span>
+          <target id="t170"/>
+          <target id="t171"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--heeft veel steun verloren-->
+        <span>
+          <target id="t172"/>
+          <target id="t177"/>
+          <target id="t178"/>
+          <target id="t179"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Merkels eigen CDU-->
+        <span>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--lijkt stabiel-->
+        <span>
+          <target id="t163"/>
+          <target id="t164"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

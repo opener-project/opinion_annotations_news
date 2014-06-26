@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:49:53" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:43:21CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="32" para="2" offset="4819" length="3" wid="w880">The</wf>
+    <wf sent="32" para="2" offset="4823" length="5" wid="w881">upper</wf>
+    <wf sent="32" para="2" offset="4829" length="3" wid="w882">and</wf>
+    <wf sent="32" para="2" offset="4833" length="5" wid="w883">lower</wf>
+    <wf sent="32" para="2" offset="4839" length="6" wid="w884">houses</wf>
+    <wf sent="32" para="2" offset="4846" length="4" wid="w885">have</wf>
+    <wf sent="32" para="2" offset="4851" length="5" wid="w886">equal</wf>
+    <wf sent="32" para="2" offset="4857" length="10" wid="w887">law-making</wf>
+    <wf sent="32" para="2" offset="4868" length="5" wid="w888">power</wf>
+    <wf sent="32" para="2" offset="4873" length="1" wid="w889">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t880">
+      <span>
+        <target id="w880"/>
+      </span>
+    </term>
+    <!--upper-->
+    <term type="open" lemma="upper" pos="G" morphofeat="JJ" tid="t881">
+      <span>
+        <target id="w881"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t882">
+      <span>
+        <target id="w882"/>
+      </span>
+    </term>
+    <!--lower-->
+    <term type="open" lemma="lower" pos="G" morphofeat="JJR" tid="t883">
+      <span>
+        <target id="w883"/>
+      </span>
+    </term>
+    <!--houses-->
+    <term type="open" lemma="house" pos="N" morphofeat="NNS" tid="t884">
+      <span>
+        <target id="w884"/>
+      </span>
+    </term>
+    <!--have-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBP" tid="t885">
+      <span>
+        <target id="w885"/>
+      </span>
+    </term>
+    <!--equal-->
+    <term type="open" lemma="equal" pos="G" morphofeat="JJ" tid="t886">
+      <span>
+        <target id="w886"/>
+      </span>
+    </term>
+    <!--law-making-->
+    <term type="open" lemma="law-making" pos="N" morphofeat="NN" tid="t887">
+      <span>
+        <target id="w887"/>
+      </span>
+    </term>
+    <!--power-->
+    <term type="open" lemma="power" pos="N" morphofeat="NN" tid="t888">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w888"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t889">
+      <span>
+        <target id="w889"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t880"/>
+          <target id="t881"/>
+          <target id="t882"/>
+          <target id="t883"/>
+          <target id="t884"/>
+          <target id="t885"/>
+          <target id="t886"/>
+          <target id="t887"/>
+          <target id="t888"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:08:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:08:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:37:00" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:50:30CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="6" para="2" offset="776" length="6" wid="w140">France</wf>
+    <wf sent="6" para="2" offset="783" length="3" wid="w141">and</wf>
+    <wf sent="6" para="2" offset="787" length="7" wid="w142">Britain</wf>
+    <wf sent="6" para="2" offset="795" length="7" wid="w143">account</wf>
+    <wf sent="6" para="2" offset="803" length="3" wid="w144">for</wf>
+    <wf sent="6" para="2" offset="807" length="6" wid="w145">nearly</wf>
+    <wf sent="6" para="2" offset="814" length="4" wid="w146">half</wf>
+    <wf sent="6" para="2" offset="819" length="2" wid="w147">of</wf>
+    <wf sent="6" para="2" offset="822" length="6" wid="w148">Europe</wf>
+    <wf sent="6" para="2" offset="828" length="2" wid="w149">'s</wf>
+    <wf sent="6" para="2" offset="831" length="7" wid="w150">defence</wf>
+    <wf sent="6" para="2" offset="839" length="8" wid="w151">spending</wf>
+    <wf sent="6" para="2" offset="847" length="1" wid="w152">,</wf>
+    <wf sent="6" para="2" offset="849" length="6" wid="w153">Friday</wf>
+    <wf sent="6" para="2" offset="855" length="2" wid="w154">'s</wf>
+    <wf sent="6" para="2" offset="858" length="5" wid="w155">joint</wf>
+    <wf sent="6" para="2" offset="864" length="11" wid="w156">declaration</wf>
+    <wf sent="6" para="2" offset="876" length="2" wid="w157">on</wf>
+    <wf sent="6" para="2" offset="879" length="8" wid="w158">security</wf>
+    <wf sent="6" para="2" offset="888" length="3" wid="w159">and</wf>
+    <wf sent="6" para="2" offset="892" length="7" wid="w160">defence</wf>
+    <wf sent="6" para="2" offset="900" length="7" wid="w161">proudly</wf>
+    <wf sent="6" para="2" offset="908" length="6" wid="w162">points</wf>
+    <wf sent="6" para="2" offset="915" length="3" wid="w163">out</wf>
+    <wf sent="6" para="2" offset="918" length="1" wid="w164">.</wf>
+  </text>
+  <terms>
+    <!--France-->
+    <term type="close" lemma="France" pos="R" morphofeat="NNP" tid="t140">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t141">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--Britain-->
+    <term type="close" lemma="Britain" pos="R" morphofeat="NNP" tid="t142">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--account-->
+    <term type="open" lemma="account" pos="V" morphofeat="VBP" tid="t143">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t144">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--nearly-->
+    <term type="open" lemma="nearly" pos="A" morphofeat="RB" tid="t145">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--half-->
+    <term type="close" lemma="half" pos="D" morphofeat="DT" tid="t146">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t147">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term type="close" lemma="Europe" pos="R" morphofeat="NNP" tid="t148">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t149">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--defence-->
+    <term type="open" lemma="defense" pos="N" morphofeat="NN" tid="t150">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--spending-->
+    <term type="open" lemma="spending" pos="N" morphofeat="NN" tid="t151">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t152">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--Friday-->
+    <term type="close" lemma="Friday" pos="R" morphofeat="NNP" tid="t153">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t154">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--joint-->
+    <term type="open" lemma="joint" pos="G" morphofeat="JJ" tid="t155">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--declaration-->
+    <term type="open" lemma="declaration" pos="N" morphofeat="NN" tid="t156">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t157">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--security-->
+    <term type="open" lemma="security" pos="N" morphofeat="NN" tid="t158">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t159">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--defence-->
+    <term type="open" lemma="defense" pos="N" morphofeat="NN" tid="t160">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--proudly-->
+    <term type="open" lemma="proudly" pos="A" morphofeat="RB" tid="t161">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--points-->
+    <term type="open" lemma="point" pos="V" morphofeat="VBZ" tid="t162">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--out-->
+    <term type="open" lemma="out" pos="A" morphofeat="RB" tid="t163">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t164">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+          <target id="t153"/>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+          <target id="t157"/>
+          <target id="t158"/>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

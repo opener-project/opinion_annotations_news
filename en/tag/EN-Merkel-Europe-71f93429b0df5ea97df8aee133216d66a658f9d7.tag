@@ -1,0 +1,9 @@
+w119	Commerce	Commerce	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	118	true	5
+w120	Minister	Minister	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	119	true	5
+w121	Anand	Anand	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	120	true	5
+w122	Sharma	Sharma	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	121	true	5
+w123	reached	reach	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	122	true	5
+w124	here	here	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	123	true	5
+w125	yesterday	yesterday	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	124	true	5
+w126	from	from	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	125	true	5
+w127	Geneva	Geneva	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	126	true	5

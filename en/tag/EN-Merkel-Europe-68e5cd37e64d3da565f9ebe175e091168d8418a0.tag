@@ -1,0 +1,10 @@
+w1	World	world	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	0	true	1
+w2	leaders	leader	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	1	true	1
+w3	head	head	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	2	true	1
+w4	to	to	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	3	true	1
+w5	Rome	Rome	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	4	true	1
+w6	for	for	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	5	true	1
+w7	pope	pope	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	6	true	1
+w8	's	's	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	7	true	1
+w9	inaugural	inaugural	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	8	true	1
+w10	mass	mass	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	9	true	1

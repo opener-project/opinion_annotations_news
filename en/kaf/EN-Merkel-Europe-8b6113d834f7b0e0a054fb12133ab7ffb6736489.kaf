@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:32Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:32Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:34:55" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:16:07CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="23" para="2" offset="2729" length="3" wid="w518">The</wf>
+    <wf sent="23" para="2" offset="2733" length="4" wid="w519">exit</wf>
+    <wf sent="23" para="2" offset="2738" length="2" wid="w520">of</wf>
+    <wf sent="23" para="2" offset="2741" length="6" wid="w521">Greece</wf>
+    <wf sent="23" para="2" offset="2748" length="3" wid="w522">out</wf>
+    <wf sent="23" para="2" offset="2752" length="2" wid="w523">of</wf>
+    <wf sent="23" para="2" offset="2755" length="3" wid="w524">the</wf>
+    <wf sent="23" para="2" offset="2759" length="4" wid="w525">euro</wf>
+    <wf sent="23" para="2" offset="2764" length="3" wid="w526">was</wf>
+    <wf sent="23" para="2" offset="2768" length="3" wid="w527">not</wf>
+    <wf sent="23" para="2" offset="2772" length="3" wid="w528">the</wf>
+    <wf sent="23" para="2" offset="2776" length="7" wid="w529">subject</wf>
+    <wf sent="23" para="2" offset="2784" length="2" wid="w530">of</wf>
+    <wf sent="23" para="2" offset="2787" length="3" wid="w531">our</wf>
+    <wf sent="23" para="2" offset="2791" length="6" wid="w532">debate</wf>
+    <wf sent="23" para="2" offset="2798" length="5" wid="w533">today</wf>
+    <wf sent="23" para="2" offset="2803" length="1" wid="w534">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t518">
+      <span>
+        <target id="w518"/>
+      </span>
+    </term>
+    <!--exit-->
+    <term type="open" lemma="exit" pos="N" morphofeat="NN" tid="t519">
+      <span>
+        <target id="w519"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t520">
+      <span>
+        <target id="w520"/>
+      </span>
+    </term>
+    <!--Greece-->
+    <term type="close" lemma="Greece" pos="R" morphofeat="NNP" tid="t521">
+      <span>
+        <target id="w521"/>
+      </span>
+    </term>
+    <!--out-->
+    <term type="close" lemma="out" pos="P" morphofeat="IN" tid="t522">
+      <span>
+        <target id="w522"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t523">
+      <span>
+        <target id="w523"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t524">
+      <span>
+        <target id="w524"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term type="open" lemma="euro" pos="N" morphofeat="NN" tid="t525">
+      <span>
+        <target id="w525"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t526">
+      <span>
+        <target id="w526"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t527">
+      <span>
+        <target id="w527"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t528">
+      <span>
+        <target id="w528"/>
+      </span>
+    </term>
+    <!--subject-->
+    <term type="open" lemma="subject" pos="N" morphofeat="NN" tid="t529">
+      <span>
+        <target id="w529"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t530">
+      <span>
+        <target id="w530"/>
+      </span>
+    </term>
+    <!--our-->
+    <term type="close" lemma="our" pos="Q" morphofeat="PRP$" tid="t531">
+      <span>
+        <target id="w531"/>
+      </span>
+    </term>
+    <!--debate-->
+    <term type="open" lemma="debate" pos="N" morphofeat="NN" tid="t532">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w532"/>
+      </span>
+    </term>
+    <!--today-->
+    <term type="open" lemma="today" pos="N" morphofeat="NN" tid="t533">
+      <span>
+        <target id="w533"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t534">
+      <span>
+        <target id="w534"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t518"/>
+          <target id="t519"/>
+          <target id="t520"/>
+          <target id="t521"/>
+          <target id="t522"/>
+          <target id="t523"/>
+          <target id="t524"/>
+          <target id="t525"/>
+          <target id="t526"/>
+          <target id="t527"/>
+          <target id="t528"/>
+          <target id="t529"/>
+          <target id="t530"/>
+          <target id="t531"/>
+          <target id="t532"/>
+          <target id="t533"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

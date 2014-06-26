@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:26Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:26Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:53:46" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:54:35CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:22CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="6" para="2" offset="1026" length="2" wid="w200">In</wf>
+    <wf sent="6" para="2" offset="1029" length="8" wid="w201">comments</wf>
+    <wf sent="6" para="2" offset="1038" length="5" wid="w202">aimed</wf>
+    <wf sent="6" para="2" offset="1044" length="2" wid="w203">at</wf>
+    <wf sent="6" para="2" offset="1047" length="5" wid="w204">David</wf>
+    <wf sent="6" para="2" offset="1053" length="7" wid="w205">Cameron</wf>
+    <wf sent="6" para="2" offset="1061" length="3" wid="w206">and</wf>
+    <wf sent="6" para="2" offset="1065" length="3" wid="w207">the</wf>
+    <wf sent="6" para="2" offset="1069" length="6" wid="w208">Tories</wf>
+    <wf sent="6" para="2" offset="1075" length="1" wid="w209">,</wf>
+    <wf sent="6" para="2" offset="1077" length="2" wid="w210">he</wf>
+    <wf sent="6" para="2" offset="1080" length="6" wid="w211">warned</wf>
+    <wf sent="6" para="2" offset="1087" length="4" wid="w212">that</wf>
+    <wf sent="6" para="2" offset="1092" length="11" wid="w213">speculation</wf>
+    <wf sent="6" para="2" offset="1104" length="5" wid="w214">about</wf>
+    <wf sent="6" para="2" offset="1110" length="7" wid="w215">leaving</wf>
+    <wf sent="6" para="2" offset="1118" length="3" wid="w216">the</wf>
+    <wf sent="6" para="2" offset="1122" length="2" wid="w217">EU</wf>
+    <wf sent="6" para="2" offset="1125" length="3" wid="w218">was</wf>
+    <wf sent="6" para="2" offset="1129" length="1" wid="w219">“</wf>
+    <wf sent="6" para="2" offset="1130" length="9" wid="w220">dangerous</wf>
+    <wf sent="6" para="2" offset="1140" length="3" wid="w221">and</wf>
+    <wf sent="6" para="2" offset="1144" length="9" wid="w222">immensely</wf>
+    <wf sent="6" para="2" offset="1154" length="8" wid="w223">damaging</wf>
+    <wf sent="6" para="2" offset="1163" length="2" wid="w224">to</wf>
+    <wf sent="6" para="2" offset="1166" length="7" wid="w225">Britain</wf>
+    <wf sent="6" para="2" offset="1173" length="2" wid="w226">’s</wf>
+    <wf sent="6" para="2" offset="1176" length="9" wid="w227">long-term</wf>
+    <wf sent="6" para="2" offset="1186" length="9" wid="w228">interests</wf>
+    <wf sent="6" para="2" offset="1195" length="1" wid="w229">”</wf>
+    <wf sent="6" para="2" offset="1196" length="1" wid="w230">.</wf>
+  </text>
+  <terms>
+    <!--In-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t200">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--comments-->
+    <term type="open" lemma="comment" pos="N" morphofeat="NNS" tid="t201">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--aimed-->
+    <term type="open" lemma="aim" pos="V" morphofeat="VBN" tid="t202">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--at-->
+    <term type="close" lemma="at" pos="P" morphofeat="IN" tid="t203">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--David-->
+    <term type="close" lemma="David" pos="R" morphofeat="NNP" tid="t204">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t205">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t206">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t207">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--Tories-->
+    <term type="close" lemma="Tories" pos="R" morphofeat="NNPS" tid="t208">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t209">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t210">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--warned-->
+    <term type="open" lemma="warn" pos="V" morphofeat="VBD" tid="t211">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="P" morphofeat="IN" tid="t212">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--speculation-->
+    <term type="open" lemma="speculation" pos="N" morphofeat="NN" tid="t213">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--about-->
+    <term type="close" lemma="about" pos="P" morphofeat="IN" tid="t214">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--leaving-->
+    <term type="open" lemma="leave" pos="V" morphofeat="VBG" tid="t215">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t216">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term type="close" lemma="EU" pos="R" morphofeat="NNP" tid="t217">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t218">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--“-->
+    <term type="open" lemma="“" pos="G" morphofeat="JJ" tid="t219">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--dangerous-->
+    <term type="open" lemma="dangerous" pos="G" morphofeat="JJ" tid="t220">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t221">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--immensely-->
+    <term type="open" lemma="immensely" pos="A" morphofeat="RB" tid="t222">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--damaging-->
+    <term type="open" lemma="damage" pos="V" morphofeat="VBG" tid="t223">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t224">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--Britain-->
+    <term type="close" lemma="Britain" pos="R" morphofeat="NNP" tid="t225">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--’s-->
+    <term type="open" lemma="’s" pos="N" morphofeat="NNS" tid="t226">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--long-term-->
+    <term type="open" lemma="long-term" pos="G" morphofeat="JJ" tid="t227">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--interests-->
+    <term type="open" lemma="interest" pos="N" morphofeat="NNS" tid="t228">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="V" morphofeat="VBP" tid="t229">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t230">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--the EU-->
+        <span>
+          <target id="t216"/>
+          <target id="t217"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--leaving-->
+        <span>
+          <target id="t215"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Britain ’s long-term interests-->
+        <span>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--immensely damaging-->
+        <span>
+          <target id="t222"/>
+          <target id="t223"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

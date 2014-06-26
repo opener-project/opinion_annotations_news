@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:45:00CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w92" sent="6" para="2" offset="549" length="6">Parijs</wf>
+    <wf wid="w93" sent="6" para="2" offset="556" length="2">is</wf>
+    <wf wid="w94" sent="6" para="2" offset="559" length="3">nog</wf>
+    <wf wid="w95" sent="6" para="2" offset="563" length="4">niet</wf>
+    <wf wid="w96" sent="6" para="2" offset="568" length="8">helemaal</wf>
+    <wf wid="w97" sent="6" para="2" offset="577" length="8">tevreden</wf>
+    <wf wid="w98" sent="6" para="2" offset="585" length="1">.</wf>
+    <wf wid="w211" sent="12" para="2" offset="1224" length="3">Die</wf>
+    <wf wid="w212" sent="12" para="2" offset="1228" length="9">verlaging</wf>
+    <wf wid="w213" sent="12" para="2" offset="1238" length="2">is</wf>
+    <wf wid="w214" sent="12" para="2" offset="1241" length="3">een</wf>
+    <wf wid="w215" sent="12" para="2" offset="1245" length="11">handreiking</wf>
+    <wf wid="w216" sent="12" para="2" offset="1257" length="3">aan</wf>
+    <wf wid="w217" sent="12" para="2" offset="1261" length="2">de</wf>
+    <wf wid="w218" sent="12" para="2" offset="1264" length="8">Europese</wf>
+    <wf wid="w219" sent="12" para="2" offset="1273" length="9">Commissie</wf>
+    <wf wid="w220" sent="12" para="2" offset="1283" length="3">die</wf>
+    <wf wid="w221" sent="12" para="2" offset="1287" length="2">10</wf>
+    <wf wid="w222" sent="12" para="2" offset="1290" length="7">procent</wf>
+    <wf wid="w223" sent="12" para="2" offset="1298" length="11">compensatie</wf>
+    <wf wid="w224" sent="12" para="2" offset="1310" length="9">voldoende</wf>
+    <wf wid="w225" sent="12" para="2" offset="1320" length="5">vindt</wf>
+    <wf wid="w226" sent="12" para="2" offset="1325" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Parijs-->
+    <term tid="t92" type="open" lemma="Parijs" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t93" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--nog-->
+    <term tid="t94" type="open" lemma="nog" pos="A" morphofeat="adv">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t95" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--helemaal-->
+    <term tid="t96" type="open" lemma="helemaal" pos="A" morphofeat="adv">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--tevreden-->
+    <term tid="t97" type="open" lemma="tevreden" pos="G" morphofeat="adj">
+      <span>
+        <target id="w97"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t98" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--Die-->
+    <term tid="t211" type="close" lemma="die" pos="D" morphofeat="det__demo">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--verlaging-->
+    <term tid="t212" type="open" lemma="verlaging" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t213" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t214" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--handreiking-->
+    <term tid="t215" type="open" lemma="handreiking" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t216" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t217" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t218" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--Commissie-->
+    <term tid="t219" type="open" lemma="commissie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w219"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--die-->
+    <term tid="t220" type="close" lemma="die" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--10-->
+    <term tid="t221" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--procent-->
+    <term tid="t222" type="open" lemma="procent" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--compensatie-->
+    <term tid="t223" type="open" lemma="compensatie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--voldoende-->
+    <term tid="t224" type="open" lemma="voldoende" pos="G" morphofeat="adj">
+      <span>
+        <target id="w224"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--vindt-->
+    <term tid="t225" type="open" lemma="vinden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t226" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Parijs-->
+        <span>
+          <target id="t92"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--is niet helemaal tevreden-->
+        <span>
+          <target id="t93"/>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--de Europese Commissie-->
+        <span>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--10 procent compensatie-->
+        <span>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--voldoende-->
+        <span>
+          <target id="t224"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

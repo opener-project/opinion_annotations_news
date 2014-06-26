@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:29Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:29Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:07:17" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:12:26CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="1342" length="3" wid="w252">The</wf>
+    <wf sent="9" para="2" offset="1346" length="4" wid="w253">vast</wf>
+    <wf sent="9" para="2" offset="1351" length="8" wid="w254">majority</wf>
+    <wf sent="9" para="2" offset="1360" length="2" wid="w255">of</wf>
+    <wf sent="9" para="2" offset="1363" length="8" wid="w256">migrants</wf>
+    <wf sent="9" para="2" offset="1372" length="4" wid="w257">from</wf>
+    <wf sent="9" para="2" offset="1377" length="3" wid="w258">EEA</wf>
+    <wf sent="9" para="2" offset="1381" length="7" wid="w259">nations</wf>
+    <wf sent="9" para="2" offset="1389" length="4" wid="w260">were</wf>
+    <wf sent="9" para="2" offset="1394" length="5" wid="w261">young</wf>
+    <wf sent="9" para="2" offset="1399" length="1" wid="w262">,</wf>
+    <wf sent="9" para="2" offset="1401" length="7" wid="w263">healthy</wf>
+    <wf sent="9" para="2" offset="1409" length="3" wid="w264">and</wf>
+    <wf sent="9" para="2" offset="1413" length="6" wid="w265">mostly</wf>
+    <wf sent="9" para="2" offset="1420" length="2" wid="w266">in</wf>
+    <wf sent="9" para="2" offset="1423" length="4" wid="w267">work</wf>
+    <wf sent="9" para="2" offset="1428" length="3" wid="w268">and</wf>
+    <wf sent="9" para="2" offset="1432" length="12" wid="w269">contributing</wf>
+    <wf sent="9" para="2" offset="1445" length="2" wid="w270">by</wf>
+    <wf sent="9" para="2" offset="1448" length="6" wid="w271">paying</wf>
+    <wf sent="9" para="2" offset="1455" length="5" wid="w272">their</wf>
+    <wf sent="9" para="2" offset="1461" length="5" wid="w273">taxes</wf>
+    <wf sent="9" para="2" offset="1466" length="1" wid="w274">,</wf>
+    <wf sent="9" para="2" offset="1468" length="2" wid="w275">he</wf>
+    <wf sent="9" para="2" offset="1471" length="4" wid="w276">said</wf>
+    <wf sent="9" para="2" offset="1475" length="1" wid="w277">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t252">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--vast-->
+    <term type="open" lemma="vast" pos="G" morphofeat="JJ" tid="t253">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--majority-->
+    <term type="open" lemma="majority" pos="N" morphofeat="NN" tid="t254">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t255">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--migrants-->
+    <term type="open" lemma="migrant" pos="N" morphofeat="NNS" tid="t256">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t257">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--EEA-->
+    <term type="close" lemma="EEA" pos="R" morphofeat="NNP" tid="t258">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--nations-->
+    <term type="open" lemma="nation" pos="N" morphofeat="NNS" tid="t259">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--were-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t260">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--young-->
+    <term type="open" lemma="young" pos="G" morphofeat="JJ" tid="t261">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t262">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--healthy-->
+    <term type="open" lemma="healthy" pos="G" morphofeat="JJ" tid="t263">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t264">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--mostly-->
+    <term type="open" lemma="mostly" pos="A" morphofeat="RB" tid="t265">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t266">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--work-->
+    <term type="open" lemma="work" pos="N" morphofeat="NN" tid="t267">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t268">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--contributing-->
+    <term type="open" lemma="contributing" pos="N" morphofeat="NN" tid="t269">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t270">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--paying-->
+    <term type="open" lemma="pay" pos="V" morphofeat="VBG" tid="t271">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--their-->
+    <term type="close" lemma="their" pos="Q" morphofeat="PRP$" tid="t272">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--taxes-->
+    <term type="open" lemma="tax" pos="N" morphofeat="NNS" tid="t273">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t274">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t275">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t276">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t277">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--paying their taxes-->
+        <span>
+          <target id="t271"/>
+          <target id="t272"/>
+          <target id="t273"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--contributing-->
+        <span>
+          <target id="t269"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

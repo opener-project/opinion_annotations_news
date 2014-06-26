@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:57:39" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:08:12CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="25" para="2" offset="2282" length="3" wid="w467">But</wf>
+    <wf sent="25" para="2" offset="2286" length="8" wid="w468">policing</wf>
+    <wf sent="25" para="2" offset="2295" length="8" wid="w469">minister</wf>
+    <wf sent="25" para="2" offset="2304" length="6" wid="w470">Damian</wf>
+    <wf sent="25" para="2" offset="2311" length="5" wid="w471">Green</wf>
+    <wf sent="25" para="2" offset="2317" length="8" wid="w472">defended</wf>
+    <wf sent="25" para="2" offset="2326" length="3" wid="w473">the</wf>
+    <wf sent="25" para="2" offset="2330" length="7" wid="w474">turnout</wf>
+    <wf sent="25" para="2" offset="2337" length="1" wid="w475">,</wf>
+    <wf sent="25" para="2" offset="2339" length="6" wid="w476">saying</wf>
+    <wf sent="25" para="2" offset="2346" length="2" wid="w477">it</wf>
+    <wf sent="25" para="2" offset="2349" length="5" wid="w478">would</wf>
+    <wf sent="25" para="2" offset="2355" length="7" wid="w479">improve</wf>
+    <wf sent="25" para="2" offset="2363" length="2" wid="w480">in</wf>
+    <wf sent="25" para="2" offset="2366" length="5" wid="w481">years</wf>
+    <wf sent="25" para="2" offset="2372" length="2" wid="w482">to</wf>
+    <wf sent="25" para="2" offset="2375" length="4" wid="w483">come</wf>
+    <wf sent="25" para="2" offset="2379" length="1" wid="w484">.</wf>
+  </text>
+  <terms>
+    <!--But-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t467">
+      <span>
+        <target id="w467"/>
+      </span>
+    </term>
+    <!--policing-->
+    <term type="open" lemma="police" pos="V" morphofeat="VBG" tid="t468">
+      <span>
+        <target id="w468"/>
+      </span>
+    </term>
+    <!--minister-->
+    <term type="open" lemma="minister" pos="N" morphofeat="NN" tid="t469">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w469"/>
+      </span>
+    </term>
+    <!--Damian-->
+    <term type="close" lemma="Damian" pos="R" morphofeat="NNP" tid="t470">
+      <span>
+        <target id="w470"/>
+      </span>
+    </term>
+    <!--Green-->
+    <term type="close" lemma="Green" pos="R" morphofeat="NNP" tid="t471">
+      <span>
+        <target id="w471"/>
+      </span>
+    </term>
+    <!--defended-->
+    <term type="open" lemma="defend" pos="V" morphofeat="VBD" tid="t472">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w472"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t473">
+      <span>
+        <target id="w473"/>
+      </span>
+    </term>
+    <!--turnout-->
+    <term type="open" lemma="turnout" pos="N" morphofeat="NN" tid="t474">
+      <span>
+        <target id="w474"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t475">
+      <span>
+        <target id="w475"/>
+      </span>
+    </term>
+    <!--saying-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBG" tid="t476">
+      <span>
+        <target id="w476"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t477">
+      <span>
+        <target id="w477"/>
+      </span>
+    </term>
+    <!--would-->
+    <term type="close" lemma="would" pos="O" morphofeat="MD" tid="t478">
+      <span>
+        <target id="w478"/>
+      </span>
+    </term>
+    <!--improve-->
+    <term type="open" lemma="improve" pos="V" morphofeat="VB" tid="t479">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w479"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t480">
+      <span>
+        <target id="w480"/>
+      </span>
+    </term>
+    <!--years-->
+    <term type="open" lemma="year" pos="N" morphofeat="NNS" tid="t481">
+      <span>
+        <target id="w481"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t482">
+      <span>
+        <target id="w482"/>
+      </span>
+    </term>
+    <!--come-->
+    <term type="open" lemma="come" pos="V" morphofeat="VB" tid="t483">
+      <span>
+        <target id="w483"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t484">
+      <span>
+        <target id="w484"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--policing minister Damian Green-->
+        <span>
+          <target id="t468"/>
+          <target id="t469"/>
+          <target id="t470"/>
+          <target id="t471"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the turnout-->
+        <span>
+          <target id="t473"/>
+          <target id="t474"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--defended-->
+        <span>
+          <target id="t472"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--policing minister Damian Green-->
+        <span>
+          <target id="t468"/>
+          <target id="t469"/>
+          <target id="t470"/>
+          <target id="t471"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--it-->
+        <span>
+          <target id="t477"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--defended-->
+        <span>
+          <target id="t472"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--policing minister Damian Green-->
+        <span>
+          <target id="t468"/>
+          <target id="t469"/>
+          <target id="t470"/>
+          <target id="t471"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the turnout-->
+        <span>
+          <target id="t473"/>
+          <target id="t474"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--would improve-->
+        <span>
+          <target id="t478"/>
+          <target id="t479"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--policing minister Damian Green-->
+        <span>
+          <target id="t468"/>
+          <target id="t469"/>
+          <target id="t470"/>
+          <target id="t471"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--it-->
+        <span>
+          <target id="t477"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--would improve-->
+        <span>
+          <target id="t478"/>
+          <target id="t479"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

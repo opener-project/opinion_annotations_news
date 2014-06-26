@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:47:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:47:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:47:12Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="2" offset="7367" para="35" sent="81" wid="w1568">Je</wf>
+    <wf length="4" offset="7370" para="35" sent="81" wid="w1569">suis</wf>
+    <wf length="9" offset="7375" para="35" sent="81" wid="w1570">convaincu</wf>
+    <wf length="3" offset="7385" para="35" sent="81" wid="w1571">que</wf>
+    <wf length="2" offset="7389" para="35" sent="81" wid="w1572">l'</wf>
+    <wf length="8" offset="7391" para="35" sent="81" wid="w1573">Histoire</wf>
+    <wf length="6" offset="7400" para="35" sent="81" wid="w1574">rendra</wf>
+    <wf length="2" offset="7407" para="35" sent="81" wid="w1575">un</wf>
+    <wf length="7" offset="7410" para="35" sent="81" wid="w1576">hommage</wf>
+    <wf length="4" offset="7418" para="35" sent="81" wid="w1577">très</wf>
+    <wf length="5" offset="7423" para="35" sent="81" wid="w1578">grand</wf>
+    <wf length="1" offset="7429" para="35" sent="81" wid="w1579">à</wf>
+    <wf length="6" offset="7431" para="35" sent="81" wid="w1580">Benoît</wf>
+    <wf length="3" offset="7438" para="35" sent="81" wid="w1581">XVI</wf>
+    <wf length="1" offset="7441" para="35" sent="81" wid="w1582">"</wf>
+    <wf length="1" offset="7442" para="35" sent="81" wid="w1583">,</wf>
+    <wf length="1" offset="7444" para="35" sent="81" wid="w1584">a</wf>
+    <wf length="6" offset="7446" para="35" sent="81" wid="w1585">assuré</wf>
+    <wf length="3" offset="7453" para="35" sent="81" wid="w1586">Mgr</wf>
+    <wf length="6" offset="7457" para="35" sent="81" wid="w1587">Podvin</wf>
+    <wf length="1" offset="7463" para="35" sent="81" wid="w1588">.</wf>
+  </text>
+  <terms>
+    <term lemma="Je" morphofeat="CL1ms" pos="Q" tid="t1568" type="close">
+      <span>
+        <!-- Je -->
+        <target id="w1568"/>
+      </span>
+    </term>
+    <term lemma="suivre" morphofeat="VP1s" pos="V" tid="t1569" type="open">
+      <span>
+        <!-- suis -->
+        <target id="w1569"/>
+      </span>
+    </term>
+    <term lemma="convaincre" morphofeat="VKms" pos="V" tid="t1570" type="open">
+      <span>
+        <!-- convaincu -->
+        <target id="w1570"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="CS" pos="C" tid="t1571" type="close">
+      <span>
+        <!-- que -->
+        <target id="w1571"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t1572" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w1572"/>
+      </span>
+    </term>
+    <term lemma="histoire" morphofeat="NPms" pos="N" tid="t1573" type="open">
+      <span>
+        <!-- Histoire -->
+        <target id="w1573"/>
+      </span>
+    </term>
+    <term lemma="rendre" morphofeat="VF3s" pos="V" tid="t1574" type="open">
+      <span>
+        <!-- rendra -->
+        <target id="w1574"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t1575" type="close">
+      <span>
+        <!-- un -->
+        <target id="w1575"/>
+      </span>
+    </term>
+    <term lemma="hommage" morphofeat="NCms" pos="N" tid="t1576" type="open">
+      <span>
+        <!-- hommage -->
+        <target id="w1576"/>
+      </span>
+    </term>
+    <term lemma="très" morphofeat="ADV" pos="G" tid="t1577" type="open">
+      <span>
+        <!-- très -->
+        <target id="w1577"/>
+      </span>
+    </term>
+    <term lemma="grand" morphofeat="Ams" pos="G" tid="t1578" type="open">
+      <span>
+        <!-- grand -->
+        <target id="w1578"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t1579" type="close">
+      <span>
+        <!-- à -->
+        <target id="w1579"/>
+      </span>
+    </term>
+    <term lemma="Benoît" morphofeat="NPms" pos="N" tid="t1580" type="open">
+      <span>
+        <!-- Benoît -->
+        <target id="w1580"/>
+      </span>
+    </term>
+    <term lemma="XVI" morphofeat="Ams" pos="G" tid="t1581" type="open">
+      <span>
+        <!-- XVI -->
+        <target id="w1581"/>
+      </span>
+    </term>
+    <term lemma="&amp;quot;" morphofeat="&quot;" pos="O" tid="t1582" type="close">
+      <span>
+        <!-- " -->
+        <target id="w1582"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t1583" type="close">
+      <span>
+        <!-- , -->
+        <target id="w1583"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t1584" type="open">
+      <span>
+        <!-- a -->
+        <target id="w1584"/>
+      </span>
+    </term>
+    <term lemma="assurer" morphofeat="VKms" pos="V" tid="t1585" type="open">
+      <span>
+        <!-- assuré -->
+        <target id="w1585"/>
+      </span>
+    </term>
+    <term lemma="Mgr" morphofeat="NPms" pos="N" tid="t1586" type="open">
+      <span>
+        <!-- Mgr -->
+        <target id="w1586"/>
+      </span>
+    </term>
+    <term lemma="Podvin" morphofeat="NPms" pos="N" tid="t1587" type="open">
+      <span>
+        <!-- Podvin -->
+        <target id="w1587"/>
+      </span>
+    </term>
+  </terms>
+  <chunks/>
+  <coreferences/>
+  <features>
+    <properties/>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Mgr Podvin-->
+        <span>
+          <target id="t1586"/>
+          <target id="t1587"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--l' Histoire rendra un hommage très grand à Benoît XVI-->
+        <span>
+          <target id="t1572"/>
+          <target id="t1573"/>
+          <target id="t1574"/>
+          <target id="t1575"/>
+          <target id="t1576"/>
+          <target id="t1577"/>
+          <target id="t1578"/>
+          <target id="t1579"/>
+          <target id="t1580"/>
+          <target id="t1581"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--suis convaincu-->
+        <span>
+          <target id="t1569"/>
+          <target id="t1570"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:49:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:49:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:49:21Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:31:31CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w16" sent="3" para="3" offset="64" length="2">La</wf>
+    <wf wid="w17" sent="3" para="3" offset="67" length="11">chancelière</wf>
+    <wf wid="w18" sent="3" para="3" offset="79" length="9">allemande</wf>
+    <wf wid="w19" sent="3" para="3" offset="89" length="6">Angela</wf>
+    <wf wid="w20" sent="3" para="3" offset="96" length="6">Merkel</wf>
+    <wf wid="w21" sent="3" para="3" offset="103" length="1">a</wf>
+    <wf wid="w22" sent="3" para="3" offset="105" length="3">été</wf>
+    <wf wid="w23" sent="3" para="3" offset="109" length="5">reçue</wf>
+    <wf wid="w24" sent="3" para="3" offset="115" length="6">samedi</wf>
+    <wf wid="w25" sent="3" para="3" offset="122" length="6">durant</wf>
+    <wf wid="w26" sent="3" para="3" offset="129" length="2">45</wf>
+    <wf wid="w27" sent="3" para="3" offset="132" length="7">minutes</wf>
+    <wf wid="w28" sent="3" para="3" offset="140" length="2">au</wf>
+    <wf wid="w29" sent="3" para="3" offset="143" length="7">Vatican</wf>
+    <wf wid="w30" sent="3" para="3" offset="151" length="3">par</wf>
+    <wf wid="w31" sent="3" para="3" offset="155" length="2">le</wf>
+    <wf wid="w32" sent="3" para="3" offset="158" length="4">pape</wf>
+    <wf wid="w33" sent="3" para="3" offset="163" length="8">François</wf>
+    <wf wid="w34" sent="3" para="3" offset="171" length="1">,</wf>
+    <wf wid="w35" sent="3" para="3" offset="173" length="4">lors</wf>
+    <wf wid="w36" sent="3" para="3" offset="178" length="2">d'</wf>
+    <wf wid="w37" sent="3" para="3" offset="180" length="3">une</wf>
+    <wf wid="w38" sent="3" para="3" offset="184" length="6">visite</wf>
+    <wf wid="w39" sent="3" para="3" offset="191" length="6">éclair</wf>
+    <wf wid="w40" sent="3" para="3" offset="198" length="4">dans</wf>
+    <wf wid="w41" sent="3" para="3" offset="203" length="2">la</wf>
+    <wf wid="w42" sent="3" para="3" offset="206" length="9">péninsule</wf>
+    <wf wid="w43" sent="3" para="3" offset="215" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t16" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--chancelière-->
+    <term tid="t17" type="open" lemma="chancelier" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--allemande-->
+    <term tid="t18" type="open" lemma="allemand" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t19" type="open" lemma="Angela" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t20" type="open" lemma="Merkel" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t21" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--été-->
+    <term tid="t22" type="open" lemma="être" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--reçue-->
+    <term tid="t23" type="open" lemma="recevoir" pos="V" morphofeat="VKfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--samedi-->
+    <term tid="t24" type="open" lemma="samedi" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--durant-->
+    <term tid="t25" type="close" lemma="durant" pos="P" morphofeat="P">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--45-->
+    <term tid="t26" type="close" lemma="45" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--minutes-->
+    <term tid="t27" type="open" lemma="minute" pos="N" morphofeat="NCfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--au-->
+    <term tid="t28" type="close" lemma="au" pos="P" morphofeat="P">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--Vatican-->
+    <term tid="t29" type="open" lemma="Vatican" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--par-->
+    <term tid="t30" type="close" lemma="par" pos="P" morphofeat="P">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t31" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--pape-->
+    <term tid="t32" type="open" lemma="pape" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--François-->
+    <term tid="t33" type="open" lemma="François" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t34" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--lors-->
+    <term tid="t35" type="open" lemma="lors" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--d'-->
+    <term tid="t36" type="close" lemma="d'" pos="P" morphofeat="P">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--une-->
+    <term tid="t37" type="close" lemma="un" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--visite-->
+    <term tid="t38" type="open" lemma="visite" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--éclair-->
+    <term tid="t39" type="open" lemma="éclair" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--dans-->
+    <term tid="t40" type="close" lemma="dans" pos="P" morphofeat="P">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t41" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--péninsule-->
+    <term tid="t42" type="open" lemma="péninsule" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t43" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

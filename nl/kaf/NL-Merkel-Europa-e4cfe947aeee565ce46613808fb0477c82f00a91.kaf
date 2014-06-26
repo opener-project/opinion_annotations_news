@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:17:36CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:28CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w789" sent="39" para="2" offset="3958" length="6">Minder</wf>
+    <wf wid="w790" sent="39" para="2" offset="3965" length="6">Europa</wf>
+    <wf wid="w791" sent="39" para="2" offset="3972" length="3">wil</wf>
+    <wf wid="w792" sent="39" para="2" offset="3976" length="3">hij</wf>
+    <wf wid="w793" sent="39" para="2" offset="3980" length="6">echter</wf>
+    <wf wid="w794" sent="39" para="2" offset="3987" length="4">niet</wf>
+    <wf wid="w795" sent="39" para="2" offset="3991" length="1">.</wf>
+    <wf wid="w880" sent="44" para="2" offset="4421" length="1">'</wf>
+    <wf wid="w881" sent="44" para="2" offset="4422" length="7">Volgens</wf>
+    <wf wid="w882" sent="44" para="2" offset="4430" length="2">De</wf>
+    <wf wid="w883" sent="44" para="2" offset="4433" length="5">Gucht</wf>
+    <wf wid="w884" sent="44" para="2" offset="4439" length="2">is</wf>
+    <wf wid="w885" sent="44" para="2" offset="4442" length="3">dat</wf>
+    <wf wid="w886" sent="44" para="2" offset="4446" length="4">niet</wf>
+    <wf wid="w887" sent="44" para="2" offset="4451" length="5">juist</wf>
+    <wf wid="w888" sent="44" para="2" offset="4456" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Minder-->
+    <term tid="t789" type="open" lemma="min" pos="G" morphofeat="adj">
+      <span>
+        <target id="w789"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Europa-->
+    <term tid="t790" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w790"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t791" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w791"/>
+      </span>
+    </term>
+    <!--hij-->
+    <term tid="t792" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w792"/>
+      </span>
+    </term>
+    <!--echter-->
+    <term tid="t793" type="open" lemma="echter" pos="A" morphofeat="adv">
+      <span>
+        <target id="w793"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t794" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w794"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t795" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w795"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t880" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w880"/>
+      </span>
+    </term>
+    <!--Volgens-->
+    <term tid="t881" type="open" lemma="Volgens" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w881"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t882" type="open" lemma="De" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w882"/>
+      </span>
+    </term>
+    <!--Gucht-->
+    <term tid="t883" type="open" lemma="Gucht" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w883"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t884" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w884"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t885" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w885"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t886" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w886"/>
+      </span>
+    </term>
+    <!--juist-->
+    <term tid="t887" type="open" lemma="juist" pos="G" morphofeat="adj">
+      <span>
+        <target id="w887"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t888" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w888"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Europa-->
+        <span>
+          <target id="t790"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--Minder-->
+        <span>
+          <target id="t789"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--De Gucht-->
+        <span>
+          <target id="t882"/>
+          <target id="t883"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--dat-->
+        <span>
+          <target id="t885"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--niet juist-->
+        <span>
+          <target id="t886"/>
+          <target id="t887"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

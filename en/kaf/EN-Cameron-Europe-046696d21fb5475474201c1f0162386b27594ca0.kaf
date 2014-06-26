@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:48Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:48Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:56:39" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:22:40CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:51CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="15" para="2" offset="2219" length="4" wid="w397">They</wf>
+    <wf sent="15" para="2" offset="2224" length="4" wid="w398">fear</wf>
+    <wf sent="15" para="2" offset="2229" length="3" wid="w399">the</wf>
+    <wf sent="15" para="2" offset="2233" length="14" wid="w400">politicization</wf>
+    <wf sent="15" para="2" offset="2248" length="2" wid="w401">of</wf>
+    <wf sent="15" para="2" offset="2251" length="3" wid="w402">aid</wf>
+    <wf sent="15" para="2" offset="2255" length="3" wid="w403">and</wf>
+    <wf sent="15" para="2" offset="2259" length="3" wid="w404">the</wf>
+    <wf sent="15" para="2" offset="2263" length="9" wid="w405">resulting</wf>
+    <wf sent="15" para="2" offset="2273" length="4" wid="w406">lack</wf>
+    <wf sent="15" para="2" offset="2278" length="2" wid="w407">of</wf>
+    <wf sent="15" para="2" offset="2281" length="6" wid="w408">access</wf>
+    <wf sent="15" para="2" offset="2288" length="2" wid="w409">to</wf>
+    <wf sent="15" para="2" offset="2291" length="11" wid="w410">populations</wf>
+    <wf sent="15" para="2" offset="2303" length="2" wid="w411">in</wf>
+    <wf sent="15" para="2" offset="2306" length="4" wid="w412">need</wf>
+    <wf sent="15" para="2" offset="2310" length="1" wid="w413">.</wf>
+  </text>
+  <terms>
+    <!--They-->
+    <term type="close" lemma="they" pos="Q" morphofeat="PRP" tid="t397">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <!--fear-->
+    <term type="open" lemma="fear" pos="V" morphofeat="VBP" tid="t398">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t399">
+      <span>
+        <target id="w399"/>
+      </span>
+    </term>
+    <!--politicization-->
+    <term type="open" lemma="politicization" pos="N" morphofeat="NN" tid="t400">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t401">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <!--aid-->
+    <term type="open" lemma="aid" pos="N" morphofeat="NN" tid="t402">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t403">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t404">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+    <!--resulting-->
+    <term type="open" lemma="resulting" pos="G" morphofeat="JJ" tid="t405">
+      <span>
+        <target id="w405"/>
+      </span>
+    </term>
+    <!--lack-->
+    <term type="open" lemma="lack" pos="N" morphofeat="NN" tid="t406">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t407">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+    <!--access-->
+    <term type="open" lemma="access" pos="N" morphofeat="NN" tid="t408">
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t409">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <!--populations-->
+    <term type="open" lemma="population" pos="N" morphofeat="NNS" tid="t410">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t411">
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <!--need-->
+    <term type="open" lemma="need" pos="N" morphofeat="NN" tid="t412">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t413">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--They-->
+        <span>
+          <target id="t397"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the politicization of aid-->
+        <span>
+          <target id="t399"/>
+          <target id="t400"/>
+          <target id="t401"/>
+          <target id="t402"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--fear-->
+        <span>
+          <target id="t398"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--They-->
+        <span>
+          <target id="t397"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the resulting lack of access-->
+        <span>
+          <target id="t404"/>
+          <target id="t405"/>
+          <target id="t406"/>
+          <target id="t407"/>
+          <target id="t408"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--fear-->
+        <span>
+          <target id="t398"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--of access-->
+        <span>
+          <target id="t407"/>
+          <target id="t408"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--lack-->
+        <span>
+          <target id="t406"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

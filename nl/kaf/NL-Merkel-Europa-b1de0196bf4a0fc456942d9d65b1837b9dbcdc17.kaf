@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T16:00:23CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:35CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1055" sent="52" para="2" offset="6256" length="2">Ik</wf>
+    <wf wid="w1056" sent="52" para="2" offset="6259" length="4">hoop</wf>
+    <wf wid="w1057" sent="52" para="2" offset="6264" length="3">dat</wf>
+    <wf wid="w1058" sent="52" para="2" offset="6268" length="4">door</wf>
+    <wf wid="w1059" sent="52" para="2" offset="6273" length="4">deze</wf>
+    <wf wid="w1060" sent="52" para="2" offset="6278" length="3">top</wf>
+    <wf wid="w1061" sent="52" para="2" offset="6282" length="11">ministeries</wf>
+    <wf wid="w1062" sent="52" para="2" offset="6294" length="3">uit</wf>
+    <wf wid="w1063" sent="52" para="2" offset="6298" length="5">beide</wf>
+    <wf wid="w1064" sent="52" para="2" offset="6304" length="6">landen</wf>
+    <wf wid="w1065" sent="52" para="2" offset="6311" length="2">al</wf>
+    <wf wid="w1066" sent="52" para="2" offset="6314" length="2">in</wf>
+    <wf wid="w1067" sent="52" para="2" offset="6317" length="3">het</wf>
+    <wf wid="w1068" sent="52" para="2" offset="6321" length="5">maken</wf>
+    <wf wid="w1069" sent="52" para="2" offset="6327" length="3">van</wf>
+    <wf wid="w1070" sent="52" para="2" offset="6331" length="3">het</wf>
+    <wf wid="w1071" sent="52" para="2" offset="6335" length="6">beleid</wf>
+    <wf wid="w1072" sent="52" para="2" offset="6342" length="2">de</wf>
+    <wf wid="w1073" sent="52" para="2" offset="6345" length="8">telefoon</wf>
+    <wf wid="w1074" sent="52" para="2" offset="6354" length="7">grijpen</wf>
+    <wf wid="w1075" sent="52" para="2" offset="6362" length="2">om</wf>
+    <wf wid="w1076" sent="52" para="2" offset="6365" length="2">te</wf>
+    <wf wid="w1077" sent="52" para="2" offset="6368" length="10">overleggen</wf>
+    <wf wid="w1078" sent="52" para="2" offset="6378" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ik-->
+    <term tid="t1055" type="close" lemma="ik" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w1055"/>
+      </span>
+    </term>
+    <!--hoop-->
+    <term tid="t1056" type="open" lemma="hopen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w1056"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t1057" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w1057"/>
+      </span>
+    </term>
+    <!--door-->
+    <term tid="t1058" type="close" lemma="door" pos="P" morphofeat="prep">
+      <span>
+        <target id="w1058"/>
+      </span>
+    </term>
+    <!--deze-->
+    <term tid="t1059" type="close" lemma="deze" pos="D" morphofeat="det__demo">
+      <span>
+        <target id="w1059"/>
+      </span>
+    </term>
+    <!--top-->
+    <term tid="t1060" type="open" lemma="top" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w1060"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--ministeries-->
+    <term tid="t1061" type="open" lemma="ministerie" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w1061"/>
+      </span>
+    </term>
+    <!--uit-->
+    <term tid="t1062" type="close" lemma="uit" pos="P" morphofeat="prep">
+      <span>
+        <target id="w1062"/>
+      </span>
+    </term>
+    <!--beide-->
+    <term tid="t1063" type="open" lemma="beide" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w1063"/>
+      </span>
+    </term>
+    <!--landen-->
+    <term tid="t1064" type="open" lemma="land" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w1064"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t1065" type="open" lemma="al" pos="A" morphofeat="adv">
+      <span>
+        <target id="w1065"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t1066" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w1066"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t1067" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w1067"/>
+      </span>
+    </term>
+    <!--maken-->
+    <term tid="t1068" type="open" lemma="maken" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w1068"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t1069" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w1069"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t1070" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w1070"/>
+      </span>
+    </term>
+    <!--beleid-->
+    <term tid="t1071" type="open" lemma="beleid" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w1071"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t1072" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w1072"/>
+      </span>
+    </term>
+    <!--telefoon-->
+    <term tid="t1073" type="open" lemma="telefoon" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w1073"/>
+      </span>
+    </term>
+    <!--grijpen-->
+    <term tid="t1074" type="open" lemma="grijpen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w1074"/>
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t1075" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w1075"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t1076" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w1076"/>
+      </span>
+    </term>
+    <!--overleggen-->
+    <term tid="t1077" type="open" lemma="overleggen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w1077"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t1078" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w1078"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--Ik-->
+        <span>
+          <target id="t1055"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--ministeries uit beide landen overleggen-->
+        <span>
+          <target id="t1061"/>
+          <target id="t1062"/>
+          <target id="t1063"/>
+          <target id="t1064"/>
+          <target id="t1077"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--hoop-->
+        <span>
+          <target id="t1056"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

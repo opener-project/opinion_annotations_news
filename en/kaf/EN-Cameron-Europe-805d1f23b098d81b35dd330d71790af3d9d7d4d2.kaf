@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:17Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:17Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:05:23" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:20:52CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="7" para="2" offset="773" length="3" wid="w143">The</wf>
+    <wf sent="7" para="2" offset="777" length="5" wid="w144">civil</wf>
+    <wf sent="7" para="2" offset="783" length="3" wid="w145">war</wf>
+    <wf sent="7" para="2" offset="787" length="5" wid="w146">there</wf>
+    <wf sent="7" para="2" offset="793" length="2" wid="w147">is</wf>
+    <wf sent="7" para="2" offset="796" length="10" wid="w148">relentless</wf>
+    <wf sent="7" para="2" offset="806" length="1" wid="w149">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t143">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--civil-->
+    <term type="open" lemma="civil" pos="G" morphofeat="JJ" tid="t144">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--war-->
+    <term type="open" lemma="war" pos="N" morphofeat="NN" tid="t145">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--there-->
+    <term type="close" lemma="there" pos="O" morphofeat="EX" tid="t146">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t147">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--relentless-->
+    <term type="open" lemma="relentless" pos="G" morphofeat="JJ" tid="t148">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t149">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--The civil war-->
+        <span>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--relentless-->
+        <span>
+          <target id="t148"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T11:03:38Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T11:03:38Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:00:08CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T12:04:03CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w620" sent="35" para="14" offset="3833" length="1">"</wf>
+    <wf wid="w621" sent="35" para="14" offset="3834" length="3">Ich</wf>
+    <wf wid="w622" sent="35" para="14" offset="3838" length="5">halte</wf>
+    <wf wid="w623" sent="35" para="14" offset="3844" length="3">das</wf>
+    <wf wid="w624" sent="35" para="14" offset="3848" length="4">nach</wf>
+    <wf wid="w625" sent="35" para="14" offset="3853" length="3">wie</wf>
+    <wf wid="w626" sent="35" para="14" offset="3857" length="3">vor</wf>
+    <wf wid="w627" sent="35" para="14" offset="3861" length="3">für</wf>
+    <wf wid="w628" sent="35" para="14" offset="3865" length="5">einen</wf>
+    <wf wid="w629" sent="35" para="14" offset="3871" length="8">schweren</wf>
+    <wf wid="w630" sent="35" para="14" offset="3880" length="6">Fehler</wf>
+    <wf wid="w631" sent="35" para="14" offset="3886" length="1">"</wf>
+    <wf wid="w632" sent="35" para="14" offset="3887" length="1">,</wf>
+    <wf wid="w633" sent="35" para="14" offset="3889" length="5">sagte</wf>
+    <wf wid="w634" sent="35" para="14" offset="3895" length="6">Rösler</wf>
+    <wf wid="w635" sent="35" para="14" offset="3902" length="2">in</wf>
+    <wf wid="w636" sent="35" para="14" offset="3905" length="6">Berlin</wf>
+    <wf wid="w637" sent="35" para="14" offset="3912" length="4">nach</wf>
+    <wf wid="w638" sent="35" para="14" offset="3917" length="5">einem</wf>
+    <wf wid="w639" sent="35" para="14" offset="3923" length="7">Treffen</wf>
+    <wf wid="w640" sent="35" para="14" offset="3931" length="3">mit</wf>
+    <wf wid="w641" sent="35" para="14" offset="3935" length="16">Spitzenverbänden</wf>
+    <wf wid="w642" sent="35" para="14" offset="3952" length="3">der</wf>
+    <wf wid="w643" sent="35" para="14" offset="3956" length="9">deutschen</wf>
+    <wf wid="w644" sent="35" para="14" offset="3966" length="10">Wirtschaft</wf>
+    <wf wid="w645" sent="35" para="14" offset="3976" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t620" type="open">
+      <span>
+        <target id="w620"/>
+      </span>
+    </term>
+    <term lemma="ich" morphofeat="PPER" pos="Q" tid="t621" type="close">
+      <span>
+        <target id="w621"/>
+      </span>
+    </term>
+    <term lemma="halten" morphofeat="VVFIN" pos="V" tid="t622" type="open">
+      <span>
+        <target id="w622"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="PDS" pos="Q" tid="t623" type="close">
+      <span>
+        <target id="w623"/>
+      </span>
+    </term>
+    <term lemma="nach" morphofeat="ADV" pos="A" tid="t624" type="open">
+      <span>
+        <target id="w624"/>
+      </span>
+    </term>
+    <term lemma="wie" morphofeat="KOKOM" pos="C" tid="t625" type="close">
+      <span>
+        <target id="w625"/>
+      </span>
+    </term>
+    <term lemma="vor" morphofeat="ADV" pos="A" tid="t626" type="open">
+      <span>
+        <target id="w626"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t627" type="close">
+      <span>
+        <target id="w627"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t628" type="close">
+      <span>
+        <target id="w628"/>
+      </span>
+    </term>
+    <term lemma="schwer" morphofeat="ADJA" pos="G" tid="t629" type="open">
+      <span>
+        <target id="w629"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Fehler" morphofeat="NN" pos="N" tid="t630" type="open">
+      <span>
+        <target id="w630"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t631" type="open">
+      <span>
+        <target id="w631"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t632" type="open">
+      <span>
+        <target id="w632"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t633" type="open">
+      <span>
+        <target id="w633"/>
+      </span>
+    </term>
+    <term lemma="Rösler" morphofeat="NE unknown_lemma" pos="O" tid="t634" type="open">
+      <span>
+        <target id="w634"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t635" type="close">
+      <span>
+        <target id="w635"/>
+      </span>
+    </term>
+    <term lemma="Berlin" morphofeat="NE" pos="R" tid="t636" type="open">
+      <span>
+        <target id="w636"/>
+      </span>
+    </term>
+    <term lemma="nach" morphofeat="APPR" pos="P" tid="t637" type="close">
+      <span>
+        <target id="w637"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t638" type="close">
+      <span>
+        <target id="w638"/>
+      </span>
+    </term>
+    <term lemma="Treffen" morphofeat="NN" pos="N" tid="t639" type="open">
+      <span>
+        <target id="w639"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t640" type="close">
+      <span>
+        <target id="w640"/>
+      </span>
+    </term>
+    <term lemma="Spitzenverband" morphofeat="NN" pos="N" tid="t641" type="open">
+      <span>
+        <target id="w641"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t642" type="close">
+      <span>
+        <target id="w642"/>
+      </span>
+    </term>
+    <term lemma="deutsch" morphofeat="ADJA" pos="G" tid="t643" type="open">
+      <span>
+        <target id="w643"/>
+      </span>
+    </term>
+    <term lemma="Wirtschaft" morphofeat="NN" pos="N" tid="t644" type="open">
+      <span>
+        <target id="w644"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t645" type="open">
+      <span>
+        <target id="w645"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Ich-->
+        <span>
+          <target id="t621"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--das-->
+        <span>
+          <target id="t623"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--einen schweren Fehler-->
+        <span>
+          <target id="t628"/>
+          <target id="t629"/>
+          <target id="t630"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

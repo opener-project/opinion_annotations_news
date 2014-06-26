@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:13Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:13Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:55:25" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:10:12CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="4" para="2" offset="372" length="3" wid="w65">The</wf>
+    <wf sent="4" para="2" offset="376" length="5" wid="w66">storm</wf>
+    <wf sent="4" para="2" offset="382" length="7" wid="w67">brought</wf>
+    <wf sent="4" para="2" offset="390" length="5" wid="w68">gusts</wf>
+    <wf sent="4" para="2" offset="396" length="2" wid="w69">of</wf>
+    <wf sent="4" para="2" offset="399" length="4" wid="w70">wind</wf>
+    <wf sent="4" para="2" offset="404" length="2" wid="w71">as</wf>
+    <wf sent="4" para="2" offset="407" length="4" wid="w72">high</wf>
+    <wf sent="4" para="2" offset="412" length="2" wid="w73">as</wf>
+    <wf sent="4" para="2" offset="415" length="3" wid="w74">160</wf>
+    <wf sent="4" para="2" offset="419" length="3" wid="w75">kph</wf>
+    <wf sent="4" para="2" offset="423" length="2" wid="w76">on</wf>
+    <wf sent="4" para="2" offset="426" length="3" wid="w77">the</wf>
+    <wf sent="4" para="2" offset="430" length="4" wid="w78">Isle</wf>
+    <wf sent="4" para="2" offset="435" length="2" wid="w79">of</wf>
+    <wf sent="4" para="2" offset="438" length="5" wid="w80">Wight</wf>
+    <wf sent="4" para="2" offset="443" length="1" wid="w81">,</wf>
+    <wf sent="4" para="2" offset="445" length="2" wid="w82">on</wf>
+    <wf sent="4" para="2" offset="448" length="3" wid="w83">the</wf>
+    <wf sent="4" para="2" offset="452" length="5" wid="w84">south</wf>
+    <wf sent="4" para="2" offset="458" length="5" wid="w85">coast</wf>
+    <wf sent="4" para="2" offset="464" length="2" wid="w86">of</wf>
+    <wf sent="4" para="2" offset="467" length="7" wid="w87">England</wf>
+    <wf sent="4" para="2" offset="474" length="1" wid="w88">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t65">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--storm-->
+    <term type="open" lemma="storm" pos="N" morphofeat="NN" tid="t66">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--brought-->
+    <term type="open" lemma="bring" pos="V" morphofeat="VBD" tid="t67">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--gusts-->
+    <term type="open" lemma="gust" pos="N" morphofeat="NNS" tid="t68">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t69">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--wind-->
+    <term type="open" lemma="wind" pos="N" morphofeat="NN" tid="t70">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="open" lemma="as" pos="A" morphofeat="RB" tid="t71">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--high-->
+    <term type="open" lemma="high" pos="G" morphofeat="JJ" tid="t72">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t73">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--160-->
+    <term type="close" lemma="160" pos="O" morphofeat="CD" tid="t74">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--kph-->
+    <term type="open" lemma="kph" pos="N" morphofeat="NN" tid="t75">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t76">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t77">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--Isle-->
+    <term type="close" lemma="Isle" pos="R" morphofeat="NNP" tid="t78">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t79">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--Wight-->
+    <term type="close" lemma="Wight" pos="R" morphofeat="NNP" tid="t80">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t81">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t82">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t83">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--south-->
+    <term type="open" lemma="south" pos="G" morphofeat="JJ" tid="t84">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--coast-->
+    <term type="open" lemma="coast" pos="N" morphofeat="NN" tid="t85">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t86">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--England-->
+    <term type="close" lemma="England" pos="R" morphofeat="NNP" tid="t87">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t88">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+          <target id="t72"/>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+          <target id="t79"/>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

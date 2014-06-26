@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:36:14Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:36:14Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:18:36CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:36:36CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w193" sent="14" para="7" offset="1172" length="3">Bei</wf>
+    <wf wid="w194" sent="14" para="7" offset="1176" length="3">dem</wf>
+    <wf wid="w195" sent="14" para="7" offset="1180" length="5">Gerät</wf>
+    <wf wid="w196" sent="14" para="7" offset="1186" length="7">handelt</wf>
+    <wf wid="w197" sent="14" para="7" offset="1194" length="2">es</wf>
+    <wf wid="w198" sent="14" para="7" offset="1197" length="4">sich</wf>
+    <wf wid="w199" sent="14" para="7" offset="1202" length="7">demnach</wf>
+    <wf wid="w200" sent="14" para="7" offset="1210" length="2">um</wf>
+    <wf wid="w201" sent="14" para="7" offset="1213" length="3">ein</wf>
+    <wf wid="w202" sent="14" para="7" offset="1217" length="5">Nokia</wf>
+    <wf wid="w203" sent="14" para="7" offset="1222" length="1">·</wf>
+    <wf wid="w204" sent="14" para="7" offset="1223" length="5">Handy</wf>
+    <wf wid="w205" sent="14" para="7" offset="1228" length="1">,</wf>
+    <wf wid="w206" sent="14" para="7" offset="1230" length="3">das</wf>
+    <wf wid="w207" sent="14" para="7" offset="1234" length="6">Merkel</wf>
+    <wf wid="w208" sent="14" para="7" offset="1241" length="3">von</wf>
+    <wf wid="w209" sent="14" para="7" offset="1245" length="7">Oktober</wf>
+    <wf wid="w210" sent="14" para="7" offset="1253" length="4">2009</wf>
+    <wf wid="w211" sent="14" para="7" offset="1258" length="3">bis</wf>
+    <wf wid="w212" sent="14" para="7" offset="1262" length="4">Juli</wf>
+    <wf wid="w213" sent="14" para="7" offset="1267" length="4">2013</wf>
+    <wf wid="w214" sent="14" para="7" offset="1272" length="7">benutzt</wf>
+    <wf wid="w215" sent="14" para="7" offset="1280" length="4">habe</wf>
+    <wf wid="w216" sent="14" para="7" offset="1284" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="bei" morphofeat="APPR" pos="P" tid="t193" type="close">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t194" type="close">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <term lemma="Gerät" morphofeat="NN" pos="N" tid="t195" type="open">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <term lemma="handeln" morphofeat="VVFIN" pos="V" tid="t196" type="open">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t197" type="close">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t198" type="close">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <term lemma="demnach" morphofeat="PAV" pos="Q" tid="t199" type="close">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <term lemma="um" morphofeat="APPR" pos="P" tid="t200" type="close">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t201" type="close">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <term lemma="Nokia" morphofeat="NN unknown_lemma" pos="O" tid="t202" type="open">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t203" type="open">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <term lemma="Handy" morphofeat="NE" pos="R" tid="t204" type="open">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t205" type="open">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="PRELS" pos="Q" tid="t206" type="close">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t207" type="open">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t208" type="close">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <term lemma="Oktober" morphofeat="NN" pos="N" tid="t209" type="open">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t210" type="open">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <term lemma="bis" morphofeat="APPR" pos="P" tid="t211" type="close">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <term lemma="Juli" morphofeat="NN" pos="N" tid="t212" type="open">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t213" type="open">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <term lemma="benutzen" morphofeat="VVPP" pos="V" tid="t214" type="open">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t215" type="open">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t216" type="open">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

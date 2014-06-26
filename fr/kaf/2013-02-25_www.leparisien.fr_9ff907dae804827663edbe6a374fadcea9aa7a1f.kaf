@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:49:57Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:49:57Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:49:57Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:32:51CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w328" sent="12" para="5" offset="1716" length="5">Selon</wf>
+    <wf wid="w329" sent="12" para="5" offset="1722" length="2">la</wf>
+    <wf wid="w330" sent="12" para="5" offset="1725" length="6">presse</wf>
+    <wf wid="w331" sent="12" para="5" offset="1732" length="6">turque</wf>
+    <wf wid="w332" sent="12" para="5" offset="1738" length="1">,</wf>
+    <wf wid="w333" sent="12" para="5" offset="1740" length="2">M.</wf>
+    <wf wid="w334" sent="12" para="5" offset="1743" length="7">Erdogan</wf>
+    <wf wid="w335" sent="12" para="5" offset="1751" length="1">a</wf>
+    <wf wid="w336" sent="12" para="5" offset="1753" length="8">qualifié</wf>
+    <wf wid="w337" sent="12" para="5" offset="1762" length="2">de</wf>
+    <wf wid="w338" sent="12" para="5" offset="1765" length="1">"</wf>
+    <wf wid="w339" sent="12" para="5" offset="1766" length="7">positif</wf>
+    <wf wid="w340" sent="12" para="5" offset="1773" length="1">"</wf>
+    <wf wid="w341" sent="12" para="5" offset="1775" length="2">le</wf>
+    <wf wid="w342" sent="12" para="5" offset="1778" length="5">geste</wf>
+    <wf wid="w343" sent="12" para="5" offset="1784" length="8">allemand</wf>
+    <wf wid="w344" sent="12" para="5" offset="1792" length="1">.</wf>
+    <wf wid="w693" sent="22" para="5" offset="3640" length="2">L'</wf>
+    <wf wid="w694" sent="22" para="5" offset="3642" length="9">Allemagne</wf>
+    <wf wid="w695" sent="22" para="5" offset="3652" length="9">constitue</wf>
+    <wf wid="w696" sent="22" para="5" offset="3662" length="2">le</wf>
+    <wf wid="w697" sent="22" para="5" offset="3665" length="7">premier</wf>
+    <wf wid="w698" sent="22" para="5" offset="3673" length="10">partenaire</wf>
+    <wf wid="w699" sent="22" para="5" offset="3684" length="10">économique</wf>
+    <wf wid="w700" sent="22" para="5" offset="3695" length="8">européen</wf>
+    <wf wid="w701" sent="22" para="5" offset="3704" length="2">de</wf>
+    <wf wid="w702" sent="22" para="5" offset="3707" length="2">la</wf>
+    <wf wid="w703" sent="22" para="5" offset="3710" length="7">Turquie</wf>
+    <wf wid="w704" sent="22" para="5" offset="3717" length="1">,</wf>
+    <wf wid="w705" sent="22" para="5" offset="3719" length="4">loin</wf>
+    <wf wid="w706" sent="22" para="5" offset="3724" length="6">devant</wf>
+    <wf wid="w707" sent="22" para="5" offset="3731" length="2">l'</wf>
+    <wf wid="w708" sent="22" para="5" offset="3733" length="6">Italie</wf>
+    <wf wid="w709" sent="22" para="5" offset="3740" length="2">et</wf>
+    <wf wid="w710" sent="22" para="5" offset="3743" length="2">la</wf>
+    <wf wid="w711" sent="22" para="5" offset="3746" length="6">France</wf>
+    <wf wid="w712" sent="22" para="5" offset="3752" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Selon-->
+    <term tid="t328" type="close" lemma="selon]" pos="P" morphofeat="P">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t329" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+    <!--presse-->
+    <term tid="t330" type="open" lemma="presse" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <!--turque-->
+    <term tid="t331" type="open" lemma="turc" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w331"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t332" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+    <!--M.-->
+    <term tid="t333" type="open" lemma="M." pos="N" morphofeat="NCms">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <!--Erdogan-->
+    <term tid="t334" type="open" lemma="Erdogan" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t335" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <!--qualifié-->
+    <term tid="t336" type="open" lemma="qualifier" pos="V" morphofeat="VKms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t337" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t338" type="close" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <!--positif-->
+    <term tid="t339" type="open" lemma="positif" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t340" type="close" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t341" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--geste-->
+    <term tid="t342" type="open" lemma="geste" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--allemand-->
+    <term tid="t343" type="open" lemma="allemand" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t344" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--L'-->
+    <term tid="t693" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w693"/>
+      </span>
+    </term>
+    <!--Allemagne-->
+    <term tid="t694" type="open" lemma="Allemagne" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w694"/>
+      </span>
+    </term>
+    <!--constitue-->
+    <term tid="t695" type="open" lemma="constituer" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w695"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t696" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w696"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t697" type="open" lemma="premier" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w697"/>
+      </span>
+    </term>
+    <!--partenaire-->
+    <term tid="t698" type="open" lemma="partenaire" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w698"/>
+      </span>
+    </term>
+    <!--économique-->
+    <term tid="t699" type="open" lemma="économique" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w699"/>
+      </span>
+    </term>
+    <!--européen-->
+    <term tid="t700" type="open" lemma="européen" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w700"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t701" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w701"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t702" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w702"/>
+      </span>
+    </term>
+    <!--Turquie-->
+    <term tid="t703" type="open" lemma="Turquie" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w703"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t704" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w704"/>
+      </span>
+    </term>
+    <!--loin-->
+    <term tid="t705" type="open" lemma="loin" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w705"/>
+      </span>
+    </term>
+    <!--devant-->
+    <term tid="t706" type="close" lemma="devant" pos="P" morphofeat="P">
+      <span>
+        <target id="w706"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t707" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w707"/>
+      </span>
+    </term>
+    <!--Italie-->
+    <term tid="t708" type="open" lemma="Italie" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w708"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t709" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w709"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t710" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w710"/>
+      </span>
+    </term>
+    <!--France-->
+    <term tid="t711" type="open" lemma="France" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w711"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t712" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w712"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--M. Erdogan-->
+        <span>
+          <target id="t333"/>
+          <target id="t334"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--le geste allemand-->
+        <span>
+          <target id="t341"/>
+          <target id="t342"/>
+          <target id="t343"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--a qualifié de " positif-->
+        <span>
+          <target id="t335"/>
+          <target id="t336"/>
+          <target id="t337"/>
+          <target id="t338"/>
+          <target id="t339"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t693"/>
+          <target id="t694"/>
+          <target id="t695"/>
+          <target id="t696"/>
+          <target id="t697"/>
+          <target id="t698"/>
+          <target id="t699"/>
+          <target id="t700"/>
+          <target id="t701"/>
+          <target id="t702"/>
+          <target id="t703"/>
+          <target id="t704"/>
+          <target id="t705"/>
+          <target id="t706"/>
+          <target id="t707"/>
+          <target id="t708"/>
+          <target id="t709"/>
+          <target id="t710"/>
+          <target id="t711"/>
+          <target id="t712"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

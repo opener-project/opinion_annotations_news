@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:26Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:26Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:49:11" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:24:23CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="15" para="2" offset="2450" length="5" wid="w435">Polls</wf>
+    <wf sent="15" para="2" offset="2456" length="6" wid="w436">showed</wf>
+    <wf sent="15" para="2" offset="2463" length="3" wid="w437">the</wf>
+    <wf sent="15" para="2" offset="2467" length="7" wid="w438">Pirates</wf>
+    <wf sent="15" para="2" offset="2475" length="4" wid="w439">were</wf>
+    <wf sent="15" para="2" offset="2480" length="6" wid="w440">likely</wf>
+    <wf sent="15" para="2" offset="2487" length="2" wid="w441">to</wf>
+    <wf sent="15" para="2" offset="2490" length="4" wid="w442">gain</wf>
+    <wf sent="15" para="2" offset="2495" length="6" wid="w443">enough</wf>
+    <wf sent="15" para="2" offset="2502" length="5" wid="w444">votes</wf>
+    <wf sent="15" para="2" offset="2508" length="2" wid="w445">to</wf>
+    <wf sent="15" para="2" offset="2511" length="3" wid="w446">win</wf>
+    <wf sent="15" para="2" offset="2515" length="5" wid="w447">seats</wf>
+    <wf sent="15" para="2" offset="2521" length="2" wid="w448">in</wf>
+    <wf sent="15" para="2" offset="2524" length="3" wid="w449">the</wf>
+    <wf sent="15" para="2" offset="2528" length="5" wid="w450">state</wf>
+    <wf sent="15" para="2" offset="2534" length="10" wid="w451">parliament</wf>
+    <wf sent="15" para="2" offset="2545" length="2" wid="w452">in</wf>
+    <wf sent="15" para="2" offset="2548" length="18" wid="w453">Schleswig-Holstein</wf>
+    <wf sent="15" para="2" offset="2566" length="1" wid="w454">.</wf>
+  </text>
+  <terms>
+    <!--Polls-->
+    <term type="open" lemma="poll" pos="N" morphofeat="NNS" tid="t435">
+      <span>
+        <target id="w435"/>
+      </span>
+    </term>
+    <!--showed-->
+    <term type="open" lemma="show" pos="V" morphofeat="VBD" tid="t436">
+      <span>
+        <target id="w436"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t437">
+      <span>
+        <target id="w437"/>
+      </span>
+    </term>
+    <!--Pirates-->
+    <term type="close" lemma="Pirates" pos="R" morphofeat="NNPS" tid="t438">
+      <span>
+        <target id="w438"/>
+      </span>
+    </term>
+    <!--were-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t439">
+      <span>
+        <target id="w439"/>
+      </span>
+    </term>
+    <!--likely-->
+    <term type="open" lemma="likely" pos="G" morphofeat="JJ" tid="t440">
+      <span>
+        <target id="w440"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t441">
+      <span>
+        <target id="w441"/>
+      </span>
+    </term>
+    <!--gain-->
+    <term type="open" lemma="gain" pos="V" morphofeat="VB" tid="t442">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w442"/>
+      </span>
+    </term>
+    <!--enough-->
+    <term type="open" lemma="enough" pos="A" morphofeat="RB" tid="t443">
+      <span>
+        <target id="w443"/>
+      </span>
+    </term>
+    <!--votes-->
+    <term type="open" lemma="vote" pos="N" morphofeat="NNS" tid="t444">
+      <span>
+        <target id="w444"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t445">
+      <span>
+        <target id="w445"/>
+      </span>
+    </term>
+    <!--win-->
+    <term type="open" lemma="win" pos="V" morphofeat="VB" tid="t446">
+      <span>
+        <target id="w446"/>
+      </span>
+    </term>
+    <!--seats-->
+    <term type="open" lemma="seat" pos="N" morphofeat="NNS" tid="t447">
+      <span>
+        <target id="w447"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t448">
+      <span>
+        <target id="w448"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t449">
+      <span>
+        <target id="w449"/>
+      </span>
+    </term>
+    <!--state-->
+    <term type="open" lemma="state" pos="N" morphofeat="NN" tid="t450">
+      <span>
+        <target id="w450"/>
+      </span>
+    </term>
+    <!--parliament-->
+    <term type="open" lemma="parliament" pos="N" morphofeat="NN" tid="t451">
+      <span>
+        <target id="w451"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t452">
+      <span>
+        <target id="w452"/>
+      </span>
+    </term>
+    <!--Schleswig-Holstein-->
+    <term type="close" lemma="Schleswig-Holstein" pos="R" morphofeat="NNP" tid="t453">
+      <span>
+        <target id="w453"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t454">
+      <span>
+        <target id="w454"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t435"/>
+          <target id="t436"/>
+          <target id="t437"/>
+          <target id="t438"/>
+          <target id="t439"/>
+          <target id="t440"/>
+          <target id="t441"/>
+          <target id="t442"/>
+          <target id="t443"/>
+          <target id="t444"/>
+          <target id="t445"/>
+          <target id="t446"/>
+          <target id="t447"/>
+          <target id="t448"/>
+          <target id="t449"/>
+          <target id="t450"/>
+          <target id="t451"/>
+          <target id="t452"/>
+          <target id="t453"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

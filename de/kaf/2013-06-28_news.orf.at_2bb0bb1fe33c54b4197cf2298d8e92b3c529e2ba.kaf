@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:13:18Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:13:18Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:15:17CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:13:24CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w25" sent="4" para="3" offset="133" length="3">Die</wf>
+    <wf wid="w26" sent="4" para="3" offset="137" length="6">Staats</wf>
+    <wf wid="w27" sent="4" para="3" offset="143" length="1">·</wf>
+    <wf wid="w28" sent="4" para="3" offset="145" length="3">und</wf>
+    <wf wid="w29" sent="4" para="3" offset="149" length="15">Regierungschefs</wf>
+    <wf wid="w30" sent="4" para="3" offset="165" length="7">wollten</wf>
+    <wf wid="w31" sent="4" para="3" offset="173" length="3">ein</wf>
+    <wf wid="w32" sent="4" para="3" offset="177" length="14">Maßnahmenpaket</wf>
+    <wf wid="w33" sent="4" para="3" offset="192" length="5">gegen</wf>
+    <wf wid="w34" sent="4" para="3" offset="198" length="3">die</wf>
+    <wf wid="w35" sent="4" para="3" offset="202" length="22">Jugendarbeitslosigkeit</wf>
+    <wf wid="w36" sent="4" para="3" offset="225" length="2">in</wf>
+    <wf wid="w37" sent="4" para="3" offset="228" length="6">Europa</wf>
+    <wf wid="w38" sent="4" para="3" offset="235" length="8">schnüren</wf>
+    <wf wid="w39" sent="4" para="3" offset="243" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t25" type="close">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="Staat" morphofeat="NN" pos="N" tid="t26" type="open">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t27" type="open">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t28" type="close">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="Regierungschef" morphofeat="NN" pos="N" tid="t29" type="open">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t30" type="open">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t31" type="close">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="Maßnahmenpaket" morphofeat="NN" pos="N" tid="t32" type="open">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="gegen" morphofeat="APPR" pos="P" tid="t33" type="close">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t34" type="close">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="Jugendarbeitslosigkeit" morphofeat="NN" pos="N" tid="t35" type="open">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t36" type="close">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="Europa" morphofeat="NE" pos="R" tid="t37" type="open">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="schnüren" morphofeat="VVINF" pos="V" tid="t38" type="open">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t39" type="open">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die Jugendarbeitslosigkeit-->
+        <span>
+          <target id="t34"/>
+          <target id="t35"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ein Maßnahmenpaket gegen-->
+        <span>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Die Staats · und Regierungschefs-->
+        <span>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--ein Maßnahmenpaket schnüren-->
+        <span>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t38"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wollten-->
+        <span>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

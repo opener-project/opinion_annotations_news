@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:33:11Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:33:11Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:57:28CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:33:24CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:57CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w244" sent="15" para="9" offset="1397" length="4">Auch</wf>
+    <wf wid="w245" sent="15" para="9" offset="1402" length="3">die</wf>
+    <wf wid="w246" sent="15" para="9" offset="1406" length="5">Union</wf>
+    <wf wid="w247" sent="15" para="9" offset="1412" length="3">hob</wf>
+    <wf wid="w248" sent="15" para="9" offset="1416" length="6">lobend</wf>
+    <wf wid="w249" sent="15" para="9" offset="1423" length="3">die</wf>
+    <wf wid="w250" sent="15" para="9" offset="1427" length="15">Ernsthaftigkeit</wf>
+    <wf wid="w251" sent="15" para="9" offset="1443" length="6">hervor</wf>
+    <wf wid="w252" sent="15" para="9" offset="1449" length="1">,</wf>
+    <wf wid="w253" sent="15" para="9" offset="1451" length="3">mit</wf>
+    <wf wid="w254" sent="15" para="9" offset="1455" length="3">der</wf>
+    <wf wid="w255" sent="15" para="9" offset="1459" length="3">die</wf>
+    <wf wid="w256" sent="15" para="9" offset="1463" length="6">Grünen</wf>
+    <wf wid="w257" sent="15" para="9" offset="1470" length="3">die</wf>
+    <wf wid="w258" sent="15" para="9" offset="1474" length="9">Gespräche</wf>
+    <wf wid="w259" sent="15" para="9" offset="1484" length="7">geführt</wf>
+    <wf wid="w260" sent="15" para="9" offset="1492" length="6">hätten</wf>
+    <wf wid="w261" sent="15" para="9" offset="1498" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="auch" morphofeat="ADV" pos="A" tid="t244" type="open">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t245" type="close">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <term lemma="Union" morphofeat="NN" pos="N" tid="t246" type="open">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <term lemma="heben" morphofeat="VVFIN" pos="V" tid="t247" type="open">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <term lemma="lobend" morphofeat="ADJD" pos="G" tid="t248" type="open">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t249" type="close">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <term lemma="Ernsthaftigkeit" morphofeat="NN" pos="N" tid="t250" type="open">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <term lemma="hervor" morphofeat="PTKVZ" pos="V" tid="t251" type="open">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t252" type="open">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t253" type="close">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="PRELS" pos="Q" tid="t254" type="close">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t255" type="close">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <term lemma="Grüne" morphofeat="NN" pos="N" tid="t256" type="open">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t257" type="close">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <term lemma="Gespräch" morphofeat="NN" pos="N" tid="t258" type="open">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <term lemma="führen" morphofeat="VVPP" pos="V" tid="t259" type="open">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t260" type="open">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t261" type="open">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--die Union-->
+        <span>
+          <target id="t245"/>
+          <target id="t246"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Ernsthaftigkeit-->
+        <span>
+          <target id="t250"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--hob lobend-->
+        <span>
+          <target id="t247"/>
+          <target id="t248"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

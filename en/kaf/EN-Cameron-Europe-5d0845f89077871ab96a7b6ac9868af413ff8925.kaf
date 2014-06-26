@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:27Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:27Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:52:00" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:17:59CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="6" para="2" offset="872" length="2" wid="w163">Mr</wf>
+    <wf sent="6" para="2" offset="875" length="7" wid="w164">Cameron</wf>
+    <wf sent="6" para="2" offset="883" length="4" wid="w165">told</wf>
+    <wf sent="6" para="2" offset="888" length="3" wid="w166">BBC</wf>
+    <wf sent="6" para="2" offset="892" length="5" wid="w167">Radio</wf>
+    <wf sent="6" para="2" offset="898" length="1" wid="w168">4</wf>
+    <wf sent="6" para="2" offset="899" length="2" wid="w169">’s</wf>
+    <wf sent="6" para="2" offset="902" length="5" wid="w170">Today</wf>
+    <wf sent="6" para="2" offset="908" length="9" wid="w171">programme</wf>
+    <wf sent="6" para="2" offset="918" length="4" wid="w172">that</wf>
+    <wf sent="6" para="2" offset="923" length="2" wid="w173">an</wf>
+    <wf sent="6" para="2" offset="926" length="9" wid="w174">immediate</wf>
+    <wf sent="6" para="2" offset="936" length="1" wid="w175">“</wf>
+    <wf sent="6" para="2" offset="937" length="2" wid="w176">in</wf>
+    <wf sent="6" para="2" offset="940" length="2" wid="w177">or</wf>
+    <wf sent="6" para="2" offset="943" length="3" wid="w178">out</wf>
+    <wf sent="6" para="2" offset="946" length="1" wid="w179">”</wf>
+    <wf sent="6" para="2" offset="948" length="4" wid="w180">vote</wf>
+    <wf sent="6" para="2" offset="953" length="5" wid="w181">would</wf>
+    <wf sent="6" para="2" offset="959" length="2" wid="w182">be</wf>
+    <wf sent="6" para="2" offset="962" length="1" wid="w183">a</wf>
+    <wf sent="6" para="2" offset="964" length="1" wid="w184">“</wf>
+    <wf sent="6" para="2" offset="965" length="5" wid="w185">false</wf>
+    <wf sent="6" para="2" offset="971" length="6" wid="w186">choice</wf>
+    <wf sent="6" para="2" offset="977" length="1" wid="w187">”</wf>
+    <wf sent="6" para="2" offset="978" length="1" wid="w188">.</wf>
+  </text>
+  <terms>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t163">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t164">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--told-->
+    <term type="open" lemma="tell" pos="V" morphofeat="VBD" tid="t165">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--BBC-->
+    <term type="close" lemma="BBC" pos="R" morphofeat="NNP" tid="t166">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--Radio-->
+    <term type="close" lemma="Radio" pos="R" morphofeat="NNP" tid="t167">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--4-->
+    <term type="close" lemma="4" pos="O" morphofeat="CD" tid="t168">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--’s-->
+    <term type="open" lemma="’s" pos="N" morphofeat="NNS" tid="t169">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--Today-->
+    <term type="close" lemma="Today" pos="R" morphofeat="NNP" tid="t170">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--programme-->
+    <term type="open" lemma="programme" pos="N" morphofeat="NN" tid="t171">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="P" morphofeat="IN" tid="t172">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--an-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t173">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--immediate-->
+    <term type="open" lemma="immediate" pos="G" morphofeat="JJ" tid="t174">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--“-->
+    <term type="open" lemma="“" pos="N" morphofeat="NN" tid="t175">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t176">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--or-->
+    <term type="close" lemma="or" pos="C" morphofeat="CC" tid="t177">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--out-->
+    <term type="close" lemma="out" pos="P" morphofeat="IN" tid="t178">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="G" morphofeat="JJ" tid="t179">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--vote-->
+    <term type="open" lemma="vote" pos="N" morphofeat="NN" tid="t180">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--would-->
+    <term type="close" lemma="would" pos="O" morphofeat="MD" tid="t181">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t182">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t183">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--“-->
+    <term type="open" lemma="“" pos="N" morphofeat="NN" tid="t184">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--false-->
+    <term type="open" lemma="false" pos="G" morphofeat="JJ" tid="t185">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--choice-->
+    <term type="open" lemma="choice" pos="N" morphofeat="NN" tid="t186">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="N" morphofeat="NN" tid="t187">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t188">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--choice-->
+        <span>
+          <target id="t186"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--false-->
+        <span>
+          <target id="t185"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

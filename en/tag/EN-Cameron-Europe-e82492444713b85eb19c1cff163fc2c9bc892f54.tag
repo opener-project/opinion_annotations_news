@@ -1,0 +1,16 @@
+w180	They	they	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	179	true	7
+w181	were	be	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	180	true	7
+w182	meeting	meet	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	181	true	7
+w183	with	with	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	182	true	7
+w184	doctors	doctor	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	183	true	7
+w185	and	and	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	184	true	7
+w186	victims	victim	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	185	true	7
+w187	at	at	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	186	true	7
+w188	a	a	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	187	true	7
+w189	makeshift	makeshift	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	188	true	7
+w190	hospital	hospital	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	189	true	7
+w191	when	when	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	190	true	7
+w192	they	they	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	191	true	7
+w193	came	come	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	192	true	7
+w194	under	under	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	193	true	7
+w195	fire	fire	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	194	true	7

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:08:16" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:56:01CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:22CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="13" para="2" offset="1986" length="3" wid="w356">The</wf>
+    <wf sent="13" para="2" offset="1990" length="5" wid="w357">talks</wf>
+    <wf sent="13" para="2" offset="1996" length="2" wid="w358">do</wf>
+    <wf sent="13" para="2" offset="1999" length="3" wid="w359">not</wf>
+    <wf sent="13" para="2" offset="2003" length="7" wid="w360">include</wf>
+    <wf sent="13" para="2" offset="2011" length="6" wid="w361">Syrian</wf>
+    <wf sent="13" para="2" offset="2018" length="6" wid="w362">allies</wf>
+    <wf sent="13" para="2" offset="2025" length="6" wid="w363">Russia</wf>
+    <wf sent="13" para="2" offset="2031" length="1" wid="w364">,</wf>
+    <wf sent="13" para="2" offset="2033" length="5" wid="w365">China</wf>
+    <wf sent="13" para="2" offset="2039" length="2" wid="w366">or</wf>
+    <wf sent="13" para="2" offset="2042" length="4" wid="w367">Iran</wf>
+    <wf sent="13" para="2" offset="2046" length="1" wid="w368">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t356">
+      <span>
+        <target id="w356"/>
+      </span>
+    </term>
+    <!--talks-->
+    <term type="open" lemma="talk" pos="N" morphofeat="NNS" tid="t357">
+      <span>
+        <target id="w357"/>
+      </span>
+    </term>
+    <!--do-->
+    <term type="open" lemma="do" pos="V" morphofeat="VBP" tid="t358">
+      <span>
+        <target id="w358"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t359">
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <!--include-->
+    <term type="open" lemma="include" pos="V" morphofeat="VB" tid="t360">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+    <!--Syrian-->
+    <term type="open" lemma="syrian" pos="G" morphofeat="JJ" tid="t361">
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <!--allies-->
+    <term type="open" lemma="ally" pos="N" morphofeat="NNS" tid="t362">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <!--Russia-->
+    <term type="close" lemma="Russia" pos="R" morphofeat="NNP" tid="t363">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t364">
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <!--China-->
+    <term type="close" lemma="China" pos="R" morphofeat="NNP" tid="t365">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <!--or-->
+    <term type="close" lemma="or" pos="C" morphofeat="CC" tid="t366">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <!--Iran-->
+    <term type="close" lemma="Iran" pos="R" morphofeat="NNP" tid="t367">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t368">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t356"/>
+          <target id="t357"/>
+          <target id="t358"/>
+          <target id="t359"/>
+          <target id="t360"/>
+          <target id="t361"/>
+          <target id="t362"/>
+          <target id="t363"/>
+          <target id="t364"/>
+          <target id="t365"/>
+          <target id="t366"/>
+          <target id="t367"/>
+          <target id="t368"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

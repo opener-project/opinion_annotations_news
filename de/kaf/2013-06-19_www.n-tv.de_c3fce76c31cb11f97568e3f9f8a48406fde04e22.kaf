@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T10:36:52Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T10:36:52Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:47:31CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T11:38:03CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w137" sent="9" para="3" offset="660" length="3">Ich</wf>
+    <wf wid="w138" sent="9" para="3" offset="664" length="5">fühle</wf>
+    <wf wid="w139" sent="9" para="3" offset="670" length="4">mich</wf>
+    <wf wid="w140" sent="9" para="3" offset="675" length="2">so</wf>
+    <wf wid="w141" sent="9" para="3" offset="678" length="4">wohl</wf>
+    <wf wid="w142" sent="9" para="3" offset="683" length="4">hier</wf>
+    <wf wid="w143" sent="9" para="3" offset="687" length="1">,</wf>
+    <wf wid="w144" sent="9" para="3" offset="689" length="4">dass</wf>
+    <wf wid="w145" sent="9" para="3" offset="694" length="3">ich</wf>
+    <wf wid="w146" sent="9" para="3" offset="698" length="4">mein</wf>
+    <wf wid="w147" sent="9" para="3" offset="703" length="7">Jackett</wf>
+    <wf wid="w148" sent="9" para="3" offset="711" length="9">ausziehen</wf>
+    <wf wid="w149" sent="9" para="3" offset="721" length="5">werde</wf>
+    <wf wid="w150" sent="9" para="3" offset="726" length="1">.</wf>
+    <wf wid="w151" sent="9" para="3" offset="728" length="1">(</wf>
+    <wf wid="w152" sent="9" para="3" offset="729" length="3">...</wf>
+    <wf wid="w153" sent="9" para="3" offset="732" length="1">)</wf>
+  </text>
+  <terms>
+    <term lemma="ich" morphofeat="PPER" pos="Q" tid="t137" type="close">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <term lemma="fühlen" morphofeat="VVFIN" pos="V" tid="t138" type="open">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <term lemma="ich" morphofeat="PRF" pos="Q" tid="t139" type="close">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <term lemma="so" morphofeat="ADV" pos="A" tid="t140" type="open">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <term lemma="wohl" morphofeat="ADV" pos="A" tid="t141" type="open">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <term lemma="hier" morphofeat="ADV" pos="A" tid="t142" type="open">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t143" type="open">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <term lemma="dass" morphofeat="KOUS" pos="C" tid="t144" type="close">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <term lemma="ich" morphofeat="PPER" pos="Q" tid="t145" type="close">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <term lemma="mein" morphofeat="PPOSAT" pos="Q" tid="t146" type="close">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <term lemma="Jackett" morphofeat="NN" pos="N" tid="t147" type="open">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <term lemma="ausziehen" morphofeat="VVINF" pos="V" tid="t148" type="open">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t149" type="open">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t150" type="open">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="$(" pos="O" tid="t151" type="open">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <term lemma="..." morphofeat="$." pos="O" tid="t152" type="open">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat="$(" pos="O" tid="t153" type="open">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--ich-->
+        <span>
+          <target id="t145"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Jackett-->
+        <span>
+          <target id="t147"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--ausziehen werde-->
+        <span>
+          <target id="t148"/>
+          <target id="t149"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Ich-->
+        <span>
+          <target id="t137"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--hier-->
+        <span>
+          <target id="t142"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--fühle mich so wohl-->
+        <span>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

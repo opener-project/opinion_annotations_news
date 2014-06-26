@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:22:54Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:22:54Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:50:45CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:23:16CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w272" sent="25" para="8" offset="1610" length="2">Es</wf>
+    <wf wid="w273" sent="25" para="8" offset="1613" length="3">war</wf>
+    <wf wid="w274" sent="25" para="8" offset="1617" length="7">Ashtons</wf>
+    <wf wid="w275" sent="25" para="8" offset="1625" length="6">zweite</wf>
+    <wf wid="w276" sent="25" para="8" offset="1632" length="7">Mission</wf>
+    <wf wid="w277" sent="25" para="8" offset="1640" length="9">innerhalb</wf>
+    <wf wid="w278" sent="25" para="8" offset="1650" length="3">von</wf>
+    <wf wid="w279" sent="25" para="8" offset="1654" length="4">zwei</wf>
+    <wf wid="w280" sent="25" para="8" offset="1659" length="6">Wochen</wf>
+    <wf wid="w281" sent="25" para="8" offset="1665" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t272" type="close">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t273" type="open">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <term lemma="Ashtons" morphofeat="NN unknown_lemma" pos="O" tid="t274" type="open">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <term lemma="zweit" morphofeat="ADJA" pos="G" tid="t275" type="open">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <term lemma="Mission" morphofeat="NN" pos="N" tid="t276" type="open">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <term lemma="innerhalb" morphofeat="APPR" pos="P" tid="t277" type="close">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t278" type="close">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <term lemma="zwei" morphofeat="CARD" pos="O" tid="t279" type="open">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <term lemma="Woche" morphofeat="NN" pos="N" tid="t280" type="open">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t281" type="open">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t272"/>
+          <target id="t273"/>
+          <target id="t274"/>
+          <target id="t275"/>
+          <target id="t276"/>
+          <target id="t277"/>
+          <target id="t278"/>
+          <target id="t279"/>
+          <target id="t280"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

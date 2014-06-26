@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:08:50" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:49:56CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:52CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="4" para="2" offset="526" length="6" wid="w88">France</wf>
+    <wf sent="4" para="2" offset="532" length="2" wid="w89">'s</wf>
+    <wf sent="4" para="2" offset="535" length="5" wid="w90">newly</wf>
+    <wf sent="4" para="2" offset="541" length="7" wid="w91">elected</wf>
+    <wf sent="4" para="2" offset="549" length="9" wid="w92">president</wf>
+    <wf sent="4" para="2" offset="558" length="1" wid="w93">,</wf>
+    <wf sent="4" para="2" offset="560" length="8" wid="w94">François</wf>
+    <wf sent="4" para="2" offset="569" length="8" wid="w95">Hollande</wf>
+    <wf sent="4" para="2" offset="577" length="1" wid="w96">,</wf>
+    <wf sent="4" para="2" offset="579" length="5" wid="w97">waves</wf>
+    <wf sent="4" para="2" offset="585" length="4" wid="w98">from</wf>
+    <wf sent="4" para="2" offset="590" length="1" wid="w99">a</wf>
+    <wf sent="4" para="2" offset="592" length="7" wid="w100">balcony</wf>
+    <wf sent="4" para="2" offset="600" length="2" wid="w101">at</wf>
+    <wf sent="4" para="2" offset="603" length="3" wid="w102">his</wf>
+    <wf sent="4" para="2" offset="607" length="8" wid="w103">campaign</wf>
+    <wf sent="4" para="2" offset="616" length="12" wid="w104">headquarters</wf>
+    <wf sent="4" para="2" offset="629" length="2" wid="w105">in</wf>
+    <wf sent="4" para="2" offset="632" length="5" wid="w106">Paris</wf>
+    <wf sent="4" para="2" offset="638" length="2" wid="w107">on</wf>
+    <wf sent="4" para="2" offset="641" length="6" wid="w108">Monday</wf>
+    <wf sent="4" para="2" offset="647" length="1" wid="w109">.</wf>
+  </text>
+  <terms>
+    <!--France-->
+    <term type="close" lemma="France" pos="R" morphofeat="NNP" tid="t88">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t89">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--newly-->
+    <term type="open" lemma="newly" pos="A" morphofeat="RB" tid="t90">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--elected-->
+    <term type="open" lemma="elect" pos="V" morphofeat="VBN" tid="t91">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--president-->
+    <term type="open" lemma="president" pos="N" morphofeat="NN" tid="t92">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t93">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--François-->
+    <term type="close" lemma="François" pos="R" morphofeat="NNP" tid="t94">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term type="close" lemma="Hollande" pos="R" morphofeat="NNP" tid="t95">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t96">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--waves-->
+    <term type="open" lemma="wave" pos="N" morphofeat="NNS" tid="t97">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t98">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t99">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--balcony-->
+    <term type="open" lemma="balcony" pos="N" morphofeat="NN" tid="t100">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--at-->
+    <term type="close" lemma="at" pos="P" morphofeat="IN" tid="t101">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--his-->
+    <term type="close" lemma="his" pos="Q" morphofeat="PRP$" tid="t102">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--campaign-->
+    <term type="open" lemma="campaign" pos="N" morphofeat="NN" tid="t103">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--headquarters-->
+    <term type="open" lemma="headquarters" pos="N" morphofeat="NN" tid="t104">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t105">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--Paris-->
+    <term type="close" lemma="Paris" pos="R" morphofeat="NNP" tid="t106">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t107">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--Monday-->
+    <term type="close" lemma="Monday" pos="R" morphofeat="NNP" tid="t108">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t109">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

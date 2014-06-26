@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:44:11CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w81" sent="5" para="2" offset="463" length="1">“</wf>
+    <wf wid="w82" sent="5" para="2" offset="464" length="3">Wij</wf>
+    <wf wid="w83" sent="5" para="2" offset="468" length="6">kiezen</wf>
+    <wf wid="w84" sent="5" para="2" offset="475" length="4">voor</wf>
+    <wf wid="w85" sent="5" para="2" offset="480" length="3">het</wf>
+    <wf wid="w86" sent="5" para="2" offset="484" length="1">‘</wf>
+    <wf wid="w87" sent="5" para="2" offset="485" length="4">full</wf>
+    <wf wid="w88" sent="5" para="2" offset="490" length="6">option</wf>
+    <wf wid="w89" sent="5" para="2" offset="497" length="5">model</wf>
+    <wf wid="w90" sent="5" para="2" offset="502" length="1">'</wf>
+    <wf wid="w91" sent="5" para="2" offset="503" length="1">“</wf>
+    <wf wid="w92" sent="5" para="2" offset="504" length="1">,</wf>
+    <wf wid="w93" sent="5" para="2" offset="506" length="3">zei</wf>
+    <wf wid="w94" sent="5" para="2" offset="510" length="8">Reynders</wf>
+    <wf wid="w95" sent="5" para="2" offset="519" length="2">op</wf>
+    <wf wid="w96" sent="5" para="2" offset="522" length="2">de</wf>
+    <wf wid="w97" sent="5" para="2" offset="525" length="10">jaarlijkse</wf>
+    <wf wid="w98" sent="5" para="2" offset="536" length="11">bijeenkomst</wf>
+    <wf wid="w99" sent="5" para="2" offset="548" length="3">van</wf>
+    <wf wid="w100" sent="5" para="2" offset="552" length="2">de</wf>
+    <wf wid="w101" sent="5" para="2" offset="555" length="9">Belgische</wf>
+    <wf wid="w102" sent="5" para="2" offset="565" length="12">ambassadeurs</wf>
+    <wf wid="w103" sent="5" para="2" offset="577" length="1">,</wf>
+    <wf wid="w104" sent="5" para="2" offset="579" length="16">consuls-generaal</wf>
+    <wf wid="w105" sent="5" para="2" offset="596" length="2">en</wf>
+    <wf wid="w106" sent="5" para="2" offset="599" length="10">permanente</wf>
+    <wf wid="w107" sent="5" para="2" offset="610" length="18">vertegenwoordigers</wf>
+    <wf wid="w108" sent="5" para="2" offset="629" length="10">wereldwijd</wf>
+    <wf wid="w109" sent="5" para="2" offset="639" length="1">.</wf>
+    <wf wid="w110" sent="6" para="2" offset="641" length="4">Voor</wf>
+    <wf wid="w111" sent="6" para="2" offset="646" length="3">het</wf>
+    <wf wid="w112" sent="6" para="2" offset="650" length="5">eerst</wf>
+    <wf wid="w113" sent="6" para="2" offset="656" length="8">tekenden</wf>
+    <wf wid="w114" sent="6" para="2" offset="665" length="3">ook</wf>
+    <wf wid="w115" sent="6" para="2" offset="669" length="6">enkele</wf>
+    <wf wid="w116" sent="6" para="2" offset="676" length="8">Europese</wf>
+    <wf wid="w117" sent="6" para="2" offset="685" length="17">collega-ministers</wf>
+    <wf wid="w118" sent="6" para="2" offset="703" length="7">present</wf>
+    <wf wid="w119" sent="6" para="2" offset="710" length="1">.</wf>
+  </text>
+  <terms>
+    <!--“-->
+    <term tid="t81" type="open" lemma="“" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--Wij-->
+    <term tid="t82" type="open" lemma="Wij" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--kiezen-->
+    <term tid="t83" type="open" lemma="kiezen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w83"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--voor-->
+    <term tid="t84" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t85" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--‘-->
+    <term tid="t86" type="open" lemma="‘" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--full-->
+    <term tid="t87" type="open" lemma="full" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--option-->
+    <term tid="t88" type="open" lemma="option" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--model-->
+    <term tid="t89" type="open" lemma="model" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t90" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--“-->
+    <term tid="t91" type="open" lemma="“" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t92" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--zei-->
+    <term tid="t93" type="open" lemma="zeggen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--Reynders-->
+    <term tid="t94" type="open" lemma="Reynders" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t95" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t96" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--jaarlijkse-->
+    <term tid="t97" type="open" lemma="jaarlijks" pos="G" morphofeat="adj">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--bijeenkomst-->
+    <term tid="t98" type="open" lemma="bijeenkomst" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w98"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--van-->
+    <term tid="t99" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t100" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--Belgische-->
+    <term tid="t101" type="open" lemma="Belgisch" pos="G" morphofeat="adj">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--ambassadeurs-->
+    <term tid="t102" type="open" lemma="ambassadeur" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t103" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--consuls-generaal-->
+    <term tid="t104" type="open" lemma="consul-generaal" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t105" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--permanente-->
+    <term tid="t106" type="open" lemma="permanent" pos="G" morphofeat="adj">
+      <span>
+        <target id="w106"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--vertegenwoordigers-->
+    <term tid="t107" type="open" lemma="vertegenwoordiger" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--wereldwijd-->
+    <term tid="t108" type="open" lemma="wereldwijd" pos="G" morphofeat="adj">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t109" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--Voor-->
+    <term tid="t110" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t111" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--eerst-->
+    <term tid="t112" type="open" lemma="eerst" pos="A" morphofeat="adv">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--tekenden-->
+    <term tid="t113" type="open" lemma="tekenen" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--ook-->
+    <term tid="t114" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--enkele-->
+    <term tid="t115" type="close" lemma="enkel" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w115"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Europese-->
+    <term tid="t116" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--collega-ministers-->
+    <term tid="t117" type="open" lemma="collega-minister" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--present-->
+    <term tid="t118" type="open" lemma="present" pos="G" morphofeat="adj">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t119" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Wij-->
+        <span>
+          <target id="t82"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--het ‘ full option model '-->
+        <span>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--kiezen voor-->
+        <span>
+          <target id="t83"/>
+          <target id="t84"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

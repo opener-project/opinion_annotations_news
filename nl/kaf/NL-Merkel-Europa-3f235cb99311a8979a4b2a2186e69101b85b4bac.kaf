@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:56Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:56Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:06:36CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w405" sent="20" para="2" offset="2393" length="7">Vrijdag</wf>
+    <wf wid="w406" sent="20" para="2" offset="2401" length="5">start</wf>
+    <wf wid="w407" sent="20" para="2" offset="2407" length="2">om</wf>
+    <wf wid="w408" sent="20" para="2" offset="2410" length="2">10</wf>
+    <wf wid="w409" sent="20" para="2" offset="2413" length="3">uur</wf>
+    <wf wid="w410" sent="20" para="2" offset="2417" length="2">de</wf>
+    <wf wid="w411" sent="20" para="2" offset="2420" length="6">tweede</wf>
+    <wf wid="w412" sent="20" para="2" offset="2427" length="3">dag</wf>
+    <wf wid="w413" sent="20" para="2" offset="2431" length="3">van</wf>
+    <wf wid="w414" sent="20" para="2" offset="2435" length="2">de</wf>
+    <wf wid="w415" sent="20" para="2" offset="2438" length="8">Europese</wf>
+    <wf wid="w416" sent="20" para="2" offset="2447" length="3">top</wf>
+    <wf wid="w417" sent="20" para="2" offset="2450" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Vrijdag-->
+    <term tid="t405" type="open" lemma="vrijdag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w405"/>
+      </span>
+    </term>
+    <!--start-->
+    <term tid="t406" type="open" lemma="starten" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t407" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+    <!--10-->
+    <term tid="t408" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+    <!--uur-->
+    <term tid="t409" type="open" lemma="uur" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t410" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <!--tweede-->
+    <term tid="t411" type="open" lemma="twee" pos="O" morphofeat="num__ord">
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <!--dag-->
+    <term tid="t412" type="open" lemma="dag" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t413" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t414" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w414"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t415" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w415"/>
+      </span>
+    </term>
+    <!--top-->
+    <term tid="t416" type="open" lemma="top" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w416"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t417" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t405"/>
+          <target id="t406"/>
+          <target id="t407"/>
+          <target id="t408"/>
+          <target id="t409"/>
+          <target id="t410"/>
+          <target id="t411"/>
+          <target id="t412"/>
+          <target id="t413"/>
+          <target id="t414"/>
+          <target id="t415"/>
+          <target id="t416"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

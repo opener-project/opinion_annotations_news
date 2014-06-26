@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:25Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:25Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:01:40" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:46:11CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="12" para="2" offset="2089" length="1" wid="w356">"</wf>
+    <wf sent="12" para="2" offset="2090" length="6" wid="w357">Spying</wf>
+    <wf sent="12" para="2" offset="2097" length="7" wid="w358">between</wf>
+    <wf sent="12" para="2" offset="2105" length="7" wid="w359">friends</wf>
+    <wf sent="12" para="2" offset="2112" length="1" wid="w360">,</wf>
+    <wf sent="12" para="2" offset="2114" length="4" wid="w361">that</wf>
+    <wf sent="12" para="2" offset="2118" length="2" wid="w362">'s</wf>
+    <wf sent="12" para="2" offset="2121" length="4" wid="w363">just</wf>
+    <wf sent="12" para="2" offset="2126" length="3" wid="w364">not</wf>
+    <wf sent="12" para="2" offset="2130" length="4" wid="w365">done</wf>
+    <wf sent="12" para="2" offset="2134" length="1" wid="w366">,</wf>
+    <wf sent="12" para="2" offset="2135" length="1" wid="w367">"</wf>
+    <wf sent="12" para="2" offset="2137" length="6" wid="w368">Merkel</wf>
+    <wf sent="12" para="2" offset="2144" length="4" wid="w369">said</wf>
+    <wf sent="12" para="2" offset="2148" length="1" wid="w370">,</wf>
+    <wf sent="12" para="2" offset="2150" length="2" wid="w371">as</wf>
+    <wf sent="12" para="2" offset="2153" length="3" wid="w372">she</wf>
+    <wf sent="12" para="2" offset="2157" length="3" wid="w373">was</wf>
+    <wf sent="12" para="2" offset="2161" length="7" wid="w374">heading</wf>
+    <wf sent="12" para="2" offset="2169" length="4" wid="w375">into</wf>
+    <wf sent="12" para="2" offset="2174" length="1" wid="w376">a</wf>
+    <wf sent="12" para="2" offset="2176" length="2" wid="w377">EU</wf>
+    <wf sent="12" para="2" offset="2179" length="6" wid="w378">summit</wf>
+    <wf sent="12" para="2" offset="2186" length="7" wid="w379">earlier</wf>
+    <wf sent="12" para="2" offset="2194" length="4" wid="w380">this</wf>
+    <wf sent="12" para="2" offset="2199" length="4" wid="w381">week</wf>
+    <wf sent="12" para="2" offset="2203" length="1" wid="w382">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="close" lemma="&quot;" pos="O" morphofeat="SYM" tid="t356">
+      <span>
+        <target id="w356"/>
+      </span>
+    </term>
+    <!--Spying-->
+    <term type="open" lemma="spy" pos="V" morphofeat="VBG" tid="t357">
+      <span>
+        <target id="w357"/>
+      </span>
+    </term>
+    <!--between-->
+    <term type="close" lemma="between" pos="P" morphofeat="IN" tid="t358">
+      <span>
+        <target id="w358"/>
+      </span>
+    </term>
+    <!--friends-->
+    <term type="open" lemma="friend" pos="N" morphofeat="NNS" tid="t359">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t360">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="D" morphofeat="DT" tid="t361">
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t362">
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <!--just-->
+    <term type="open" lemma="just" pos="A" morphofeat="RB" tid="t363">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t364">
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <!--done-->
+    <term type="open" lemma="do" pos="V" morphofeat="VBN" tid="t365">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t366">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t367">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t368">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t369">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t370">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t371">
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+    <!--she-->
+    <term type="close" lemma="she" pos="Q" morphofeat="PRP" tid="t372">
+      <span>
+        <target id="w372"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t373">
+      <span>
+        <target id="w373"/>
+      </span>
+    </term>
+    <!--heading-->
+    <term type="open" lemma="head" pos="V" morphofeat="VBG" tid="t374">
+      <span>
+        <target id="w374"/>
+      </span>
+    </term>
+    <!--into-->
+    <term type="close" lemma="into" pos="P" morphofeat="IN" tid="t375">
+      <span>
+        <target id="w375"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t376">
+      <span>
+        <target id="w376"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term type="close" lemma="EU" pos="R" morphofeat="NNP" tid="t377">
+      <span>
+        <target id="w377"/>
+      </span>
+    </term>
+    <!--summit-->
+    <term type="open" lemma="summit" pos="N" morphofeat="NN" tid="t378">
+      <span>
+        <target id="w378"/>
+      </span>
+    </term>
+    <!--earlier-->
+    <term type="open" lemma="earlier" pos="A" morphofeat="RBR" tid="t379">
+      <span>
+        <target id="w379"/>
+      </span>
+    </term>
+    <!--this-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t380">
+      <span>
+        <target id="w380"/>
+      </span>
+    </term>
+    <!--week-->
+    <term type="open" lemma="week" pos="N" morphofeat="NN" tid="t381">
+      <span>
+        <target id="w381"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t382">
+      <span>
+        <target id="w382"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--between friends-->
+        <span>
+          <target id="t358"/>
+          <target id="t359"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--Spying-->
+        <span>
+          <target id="t357"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

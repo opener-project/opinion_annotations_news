@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:46:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:46:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:46:09Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:22:27CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w293" sent="10" para="6" offset="1466" length="6">Colère</wf>
+    <wf wid="w294" sent="10" para="6" offset="1473" length="3">des</wf>
+    <wf wid="w295" sent="10" para="6" offset="1477" length="9">Européens</wf>
+  </text>
+  <terms>
+    <!--Colère-->
+    <term tid="t293" type="open" lemma="colère" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t294" type="close" lemma="des" pos="P" morphofeat="P">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--Européens-->
+    <term tid="t295" type="open" lemma="européen" pos="N" morphofeat="NCmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t293"/>
+          <target id="t294"/>
+          <target id="t295"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

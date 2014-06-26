@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:22:19Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:22:19Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:03:11CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:22:28CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w147" sent="13" para="7" offset="842" length="3">Wir</wf>
+    <wf wid="w148" sent="13" para="7" offset="846" length="6">helfen</wf>
+    <wf wid="w149" sent="13" para="7" offset="853" length="5">Ihnen</wf>
+    <wf wid="w150" sent="13" para="7" offset="859" length="5">gerne</wf>
+    <wf wid="w151" sent="13" para="7" offset="865" length="6">weiter</wf>
+    <wf wid="w152" sent="13" para="7" offset="871" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="wir" morphofeat="PPER" pos="Q" tid="t147" type="close">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <term lemma="helfen" morphofeat="VVFIN" pos="V" tid="t148" type="open">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <term lemma="Sie|sie" morphofeat="PPER" pos="Q" tid="t149" type="close">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <term lemma="gerne" morphofeat="ADV" pos="A" tid="t150" type="open">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <term lemma="weiter" morphofeat="PTKVZ" pos="V" tid="t151" type="open">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t152" type="open">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--helfen-->
+        <span>
+          <target id="t148"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--gerne-->
+        <span>
+          <target id="t150"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

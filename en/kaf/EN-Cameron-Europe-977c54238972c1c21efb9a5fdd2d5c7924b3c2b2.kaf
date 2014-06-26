@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:59Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:59Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:37:57" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:29:42CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="8" para="2" offset="1229" length="1" wid="w269">"</wf>
+    <wf sent="8" para="2" offset="1230" length="5" wid="w270">There</wf>
+    <wf sent="8" para="2" offset="1236" length="4" wid="w271">were</wf>
+    <wf sent="8" para="2" offset="1241" length="3" wid="w272">few</wf>
+    <wf sent="8" para="2" offset="1245" length="10" wid="w273">editorials</wf>
+    <wf sent="8" para="2" offset="1255" length="1" wid="w274">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="close" lemma="&quot;" pos="O" morphofeat="NN|JJ" tid="t269">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--There-->
+    <term type="close" lemma="there" pos="O" morphofeat="EX" tid="t270">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--were-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t271">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--few-->
+    <term type="open" lemma="few" pos="G" morphofeat="JJ" tid="t272">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--editorials-->
+    <term type="open" lemma="editorial" pos="N" morphofeat="NNS" tid="t273">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t274">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--editorials-->
+        <span>
+          <target id="t273"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--few-->
+        <span>
+          <target id="t272"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

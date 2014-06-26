@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:26:01Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:26:01Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:15:27CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:26:28CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w81" sent="8" para="5" offset="558" length="2">Er</wf>
+    <wf wid="w82" sent="8" para="5" offset="561" length="8">erklärte</wf>
+    <wf wid="w83" sent="8" para="5" offset="569" length="1">,</wf>
+    <wf wid="w84" sent="8" para="5" offset="571" length="3">die</wf>
+    <wf wid="w85" sent="8" para="5" offset="575" length="11">Forderungen</wf>
+    <wf wid="w86" sent="8" para="5" offset="587" length="5">seien</wf>
+    <wf wid="w87" sent="8" para="5" offset="593" length="10">vermutlich</wf>
+    <wf wid="w88" sent="8" para="5" offset="604" length="7">illegal</wf>
+    <wf wid="w89" sent="8" para="5" offset="612" length="3">und</wf>
+    <wf wid="w90" sent="8" para="5" offset="616" length="5">nicht</wf>
+    <wf wid="w91" sent="8" para="5" offset="622" length="12">durchsetzbar</wf>
+    <wf wid="w92" sent="8" para="5" offset="634" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t81" type="close">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <term lemma="erklären" morphofeat="VVFIN" pos="V" tid="t82" type="open">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t83" type="open">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t84" type="close">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <term lemma="Forderung" morphofeat="NN" pos="N" tid="t85" type="open">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t86" type="open">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <term lemma="vermutlich" morphofeat="ADV" pos="A" tid="t87" type="open">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <term lemma="illegal" morphofeat="ADJD" pos="G" tid="t88" type="open">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t89" type="close">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t90" type="open">
+      <span>
+        <target id="w90"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="durchsetzbar" morphofeat="ADJD" pos="G" tid="t91" type="open">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t92" type="open">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Er-->
+        <span>
+          <target id="t81"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die Forderungen-->
+        <span>
+          <target id="t84"/>
+          <target id="t85"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--nicht durchsetzbar-->
+        <span>
+          <target id="t90"/>
+          <target id="t91"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Er-->
+        <span>
+          <target id="t81"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die Forderungen-->
+        <span>
+          <target id="t84"/>
+          <target id="t85"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--vermutlich illegal-->
+        <span>
+          <target id="t87"/>
+          <target id="t88"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

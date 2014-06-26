@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:55Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:55Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:47:28CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w657" sent="31" para="2" offset="3591" length="3">Hij</wf>
+    <wf wid="w658" sent="31" para="2" offset="3595" length="4">ziet</wf>
+    <wf wid="w659" sent="31" para="2" offset="3600" length="4">voor</wf>
+    <wf wid="w660" sent="31" para="2" offset="3605" length="6">Europa</wf>
+    <wf wid="w661" sent="31" para="2" offset="3612" length="3">ook</wf>
+    <wf wid="w662" sent="31" para="2" offset="3616" length="3">een</wf>
+    <wf wid="w663" sent="31" para="2" offset="3620" length="11">belangrijke</wf>
+    <wf wid="w664" sent="31" para="2" offset="3632" length="3">rol</wf>
+    <wf wid="w665" sent="31" para="2" offset="3636" length="2">op</wf>
+    <wf wid="w666" sent="31" para="2" offset="3639" length="3">het</wf>
+    <wf wid="w667" sent="31" para="2" offset="3643" length="6">moment</wf>
+    <wf wid="w668" sent="31" para="2" offset="3650" length="3">dat</wf>
+    <wf wid="w669" sent="31" para="2" offset="3654" length="4">Mali</wf>
+    <wf wid="w670" sent="31" para="2" offset="3659" length="4">zich</wf>
+    <wf wid="w671" sent="31" para="2" offset="3664" length="8">herstelt</wf>
+    <wf wid="w672" sent="31" para="2" offset="3672" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hij-->
+    <term tid="t657" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w657"/>
+      </span>
+    </term>
+    <!--ziet-->
+    <term tid="t658" type="open" lemma="zien" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w658"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t659" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w659"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t660" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w660"/>
+      </span>
+    </term>
+    <!--ook-->
+    <term tid="t661" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w661"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t662" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w662"/>
+      </span>
+    </term>
+    <!--belangrijke-->
+    <term tid="t663" type="open" lemma="belangrijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w663"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--rol-->
+    <term tid="t664" type="open" lemma="rol" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w664"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t665" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w665"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t666" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w666"/>
+      </span>
+    </term>
+    <!--moment-->
+    <term tid="t667" type="open" lemma="moment" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w667"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t668" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w668"/>
+      </span>
+    </term>
+    <!--Mali-->
+    <term tid="t669" type="open" lemma="Mali" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w669"/>
+      </span>
+    </term>
+    <!--zich-->
+    <term tid="t670" type="close" lemma="zich" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w670"/>
+      </span>
+    </term>
+    <!--herstelt-->
+    <term tid="t671" type="open" lemma="herstellen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w671"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t672" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w672"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--rol-->
+        <span>
+          <target id="t664"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--belangrijke-->
+        <span>
+          <target id="t663"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

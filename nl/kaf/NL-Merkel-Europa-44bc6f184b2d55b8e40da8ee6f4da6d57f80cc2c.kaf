@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:35:15CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:35CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w47" sent="3" para="2" offset="286" length="2">De</wf>
+    <wf wid="w48" sent="3" para="2" offset="289" length="4">twee</wf>
+    <wf wid="w49" sent="3" para="2" offset="294" length="6">vieren</wf>
+    <wf wid="w50" sent="3" para="2" offset="301" length="2">50</wf>
+    <wf wid="w51" sent="3" para="2" offset="304" length="4">jaar</wf>
+    <wf wid="w52" sent="3" para="2" offset="309" length="11">vriendschap</wf>
+    <wf wid="w53" sent="3" para="2" offset="320" length="1">.</wf>
+    <wf wid="w91" sent="5" para="2" offset="557" length="2">De</wf>
+    <wf wid="w92" sent="5" para="2" offset="560" length="6">Gaulle</wf>
+    <wf wid="w93" sent="5" para="2" offset="567" length="2">en</wf>
+    <wf wid="w94" sent="5" para="2" offset="570" length="8">Adenauer</wf>
+    <wf wid="w95" sent="5" para="2" offset="579" length="6">konden</wf>
+    <wf wid="w96" sent="5" para="2" offset="586" length="4">goed</wf>
+    <wf wid="w97" sent="5" para="2" offset="591" length="3">met</wf>
+    <wf wid="w98" sent="5" para="2" offset="595" length="6">elkaar</wf>
+    <wf wid="w99" sent="5" para="2" offset="602" length="7">overweg</wf>
+    <wf wid="w100" sent="5" para="2" offset="610" length="2">en</wf>
+    <wf wid="w101" sent="5" para="2" offset="613" length="7">stelden</wf>
+    <wf wid="w102" sent="5" para="2" offset="621" length="8">destijds</wf>
+    <wf wid="w103" sent="5" para="2" offset="630" length="5">samen</wf>
+    <wf wid="w104" sent="5" para="2" offset="636" length="4">vast</wf>
+    <wf wid="w105" sent="5" para="2" offset="641" length="3">dat</wf>
+    <wf wid="w106" sent="5" para="2" offset="645" length="12">Frans-Duitse</wf>
+    <wf wid="w107" sent="5" para="2" offset="658" length="11">vriendschap</wf>
+    <wf wid="w108" sent="5" para="2" offset="670" length="9">onmisbaar</wf>
+    <wf wid="w109" sent="5" para="2" offset="680" length="2">is</wf>
+    <wf wid="w110" sent="5" para="2" offset="683" length="2">op</wf>
+    <wf wid="w111" sent="5" para="2" offset="686" length="2">de</wf>
+    <wf wid="w112" sent="5" para="2" offset="689" length="3">weg</wf>
+    <wf wid="w113" sent="5" para="2" offset="693" length="4">naar</wf>
+    <wf wid="w114" sent="5" para="2" offset="698" length="3">een</wf>
+    <wf wid="w115" sent="5" para="2" offset="702" length="8">verenigd</wf>
+    <wf wid="w116" sent="5" para="2" offset="711" length="6">Europa</wf>
+    <wf wid="w117" sent="5" para="2" offset="717" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t47" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--twee-->
+    <term tid="t48" type="open" lemma="twee" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--vieren-->
+    <term tid="t49" type="open" lemma="vier" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--50-->
+    <term tid="t50" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--jaar-->
+    <term tid="t51" type="open" lemma="jaar" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--vriendschap-->
+    <term tid="t52" type="open" lemma="vriendschap" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w52"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t53" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t91" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--Gaulle-->
+    <term tid="t92" type="open" lemma="Gaulle" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t93" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--Adenauer-->
+    <term tid="t94" type="open" lemma="Adenauer" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--konden-->
+    <term tid="t95" type="open" lemma="kunnen" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--goed-->
+    <term tid="t96" type="open" lemma="goed" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w96"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--met-->
+    <term tid="t97" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--elkaar-->
+    <term tid="t98" type="close" lemma="elkaar" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--overweg-->
+    <term tid="t99" type="open" lemma="overweg" pos="A" morphofeat="adv">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t100" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--stelden-->
+    <term tid="t101" type="open" lemma="stellen" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w101"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--destijds-->
+    <term tid="t102" type="open" lemma="destijds" pos="A" morphofeat="adv">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--samen-->
+    <term tid="t103" type="open" lemma="samen" pos="A" morphofeat="adv">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--vast-->
+    <term tid="t104" type="open" lemma="vast" pos="G" morphofeat="adj">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t105" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--Frans-Duitse-->
+    <term tid="t106" type="open" lemma="Frans-Duitse" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--vriendschap-->
+    <term tid="t107" type="open" lemma="vriendschap" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w107"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--onmisbaar-->
+    <term tid="t108" type="open" lemma="onmisbaar" pos="G" morphofeat="adj">
+      <span>
+        <target id="w108"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--is-->
+    <term tid="t109" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t110" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t111" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--weg-->
+    <term tid="t112" type="open" lemma="weg" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w112"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--naar-->
+    <term tid="t113" type="close" lemma="naar" pos="P" morphofeat="prep">
+      <span>
+        <target id="w113"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--een-->
+    <term tid="t114" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--verenigd-->
+    <term tid="t115" type="open" lemma="verenigen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t116" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t117" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--De twee-->
+        <span>
+          <target id="t47"/>
+          <target id="t48"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--50 jaar vriendschap-->
+        <span>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--vieren-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--vriendschap-->
+        <span>
+          <target id="t107"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--vriendschap-->
+        <span>
+          <target id="t52"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Adenauer-->
+        <span>
+          <target id="t94"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Frans-Duitse vriendschap-->
+        <span>
+          <target id="t106"/>
+          <target id="t107"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--onmisbaar is-->
+        <span>
+          <target id="t108"/>
+          <target id="t109"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--De Gaulle-->
+        <span>
+          <target id="t91"/>
+          <target id="t92"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Frans-Duitse vriendschap-->
+        <span>
+          <target id="t106"/>
+          <target id="t107"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--onmisbaar is-->
+        <span>
+          <target id="t108"/>
+          <target id="t109"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

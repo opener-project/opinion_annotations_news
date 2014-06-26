@@ -1,0 +1,14 @@
+w92	Die	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	91	true	5
+w93	symbolträchtige	symbolträchtig	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	92	true	5
+w94	Terminwahl	Terminwahl	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	93	true	5
+w95	illustriert	illustrieren	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	94	true	5
+w96	aber	aber	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	95	true	5
+w97	auch	auch	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	96	true	5
+w98	den	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	97	true	5
+w99	Wandel	Wandel	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	98	true	5
+w100	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	99	true	5
+w101	der	die	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	100	true	5
+w102	sich	sich	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	101	true	5
+w103	seitdem	seitdem	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	102	true	5
+w104	vollzog	vollziehen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	103	true	5
+w105	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	104	true	5

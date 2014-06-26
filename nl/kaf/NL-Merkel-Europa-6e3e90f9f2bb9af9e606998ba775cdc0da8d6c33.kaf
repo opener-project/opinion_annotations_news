@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:56Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:56Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:53:11CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w301" sent="16" para="2" offset="1688" length="3">Een</wf>
+    <wf wid="w302" sent="16" para="2" offset="1692" length="13">faillissement</wf>
+    <wf wid="w303" sent="16" para="2" offset="1706" length="2">is</wf>
+    <wf wid="w304" sent="16" para="2" offset="1709" length="13">onontkoombaar</wf>
+    <wf wid="w305" sent="16" para="2" offset="1722" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Een-->
+    <term tid="t301" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--faillissement-->
+    <term tid="t302" type="open" lemma="faillissement" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w302"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--is-->
+    <term tid="t303" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--onontkoombaar-->
+    <term tid="t304" type="open" lemma="onontkoombaar" pos="G" morphofeat="adj">
+      <span>
+        <target id="w304"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t305" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Een faillissement-->
+        <span>
+          <target id="t301"/>
+          <target id="t302"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--onontkoombaar-->
+        <span>
+          <target id="t304"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

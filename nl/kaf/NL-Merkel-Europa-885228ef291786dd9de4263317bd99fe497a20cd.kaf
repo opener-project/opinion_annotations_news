@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:37:40CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w115" sent="8" para="2" offset="652" length="2">De</wf>
+    <wf wid="w116" sent="8" para="2" offset="655" length="6">Britse</wf>
+    <wf wid="w117" sent="8" para="2" offset="662" length="7">premier</wf>
+    <wf wid="w118" sent="8" para="2" offset="670" length="5">David</wf>
+    <wf wid="w119" sent="8" para="2" offset="676" length="7">Cameron</wf>
+    <wf wid="w120" sent="8" para="2" offset="684" length="3">zal</wf>
+    <wf wid="w121" sent="8" para="2" offset="688" length="6">Poetin</wf>
+    <wf wid="w122" sent="8" para="2" offset="695" length="7">maandag</wf>
+    <wf wid="w123" sent="8" para="2" offset="703" length="6">bellen</wf>
+    <wf wid="w124" sent="8" para="2" offset="709" length="1">.</wf>
+    <wf wid="w258" sent="18" para="2" offset="1458" length="7">Rusland</wf>
+    <wf wid="w259" sent="18" para="2" offset="1466" length="6">steunt</wf>
+    <wf wid="w260" sent="18" para="2" offset="1473" length="3">het</wf>
+    <wf wid="w261" sent="18" para="2" offset="1477" length="8">Syrische</wf>
+    <wf wid="w262" sent="18" para="2" offset="1486" length="6">bewind</wf>
+    <wf wid="w263" sent="18" para="2" offset="1493" length="2">en</wf>
+    <wf wid="w264" sent="18" para="2" offset="1496" length="5">heeft</wf>
+    <wf wid="w265" sent="18" para="2" offset="1502" length="14">internationale</wf>
+    <wf wid="w266" sent="18" para="2" offset="1517" length="12">veroordeling</wf>
+    <wf wid="w267" sent="18" para="2" offset="1530" length="11">geblokkeerd</wf>
+    <wf wid="w268" sent="18" para="2" offset="1541" length="1">.</wf>
+    <wf wid="w269" sent="18" para="2" offset="1542" length="1">|</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t115" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--Britse-->
+    <term tid="t116" type="open" lemma="Brits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t117" type="open" lemma="premier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w117"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--David-->
+    <term tid="t118" type="open" lemma="David" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t119" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--zal-->
+    <term tid="t120" type="open" lemma="zullen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--Poetin-->
+    <term tid="t121" type="open" lemma="Poetin" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--maandag-->
+    <term tid="t122" type="open" lemma="maandag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--bellen-->
+    <term tid="t123" type="open" lemma="bellen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t124" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--Rusland-->
+    <term tid="t258" type="open" lemma="Rusland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--steunt-->
+    <term tid="t259" type="open" lemma="steunen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t260" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--Syrische-->
+    <term tid="t261" type="open" lemma="Syrische" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--bewind-->
+    <term tid="t262" type="open" lemma="bewind" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t263" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--heeft-->
+    <term tid="t264" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--internationale-->
+    <term tid="t265" type="open" lemma="internationaal" pos="G" morphofeat="adj">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--veroordeling-->
+    <term tid="t266" type="open" lemma="veroordeling" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w266"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--geblokkeerd-->
+    <term tid="t267" type="open" lemma="blokkeren" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t268" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--|-->
+    <term tid="t269" type="open" lemma="|" pos="O" morphofeat="punc">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Rusland-->
+        <span>
+          <target id="t258"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--het Syrische bewind-->
+        <span>
+          <target id="t260"/>
+          <target id="t261"/>
+          <target id="t262"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--steunt-->
+        <span>
+          <target id="t259"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--veroordeling-->
+        <span>
+          <target id="t266"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Rusland-->
+        <span>
+          <target id="t258"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--internationale veroordeling-->
+        <span>
+          <target id="t265"/>
+          <target id="t266"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--geblokkeerd-->
+        <span>
+          <target id="t267"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

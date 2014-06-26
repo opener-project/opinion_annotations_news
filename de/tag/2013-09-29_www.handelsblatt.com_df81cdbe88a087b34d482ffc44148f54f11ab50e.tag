@@ -1,0 +1,11 @@
+w511	Faymann	Faymann	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	510	true	30
+w512	ist	sein	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	511	true	30
+w513	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	512	true	30
+w514	zweiter	zweit	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	513	true	30
+w515	Ehe	Ehe	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	514	true	30
+w516	verheiratet	verheiraten	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	515	true	30
+w517	und	und	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	516	true	30
+w518	hat	haben	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	517	true	30
+w519	zwei	zwei	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	518	true	30
+w520	Töchter	Tochter	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	519	true	30
+w521	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	520	true	30

@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:58Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:58Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:03:44" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:47:21CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="5" wid="w1">Boris</wf>
+    <wf sent="1" para="1" offset="6" length="5" wid="w2">wants</wf>
+    <wf sent="1" para="1" offset="12" length="2" wid="w3">UK</wf>
+    <wf sent="1" para="1" offset="15" length="2" wid="w4">in</wf>
+    <wf sent="1" para="1" offset="18" length="2" wid="w5">EU</wf>
+    <wf sent="1" para="1" offset="21" length="1" wid="w6">'</wf>
+    <wf sent="1" para="1" offset="22" length="5" wid="w7">outer</wf>
+    <wf sent="1" para="1" offset="28" length="4" wid="w8">tier</wf>
+    <wf sent="1" para="1" offset="32" length="1" wid="w9">'</wf>
+  </text>
+  <terms>
+    <!--Boris-->
+    <term type="open" lemma="boris" pos="N" morphofeat="NNS" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--wants-->
+    <term type="open" lemma="want" pos="V" morphofeat="VBZ" tid="t2">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--UK-->
+    <term type="close" lemma="UK" pos="R" morphofeat="NNP" tid="t3">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t4">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term type="close" lemma="EU" pos="R" morphofeat="NNP" tid="t5">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="POS" tid="t6">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--outer-->
+    <term type="open" lemma="outer" pos="G" morphofeat="JJ" tid="t7">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--tier-->
+    <term type="open" lemma="tier" pos="N" morphofeat="NN" tid="t8">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="''" tid="t9">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Boris-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--UK in EU ' outer tier-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wants-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

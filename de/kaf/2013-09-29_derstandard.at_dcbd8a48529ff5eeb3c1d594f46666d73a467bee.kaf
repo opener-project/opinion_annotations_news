@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:56:32Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:56:32Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:09:24CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:56:46CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:13CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w163" sent="11" para="7" offset="1109" length="3">Die</wf>
+    <wf wid="w164" sent="11" para="7" offset="1113" length="2">EU</wf>
+    <wf wid="w165" sent="11" para="7" offset="1116" length="3">sei</wf>
+    <wf wid="w166" sent="11" para="7" offset="1120" length="1">"</wf>
+    <wf wid="w167" sent="11" para="7" offset="1121" length="2">zu</wf>
+    <wf wid="w168" sent="11" para="7" offset="1124" length="11">wettbewerbs</wf>
+    <wf wid="w169" sent="11" para="7" offset="1135" length="1">·</wf>
+    <wf wid="w170" sent="11" para="7" offset="1137" length="3">und</wf>
+    <wf wid="w171" sent="11" para="7" offset="1141" length="21">unternehmensfeindlich</wf>
+    <wf wid="w172" sent="11" para="7" offset="1163" length="3">und</wf>
+    <wf wid="w173" sent="11" para="7" offset="1167" length="2">zu</wf>
+    <wf wid="w174" sent="11" para="7" offset="1170" length="12">bürokratisch</wf>
+    <wf wid="w175" sent="11" para="7" offset="1182" length="1">"</wf>
+    <wf wid="w176" sent="11" para="7" offset="1184" length="8">geworden</wf>
+    <wf wid="w177" sent="11" para="7" offset="1192" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t163" type="close">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t164" type="open">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t165" type="open">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t166" type="open">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPR" pos="P" tid="t167" type="close">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <term lemma="wettbewerbs" morphofeat="ADJA unknown_lemma" pos="O" tid="t168" type="open">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t169" type="open">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t170" type="close">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <term lemma="unternehmensfeindlich" morphofeat="ADJD unknown_lemma" pos="O" tid="t171" type="open">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t172" type="close">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="PTKA" pos="O" tid="t173" type="open">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <term lemma="bürokratisch" morphofeat="ADJD" pos="G" tid="t174" type="open">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t175" type="open">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAPP" pos="V" tid="t176" type="open">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t177" type="open">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Die EU-->
+        <span>
+          <target id="t163"/>
+          <target id="t164"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--zu wettbewerbs · und unternehmensfeindlich-->
+        <span>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Die EU-->
+        <span>
+          <target id="t163"/>
+          <target id="t164"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--zu bürokratisch-->
+        <span>
+          <target id="t173"/>
+          <target id="t174"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:45:32Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:45:32Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:12:36CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:45:50CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w114" sent="11" para="5" offset="725" length="2">In</wf>
+    <wf wid="w115" sent="11" para="5" offset="728" length="6">großer</wf>
+    <wf wid="w116" sent="11" para="5" offset="735" length="5">Runde</wf>
+    <wf wid="w117" sent="11" para="5" offset="741" length="6">wollen</wf>
+    <wf wid="w118" sent="11" para="5" offset="748" length="4">sich</wf>
+    <wf wid="w119" sent="11" para="5" offset="753" length="3">die</wf>
+    <wf wid="w120" sent="11" para="5" offset="757" length="2">75</wf>
+    <wf wid="w121" sent="11" para="5" offset="760" length="17">Parteienvertreter</wf>
+    <wf wid="w122" sent="11" para="5" offset="778" length="3">bis</wf>
+    <wf wid="w123" sent="11" para="5" offset="782" length="4">Ende</wf>
+    <wf wid="w124" sent="11" para="5" offset="787" length="8">November</wf>
+    <wf wid="w125" sent="11" para="5" offset="796" length="9">insgesamt</wf>
+    <wf wid="w126" sent="11" para="5" offset="806" length="4">acht</wf>
+    <wf wid="w127" sent="11" para="5" offset="811" length="3">Mal</wf>
+    <wf wid="w128" sent="11" para="5" offset="815" length="7">treffen</wf>
+    <wf wid="w129" sent="11" para="5" offset="822" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t114" type="close">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <term lemma="groß" morphofeat="ADJA" pos="G" tid="t115" type="open">
+      <span>
+        <target id="w115"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Runde" morphofeat="NN" pos="N" tid="t116" type="open">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t117" type="open">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t118" type="close">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t119" type="close">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <term lemma="75" morphofeat="CARD" pos="O" tid="t120" type="open">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <term lemma="Parteienvertreter" morphofeat="NN" pos="N" tid="t121" type="open">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <term lemma="bis" morphofeat="KON" pos="C" tid="t122" type="close">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <term lemma="Ende" morphofeat="NN" pos="N" tid="t123" type="open">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <term lemma="November" morphofeat="NN" pos="N" tid="t124" type="open">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <term lemma="insgesamt" morphofeat="ADV" pos="A" tid="t125" type="open">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <term lemma="acht" morphofeat="CARD" pos="O" tid="t126" type="open">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <term lemma="Mal" morphofeat="NN" pos="N" tid="t127" type="open">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <term lemma="treffen" morphofeat="VVINF" pos="V" tid="t128" type="open">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t129" type="open">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

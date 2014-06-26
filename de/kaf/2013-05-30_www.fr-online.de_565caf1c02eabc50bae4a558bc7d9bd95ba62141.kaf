@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T18:12:38Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T18:12:38Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:54:50CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T19:13:08CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w4" sent="2" para="2" offset="21" length="9">Kanzlerin</wf>
+    <wf wid="w5" sent="2" para="2" offset="31" length="6">Angela</wf>
+    <wf wid="w6" sent="2" para="2" offset="38" length="6">Merkel</wf>
+    <wf wid="w7" sent="2" para="2" offset="45" length="4">weiß</wf>
+    <wf wid="w8" sent="2" para="2" offset="49" length="1">:</wf>
+    <wf wid="w9" sent="2" para="2" offset="51" length="3">Sie</wf>
+    <wf wid="w10" sent="2" para="2" offset="55" length="7">braucht</wf>
+    <wf wid="w11" sent="2" para="2" offset="63" length="8">Hollande</wf>
+    <wf wid="w12" sent="2" para="2" offset="71" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Kanzlerin" morphofeat="NN" pos="N" tid="t4" type="open">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="Angela" morphofeat="NE" pos="R" tid="t5" type="open">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t6" type="open">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="wissen" morphofeat="VVFIN" pos="V" tid="t7" type="open">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma=":" morphofeat="$." pos="O" tid="t8" type="open">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="Sie|sie" morphofeat="PPER" pos="Q" tid="t9" type="close">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="brauchen" morphofeat="VVFIN" pos="V" tid="t10" type="open">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="Hollande" morphofeat="NN unknown_lemma" pos="O" tid="t11" type="open">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t12" type="open">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Sie-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Hollande-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--braucht-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

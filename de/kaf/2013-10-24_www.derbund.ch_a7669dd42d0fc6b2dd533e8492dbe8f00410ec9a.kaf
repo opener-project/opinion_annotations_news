@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:47:51Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:47:51Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:15:44CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:48:24CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:35CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w36" sent="5" para="3" offset="202" length="15">Bundeskanzlerin</wf>
+    <wf wid="w37" sent="5" para="3" offset="218" length="6">Angela</wf>
+    <wf wid="w38" sent="5" para="3" offset="225" length="6">Merkel</wf>
+    <wf wid="w39" sent="5" para="3" offset="232" length="3">ist</wf>
+    <wf wid="w40" sent="5" para="3" offset="236" length="9">entrüstet</wf>
+    <wf wid="w41" sent="5" para="3" offset="246" length="4">über</wf>
+    <wf wid="w42" sent="5" para="3" offset="251" length="8">Berichte</wf>
+    <wf wid="w43" sent="5" para="3" offset="259" length="1">,</wf>
+    <wf wid="w44" sent="5" para="3" offset="261" length="3">die</wf>
+    <wf wid="w45" sent="5" para="3" offset="265" length="3">NSA</wf>
+    <wf wid="w46" sent="5" para="3" offset="269" length="4">habe</wf>
+    <wf wid="w47" sent="5" para="3" offset="274" length="3">ihr</wf>
+    <wf wid="w48" sent="5" para="3" offset="278" length="12">Mobiltelefon</wf>
+    <wf wid="w49" sent="5" para="3" offset="291" length="9">überwacht</wf>
+    <wf wid="w50" sent="5" para="3" offset="300" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Bundeskanzlerin" morphofeat="NN" pos="N" tid="t36" type="open">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="Angela" morphofeat="NE" pos="R" tid="t37" type="open">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t38" type="open">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t39" type="open">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="entrüstet" morphofeat="ADJD" pos="G" tid="t40" type="open">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="über" morphofeat="APPR" pos="P" tid="t41" type="close">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term lemma="Bericht" morphofeat="NN" pos="N" tid="t42" type="open">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t43" type="open">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t44" type="close">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="NSA" morphofeat="NN unknown_lemma" pos="O" tid="t45" type="open">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t46" type="open">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <term lemma="ihr" morphofeat="PPOSAT" pos="Q" tid="t47" type="close">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <term lemma="Mobiltelefon" morphofeat="NN" pos="N" tid="t48" type="open">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <term lemma="überwachen" morphofeat="VVPP" pos="V" tid="t49" type="open">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t50" type="open">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Bundeskanzlerin Angela Merkel-->
+        <span>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Berichte-->
+        <span>
+          <target id="t42"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ist entrüstet über-->
+        <span>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

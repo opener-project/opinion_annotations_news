@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:40Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:40Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:48:58" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:48:33CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="10" para="2" offset="1429" length="3" wid="w262">The</wf>
+    <wf sent="10" para="2" offset="1433" length="3" wid="w263">Met</wf>
+    <wf sent="10" para="2" offset="1437" length="6" wid="w264">Office</wf>
+    <wf sent="10" para="2" offset="1444" length="6" wid="w265">warned</wf>
+    <wf sent="10" para="2" offset="1451" length="2" wid="w266">of</wf>
+    <wf sent="10" para="2" offset="1454" length="9" wid="w267">potential</wf>
+    <wf sent="10" para="2" offset="1464" length="10" wid="w268">disruption</wf>
+    <wf sent="10" para="2" offset="1475" length="2" wid="w269">to</wf>
+    <wf sent="10" para="2" offset="1478" length="9" wid="w270">transport</wf>
+    <wf sent="10" para="2" offset="1488" length="3" wid="w271">and</wf>
+    <wf sent="10" para="2" offset="1492" length="5" wid="w272">power</wf>
+    <wf sent="10" para="2" offset="1498" length="8" wid="w273">supplies</wf>
+    <wf sent="10" para="2" offset="1506" length="1" wid="w274">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t262">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--Met-->
+    <term type="close" lemma="Met" pos="R" morphofeat="NNP" tid="t263">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--Office-->
+    <term type="close" lemma="Office" pos="R" morphofeat="NNP" tid="t264">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--warned-->
+    <term type="open" lemma="warn" pos="V" morphofeat="VBD" tid="t265">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t266">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--potential-->
+    <term type="open" lemma="potential" pos="G" morphofeat="JJ" tid="t267">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--disruption-->
+    <term type="open" lemma="disruption" pos="N" morphofeat="NN" tid="t268">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t269">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--transport-->
+    <term type="open" lemma="transport" pos="V" morphofeat="VB" tid="t270">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t271">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--power-->
+    <term type="open" lemma="power" pos="V" morphofeat="VB" tid="t272">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--supplies-->
+    <term type="open" lemma="supply" pos="N" morphofeat="NNS" tid="t273">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t274">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--to transport-->
+        <span>
+          <target id="t269"/>
+          <target id="t270"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--potential disruption-->
+        <span>
+          <target id="t267"/>
+          <target id="t268"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--power supplies-->
+        <span>
+          <target id="t272"/>
+          <target id="t273"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--potential disruption-->
+        <span>
+          <target id="t267"/>
+          <target id="t268"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--The Met Office-->
+        <span>
+          <target id="t262"/>
+          <target id="t263"/>
+          <target id="t264"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--potential disruption to transport and power supplies-->
+        <span>
+          <target id="t267"/>
+          <target id="t268"/>
+          <target id="t269"/>
+          <target id="t270"/>
+          <target id="t271"/>
+          <target id="t272"/>
+          <target id="t273"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--warned-->
+        <span>
+          <target id="t265"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,11 @@
+w238	Das	die	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	237	true	17
+w239	ist	sein	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	238	true	17
+w240	ein	eine	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	239	true	17
+w241	Gerät	Gerät	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	240	true	17
+w242	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	241	true	17
+w243	das	die	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	242	true	17
+w244	durch	durch	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	243	true	17
+w245	Stromstöße	Stromstoß	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	244	true	17
+w246	Herzrhythmusstörungen	Herzrhythmusstörung	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	245	true	17
+w247	beenden	beenden	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	246	true	17
+w248	kann	können	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	247	true	17

@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:58Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:58Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:38:50" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:10:50CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="12" para="2" offset="1489" length="1" wid="w280">"</wf>
+    <wf sent="12" para="2" offset="1490" length="3" wid="w281">The</wf>
+    <wf sent="12" para="2" offset="1494" length="4" wid="w282">vote</wf>
+    <wf sent="12" para="2" offset="1499" length="7" wid="w283">calling</wf>
+    <wf sent="12" para="2" offset="1507" length="3" wid="w284">for</wf>
+    <wf sent="12" para="2" offset="1511" length="6" wid="w285">regret</wf>
+    <wf sent="12" para="2" offset="1518" length="4" wid="w286">over</wf>
+    <wf sent="12" para="2" offset="1523" length="3" wid="w287">the</wf>
+    <wf sent="12" para="2" offset="1527" length="5" wid="w288">Queen</wf>
+    <wf sent="12" para="2" offset="1532" length="2" wid="w289">'s</wf>
+    <wf sent="12" para="2" offset="1535" length="6" wid="w290">speech</wf>
+    <wf sent="12" para="2" offset="1542" length="3" wid="w291">was</wf>
+    <wf sent="12" para="2" offset="1546" length="8" wid="w292">defeated</wf>
+    <wf sent="12" para="2" offset="1555" length="2" wid="w293">by</wf>
+    <wf sent="12" para="2" offset="1558" length="3" wid="w294">277</wf>
+    <wf sent="12" para="2" offset="1562" length="2" wid="w295">to</wf>
+    <wf sent="12" para="2" offset="1565" length="3" wid="w296">130</wf>
+    <wf sent="12" para="2" offset="1568" length="1" wid="w297">,</wf>
+    <wf sent="12" para="2" offset="1570" length="9" wid="w298">including</wf>
+    <wf sent="12" para="2" offset="1580" length="2" wid="w299">11</wf>
+    <wf sent="12" para="2" offset="1583" length="6" wid="w300">Labour</wf>
+    <wf sent="12" para="2" offset="1590" length="3" wid="w301">MPs</wf>
+    <wf sent="12" para="2" offset="1594" length="3" wid="w302">and</wf>
+    <wf sent="12" para="2" offset="1598" length="3" wid="w303">one</wf>
+    <wf sent="12" para="2" offset="1602" length="7" wid="w304">Liberal</wf>
+    <wf sent="12" para="2" offset="1610" length="8" wid="w305">Democrat</wf>
+    <wf sent="12" para="2" offset="1618" length="1" wid="w306">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t280">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t281">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--vote-->
+    <term type="open" lemma="vote" pos="N" morphofeat="NN" tid="t282">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--calling-->
+    <term type="open" lemma="call" pos="V" morphofeat="VBG" tid="t283">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t284">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--regret-->
+    <term type="open" lemma="regret" pos="N" morphofeat="NN" tid="t285">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--over-->
+    <term type="close" lemma="over" pos="P" morphofeat="IN" tid="t286">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t287">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--Queen-->
+    <term type="close" lemma="Queen" pos="R" morphofeat="NNP" tid="t288">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t289">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--speech-->
+    <term type="open" lemma="speech" pos="N" morphofeat="NN" tid="t290">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t291">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--defeated-->
+    <term type="open" lemma="defeat" pos="V" morphofeat="VBN" tid="t292">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t293">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--277-->
+    <term type="close" lemma="277" pos="O" morphofeat="CD" tid="t294">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t295">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--130-->
+    <term type="close" lemma="130" pos="O" morphofeat="CD" tid="t296">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t297">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--including-->
+    <term type="open" lemma="include" pos="V" morphofeat="VBG" tid="t298">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--11-->
+    <term type="close" lemma="11" pos="O" morphofeat="CD" tid="t299">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--Labour-->
+    <term type="close" lemma="labour" pos="Q" morphofeat="PRP$" tid="t300">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--MPs-->
+    <term type="open" lemma="mps" pos="N" morphofeat="NNS" tid="t301">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t302">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--one-->
+    <term type="open" lemma="one" pos="N" morphofeat="NN" tid="t303">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--Liberal-->
+    <term type="open" lemma="liberal" pos="G" morphofeat="JJ" tid="t304">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <!--Democrat-->
+    <term type="close" lemma="Democrat" pos="R" morphofeat="NNP" tid="t305">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t306">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t281"/>
+          <target id="t282"/>
+          <target id="t283"/>
+          <target id="t284"/>
+          <target id="t285"/>
+          <target id="t286"/>
+          <target id="t287"/>
+          <target id="t288"/>
+          <target id="t289"/>
+          <target id="t290"/>
+          <target id="t291"/>
+          <target id="t292"/>
+          <target id="t293"/>
+          <target id="t294"/>
+          <target id="t295"/>
+          <target id="t296"/>
+          <target id="t297"/>
+          <target id="t298"/>
+          <target id="t299"/>
+          <target id="t300"/>
+          <target id="t301"/>
+          <target id="t302"/>
+          <target id="t303"/>
+          <target id="t304"/>
+          <target id="t305"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

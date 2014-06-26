@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:54:55Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:54:55Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:54:55Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:25:05CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w79" sent="6" para="6" offset="396" length="1">«</wf>
+    <wf wid="w80" sent="6" para="6" offset="397" length="11">Chancelière</wf>
+    <wf wid="w81" sent="6" para="6" offset="409" length="2">de</wf>
+    <wf wid="w82" sent="6" para="6" offset="412" length="2">l'</wf>
+    <wf wid="w83" sent="6" para="6" offset="414" length="9">austérité</wf>
+    <wf wid="w84" sent="6" para="6" offset="423" length="1">»</wf>
+  </text>
+  <terms>
+    <!--«-->
+    <term tid="t79" type="close" lemma="«" pos="D" morphofeat="Dfp">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--Chancelière-->
+    <term tid="t80" type="open" lemma="chancelier" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t81" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t82" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--austérité-->
+    <term tid="t83" type="open" lemma="austérité" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t84" type="open" lemma="»" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Chancelière-->
+        <span>
+          <target id="t80"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--de l' austérité-->
+        <span>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

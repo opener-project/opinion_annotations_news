@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:56Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:56Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:03:14" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:42:46CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="11" para="2" offset="981" length="3" wid="w192">The</wf>
+    <wf sent="11" para="2" offset="985" length="9" wid="w193">socialist</wf>
+    <wf sent="11" para="2" offset="995" length="5" wid="w194">group</wf>
+    <wf sent="11" para="2" offset="1001" length="6" wid="w195">leader</wf>
+    <wf sent="11" para="2" offset="1007" length="1" wid="w196">,</wf>
+    <wf sent="11" para="2" offset="1009" length="6" wid="w197">Hannes</wf>
+    <wf sent="11" para="2" offset="1016" length="7" wid="w198">Swoboda</wf>
+    <wf sent="11" para="2" offset="1023" length="1" wid="w199">,</wf>
+    <wf sent="11" para="2" offset="1025" length="4" wid="w200">said</wf>
+    <wf sent="11" para="2" offset="1030" length="3" wid="w201">the</wf>
+    <wf sent="11" para="2" offset="1034" length="10" wid="w202">compromise</wf>
+    <wf sent="11" para="2" offset="1045" length="3" wid="w203">was</wf>
+    <wf sent="11" para="2" offset="1049" length="1" wid="w204">"</wf>
+    <wf sent="11" para="2" offset="1050" length="3" wid="w205">not</wf>
+    <wf sent="11" para="2" offset="1054" length="5" wid="w206">ideal</wf>
+    <wf sent="11" para="2" offset="1059" length="1" wid="w207">,</wf>
+    <wf sent="11" para="2" offset="1061" length="3" wid="w208">but</wf>
+    <wf sent="11" para="2" offset="1065" length="5" wid="w209">there</wf>
+    <wf sent="11" para="2" offset="1071" length="3" wid="w210">are</wf>
+    <wf sent="11" para="2" offset="1075" length="8" wid="w211">decisive</wf>
+    <wf sent="11" para="2" offset="1084" length="12" wid="w212">improvements</wf>
+    <wf sent="11" para="2" offset="1096" length="1" wid="w213">"</wf>
+    <wf sent="11" para="2" offset="1097" length="1" wid="w214">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t192">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--socialist-->
+    <term type="open" lemma="socialist" pos="G" morphofeat="JJ" tid="t193">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--group-->
+    <term type="open" lemma="group" pos="N" morphofeat="NN" tid="t194">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--leader-->
+    <term type="open" lemma="leader" pos="N" morphofeat="NN" tid="t195">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t196">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--Hannes-->
+    <term type="close" lemma="Hannes" pos="R" morphofeat="NNP" tid="t197">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--Swoboda-->
+    <term type="close" lemma="Swoboda" pos="R" morphofeat="NNP" tid="t198">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t199">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t200">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t201">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--compromise-->
+    <term type="open" lemma="compromise" pos="N" morphofeat="NN" tid="t202">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t203">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="G" morphofeat="JJ" tid="t204">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t205">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--ideal-->
+    <term type="open" lemma="ideal" pos="G" morphofeat="JJ" tid="t206">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t207">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--but-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t208">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--there-->
+    <term type="close" lemma="there" pos="O" morphofeat="EX" tid="t209">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t210">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--decisive-->
+    <term type="open" lemma="decisive" pos="G" morphofeat="JJ" tid="t211">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--improvements-->
+    <term type="open" lemma="improvement" pos="N" morphofeat="NNS" tid="t212">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="V" morphofeat="VBP" tid="t213">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t214">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--improvements-->
+        <span>
+          <target id="t212"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

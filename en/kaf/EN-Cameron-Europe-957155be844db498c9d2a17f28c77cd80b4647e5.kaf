@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:41Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:41Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:22:59" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:26:01CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="8" para="2" offset="649" length="2" wid="w124">Mr</wf>
+    <wf sent="8" para="2" offset="652" length="7" wid="w125">Cameron</wf>
+    <wf sent="8" para="2" offset="660" length="4" wid="w126">also</wf>
+    <wf sent="8" para="2" offset="665" length="7" wid="w127">ordered</wf>
+    <wf sent="8" para="2" offset="673" length="1" wid="w128">a</wf>
+    <wf sent="8" para="2" offset="675" length="6" wid="w129">review</wf>
+    <wf sent="8" para="2" offset="682" length="4" wid="w130">into</wf>
+    <wf sent="8" para="2" offset="687" length="9" wid="w131">so-called</wf>
+    <wf sent="8" para="2" offset="697" length="5" wid="w132">green</wf>
+    <wf sent="8" para="2" offset="703" length="5" wid="w133">taxes</wf>
+    <wf sent="8" para="2" offset="708" length="1" wid="w134">.</wf>
+  </text>
+  <terms>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t124">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t125">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t126">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--ordered-->
+    <term type="open" lemma="order" pos="V" morphofeat="VBD" tid="t127">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t128">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--review-->
+    <term type="open" lemma="review" pos="N" morphofeat="NN" tid="t129">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--into-->
+    <term type="close" lemma="into" pos="P" morphofeat="IN" tid="t130">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--so-called-->
+    <term type="open" lemma="so-called" pos="G" morphofeat="JJ" tid="t131">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--green-->
+    <term type="open" lemma="green" pos="G" morphofeat="JJ" tid="t132">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--taxes-->
+    <term type="open" lemma="tax" pos="N" morphofeat="NNS" tid="t133">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t134">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+          <target id="t132"/>
+          <target id="t133"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

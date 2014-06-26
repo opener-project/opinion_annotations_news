@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:18:09CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:28CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w397" sent="25" para="2" offset="2296" length="4">Zelf</wf>
+    <wf wid="w398" sent="25" para="2" offset="2301" length="6">begint</wf>
+    <wf wid="w399" sent="25" para="2" offset="2308" length="6">Merkel</wf>
+    <wf wid="w400" sent="25" para="2" offset="2315" length="3">aan</wf>
+    <wf wid="w401" sent="25" para="2" offset="2319" length="4">haar</wf>
+    <wf wid="w402" sent="25" para="2" offset="2324" length="5">derde</wf>
+    <wf wid="w403" sent="25" para="2" offset="2330" length="12">ambtstermijn</wf>
+    <wf wid="w404" sent="25" para="2" offset="2343" length="3">als</wf>
+    <wf wid="w405" sent="25" para="2" offset="2347" length="14">bondskanselier</wf>
+    <wf wid="w406" sent="25" para="2" offset="2361" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Zelf-->
+    <term tid="t397" type="close" lemma="zelf" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <!--begint-->
+    <term tid="t398" type="open" lemma="beginnen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t399" type="open" lemma="Merkel" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w399"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t400" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+    <!--haar-->
+    <term tid="t401" type="close" lemma="haar" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <!--derde-->
+    <term tid="t402" type="open" lemma="derde" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <!--ambtstermijn-->
+    <term tid="t403" type="open" lemma="ambtstermijn" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+    <!--als-->
+    <term tid="t404" type="close" lemma="als" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+    <!--bondskanselier-->
+    <term tid="t405" type="open" lemma="bondskanselier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w405"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t406" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t397"/>
+          <target id="t398"/>
+          <target id="t399"/>
+          <target id="t400"/>
+          <target id="t401"/>
+          <target id="t402"/>
+          <target id="t403"/>
+          <target id="t404"/>
+          <target id="t405"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

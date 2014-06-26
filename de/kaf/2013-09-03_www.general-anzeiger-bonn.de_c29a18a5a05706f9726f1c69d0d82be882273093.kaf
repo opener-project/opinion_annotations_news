@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:04:16Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:04:16Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:50:13CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:04:37CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="7">Merkels</wf>
+    <wf wid="w2" sent="1" para="1" offset="8" length="4">Euro</wf>
+    <wf wid="w3" sent="1" para="1" offset="12" length="1">·</wf>
+    <wf wid="w4" sent="1" para="1" offset="13" length="8">Vorwürfe</wf>
+    <wf wid="w5" sent="1" para="1" offset="22" length="7">empören</wf>
+    <wf wid="w6" sent="1" para="1" offset="30" length="3">die</wf>
+    <wf wid="w7" sent="1" para="1" offset="34" length="3">SPD</wf>
+    <wf wid="w359" sent="21" para="9" offset="2159" length="7">Geführt</wf>
+    <wf wid="w360" sent="21" para="9" offset="2167" length="5">wurde</wf>
+    <wf wid="w361" sent="21" para="9" offset="2173" length="3">das</wf>
+    <wf wid="w362" sent="21" para="9" offset="2177" length="9">Interview</wf>
+    <wf wid="w363" sent="21" para="9" offset="2187" length="7">bereits</wf>
+    <wf wid="w364" sent="21" para="9" offset="2195" length="2">am</wf>
+    <wf wid="w365" sent="21" para="9" offset="2198" length="3">26.</wf>
+    <wf wid="w366" sent="21" para="9" offset="2202" length="6">August</wf>
+    <wf wid="w367" sent="21" para="9" offset="2208" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t1" type="open">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="Euro" morphofeat="NN" pos="N" tid="t2" type="open">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t3" type="open">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="Vorwurf" morphofeat="NN" pos="N" tid="t4" type="open">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="empören" morphofeat="VVFIN" pos="V" tid="t5" type="open">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t6" type="close">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="SPD" morphofeat="NE" pos="R" tid="t7" type="open">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="führen" morphofeat="VVPP" pos="V" tid="t359" type="open">
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t360" type="open">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t361" type="close">
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <term lemma="Interview" morphofeat="NN" pos="N" tid="t362" type="open">
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <term lemma="bereits" morphofeat="ADV" pos="A" tid="t363" type="open">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t364" type="close">
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <term lemma="26." morphofeat="CARD" pos="O" tid="t365" type="open">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <term lemma="August" morphofeat="NE" pos="R" tid="t366" type="open">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t367" type="open">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--die SPD-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Merkels Euro · Vorwürfe-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--empören-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t359"/>
+          <target id="t360"/>
+          <target id="t361"/>
+          <target id="t362"/>
+          <target id="t363"/>
+          <target id="t364"/>
+          <target id="t365"/>
+          <target id="t366"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:55Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:55Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:33:51CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w63" sent="5" para="2" offset="383" length="3">Dat</wf>
+    <wf wid="w64" sent="5" para="2" offset="387" length="8">schrijft</wf>
+    <wf wid="w65" sent="5" para="2" offset="396" length="2">de</wf>
+    <wf wid="w66" sent="5" para="2" offset="399" length="5">krant</wf>
+    <wf wid="w67" sent="5" para="2" offset="405" length="3">The</wf>
+    <wf wid="w68" sent="5" para="2" offset="409" length="11">Independent</wf>
+    <wf wid="w69" sent="5" para="2" offset="421" length="7">vandaag</wf>
+    <wf wid="w70" sent="5" para="2" offset="428" length="1">.</wf>
+    <wf wid="w108" sent="8" para="2" offset="681" length="3">Dat</wf>
+    <wf wid="w109" sent="8" para="2" offset="685" length="6">blijkt</wf>
+    <wf wid="w110" sent="8" para="2" offset="692" length="3">uit</wf>
+    <wf wid="w111" sent="8" para="2" offset="696" length="10">documenten</wf>
+    <wf wid="w112" sent="8" para="2" offset="707" length="3">van</wf>
+    <wf wid="w113" sent="8" para="2" offset="711" length="13">klokkenluider</wf>
+    <wf wid="w114" sent="8" para="2" offset="725" length="6">Edward</wf>
+    <wf wid="w115" sent="8" para="2" offset="732" length="7">Snowden</wf>
+    <wf wid="w116" sent="8" para="2" offset="739" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Dat-->
+    <term tid="t63" type="close" lemma="dat" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--schrijft-->
+    <term tid="t64" type="open" lemma="schrijven" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t65" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--krant-->
+    <term tid="t66" type="open" lemma="krant" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--The-->
+    <term tid="t67" type="open" lemma="The" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--Independent-->
+    <term tid="t68" type="open" lemma="Independent" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--vandaag-->
+    <term tid="t69" type="open" lemma="vandaag" pos="A" morphofeat="adv">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t70" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--Dat-->
+    <term tid="t108" type="close" lemma="dat" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--blijkt-->
+    <term tid="t109" type="open" lemma="blijken" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--uit-->
+    <term tid="t110" type="close" lemma="uit" pos="P" morphofeat="prep">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--documenten-->
+    <term tid="t111" type="open" lemma="document" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t112" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--klokkenluider-->
+    <term tid="t113" type="open" lemma="klokkenluider" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--Edward-->
+    <term tid="t114" type="open" lemma="Edward" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--Snowden-->
+    <term tid="t115" type="open" lemma="Snowden" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t116" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

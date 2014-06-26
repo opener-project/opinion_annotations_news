@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:56Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:56Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:31:11" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:43:15CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="324" length="3" wid="w67">The</wf>
+    <wf sent="5" para="2" offset="328" length="5" wid="w68">fixed</wf>
+    <wf sent="5" para="2" offset="334" length="6" wid="w69">assets</wf>
+    <wf sent="5" para="2" offset="341" length="1" wid="w70">–</wf>
+    <wf sent="5" para="2" offset="343" length="7" wid="w71">sorting</wf>
+    <wf sent="5" para="2" offset="351" length="7" wid="w72">offices</wf>
+    <wf sent="5" para="2" offset="359" length="3" wid="w73">and</wf>
+    <wf sent="5" para="2" offset="363" length="8" wid="w74">delivery</wf>
+    <wf sent="5" para="2" offset="372" length="7" wid="w75">offices</wf>
+    <wf sent="5" para="2" offset="380" length="1" wid="w76">–</wf>
+    <wf sent="5" para="2" offset="382" length="5" wid="w77">would</wf>
+    <wf sent="5" para="2" offset="388" length="2" wid="w78">be</wf>
+    <wf sent="5" para="2" offset="391" length="5" wid="w79">taken</wf>
+    <wf sent="5" para="2" offset="397" length="4" wid="w80">over</wf>
+    <wf sent="5" para="2" offset="402" length="2" wid="w81">by</wf>
+    <wf sent="5" para="2" offset="405" length="1" wid="w82">a</wf>
+    <wf sent="5" para="2" offset="407" length="3" wid="w83">new</wf>
+    <wf sent="5" para="2" offset="411" length="8" wid="w84">national</wf>
+    <wf sent="5" para="2" offset="420" length="12" wid="w85">organisation</wf>
+    <wf sent="5" para="2" offset="433" length="2" wid="w86">to</wf>
+    <wf sent="5" para="2" offset="436" length="2" wid="w87">be</wf>
+    <wf sent="5" para="2" offset="439" length="6" wid="w88">called</wf>
+    <wf sent="5" para="2" offset="446" length="7" wid="w89">Network</wf>
+    <wf sent="5" para="2" offset="454" length="4" wid="w90">Mail</wf>
+    <wf sent="5" para="2" offset="458" length="1" wid="w91">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t67">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--fixed-->
+    <term type="open" lemma="fixed" pos="G" morphofeat="JJ" tid="t68">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--assets-->
+    <term type="open" lemma="asset" pos="N" morphofeat="NNS" tid="t69">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--–-->
+    <term type="open" lemma="–" pos="V" morphofeat="VBP" tid="t70">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--sorting-->
+    <term type="open" lemma="sort" pos="V" morphofeat="VBG" tid="t71">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--offices-->
+    <term type="open" lemma="office" pos="N" morphofeat="NNS" tid="t72">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t73">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--delivery-->
+    <term type="open" lemma="delivery" pos="N" morphofeat="NN" tid="t74">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--offices-->
+    <term type="open" lemma="office" pos="N" morphofeat="NNS" tid="t75">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--–-->
+    <term type="open" lemma="–" pos="V" morphofeat="VBP" tid="t76">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--would-->
+    <term type="close" lemma="would" pos="O" morphofeat="MD" tid="t77">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t78">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--taken-->
+    <term type="open" lemma="take" pos="V" morphofeat="VBN" tid="t79">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--over-->
+    <term type="open" lemma="over" pos="A" morphofeat="RB" tid="t80">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t81">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t82">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--new-->
+    <term type="open" lemma="new" pos="G" morphofeat="JJ" tid="t83">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--national-->
+    <term type="open" lemma="national" pos="G" morphofeat="JJ" tid="t84">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--organisation-->
+    <term type="open" lemma="organisation" pos="N" morphofeat="NN" tid="t85">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t86">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t87">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--called-->
+    <term type="open" lemma="call" pos="V" morphofeat="VBN" tid="t88">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--Network-->
+    <term type="close" lemma="Network" pos="R" morphofeat="NNP" tid="t89">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--Mail-->
+    <term type="close" lemma="Mail" pos="R" morphofeat="NNP" tid="t90">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t91">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t67"/>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+          <target id="t72"/>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+          <target id="t79"/>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

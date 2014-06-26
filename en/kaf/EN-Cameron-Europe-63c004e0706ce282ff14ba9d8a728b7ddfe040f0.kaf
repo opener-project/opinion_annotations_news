@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:14Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:14Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:25:52" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:10:49CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="7" para="2" offset="1176" length="7" wid="w215">British</wf>
+    <wf sent="7" para="2" offset="1184" length="5" wid="w216">Prime</wf>
+    <wf sent="7" para="2" offset="1190" length="8" wid="w217">Minister</wf>
+    <wf sent="7" para="2" offset="1199" length="5" wid="w218">David</wf>
+    <wf sent="7" para="2" offset="1205" length="7" wid="w219">Cameron</wf>
+    <wf sent="7" para="2" offset="1213" length="4" wid="w220">said</wf>
+    <wf sent="7" para="2" offset="1218" length="7" wid="w221">earlier</wf>
+    <wf sent="7" para="2" offset="1226" length="4" wid="w222">that</wf>
+    <wf sent="7" para="2" offset="1231" length="2" wid="w223">he</wf>
+    <wf sent="7" para="2" offset="1234" length="1" wid="w224">"</wf>
+    <wf sent="7" para="2" offset="1235" length="12" wid="w225">respectfully</wf>
+    <wf sent="7" para="2" offset="1247" length="1" wid="w226">"</wf>
+    <wf sent="7" para="2" offset="1249" length="9" wid="w227">disagreed</wf>
+    <wf sent="7" para="2" offset="1259" length="4" wid="w228">with</wf>
+    <wf sent="7" para="2" offset="1264" length="5" wid="w229">those</wf>
+    <wf sent="7" para="2" offset="1270" length="8" wid="w230">comments</wf>
+    <wf sent="7" para="2" offset="1278" length="1" wid="w231">.</wf>
+  </text>
+  <terms>
+    <!--British-->
+    <term type="open" lemma="british" pos="G" morphofeat="JJ" tid="t215">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--Prime-->
+    <term type="close" lemma="Prime" pos="R" morphofeat="NNP" tid="t216">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--Minister-->
+    <term type="close" lemma="Minister" pos="R" morphofeat="NNP" tid="t217">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--David-->
+    <term type="close" lemma="David" pos="R" morphofeat="NNP" tid="t218">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t219">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t220">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--earlier-->
+    <term type="open" lemma="earlier" pos="A" morphofeat="RBR" tid="t221">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="P" morphofeat="IN" tid="t222">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t223">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="V" morphofeat="VBZ" tid="t224">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--respectfully-->
+    <term type="open" lemma="respectfully" pos="A" morphofeat="RB" tid="t225">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="G" morphofeat="JJ" tid="t226">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--disagreed-->
+    <term type="open" lemma="disagreed" pos="N" morphofeat="NN" tid="t227">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t228">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--those-->
+    <term type="close" lemma="those" pos="D" morphofeat="DT" tid="t229">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--comments-->
+    <term type="open" lemma="comment" pos="N" morphofeat="NNS" tid="t230">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t231">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--disagreed-->
+        <span>
+          <target id="t227"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--respectfully-->
+        <span>
+          <target id="t225"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--British Prime Minister David Cameron-->
+        <span>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--those comments-->
+        <span>
+          <target id="t229"/>
+          <target id="t230"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--said-->
+        <span>
+          <target id="t220"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--British Prime Minister David Cameron-->
+        <span>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--those comments-->
+        <span>
+          <target id="t229"/>
+          <target id="t230"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--" respectfully " disagreed-->
+        <span>
+          <target id="t224"/>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

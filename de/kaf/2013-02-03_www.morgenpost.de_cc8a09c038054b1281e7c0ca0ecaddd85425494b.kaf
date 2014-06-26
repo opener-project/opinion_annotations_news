@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:34:22Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:34:22Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:51:59CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:34:51CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w262" sent="19" para="10" offset="1694" length="6">Grosse</wf>
+    <wf wid="w263" sent="19" para="10" offset="1700" length="1">·</wf>
+    <wf wid="w264" sent="19" para="10" offset="1701" length="6">Brömer</wf>
+    <wf wid="w265" sent="19" para="10" offset="1708" length="5">warnt</wf>
+    <wf wid="w266" sent="19" para="10" offset="1714" length="3">vor</wf>
+    <wf wid="w267" sent="19" para="10" offset="1718" length="7">eiliger</wf>
+    <wf wid="w268" sent="19" para="10" offset="1726" length="12">Entscheidung</wf>
+  </text>
+  <terms>
+    <term lemma="groß" morphofeat="ADJA" pos="G" tid="t262" type="open">
+      <span>
+        <target id="w262"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t263" type="open">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <term lemma="Brömer" morphofeat="NN unknown_lemma" pos="O" tid="t264" type="open">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <term lemma="warnen" morphofeat="VVFIN" pos="V" tid="t265" type="open">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <term lemma="vor" morphofeat="APPR" pos="P" tid="t266" type="close">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <term lemma="eilig" morphofeat="ADJA" pos="G" tid="t267" type="open">
+      <span>
+        <target id="w267"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Entscheidung" morphofeat="NN" pos="N" tid="t268" type="open">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Grosse · Brömer-->
+        <span>
+          <target id="t262"/>
+          <target id="t263"/>
+          <target id="t264"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--eiliger Entscheidung-->
+        <span>
+          <target id="t267"/>
+          <target id="t268"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--warnt-->
+        <span>
+          <target id="t265"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

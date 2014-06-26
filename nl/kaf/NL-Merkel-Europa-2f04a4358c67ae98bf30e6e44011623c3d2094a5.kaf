@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:41:53CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w132" sent="9" para="2" offset="785" length="2">De</wf>
+    <wf wid="w133" sent="9" para="2" offset="788" length="2">EU</wf>
+    <wf wid="w134" sent="9" para="2" offset="791" length="3">wil</wf>
+    <wf wid="w135" sent="9" para="2" offset="795" length="8">daarover</wf>
+    <wf wid="w136" sent="9" para="2" offset="804" length="8">volgende</wf>
+    <wf wid="w137" sent="9" para="2" offset="813" length="5">maand</wf>
+    <wf wid="w138" sent="9" para="2" offset="819" length="8">concrete</wf>
+    <wf wid="w139" sent="9" para="2" offset="828" length="9">besluiten</wf>
+    <wf wid="w140" sent="9" para="2" offset="838" length="5">nemen</wf>
+    <wf wid="w141" sent="9" para="2" offset="843" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t132" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term tid="t133" type="open" lemma="EU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t134" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--daarover-->
+    <term tid="t135" type="close" lemma="daarover" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--volgende-->
+    <term tid="t136" type="open" lemma="volgend" pos="G" morphofeat="adj">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--maand-->
+    <term tid="t137" type="open" lemma="maand" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--concrete-->
+    <term tid="t138" type="open" lemma="concreet" pos="G" morphofeat="adj">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--besluiten-->
+    <term tid="t139" type="open" lemma="besluit" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w139"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--nemen-->
+    <term tid="t140" type="open" lemma="nemen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w140"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t141" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--De EU-->
+        <span>
+          <target id="t132"/>
+          <target id="t133"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--concrete besluiten nemen-->
+        <span>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t134"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

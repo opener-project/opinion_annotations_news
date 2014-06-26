@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:58Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:58Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:47:21CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w315" sent="11" para="2" offset="1906" length="2">De</wf>
+    <wf wid="w316" sent="11" para="2" offset="1909" length="7">plannen</wf>
+    <wf wid="w317" sent="11" para="2" offset="1917" length="3">die</wf>
+    <wf wid="w318" sent="11" para="2" offset="1921" length="9">besproken</wf>
+    <wf wid="w319" sent="11" para="2" offset="1931" length="4">zijn</wf>
+    <wf wid="w320" sent="11" para="2" offset="1936" length="7">tijdens</wf>
+    <wf wid="w321" sent="11" para="2" offset="1944" length="3">het</wf>
+    <wf wid="w322" sent="11" para="2" offset="1948" length="7">overleg</wf>
+    <wf wid="w323" sent="11" para="2" offset="1956" length="6">worden</wf>
+    <wf wid="w324" sent="11" para="2" offset="1963" length="8">volgende</wf>
+    <wf wid="w325" sent="11" para="2" offset="1972" length="4">week</wf>
+    <wf wid="w326" sent="11" para="2" offset="1977" length="3">bij</wf>
+    <wf wid="w327" sent="11" para="2" offset="1981" length="2">de</wf>
+    <wf wid="w328" sent="11" para="2" offset="1984" length="7">eurotop</wf>
+    <wf wid="w329" sent="11" para="2" offset="1992" length="13">gepresenteerd</wf>
+    <wf wid="w330" sent="11" para="2" offset="2006" length="3">aan</wf>
+    <wf wid="w331" sent="11" para="2" offset="2010" length="2">de</wf>
+    <wf wid="w332" sent="11" para="2" offset="2013" length="6">andere</wf>
+    <wf wid="w333" sent="11" para="2" offset="2020" length="8">Europese</wf>
+    <wf wid="w334" sent="11" para="2" offset="2029" length="16">regeringsleiders</wf>
+    <wf wid="w335" sent="11" para="2" offset="2045" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t315" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <!--plannen-->
+    <term tid="t316" type="open" lemma="plan" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--die-->
+    <term tid="t317" type="close" lemma="die" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--besproken-->
+    <term tid="t318" type="open" lemma="bespreken" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w318"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--zijn-->
+    <term tid="t319" type="open" lemma="zijn" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--tijdens-->
+    <term tid="t320" type="close" lemma="tijdens" pos="P" morphofeat="prep">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t321" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <!--overleg-->
+    <term tid="t322" type="open" lemma="overleg" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w322"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--worden-->
+    <term tid="t323" type="open" lemma="worden" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--volgende-->
+    <term tid="t324" type="open" lemma="volgend" pos="G" morphofeat="adj">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--week-->
+    <term tid="t325" type="open" lemma="week" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w325"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--bij-->
+    <term tid="t326" type="close" lemma="bij" pos="P" morphofeat="prep">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t327" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <!--eurotop-->
+    <term tid="t328" type="open" lemma="eurotop" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--gepresenteerd-->
+    <term tid="t329" type="open" lemma="presenteren" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t330" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t331" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w331"/>
+      </span>
+    </term>
+    <!--andere-->
+    <term tid="t332" type="open" lemma="ander" pos="G" morphofeat="adj">
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t333" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <!--regeringsleiders-->
+    <term tid="t334" type="open" lemma="regeringsleider" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w334"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t335" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t315"/>
+          <target id="t316"/>
+          <target id="t317"/>
+          <target id="t318"/>
+          <target id="t319"/>
+          <target id="t320"/>
+          <target id="t321"/>
+          <target id="t322"/>
+          <target id="t323"/>
+          <target id="t324"/>
+          <target id="t325"/>
+          <target id="t326"/>
+          <target id="t327"/>
+          <target id="t328"/>
+          <target id="t329"/>
+          <target id="t330"/>
+          <target id="t331"/>
+          <target id="t332"/>
+          <target id="t333"/>
+          <target id="t334"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

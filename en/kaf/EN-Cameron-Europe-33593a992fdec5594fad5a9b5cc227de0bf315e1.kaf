@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:01:01" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:08:51CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="7" wid="w1">Selfish</wf>
+    <wf sent="1" para="1" offset="7" length="1" wid="w2">,</wf>
+    <wf sent="1" para="1" offset="9" length="8" wid="w3">ignorant</wf>
+    <wf sent="1" para="1" offset="17" length="1" wid="w4">,</wf>
+    <wf sent="1" para="1" offset="19" length="9" wid="w5">dangerous</wf>
+    <wf sent="1" para="1" offset="28" length="1" wid="w6">:</wf>
+    <wf sent="1" para="1" offset="30" length="6" wid="w7">Europe</wf>
+    <wf sent="1" para="1" offset="36" length="2" wid="w8">'s</wf>
+    <wf sent="1" para="1" offset="39" length="7" wid="w9">verdict</wf>
+    <wf sent="1" para="1" offset="47" length="2" wid="w10">on</wf>
+    <wf sent="1" para="1" offset="50" length="7" wid="w11">Cameron</wf>
+    <wf sent="1" para="1" offset="58" length="6" wid="w12">speech</wf>
+  </text>
+  <terms>
+    <!--Selfish-->
+    <term type="open" lemma="selfish" pos="N" morphofeat="NN" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t2">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--ignorant-->
+    <term type="open" lemma="ignorant" pos="N" morphofeat="NN" tid="t3">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t4">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--dangerous-->
+    <term type="open" lemma="dangerous" pos="G" morphofeat="JJ" tid="t5">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--:-->
+    <term type="close" lemma=":" pos="O" morphofeat=":" tid="t6">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term type="close" lemma="Europe" pos="R" morphofeat="NNP" tid="t7">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t8">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--verdict-->
+    <term type="open" lemma="verdict" pos="N" morphofeat="NN" tid="t9">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t10">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t11">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--speech-->
+    <term type="open" lemma="speech" pos="N" morphofeat="NN" tid="t12">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Europe-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Cameron speech-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--Selfish-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Europe-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Cameron speech-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--ignorant-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Europe-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Cameron speech-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--dangerous-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

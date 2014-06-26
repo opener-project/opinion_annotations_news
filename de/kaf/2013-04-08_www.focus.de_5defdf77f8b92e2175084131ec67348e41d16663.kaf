@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:46:43Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:46:43Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:16:12CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:46:48CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w15" sent="3" para="3" offset="89" length="3">Der</wf>
+    <wf wid="w16" sent="3" para="3" offset="93" length="9">britische</wf>
+    <wf wid="w17" sent="3" para="3" offset="103" length="15">Premierminister</wf>
+    <wf wid="w18" sent="3" para="3" offset="119" length="5">David</wf>
+    <wf wid="w19" sent="3" para="3" offset="125" length="7">Cameron</wf>
+    <wf wid="w20" sent="3" para="3" offset="133" length="4">will</wf>
+    <wf wid="w21" sent="3" para="3" offset="138" length="4">sich</wf>
+    <wf wid="w22" sent="3" para="3" offset="143" length="3">bei</wf>
+    <wf wid="w23" sent="3" para="3" offset="147" length="3">den</wf>
+    <wf wid="w24" sent="3" para="3" offset="151" length="12">europäischen</wf>
+    <wf wid="w25" sent="3" para="3" offset="164" length="8">Partnern</wf>
+    <wf wid="w26" sent="3" para="3" offset="173" length="3">für</wf>
+    <wf wid="w27" sent="3" para="3" offset="177" length="4">eine</wf>
+    <wf wid="w28" sent="3" para="3" offset="182" length="17">wettbewerbsfähige</wf>
+    <wf wid="w29" sent="3" para="3" offset="200" length="3">und</wf>
+    <wf wid="w30" sent="3" para="3" offset="204" length="8">flexible</wf>
+    <wf wid="w31" sent="3" para="3" offset="213" length="2">EU</wf>
+    <wf wid="w32" sent="3" para="3" offset="216" length="11">starkmachen</wf>
+    <wf wid="w33" sent="3" para="3" offset="227" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t15" type="close">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="britisch" morphofeat="ADJA" pos="G" tid="t16" type="open">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="Premierminister" morphofeat="NN" pos="N" tid="t17" type="open">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="David" morphofeat="NE" pos="R" tid="t18" type="open">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="Cameron" morphofeat="NE unknown_lemma" pos="O" tid="t19" type="open">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t20" type="open">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t21" type="close">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="bei" morphofeat="APPR" pos="P" tid="t22" type="close">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t23" type="close">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="europäisch" morphofeat="ADJA" pos="G" tid="t24" type="open">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="Partner" morphofeat="NN" pos="N" tid="t25" type="open">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t26" type="close">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t27" type="close">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="wettbewerbsfähig" morphofeat="ADJA" pos="G" tid="t28" type="open">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t29" type="close">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="flexibel" morphofeat="ADJA" pos="G" tid="t30" type="open">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t31" type="open">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="starkmachen" morphofeat="ADJD unknown_lemma" pos="O" tid="t32" type="open">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t33" type="open">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--EU-->
+        <span>
+          <target id="t31"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--wettbewerbsfähige-->
+        <span>
+          <target id="t28"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--EU-->
+        <span>
+          <target id="t31"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--flexible-->
+        <span>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

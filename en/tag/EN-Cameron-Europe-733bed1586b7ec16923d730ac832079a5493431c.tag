@@ -1,0 +1,13 @@
+w586	The	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	585	true	21
+w587	original	original	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	586	true	21
+w588	timetable	timetable	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	587	true	21
+w589	was	be	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	588	true	21
+w590	agreed	agree	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	589	true	21
+w591	at	at	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	590	true	21
+w592	a	a	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	591	true	21
+w593	Nato	Nato	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	592	true	21
+w594	summit	summit	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	593	true	21
+w595	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	594	true	21
+w596	London	London	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	595	true	21
+w597	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	596	true	21
+w598	2010	2010	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	597	true	21

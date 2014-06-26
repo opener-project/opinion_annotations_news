@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:02:31Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:02:31Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:18:19CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:02:49CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w126" sent="8" para="4" offset="798" length="3">Die</wf>
+    <wf wid="w127" sent="8" para="4" offset="802" length="10">staatliche</wf>
+    <wf wid="w128" sent="8" para="4" offset="813" length="16">Bahngesellschaft</wf>
+    <wf wid="w129" sent="8" para="4" offset="830" length="5">Renfe</wf>
+    <wf wid="w130" sent="8" para="4" offset="836" length="6">warnte</wf>
+    <wf wid="w131" sent="8" para="4" offset="843" length="3">vor</wf>
+    <wf wid="w132" sent="8" para="4" offset="847" length="12">vorschnellen</wf>
+    <wf wid="w133" sent="8" para="4" offset="860" length="18">Schlussfolgerungen</wf>
+    <wf wid="w134" sent="8" para="4" offset="878" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t126" type="close">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <term lemma="staatlich" morphofeat="ADJA" pos="G" tid="t127" type="open">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <term lemma="Bahngesellschaft" morphofeat="NN" pos="N" tid="t128" type="open">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <term lemma="Renfe" morphofeat="ADJD unknown_lemma" pos="O" tid="t129" type="open">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <term lemma="warnen" morphofeat="VVFIN" pos="V" tid="t130" type="open">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <term lemma="vor" morphofeat="APPR" pos="P" tid="t131" type="close">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <term lemma="vorschnell" morphofeat="ADJA" pos="G" tid="t132" type="open">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <term lemma="Schlussfolgerung" morphofeat="NN" pos="N" tid="t133" type="open">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t134" type="open">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--staatliche Bahngesellschaft Renfe-->
+        <span>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--vor vorschnellen Schlussfolgerungen-->
+        <span>
+          <target id="t131"/>
+          <target id="t132"/>
+          <target id="t133"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--warnte-->
+        <span>
+          <target id="t130"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Schlussfolgerungen-->
+        <span>
+          <target id="t133"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--vorschnellen-->
+        <span>
+          <target id="t132"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

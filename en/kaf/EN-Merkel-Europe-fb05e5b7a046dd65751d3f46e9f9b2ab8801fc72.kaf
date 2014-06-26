@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:02:33" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:35:43CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="7" wid="w1">Samaras</wf>
+    <wf sent="1" para="1" offset="8" length="9" wid="w2">dismisses</wf>
+    <wf sent="1" para="1" offset="18" length="4" wid="w3">talk</wf>
+    <wf sent="1" para="1" offset="23" length="2" wid="w4">of</wf>
+    <wf sent="1" para="1" offset="26" length="5" wid="w5">early</wf>
+    <wf sent="1" para="1" offset="32" length="8" wid="w6">election</wf>
+    <wf sent="1" para="1" offset="41" length="4" wid="w7">over</wf>
+    <wf sent="1" para="1" offset="46" length="3" wid="w8">ERT</wf>
+  </text>
+  <terms>
+    <!--Samaras-->
+    <term type="open" lemma="samaras" pos="N" morphofeat="NNS" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--dismisses-->
+    <term type="open" lemma="dismiss" pos="V" morphofeat="VBZ" tid="t2">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--talk-->
+    <term type="open" lemma="talk" pos="N" morphofeat="NN" tid="t3">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t4">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--early-->
+    <term type="open" lemma="early" pos="G" morphofeat="JJ" tid="t5">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--election-->
+    <term type="open" lemma="election" pos="N" morphofeat="NN" tid="t6">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--over-->
+    <term type="close" lemma="over" pos="P" morphofeat="IN" tid="t7">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--ERT-->
+    <term type="close" lemma="ERT" pos="R" morphofeat="NNP" tid="t8">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Samaras-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--talk of early election over ERT-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--dismisses-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

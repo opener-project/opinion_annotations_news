@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:32:35Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:32:35Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:58:09CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:32:41CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w62" sent="5" para="5" offset="318" length="1">„</wf>
+    <wf wid="w63" sent="5" para="5" offset="319" length="3">Ein</wf>
+    <wf wid="w64" sent="5" para="5" offset="323" length="4">Pakt</wf>
+    <wf wid="w65" sent="5" para="5" offset="328" length="3">mit</wf>
+    <wf wid="w66" sent="5" para="5" offset="332" length="3">der</wf>
+    <wf wid="w67" sent="5" para="5" offset="336" length="3">AfD</wf>
+    <wf wid="w68" sent="5" para="5" offset="340" length="3">ist</wf>
+    <wf wid="w69" sent="5" para="5" offset="344" length="14">ausgeschlossen</wf>
+    <wf wid="w70" sent="5" para="5" offset="358" length="1">“</wf>
+    <wf wid="w71" sent="5" para="5" offset="359" length="1">,</wf>
+    <wf wid="w72" sent="5" para="5" offset="361" length="5">sagte</wf>
+    <wf wid="w73" sent="5" para="5" offset="367" length="6">Merkel</wf>
+    <wf wid="w74" sent="5" para="5" offset="373" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="„" morphofeat="NN unknown_lemma" pos="O" tid="t62" type="open">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t63" type="close">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <term lemma="Pakt" morphofeat="NN" pos="N" tid="t64" type="open">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t65" type="close">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t66" type="close">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <term lemma="AfD" morphofeat="NN unknown_lemma" pos="O" tid="t67" type="open">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t68" type="open">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <term lemma="ausgeschlossen" morphofeat="ADJD" pos="G" tid="t69" type="open">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <term lemma="“" morphofeat="ADJD unknown_lemma" pos="O" tid="t70" type="open">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t71" type="open">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t72" type="open">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t73" type="open">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t74" type="open">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Ein Pakt mit der AfD-->
+        <span>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--ist ausgeschlossen-->
+        <span>
+          <target id="t68"/>
+          <target id="t69"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

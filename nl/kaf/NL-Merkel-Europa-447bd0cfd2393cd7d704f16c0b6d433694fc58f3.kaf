@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:29:43CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w63" sent="5" para="2" offset="424" length="5">Later</wf>
+    <wf wid="w64" sent="5" para="2" offset="430" length="2">op</wf>
+    <wf wid="w65" sent="5" para="2" offset="433" length="2">de</wf>
+    <wf wid="w66" sent="5" para="2" offset="436" length="5">avond</wf>
+    <wf wid="w67" sent="5" para="2" offset="442" length="6">begint</wf>
+    <wf wid="w68" sent="5" para="2" offset="449" length="2">de</wf>
+    <wf wid="w69" sent="5" para="2" offset="452" length="5">echte</wf>
+    <wf wid="w70" sent="5" para="2" offset="458" length="3">top</wf>
+    <wf wid="w71" sent="5" para="2" offset="462" length="3">met</wf>
+    <wf wid="w72" sent="5" para="2" offset="466" length="4">alle</wf>
+    <wf wid="w73" sent="5" para="2" offset="471" length="7">leiders</wf>
+    <wf wid="w74" sent="5" para="2" offset="479" length="11">gezamenlijk</wf>
+    <wf wid="w75" sent="5" para="2" offset="490" length="1">.</wf>
+    <wf wid="w76" sent="5" para="2" offset="491" length="1">„</wf>
+    <wf wid="w77" sent="5" para="2" offset="492" length="8">Iedereen</wf>
+    <wf wid="w78" sent="5" para="2" offset="501" length="3">zal</wf>
+    <wf wid="w79" sent="5" para="2" offset="505" length="12">compromissen</wf>
+    <wf wid="w80" sent="5" para="2" offset="518" length="6">moeten</wf>
+    <wf wid="w81" sent="5" para="2" offset="525" length="7">sluiten</wf>
+    <wf wid="w82" sent="5" para="2" offset="532" length="1">”</wf>
+    <wf wid="w83" sent="5" para="2" offset="533" length="1">,</wf>
+    <wf wid="w84" sent="5" para="2" offset="535" length="5">aldus</wf>
+    <wf wid="w85" sent="5" para="2" offset="541" length="6">Merkel</wf>
+    <wf wid="w86" sent="5" para="2" offset="547" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Later-->
+    <term tid="t63" type="open" lemma="laat|later" pos="G" morphofeat="adj">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t64" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t65" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--avond-->
+    <term tid="t66" type="open" lemma="avond" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--begint-->
+    <term tid="t67" type="open" lemma="beginnen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t68" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--echte-->
+    <term tid="t69" type="open" lemma="echt" pos="G" morphofeat="adj">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--top-->
+    <term tid="t70" type="open" lemma="top" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w70"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--met-->
+    <term tid="t71" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--alle-->
+    <term tid="t72" type="close" lemma="alle" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--leiders-->
+    <term tid="t73" type="open" lemma="leider" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--gezamenlijk-->
+    <term tid="t74" type="open" lemma="gezamenlijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t75" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--„-->
+    <term tid="t76" type="open" lemma="„" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--Iedereen-->
+    <term tid="t77" type="open" lemma="Iedereen" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--zal-->
+    <term tid="t78" type="open" lemma="zullen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--compromissen-->
+    <term tid="t79" type="open" lemma="compromis" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--moeten-->
+    <term tid="t80" type="open" lemma="moeten" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--sluiten-->
+    <term tid="t81" type="open" lemma="sluiten" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--”-->
+    <term tid="t82" type="open" lemma="”" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t83" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--aldus-->
+    <term tid="t84" type="open" lemma="aldus" pos="A" morphofeat="adv">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t85" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t86" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t85"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Iedereen-->
+        <span>
+          <target id="t77"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--zal compromissen moeten sluiten-->
+        <span>
+          <target id="t78"/>
+          <target id="t79"/>
+          <target id="t80"/>
+          <target id="t81"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t85"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Iedereen-->
+        <span>
+          <target id="t77"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--aldus-->
+        <span>
+          <target id="t84"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

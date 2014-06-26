@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:46:11CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w75" sent="7" para="2" offset="411" length="7">Volgens</wf>
+    <wf wid="w76" sent="7" para="2" offset="419" length="3">het</wf>
+    <wf wid="w77" sent="7" para="2" offset="423" length="5">Witte</wf>
+    <wf wid="w78" sent="7" para="2" offset="429" length="4">Huis</wf>
+    <wf wid="w79" sent="7" para="2" offset="434" length="4">ging</wf>
+    <wf wid="w80" sent="7" para="2" offset="439" length="3">het</wf>
+    <wf wid="w81" sent="7" para="2" offset="443" length="2">om</wf>
+    <wf wid="w82" sent="7" para="2" offset="446" length="3">een</wf>
+    <wf wid="w83" sent="7" para="2" offset="450" length="1">"</wf>
+    <wf wid="w84" sent="7" para="2" offset="451" length="11">bemoedigend</wf>
+    <wf wid="w85" sent="7" para="2" offset="463" length="7">gesprek</wf>
+    <wf wid="w86" sent="7" para="2" offset="470" length="1">"</wf>
+    <wf wid="w87" sent="7" para="2" offset="471" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Volgens-->
+    <term tid="t75" type="close" lemma="volgens" pos="P" morphofeat="prep">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t76" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--Witte-->
+    <term tid="t77" type="open" lemma="witte" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--Huis-->
+    <term tid="t78" type="open" lemma="Huis" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--ging-->
+    <term tid="t79" type="open" lemma="gaan" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t80" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t81" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t82" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t83" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--bemoedigend-->
+    <term tid="t84" type="open" lemma="bemoedigend" pos="G" morphofeat="adj">
+      <span>
+        <target id="w84"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--gesprek-->
+    <term tid="t85" type="open" lemma="gesprek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t86" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t87" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--het Witte Huis-->
+        <span>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--gesprek-->
+        <span>
+          <target id="t85"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--bemoedigend-->
+        <span>
+          <target id="t84"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

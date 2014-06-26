@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:40:26CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:31CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w351" sent="21" para="2" offset="2025" length="1">'</wf>
+    <wf wid="w352" sent="21" para="2" offset="2026" length="2">De</wf>
+    <wf wid="w353" sent="21" para="2" offset="2029" length="4">euro</wf>
+    <wf wid="w354" sent="21" para="2" offset="2034" length="2">is</wf>
+    <wf wid="w355" sent="21" para="2" offset="2037" length="3">een</wf>
+    <wf wid="w356" sent="21" para="2" offset="2041" length="5">groot</wf>
+    <wf wid="w357" sent="21" para="2" offset="2047" length="8">probleem</wf>
+    <wf wid="w358" sent="21" para="2" offset="2056" length="4">voor</wf>
+    <wf wid="w359" sent="21" para="2" offset="2061" length="3">ons</wf>
+    <wf wid="w360" sent="21" para="2" offset="2064" length="1">.</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term tid="t351" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t352" type="open" lemma="De" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t353" type="open" lemma="euro" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t354" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w354"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t355" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w355"/>
+      </span>
+    </term>
+    <!--groot-->
+    <term tid="t356" type="open" lemma="groot" pos="G" morphofeat="adj">
+      <span>
+        <target id="w356"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--probleem-->
+    <term tid="t357" type="open" lemma="probleem" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w357"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--voor-->
+    <term tid="t358" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w358"/>
+      </span>
+    </term>
+    <!--ons-->
+    <term tid="t359" type="close" lemma="ons" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t360" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--ons-->
+        <span>
+          <target id="t359"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--De euro-->
+        <span>
+          <target id="t352"/>
+          <target id="t353"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--een groot probleem-->
+        <span>
+          <target id="t355"/>
+          <target id="t356"/>
+          <target id="t357"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

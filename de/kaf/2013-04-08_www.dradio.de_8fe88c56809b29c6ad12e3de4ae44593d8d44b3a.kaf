@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:13:40Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:13:40Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:14:41CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:14:25CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w910" sent="64" para="19" offset="6190" length="2">In</wf>
+    <wf wid="w911" sent="64" para="19" offset="6193" length="3">der</wf>
+    <wf wid="w912" sent="64" para="19" offset="6197" length="7">alpinen</wf>
+    <wf wid="w913" sent="64" para="19" offset="6205" length="7">Abfahrt</wf>
+    <wf wid="w914" sent="64" para="19" offset="6213" length="3">der</wf>
+    <wf wid="w915" sent="64" para="19" offset="6217" length="6">Frauen</wf>
+    <wf wid="w916" sent="64" para="19" offset="6224" length="6">wurden</wf>
+    <wf wid="w917" sent="64" para="19" offset="6231" length="4">zwei</wf>
+    <wf wid="w918" sent="64" para="19" offset="6236" length="13">Goldmedaillen</wf>
+    <wf wid="w919" sent="64" para="19" offset="6250" length="8">vergeben</wf>
+    <wf wid="w920" sent="64" para="19" offset="6258" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t910" type="close">
+      <span>
+        <target id="w910"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t911" type="close">
+      <span>
+        <target id="w911"/>
+      </span>
+    </term>
+    <term lemma="alpin" morphofeat="ADJA" pos="G" tid="t912" type="open">
+      <span>
+        <target id="w912"/>
+      </span>
+    </term>
+    <term lemma="Abfahrt" morphofeat="NN" pos="N" tid="t913" type="open">
+      <span>
+        <target id="w913"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t914" type="close">
+      <span>
+        <target id="w914"/>
+      </span>
+    </term>
+    <term lemma="Frau" morphofeat="NN" pos="N" tid="t915" type="open">
+      <span>
+        <target id="w915"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t916" type="open">
+      <span>
+        <target id="w916"/>
+      </span>
+    </term>
+    <term lemma="zwei" morphofeat="CARD" pos="O" tid="t917" type="open">
+      <span>
+        <target id="w917"/>
+      </span>
+    </term>
+    <term lemma="Goldmedaille" morphofeat="NN" pos="N" tid="t918" type="open">
+      <span>
+        <target id="w918"/>
+      </span>
+    </term>
+    <term lemma="vergeben" morphofeat="VVINF" pos="V" tid="t919" type="open">
+      <span>
+        <target id="w919"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t920" type="open">
+      <span>
+        <target id="w920"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t910"/>
+          <target id="t911"/>
+          <target id="t912"/>
+          <target id="t913"/>
+          <target id="t914"/>
+          <target id="t915"/>
+          <target id="t916"/>
+          <target id="t917"/>
+          <target id="t918"/>
+          <target id="t919"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

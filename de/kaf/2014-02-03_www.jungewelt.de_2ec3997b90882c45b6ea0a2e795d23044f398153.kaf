@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:38:17Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:38:17Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:46:24CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:38:31CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w416" sent="20" para="6" offset="2548" length="3">Nun</wf>
+    <wf wid="w417" sent="20" para="6" offset="2552" length="4">will</wf>
+    <wf wid="w418" sent="20" para="6" offset="2557" length="7">Erdogan</wf>
+    <wf wid="w419" sent="20" para="6" offset="2565" length="5">unter</wf>
+    <wf wid="w420" sent="20" para="6" offset="2571" length="11">Exilwählern</wf>
+    <wf wid="w421" sent="20" para="6" offset="2583" length="7">punkten</wf>
+    <wf wid="w422" sent="20" para="6" offset="2590" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="nun" morphofeat="ADV" pos="A" tid="t416" type="open">
+      <span>
+        <target id="w416"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t417" type="open">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <term lemma="Erdogan" morphofeat="NE" pos="R" tid="t418" type="open">
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <term lemma="unter" morphofeat="APPR" pos="P" tid="t419" type="close">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+    <term lemma="Exilwählern" morphofeat="NN unknown_lemma" pos="O" tid="t420" type="open">
+      <span>
+        <target id="w420"/>
+      </span>
+    </term>
+    <term lemma="punkten" morphofeat="VVINF" pos="V" tid="t421" type="open">
+      <span>
+        <target id="w421"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t422" type="open">
+      <span>
+        <target id="w422"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Erdogan-->
+        <span>
+          <target id="t418"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--punkten-->
+        <span>
+          <target id="t421"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--will-->
+        <span>
+          <target id="t417"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

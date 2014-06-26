@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:01Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:01Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:52:25CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:28CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w77" sent="4" para="2" offset="478" length="2">Ze</wf>
+    <wf wid="w78" sent="4" para="2" offset="481" length="7">pleitte</wf>
+    <wf wid="w79" sent="4" para="2" offset="489" length="6">ervoor</wf>
+    <wf wid="w80" sent="4" para="2" offset="496" length="2">om</wf>
+    <wf wid="w81" sent="4" para="2" offset="499" length="4">stap</wf>
+    <wf wid="w82" sent="4" para="2" offset="504" length="4">voor</wf>
+    <wf wid="w83" sent="4" para="2" offset="509" length="4">stap</wf>
+    <wf wid="w84" sent="4" para="2" offset="514" length="4">naar</wf>
+    <wf wid="w85" sent="4" para="2" offset="519" length="3">een</wf>
+    <wf wid="w86" sent="4" para="2" offset="523" length="9">politieke</wf>
+    <wf wid="w87" sent="4" para="2" offset="533" length="4">unie</wf>
+    <wf wid="w88" sent="4" para="2" offset="538" length="3">toe</wf>
+    <wf wid="w89" sent="4" para="2" offset="542" length="2">te</wf>
+    <wf wid="w90" sent="4" para="2" offset="545" length="6">werken</wf>
+    <wf wid="w91" sent="4" para="2" offset="551" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ze-->
+    <term tid="t77" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--pleitte-->
+    <term tid="t78" type="open" lemma="pleiten" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--ervoor-->
+    <term tid="t79" type="close" lemma="ervoor" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t80" type="close" lemma="om" pos="P" morphofeat="prep">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--stap-->
+    <term tid="t81" type="open" lemma="stap" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t82" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--stap-->
+    <term tid="t83" type="open" lemma="stap" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--naar-->
+    <term tid="t84" type="close" lemma="naar" pos="P" morphofeat="prep">
+      <span>
+        <target id="w84"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--een-->
+    <term tid="t85" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--politieke-->
+    <term tid="t86" type="open" lemma="politiek" pos="G" morphofeat="adj">
+      <span>
+        <target id="w86"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--unie-->
+    <term tid="t87" type="open" lemma="unie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w87"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--toe-->
+    <term tid="t88" type="open" lemma="toe" pos="A" morphofeat="adv">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t89" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--werken-->
+    <term tid="t90" type="open" lemma="werken" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t91" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Ze-->
+        <span>
+          <target id="t77"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--naar een politieke unie toe te werken-->
+        <span>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--pleitte ervoor-->
+        <span>
+          <target id="t78"/>
+          <target id="t79"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,15 @@
+w16	boomDe	boomDe	O			0		0		0		0		0		0		0		0	15	true	2
+w17	Duitse	Duits	G			0		0		0		0		0		0		0		0	16	true	2
+w18	bondskanselier	bondskanselier	N			0		0		0		0		0		0		0		0	17	true	2
+w19	Angela	Angela	O			0		0		0		0		0		0		0		0	18	true	2
+w20	Merkel	Merkel	O			0		0		0		0		0		0		0		0	19	true	2
+w21	is	zijn	V			0		0		0		0		0		0		0		0	20	true	2
+w22	dit	dit	D			0		0		0		0		0		0		0		0	21	true	2
+w23	jaar	jaar	N			0		0		0		0		0		0		0		0	22	true	2
+w24	opnieuw	opnieuw	A			0		0		0		0		0		0		0		0	23	true	2
+w25	de	de	D			0		0		0		0		0		0		0		0	24	true	2
+w26	machtigste	machtig	G			0		0		0		0		0		0		0		0	25	true	2
+w27	vrouw	vrouw	N			0		0		0		0		0		0		0		0	26	true	2
+w28	ter	te	P			0		0		0		0		0		0		0		0	27	true	2
+w29	wereld	wereld	N			0		0		0		0		0		0		0		0	28	true	2
+w30	.	.	O			0		0		0		0		0		0		0		0	29	true	2

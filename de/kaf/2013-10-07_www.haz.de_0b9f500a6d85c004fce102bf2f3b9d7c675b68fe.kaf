@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:34:13Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:34:13Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:48:00CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:34:46CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w213" sent="22" para="11" offset="1226" length="3">Bei</wf>
+    <wf wid="w214" sent="22" para="11" offset="1230" length="5">einem</wf>
+    <wf wid="w215" sent="22" para="11" offset="1236" length="12">vernünftigen</wf>
+    <wf wid="w216" sent="22" para="11" offset="1249" length="16">Haushaltsgebaren</wf>
+    <wf wid="w217" sent="22" para="11" offset="1266" length="3">ist</wf>
+    <wf wid="w218" sent="22" para="11" offset="1270" length="5">unser</wf>
+    <wf wid="w219" sent="22" para="11" offset="1276" length="5">Staat</wf>
+    <wf wid="w220" sent="22" para="11" offset="1282" length="3">gut</wf>
+    <wf wid="w221" sent="22" para="11" offset="1286" length="2">zu</wf>
+    <wf wid="w222" sent="22" para="11" offset="1289" length="11">finanzieren</wf>
+    <wf wid="w223" sent="22" para="11" offset="1300" length="1">"</wf>
+    <wf wid="w224" sent="22" para="11" offset="1301" length="1">,</wf>
+    <wf wid="w225" sent="22" para="11" offset="1303" length="5">sagte</wf>
+    <wf wid="w226" sent="22" para="11" offset="1309" length="2">er</wf>
+    <wf wid="w227" sent="22" para="11" offset="1312" length="3">der</wf>
+    <wf wid="w228" sent="22" para="11" offset="1316" length="1">"</wf>
+    <wf wid="w229" sent="22" para="11" offset="1317" length="16">Wirtschaftswoche</wf>
+    <wf wid="w230" sent="22" para="11" offset="1333" length="1">"</wf>
+    <wf wid="w231" sent="22" para="11" offset="1334" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="bei" morphofeat="APPR" pos="P" tid="t213" type="close">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t214" type="close">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <term lemma="vernünftig" morphofeat="ADJA" pos="G" tid="t215" type="open">
+      <span>
+        <target id="w215"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Haushaltsgebaren" morphofeat="NN" pos="N" tid="t216" type="open">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t217" type="open">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <term lemma="unser" morphofeat="PPOSAT" pos="Q" tid="t218" type="close">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <term lemma="Staat" morphofeat="NN" pos="N" tid="t219" type="open">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <term lemma="gut" morphofeat="ADJD" pos="G" tid="t220" type="open">
+      <span>
+        <target id="w220"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="zu" morphofeat="PTKZU" pos="O" tid="t221" type="open">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <term lemma="finanzieren" morphofeat="VVINF" pos="V" tid="t222" type="open">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t223" type="open">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t224" type="open">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t225" type="open">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t226" type="close">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t227" type="close">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t228" type="open">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <term lemma="Wirtschaftswoche" morphofeat="NN" pos="N" tid="t229" type="open">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t230" type="open">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t231" type="open">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--unser Staat-->
+        <span>
+          <target id="t218"/>
+          <target id="t219"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--gut zu finanzieren-->
+        <span>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:59:14CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:35CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w55" sent="3" para="2" offset="352" length="1">'</wf>
+    <wf wid="w56" sent="3" para="2" offset="353" length="3">Het</wf>
+    <wf wid="w57" sent="3" para="2" offset="357" length="3">was</wf>
+    <wf wid="w58" sent="3" para="2" offset="361" length="3">een</wf>
+    <wf wid="w59" sent="3" para="2" offset="365" length="8">positief</wf>
+    <wf wid="w60" sent="3" para="2" offset="374" length="2">en</wf>
+    <wf wid="w61" sent="3" para="2" offset="377" length="12">constructief</wf>
+    <wf wid="w62" sent="3" para="2" offset="390" length="7">gesprek</wf>
+    <wf wid="w63" sent="3" para="2" offset="397" length="1">'</wf>
+    <wf wid="w64" sent="3" para="2" offset="398" length="1">,</wf>
+    <wf wid="w65" sent="3" para="2" offset="400" length="5">aldus</wf>
+    <wf wid="w66" sent="3" para="2" offset="406" length="7">Viviane</wf>
+    <wf wid="w67" sent="3" para="2" offset="414" length="6">Reding</wf>
+    <wf wid="w68" sent="3" para="2" offset="420" length="1">,</wf>
+    <wf wid="w69" sent="3" para="2" offset="422" length="14">vicevoorzitter</wf>
+    <wf wid="w70" sent="3" para="2" offset="437" length="3">van</wf>
+    <wf wid="w71" sent="3" para="2" offset="441" length="2">de</wf>
+    <wf wid="w72" sent="3" para="2" offset="444" length="8">Europese</wf>
+    <wf wid="w73" sent="3" para="2" offset="453" length="9">Commissie</wf>
+    <wf wid="w74" sent="3" para="2" offset="462" length="1">,</wf>
+    <wf wid="w75" sent="3" para="2" offset="464" length="2">na</wf>
+    <wf wid="w76" sent="3" para="2" offset="467" length="6">afloop</wf>
+    <wf wid="w77" sent="3" para="2" offset="474" length="3">van</wf>
+    <wf wid="w78" sent="3" para="2" offset="478" length="2">de</wf>
+    <wf wid="w79" sent="3" para="2" offset="481" length="10">gesprekken</wf>
+    <wf wid="w80" sent="3" para="2" offset="491" length="1">.</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term tid="t55" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--Het-->
+    <term tid="t56" type="open" lemma="Het" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--was-->
+    <term tid="t57" type="open" lemma="wezen|zijn" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t58" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--positief-->
+    <term tid="t59" type="open" lemma="positief" pos="G" morphofeat="adj">
+      <span>
+        <target id="w59"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--en-->
+    <term tid="t60" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--constructief-->
+    <term tid="t61" type="open" lemma="constructief" pos="G" morphofeat="adj">
+      <span>
+        <target id="w61"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--gesprek-->
+    <term tid="t62" type="open" lemma="gesprek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t63" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t64" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--aldus-->
+    <term tid="t65" type="open" lemma="aldus" pos="A" morphofeat="adv">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--Viviane-->
+    <term tid="t66" type="open" lemma="Viviane" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--Reding-->
+    <term tid="t67" type="open" lemma="Reding" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t68" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--vicevoorzitter-->
+    <term tid="t69" type="open" lemma="vicevoorzitter" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t70" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t71" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t72" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--Commissie-->
+    <term tid="t73" type="open" lemma="commissie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w73"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t74" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--na-->
+    <term tid="t75" type="close" lemma="na" pos="P" morphofeat="prep">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--afloop-->
+    <term tid="t76" type="open" lemma="afloop" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t77" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t78" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--gesprekken-->
+    <term tid="t79" type="open" lemma="gesprek" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t80" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--gesprek-->
+        <span>
+          <target id="t62"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--positief-->
+        <span>
+          <target id="t59"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--gesprek-->
+        <span>
+          <target id="t62"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--constructief-->
+        <span>
+          <target id="t61"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Viviane Reding-->
+        <span>
+          <target id="t66"/>
+          <target id="t67"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Het-->
+        <span>
+          <target id="t56"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--een positief en constructief gesprek-->
+        <span>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

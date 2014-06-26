@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:22:34" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:18:39CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="54" para="2" offset="8759" length="2" wid="w1671">As</wf>
+    <wf sent="54" para="2" offset="8762" length="4" wid="w1672">well</wf>
+    <wf sent="54" para="2" offset="8767" length="2" wid="w1673">as</wf>
+    <wf sent="54" para="2" offset="8770" length="3" wid="w1674">the</wf>
+    <wf sent="54" para="2" offset="8774" length="8" wid="w1675">abattoir</wf>
+    <wf sent="54" para="2" offset="8782" length="1" wid="w1676">,</wf>
+    <wf sent="54" para="2" offset="8784" length="2" wid="w1677">Mr</wf>
+    <wf sent="54" para="2" offset="8787" length="5" wid="w1678">Boddy</wf>
+    <wf sent="54" para="2" offset="8793" length="4" wid="w1679">also</wf>
+    <wf sent="54" para="2" offset="8798" length="4" wid="w1680">owns</wf>
+    <wf sent="54" para="2" offset="8803" length="1" wid="w1681">a</wf>
+    <wf sent="54" para="2" offset="8805" length="4" wid="w1682">deer</wf>
+    <wf sent="54" para="2" offset="8810" length="4" wid="w1683">park</wf>
+    <wf sent="54" para="2" offset="8815" length="3" wid="w1684">and</wf>
+    <wf sent="54" para="2" offset="8819" length="3" wid="w1685">has</wf>
+    <wf sent="54" para="2" offset="8823" length="4" wid="w1686">sold</wf>
+    <wf sent="54" para="2" offset="8828" length="4" wid="w1687">game</wf>
+    <wf sent="54" para="2" offset="8833" length="4" wid="w1688">meat</wf>
+    <wf sent="54" para="2" offset="8838" length="3" wid="w1689">for</wf>
+    <wf sent="54" para="2" offset="8842" length="4" wid="w1690">many</wf>
+    <wf sent="54" para="2" offset="8847" length="5" wid="w1691">years</wf>
+    <wf sent="54" para="2" offset="8852" length="1" wid="w1692">.</wf>
+  </text>
+  <terms>
+    <!--As-->
+    <term type="open" lemma="as" pos="A" morphofeat="RB" tid="t1671">
+      <span>
+        <target id="w1671"/>
+      </span>
+    </term>
+    <!--well-->
+    <term type="open" lemma="well" pos="A" morphofeat="RB" tid="t1672">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w1672"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t1673">
+      <span>
+        <target id="w1673"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t1674">
+      <span>
+        <target id="w1674"/>
+      </span>
+    </term>
+    <!--abattoir-->
+    <term type="open" lemma="abattoir" pos="N" morphofeat="NN" tid="t1675">
+      <span>
+        <target id="w1675"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t1676">
+      <span>
+        <target id="w1676"/>
+      </span>
+    </term>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t1677">
+      <span>
+        <target id="w1677"/>
+      </span>
+    </term>
+    <!--Boddy-->
+    <term type="close" lemma="Boddy" pos="R" morphofeat="NNP" tid="t1678">
+      <span>
+        <target id="w1678"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t1679">
+      <span>
+        <target id="w1679"/>
+      </span>
+    </term>
+    <!--owns-->
+    <term type="open" lemma="own" pos="V" morphofeat="VBZ" tid="t1680">
+      <span>
+        <target id="w1680"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t1681">
+      <span>
+        <target id="w1681"/>
+      </span>
+    </term>
+    <!--deer-->
+    <term type="open" lemma="deer" pos="N" morphofeat="NN" tid="t1682">
+      <span>
+        <target id="w1682"/>
+      </span>
+    </term>
+    <!--park-->
+    <term type="open" lemma="park" pos="N" morphofeat="NN" tid="t1683">
+      <span>
+        <target id="w1683"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t1684">
+      <span>
+        <target id="w1684"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t1685">
+      <span>
+        <target id="w1685"/>
+      </span>
+    </term>
+    <!--sold-->
+    <term type="open" lemma="sell" pos="V" morphofeat="VBN" tid="t1686">
+      <span>
+        <target id="w1686"/>
+      </span>
+    </term>
+    <!--game-->
+    <term type="open" lemma="game" pos="N" morphofeat="NN" tid="t1687">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w1687"/>
+      </span>
+    </term>
+    <!--meat-->
+    <term type="open" lemma="meat" pos="N" morphofeat="NN" tid="t1688">
+      <span>
+        <target id="w1688"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t1689">
+      <span>
+        <target id="w1689"/>
+      </span>
+    </term>
+    <!--many-->
+    <term type="open" lemma="many" pos="G" morphofeat="JJ" tid="t1690">
+      <span>
+        <target id="w1690"/>
+      </span>
+    </term>
+    <!--years-->
+    <term type="open" lemma="year" pos="N" morphofeat="NNS" tid="t1691">
+      <span>
+        <target id="w1691"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t1692">
+      <span>
+        <target id="w1692"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t1671"/>
+          <target id="t1672"/>
+          <target id="t1673"/>
+          <target id="t1674"/>
+          <target id="t1675"/>
+          <target id="t1676"/>
+          <target id="t1677"/>
+          <target id="t1678"/>
+          <target id="t1679"/>
+          <target id="t1680"/>
+          <target id="t1681"/>
+          <target id="t1682"/>
+          <target id="t1683"/>
+          <target id="t1684"/>
+          <target id="t1685"/>
+          <target id="t1686"/>
+          <target id="t1687"/>
+          <target id="t1688"/>
+          <target id="t1689"/>
+          <target id="t1690"/>
+          <target id="t1691"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:57Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:57Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:36:11" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:06:06CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="13" para="2" offset="1968" length="4" wid="w408">Nick</wf>
+    <wf sent="13" para="2" offset="1973" length="5" wid="w409">Clegg</wf>
+    <wf sent="13" para="2" offset="1979" length="4" wid="w410">said</wf>
+    <wf sent="13" para="2" offset="1984" length="3" wid="w411">the</wf>
+    <wf sent="13" para="2" offset="1988" length="4" wid="w412">idea</wf>
+    <wf sent="13" para="2" offset="1993" length="3" wid="w413">did</wf>
+    <wf sent="13" para="2" offset="1997" length="3" wid="w414">not</wf>
+    <wf sent="13" para="2" offset="2001" length="4" wid="w415">make</wf>
+    <wf sent="13" para="2" offset="2006" length="5" wid="w416">sense</wf>
+    <wf sent="13" para="2" offset="2011" length="1" wid="w417">.</wf>
+  </text>
+  <terms>
+    <!--Nick-->
+    <term type="close" lemma="Nick" pos="R" morphofeat="NNP" tid="t408">
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+    <!--Clegg-->
+    <term type="close" lemma="Clegg" pos="R" morphofeat="NNP" tid="t409">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t410">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t411">
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <!--idea-->
+    <term type="open" lemma="idea" pos="N" morphofeat="NN" tid="t412">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <!--did-->
+    <term type="open" lemma="do" pos="V" morphofeat="VBD" tid="t413">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t414">
+      <span>
+        <target id="w414"/>
+      </span>
+    </term>
+    <!--make-->
+    <term type="open" lemma="make" pos="V" morphofeat="VB" tid="t415">
+      <span>
+        <target id="w415"/>
+      </span>
+    </term>
+    <!--sense-->
+    <term type="open" lemma="sense" pos="N" morphofeat="NN" tid="t416">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w416"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t417">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Nick Clegg-->
+        <span>
+          <target id="t408"/>
+          <target id="t409"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the idea-->
+        <span>
+          <target id="t411"/>
+          <target id="t412"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--did not make sense-->
+        <span>
+          <target id="t413"/>
+          <target id="t414"/>
+          <target id="t415"/>
+          <target id="t416"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

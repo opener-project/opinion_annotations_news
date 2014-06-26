@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:04:44Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:04:44Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:50:28" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:56:32CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:53CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="14" para="2" offset="2632" length="2" wid="w500">Mr</wf>
+    <wf sent="14" para="2" offset="2635" length="7" wid="w501">Cameron</wf>
+    <wf sent="14" para="2" offset="2643" length="2" wid="w502">is</wf>
+    <wf sent="14" para="2" offset="2646" length="4" wid="w503">also</wf>
+    <wf sent="14" para="2" offset="2651" length="6" wid="w504">hoping</wf>
+    <wf sent="14" para="2" offset="2658" length="3" wid="w505">for</wf>
+    <wf sent="14" para="2" offset="2662" length="1" wid="w506">a</wf>
+    <wf sent="14" para="2" offset="2664" length="4" wid="w507">show</wf>
+    <wf sent="14" para="2" offset="2669" length="2" wid="w508">of</wf>
+    <wf sent="14" para="2" offset="2672" length="5" wid="w509">unity</wf>
+    <wf sent="14" para="2" offset="2678" length="4" wid="w510">over</wf>
+    <wf sent="14" para="2" offset="2683" length="3" wid="w511">the</wf>
+    <wf sent="14" para="2" offset="2687" length="5" wid="w512">civil</wf>
+    <wf sent="14" para="2" offset="2693" length="3" wid="w513">war</wf>
+    <wf sent="14" para="2" offset="2697" length="2" wid="w514">in</wf>
+    <wf sent="14" para="2" offset="2700" length="5" wid="w515">Syria</wf>
+    <wf sent="14" para="2" offset="2705" length="1" wid="w516">,</wf>
+    <wf sent="14" para="2" offset="2707" length="5" wid="w517">which</wf>
+    <wf sent="14" para="2" offset="2713" length="3" wid="w518">has</wf>
+    <wf sent="14" para="2" offset="2717" length="7" wid="w519">largely</wf>
+    <wf sent="14" para="2" offset="2725" length="12" wid="w520">overshadowed</wf>
+    <wf sent="14" para="2" offset="2738" length="3" wid="w521">the</wf>
+    <wf sent="14" para="2" offset="2742" length="8" wid="w522">economic</wf>
+    <wf sent="14" para="2" offset="2751" length="10" wid="w523">priorities</wf>
+    <wf sent="14" para="2" offset="2762" length="2" wid="w524">of</wf>
+    <wf sent="14" para="2" offset="2765" length="3" wid="w525">the</wf>
+    <wf sent="14" para="2" offset="2769" length="6" wid="w526">summit</wf>
+    <wf sent="14" para="2" offset="2775" length="1" wid="w527">.</wf>
+  </text>
+  <terms>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t500">
+      <span>
+        <target id="w500"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t501">
+      <span>
+        <target id="w501"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t502">
+      <span>
+        <target id="w502"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t503">
+      <span>
+        <target id="w503"/>
+      </span>
+    </term>
+    <!--hoping-->
+    <term type="open" lemma="hope" pos="V" morphofeat="VBG" tid="t504">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w504"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t505">
+      <span>
+        <target id="w505"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t506">
+      <span>
+        <target id="w506"/>
+      </span>
+    </term>
+    <!--show-->
+    <term type="open" lemma="show" pos="N" morphofeat="NN" tid="t507">
+      <span>
+        <target id="w507"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t508">
+      <span>
+        <target id="w508"/>
+      </span>
+    </term>
+    <!--unity-->
+    <term type="open" lemma="unity" pos="N" morphofeat="NN" tid="t509">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w509"/>
+      </span>
+    </term>
+    <!--over-->
+    <term type="close" lemma="over" pos="P" morphofeat="IN" tid="t510">
+      <span>
+        <target id="w510"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t511">
+      <span>
+        <target id="w511"/>
+      </span>
+    </term>
+    <!--civil-->
+    <term type="open" lemma="civil" pos="G" morphofeat="JJ" tid="t512">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w512"/>
+      </span>
+    </term>
+    <!--war-->
+    <term type="open" lemma="war" pos="N" morphofeat="NN" tid="t513">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w513"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t514">
+      <span>
+        <target id="w514"/>
+      </span>
+    </term>
+    <!--Syria-->
+    <term type="close" lemma="Syria" pos="R" morphofeat="NNP" tid="t515">
+      <span>
+        <target id="w515"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t516">
+      <span>
+        <target id="w516"/>
+      </span>
+    </term>
+    <!--which-->
+    <term type="close" lemma="which" pos="O" morphofeat="WDT" tid="t517">
+      <span>
+        <target id="w517"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t518">
+      <span>
+        <target id="w518"/>
+      </span>
+    </term>
+    <!--largely-->
+    <term type="open" lemma="largely" pos="A" morphofeat="RB" tid="t519">
+      <span>
+        <target id="w519"/>
+      </span>
+    </term>
+    <!--overshadowed-->
+    <term type="open" lemma="overshadow" pos="V" morphofeat="VBN" tid="t520">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w520"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t521">
+      <span>
+        <target id="w521"/>
+      </span>
+    </term>
+    <!--economic-->
+    <term type="open" lemma="economic" pos="G" morphofeat="JJ" tid="t522">
+      <span>
+        <target id="w522"/>
+      </span>
+    </term>
+    <!--priorities-->
+    <term type="open" lemma="priority" pos="N" morphofeat="NNS" tid="t523">
+      <span>
+        <target id="w523"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t524">
+      <span>
+        <target id="w524"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t525">
+      <span>
+        <target id="w525"/>
+      </span>
+    </term>
+    <!--summit-->
+    <term type="open" lemma="summit" pos="N" morphofeat="NN" tid="t526">
+      <span>
+        <target id="w526"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t527">
+      <span>
+        <target id="w527"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--which-->
+        <span>
+          <target id="t517"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--largely overshadowed the economic priorities of the summit-->
+        <span>
+          <target id="t519"/>
+          <target id="t520"/>
+          <target id="t521"/>
+          <target id="t522"/>
+          <target id="t523"/>
+          <target id="t524"/>
+          <target id="t525"/>
+          <target id="t526"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--the civil war in Syria-->
+        <span>
+          <target id="t511"/>
+          <target id="t512"/>
+          <target id="t513"/>
+          <target id="t514"/>
+          <target id="t515"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--a show of unity-->
+        <span>
+          <target id="t506"/>
+          <target id="t507"/>
+          <target id="t508"/>
+          <target id="t509"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Mr Cameron-->
+        <span>
+          <target id="t500"/>
+          <target id="t501"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--a show of unity over the civil war in Syria-->
+        <span>
+          <target id="t506"/>
+          <target id="t507"/>
+          <target id="t508"/>
+          <target id="t509"/>
+          <target id="t510"/>
+          <target id="t511"/>
+          <target id="t512"/>
+          <target id="t513"/>
+          <target id="t514"/>
+          <target id="t515"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--hoping for-->
+        <span>
+          <target id="t504"/>
+          <target id="t505"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--the economic priorities of the summit-->
+        <span>
+          <target id="t521"/>
+          <target id="t522"/>
+          <target id="t523"/>
+          <target id="t524"/>
+          <target id="t525"/>
+          <target id="t526"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--overshadowed-->
+        <span>
+          <target id="t520"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

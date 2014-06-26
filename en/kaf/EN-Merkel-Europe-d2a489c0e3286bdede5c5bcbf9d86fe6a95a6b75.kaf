@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:56Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:56Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:47:32" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:34:35CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="7" para="2" offset="905" length="3" wid="w149">But</wf>
+    <wf sent="7" para="2" offset="909" length="3" wid="w150">she</wf>
+    <wf sent="7" para="2" offset="913" length="4" wid="w151">made</wf>
+    <wf sent="7" para="2" offset="918" length="5" wid="w152">clear</wf>
+    <wf sent="7" para="2" offset="924" length="3" wid="w153">her</wf>
+    <wf sent="7" para="2" offset="928" length="11" wid="w154">disapproval</wf>
+    <wf sent="7" para="2" offset="940" length="2" wid="w155">of</wf>
+    <wf sent="7" para="2" offset="943" length="7" wid="w156">Snowden</wf>
+    <wf sent="7" para="2" offset="950" length="1" wid="w157">.</wf>
+  </text>
+  <terms>
+    <!--But-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t149">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--she-->
+    <term type="close" lemma="she" pos="Q" morphofeat="PRP" tid="t150">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--made-->
+    <term type="open" lemma="make" pos="V" morphofeat="VBD" tid="t151">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--clear-->
+    <term type="open" lemma="clear" pos="G" morphofeat="JJ" tid="t152">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--her-->
+    <term type="close" lemma="her" pos="Q" morphofeat="PRP$" tid="t153">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--disapproval-->
+    <term type="open" lemma="disapproval" pos="N" morphofeat="NN" tid="t154">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t155">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--Snowden-->
+    <term type="close" lemma="Snowden" pos="R" morphofeat="NNP" tid="t156">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t157">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--she-->
+        <span>
+          <target id="t150"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Snowden-->
+        <span>
+          <target id="t156"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--made clear-->
+        <span>
+          <target id="t151"/>
+          <target id="t152"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--she-->
+        <span>
+          <target id="t150"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Snowden-->
+        <span>
+          <target id="t156"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--disapproval of-->
+        <span>
+          <target id="t154"/>
+          <target id="t155"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

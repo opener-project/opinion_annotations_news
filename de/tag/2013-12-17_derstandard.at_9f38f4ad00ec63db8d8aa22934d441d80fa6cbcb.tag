@@ -1,0 +1,13 @@
+w23	Die	die	D		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	22	true	3
+w24	deutsche	deutsch	G		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	23	true	3
+w25	Bundeskanzlerin	Bundeskanzlerin	N		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	24	true	3
+w26	Angela	Angela	R		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	25	true	3
+w27	Merkel	Merkel	R		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	26	true	3
+w28	ist	sein	V		I-StrongPositive	8	Opinion	1		0		0		0		0		0		0	27	true	3
+w35	wiedergewählt	wiederwählen	V		I-StrongPositive	8	Opinion	1		0		0		0		0		0		0	34	true	3
+w36	worden	werden	V		I-StrongPositive	8	Opinion	1		0		0		0		0		0		0	35	true	3
+w116	Merkel	Merkel	R		OpinionHolder	5	Opinion	4		0		0		0		0		0		0	115	true	9
+w117	nahm	nehmen	V		D-Positive	9	Opinion	4		0		0		0		0		0		0	116	true	9
+w118	die	die	D		OpinionTarget	6	Opinion	4		0		0		0		0		0		0	117	true	9
+w119	Wahl	Wahl	N		OpinionTarget	6	Opinion	4		0		0		0		0		0		0	118	true	9
+w120	an	an	V		D-Positive	9	Opinion	4		0		0		0		0		0		0	119	true	9

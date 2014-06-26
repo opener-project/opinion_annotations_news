@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:14:44Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:14:44Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:16:57CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:15:03CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w115" sent="9" para="6" offset="724" length="4">Auch</wf>
+    <wf wid="w116" sent="9" para="6" offset="729" length="3">von</wf>
+    <wf wid="w117" sent="9" para="6" offset="733" length="3">der</wf>
+    <wf wid="w118" sent="9" para="6" offset="737" length="3">CSU</wf>
+    <wf wid="w119" sent="9" para="6" offset="741" length="3">gab</wf>
+    <wf wid="w120" sent="9" para="6" offset="745" length="2">es</wf>
+    <wf wid="w121" sent="9" para="6" offset="748" length="3">Lob</wf>
+    <wf wid="w122" sent="9" para="6" offset="751" length="1">:</wf>
+    <wf wid="w123" sent="9" para="6" offset="753" length="1">"</wf>
+    <wf wid="w124" sent="9" para="6" offset="754" length="3">Wir</wf>
+    <wf wid="w125" sent="9" para="6" offset="758" length="5">haben</wf>
+    <wf wid="w126" sent="9" para="6" offset="764" length="4">sehr</wf>
+    <wf wid="w127" sent="9" para="6" offset="769" length="11">ordentliche</wf>
+    <wf wid="w128" sent="9" para="6" offset="780" length="1">,</wf>
+    <wf wid="w129" sent="9" para="6" offset="782" length="4">sehr</wf>
+    <wf wid="w130" sent="9" para="6" offset="787" length="11">vernünftige</wf>
+    <wf wid="w131" sent="9" para="6" offset="799" length="9">Gespräche</wf>
+    <wf wid="w132" sent="9" para="6" offset="809" length="5">heute</wf>
+    <wf wid="w133" sent="9" para="6" offset="815" length="7">geführt</wf>
+    <wf wid="w134" sent="9" para="6" offset="822" length="1">"</wf>
+    <wf wid="w135" sent="9" para="6" offset="823" length="1">,</wf>
+    <wf wid="w136" sent="9" para="6" offset="825" length="5">sagte</wf>
+    <wf wid="w137" sent="9" para="6" offset="831" length="3">CSU</wf>
+    <wf wid="w138" sent="9" para="6" offset="834" length="1">·</wf>
+    <wf wid="w139" sent="9" para="6" offset="835" length="15">Generalsekretär</wf>
+    <wf wid="w140" sent="9" para="6" offset="851" length="9">Alexander</wf>
+    <wf wid="w141" sent="9" para="6" offset="861" length="8">Dobrindt</wf>
+    <wf wid="w142" sent="9" para="6" offset="869" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="auch" morphofeat="ADV" pos="A" tid="t115" type="open">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t116" type="close">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t117" type="close">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <term lemma="CSU" morphofeat="NE" pos="R" tid="t118" type="open">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <term lemma="geben" morphofeat="VVFIN" pos="V" tid="t119" type="open">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t120" type="close">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <term lemma="Lob" morphofeat="NN" pos="N" tid="t121" type="open">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <term lemma=":" morphofeat="$." pos="O" tid="t122" type="open">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t123" type="open">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <term lemma="wir" morphofeat="PPER" pos="Q" tid="t124" type="close">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t125" type="open">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <term lemma="sehr" morphofeat="ADV" pos="A" tid="t126" type="open">
+      <span>
+        <target id="w126"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="ordentlich" morphofeat="ADJA" pos="G" tid="t127" type="open">
+      <span>
+        <target id="w127"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t128" type="open">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <term lemma="sehr" morphofeat="ADV" pos="A" tid="t129" type="open">
+      <span>
+        <target id="w129"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="vernünftig" morphofeat="ADJA" pos="G" tid="t130" type="open">
+      <span>
+        <target id="w130"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Gespräch" morphofeat="NN" pos="N" tid="t131" type="open">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <term lemma="heute" morphofeat="ADV" pos="A" tid="t132" type="open">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <term lemma="führen" morphofeat="VVPP" pos="V" tid="t133" type="open">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t134" type="open">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t135" type="open">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t136" type="open">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <term lemma="CSU" morphofeat="NE" pos="R" tid="t137" type="open">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t138" type="open">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <term lemma="Generalsekretär" morphofeat="NN" pos="N" tid="t139" type="open">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <term lemma="Alexander" morphofeat="NE" pos="R" tid="t140" type="open">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <term lemma="Dobrindt" morphofeat="NE unknown_lemma" pos="O" tid="t141" type="open">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t142" type="open">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--Wir-->
+        <span>
+          <target id="t124"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Gespräche geführt-->
+        <span>
+          <target id="t131"/>
+          <target id="t133"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--sehr ordentliche-->
+        <span>
+          <target id="t126"/>
+          <target id="t127"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--Wir-->
+        <span>
+          <target id="t124"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Gespräche geführt-->
+        <span>
+          <target id="t131"/>
+          <target id="t133"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--sehr vernünftige-->
+        <span>
+          <target id="t129"/>
+          <target id="t130"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--von der CSU-->
+        <span>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--es-->
+        <span>
+          <target id="t120"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--Lob-->
+        <span>
+          <target id="t121"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

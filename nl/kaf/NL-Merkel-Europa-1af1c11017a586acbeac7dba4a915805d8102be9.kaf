@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:19Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:19Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:46:30CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:29CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Merkel</wf>
+    <wf wid="w2" sent="1" para="1" offset="6" length="1">:</wf>
+    <wf wid="w3" sent="1" para="1" offset="8" length="11">Griekenland</wf>
+    <wf wid="w4" sent="1" para="1" offset="20" length="5">heeft</wf>
+    <wf wid="w5" sent="1" para="1" offset="26" length="3">nog</wf>
+    <wf wid="w6" sent="1" para="1" offset="30" length="3">een</wf>
+    <wf wid="w7" sent="1" para="1" offset="34" length="5">lange</wf>
+    <wf wid="w8" sent="1" para="1" offset="40" length="3">weg</wf>
+    <wf wid="w9" sent="1" para="1" offset="44" length="2">te</wf>
+    <wf wid="w10" sent="1" para="1" offset="47" length="4">gaan</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t1" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t2" type="open" lemma=":" pos="O" morphofeat="$.">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Griekenland-->
+    <term tid="t3" type="open" lemma="Griekenland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--heeft-->
+    <term tid="t4" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--nog-->
+    <term tid="t5" type="open" lemma="nog" pos="A" morphofeat="adv">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t6" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--lange-->
+    <term tid="t7" type="open" lemma="lang" pos="G" morphofeat="adj">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--weg-->
+    <term tid="t8" type="open" lemma="weg" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w8"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--te-->
+    <term tid="t9" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--gaan-->
+    <term tid="t10" type="open" lemma="gaan" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Griekenland-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--heeft nog een lange weg te gaan-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

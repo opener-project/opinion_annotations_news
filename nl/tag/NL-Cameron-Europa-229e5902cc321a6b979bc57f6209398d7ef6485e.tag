@@ -1,0 +1,15 @@
+w665	Cameron	Cameron	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	664	true	41
+w666	hield	houden	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	665	true	41
+w667	de	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	666	true	41
+w668	speech	speech	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	667	true	41
+w669	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	668	true	41
+w670	het	het	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	669	true	41
+w671	Engelse	Engels	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	670	true	41
+w672	hoofdkwartier	hoofdkwartier	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	671	true	41
+w673	van	van	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	672	true	41
+w674	Bloomberg	Bloomberg	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	673	true	41
+w675	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	674	true	41
+w676	het	het	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	675	true	41
+w677	centrum	centrum	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	676	true	41
+w678	van	van	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	677	true	41
+w679	Londen	Londen	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	678	true	41

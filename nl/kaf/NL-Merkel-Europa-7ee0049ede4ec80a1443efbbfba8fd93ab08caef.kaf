@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:10:25CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w38" sent="6" para="2" offset="168" length="1">"</wf>
+    <wf wid="w39" sent="6" para="2" offset="169" length="3">Het</wf>
+    <wf wid="w40" sent="6" para="2" offset="173" length="2">is</wf>
+    <wf wid="w41" sent="6" para="2" offset="176" length="3">een</wf>
+    <wf wid="w42" sent="6" para="2" offset="180" length="5">goede</wf>
+    <wf wid="w43" sent="6" para="2" offset="186" length="3">dag</wf>
+    <wf wid="w44" sent="6" para="2" offset="190" length="4">voor</wf>
+    <wf wid="w45" sent="6" para="2" offset="195" length="9">Duitsland</wf>
+    <wf wid="w46" sent="6" para="2" offset="205" length="2">en</wf>
+    <wf wid="w47" sent="6" para="2" offset="208" length="3">een</wf>
+    <wf wid="w48" sent="6" para="2" offset="212" length="5">goede</wf>
+    <wf wid="w49" sent="6" para="2" offset="218" length="3">dag</wf>
+    <wf wid="w50" sent="6" para="2" offset="222" length="4">voor</wf>
+    <wf wid="w51" sent="6" para="2" offset="227" length="6">Europa</wf>
+    <wf wid="w52" sent="6" para="2" offset="233" length="1">"</wf>
+    <wf wid="w53" sent="6" para="2" offset="234" length="1">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term tid="t38" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--Het-->
+    <term tid="t39" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t40" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t41" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--goede-->
+    <term tid="t42" type="open" lemma="goed" pos="G" morphofeat="adj">
+      <span>
+        <target id="w42"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dag-->
+    <term tid="t43" type="open" lemma="dag" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t44" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--Duitsland-->
+    <term tid="t45" type="open" lemma="Duitsland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t46" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t47" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--goede-->
+    <term tid="t48" type="open" lemma="goed" pos="G" morphofeat="adj">
+      <span>
+        <target id="w48"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dag-->
+    <term tid="t49" type="open" lemma="dag" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t50" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t51" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t52" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t53" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--voor Duitsland-->
+        <span>
+          <target id="t44"/>
+          <target id="t45"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--goede dag-->
+        <span>
+          <target id="t42"/>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--voor Europa-->
+        <span>
+          <target id="t50"/>
+          <target id="t51"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--goede dag-->
+        <span>
+          <target id="t48"/>
+          <target id="t49"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

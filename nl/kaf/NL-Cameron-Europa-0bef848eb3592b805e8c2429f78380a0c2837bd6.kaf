@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:32:12CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w218" sent="17" para="2" offset="1205" length="2">In</wf>
+    <wf wid="w219" sent="17" para="2" offset="1208" length="4">1979</wf>
+    <wf wid="w220" sent="17" para="2" offset="1213" length="4">wint</wf>
+    <wf wid="w221" sent="17" para="2" offset="1218" length="2">ze</wf>
+    <wf wid="w222" sent="17" para="2" offset="1221" length="3">als</wf>
+    <wf wid="w223" sent="17" para="2" offset="1225" length="6">eerste</wf>
+    <wf wid="w224" sent="17" para="2" offset="1232" length="2">en</wf>
+    <wf wid="w225" sent="17" para="2" offset="1235" length="5">enige</wf>
+    <wf wid="w226" sent="17" para="2" offset="1241" length="5">vrouw</wf>
+    <wf wid="w227" sent="17" para="2" offset="1247" length="2">in</wf>
+    <wf wid="w228" sent="17" para="2" offset="1250" length="2">de</wf>
+    <wf wid="w229" sent="17" para="2" offset="1253" length="6">Britse</wf>
+    <wf wid="w230" sent="17" para="2" offset="1260" length="12">geschiedenis</wf>
+    <wf wid="w231" sent="17" para="2" offset="1273" length="2">de</wf>
+    <wf wid="w232" sent="17" para="2" offset="1276" length="12">verkiezingen</wf>
+    <wf wid="w233" sent="17" para="2" offset="1288" length="1">.</wf>
+  </text>
+  <terms>
+    <!--In-->
+    <term tid="t218" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--1979-->
+    <term tid="t219" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--wint-->
+    <term tid="t220" type="open" lemma="winnen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w220"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--ze-->
+    <term tid="t221" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--als-->
+    <term tid="t222" type="close" lemma="als" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--eerste-->
+    <term tid="t223" type="open" lemma="een" pos="O" morphofeat="num__ord">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t224" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--enige-->
+    <term tid="t225" type="close" lemma="enig" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--vrouw-->
+    <term tid="t226" type="open" lemma="vrouw" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t227" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t228" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--Britse-->
+    <term tid="t229" type="open" lemma="Brits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--geschiedenis-->
+    <term tid="t230" type="open" lemma="geschiedenis" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t231" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--verkiezingen-->
+    <term tid="t232" type="open" lemma="verkiezing" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t233" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+          <target id="t229"/>
+          <target id="t230"/>
+          <target id="t231"/>
+          <target id="t232"/>
+          <target id="t233"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

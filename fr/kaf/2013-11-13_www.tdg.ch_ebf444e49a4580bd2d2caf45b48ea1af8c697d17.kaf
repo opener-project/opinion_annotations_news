@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:56:01Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:56:01Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:56:01Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:31:53CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w186" sent="7" para="7" offset="990" length="9">Bruxelles</wf>
+    <wf wid="w187" sent="7" para="7" offset="1000" length="9">considère</wf>
+    <wf wid="w188" sent="7" para="7" offset="1010" length="3">que</wf>
+    <wf wid="w189" sent="7" para="7" offset="1014" length="2">l'</wf>
+    <wf wid="w190" sent="7" para="7" offset="1016" length="9">Allemagne</wf>
+    <wf wid="w191" sent="7" para="7" offset="1026" length="2">n'</wf>
+    <wf wid="w192" sent="7" para="7" offset="1028" length="7">importe</wf>
+    <wf wid="w193" sent="7" para="7" offset="1036" length="2">et</wf>
+    <wf wid="w194" sent="7" para="7" offset="1039" length="2">n'</wf>
+    <wf wid="w195" sent="7" para="7" offset="1041" length="8">investit</wf>
+    <wf wid="w196" sent="7" para="7" offset="1050" length="3">pas</wf>
+    <wf wid="w197" sent="7" para="7" offset="1054" length="5">assez</wf>
+    <wf wid="w198" sent="7" para="7" offset="1059" length="1">.</wf>
+    <wf wid="w199" sent="8" para="7" offset="1061" length="2">La</wf>
+    <wf wid="w200" sent="8" para="7" offset="1064" length="10">Commission</wf>
+    <wf wid="w201" sent="8" para="7" offset="1075" length="10">européenne</wf>
+    <wf wid="w202" sent="8" para="7" offset="1086" length="1">a</wf>
+    <wf wid="w203" sent="8" para="7" offset="1088" length="5">aussi</wf>
+    <wf wid="w204" sent="8" para="7" offset="1094" length="4">dans</wf>
+    <wf wid="w205" sent="8" para="7" offset="1099" length="2">le</wf>
+    <wf wid="w206" sent="8" para="7" offset="1102" length="11">collimateur</wf>
+    <wf wid="w207" sent="8" para="7" offset="1114" length="2">le</wf>
+    <wf wid="w208" sent="8" para="7" offset="1117" length="7">secteur</wf>
+    <wf wid="w209" sent="8" para="7" offset="1125" length="3">des</wf>
+    <wf wid="w210" sent="8" para="7" offset="1129" length="8">services</wf>
+    <wf wid="w211" sent="8" para="7" offset="1138" length="4">trop</wf>
+    <wf wid="w212" sent="8" para="7" offset="1143" length="10">réglementé</wf>
+    <wf wid="w213" sent="8" para="7" offset="1154" length="1">à</wf>
+    <wf wid="w214" sent="8" para="7" offset="1156" length="3">son</wf>
+    <wf wid="w215" sent="8" para="7" offset="1160" length="4">goût</wf>
+    <wf wid="w216" sent="8" para="7" offset="1164" length="1">.</wf>
+    <wf wid="w450" sent="17" para="11" offset="2484" length="3">Les</wf>
+    <wf wid="w451" sent="17" para="11" offset="2488" length="11">économistes</wf>
+    <wf wid="w452" sent="17" para="11" offset="2500" length="7">veulent</wf>
+    <wf wid="w453" sent="17" para="11" offset="2508" length="9">maintenir</wf>
+    <wf wid="w454" sent="17" para="11" offset="2518" length="2">le</wf>
+    <wf wid="w455" sent="17" para="11" offset="2521" length="3">cap</wf>
+  </text>
+  <terms>
+    <!--Bruxelles-->
+    <term tid="t186" type="open" lemma="Bruxelles" pos="N" morphofeat="NPs">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--considère-->
+    <term tid="t187" type="open" lemma="considérer" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--que-->
+    <term tid="t188" type="close" lemma="que" pos="C" morphofeat="CS">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t189" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--Allemagne-->
+    <term tid="t190" type="open" lemma="Allemagne" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--n'-->
+    <term tid="t191" type="open" lemma="n'" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--importe-->
+    <term tid="t192" type="open" lemma="importe" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t193" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--n'-->
+    <term tid="t194" type="open" lemma="n'" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--investit-->
+    <term tid="t195" type="open" lemma="investir" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--pas-->
+    <term tid="t196" type="open" lemma="pas" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative" sentiment_modifier="shifter"/>
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--assez-->
+    <term tid="t197" type="open" lemma="assez" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t198" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--La-->
+    <term tid="t199" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--Commission-->
+    <term tid="t200" type="open" lemma="commission" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--européenne-->
+    <term tid="t201" type="open" lemma="européen" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t202" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--aussi-->
+    <term tid="t203" type="open" lemma="aussi" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--dans-->
+    <term tid="t204" type="close" lemma="dans" pos="P" morphofeat="P">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t205" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--collimateur-->
+    <term tid="t206" type="open" lemma="collimateur" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t207" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--secteur-->
+    <term tid="t208" type="open" lemma="secteur" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t209" type="close" lemma="des" pos="P" morphofeat="P">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--services-->
+    <term tid="t210" type="open" lemma="service" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--trop-->
+    <term tid="t211" type="open" lemma="trop" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" sentiment_modifier="intensifier"/>
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--réglementé-->
+    <term tid="t212" type="open" lemma="réglementer" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t213" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--son-->
+    <term tid="t214" type="close" lemma="son" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--goût-->
+    <term tid="t215" type="open" lemma="goût" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t216" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--Les-->
+    <term tid="t450" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w450"/>
+      </span>
+    </term>
+    <!--économistes-->
+    <term tid="t451" type="open" lemma="économiste" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w451"/>
+      </span>
+    </term>
+    <!--veulent-->
+    <term tid="t452" type="open" lemma="vouloir" pos="V" morphofeat="VP3p">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w452"/>
+      </span>
+    </term>
+    <!--maintenir-->
+    <term tid="t453" type="open" lemma="maintenir" pos="V" morphofeat="VW">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w453"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t454" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w454"/>
+      </span>
+    </term>
+    <!--cap-->
+    <term tid="t455" type="open" lemma="cap" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w455"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--La Commission européenne-->
+        <span>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--le secteur des services-->
+        <span>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--trop réglementé-->
+        <span>
+          <target id="t211"/>
+          <target id="t212"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder>
+        <!--Les économistes-->
+        <span>
+          <target id="t450"/>
+          <target id="t451"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--le cap-->
+        <span>
+          <target id="t454"/>
+          <target id="t455"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--veulent maintenir-->
+        <span>
+          <target id="t452"/>
+          <target id="t453"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Bruxelles-->
+        <span>
+          <target id="t186"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--l' Allemagne-->
+        <span>
+          <target id="t189"/>
+          <target id="t190"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--n' importe n' investit pas assez-->
+        <span>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

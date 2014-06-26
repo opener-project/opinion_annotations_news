@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T18:09:37Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T18:09:37Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:53:27CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T19:09:45CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w32" sent="6" para="4" offset="244" length="3">Max</wf>
+    <wf wid="w33" sent="6" para="4" offset="248" length="6">Harper</wf>
+    <wf wid="w34" sent="6" para="4" offset="254" length="1">,</wf>
+    <wf wid="w35" sent="6" para="4" offset="256" length="3">der</wf>
+    <wf wid="w36" sent="6" para="4" offset="260" length="9">britische</wf>
+    <wf wid="w37" sent="6" para="4" offset="270" length="21">Einwanderungsminister</wf>
+    <wf wid="w38" sent="6" para="4" offset="291" length="1">,</wf>
+    <wf wid="w39" sent="6" para="4" offset="293" length="3">ist</wf>
+    <wf wid="w40" sent="6" para="4" offset="297" length="14">zurückgetreten</wf>
+    <wf wid="w41" sent="6" para="4" offset="311" length="1">.</wf>
+    <wf wid="w123" sent="12" para="7" offset="834" length="8">Camerons</wf>
+    <wf wid="w124" sent="12" para="7" offset="843" length="12">konservative</wf>
+    <wf wid="w125" sent="12" para="7" offset="856" length="6">Partei</wf>
+    <wf wid="w126" sent="12" para="7" offset="863" length="6">kämpft</wf>
+    <wf wid="w127" sent="12" para="7" offset="870" length="3">bei</wf>
+    <wf wid="w128" sent="12" para="7" offset="874" length="3">der</wf>
+    <wf wid="w129" sent="12" para="7" offset="878" length="4">Wahl</wf>
+    <wf wid="w130" sent="12" para="7" offset="883" length="2">im</wf>
+    <wf wid="w131" sent="12" para="7" offset="886" length="3">Mai</wf>
+    <wf wid="w132" sent="12" para="7" offset="890" length="5">gegen</wf>
+    <wf wid="w133" sent="12" para="7" offset="896" length="3">die</wf>
+    <wf wid="w134" sent="12" para="7" offset="900" length="16">europaskeptische</wf>
+    <wf wid="w135" sent="12" para="7" offset="917" length="4">Ukip</wf>
+    <wf wid="w136" sent="12" para="7" offset="921" length="1">,</wf>
+    <wf wid="w137" sent="12" para="7" offset="923" length="3">die</wf>
+    <wf wid="w138" sent="12" para="7" offset="927" length="4">sich</wf>
+    <wf wid="w139" sent="12" para="7" offset="932" length="4">auch</wf>
+    <wf wid="w140" sent="12" para="7" offset="937" length="3">den</wf>
+    <wf wid="w141" sent="12" para="7" offset="941" length="5">Kampf</wf>
+    <wf wid="w142" sent="12" para="7" offset="947" length="5">gegen</wf>
+    <wf wid="w143" sent="12" para="7" offset="953" length="3">die</wf>
+    <wf wid="w144" sent="12" para="7" offset="957" length="12">Einwanderung</wf>
+    <wf wid="w145" sent="12" para="7" offset="970" length="3">zum</wf>
+    <wf wid="w146" sent="12" para="7" offset="974" length="4">Ziel</wf>
+    <wf wid="w147" sent="12" para="7" offset="979" length="7">gesetzt</wf>
+    <wf wid="w148" sent="12" para="7" offset="987" length="3">hat</wf>
+    <wf wid="w149" sent="12" para="7" offset="990" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Max" morphofeat="NE" pos="R" tid="t32" type="open">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="Harper" morphofeat="NN unknown_lemma" pos="O" tid="t33" type="open">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t34" type="open">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t35" type="close">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="britisch" morphofeat="ADJA" pos="G" tid="t36" type="open">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="Einwanderungsminister" morphofeat="NN" pos="N" tid="t37" type="open">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t38" type="open">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t39" type="open">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="zurücktreten" morphofeat="VVPP" pos="V" tid="t40" type="open">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t41" type="open">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term lemma="Camerons" morphofeat="NN unknown_lemma" pos="O" tid="t123" type="open">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <term lemma="konservativ" morphofeat="ADJA" pos="G" tid="t124" type="open">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <term lemma="Partei" morphofeat="NN" pos="N" tid="t125" type="open">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <term lemma="kämpfen" morphofeat="VVFIN" pos="V" tid="t126" type="open">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <term lemma="bei" morphofeat="APPR" pos="P" tid="t127" type="close">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t128" type="close">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <term lemma="Wahl" morphofeat="NN" pos="N" tid="t129" type="open">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t130" type="close">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <term lemma="Mai" morphofeat="NN" pos="N" tid="t131" type="open">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <term lemma="gegen" morphofeat="APPR" pos="P" tid="t132" type="close">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t133" type="close">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <term lemma="europaskeptische" morphofeat="ADJA unknown_lemma" pos="O" tid="t134" type="open">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <term lemma="Ukip" morphofeat="NN unknown_lemma" pos="O" tid="t135" type="open">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t136" type="open">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="PRELS" pos="Q" tid="t137" type="close">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t138" type="close">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <term lemma="auch" morphofeat="ADV" pos="A" tid="t139" type="open">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t140" type="close">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <term lemma="Kampf" morphofeat="NN" pos="N" tid="t141" type="open">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <term lemma="gegen" morphofeat="APPR" pos="P" tid="t142" type="close">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t143" type="close">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <term lemma="Einwanderung" morphofeat="NN" pos="N" tid="t144" type="open">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPRART" pos="P" tid="t145" type="close">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <term lemma="Ziel" morphofeat="NN" pos="N" tid="t146" type="open">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <term lemma="setzen" morphofeat="VVPP" pos="V" tid="t147" type="open">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t148" type="open">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t149" type="open">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder>
+        <!--Camerons konservative Partei-->
+        <span>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die europaskeptische Ukip-->
+        <span>
+          <target id="t133"/>
+          <target id="t134"/>
+          <target id="t135"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--kämpft gegen-->
+        <span>
+          <target id="t126"/>
+          <target id="t132"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--den Kampf gegen die Einwanderung-->
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--zum Ziel gesetzt hat-->
+        <span>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+          <target id="t148"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Ukip-->
+        <span>
+          <target id="t135"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--zum Ziel gesetzt hat-->
+        <span>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+          <target id="t148"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die Einwanderung-->
+        <span>
+          <target id="t143"/>
+          <target id="t144"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--den Kampf gegen-->
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

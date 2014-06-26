@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:57:30" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:48:09CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:59CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="11" para="2" offset="1316" length="1" wid="w252">"</wf>
+    <wf sent="11" para="2" offset="1317" length="3" wid="w253">The</wf>
+    <wf sent="11" para="2" offset="1321" length="6" wid="w254">scheme</wf>
+    <wf sent="11" para="2" offset="1328" length="2" wid="w255">is</wf>
+    <wf sent="11" para="2" offset="1331" length="3" wid="w256">the</wf>
+    <wf sent="11" para="2" offset="1335" length="7" wid="w257">country</wf>
+    <wf sent="11" para="2" offset="1342" length="2" wid="w258">'s</wf>
+    <wf sent="11" para="2" offset="1345" length="7" wid="w259">largest</wf>
+    <wf sent="11" para="2" offset="1353" length="14" wid="w260">infrastructure</wf>
+    <wf sent="11" para="2" offset="1368" length="7" wid="w261">project</wf>
+    <wf sent="11" para="2" offset="1376" length="3" wid="w262">for</wf>
+    <wf sent="11" para="2" offset="1380" length="1" wid="w263">a</wf>
+    <wf sent="11" para="2" offset="1382" length="10" wid="w264">generation</wf>
+    <wf sent="11" para="2" offset="1393" length="3" wid="w265">and</wf>
+    <wf sent="11" para="2" offset="1397" length="3" wid="w266">the</wf>
+    <wf sent="11" para="2" offset="1401" length="7" wid="w267">largest</wf>
+    <wf sent="11" para="2" offset="1409" length="6" wid="w268">single</wf>
+    <wf sent="11" para="2" offset="1416" length="4" wid="w269">rail</wf>
+    <wf sent="11" para="2" offset="1421" length="7" wid="w270">project</wf>
+    <wf sent="11" para="2" offset="1429" length="5" wid="w271">since</wf>
+    <wf sent="11" para="2" offset="1435" length="3" wid="w272">the</wf>
+    <wf sent="11" para="2" offset="1439" length="4" wid="w273">19th</wf>
+    <wf sent="11" para="2" offset="1444" length="7" wid="w274">century</wf>
+    <wf sent="11" para="2" offset="1451" length="1" wid="w275">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t252">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t253">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--scheme-->
+    <term type="open" lemma="scheme" pos="N" morphofeat="NN" tid="t254">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t255">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t256">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--country-->
+    <term type="open" lemma="country" pos="N" morphofeat="NN" tid="t257">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t258">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--largest-->
+    <term type="open" lemma="largest" pos="G" morphofeat="JJS" tid="t259">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--infrastructure-->
+    <term type="open" lemma="infrastructure" pos="N" morphofeat="NN" tid="t260">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--project-->
+    <term type="open" lemma="project" pos="N" morphofeat="NN" tid="t261">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t262">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t263">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--generation-->
+    <term type="open" lemma="generation" pos="N" morphofeat="NN" tid="t264">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t265">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t266">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--largest-->
+    <term type="open" lemma="largest" pos="G" morphofeat="JJS" tid="t267">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--single-->
+    <term type="open" lemma="single" pos="G" morphofeat="JJ" tid="t268">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--rail-->
+    <term type="open" lemma="rail" pos="N" morphofeat="NN" tid="t269">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--project-->
+    <term type="open" lemma="project" pos="N" morphofeat="NN" tid="t270">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--since-->
+    <term type="close" lemma="since" pos="P" morphofeat="IN" tid="t271">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t272">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--19th-->
+    <term type="open" lemma="19th" pos="G" morphofeat="JJ" tid="t273">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--century-->
+    <term type="open" lemma="century" pos="N" morphofeat="NN" tid="t274">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t275">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t253"/>
+          <target id="t254"/>
+          <target id="t255"/>
+          <target id="t256"/>
+          <target id="t257"/>
+          <target id="t258"/>
+          <target id="t259"/>
+          <target id="t260"/>
+          <target id="t261"/>
+          <target id="t262"/>
+          <target id="t263"/>
+          <target id="t264"/>
+          <target id="t265"/>
+          <target id="t266"/>
+          <target id="t267"/>
+          <target id="t268"/>
+          <target id="t269"/>
+          <target id="t270"/>
+          <target id="t271"/>
+          <target id="t272"/>
+          <target id="t273"/>
+          <target id="t274"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:57Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:57Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:15:05" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:22:39CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="12" para="2" offset="717" length="10" wid="w146">Chancellor</wf>
+    <wf sent="12" para="2" offset="728" length="6" wid="w147">Angela</wf>
+    <wf sent="12" para="2" offset="735" length="6" wid="w148">Merkel</wf>
+    <wf sent="12" para="2" offset="742" length="8" wid="w149">captured</wf>
+    <wf sent="12" para="2" offset="751" length="1" wid="w150">a</wf>
+    <wf sent="12" para="2" offset="753" length="9" wid="w151">landslide</wf>
+    <wf sent="12" para="2" offset="763" length="7" wid="w152">victory</wf>
+    <wf sent="12" para="2" offset="771" length="2" wid="w153">in</wf>
+    <wf sent="12" para="2" offset="774" length="6" wid="w154">German</wf>
+    <wf sent="12" para="2" offset="781" length="9" wid="w155">elections</wf>
+    <wf sent="12" para="2" offset="791" length="2" wid="w156">on</wf>
+    <wf sent="12" para="2" offset="794" length="6" wid="w157">Sunday</wf>
+    <wf sent="12" para="2" offset="800" length="1" wid="w158">,</wf>
+    <wf sent="12" para="2" offset="802" length="10" wid="w159">decisively</wf>
+    <wf sent="12" para="2" offset="813" length="7" wid="w160">winning</wf>
+    <wf sent="12" para="2" offset="821" length="1" wid="w161">a</wf>
+    <wf sent="12" para="2" offset="823" length="5" wid="w162">third</wf>
+    <wf sent="12" para="2" offset="829" length="4" wid="w163">term</wf>
+    <wf sent="12" para="2" offset="834" length="3" wid="w164">and</wf>
+    <wf sent="12" para="2" offset="838" length="7" wid="w165">nearing</wf>
+    <wf sent="12" para="2" offset="846" length="2" wid="w166">an</wf>
+    <wf sent="12" para="2" offset="849" length="8" wid="w167">absolute</wf>
+    <wf sent="12" para="2" offset="858" length="8" wid="w168">majority</wf>
+    <wf sent="12" para="2" offset="866" length="1" wid="w169">.</wf>
+  </text>
+  <terms>
+    <!--Chancellor-->
+    <term type="close" lemma="Chancellor" pos="R" morphofeat="NNP" tid="t146">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term type="close" lemma="Angela" pos="R" morphofeat="NNP" tid="t147">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t148">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--captured-->
+    <term type="open" lemma="capture" pos="V" morphofeat="VBD" tid="t149">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t150">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--landslide-->
+    <term type="open" lemma="landslide" pos="N" morphofeat="NN" tid="t151">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--victory-->
+    <term type="open" lemma="victory" pos="N" morphofeat="NN" tid="t152">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t153">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--German-->
+    <term type="open" lemma="german" pos="G" morphofeat="JJ" tid="t154">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--elections-->
+    <term type="open" lemma="election" pos="N" morphofeat="NNS" tid="t155">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t156">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--Sunday-->
+    <term type="close" lemma="Sunday" pos="R" morphofeat="NNP" tid="t157">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t158">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--decisively-->
+    <term type="open" lemma="decisively" pos="A" morphofeat="RB" tid="t159">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--winning-->
+    <term type="open" lemma="win" pos="V" morphofeat="VBG" tid="t160">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t161">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--third-->
+    <term type="open" lemma="3" pos="G" morphofeat="JJ" tid="t162">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--term-->
+    <term type="open" lemma="term" pos="N" morphofeat="NN" tid="t163">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t164">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--nearing-->
+    <term type="open" lemma="near" pos="V" morphofeat="VBG" tid="t165">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--an-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t166">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--absolute-->
+    <term type="open" lemma="absolute" pos="G" morphofeat="JJ" tid="t167">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--majority-->
+    <term type="open" lemma="majority" pos="N" morphofeat="NN" tid="t168">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t169">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--winning-->
+        <span>
+          <target id="t160"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--decisively-->
+        <span>
+          <target id="t159"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--majority-->
+        <span>
+          <target id="t168"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--absolute-->
+        <span>
+          <target id="t167"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--victory-->
+        <span>
+          <target id="t152"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=23-->
+      <opinion_holder>
+        <!--Chancellor-->
+        <span>
+          <target id="t146"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Angela Merkel-->
+        <span>
+          <target id="t147"/>
+          <target id="t148"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--captured a landslide victory-->
+        <span>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=23-->
+      <opinion_holder>
+        <!--Chancellor-->
+        <span>
+          <target id="t146"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Angela Merkel-->
+        <span>
+          <target id="t147"/>
+          <target id="t148"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--nearing an absolute majority-->
+        <span>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!--Tag opinion scope id=23-->
+      <opinion_holder>
+        <!--Chancellor-->
+        <span>
+          <target id="t146"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Angela Merkel-->
+        <span>
+          <target id="t147"/>
+          <target id="t148"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--decisively winning a third term-->
+        <span>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

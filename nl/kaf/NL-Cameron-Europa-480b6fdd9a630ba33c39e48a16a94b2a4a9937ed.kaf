@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:14Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:14Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:00:50CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w142" sent="6" para="2" offset="877" length="3">Ook</wf>
+    <wf wid="w143" sent="6" para="2" offset="881" length="8">verloren</wf>
+    <wf wid="w144" sent="6" para="2" offset="890" length="2">de</wf>
+    <wf wid="w145" sent="6" para="2" offset="893" length="14">Conservatieven</wf>
+    <wf wid="w146" sent="6" para="2" offset="908" length="3">hun</wf>
+    <wf wid="w147" sent="6" para="2" offset="912" length="11">meerderheid</wf>
+    <wf wid="w148" sent="6" para="2" offset="924" length="2">in</wf>
+    <wf wid="w149" sent="6" para="2" offset="927" length="15">Gloucestershire</wf>
+    <wf wid="w150" sent="6" para="2" offset="942" length="1">.</wf>
+    <wf wid="w220" sent="11" para="2" offset="1377" length="4">Zijn</wf>
+    <wf wid="w221" sent="11" para="2" offset="1382" length="8">opvolger</wf>
+    <wf wid="w222" sent="11" para="2" offset="1391" length="2">is</wf>
+    <wf wid="w223" sent="11" para="2" offset="1394" length="4">Emma</wf>
+    <wf wid="w224" sent="11" para="2" offset="1399" length="11">Lewell-Buck</wf>
+    <wf wid="w225" sent="11" para="2" offset="1410" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ook-->
+    <term tid="t142" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--verloren-->
+    <term tid="t143" type="open" lemma="verliezen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w143"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--de-->
+    <term tid="t144" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--Conservatieven-->
+    <term tid="t145" type="open" lemma="Conservatieven" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--hun-->
+    <term tid="t146" type="close" lemma="hun" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--meerderheid-->
+    <term tid="t147" type="open" lemma="meerderheid" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t148" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--Gloucestershire-->
+    <term tid="t149" type="open" lemma="Gloucestershire" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t150" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--Zijn-->
+    <term tid="t220" type="close" lemma="zijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--opvolger-->
+    <term tid="t221" type="open" lemma="opvolger" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t222" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--Emma-->
+    <term tid="t223" type="open" lemma="Emma" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--Lewell-Buck-->
+    <term tid="t224" type="open" lemma="Lewell-Buck" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t225" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--hun meerderheid-->
+        <span>
+          <target id="t146"/>
+          <target id="t147"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--verloren-->
+        <span>
+          <target id="t143"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

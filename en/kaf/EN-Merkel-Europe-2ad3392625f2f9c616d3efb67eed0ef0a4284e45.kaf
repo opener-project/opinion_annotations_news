@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:23Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:23Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:57:53" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:25:03CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="14" para="2" offset="2781" length="2" wid="w496">Mr</wf>
+    <wf sent="14" para="2" offset="2784" length="5" wid="w497">Putin</wf>
+    <wf sent="14" para="2" offset="2789" length="1" wid="w498">,</wf>
+    <wf sent="14" para="2" offset="2791" length="8" wid="w499">isolated</wf>
+    <wf sent="14" para="2" offset="2800" length="2" wid="w500">at</wf>
+    <wf sent="14" para="2" offset="2803" length="3" wid="w501">the</wf>
+    <wf sent="14" para="2" offset="2807" length="6" wid="w502">summit</wf>
+    <wf sent="14" para="2" offset="2813" length="1" wid="w503">,</wf>
+    <wf sent="14" para="2" offset="2815" length="10" wid="w504">repeatedly</wf>
+    <wf sent="14" para="2" offset="2826" length="7" wid="w505">clashed</wf>
+    <wf sent="14" para="2" offset="2834" length="4" wid="w506">with</wf>
+    <wf sent="14" para="2" offset="2839" length="5" wid="w507">other</wf>
+    <wf sent="14" para="2" offset="2845" length="7" wid="w508">leaders</wf>
+    <wf sent="14" para="2" offset="2853" length="4" wid="w509">over</wf>
+    <wf sent="14" para="2" offset="2858" length="3" wid="w510">the</wf>
+    <wf sent="14" para="2" offset="2862" length="4" wid="w511">fate</wf>
+    <wf sent="14" para="2" offset="2867" length="2" wid="w512">of</wf>
+    <wf sent="14" para="2" offset="2870" length="5" wid="w513">Assad</wf>
+    <wf sent="14" para="2" offset="2876" length="3" wid="w514">and</wf>
+    <wf sent="14" para="2" offset="2880" length="8" wid="w515">resisted</wf>
+    <wf sent="14" para="2" offset="2889" length="8" wid="w516">pressure</wf>
+    <wf sent="14" para="2" offset="2898" length="2" wid="w517">to</wf>
+    <wf sent="14" para="2" offset="2901" length="5" wid="w518">agree</wf>
+    <wf sent="14" para="2" offset="2907" length="2" wid="w519">to</wf>
+    <wf sent="14" para="2" offset="2910" length="8" wid="w520">anything</wf>
+    <wf sent="14" para="2" offset="2919" length="4" wid="w521">that</wf>
+    <wf sent="14" para="2" offset="2924" length="5" wid="w522">would</wf>
+    <wf sent="14" para="2" offset="2930" length="5" wid="w523">imply</wf>
+    <wf sent="14" para="2" offset="2936" length="5" wid="w524">Assad</wf>
+    <wf sent="14" para="2" offset="2942" length="6" wid="w525">should</wf>
+    <wf sent="14" para="2" offset="2949" length="4" wid="w526">step</wf>
+    <wf sent="14" para="2" offset="2954" length="4" wid="w527">down</wf>
+    <wf sent="14" para="2" offset="2958" length="1" wid="w528">.</wf>
+  </text>
+  <terms>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t496">
+      <span>
+        <target id="w496"/>
+      </span>
+    </term>
+    <!--Putin-->
+    <term type="close" lemma="Putin" pos="R" morphofeat="NNP" tid="t497">
+      <span>
+        <target id="w497"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t498">
+      <span>
+        <target id="w498"/>
+      </span>
+    </term>
+    <!--isolated-->
+    <term type="open" lemma="isolate" pos="V" morphofeat="VBN" tid="t499">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w499"/>
+      </span>
+    </term>
+    <!--at-->
+    <term type="close" lemma="at" pos="P" morphofeat="IN" tid="t500">
+      <span>
+        <target id="w500"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t501">
+      <span>
+        <target id="w501"/>
+      </span>
+    </term>
+    <!--summit-->
+    <term type="open" lemma="summit" pos="N" morphofeat="NN" tid="t502">
+      <span>
+        <target id="w502"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t503">
+      <span>
+        <target id="w503"/>
+      </span>
+    </term>
+    <!--repeatedly-->
+    <term type="open" lemma="repeatedly" pos="A" morphofeat="RB" tid="t504">
+      <span>
+        <target id="w504"/>
+      </span>
+    </term>
+    <!--clashed-->
+    <term type="open" lemma="clash" pos="V" morphofeat="VBN" tid="t505">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w505"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t506">
+      <span>
+        <target id="w506"/>
+      </span>
+    </term>
+    <!--other-->
+    <term type="open" lemma="other" pos="G" morphofeat="JJ" tid="t507">
+      <span>
+        <target id="w507"/>
+      </span>
+    </term>
+    <!--leaders-->
+    <term type="open" lemma="leader" pos="N" morphofeat="NNS" tid="t508">
+      <span>
+        <target id="w508"/>
+      </span>
+    </term>
+    <!--over-->
+    <term type="close" lemma="over" pos="P" morphofeat="IN" tid="t509">
+      <span>
+        <target id="w509"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t510">
+      <span>
+        <target id="w510"/>
+      </span>
+    </term>
+    <!--fate-->
+    <term type="open" lemma="fate" pos="N" morphofeat="NN" tid="t511">
+      <span>
+        <target id="w511"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t512">
+      <span>
+        <target id="w512"/>
+      </span>
+    </term>
+    <!--Assad-->
+    <term type="close" lemma="Assad" pos="R" morphofeat="NNP" tid="t513">
+      <span>
+        <target id="w513"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t514">
+      <span>
+        <target id="w514"/>
+      </span>
+    </term>
+    <!--resisted-->
+    <term type="open" lemma="resist" pos="V" morphofeat="VBD" tid="t515">
+      <span>
+        <target id="w515"/>
+      </span>
+    </term>
+    <!--pressure-->
+    <term type="open" lemma="pressure" pos="N" morphofeat="NN" tid="t516">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w516"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t517">
+      <span>
+        <target id="w517"/>
+      </span>
+    </term>
+    <!--agree-->
+    <term type="open" lemma="agree" pos="V" morphofeat="VB" tid="t518">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w518"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t519">
+      <span>
+        <target id="w519"/>
+      </span>
+    </term>
+    <!--anything-->
+    <term type="open" lemma="anything" pos="N" morphofeat="NN" tid="t520">
+      <span>
+        <target id="w520"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="O" morphofeat="WDT" tid="t521">
+      <span>
+        <target id="w521"/>
+      </span>
+    </term>
+    <!--would-->
+    <term type="close" lemma="would" pos="O" morphofeat="MD" tid="t522">
+      <span>
+        <target id="w522"/>
+      </span>
+    </term>
+    <!--imply-->
+    <term type="open" lemma="imply" pos="A" morphofeat="RB" tid="t523">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w523"/>
+      </span>
+    </term>
+    <!--Assad-->
+    <term type="open" lemma="assad" pos="V" morphofeat="VB" tid="t524">
+      <span>
+        <target id="w524"/>
+      </span>
+    </term>
+    <!--should-->
+    <term type="close" lemma="should" pos="O" morphofeat="MD" tid="t525">
+      <span>
+        <target id="w525"/>
+      </span>
+    </term>
+    <!--step-->
+    <term type="open" lemma="step" pos="V" morphofeat="VB" tid="t526">
+      <span>
+        <target id="w526"/>
+      </span>
+    </term>
+    <!--down-->
+    <term type="open" lemma="down" pos="A" morphofeat="RB" tid="t527">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w527"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t528">
+      <span>
+        <target id="w528"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Assad-->
+        <span>
+          <target id="t524"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--should step down-->
+        <span>
+          <target id="t525"/>
+          <target id="t526"/>
+          <target id="t527"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Mr Putin-->
+        <span>
+          <target id="t496"/>
+          <target id="t497"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--anything that would imply Assad should step down-->
+        <span>
+          <target id="t520"/>
+          <target id="t521"/>
+          <target id="t522"/>
+          <target id="t523"/>
+          <target id="t524"/>
+          <target id="t525"/>
+          <target id="t526"/>
+          <target id="t527"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--resisted pressure to agree-->
+        <span>
+          <target id="t515"/>
+          <target id="t516"/>
+          <target id="t517"/>
+          <target id="t518"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Mr Putin-->
+        <span>
+          <target id="t496"/>
+          <target id="t497"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the fate of Assad-->
+        <span>
+          <target id="t510"/>
+          <target id="t511"/>
+          <target id="t512"/>
+          <target id="t513"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--repeatedly clashed-->
+        <span>
+          <target id="t504"/>
+          <target id="t505"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

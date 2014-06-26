@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:05:22CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:37CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w301" sent="19" para="2" offset="1665" length="9">PassauHet</wf>
+    <wf wid="w302" sent="19" para="2" offset="1675" length="4">oude</wf>
+    <wf wid="w303" sent="19" para="2" offset="1680" length="7">centrum</wf>
+    <wf wid="w304" sent="19" para="2" offset="1688" length="3">van</wf>
+    <wf wid="w305" sent="19" para="2" offset="1692" length="6">Passau</wf>
+    <wf wid="w306" sent="19" para="2" offset="1699" length="2">is</wf>
+    <wf wid="w307" sent="19" para="2" offset="1702" length="12">ondergelopen</wf>
+    <wf wid="w308" sent="19" para="2" offset="1715" length="4">door</wf>
+    <wf wid="w309" sent="19" para="2" offset="1720" length="3">het</wf>
+    <wf wid="w310" sent="19" para="2" offset="1724" length="5">water</wf>
+    <wf wid="w311" sent="19" para="2" offset="1730" length="3">uit</wf>
+    <wf wid="w312" sent="19" para="2" offset="1734" length="4">drie</wf>
+    <wf wid="w313" sent="19" para="2" offset="1739" length="9">gezwollen</wf>
+    <wf wid="w314" sent="19" para="2" offset="1749" length="8">rivieren</wf>
+    <wf wid="w315" sent="19" para="2" offset="1757" length="1">.</wf>
+    <wf wid="w316" sent="19" para="2" offset="1759" length="1">„</wf>
+    <wf wid="w317" sent="19" para="2" offset="1760" length="2">De</wf>
+    <wf wid="w318" sent="19" para="2" offset="1763" length="8">toestand</wf>
+    <wf wid="w319" sent="19" para="2" offset="1772" length="2">is</wf>
+    <wf wid="w320" sent="19" para="2" offset="1775" length="9">uitermate</wf>
+    <wf wid="w321" sent="19" para="2" offset="1785" length="10">dramatisch</wf>
+    <wf wid="w322" sent="19" para="2" offset="1795" length="1">”</wf>
+    <wf wid="w323" sent="19" para="2" offset="1796" length="1">,</wf>
+    <wf wid="w324" sent="19" para="2" offset="1798" length="4">zegt</wf>
+    <wf wid="w325" sent="19" para="2" offset="1803" length="3">een</wf>
+    <wf wid="w326" sent="19" para="2" offset="1807" length="12">woordvoerder</wf>
+    <wf wid="w327" sent="19" para="2" offset="1820" length="3">van</wf>
+    <wf wid="w328" sent="19" para="2" offset="1824" length="3">het</wf>
+    <wf wid="w329" sent="19" para="2" offset="1828" length="13">crisiscentrum</wf>
+    <wf wid="w330" sent="19" para="2" offset="1841" length="1">,</wf>
+    <wf wid="w331" sent="19" para="2" offset="1843" length="7">Herbert</wf>
+    <wf wid="w332" sent="19" para="2" offset="1851" length="9">Zillinger</wf>
+    <wf wid="w333" sent="19" para="2" offset="1860" length="1">.</wf>
+  </text>
+  <terms>
+    <!--PassauHet-->
+    <term tid="t301" type="open" lemma="PassauHet" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--oude-->
+    <term tid="t302" type="open" lemma="oud" pos="G" morphofeat="adj">
+      <span>
+        <target id="w302"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--centrum-->
+    <term tid="t303" type="open" lemma="centrum" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t304" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <!--Passau-->
+    <term tid="t305" type="open" lemma="Passau" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t306" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <!--ondergelopen-->
+    <term tid="t307" type="open" lemma="onderlopen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <!--door-->
+    <term tid="t308" type="close" lemma="door" pos="P" morphofeat="prep">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t309" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <!--water-->
+    <term tid="t310" type="open" lemma="water" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <!--uit-->
+    <term tid="t311" type="close" lemma="uit" pos="P" morphofeat="prep">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <!--drie-->
+    <term tid="t312" type="open" lemma="drie" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <!--gezwollen-->
+    <term tid="t313" type="open" lemma="zwellen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w313"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--rivieren-->
+    <term tid="t314" type="open" lemma="rivier" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t315" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <!--„-->
+    <term tid="t316" type="open" lemma="„" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t317" type="open" lemma="De" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--toestand-->
+    <term tid="t318" type="open" lemma="toestand" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t319" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--uitermate-->
+    <term tid="t320" type="open" lemma="uitermate" pos="A" morphofeat="adv">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <!--dramatisch-->
+    <term tid="t321" type="open" lemma="dramatisch" pos="G" morphofeat="adj">
+      <span>
+        <target id="w321"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--”-->
+    <term tid="t322" type="open" lemma="”" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t323" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--zegt-->
+    <term tid="t324" type="open" lemma="zeggen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t325" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <!--woordvoerder-->
+    <term tid="t326" type="open" lemma="woordvoerder" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t327" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t328" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--crisiscentrum-->
+    <term tid="t329" type="open" lemma="crisiscentrum" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t330" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <!--Herbert-->
+    <term tid="t331" type="open" lemma="Herbert" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w331"/>
+      </span>
+    </term>
+    <!--Zillinger-->
+    <term tid="t332" type="open" lemma="Zillinger" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t333" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--een woordvoerder van het crisiscentrum-->
+        <span>
+          <target id="t325"/>
+          <target id="t326"/>
+          <target id="t327"/>
+          <target id="t328"/>
+          <target id="t329"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--De toestand-->
+        <span>
+          <target id="t317"/>
+          <target id="t318"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--uitermate dramatisch-->
+        <span>
+          <target id="t320"/>
+          <target id="t321"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--een woordvoerder van het crisiscentrum-->
+        <span>
+          <target id="t325"/>
+          <target id="t326"/>
+          <target id="t327"/>
+          <target id="t328"/>
+          <target id="t329"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--De toestand-->
+        <span>
+          <target id="t317"/>
+          <target id="t318"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--zegt-->
+        <span>
+          <target id="t324"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

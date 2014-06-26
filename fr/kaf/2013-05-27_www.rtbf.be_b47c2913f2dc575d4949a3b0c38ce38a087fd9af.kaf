@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:55:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:55:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:55:11Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:17:33CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w143" sent="5" para="4" offset="730" length="2">M.</wf>
+    <wf wid="w144" sent="5" para="4" offset="733" length="2">Li</wf>
+    <wf wid="w145" sent="5" para="4" offset="736" length="3">est</wf>
+    <wf wid="w146" sent="5" para="4" offset="740" length="6">arrivé</wf>
+    <wf wid="w147" sent="5" para="4" offset="747" length="6">samedi</wf>
+    <wf wid="w148" sent="5" para="4" offset="754" length="2">en</wf>
+    <wf wid="w149" sent="5" para="4" offset="757" length="9">Allemagne</wf>
+    <wf wid="w150" sent="5" para="4" offset="767" length="4">pour</wf>
+    <wf wid="w151" sent="5" para="4" offset="772" length="2">sa</wf>
+    <wf wid="w152" sent="5" para="4" offset="775" length="8">première</wf>
+    <wf wid="w153" sent="5" para="4" offset="784" length="6">visite</wf>
+    <wf wid="w154" sent="5" para="4" offset="791" length="10">officielle</wf>
+    <wf wid="w155" sent="5" para="4" offset="802" length="4">dans</wf>
+    <wf wid="w156" sent="5" para="4" offset="807" length="2">le</wf>
+    <wf wid="w157" sent="5" para="4" offset="810" length="4">pays</wf>
+    <wf wid="w158" sent="5" para="4" offset="814" length="1">.</wf>
+  </text>
+  <terms>
+    <!--M.-->
+    <term tid="t143" type="open" lemma="M." pos="N" morphofeat="NCms">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--Li-->
+    <term tid="t144" type="open" lemma="li" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t145" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--arrivé-->
+    <term tid="t146" type="open" lemma="arriver" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--samedi-->
+    <term tid="t147" type="open" lemma="samedi" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t148" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--Allemagne-->
+    <term tid="t149" type="open" lemma="Allemagne" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t150" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--sa-->
+    <term tid="t151" type="close" lemma="son" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--première-->
+    <term tid="t152" type="open" lemma="premier" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--visite-->
+    <term tid="t153" type="open" lemma="visite" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--officielle-->
+    <term tid="t154" type="open" lemma="officiel" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--dans-->
+    <term tid="t155" type="close" lemma="dans" pos="P" morphofeat="P">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t156" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--pays-->
+    <term tid="t157" type="open" lemma="pays" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t158" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+          <target id="t153"/>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+          <target id="t157"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

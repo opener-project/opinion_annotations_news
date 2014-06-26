@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:45Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:45Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:59:30" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:44:39CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:57CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="12" para="2" offset="1810" length="2" wid="w340">It</wf>
+    <wf sent="12" para="2" offset="1812" length="2" wid="w341">'s</wf>
+    <wf sent="12" para="2" offset="1815" length="10" wid="w342">absolutely</wf>
+    <wf sent="12" para="2" offset="1826" length="11" wid="w343">disgraceful</wf>
+    <wf sent="12" para="2" offset="1837" length="1" wid="w344">.</wf>
+  </text>
+  <terms>
+    <!--It-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t340">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t341">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--absolutely-->
+    <term type="open" lemma="absolutely" pos="A" morphofeat="RB" tid="t342">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--disgraceful-->
+    <term type="open" lemma="disgraceful" pos="G" morphofeat="JJ" tid="t343">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t344">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--It-->
+        <span>
+          <target id="t340"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--absolutely disgraceful-->
+        <span>
+          <target id="t342"/>
+          <target id="t343"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--disgraceful-->
+        <span>
+          <target id="t343"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--absolutely-->
+        <span>
+          <target id="t342"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

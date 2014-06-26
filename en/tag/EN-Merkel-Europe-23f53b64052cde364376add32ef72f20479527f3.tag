@@ -1,0 +1,12 @@
+w29	To	to	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	28	true	3
+w30	German	german	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	29	true	3
+w31	chancellor	chancellor	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	30	true	3
+w32	Angela	Angela	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	31	true	3
+w33	Merkel	Merkel	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	32	true	3
+w34	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	33	true	3
+w35	Mr	Mr	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	34	true	3
+w36	Obama	Obama	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	35	true	3
+w37	said	say	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	36	true	3
+w38	:	:	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	37	true	3
+w39	'	'	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	38	true	3
+w40	Angela	Angela	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	39	true	3

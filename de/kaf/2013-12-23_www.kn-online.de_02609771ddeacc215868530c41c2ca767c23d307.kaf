@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:00:24Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:00:24Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:54:11CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:00:47CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w309" sent="20" para="9" offset="1803" length="2">Am</wf>
+    <wf wid="w310" sent="20" para="9" offset="1806" length="3">21.</wf>
+    <wf wid="w311" sent="20" para="9" offset="1810" length="7">Oktober</wf>
+    <wf wid="w312" sent="20" para="9" offset="1818" length="4">2010</wf>
+    <wf wid="w313" sent="20" para="9" offset="1823" length="5">starb</wf>
+    <wf wid="w314" sent="20" para="9" offset="1829" length="5">seine</wf>
+    <wf wid="w315" sent="20" para="9" offset="1835" length="7">Ehefrau</wf>
+    <wf wid="w316" sent="20" para="9" offset="1843" length="4">Loki</wf>
+    <wf wid="w317" sent="20" para="9" offset="1848" length="2">im</wf>
+    <wf wid="w318" sent="20" para="9" offset="1851" length="5">Alter</wf>
+    <wf wid="w319" sent="20" para="9" offset="1857" length="3">von</wf>
+    <wf wid="w320" sent="20" para="9" offset="1861" length="2">91</wf>
+    <wf wid="w321" sent="20" para="9" offset="1864" length="6">Jahren</wf>
+    <wf wid="w322" sent="20" para="9" offset="1870" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t309" type="close">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <term lemma="21." morphofeat="CARD" pos="O" tid="t310" type="open">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <term lemma="Oktober" morphofeat="NN" pos="N" tid="t311" type="open">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t312" type="open">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <term lemma="sterben" morphofeat="VVFIN" pos="V" tid="t313" type="open">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="PPOSAT" pos="Q" tid="t314" type="close">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <term lemma="Ehefrau" morphofeat="NN" pos="N" tid="t315" type="open">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <term lemma="Loki" morphofeat="NE unknown_lemma" pos="O" tid="t316" type="open">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t317" type="close">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <term lemma="Alter" morphofeat="NN" pos="N" tid="t318" type="open">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t319" type="close">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <term lemma="91" morphofeat="CARD" pos="O" tid="t320" type="open">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <term lemma="Jahr" morphofeat="NN" pos="N" tid="t321" type="open">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t322" type="open">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t309"/>
+          <target id="t310"/>
+          <target id="t311"/>
+          <target id="t312"/>
+          <target id="t313"/>
+          <target id="t314"/>
+          <target id="t315"/>
+          <target id="t316"/>
+          <target id="t317"/>
+          <target id="t318"/>
+          <target id="t319"/>
+          <target id="t320"/>
+          <target id="t321"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

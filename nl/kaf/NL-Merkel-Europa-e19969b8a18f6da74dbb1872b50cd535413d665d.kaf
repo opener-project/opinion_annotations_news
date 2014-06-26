@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:42:10CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:35CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w229" sent="11" para="2" offset="1335" length="8">Hollande</wf>
+    <wf wid="w230" sent="11" para="2" offset="1344" length="5">keurt</wf>
+    <wf wid="w231" sent="11" para="2" offset="1350" length="2">de</wf>
+    <wf wid="w232" sent="11" para="2" offset="1353" length="7">strenge</wf>
+    <wf wid="w233" sent="11" para="2" offset="1361" length="13">bezuinigingen</wf>
+    <wf wid="w234" sent="11" para="2" offset="1375" length="2">af</wf>
+    <wf wid="w235" sent="11" para="2" offset="1378" length="2">en</wf>
+    <wf wid="w236" sent="11" para="2" offset="1381" length="5">vindt</wf>
+    <wf wid="w237" sent="11" para="2" offset="1387" length="3">dat</wf>
+    <wf wid="w238" sent="11" para="2" offset="1391" length="2">er</wf>
+    <wf wid="w239" sent="11" para="2" offset="1394" length="11">maatregelen</wf>
+    <wf wid="w240" sent="11" para="2" offset="1406" length="6">moeten</wf>
+    <wf wid="w241" sent="11" para="2" offset="1413" length="5">komen</wf>
+    <wf wid="w242" sent="11" para="2" offset="1419" length="2">de</wf>
+    <wf wid="w243" sent="11" para="2" offset="1422" length="11">economische</wf>
+    <wf wid="w244" sent="11" para="2" offset="1434" length="5">groei</wf>
+    <wf wid="w245" sent="11" para="2" offset="1440" length="10">stimuleren</wf>
+    <wf wid="w246" sent="11" para="2" offset="1450" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hollande-->
+    <term tid="t229" type="open" lemma="Hollande" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--keurt-->
+    <term tid="t230" type="open" lemma="keuren" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t231" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--strenge-->
+    <term tid="t232" type="open" lemma="streng" pos="G" morphofeat="adj">
+      <span>
+        <target id="w232"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--bezuinigingen-->
+    <term tid="t233" type="open" lemma="bezuiniging" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--af-->
+    <term tid="t234" type="open" lemma="af" pos="A" morphofeat="adv">
+      <span>
+        <target id="w234"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--en-->
+    <term tid="t235" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--vindt-->
+    <term tid="t236" type="open" lemma="vinden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t237" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--er-->
+    <term tid="t238" type="close" lemma="er" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--maatregelen-->
+    <term tid="t239" type="open" lemma="maatregel" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--moeten-->
+    <term tid="t240" type="open" lemma="moeten" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--komen-->
+    <term tid="t241" type="open" lemma="komen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t242" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--economische-->
+    <term tid="t243" type="open" lemma="economisch" pos="G" morphofeat="adj">
+      <span>
+        <target id="w243"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--groei-->
+    <term tid="t244" type="open" lemma="groei" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--stimuleren-->
+    <term tid="t245" type="open" lemma="stimuleren" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w245"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t246" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--strenge bezuinigingen-->
+        <span>
+          <target id="t232"/>
+          <target id="t233"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--economische groei-->
+        <span>
+          <target id="t243"/>
+          <target id="t244"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--stimuleren-->
+        <span>
+          <target id="t245"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--groei-->
+        <span>
+          <target id="t244"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:55Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:55Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:41:42CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w53" sent="4" para="2" offset="299" length="2">De</wf>
+    <wf wid="w54" sent="4" para="2" offset="302" length="6">Duitse</wf>
+    <wf wid="w55" sent="4" para="2" offset="309" length="14">bondskanselier</wf>
+    <wf wid="w56" sent="4" para="2" offset="324" length="6">Angela</wf>
+    <wf wid="w57" sent="4" para="2" offset="331" length="6">Merkel</wf>
+    <wf wid="w58" sent="4" para="2" offset="338" length="2">is</wf>
+    <wf wid="w59" sent="4" para="2" offset="341" length="4">voor</wf>
+    <wf wid="w60" sent="4" para="2" offset="346" length="2">de</wf>
+    <wf wid="w61" sent="4" para="2" offset="349" length="6">tweede</wf>
+    <wf wid="w62" sent="4" para="2" offset="356" length="4">keer</wf>
+    <wf wid="w63" sent="4" para="2" offset="361" length="3">dit</wf>
+    <wf wid="w64" sent="4" para="2" offset="365" length="4">jaar</wf>
+    <wf wid="w65" sent="4" para="2" offset="370" length="2">op</wf>
+    <wf wid="w66" sent="4" para="2" offset="373" length="6">bezoek</wf>
+    <wf wid="w67" sent="4" para="2" offset="380" length="3">bij</wf>
+    <wf wid="w68" sent="4" para="2" offset="384" length="4">haar</wf>
+    <wf wid="w69" sent="4" para="2" offset="389" length="7">Chinese</wf>
+    <wf wid="w70" sent="4" para="2" offset="397" length="7">collega</wf>
+    <wf wid="w71" sent="4" para="2" offset="404" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t53" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t54" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--bondskanselier-->
+    <term tid="t55" type="open" lemma="bondskanselier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t56" type="open" lemma="Angela" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t57" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t58" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t59" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t60" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--tweede-->
+    <term tid="t61" type="open" lemma="twee" pos="O" morphofeat="num__ord">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--keer-->
+    <term tid="t62" type="open" lemma="keer" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--dit-->
+    <term tid="t63" type="close" lemma="dit" pos="D" morphofeat="det__demo">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--jaar-->
+    <term tid="t64" type="open" lemma="jaar" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t65" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--bezoek-->
+    <term tid="t66" type="open" lemma="bezoek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--bij-->
+    <term tid="t67" type="close" lemma="bij" pos="P" morphofeat="prep">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--haar-->
+    <term tid="t68" type="close" lemma="haar" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--Chinese-->
+    <term tid="t69" type="open" lemma="Chinees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--collega-->
+    <term tid="t70" type="open" lemma="collega" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w70"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t71" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t70"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

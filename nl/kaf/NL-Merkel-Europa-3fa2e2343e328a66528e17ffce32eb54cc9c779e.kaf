@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:16Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:16Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:12:16CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:35CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w139" sent="8" para="2" offset="859" length="12">EU-president</wf>
+    <wf wid="w140" sent="8" para="2" offset="872" length="6">Herman</wf>
+    <wf wid="w141" sent="8" para="2" offset="879" length="3">Van</wf>
+    <wf wid="w142" sent="8" para="2" offset="883" length="6">Rompuy</wf>
+    <wf wid="w143" sent="8" para="2" offset="890" length="3">gaf</wf>
+    <wf wid="w144" sent="8" para="2" offset="894" length="2">in</wf>
+    <wf wid="w145" sent="8" para="2" offset="897" length="3">Los</wf>
+    <wf wid="w146" sent="8" para="2" offset="901" length="5">Cabos</wf>
+    <wf wid="w147" sent="8" para="2" offset="907" length="3">aan</wf>
+    <wf wid="w148" sent="8" para="2" offset="911" length="3">dat</wf>
+    <wf wid="w149" sent="8" para="2" offset="915" length="3">hij</wf>
+    <wf wid="w150" sent="8" para="2" offset="919" length="5">ervan</wf>
+    <wf wid="w151" sent="8" para="2" offset="925" length="9">overtuigd</wf>
+    <wf wid="w152" sent="8" para="2" offset="935" length="2">is</wf>
+    <wf wid="w153" sent="8" para="2" offset="938" length="3">dat</wf>
+    <wf wid="w154" sent="8" para="2" offset="942" length="3">een</wf>
+    <wf wid="w155" sent="8" para="2" offset="946" length="6">nieuwe</wf>
+    <wf wid="w156" sent="8" para="2" offset="953" length="7">Griekse</wf>
+    <wf wid="w157" sent="8" para="2" offset="961" length="8">regering</wf>
+    <wf wid="w158" sent="8" para="2" offset="970" length="2">de</wf>
+    <wf wid="w159" sent="8" para="2" offset="973" length="9">afspraken</wf>
+    <wf wid="w160" sent="8" para="2" offset="983" length="3">zal</wf>
+    <wf wid="w161" sent="8" para="2" offset="987" length="7">naleven</wf>
+    <wf wid="w162" sent="8" para="2" offset="994" length="1">.</wf>
+  </text>
+  <terms>
+    <!--EU-president-->
+    <term tid="t139" type="open" lemma="EU-president" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--Herman-->
+    <term tid="t140" type="open" lemma="Herman" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--Van-->
+    <term tid="t141" type="open" lemma="Van" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--Rompuy-->
+    <term tid="t142" type="open" lemma="Rompuy" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--gaf-->
+    <term tid="t143" type="open" lemma="geven" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t144" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--Los-->
+    <term tid="t145" type="open" lemma="los" pos="G" morphofeat="adj">
+      <span>
+        <target id="w145"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Cabos-->
+    <term tid="t146" type="open" lemma="Cabos" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t147" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t148" type="close" lemma="dat" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--hij-->
+    <term tid="t149" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--ervan-->
+    <term tid="t150" type="close" lemma="ervan" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--overtuigd-->
+    <term tid="t151" type="open" lemma="overtuigen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w151"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--is-->
+    <term tid="t152" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t153" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t154" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--nieuwe-->
+    <term tid="t155" type="open" lemma="nieuw" pos="G" morphofeat="adj">
+      <span>
+        <target id="w155"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Griekse-->
+    <term tid="t156" type="open" lemma="Grieks" pos="G" morphofeat="adj">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--regering-->
+    <term tid="t157" type="open" lemma="regering" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t158" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--afspraken-->
+    <term tid="t159" type="open" lemma="afspraak" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--zal-->
+    <term tid="t160" type="open" lemma="zullen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--naleven-->
+    <term tid="t161" type="open" lemma="naleven" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t162" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--EU-president Herman Van Rompuy-->
+        <span>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--een nieuwe Griekse regering de afspraken zal naleven-->
+        <span>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+          <target id="t157"/>
+          <target id="t158"/>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ervan overtuigd is-->
+        <span>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--een nieuwe Griekse regering-->
+        <span>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+          <target id="t157"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de afspraken-->
+        <span>
+          <target id="t158"/>
+          <target id="t159"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--zal naleven-->
+        <span>
+          <target id="t160"/>
+          <target id="t161"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

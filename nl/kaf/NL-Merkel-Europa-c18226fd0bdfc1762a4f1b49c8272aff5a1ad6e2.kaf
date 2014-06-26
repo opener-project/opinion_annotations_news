@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:21:26CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Merkel</wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="7">ontkent</wf>
+    <wf wid="w3" sent="1" para="1" offset="15" length="3">dat</wf>
+    <wf wid="w4" sent="1" para="1" offset="19" length="2">ze</wf>
+    <wf wid="w5" sent="1" para="1" offset="22" length="7">Griekse</wf>
+    <wf wid="w6" sent="1" para="1" offset="30" length="9">president</wf>
+    <wf wid="w7" sent="1" para="1" offset="40" length="10">referendum</wf>
+    <wf wid="w8" sent="1" para="1" offset="51" length="4">over</wf>
+    <wf wid="w9" sent="1" para="1" offset="56" length="4">euro</wf>
+    <wf wid="w10" sent="1" para="1" offset="61" length="8">aanbeval</wf>
+    <wf wid="w179" sent="9" para="2" offset="1097" length="3">Dat</wf>
+    <wf wid="w180" sent="9" para="2" offset="1101" length="4">zijn</wf>
+    <wf wid="w181" sent="9" para="2" offset="1106" length="2">de</wf>
+    <wf wid="w182" sent="9" para="2" offset="1109" length="6">tweede</wf>
+    <wf wid="w183" sent="9" para="2" offset="1116" length="5">sinds</wf>
+    <wf wid="w184" sent="9" para="2" offset="1121" length="1">,</wf>
+    <wf wid="w185" sent="9" para="2" offset="1123" length="2">in</wf>
+    <wf wid="w186" sent="9" para="2" offset="1126" length="2">de</wf>
+    <wf wid="w187" sent="9" para="2" offset="1129" length="9">kiesronde</wf>
+    <wf wid="w188" sent="9" para="2" offset="1139" length="3">van</wf>
+    <wf wid="w189" sent="9" para="2" offset="1143" length="1">6</wf>
+    <wf wid="w190" sent="9" para="2" offset="1145" length="3">mei</wf>
+    <wf wid="w191" sent="9" para="2" offset="1149" length="6">haalde</wf>
+    <wf wid="w192" sent="9" para="2" offset="1156" length="4">geen</wf>
+    <wf wid="w193" sent="9" para="2" offset="1161" length="6">enkele</wf>
+    <wf wid="w194" sent="9" para="2" offset="1168" length="6">partij</wf>
+    <wf wid="w195" sent="9" para="2" offset="1175" length="9">voldoende</wf>
+    <wf wid="w196" sent="9" para="2" offset="1185" length="7">stemmen</wf>
+    <wf wid="w197" sent="9" para="2" offset="1193" length="2">om</wf>
+    <wf wid="w198" sent="9" para="2" offset="1196" length="2">te</wf>
+    <wf wid="w199" sent="9" para="2" offset="1199" length="7">regeren</wf>
+    <wf wid="w200" sent="9" para="2" offset="1206" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t1" type="open" lemma="Merkel" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--ontkent-->
+    <term tid="t2" type="open" lemma="ontkennen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w2"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t3" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--ze-->
+    <term tid="t4" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Griekse-->
+    <term tid="t5" type="open" lemma="Grieks" pos="G" morphofeat="adj">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--president-->
+    <term tid="t6" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--referendum-->
+    <term tid="t7" type="open" lemma="referendum" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t8" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t9" type="open" lemma="euro" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--aanbeval-->
+    <term tid="t10" type="open" lemma="aanbevelen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w10"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Dat-->
+    <term tid="t179" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t180" type="open" lemma="zijn" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t181" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--tweede-->
+    <term tid="t182" type="open" lemma="twee" pos="O" morphofeat="num__ord">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--sinds-->
+    <term tid="t183" type="close" lemma="sinds" pos="P" morphofeat="prep">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t184" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t185" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t186" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--kiesronde-->
+    <term tid="t187" type="open" lemma="kiesronde" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t188" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--6-->
+    <term tid="t189" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--mei-->
+    <term tid="t190" type="open" lemma="mei" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--haalde-->
+    <term tid="t191" type="open" lemma="halen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w191"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--geen-->
+    <term tid="t192" type="close" lemma="geen" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--enkele-->
+    <term tid="t193" type="close" lemma="enkel" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w193"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--partij-->
+    <term tid="t194" type="open" lemma="partij" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--voldoende-->
+    <term tid="t195" type="open" lemma="voldoende" pos="G" morphofeat="adj">
+      <span>
+        <target id="w195"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--stemmen-->
+    <term tid="t196" type="open" lemma="stemmen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t197" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t198" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--regeren-->
+    <term tid="t199" type="open" lemma="regeren" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t200" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--aanbeval-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ontkent-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--ze-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--referendum-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--aanbeval-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

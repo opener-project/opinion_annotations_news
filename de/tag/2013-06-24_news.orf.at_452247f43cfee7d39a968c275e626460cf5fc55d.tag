@@ -1,0 +1,9 @@
+w153	Heute	heute	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	152	true	10
+w154	gehen	gehen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	153	true	10
+w155	die	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	154	true	10
+w156	Beratungen	Beratung	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	155	true	10
+w157	der	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	156	true	10
+w158	EU	EU	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	157	true	10
+w159	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	158	true	10
+w160	Brüssel	Brüssel	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	159	true	10
+w161	weiter	weiter	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	160	true	10

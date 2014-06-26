@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:04:34Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:04:34Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:26:14" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:55:13CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:51CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="14" para="2" offset="1888" length="5" wid="w328">Scots</wf>
+    <wf sent="14" para="2" offset="1894" length="4" wid="w329">will</wf>
+    <wf sent="14" para="2" offset="1899" length="2" wid="w330">be</wf>
+    <wf sent="14" para="2" offset="1902" length="4" wid="w331">able</wf>
+    <wf sent="14" para="2" offset="1907" length="2" wid="w332">to</wf>
+    <wf sent="14" para="2" offset="1910" length="7" wid="w333">request</wf>
+    <wf sent="14" para="2" offset="1918" length="1" wid="w334">a</wf>
+    <wf sent="14" para="2" offset="1920" length="4" wid="w335">hard</wf>
+    <wf sent="14" para="2" offset="1925" length="4" wid="w336">copy</wf>
+    <wf sent="14" para="2" offset="1930" length="2" wid="w337">of</wf>
+    <wf sent="14" para="2" offset="1933" length="3" wid="w338">the</wf>
+    <wf sent="14" para="2" offset="1937" length="8" wid="w339">670-page</wf>
+    <wf sent="14" para="2" offset="1946" length="4" wid="w340">tome</wf>
+    <wf sent="14" para="2" offset="1950" length="1" wid="w341">,</wf>
+    <wf sent="14" para="2" offset="1952" length="3" wid="w342">and</wf>
+    <wf sent="14" para="2" offset="1956" length="3" wid="w343">its</wf>
+    <wf sent="14" para="2" offset="1960" length="7" wid="w344">170,000</wf>
+    <wf sent="14" para="2" offset="1968" length="5" wid="w345">words</wf>
+    <wf sent="14" para="2" offset="1974" length="4" wid="w346">will</wf>
+    <wf sent="14" para="2" offset="1979" length="4" wid="w347">also</wf>
+    <wf sent="14" para="2" offset="1984" length="2" wid="w348">be</wf>
+    <wf sent="14" para="2" offset="1987" length="9" wid="w349">available</wf>
+    <wf sent="14" para="2" offset="1997" length="2" wid="w350">to</wf>
+    <wf sent="14" para="2" offset="2000" length="4" wid="w351">read</wf>
+    <wf sent="14" para="2" offset="2005" length="6" wid="w352">online</wf>
+    <wf sent="14" para="2" offset="2011" length="1" wid="w353">.</wf>
+  </text>
+  <terms>
+    <!--Scots-->
+    <term type="open" lemma="scots" pos="N" morphofeat="NNS" tid="t328">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--will-->
+    <term type="close" lemma="will" pos="O" morphofeat="MD" tid="t329">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t330">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <!--able-->
+    <term type="open" lemma="able" pos="G" morphofeat="JJ" tid="t331">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w331"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t332">
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+    <!--request-->
+    <term type="open" lemma="request" pos="V" morphofeat="VB" tid="t333">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t334">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <!--hard-->
+    <term type="open" lemma="hard" pos="G" morphofeat="JJ" tid="t335">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <!--copy-->
+    <term type="open" lemma="copy" pos="N" morphofeat="NN" tid="t336">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t337">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t338">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <!--670-page-->
+    <term type="open" lemma="670-page" pos="G" morphofeat="JJ" tid="t339">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--tome-->
+    <term type="open" lemma="tome" pos="N" morphofeat="NN" tid="t340">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t341">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t342">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--its-->
+    <term type="close" lemma="its" pos="Q" morphofeat="PRP$" tid="t343">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--170,000-->
+    <term type="close" lemma="170,000" pos="O" morphofeat="CD" tid="t344">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--words-->
+    <term type="open" lemma="word" pos="N" morphofeat="NNS" tid="t345">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <!--will-->
+    <term type="close" lemma="will" pos="O" morphofeat="MD" tid="t346">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t347">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t348">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <!--available-->
+    <term type="open" lemma="available" pos="G" morphofeat="JJ" tid="t349">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t350">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <!--read-->
+    <term type="open" lemma="read" pos="V" morphofeat="VB" tid="t351">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <!--online-->
+    <term type="open" lemma="online" pos="A" morphofeat="RB" tid="t352">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t353">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t328"/>
+          <target id="t329"/>
+          <target id="t330"/>
+          <target id="t331"/>
+          <target id="t332"/>
+          <target id="t333"/>
+          <target id="t334"/>
+          <target id="t335"/>
+          <target id="t336"/>
+          <target id="t337"/>
+          <target id="t338"/>
+          <target id="t339"/>
+          <target id="t340"/>
+          <target id="t341"/>
+          <target id="t342"/>
+          <target id="t343"/>
+          <target id="t344"/>
+          <target id="t345"/>
+          <target id="t346"/>
+          <target id="t347"/>
+          <target id="t348"/>
+          <target id="t349"/>
+          <target id="t350"/>
+          <target id="t351"/>
+          <target id="t352"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

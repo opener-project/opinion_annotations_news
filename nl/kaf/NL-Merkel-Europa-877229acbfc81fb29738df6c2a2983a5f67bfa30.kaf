@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:21:31CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w401" sent="16" para="2" offset="2277" length="9">Bovendien</wf>
+    <wf wid="w402" sent="16" para="2" offset="2287" length="3">zou</wf>
+    <wf wid="w403" sent="16" para="2" offset="2291" length="3">het</wf>
+    <wf wid="w404" sent="16" para="2" offset="2295" length="14">Internationaal</wf>
+    <wf wid="w405" sent="16" para="2" offset="2310" length="8">Monetair</wf>
+    <wf wid="w406" sent="16" para="2" offset="2319" length="5">Fonds</wf>
+    <wf wid="w407" sent="16" para="2" offset="2325" length="1">(</wf>
+    <wf wid="w408" sent="16" para="2" offset="2326" length="3">IMF</wf>
+    <wf wid="w409" sent="16" para="2" offset="2329" length="1">)</wf>
+    <wf wid="w410" sent="16" para="2" offset="2331" length="7">volgens</wf>
+    <wf wid="w411" sent="16" para="2" offset="2339" length="7">recente</wf>
+    <wf wid="w412" sent="16" para="2" offset="2347" length="9">berichten</wf>
+    <wf wid="w413" sent="16" para="2" offset="2357" length="2">de</wf>
+    <wf wid="w414" sent="16" para="2" offset="2360" length="11">kredietlijn</wf>
+    <wf wid="w415" sent="16" para="2" offset="2372" length="4">naar</wf>
+    <wf wid="w416" sent="16" para="2" offset="2377" length="11">Griekenland</wf>
+    <wf wid="w417" sent="16" para="2" offset="2389" length="6">willen</wf>
+    <wf wid="w418" sent="16" para="2" offset="2396" length="10">stopzetten</wf>
+    <wf wid="w419" sent="16" para="2" offset="2406" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Bovendien-->
+    <term tid="t401" type="open" lemma="bovendien" pos="A" morphofeat="adv">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <!--zou-->
+    <term tid="t402" type="open" lemma="zullen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t403" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+    <!--Internationaal-->
+    <term tid="t404" type="open" lemma="internationaal" pos="G" morphofeat="adj">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+    <!--Monetair-->
+    <term tid="t405" type="open" lemma="Monetair" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w405"/>
+      </span>
+    </term>
+    <!--Fonds-->
+    <term tid="t406" type="open" lemma="Fonds" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+    <!--(-->
+    <term tid="t407" type="open" lemma="(" pos="O" morphofeat="punc">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+    <!--IMF-->
+    <term tid="t408" type="open" lemma="IMF" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t409" type="open" lemma=")" pos="O" morphofeat="punc">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <!--volgens-->
+    <term tid="t410" type="close" lemma="volgens" pos="P" morphofeat="prep">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <!--recente-->
+    <term tid="t411" type="open" lemma="recent" pos="G" morphofeat="adj">
+      <span>
+        <target id="w411"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--berichten-->
+    <term tid="t412" type="open" lemma="bericht" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t413" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+    <!--kredietlijn-->
+    <term tid="t414" type="open" lemma="kredietlijn" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w414"/>
+      </span>
+    </term>
+    <!--naar-->
+    <term tid="t415" type="close" lemma="naar" pos="P" morphofeat="prep">
+      <span>
+        <target id="w415"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Griekenland-->
+    <term tid="t416" type="open" lemma="Griekenland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w416"/>
+      </span>
+    </term>
+    <!--willen-->
+    <term tid="t417" type="open" lemma="willen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <!--stopzetten-->
+    <term tid="t418" type="open" lemma="stopzetten" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t419" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Internationaal Monetair Fonds-->
+        <span>
+          <target id="t404"/>
+          <target id="t405"/>
+          <target id="t406"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de kredietlijn naar Griekenland-->
+        <span>
+          <target id="t413"/>
+          <target id="t414"/>
+          <target id="t415"/>
+          <target id="t416"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--willen stopzetten-->
+        <span>
+          <target id="t417"/>
+          <target id="t418"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

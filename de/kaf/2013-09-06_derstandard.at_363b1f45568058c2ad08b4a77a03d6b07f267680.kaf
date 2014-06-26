@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:55:34Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:55:34Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:53:08CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:55:56CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w344" sent="21" para="12" offset="2093" length="7">Derzeit</wf>
+    <wf wid="w345" sent="21" para="12" offset="2101" length="3">sei</wf>
+    <wf wid="w346" sent="21" para="12" offset="2105" length="3">die</wf>
+    <wf wid="w347" sent="21" para="12" offset="2109" length="11">Europäische</wf>
+    <wf wid="w348" sent="21" para="12" offset="2121" length="5">Union</wf>
+    <wf wid="w349" sent="21" para="12" offset="2127" length="3">ein</wf>
+    <wf wid="w350" sent="21" para="12" offset="2131" length="1">"</wf>
+    <wf wid="w351" sent="21" para="12" offset="2132" length="9">zahnloser</wf>
+    <wf wid="w352" sent="21" para="12" offset="2142" length="5">Tiger</wf>
+    <wf wid="w353" sent="21" para="12" offset="2147" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="derzeit" morphofeat="ADV" pos="A" tid="t344" type="open">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t345" type="open">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t346" type="close">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <term lemma="europäisch" morphofeat="ADJA" pos="G" tid="t347" type="open">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <term lemma="Union" morphofeat="NN" pos="N" tid="t348" type="open">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t349" type="close">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t350" type="open">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <term lemma="zahnlos" morphofeat="ADJA" pos="G" tid="t351" type="open">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <term lemma="Tiger" morphofeat="NN" pos="N" tid="t352" type="open">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t353" type="open">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die Europäische Union-->
+        <span>
+          <target id="t346"/>
+          <target id="t347"/>
+          <target id="t348"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--ein " zahnloser Tiger-->
+        <span>
+          <target id="t349"/>
+          <target id="t350"/>
+          <target id="t351"/>
+          <target id="t352"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

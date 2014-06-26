@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:26:53CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:35CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w99" sent="7" para="2" offset="582" length="3">Ook</wf>
+    <wf wid="w100" sent="7" para="2" offset="586" length="2">de</wf>
+    <wf wid="w101" sent="7" para="2" offset="589" length="6">meeste</wf>
+    <wf wid="w102" sent="7" para="2" offset="596" length="8">partijen</wf>
+    <wf wid="w103" sent="7" para="2" offset="605" length="2">in</wf>
+    <wf wid="w104" sent="7" para="2" offset="608" length="2">de</wf>
+    <wf wid="w105" sent="7" para="2" offset="611" length="6">Tweede</wf>
+    <wf wid="w106" sent="7" para="2" offset="618" length="5">Kamer</wf>
+    <wf wid="w107" sent="7" para="2" offset="624" length="4">zien</wf>
+    <wf wid="w108" sent="7" para="2" offset="629" length="5">niets</wf>
+    <wf wid="w109" sent="7" para="2" offset="635" length="2">in</wf>
+    <wf wid="w110" sent="7" para="2" offset="638" length="3">het</wf>
+    <wf wid="w111" sent="7" para="2" offset="642" length="8">voorstel</wf>
+    <wf wid="w112" sent="7" para="2" offset="651" length="3">van</wf>
+    <wf wid="w113" sent="7" para="2" offset="655" length="6">Merkel</wf>
+    <wf wid="w114" sent="7" para="2" offset="661" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ook-->
+    <term tid="t99" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t100" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--meeste-->
+    <term tid="t101" type="open" lemma="meest" pos="G" morphofeat="adj">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--partijen-->
+    <term tid="t102" type="open" lemma="partij" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t103" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t104" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--Tweede-->
+    <term tid="t105" type="open" lemma="Tweede" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--Kamer-->
+    <term tid="t106" type="open" lemma="kamer" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--zien-->
+    <term tid="t107" type="open" lemma="zien" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--niets-->
+    <term tid="t108" type="close" lemma="niets" pos="Q" morphofeat="pronindef">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t109" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t110" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--voorstel-->
+    <term tid="t111" type="open" lemma="voorstel" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t112" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t113" type="open" lemma="Merkel" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t114" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--de meeste partijen in de Tweede Kamer-->
+        <span>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--het voorstel van Merkel-->
+        <span>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--niets-->
+        <span>
+          <target id="t108"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:56:58" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:37:27CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="211" length="8" wid="w37">Speaking</wf>
+    <wf sent="3" para="2" offset="220" length="7" wid="w38">shortly</wf>
+    <wf sent="3" para="2" offset="228" length="5" wid="w39">after</wf>
+    <wf sent="3" para="2" offset="234" length="5" wid="w40">their</wf>
+    <wf sent="3" para="2" offset="240" length="7" wid="w41">meeting</wf>
+    <wf sent="3" para="2" offset="248" length="2" wid="w42">in</wf>
+    <wf sent="3" para="2" offset="251" length="9" wid="w43">Edinburgh</wf>
+    <wf sent="3" para="2" offset="260" length="1" wid="w44">,</wf>
+    <wf sent="3" para="2" offset="262" length="2" wid="w45">Mr</wf>
+    <wf sent="3" para="2" offset="265" length="7" wid="w46">Cameron</wf>
+    <wf sent="3" para="2" offset="273" length="4" wid="w47">said</wf>
+    <wf sent="3" para="2" offset="278" length="3" wid="w48">his</wf>
+    <wf sent="3" para="2" offset="282" length="1" wid="w49">"</wf>
+    <wf sent="3" para="2" offset="283" length="8" wid="w50">absolute</wf>
+    <wf sent="3" para="2" offset="292" length="8" wid="w51">priority</wf>
+    <wf sent="3" para="2" offset="300" length="1" wid="w52">"</wf>
+    <wf sent="3" para="2" offset="302" length="3" wid="w53">was</wf>
+    <wf sent="3" para="2" offset="306" length="2" wid="w54">to</wf>
+    <wf sent="3" para="2" offset="309" length="8" wid="w55">preserve</wf>
+    <wf sent="3" para="2" offset="318" length="3" wid="w56">the</wf>
+    <wf sent="3" para="2" offset="322" length="6" wid="w57">United</wf>
+    <wf sent="3" para="2" offset="329" length="7" wid="w58">Kingdom</wf>
+    <wf sent="3" para="2" offset="336" length="1" wid="w59">.</wf>
+  </text>
+  <terms>
+    <!--Speaking-->
+    <term type="close" lemma="Speaking" pos="R" morphofeat="NNP" tid="t37">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--shortly-->
+    <term type="open" lemma="shortly" pos="A" morphofeat="RB" tid="t38">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--after-->
+    <term type="close" lemma="after" pos="P" morphofeat="IN" tid="t39">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--their-->
+    <term type="close" lemma="their" pos="Q" morphofeat="PRP$" tid="t40">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--meeting-->
+    <term type="open" lemma="meeting" pos="N" morphofeat="NN" tid="t41">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t42">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--Edinburgh-->
+    <term type="close" lemma="Edinburgh" pos="R" morphofeat="NNP" tid="t43">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t44">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t45">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t46">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t47">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--his-->
+    <term type="close" lemma="his" pos="Q" morphofeat="PRP$" tid="t48">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t49">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--absolute-->
+    <term type="open" lemma="absolute" pos="G" morphofeat="JJ" tid="t50">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--priority-->
+    <term type="open" lemma="priority" pos="N" morphofeat="NN" tid="t51">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t52">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t53">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t54">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--preserve-->
+    <term type="open" lemma="preserve" pos="V" morphofeat="VB" tid="t55">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t56">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--United-->
+    <term type="close" lemma="United" pos="R" morphofeat="NNP" tid="t57">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--Kingdom-->
+    <term type="close" lemma="Kingdom" pos="R" morphofeat="NNP" tid="t58">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t59">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--priority-->
+        <span>
+          <target id="t51"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--absolute-->
+        <span>
+          <target id="t50"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Mr Cameron-->
+        <span>
+          <target id="t45"/>
+          <target id="t46"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--to preserve the United Kingdom-->
+        <span>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--said-->
+        <span>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Mr Cameron-->
+        <span>
+          <target id="t45"/>
+          <target id="t46"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--to preserve the United Kingdom-->
+        <span>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--" absolute priority "-->
+        <span>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

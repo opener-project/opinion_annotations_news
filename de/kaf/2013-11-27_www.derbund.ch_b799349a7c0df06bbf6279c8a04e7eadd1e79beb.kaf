@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:48:47Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:48:47Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:52:15CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:49:12CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w254" sent="16" para="7" offset="1553" length="3">SPD</wf>
+    <wf wid="w255" sent="16" para="7" offset="1556" length="1">·</wf>
+    <wf wid="w256" sent="16" para="7" offset="1557" length="4">Chef</wf>
+    <wf wid="w257" sent="16" para="7" offset="1562" length="7">Gabriel</wf>
+    <wf wid="w258" sent="16" para="7" offset="1570" length="6">zeigte</wf>
+    <wf wid="w259" sent="16" para="7" offset="1577" length="4">sich</wf>
+    <wf wid="w260" sent="16" para="7" offset="1582" length="9">überzeugt</wf>
+    <wf wid="w261" sent="16" para="7" offset="1591" length="1">,</wf>
+    <wf wid="w262" sent="16" para="7" offset="1593" length="4">dass</wf>
+    <wf wid="w263" sent="16" para="7" offset="1598" length="3">die</wf>
+    <wf wid="w264" sent="16" para="7" offset="1602" length="22">Koalitionsvereinbarung</wf>
+    <wf wid="w265" sent="16" para="7" offset="1625" length="3">von</wf>
+    <wf wid="w266" sent="16" para="7" offset="1629" length="3">der</wf>
+    <wf wid="w267" sent="16" para="7" offset="1633" length="11">Parteibasis</wf>
+    <wf wid="w268" sent="16" para="7" offset="1645" length="9">gebilligt</wf>
+    <wf wid="w269" sent="16" para="7" offset="1655" length="4">wird</wf>
+    <wf wid="w270" sent="16" para="7" offset="1659" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="SPD" morphofeat="NE" pos="R" tid="t254" type="open">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t255" type="open">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <term lemma="Chef" morphofeat="NN" pos="N" tid="t256" type="open">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <term lemma="Gabriel" morphofeat="NE" pos="R" tid="t257" type="open">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <term lemma="zeigen" morphofeat="VVFIN" pos="V" tid="t258" type="open">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t259" type="close">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <term lemma="überzeugt" morphofeat="ADJD" pos="G" tid="t260" type="open">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t261" type="open">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <term lemma="dass" morphofeat="KOUS" pos="C" tid="t262" type="close">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t263" type="close">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <term lemma="Koalitionsvereinbarung" morphofeat="NN" pos="N" tid="t264" type="open">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t265" type="close">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t266" type="close">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <term lemma="Parteibasis" morphofeat="NN" pos="N" tid="t267" type="open">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <term lemma="billigen" morphofeat="VVPP" pos="V" tid="t268" type="open">
+      <span>
+        <target id="w268"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t269" type="open">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t270" type="open">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Gabriel-->
+        <span>
+          <target id="t257"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--dass die Koalitionsvereinbarung von der Parteibasis gebilligt wird-->
+        <span>
+          <target id="t262"/>
+          <target id="t263"/>
+          <target id="t264"/>
+          <target id="t265"/>
+          <target id="t266"/>
+          <target id="t267"/>
+          <target id="t268"/>
+          <target id="t269"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--zeigte überzeugt-->
+        <span>
+          <target id="t258"/>
+          <target id="t260"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die Koalitionsvereinbarung-->
+        <span>
+          <target id="t263"/>
+          <target id="t264"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--gebilligt wird-->
+        <span>
+          <target id="t268"/>
+          <target id="t269"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

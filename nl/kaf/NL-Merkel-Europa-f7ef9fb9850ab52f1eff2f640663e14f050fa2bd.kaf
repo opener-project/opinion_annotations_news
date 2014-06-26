@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:58Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:58Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:31:54CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w116" sent="5" para="2" offset="635" length="2">De</wf>
+    <wf wid="w117" sent="5" para="2" offset="638" length="8">situatie</wf>
+    <wf wid="w118" sent="5" para="2" offset="647" length="3">kan</wf>
+    <wf wid="w119" sent="5" para="2" offset="651" length="3">dan</wf>
+    <wf wid="w120" sent="5" para="2" offset="655" length="4">snel</wf>
+    <wf wid="w121" sent="5" para="2" offset="660" length="7">omslaan</wf>
+    <wf wid="w122" sent="5" para="2" offset="667" length="1">,</wf>
+    <wf wid="w123" sent="5" para="2" offset="669" length="5">meent</wf>
+    <wf wid="w124" sent="5" para="2" offset="675" length="5">Bürkl</wf>
+    <wf wid="w125" sent="5" para="2" offset="680" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t116" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--situatie-->
+    <term tid="t117" type="open" lemma="situatie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--kan-->
+    <term tid="t118" type="open" lemma="kunnen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--dan-->
+    <term tid="t119" type="open" lemma="dan" pos="A" morphofeat="adv">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--snel-->
+    <term tid="t120" type="open" lemma="snel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w120"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--omslaan-->
+    <term tid="t121" type="open" lemma="omslaan" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w121"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t122" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--meent-->
+    <term tid="t123" type="open" lemma="menen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--Bürkl-->
+    <term tid="t124" type="open" lemma="Bürkl" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t125" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Bürkl-->
+        <span>
+          <target id="t124"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--De situatie-->
+        <span>
+          <target id="t116"/>
+          <target id="t117"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--kan snel omslaan-->
+        <span>
+          <target id="t118"/>
+          <target id="t120"/>
+          <target id="t121"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Bürkl-->
+        <span>
+          <target id="t124"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--De situatie-->
+        <span>
+          <target id="t116"/>
+          <target id="t117"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--meent-->
+        <span>
+          <target id="t123"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

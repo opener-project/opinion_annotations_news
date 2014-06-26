@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:11:22" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:45:08CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="39" para="2" offset="4352" length="3" wid="w812">The</wf>
+    <wf sent="39" para="2" offset="4356" length="6" wid="w813">number</wf>
+    <wf sent="39" para="2" offset="4363" length="2" wid="w814">of</wf>
+    <wf sent="39" para="2" offset="4366" length="5" wid="w815">deals</wf>
+    <wf sent="39" para="2" offset="4372" length="4" wid="w816">with</wf>
+    <wf sent="39" para="2" offset="4377" length="1" wid="w817">a</wf>
+    <wf sent="39" para="2" offset="4379" length="5" wid="w818">value</wf>
+    <wf sent="39" para="2" offset="4385" length="2" wid="w819">of</wf>
+    <wf sent="39" para="2" offset="4388" length="4" wid="w820">more</wf>
+    <wf sent="39" para="2" offset="4393" length="4" wid="w821">than</wf>
+    <wf sent="39" para="2" offset="4398" length="1" wid="w822">$</wf>
+    <wf sent="39" para="2" offset="4399" length="1" wid="w823">1</wf>
+    <wf sent="39" para="2" offset="4401" length="7" wid="w824">million</wf>
+    <wf sent="39" para="2" offset="4409" length="7" wid="w825">doubled</wf>
+    <wf sent="39" para="2" offset="4417" length="4" wid="w826">from</wf>
+    <wf sent="39" para="2" offset="4422" length="4" wid="w827">less</wf>
+    <wf sent="39" para="2" offset="4427" length="4" wid="w828">than</wf>
+    <wf sent="39" para="2" offset="4432" length="2" wid="w829">50</wf>
+    <wf sent="39" para="2" offset="4435" length="2" wid="w830">in</wf>
+    <wf sent="39" para="2" offset="4438" length="4" wid="w831">2010</wf>
+    <wf sent="39" para="2" offset="4443" length="2" wid="w832">to</wf>
+    <wf sent="39" para="2" offset="4446" length="6" wid="w833">almost</wf>
+    <wf sent="39" para="2" offset="4453" length="3" wid="w834">100</wf>
+    <wf sent="39" para="2" offset="4457" length="2" wid="w835">in</wf>
+    <wf sent="39" para="2" offset="4460" length="4" wid="w836">2011</wf>
+    <wf sent="39" para="2" offset="4464" length="1" wid="w837">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t812">
+      <span>
+        <target id="w812"/>
+      </span>
+    </term>
+    <!--number-->
+    <term type="open" lemma="number" pos="N" morphofeat="NN" tid="t813">
+      <span>
+        <target id="w813"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t814">
+      <span>
+        <target id="w814"/>
+      </span>
+    </term>
+    <!--deals-->
+    <term type="open" lemma="deal" pos="N" morphofeat="NNS" tid="t815">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w815"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t816">
+      <span>
+        <target id="w816"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t817">
+      <span>
+        <target id="w817"/>
+      </span>
+    </term>
+    <!--value-->
+    <term type="open" lemma="value" pos="N" morphofeat="NN" tid="t818">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w818"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t819">
+      <span>
+        <target id="w819"/>
+      </span>
+    </term>
+    <!--more-->
+    <term type="open" lemma="more" pos="G" morphofeat="JJR" tid="t820">
+      <span>
+        <target id="w820"/>
+      </span>
+    </term>
+    <!--than-->
+    <term type="close" lemma="than" pos="P" morphofeat="IN" tid="t821">
+      <span>
+        <target id="w821"/>
+      </span>
+    </term>
+    <!--$-->
+    <term type="close" lemma="$" pos="O" morphofeat="$" tid="t822">
+      <span>
+        <target id="w822"/>
+      </span>
+    </term>
+    <!--1-->
+    <term type="close" lemma="1" pos="O" morphofeat="CD" tid="t823">
+      <span>
+        <target id="w823"/>
+      </span>
+    </term>
+    <!--million-->
+    <term type="close" lemma="million" pos="O" morphofeat="CD" tid="t824">
+      <span>
+        <target id="w824"/>
+      </span>
+    </term>
+    <!--doubled-->
+    <term type="open" lemma="double" pos="V" morphofeat="VBD" tid="t825">
+      <span>
+        <target id="w825"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t826">
+      <span>
+        <target id="w826"/>
+      </span>
+    </term>
+    <!--less-->
+    <term type="open" lemma="less" pos="G" morphofeat="JJR" tid="t827">
+      <span>
+        <target id="w827"/>
+      </span>
+    </term>
+    <!--than-->
+    <term type="close" lemma="than" pos="P" morphofeat="IN" tid="t828">
+      <span>
+        <target id="w828"/>
+      </span>
+    </term>
+    <!--50-->
+    <term type="close" lemma="50" pos="O" morphofeat="CD" tid="t829">
+      <span>
+        <target id="w829"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t830">
+      <span>
+        <target id="w830"/>
+      </span>
+    </term>
+    <!--2010-->
+    <term type="close" lemma="2010" pos="O" morphofeat="CD" tid="t831">
+      <span>
+        <target id="w831"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t832">
+      <span>
+        <target id="w832"/>
+      </span>
+    </term>
+    <!--almost-->
+    <term type="open" lemma="almost" pos="A" morphofeat="RB" tid="t833">
+      <span>
+        <target id="w833"/>
+      </span>
+    </term>
+    <!--100-->
+    <term type="close" lemma="100" pos="O" morphofeat="CD" tid="t834">
+      <span>
+        <target id="w834"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t835">
+      <span>
+        <target id="w835"/>
+      </span>
+    </term>
+    <!--2011-->
+    <term type="close" lemma="2011" pos="O" morphofeat="CD" tid="t836">
+      <span>
+        <target id="w836"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t837">
+      <span>
+        <target id="w837"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t812"/>
+          <target id="t813"/>
+          <target id="t814"/>
+          <target id="t815"/>
+          <target id="t816"/>
+          <target id="t817"/>
+          <target id="t818"/>
+          <target id="t819"/>
+          <target id="t820"/>
+          <target id="t821"/>
+          <target id="t822"/>
+          <target id="t823"/>
+          <target id="t824"/>
+          <target id="t825"/>
+          <target id="t826"/>
+          <target id="t827"/>
+          <target id="t828"/>
+          <target id="t829"/>
+          <target id="t830"/>
+          <target id="t831"/>
+          <target id="t832"/>
+          <target id="t833"/>
+          <target id="t834"/>
+          <target id="t835"/>
+          <target id="t836"/>
+          <target id="t837"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

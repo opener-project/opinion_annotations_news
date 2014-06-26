@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:29Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:29Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:07:04" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:09:01CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="2" wid="w1">US</wf>
+    <wf sent="1" para="1" offset="3" length="5" wid="w2">urges</wf>
+    <wf sent="1" para="1" offset="9" length="1" wid="w3">'</wf>
+    <wf sent="1" para="1" offset="10" length="6" wid="w4">strong</wf>
+    <wf sent="1" para="1" offset="17" length="2" wid="w5">UK</wf>
+    <wf sent="1" para="1" offset="20" length="5" wid="w6">voice</wf>
+    <wf sent="1" para="1" offset="26" length="2" wid="w7">in</wf>
+    <wf sent="1" para="1" offset="29" length="2" wid="w8">EU</wf>
+    <wf sent="1" para="1" offset="31" length="1" wid="w9">'</wf>
+  </text>
+  <terms>
+    <!--US-->
+    <term type="close" lemma="us" pos="Q" morphofeat="PRP" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--urges-->
+    <term type="open" lemma="urge" pos="V" morphofeat="VBZ" tid="t2">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="''" tid="t3">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--strong-->
+    <term type="open" lemma="strong" pos="G" morphofeat="JJ" tid="t4">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--UK-->
+    <term type="open" lemma="UK" pos="N" morphofeat="NN" tid="t5">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--voice-->
+    <term type="open" lemma="voice" pos="N" morphofeat="NN" tid="t6">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t7">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term type="close" lemma="EU" pos="R" morphofeat="NNP" tid="t8">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="POS" tid="t9">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--US-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--strong UK voice in EU-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--urges-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--UK voice-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--strong-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

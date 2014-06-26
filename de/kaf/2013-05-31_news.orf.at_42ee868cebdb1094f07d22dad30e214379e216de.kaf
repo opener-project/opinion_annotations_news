@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:12:51Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:12:51Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:58:15CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:12:57CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w100" sent="7" para="5" offset="698" length="3">Die</wf>
+    <wf wid="w101" sent="7" para="5" offset="702" length="7">Kapseln</wf>
+    <wf wid="w102" sent="7" para="5" offset="710" length="3">für</wf>
+    <wf wid="w103" sent="7" para="5" offset="714" length="6">Kaffee</wf>
+    <wf wid="w104" sent="7" para="5" offset="720" length="1">·</wf>
+    <wf wid="w105" sent="7" para="5" offset="722" length="3">und</wf>
+    <wf wid="w106" sent="7" para="5" offset="726" length="12">Teeautomaten</wf>
+    <wf wid="w107" sent="7" para="5" offset="739" length="9">bescheren</wf>
+    <wf wid="w108" sent="7" para="5" offset="749" length="6">Nestle</wf>
+    <wf wid="w109" sent="7" para="5" offset="756" length="4">seit</wf>
+    <wf wid="w110" sent="7" para="5" offset="761" length="6">Jahren</wf>
+    <wf wid="w111" sent="7" para="5" offset="768" length="13">beträchtliche</wf>
+    <wf wid="w112" sent="7" para="5" offset="782" length="14">Umsatzzuwächse</wf>
+    <wf wid="w113" sent="7" para="5" offset="796" length="1">,</wf>
+    <wf wid="w114" sent="7" para="5" offset="798" length="4">sind</wf>
+    <wf wid="w115" sent="7" para="5" offset="803" length="4">aber</wf>
+    <wf wid="w116" sent="7" para="5" offset="808" length="5">wegen</wf>
+    <wf wid="w117" sent="7" para="5" offset="814" length="3">des</wf>
+    <wf wid="w118" sent="7" para="5" offset="818" length="10">wachsenden</wf>
+    <wf wid="w119" sent="7" para="5" offset="829" length="16">Verpackungsmülls</wf>
+    <wf wid="w120" sent="7" para="5" offset="846" length="4">auch</wf>
+    <wf wid="w121" sent="7" para="5" offset="851" length="10">umstritten</wf>
+    <wf wid="w122" sent="7" para="5" offset="861" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t100" type="close">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <term lemma="Kapsel" morphofeat="NN" pos="N" tid="t101" type="open">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t102" type="close">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <term lemma="Kaffee" morphofeat="NN" pos="N" tid="t103" type="open">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t104" type="open">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t105" type="close">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <term lemma="Teeautomaten" morphofeat="NN unknown_lemma" pos="O" tid="t106" type="open">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <term lemma="bescheren" morphofeat="VVFIN" pos="V" tid="t107" type="open">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <term lemma="Nestle" morphofeat="NE" pos="R" tid="t108" type="open">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <term lemma="seit" morphofeat="APPR" pos="P" tid="t109" type="close">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <term lemma="Jahr" morphofeat="NN" pos="N" tid="t110" type="open">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <term lemma="beträchtlich" morphofeat="ADJA" pos="G" tid="t111" type="open">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <term lemma="Umsatzzuwachs" morphofeat="NN" pos="N" tid="t112" type="open">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t113" type="open">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t114" type="open">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <term lemma="aber" morphofeat="ADV" pos="A" tid="t115" type="open">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <term lemma="wegen" morphofeat="APPR" pos="P" tid="t116" type="close">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t117" type="close">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <term lemma="wachsend" morphofeat="ADJA" pos="G" tid="t118" type="open">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <term lemma="Verpackungsmüll" morphofeat="NN" pos="N" tid="t119" type="open">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <term lemma="auch" morphofeat="ADV" pos="A" tid="t120" type="open">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <term lemma="umstritten" morphofeat="ADJD" pos="G" tid="t121" type="open">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t122" type="open">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Die Kapseln für Kaffee · und Teeautomaten-->
+        <span>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--bescheren beträchtliche Umsatzzuwächse-->
+        <span>
+          <target id="t107"/>
+          <target id="t111"/>
+          <target id="t112"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Die Kapseln für Kaffee · und Teeautomaten-->
+        <span>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--sind aber auch umstritten-->
+        <span>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t120"/>
+          <target id="t121"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:37:46CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w21" sent="4" para="2" offset="115" length="3">Een</wf>
+    <wf wid="w22" sent="4" para="2" offset="119" length="5">Griek</wf>
+    <wf wid="w23" sent="4" para="2" offset="125" length="5">loopt</wf>
+    <wf wid="w24" sent="4" para="2" offset="131" length="5">langs</wf>
+    <wf wid="w25" sent="4" para="2" offset="137" length="3">een</wf>
+    <wf wid="w26" sent="4" para="2" offset="141" length="6">winkel</wf>
+    <wf wid="w27" sent="4" para="2" offset="148" length="3">die</wf>
+    <wf wid="w28" sent="4" para="2" offset="152" length="2">er</wf>
+    <wf wid="w29" sent="4" para="2" offset="155" length="3">mee</wf>
+    <wf wid="w30" sent="4" para="2" offset="159" length="5">stopt</wf>
+    <wf wid="w31" sent="4" para="2" offset="164" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Een-->
+    <term tid="t21" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--Griek-->
+    <term tid="t22" type="open" lemma="Griek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--loopt-->
+    <term tid="t23" type="open" lemma="lopen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w23"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--langs-->
+    <term tid="t24" type="close" lemma="langs" pos="P" morphofeat="prep">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t25" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--winkel-->
+    <term tid="t26" type="open" lemma="winkel" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--die-->
+    <term tid="t27" type="close" lemma="die" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--er-->
+    <term tid="t28" type="close" lemma="er" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--mee-->
+    <term tid="t29" type="open" lemma="mee" pos="A" morphofeat="adv">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--stopt-->
+    <term tid="t30" type="open" lemma="stoppen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t31" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:23Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:23Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:22:24CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w133" sent="11" para="2" offset="728" length="5">Obama</wf>
+    <wf wid="w134" sent="11" para="2" offset="734" length="3">zet</wf>
+    <wf wid="w135" sent="11" para="2" offset="738" length="4">zich</wf>
+    <wf wid="w136" sent="11" para="2" offset="743" length="2">in</wf>
+    <wf wid="w137" sent="11" para="2" offset="746" length="4">voor</wf>
+    <wf wid="w138" sent="11" para="2" offset="751" length="3">een</wf>
+    <wf wid="w139" sent="11" para="2" offset="755" length="14">kernwapenvrije</wf>
+    <wf wid="w140" sent="11" para="2" offset="770" length="6">wereld</wf>
+    <wf wid="w141" sent="11" para="2" offset="776" length="1">,</wf>
+    <wf wid="w142" sent="11" para="2" offset="778" length="5">zoals</wf>
+    <wf wid="w143" sent="11" para="2" offset="784" length="3">hij</wf>
+    <wf wid="w144" sent="11" para="2" offset="788" length="11">aankondigde</wf>
+    <wf wid="w145" sent="11" para="2" offset="800" length="2">in</wf>
+    <wf wid="w146" sent="11" para="2" offset="803" length="3">een</wf>
+    <wf wid="w147" sent="11" para="2" offset="807" length="9">toespraak</wf>
+    <wf wid="w148" sent="11" para="2" offset="817" length="2">in</wf>
+    <wf wid="w149" sent="11" para="2" offset="820" length="5">Praag</wf>
+    <wf wid="w150" sent="11" para="2" offset="826" length="2">in</wf>
+    <wf wid="w151" sent="11" para="2" offset="829" length="4">2009</wf>
+    <wf wid="w152" sent="11" para="2" offset="833" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Obama-->
+    <term tid="t133" type="open" lemma="Obama" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--zet-->
+    <term tid="t134" type="open" lemma="zetten" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w134"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--zich-->
+    <term tid="t135" type="close" lemma="zich" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t136" type="open" lemma="in" pos="A" morphofeat="adv">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t137" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t138" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--kernwapenvrije-->
+    <term tid="t139" type="open" lemma="kernwapenvrij" pos="G" morphofeat="adj">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--wereld-->
+    <term tid="t140" type="open" lemma="wereld" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t141" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--zoals-->
+    <term tid="t142" type="close" lemma="zoals" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--hij-->
+    <term tid="t143" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--aankondigde-->
+    <term tid="t144" type="open" lemma="aankondigen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t145" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t146" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--toespraak-->
+    <term tid="t147" type="open" lemma="toespraak" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t148" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--Praag-->
+    <term tid="t149" type="open" lemma="Praag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t150" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--2009-->
+    <term tid="t151" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t152" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Obama-->
+        <span>
+          <target id="t133"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--een kernwapenvrije wereld-->
+        <span>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--zet zich in voor-->
+        <span>
+          <target id="t134"/>
+          <target id="t135"/>
+          <target id="t136"/>
+          <target id="t137"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

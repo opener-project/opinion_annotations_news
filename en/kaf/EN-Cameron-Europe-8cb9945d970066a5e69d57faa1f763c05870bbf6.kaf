@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:32Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:32Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:54:44" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:59:32CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="23" para="2" offset="3695" length="5" wid="w677">Other</wf>
+    <wf sent="23" para="2" offset="3701" length="11" wid="w678">governments</wf>
+    <wf sent="23" para="2" offset="3713" length="2" wid="w679">do</wf>
+    <wf sent="23" para="2" offset="3716" length="3" wid="w680">not</wf>
+    <wf sent="23" para="2" offset="3720" length="4" wid="w681">seem</wf>
+    <wf sent="23" para="2" offset="3725" length="10" wid="w682">encouraged</wf>
+    <wf sent="23" para="2" offset="3736" length="2" wid="w683">to</wf>
+    <wf sent="23" para="2" offset="3739" length="4" wid="w684">join</wf>
+    <wf sent="23" para="2" offset="3744" length="3" wid="w685">the</wf>
+    <wf sent="23" para="2" offset="3748" length="6" wid="w686">strike</wf>
+    <wf sent="23" para="2" offset="3754" length="1" wid="w687">.</wf>
+  </text>
+  <terms>
+    <!--Other-->
+    <term type="open" lemma="other" pos="G" morphofeat="JJ" tid="t677">
+      <span>
+        <target id="w677"/>
+      </span>
+    </term>
+    <!--governments-->
+    <term type="open" lemma="government" pos="N" morphofeat="NNS" tid="t678">
+      <span>
+        <target id="w678"/>
+      </span>
+    </term>
+    <!--do-->
+    <term type="open" lemma="do" pos="V" morphofeat="VBP" tid="t679">
+      <span>
+        <target id="w679"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t680">
+      <span>
+        <target id="w680"/>
+      </span>
+    </term>
+    <!--seem-->
+    <term type="open" lemma="seem" pos="V" morphofeat="VB" tid="t681">
+      <span>
+        <target id="w681"/>
+      </span>
+    </term>
+    <!--encouraged-->
+    <term type="open" lemma="encourage" pos="V" morphofeat="VBD" tid="t682">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w682"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t683">
+      <span>
+        <target id="w683"/>
+      </span>
+    </term>
+    <!--join-->
+    <term type="open" lemma="join" pos="V" morphofeat="VB" tid="t684">
+      <span>
+        <target id="w684"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t685">
+      <span>
+        <target id="w685"/>
+      </span>
+    </term>
+    <!--strike-->
+    <term type="open" lemma="strike" pos="N" morphofeat="NN" tid="t686">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w686"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t687">
+      <span>
+        <target id="w687"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Other governments-->
+        <span>
+          <target id="t677"/>
+          <target id="t678"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--to join the strike-->
+        <span>
+          <target id="t683"/>
+          <target id="t684"/>
+          <target id="t685"/>
+          <target id="t686"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--do not seem encouraged-->
+        <span>
+          <target id="t679"/>
+          <target id="t680"/>
+          <target id="t681"/>
+          <target id="t682"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

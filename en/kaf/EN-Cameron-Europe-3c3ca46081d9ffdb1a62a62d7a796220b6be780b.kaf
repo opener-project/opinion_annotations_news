@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:04:32Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:04:32Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:27:16" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:22:27CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="15" para="2" offset="2982" length="2" wid="w582">We</wf>
+    <wf sent="15" para="2" offset="2985" length="4" wid="w583">want</wf>
+    <wf sent="15" para="2" offset="2990" length="2" wid="w584">to</wf>
+    <wf sent="15" para="2" offset="2993" length="3" wid="w585">try</wf>
+    <wf sent="15" para="2" offset="2997" length="2" wid="w586">to</wf>
+    <wf sent="15" para="2" offset="3000" length="7" wid="w587">resolve</wf>
+    <wf sent="15" para="2" offset="3008" length="3" wid="w588">the</wf>
+    <wf sent="15" para="2" offset="3012" length="5" wid="w589">issue</wf>
+    <wf sent="15" para="2" offset="3018" length="7" wid="w590">through</wf>
+    <wf sent="15" para="2" offset="3026" length="9" wid="w591">political</wf>
+    <wf sent="15" para="2" offset="3036" length="5" wid="w592">means</wf>
+    <wf sent="15" para="2" offset="3042" length="2" wid="w593">if</wf>
+    <wf sent="15" para="2" offset="3045" length="8" wid="w594">possible</wf>
+    <wf sent="15" para="2" offset="3053" length="1" wid="w595">.</wf>
+  </text>
+  <terms>
+    <!--We-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t582">
+      <span>
+        <target id="w582"/>
+      </span>
+    </term>
+    <!--want-->
+    <term type="open" lemma="want" pos="V" morphofeat="VBP" tid="t583">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w583"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t584">
+      <span>
+        <target id="w584"/>
+      </span>
+    </term>
+    <!--try-->
+    <term type="open" lemma="try" pos="V" morphofeat="VB" tid="t585">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w585"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t586">
+      <span>
+        <target id="w586"/>
+      </span>
+    </term>
+    <!--resolve-->
+    <term type="open" lemma="resolve" pos="V" morphofeat="VB" tid="t587">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w587"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t588">
+      <span>
+        <target id="w588"/>
+      </span>
+    </term>
+    <!--issue-->
+    <term type="open" lemma="issue" pos="N" morphofeat="NN" tid="t589">
+      <span>
+        <target id="w589"/>
+      </span>
+    </term>
+    <!--through-->
+    <term type="close" lemma="through" pos="P" morphofeat="IN" tid="t590">
+      <span>
+        <target id="w590"/>
+      </span>
+    </term>
+    <!--political-->
+    <term type="open" lemma="political" pos="G" morphofeat="JJ" tid="t591">
+      <span>
+        <target id="w591"/>
+      </span>
+    </term>
+    <!--means-->
+    <term type="open" lemma="mean" pos="N" morphofeat="NNS" tid="t592">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w592"/>
+      </span>
+    </term>
+    <!--if-->
+    <term type="close" lemma="if" pos="P" morphofeat="IN" tid="t593">
+      <span>
+        <target id="w593"/>
+      </span>
+    </term>
+    <!--possible-->
+    <term type="open" lemma="possible" pos="G" morphofeat="JJ" tid="t594">
+      <span>
+        <target id="w594"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t595">
+      <span>
+        <target id="w595"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t582"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--to resolve-->
+        <span>
+          <target id="t586"/>
+          <target id="t587"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--want to try-->
+        <span>
+          <target id="t583"/>
+          <target id="t584"/>
+          <target id="t585"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

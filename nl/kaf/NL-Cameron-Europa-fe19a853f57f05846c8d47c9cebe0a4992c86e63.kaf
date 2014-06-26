@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:56Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:56Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:13:38CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:28CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w68" sent="5" para="2" offset="341" length="1">'</wf>
+    <wf wid="w69" sent="5" para="2" offset="342" length="2">De</wf>
+    <wf wid="w70" sent="5" para="2" offset="345" length="7">premier</wf>
+    <wf wid="w71" sent="5" para="2" offset="353" length="2">is</wf>
+    <wf wid="w72" sent="5" para="2" offset="356" length="3">het</wf>
+    <wf wid="w73" sent="5" para="2" offset="360" length="4">niet</wf>
+    <wf wid="w74" sent="5" para="2" offset="365" length="4">eens</wf>
+    <wf wid="w75" sent="5" para="2" offset="370" length="3">met</wf>
+    <wf wid="w76" sent="5" para="2" offset="374" length="2">de</wf>
+    <wf wid="w77" sent="5" para="2" offset="377" length="6">Britse</wf>
+    <wf wid="w78" sent="5" para="2" offset="384" length="5">visie</wf>
+    <wf wid="w79" sent="5" para="2" offset="389" length="1">.</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term tid="t68" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t69" type="open" lemma="De" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t70" type="open" lemma="premier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w70"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--is-->
+    <term tid="t71" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t72" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t73" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--eens-->
+    <term tid="t74" type="open" lemma="eens" pos="A" morphofeat="adv">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t75" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t76" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--Britse-->
+    <term tid="t77" type="open" lemma="Brits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--visie-->
+    <term tid="t78" type="open" lemma="visie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t79" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--De premier-->
+        <span>
+          <target id="t69"/>
+          <target id="t70"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de Britse visie-->
+        <span>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--niet eens met-->
+        <span>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

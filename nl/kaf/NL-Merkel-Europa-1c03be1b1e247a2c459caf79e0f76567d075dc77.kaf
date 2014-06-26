@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:56Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:56Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:51:02CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w81" sent="3" para="2" offset="379" length="3">Dat</wf>
+    <wf wid="w82" sent="3" para="2" offset="383" length="5">heeft</wf>
+    <wf wid="w83" sent="3" para="2" offset="389" length="2">de</wf>
+    <wf wid="w84" sent="3" para="2" offset="392" length="6">Duitse</wf>
+    <wf wid="w85" sent="3" para="2" offset="399" length="14">bondskanselier</wf>
+    <wf wid="w86" sent="3" para="2" offset="414" length="6">Angela</wf>
+    <wf wid="w87" sent="3" para="2" offset="421" length="6">Merkel</wf>
+    <wf wid="w88" sent="3" para="2" offset="428" length="8">zaterdag</wf>
+    <wf wid="w89" sent="3" para="2" offset="437" length="6">gezegd</wf>
+    <wf wid="w90" sent="3" para="2" offset="444" length="2">in</wf>
+    <wf wid="w91" sent="3" para="2" offset="447" length="2">de</wf>
+    <wf wid="w92" sent="3" para="2" offset="450" length="11">Tsjechische</wf>
+    <wf wid="w93" sent="3" para="2" offset="462" length="5">krant</wf>
+    <wf wid="w94" sent="3" para="2" offset="468" length="6">Lidove</wf>
+    <wf wid="w95" sent="3" para="2" offset="475" length="6">Noviny</wf>
+    <wf wid="w96" sent="3" para="2" offset="481" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Dat-->
+    <term tid="t81" type="close" lemma="dat" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--heeft-->
+    <term tid="t82" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t83" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t84" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--bondskanselier-->
+    <term tid="t85" type="open" lemma="bondskanselier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t86" type="open" lemma="Angela" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t87" type="open" lemma="Merkel" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--zaterdag-->
+    <term tid="t88" type="open" lemma="zaterdag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--gezegd-->
+    <term tid="t89" type="open" lemma="zeggen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t90" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t91" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--Tsjechische-->
+    <term tid="t92" type="open" lemma="Tsjechisch" pos="G" morphofeat="adj">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--krant-->
+    <term tid="t93" type="open" lemma="krant" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--Lidove-->
+    <term tid="t94" type="open" lemma="Lidove" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--Noviny-->
+    <term tid="t95" type="open" lemma="Noviny" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t96" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

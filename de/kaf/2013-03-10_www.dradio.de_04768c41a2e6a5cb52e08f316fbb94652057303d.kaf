@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:59:00Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:59:00Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:03:32CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:59:44CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w15" sent="3" para="3" offset="108" length="3">Die</wf>
+    <wf wid="w16" sent="3" para="3" offset="112" length="15">Bundesregierung</wf>
+    <wf wid="w17" sent="3" para="3" offset="128" length="7">rechnet</wf>
+    <wf wid="w18" sent="3" para="3" offset="136" length="3">für</wf>
+    <wf wid="w19" sent="3" para="3" offset="140" length="6">dieses</wf>
+    <wf wid="w20" sent="3" para="3" offset="147" length="4">Jahr</wf>
+    <wf wid="w21" sent="3" para="3" offset="152" length="3">mit</wf>
+    <wf wid="w22" sent="3" para="3" offset="156" length="5">einem</wf>
+    <wf wid="w23" sent="3" para="3" offset="162" length="19">Wirtschaftswachstum</wf>
+    <wf wid="w24" sent="3" para="3" offset="182" length="3">von</wf>
+    <wf wid="w25" sent="3" para="3" offset="186" length="3">1,8</wf>
+    <wf wid="w26" sent="3" para="3" offset="190" length="7">Prozent</wf>
+    <wf wid="w27" sent="3" para="3" offset="197" length="1">.</wf>
+    <wf wid="w72" sent="6" para="3" offset="494" length="25">Bundeswirtschaftsminister</wf>
+    <wf wid="w73" sent="6" para="3" offset="520" length="7">Gabriel</wf>
+    <wf wid="w74" sent="6" para="3" offset="528" length="6">sprach</wf>
+    <wf wid="w75" sent="6" para="3" offset="535" length="2">in</wf>
+    <wf wid="w76" sent="6" para="3" offset="538" length="6">Berlin</wf>
+    <wf wid="w77" sent="6" para="3" offset="545" length="3">von</wf>
+    <wf wid="w78" sent="6" para="3" offset="549" length="5">einem</wf>
+    <wf wid="w79" sent="6" para="3" offset="555" length="8">stabilen</wf>
+    <wf wid="w80" sent="6" para="3" offset="564" length="13">Erholungskurs</wf>
+    <wf wid="w81" sent="6" para="3" offset="577" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t15" type="close">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="Bundesregierung" morphofeat="NN" pos="N" tid="t16" type="open">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="rechnen" morphofeat="VVFIN" pos="V" tid="t17" type="open">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t18" type="close">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="dies" morphofeat="PDAT" pos="Q" tid="t19" type="close">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="Jahr" morphofeat="NN" pos="N" tid="t20" type="open">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t21" type="close">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t22" type="close">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="Wirtschaftswachstum" morphofeat="NN" pos="N" tid="t23" type="open">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t24" type="close">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="1,8" morphofeat="CARD" pos="O" tid="t25" type="open">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="Prozent" morphofeat="NN" pos="N" tid="t26" type="open">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t27" type="open">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="Bundeswirtschaftsminister" morphofeat="NN" pos="N" tid="t72" type="open">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <term lemma="Gabriel" morphofeat="NE" pos="R" tid="t73" type="open">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <term lemma="sprechen" morphofeat="VVFIN" pos="V" tid="t74" type="open">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t75" type="close">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <term lemma="Berlin" morphofeat="NE" pos="R" tid="t76" type="open">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t77" type="close">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t78" type="close">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <term lemma="stabil" morphofeat="ADJA" pos="G" tid="t79" type="open">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <term lemma="Erholungskurs" morphofeat="NN" pos="N" tid="t80" type="open">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t81" type="open">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Bundeswirtschaftsminister Gabriel-->
+        <span>
+          <target id="t72"/>
+          <target id="t73"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Erholungskurs-->
+        <span>
+          <target id="t80"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--stabilen-->
+        <span>
+          <target id="t79"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Bundeswirtschaftsminister Gabriel-->
+        <span>
+          <target id="t72"/>
+          <target id="t73"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Erholungskurs-->
+        <span>
+          <target id="t80"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--sprach von-->
+        <span>
+          <target id="t74"/>
+          <target id="t77"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

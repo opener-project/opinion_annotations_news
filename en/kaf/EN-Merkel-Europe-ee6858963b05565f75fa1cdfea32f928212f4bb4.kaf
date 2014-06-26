@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:10:35" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:39:32CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="16" para="2" offset="1818" length="9" wid="w356">Investors</wf>
+    <wf sent="16" para="2" offset="1828" length="7" wid="w357">fearing</wf>
+    <wf sent="16" para="2" offset="1836" length="5" wid="w358">Spain</wf>
+    <wf sent="16" para="2" offset="1842" length="3" wid="w359">may</wf>
+    <wf sent="16" para="2" offset="1846" length="3" wid="w360">not</wf>
+    <wf sent="16" para="2" offset="1850" length="2" wid="w361">be</wf>
+    <wf sent="16" para="2" offset="1853" length="4" wid="w362">able</wf>
+    <wf sent="16" para="2" offset="1858" length="2" wid="w363">to</wf>
+    <wf sent="16" para="2" offset="1861" length="3" wid="w364">pay</wf>
+    <wf sent="16" para="2" offset="1865" length="3" wid="w365">off</wf>
+    <wf sent="16" para="2" offset="1869" length="3" wid="w366">its</wf>
+    <wf sent="16" para="2" offset="1873" length="5" wid="w367">debts</wf>
+    <wf sent="16" para="2" offset="1879" length="4" wid="w368">have</wf>
+    <wf sent="16" para="2" offset="1884" length="7" wid="w369">charged</wf>
+    <wf sent="16" para="2" offset="1892" length="4" wid="w370">high</wf>
+    <wf sent="16" para="2" offset="1897" length="6" wid="w371">prices</wf>
+    <wf sent="16" para="2" offset="1904" length="3" wid="w372">for</wf>
+    <wf sent="16" para="2" offset="1908" length="5" wid="w373">loans</wf>
+    <wf sent="16" para="2" offset="1914" length="2" wid="w374">to</wf>
+    <wf sent="16" para="2" offset="1917" length="3" wid="w375">the</wf>
+    <wf sent="16" para="2" offset="1921" length="7" wid="w376">country</wf>
+    <wf sent="16" para="2" offset="1928" length="1" wid="w377">.</wf>
+  </text>
+  <terms>
+    <!--Investors-->
+    <term type="open" lemma="investor" pos="N" morphofeat="NNS" tid="t356">
+      <span>
+        <target id="w356"/>
+      </span>
+    </term>
+    <!--fearing-->
+    <term type="open" lemma="fear" pos="V" morphofeat="VBG" tid="t357">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w357"/>
+      </span>
+    </term>
+    <!--Spain-->
+    <term type="close" lemma="Spain" pos="R" morphofeat="NNP" tid="t358">
+      <span>
+        <target id="w358"/>
+      </span>
+    </term>
+    <!--may-->
+    <term type="close" lemma="may" pos="O" morphofeat="MD" tid="t359">
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t360">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t361">
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <!--able-->
+    <term type="open" lemma="able" pos="G" morphofeat="JJ" tid="t362">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t363">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <!--pay-->
+    <term type="open" lemma="pay" pos="V" morphofeat="VB" tid="t364">
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <!--off-->
+    <term type="open" lemma="off" pos="A" morphofeat="RB" tid="t365">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <!--its-->
+    <term type="close" lemma="its" pos="Q" morphofeat="PRP$" tid="t366">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <!--debts-->
+    <term type="open" lemma="debt" pos="N" morphofeat="NNS" tid="t367">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <!--have-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBP" tid="t368">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <!--charged-->
+    <term type="open" lemma="charge" pos="V" morphofeat="VBN" tid="t369">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <!--high-->
+    <term type="open" lemma="high" pos="G" morphofeat="JJ" tid="t370">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <!--prices-->
+    <term type="open" lemma="price" pos="N" morphofeat="NNS" tid="t371">
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t372">
+      <span>
+        <target id="w372"/>
+      </span>
+    </term>
+    <!--loans-->
+    <term type="open" lemma="loan" pos="N" morphofeat="NNS" tid="t373">
+      <span>
+        <target id="w373"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t374">
+      <span>
+        <target id="w374"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t375">
+      <span>
+        <target id="w375"/>
+      </span>
+    </term>
+    <!--country-->
+    <term type="open" lemma="country" pos="N" morphofeat="NN" tid="t376">
+      <span>
+        <target id="w376"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t377">
+      <span>
+        <target id="w377"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--prices-->
+        <span>
+          <target id="t371"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--high-->
+        <span>
+          <target id="t370"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--loans-->
+        <span>
+          <target id="t373"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Spain-->
+        <span>
+          <target id="t358"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--may not be able to pay off its debts-->
+        <span>
+          <target id="t359"/>
+          <target id="t360"/>
+          <target id="t361"/>
+          <target id="t362"/>
+          <target id="t363"/>
+          <target id="t364"/>
+          <target id="t365"/>
+          <target id="t366"/>
+          <target id="t367"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Investors-->
+        <span>
+          <target id="t356"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--loans to the country-->
+        <span>
+          <target id="t373"/>
+          <target id="t374"/>
+          <target id="t375"/>
+          <target id="t376"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--charged high prices-->
+        <span>
+          <target id="t369"/>
+          <target id="t370"/>
+          <target id="t371"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Investors-->
+        <span>
+          <target id="t356"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Spain may not be able to pay off its debts-->
+        <span>
+          <target id="t358"/>
+          <target id="t359"/>
+          <target id="t360"/>
+          <target id="t361"/>
+          <target id="t362"/>
+          <target id="t363"/>
+          <target id="t364"/>
+          <target id="t365"/>
+          <target id="t366"/>
+          <target id="t367"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--fearing-->
+        <span>
+          <target id="t357"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

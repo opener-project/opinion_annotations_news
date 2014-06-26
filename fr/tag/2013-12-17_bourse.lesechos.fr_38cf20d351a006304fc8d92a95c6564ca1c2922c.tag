@@ -1,0 +1,11 @@
+w385	le	le	D		OpinionHolder	2	Opinion	6		0		0		0		0		0		0	384	true	17
+w386	Cac	Cac	N		OpinionHolder	2	Opinion	6		0		0		0		0		0		0	385	true	17
+w387	40	40	D		OpinionHolder	2	Opinion	6		0		0		0		0		0		0	386	true	17
+w388	perd	perdre	V		D-Negative	3	Opinion	6		0		0		0		0		0		0	387	true	17
+w389	1,24	1,24	D		OpinionTarget	5	Opinion	6		0		0		0		0		0		0	388	true	17
+w390	%	pourcent	N		OpinionTarget	5	Opinion	6		0		0		0		0		0		0	389	true	17
+w391	à	à	P		OpinionTarget	5	Opinion	6		0		0		0		0		0		0	390	true	17
+w392	4	4	D		OpinionTarget	5	Opinion	6		0		0		0		0		0		0	391	true	17
+w393	.	.	O		OpinionTarget	5	Opinion	6		0		0		0		0		0		0	392	true	17
+w394	068,64	068,64	D		OpinionTarget	5	Opinion	6		0		0		0		0		0		0	393	true	18
+w395	points	point	N		OpinionTarget	5	Opinion	6		0		0		0		0		0		0	394	true	18

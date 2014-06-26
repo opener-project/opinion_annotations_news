@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:41Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:41Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:23:01" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:30:32CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="12" para="2" offset="3273" length="1" wid="w610">'</wf>
+    <wf sent="12" para="2" offset="3274" length="4" wid="w611">This</wf>
+    <wf sent="12" para="2" offset="3279" length="2" wid="w612">is</wf>
+    <wf sent="12" para="2" offset="3282" length="3" wid="w613">the</wf>
+    <wf sent="12" para="2" offset="3286" length="4" wid="w614">best</wf>
+    <wf sent="12" para="2" offset="3291" length="6" wid="w615">moment</wf>
+    <wf sent="12" para="2" offset="3298" length="2" wid="w616">of</wf>
+    <wf sent="12" para="2" offset="3301" length="2" wid="w617">my</wf>
+    <wf sent="12" para="2" offset="3304" length="4" wid="w618">life</wf>
+    <wf sent="12" para="2" offset="3308" length="1" wid="w619">.</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="''" tid="t610">
+      <span>
+        <target id="w610"/>
+      </span>
+    </term>
+    <!--This-->
+    <term type="close" lemma="this" pos="D" morphofeat="DT" tid="t611">
+      <span>
+        <target id="w611"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t612">
+      <span>
+        <target id="w612"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t613">
+      <span>
+        <target id="w613"/>
+      </span>
+    </term>
+    <!--best-->
+    <term type="open" lemma="good" pos="G" morphofeat="JJS" tid="t614">
+      <span>
+        <target id="w614"/>
+      </span>
+    </term>
+    <!--moment-->
+    <term type="open" lemma="moment" pos="N" morphofeat="NN" tid="t615">
+      <span>
+        <target id="w615"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t616">
+      <span>
+        <target id="w616"/>
+      </span>
+    </term>
+    <!--my-->
+    <term type="close" lemma="my" pos="Q" morphofeat="PRP$" tid="t617">
+      <span>
+        <target id="w617"/>
+      </span>
+    </term>
+    <!--life-->
+    <term type="open" lemma="life" pos="N" morphofeat="NN" tid="t618">
+      <span>
+        <target id="w618"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t619">
+      <span>
+        <target id="w619"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--of my life-->
+        <span>
+          <target id="t616"/>
+          <target id="t617"/>
+          <target id="t618"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--This-->
+        <span>
+          <target id="t611"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--the best moment-->
+        <span>
+          <target id="t613"/>
+          <target id="t614"/>
+          <target id="t615"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

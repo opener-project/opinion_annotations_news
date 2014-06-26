@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:52:57Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:52:57Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:04:38CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:53:25CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:22CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w77" sent="8" para="7" offset="525" length="8">Immerhin</wf>
+    <wf wid="w78" sent="8" para="7" offset="534" length="5">haben</wf>
+    <wf wid="w79" sent="8" para="7" offset="540" length="4">rund</wf>
+    <wf wid="w80" sent="8" para="7" offset="545" length="5">sechs</wf>
+    <wf wid="w81" sent="8" para="7" offset="551" length="9">Millionen</wf>
+    <wf wid="w82" sent="8" para="7" offset="561" length="5">junge</wf>
+    <wf wid="w83" sent="8" para="7" offset="567" length="8">Menschen</wf>
+    <wf wid="w84" sent="8" para="7" offset="576" length="2">in</wf>
+    <wf wid="w85" sent="8" para="7" offset="579" length="3">der</wf>
+    <wf wid="w86" sent="8" para="7" offset="583" length="2">EU</wf>
+    <wf wid="w87" sent="8" para="7" offset="586" length="6">keinen</wf>
+    <wf wid="w88" sent="8" para="7" offset="593" length="3">Job</wf>
+    <wf wid="w89" sent="8" para="7" offset="596" length="1">.</wf>
+    <wf wid="w161" sent="14" para="10" offset="1053" length="13">Bundeskanzler</wf>
+    <wf wid="w162" sent="14" para="10" offset="1067" length="6">Werner</wf>
+    <wf wid="w163" sent="14" para="10" offset="1074" length="7">Faymann</wf>
+    <wf wid="w164" sent="14" para="10" offset="1082" length="1">(</wf>
+    <wf wid="w165" sent="14" para="10" offset="1084" length="3">SPÖ</wf>
+    <wf wid="w166" sent="14" para="10" offset="1088" length="1">)</wf>
+    <wf wid="w167" sent="14" para="10" offset="1090" length="7">wünscht</wf>
+    <wf wid="w168" sent="14" para="10" offset="1098" length="4">sich</wf>
+    <wf wid="w169" sent="14" para="10" offset="1103" length="6">diesen</wf>
+    <wf wid="w170" sent="14" para="10" offset="1110" length="6">Betrag</wf>
+    <wf wid="w171" sent="14" para="10" offset="1117" length="6">gleich</wf>
+    <wf wid="w172" sent="14" para="10" offset="1124" length="5">jedes</wf>
+    <wf wid="w173" sent="14" para="10" offset="1130" length="4">Jahr</wf>
+    <wf wid="w174" sent="14" para="10" offset="1134" length="1">:</wf>
+    <wf wid="w175" sent="14" para="10" offset="1136" length="1">"</wf>
+    <wf wid="w176" sent="14" para="10" offset="1137" length="3">Ich</wf>
+    <wf wid="w177" sent="14" para="10" offset="1141" length="4">wäre</wf>
+    <wf wid="w178" sent="14" para="10" offset="1146" length="4">sehr</wf>
+    <wf wid="w179" sent="14" para="10" offset="1151" length="5">dafür</wf>
+    <wf wid="w180" sent="14" para="10" offset="1156" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="immerhin" morphofeat="ADV" pos="A" tid="t77" type="open">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t78" type="open">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <term lemma="rund" morphofeat="ADV" pos="A" tid="t79" type="open">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <term lemma="sechs" morphofeat="CARD" pos="O" tid="t80" type="open">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <term lemma="Million" morphofeat="NN" pos="N" tid="t81" type="open">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <term lemma="jung" morphofeat="ADJA" pos="G" tid="t82" type="open">
+      <span>
+        <target id="w82"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Mensch" morphofeat="NN" pos="N" tid="t83" type="open">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t84" type="close">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t85" type="close">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t86" type="open">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <term lemma="keine" morphofeat="PIAT" pos="Q" tid="t87" type="close">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <term lemma="Job" morphofeat="NN" pos="N" tid="t88" type="open">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t89" type="open">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <term lemma="Bundeskanzler" morphofeat="NN" pos="N" tid="t161" type="open">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <term lemma="Werner" morphofeat="NE" pos="R" tid="t162" type="open">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <term lemma="Faymann" morphofeat="NE unknown_lemma" pos="O" tid="t163" type="open">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="$(" pos="O" tid="t164" type="open">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <term lemma="SPÖ" morphofeat="NE unknown_lemma" pos="O" tid="t165" type="open">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat="$(" pos="O" tid="t166" type="open">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <term lemma="wünschen" morphofeat="VVFIN" pos="V" tid="t167" type="open">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t168" type="close">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <term lemma="dies" morphofeat="PDAT" pos="Q" tid="t169" type="close">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <term lemma="Betrag" morphofeat="NN" pos="N" tid="t170" type="open">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <term lemma="gleich" morphofeat="ADJD" pos="G" tid="t171" type="open">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <term lemma="jede" morphofeat="PIAT" pos="Q" tid="t172" type="close">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <term lemma="Jahr" morphofeat="NN" pos="N" tid="t173" type="open">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <term lemma=":" morphofeat="$." pos="O" tid="t174" type="open">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t175" type="open">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <term lemma="ich" morphofeat="PPER" pos="Q" tid="t176" type="close">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t177" type="open">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <term lemma="sehr" morphofeat="ADV" pos="A" tid="t178" type="open">
+      <span>
+        <target id="w178"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="dafür" morphofeat="PAV" pos="Q" tid="t179" type="close">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t180" type="open">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--Ich-->
+        <span>
+          <target id="t176"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--dafür-->
+        <span>
+          <target id="t179"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wäre sehr-->
+        <span>
+          <target id="t177"/>
+          <target id="t178"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t77"/>
+          <target id="t78"/>
+          <target id="t79"/>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

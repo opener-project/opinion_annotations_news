@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:27:55CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w92" sent="8" para="2" offset="643" length="6">Hoewel</wf>
+    <wf wid="w93" sent="8" para="2" offset="650" length="6">Merkel</wf>
+    <wf wid="w94" sent="8" para="2" offset="657" length="6">toegaf</wf>
+    <wf wid="w95" sent="8" para="2" offset="664" length="3">dat</wf>
+    <wf wid="w96" sent="8" para="2" offset="668" length="2">de</wf>
+    <wf wid="w97" sent="8" para="2" offset="671" length="9">nederlaag</wf>
+    <wf wid="w98" sent="8" para="2" offset="681" length="4">voor</wf>
+    <wf wid="w99" sent="8" para="2" offset="686" length="4">haar</wf>
+    <wf wid="w100" sent="8" para="2" offset="691" length="6">partij</wf>
+    <wf wid="w101" sent="8" para="2" offset="698" length="1">"</wf>
+    <wf wid="w102" sent="8" para="2" offset="699" length="6">bitter</wf>
+    <wf wid="w103" sent="8" para="2" offset="706" length="2">en</wf>
+    <wf wid="w104" sent="8" para="2" offset="709" length="8">pijnlijk</wf>
+    <wf wid="w105" sent="8" para="2" offset="717" length="1">"</wf>
+    <wf wid="w106" sent="8" para="2" offset="719" length="3">was</wf>
+    <wf wid="w107" sent="8" para="2" offset="722" length="1">,</wf>
+    <wf wid="w108" sent="8" para="2" offset="724" length="6">blijft</wf>
+    <wf wid="w109" sent="8" para="2" offset="731" length="2">ze</wf>
+    <wf wid="w110" sent="8" para="2" offset="734" length="5">ervan</wf>
+    <wf wid="w111" sent="8" para="2" offset="740" length="9">overtuigd</wf>
+    <wf wid="w112" sent="8" para="2" offset="750" length="3">dat</wf>
+    <wf wid="w113" sent="8" para="2" offset="754" length="2">de</wf>
+    <wf wid="w114" sent="8" para="2" offset="757" length="14">schuldencrisis</wf>
+    <wf wid="w115" sent="8" para="2" offset="772" length="1">"</wf>
+    <wf wid="w116" sent="8" para="2" offset="773" length="12">ongetwijfeld</wf>
+    <wf wid="w117" sent="8" para="2" offset="786" length="3">een</wf>
+    <wf wid="w118" sent="8" para="2" offset="790" length="7">extreem</wf>
+    <wf wid="w119" sent="8" para="2" offset="798" length="10">gevaarlijk</wf>
+    <wf wid="w120" sent="8" para="2" offset="809" length="5">thema</wf>
+    <wf wid="w121" sent="8" para="2" offset="814" length="1">"</wf>
+    <wf wid="w122" sent="8" para="2" offset="816" length="2">is</wf>
+    <wf wid="w123" sent="8" para="2" offset="819" length="2">en</wf>
+    <wf wid="w124" sent="8" para="2" offset="822" length="3">dat</wf>
+    <wf wid="w125" sent="8" para="2" offset="826" length="2">de</wf>
+    <wf wid="w126" sent="8" para="2" offset="829" length="6">Duitse</wf>
+    <wf wid="w127" sent="8" para="2" offset="836" length="15">deelstaatkiezer</wf>
+    <wf wid="w128" sent="8" para="2" offset="852" length="3">het</wf>
+    <wf wid="w129" sent="8" para="2" offset="856" length="4">idee</wf>
+    <wf wid="w130" sent="8" para="2" offset="861" length="3">van</wf>
+    <wf wid="w131" sent="8" para="2" offset="865" length="19">begrotingssoberheid</wf>
+    <wf wid="w132" sent="8" para="2" offset="885" length="4">niet</wf>
+    <wf wid="w133" sent="8" para="2" offset="890" length="5">heeft</wf>
+    <wf wid="w134" sent="8" para="2" offset="896" length="10">weggestemd</wf>
+    <wf wid="w135" sent="8" para="2" offset="906" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hoewel-->
+    <term tid="t92" type="close" lemma="hoewel" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t93" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--toegaf-->
+    <term tid="t94" type="open" lemma="toegeven" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w94"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t95" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t96" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--nederlaag-->
+    <term tid="t97" type="open" lemma="nederlaag" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w97"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--voor-->
+    <term tid="t98" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--haar-->
+    <term tid="t99" type="close" lemma="haar" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--partij-->
+    <term tid="t100" type="open" lemma="partij" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t101" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--bitter-->
+    <term tid="t102" type="open" lemma="bitter" pos="G" morphofeat="adj">
+      <span>
+        <target id="w102"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--en-->
+    <term tid="t103" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--pijnlijk-->
+    <term tid="t104" type="open" lemma="pijnlijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w104"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--"-->
+    <term tid="t105" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--was-->
+    <term tid="t106" type="open" lemma="wezen|zijn" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t107" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--blijft-->
+    <term tid="t108" type="open" lemma="blijven" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--ze-->
+    <term tid="t109" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--ervan-->
+    <term tid="t110" type="close" lemma="ervan" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--overtuigd-->
+    <term tid="t111" type="open" lemma="overtuigen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w111"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t112" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t113" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--schuldencrisis-->
+    <term tid="t114" type="open" lemma="schuldencrisis" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t115" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--ongetwijfeld-->
+    <term tid="t116" type="open" lemma="ongetwijfeld" pos="A" morphofeat="adv">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t117" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--extreem-->
+    <term tid="t118" type="open" lemma="extreem" pos="G" morphofeat="adj">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--gevaarlijk-->
+    <term tid="t119" type="open" lemma="gevaarlijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w119"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--thema-->
+    <term tid="t120" type="open" lemma="thema" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t121" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t122" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t123" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t124" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t125" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t126" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--deelstaatkiezer-->
+    <term tid="t127" type="open" lemma="deelstaatkiezer" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t128" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--idee-->
+    <term tid="t129" type="open" lemma="idee" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t130" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--begrotingssoberheid-->
+    <term tid="t131" type="open" lemma="begrotingssoberheid" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t132" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--heeft-->
+    <term tid="t133" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--weggestemd-->
+    <term tid="t134" type="open" lemma="wegstemmen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t135" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--partij-->
+        <span>
+          <target id="t100"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--nederlaag-->
+        <span>
+          <target id="t97"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--thema-->
+        <span>
+          <target id="t120"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--extreem gevaarlijk-->
+        <span>
+          <target id="t118"/>
+          <target id="t119"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder>
+        <!--ze-->
+        <span>
+          <target id="t109"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de schuldencrisis-->
+        <span>
+          <target id="t113"/>
+          <target id="t114"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--een extreem gevaarlijk thema " is-->
+        <span>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t93"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de nederlaag voor haar partij-->
+        <span>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--bitter-->
+        <span>
+          <target id="t102"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t93"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de nederlaag voor haar partij-->
+        <span>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--pijnlijk-->
+        <span>
+          <target id="t104"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--de Duitse deelstaatkiezer-->
+        <span>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--het idee van begrotingssoberheid-->
+        <span>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--niet heeft weggestemd-->
+        <span>
+          <target id="t132"/>
+          <target id="t133"/>
+          <target id="t134"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o6">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--begrotingssoberheid-->
+        <span>
+          <target id="t131"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

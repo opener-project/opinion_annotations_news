@@ -1,0 +1,13 @@
+w1	Merkel	merkel	R		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	0	true	1
+w2	pessimista	pessimista	N		D-Negative	2	Opinion	4		0		0		0		0		0		0	1	true	1
+w3	sulla	sulla	P		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	2	true	1
+w4	crisi	crisi	N		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	3	true	1
+w5	economica	economico	G		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	4	true	1
+w7	Per	per	P		OpinionTarget	5	Opinion	7		0		0		0		0		0		0	6	true	1
+w8	uscirne	uscirne	V		OpinionTarget	5	Opinion	7		0		0		0		0		0		0	7	true	1
+w9	ci	ci	Q		D-Negative	6	Opinion	7		0		0		0		0		0		0	8	true	1
+w10	vorranno	volere	V		D-Negative	6	Opinion	7		0		0		0		0		0		0	9	true	1
+w11	più	piu'	N		D-Negative	6	Opinion	7		0		0		0		0		0		0	10	true	1
+w12	di	di	P		D-Negative	6	Opinion	7		0		0		0		0		0		0	11	true	1
+w13	5	5	G		D-Negative	6	Opinion	7		0		0		0		0		0		0	12	true	1
+w14	anni	anno	N		D-Negative	6	Opinion	7		0		0		0		0		0		0	13	true	1

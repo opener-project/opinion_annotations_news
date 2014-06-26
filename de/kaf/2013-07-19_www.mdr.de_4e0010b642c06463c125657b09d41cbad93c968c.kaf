@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:20:02Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:20:02Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:17:55CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:20:32CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:29CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w75" sent="7" para="5" offset="465" length="8">Konkrete</wf>
+    <wf wid="w76" sent="7" para="5" offset="474" length="12">Erkenntnisse</wf>
+    <wf wid="w77" sent="7" para="5" offset="487" length="2">zu</wf>
+    <wf wid="w78" sent="7" para="5" offset="490" length="3">der</wf>
+    <wf wid="w79" sent="7" para="5" offset="494" length="13">Ausspähaffäre</wf>
+    <wf wid="w80" sent="7" para="5" offset="508" length="6">konnte</wf>
+    <wf wid="w81" sent="7" para="5" offset="515" length="3">die</wf>
+    <wf wid="w82" sent="7" para="5" offset="519" length="9">Kanzlerin</wf>
+    <wf wid="w83" sent="7" para="5" offset="529" length="4">noch</wf>
+    <wf wid="w84" sent="7" para="5" offset="534" length="5">nicht</wf>
+    <wf wid="w85" sent="7" para="5" offset="540" length="12">bekanntgeben</wf>
+    <wf wid="w86" sent="7" para="5" offset="552" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="konkret" morphofeat="ADJA" pos="G" tid="t75" type="open">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <term lemma="Erkenntnis" morphofeat="NN" pos="N" tid="t76" type="open">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPR" pos="P" tid="t77" type="close">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t78" type="close">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <term lemma="Ausspähaffäre" morphofeat="NN unknown_lemma" pos="O" tid="t79" type="open">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <term lemma="können" morphofeat="VMFIN" pos="V" tid="t80" type="open">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t81" type="close">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <term lemma="Kanzlerin" morphofeat="NN" pos="N" tid="t82" type="open">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <term lemma="noch" morphofeat="ADV" pos="A" tid="t83" type="open">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t84" type="open">
+      <span>
+        <target id="w84"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="bekanntgeben" morphofeat="VVINF" pos="V" tid="t85" type="open">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t86" type="open">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+          <target id="t79"/>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

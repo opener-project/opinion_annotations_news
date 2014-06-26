@@ -1,0 +1,17 @@
+w847	Zu	zu	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	846	true	45
+w848	Beginn	Beginn	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	847	true	45
+w849	des	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	848	true	45
+w850	zweiten	zweit	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	849	true	45
+w851	Durchgangs	Durchgang	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	850	true	45
+w852	kam	kommen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	851	true	45
+w853	Mittag	Mittag	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	852	true	45
+w854	ins	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	853	true	45
+w855	Spiel	Spiel	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	854	true	45
+w856	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	855	true	45
+w857	Lena	Lena	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	856	true	45
+w858	Lotzen	Lotzen	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	857	true	45
+w859	blieb	bleiben	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	858	true	45
+w860	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	859	true	45
+w861	der	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	860	true	45
+w862	Kabine	Kabine	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	861	true	45
+w863	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	862	true	45

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:48Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:48Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:29:55" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:27:38CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="10" para="2" offset="1146" length="3" wid="w206">The</wf>
+    <wf sent="10" para="2" offset="1150" length="5" wid="w207">prime</wf>
+    <wf sent="10" para="2" offset="1156" length="8" wid="w208">minister</wf>
+    <wf sent="10" para="2" offset="1165" length="3" wid="w209">has</wf>
+    <wf sent="10" para="2" offset="1169" length="3" wid="w210">not</wf>
+    <wf sent="10" para="2" offset="1173" length="6" wid="w211">spoken</wf>
+    <wf sent="10" para="2" offset="1180" length="2" wid="w212">to</wf>
+    <wf sent="10" para="2" offset="1183" length="6" wid="w213">Merkel</wf>
+    <wf sent="10" para="2" offset="1189" length="1" wid="w214">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t206">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--prime-->
+    <term type="open" lemma="prime" pos="G" morphofeat="JJ" tid="t207">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--minister-->
+    <term type="open" lemma="minister" pos="N" morphofeat="NN" tid="t208">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t209">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t210">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--spoken-->
+    <term type="open" lemma="speak" pos="V" morphofeat="VBN" tid="t211">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t212">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t213">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t214">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

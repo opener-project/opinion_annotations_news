@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:23:01Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:23:01Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:19:32CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:23:33CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w19" sent="3" para="2" offset="121" length="6">Merkel</wf>
+    <wf wid="w20" sent="3" para="2" offset="128" length="4">habe</wf>
+    <wf wid="w21" sent="3" para="2" offset="133" length="2">in</wf>
+    <wf wid="w22" sent="3" para="2" offset="136" length="5">einem</wf>
+    <wf wid="w23" sent="3" para="2" offset="142" length="9">Telefonat</wf>
+    <wf wid="w24" sent="3" para="2" offset="152" length="3">mit</wf>
+    <wf wid="w25" sent="3" para="2" offset="156" length="5">Obama</wf>
+    <wf wid="w26" sent="3" para="2" offset="162" length="12">klargestellt</wf>
+    <wf wid="w27" sent="3" para="2" offset="174" length="1">,</wf>
+    <wf wid="w28" sent="3" para="2" offset="176" length="4">dass</wf>
+    <wf wid="w29" sent="3" para="2" offset="181" length="3">sie</wf>
+    <wf wid="w30" sent="3" para="2" offset="185" length="6">solche</wf>
+    <wf wid="w31" sent="3" para="2" offset="192" length="9">Praktiken</wf>
+    <wf wid="w32" sent="3" para="2" offset="202" length="1">„</wf>
+    <wf wid="w33" sent="3" para="2" offset="203" length="18">unmissverständlich</wf>
+    <wf wid="w34" sent="3" para="2" offset="222" length="11">missbilligt</wf>
+    <wf wid="w35" sent="3" para="2" offset="234" length="3">und</wf>
+    <wf wid="w36" sent="3" para="2" offset="238" length="3">als</wf>
+    <wf wid="w37" sent="3" para="2" offset="242" length="6">völlig</wf>
+    <wf wid="w38" sent="3" para="2" offset="249" length="12">inakzeptabel</wf>
+    <wf wid="w39" sent="3" para="2" offset="262" length="7">ansieht</wf>
+    <wf wid="w40" sent="3" para="2" offset="269" length="1">“</wf>
+    <wf wid="w41" sent="3" para="2" offset="270" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t19" type="open">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t20" type="open">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t21" type="close">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t22" type="close">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="Telefonat" morphofeat="NN" pos="N" tid="t23" type="open">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t24" type="close">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="Obama" morphofeat="NN unknown_lemma" pos="O" tid="t25" type="open">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="klarstellen" morphofeat="VVPP" pos="V" tid="t26" type="open">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t27" type="open">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="dass" morphofeat="KOUS" pos="C" tid="t28" type="close">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="sie" morphofeat="PPER" pos="Q" tid="t29" type="close">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="solche" morphofeat="PIAT" pos="Q" tid="t30" type="close">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="Praktik" morphofeat="NN" pos="N" tid="t31" type="open">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="„" morphofeat="ADJD unknown_lemma" pos="O" tid="t32" type="open">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="unmissverständlich" morphofeat="ADJD" pos="G" tid="t33" type="open">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="missbilligen" morphofeat="VVPP" pos="V" tid="t34" type="open">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t35" type="close">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="als" morphofeat="KOKOM" pos="C" tid="t36" type="close">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="völlig" morphofeat="ADJD" pos="G" tid="t37" type="open">
+      <span>
+        <target id="w37"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="inakzeptabel" morphofeat="ADJD" pos="G" tid="t38" type="open">
+      <span>
+        <target id="w38"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="ansehen" morphofeat="VVFIN" pos="V" tid="t39" type="open">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="“" morphofeat="ADJD unknown_lemma" pos="O" tid="t40" type="open">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t41" type="open">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--sie-->
+        <span>
+          <target id="t29"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--solche Praktiken-->
+        <span>
+          <target id="t30"/>
+          <target id="t31"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--unmissverständlich missbilligt-->
+        <span>
+          <target id="t33"/>
+          <target id="t34"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--sie-->
+        <span>
+          <target id="t29"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--solche Praktiken-->
+        <span>
+          <target id="t30"/>
+          <target id="t31"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--ansieht-->
+        <span>
+          <target id="t39"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--sie-->
+        <span>
+          <target id="t29"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--solche Praktiken-->
+        <span>
+          <target id="t30"/>
+          <target id="t31"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--völlig inakzeptabel-->
+        <span>
+          <target id="t37"/>
+          <target id="t38"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

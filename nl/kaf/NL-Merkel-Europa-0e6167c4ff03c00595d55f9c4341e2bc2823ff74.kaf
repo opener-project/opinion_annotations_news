@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:40:47CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w106" sent="7" para="2" offset="626" length="6">Merkel</wf>
+    <wf wid="w107" sent="7" para="2" offset="633" length="12">telefoneerde</wf>
+    <wf wid="w108" sent="7" para="2" offset="646" length="7">vandaag</wf>
+    <wf wid="w109" sent="7" para="2" offset="654" length="3">met</wf>
+    <wf wid="w110" sent="7" para="2" offset="658" length="2">de</wf>
+    <wf wid="w111" sent="7" para="2" offset="661" length="6">Franse</wf>
+    <wf wid="w112" sent="7" para="2" offset="668" length="9">president</wf>
+    <wf wid="w113" sent="7" para="2" offset="678" length="8">François</wf>
+    <wf wid="w114" sent="7" para="2" offset="687" length="8">Hollande</wf>
+    <wf wid="w115" sent="7" para="2" offset="695" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t106" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--telefoneerde-->
+    <term tid="t107" type="open" lemma="telefoneren" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--vandaag-->
+    <term tid="t108" type="open" lemma="vandaag" pos="A" morphofeat="adv">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t109" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t110" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--Franse-->
+    <term tid="t111" type="open" lemma="Frans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--president-->
+    <term tid="t112" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--François-->
+    <term tid="t113" type="open" lemma="François" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t114" type="open" lemma="Hollande" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t115" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:54:33Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:54:33Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:54:34Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:22:35CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w100" sent="5" para="5" offset="513" length="3">Les</wf>
+    <wf wid="w101" sent="5" para="5" offset="517" length="8">opinions</wf>
+    <wf wid="w102" sent="5" para="5" offset="526" length="12">occidentales</wf>
+    <wf wid="w103" sent="5" para="5" offset="540" length="10">désavouent</wf>
+    <wf wid="w104" sent="5" para="5" offset="551" length="5">leurs</wf>
+    <wf wid="w105" sent="5" para="5" offset="557" length="13">gouvernements</wf>
+    <wf wid="w223" sent="11" para="9" offset="1136" length="5">Damas</wf>
+    <wf wid="w224" sent="11" para="9" offset="1142" length="1">a</wf>
+    <wf wid="w225" sent="11" para="9" offset="1144" length="6">promis</wf>
+    <wf wid="w226" sent="11" para="9" offset="1151" length="2">de</wf>
+    <wf wid="w227" sent="11" para="9" offset="1154" length="2">se</wf>
+    <wf wid="w228" sent="11" para="9" offset="1157" length="8">défendre</wf>
+    <wf wid="w229" sent="11" para="9" offset="1166" length="6">contre</wf>
+    <wf wid="w230" sent="11" para="9" offset="1173" length="5">toute</wf>
+    <wf wid="w231" sent="11" para="9" offset="1179" length="9">agression</wf>
+    <wf wid="w232" sent="11" para="9" offset="1188" length="1">.</wf>
+    <wf wid="w233" sent="12" para="9" offset="1190" length="2">Le</wf>
+    <wf wid="w234" sent="12" para="9" offset="1193" length="7">Conseil</wf>
+    <wf wid="w235" sent="12" para="9" offset="1201" length="2">de</wf>
+    <wf wid="w236" sent="12" para="9" offset="1204" length="8">sécurité</wf>
+    <wf wid="w237" sent="12" para="9" offset="1213" length="6">bloque</wf>
+    <wf wid="w238" sent="12" para="9" offset="1220" length="2">le</wf>
+    <wf wid="w239" sent="12" para="9" offset="1223" length="6">projet</wf>
+    <wf wid="w240" sent="12" para="9" offset="1230" length="2">d’</wf>
+    <wf wid="w241" sent="12" para="9" offset="1232" length="8">invasion</wf>
+    <wf wid="w242" sent="12" para="9" offset="1241" length="9">militaire</wf>
+    <wf wid="w243" sent="12" para="9" offset="1250" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Les-->
+    <term tid="t100" type="close" lemma="le" pos="D" morphofeat="Dfp">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--opinions-->
+    <term tid="t101" type="open" lemma="opinion" pos="N" morphofeat="NCfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--occidentales-->
+    <term tid="t102" type="open" lemma="occidental" pos="G" morphofeat="Afp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--désavouent-->
+    <term tid="t103" type="open" lemma="désavouer" pos="V" morphofeat="VP3p">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--leurs-->
+    <term tid="t104" type="close" lemma="son" pos="D" morphofeat="Dmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--gouvernements-->
+    <term tid="t105" type="open" lemma="gouvernement" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--Damas-->
+    <term tid="t223" type="open" lemma="damas" pos="N" morphofeat="NPms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t224" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--promis-->
+    <term tid="t225" type="open" lemma="promettre" pos="V" morphofeat="VKms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t226" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--se-->
+    <term tid="t227" type="close" lemma="se" pos="Q" morphofeat="CL3mp">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--défendre-->
+    <term tid="t228" type="open" lemma="défendre" pos="V" morphofeat="VW">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--contre-->
+    <term tid="t229" type="close" lemma="contre" pos="P" morphofeat="P">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--toute-->
+    <term tid="t230" type="close" lemma="tout" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral" sentiment_modifier="intensifier"/>
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--agression-->
+    <term tid="t231" type="open" lemma="agression" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t232" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--Le-->
+    <term tid="t233" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--Conseil-->
+    <term tid="t234" type="open" lemma="conseil" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t235" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--sécurité-->
+    <term tid="t236" type="open" lemma="sécurité" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--bloque-->
+    <term tid="t237" type="open" lemma="bloquer" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t238" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--projet-->
+    <term tid="t239" type="open" lemma="projet" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--d’-->
+    <term tid="t240" type="open" lemma="d’" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--invasion-->
+    <term tid="t241" type="open" lemma="invasion" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--militaire-->
+    <term tid="t242" type="open" lemma="militaire" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t243" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Damas-->
+        <span>
+          <target id="t223"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--toute agression-->
+        <span>
+          <target id="t230"/>
+          <target id="t231"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--promis de se défendre-->
+        <span>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Les opinions occidentales-->
+        <span>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--leurs gouvernements-->
+        <span>
+          <target id="t104"/>
+          <target id="t105"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--désavouent-->
+        <span>
+          <target id="t103"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t233"/>
+          <target id="t234"/>
+          <target id="t235"/>
+          <target id="t236"/>
+          <target id="t237"/>
+          <target id="t238"/>
+          <target id="t239"/>
+          <target id="t240"/>
+          <target id="t241"/>
+          <target id="t242"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

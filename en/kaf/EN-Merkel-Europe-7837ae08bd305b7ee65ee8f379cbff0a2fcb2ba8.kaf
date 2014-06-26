@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:13:46" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:48:30CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="19" para="2" offset="3007" length="4" wid="w546">Some</wf>
+    <wf sent="19" para="2" offset="3012" length="8" wid="w547">counties</wf>
+    <wf sent="19" para="2" offset="3021" length="3" wid="w548">don</wf>
+    <wf sent="19" para="2" offset="3024" length="2" wid="w549">'t</wf>
+    <wf sent="19" para="2" offset="3027" length="4" wid="w550">want</wf>
+    <wf sent="19" para="2" offset="3032" length="4" wid="w551">that</wf>
+    <wf sent="19" para="2" offset="3036" length="1" wid="w552">.</wf>
+  </text>
+  <terms>
+    <!--Some-->
+    <term type="close" lemma="some" pos="D" morphofeat="DT" tid="t546">
+      <span>
+        <target id="w546"/>
+      </span>
+    </term>
+    <!--counties-->
+    <term type="open" lemma="county" pos="N" morphofeat="NNS" tid="t547">
+      <span>
+        <target id="w547"/>
+      </span>
+    </term>
+    <!--don-->
+    <term type="open" lemma="don" pos="V" morphofeat="VBP" tid="t548">
+      <span>
+        <target id="w548"/>
+      </span>
+    </term>
+    <!--'t-->
+    <term type="open" lemma="'t" pos="A" morphofeat="RB" tid="t549">
+      <span>
+        <target id="w549"/>
+      </span>
+    </term>
+    <!--want-->
+    <term type="open" lemma="want" pos="V" morphofeat="VBP" tid="t550">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w550"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="D" morphofeat="DT" tid="t551">
+      <span>
+        <target id="w551"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t552">
+      <span>
+        <target id="w552"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Some counties-->
+        <span>
+          <target id="t546"/>
+          <target id="t547"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--that-->
+        <span>
+          <target id="t551"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--don 't want-->
+        <span>
+          <target id="t548"/>
+          <target id="t549"/>
+          <target id="t550"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

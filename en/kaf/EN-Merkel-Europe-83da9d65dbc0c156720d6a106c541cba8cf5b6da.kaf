@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:00:23" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:03:08CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="1252" length="1" wid="w210">"</wf>
+    <wf sent="9" para="2" offset="1253" length="1" wid="w211">"</wf>
+    <wf sent="9" para="2" offset="1254" length="2" wid="w212">We</wf>
+    <wf sent="9" para="2" offset="1257" length="6" wid="w213">cannot</wf>
+    <wf sent="9" para="2" offset="1264" length="6" wid="w214">merely</wf>
+    <wf sent="9" para="2" offset="1271" length="4" wid="w215">make</wf>
+    <wf sent="9" para="2" offset="1276" length="4" wid="w216">nice</wf>
+    <wf sent="9" para="2" offset="1281" length="8" wid="w217">speeches</wf>
+    <wf sent="9" para="2" offset="1290" length="2" wid="w218">if</wf>
+    <wf sent="9" para="2" offset="1293" length="2" wid="w219">we</wf>
+    <wf sent="9" para="2" offset="1296" length="2" wid="w220">do</wf>
+    <wf sent="9" para="2" offset="1299" length="3" wid="w221">not</wf>
+    <wf sent="9" para="2" offset="1303" length="9" wid="w222">cooperate</wf>
+    <wf sent="9" para="2" offset="1313" length="4" wid="w223">with</wf>
+    <wf sent="9" para="2" offset="1318" length="6" wid="w224">Israel</wf>
+    <wf sent="9" para="2" offset="1325" length="10" wid="w225">militarily</wf>
+    <wf sent="9" para="2" offset="1335" length="1" wid="w226">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t210">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t211">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--We-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t212">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--cannot-->
+    <term type="open" lemma="cannot" pos="V" morphofeat="VBP" tid="t213">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--merely-->
+    <term type="open" lemma="merely" pos="A" morphofeat="RB" tid="t214">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--make-->
+    <term type="open" lemma="make" pos="V" morphofeat="VBP" tid="t215">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--nice-->
+    <term type="open" lemma="nice" pos="G" morphofeat="JJ" tid="t216">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--speeches-->
+    <term type="open" lemma="speech" pos="N" morphofeat="NNS" tid="t217">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--if-->
+    <term type="close" lemma="if" pos="P" morphofeat="IN" tid="t218">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--we-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t219">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--do-->
+    <term type="open" lemma="do" pos="V" morphofeat="VBP" tid="t220">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t221">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--cooperate-->
+    <term type="open" lemma="cooperate" pos="V" morphofeat="VB" tid="t222">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t223">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--Israel-->
+    <term type="close" lemma="Israel" pos="R" morphofeat="NNP" tid="t224">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--militarily-->
+    <term type="open" lemma="militarily" pos="A" morphofeat="RB" tid="t225">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t226">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t212"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--make nice speeches-->
+        <span>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--cannot-->
+        <span>
+          <target id="t213"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

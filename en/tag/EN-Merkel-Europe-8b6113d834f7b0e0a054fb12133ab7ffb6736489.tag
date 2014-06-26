@@ -1,0 +1,16 @@
+w518	The	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	517	true	23
+w519	exit	exit	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	518	true	23
+w520	of	of	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	519	true	23
+w521	Greece	Greece	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	520	true	23
+w522	out	out	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	521	true	23
+w523	of	of	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	522	true	23
+w524	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	523	true	23
+w525	euro	euro	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	524	true	23
+w526	was	be	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	525	true	23
+w527	not	not	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	526	true	23
+w528	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	527	true	23
+w529	subject	subject	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	528	true	23
+w530	of	of	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	529	true	23
+w531	our	our	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	530	true	23
+w532	debate	debate	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	531	true	23
+w533	today	today	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	532	true	23

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:43:56Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:43:56Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:13:27CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:44:21CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w600" sent="29" para="2" offset="3719" length="3">Der</wf>
+    <wf wid="w601" sent="29" para="2" offset="3723" length="9">deutschen</wf>
+    <wf wid="w602" sent="29" para="2" offset="3733" length="17">Wiedervereinigung</wf>
+    <wf wid="w603" sent="29" para="2" offset="3751" length="5">hatte</wf>
+    <wf wid="w604" sent="29" para="2" offset="3757" length="8">Thatcher</wf>
+    <wf wid="w605" sent="29" para="2" offset="3766" length="4">nach</wf>
+    <wf wid="w606" sent="29" para="2" offset="3771" length="3">dem</wf>
+    <wf wid="w607" sent="29" para="2" offset="3775" length="4">Ende</wf>
+    <wf wid="w608" sent="29" para="2" offset="3780" length="3">der</wf>
+    <wf wid="w609" sent="29" para="2" offset="3784" length="3">DDR</wf>
+    <wf wid="w610" sent="29" para="2" offset="3788" length="8">zunächst</wf>
+    <wf wid="w611" sent="29" para="2" offset="3797" length="9">ablehnend</wf>
+    <wf wid="w612" sent="29" para="2" offset="3807" length="9">gegenüber</wf>
+    <wf wid="w613" sent="29" para="2" offset="3817" length="9">gestanden</wf>
+    <wf wid="w614" sent="29" para="2" offset="3826" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t600" type="close">
+      <span>
+        <target id="w600"/>
+      </span>
+    </term>
+    <term lemma="deutsch" morphofeat="ADJA" pos="G" tid="t601" type="open">
+      <span>
+        <target id="w601"/>
+      </span>
+    </term>
+    <term lemma="Wiedervereinigung" morphofeat="NN" pos="N" tid="t602" type="open">
+      <span>
+        <target id="w602"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t603" type="open">
+      <span>
+        <target id="w603"/>
+      </span>
+    </term>
+    <term lemma="Thatcher" morphofeat="NE" pos="R" tid="t604" type="open">
+      <span>
+        <target id="w604"/>
+      </span>
+    </term>
+    <term lemma="nach" morphofeat="APPR" pos="P" tid="t605" type="close">
+      <span>
+        <target id="w605"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t606" type="close">
+      <span>
+        <target id="w606"/>
+      </span>
+    </term>
+    <term lemma="Ende" morphofeat="NN" pos="N" tid="t607" type="open">
+      <span>
+        <target id="w607"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t608" type="close">
+      <span>
+        <target id="w608"/>
+      </span>
+    </term>
+    <term lemma="DDR" morphofeat="NE" pos="R" tid="t609" type="open">
+      <span>
+        <target id="w609"/>
+      </span>
+    </term>
+    <term lemma="zunächst" morphofeat="ADV" pos="A" tid="t610" type="open">
+      <span>
+        <target id="w610"/>
+      </span>
+    </term>
+    <term lemma="ablehnend" morphofeat="ADJD" pos="G" tid="t611" type="open">
+      <span>
+        <target id="w611"/>
+      </span>
+    </term>
+    <term lemma="gegenüber" morphofeat="PTKVZ" pos="V" tid="t612" type="open">
+      <span>
+        <target id="w612"/>
+      </span>
+    </term>
+    <term lemma="gestehen|stehen" morphofeat="VVPP" pos="V" tid="t613" type="open">
+      <span>
+        <target id="w613"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t614" type="open">
+      <span>
+        <target id="w614"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Der deutschen Wiedervereinigung-->
+        <span>
+          <target id="t600"/>
+          <target id="t601"/>
+          <target id="t602"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Thatcher-->
+        <span>
+          <target id="t604"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--ablehnend gegenüber gestanden-->
+        <span>
+          <target id="t611"/>
+          <target id="t612"/>
+          <target id="t613"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

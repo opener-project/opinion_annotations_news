@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:17Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:17Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:37:30CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:26CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w159" sent="10" para="2" offset="901" length="6">Merkel</wf>
+    <wf wid="w160" sent="10" para="2" offset="908" length="5">maakt</wf>
+    <wf wid="w161" sent="10" para="2" offset="914" length="4">zich</wf>
+    <wf wid="w162" sent="10" para="2" offset="919" length="9">bovendien</wf>
+    <wf wid="w163" sent="10" para="2" offset="929" length="5">sterk</wf>
+    <wf wid="w164" sent="10" para="2" offset="935" length="4">voor</wf>
+    <wf wid="w165" sent="10" para="2" offset="940" length="3">een</wf>
+    <wf wid="w166" sent="10" para="2" offset="944" length="18">vrijhandelsverdrag</wf>
+    <wf wid="w167" sent="10" para="2" offset="963" length="6">tussen</wf>
+    <wf wid="w168" sent="10" para="2" offset="970" length="2">de</wf>
+    <wf wid="w169" sent="10" para="2" offset="973" length="2">VS</wf>
+    <wf wid="w170" sent="10" para="2" offset="976" length="2">en</wf>
+    <wf wid="w171" sent="10" para="2" offset="979" length="6">Europa</wf>
+    <wf wid="w172" sent="10" para="2" offset="985" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t159" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--maakt-->
+    <term tid="t160" type="open" lemma="maken" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--zich-->
+    <term tid="t161" type="close" lemma="zich" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--bovendien-->
+    <term tid="t162" type="open" lemma="bovendien" pos="A" morphofeat="adv">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--sterk-->
+    <term tid="t163" type="open" lemma="sterk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w163"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--voor-->
+    <term tid="t164" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t165" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--vrijhandelsverdrag-->
+    <term tid="t166" type="open" lemma="vrijhandelsverdrag" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--tussen-->
+    <term tid="t167" type="close" lemma="tussen" pos="P" morphofeat="prep">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t168" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--VS-->
+    <term tid="t169" type="open" lemma="VS" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t170" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t171" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t172" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t159"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--een vrijhandelsverdrag tussen de VS en Europa-->
+        <span>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--maakt zich sterk voor-->
+        <span>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t163"/>
+          <target id="t164"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

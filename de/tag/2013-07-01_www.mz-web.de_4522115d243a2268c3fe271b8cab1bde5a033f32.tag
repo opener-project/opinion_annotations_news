@@ -1,0 +1,10 @@
+w220	Die	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	219	true	19
+w221	Bundesregierung	Bundesregierung	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	220	true	19
+w222	spreche	sprechen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	221	true	19
+w223	über	über	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	222	true	19
+w224	das	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	223	true	19
+w225	Thema	Thema	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	224	true	19
+w226	mit	mit	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	225	true	19
+w227	der	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	226	true	19
+w228	französischen	französisch	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	227	true	19
+w229	Regierung	Regierung	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	228	true	19

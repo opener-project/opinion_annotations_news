@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:00:03" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:41:31CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:52CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="29" para="2" offset="4113" length="3" wid="w722">His</wf>
+    <wf sent="29" para="2" offset="4117" length="5" wid="w723">exact</wf>
+    <wf sent="29" para="2" offset="4123" length="11" wid="w724">whereabouts</wf>
+    <wf sent="29" para="2" offset="4135" length="4" wid="w725">were</wf>
+    <wf sent="29" para="2" offset="4140" length="7" wid="w726">unknown</wf>
+    <wf sent="29" para="2" offset="4148" length="6" wid="w727">Monday</wf>
+    <wf sent="29" para="2" offset="4154" length="1" wid="w728">.</wf>
+    <wf sent="47" para="2" offset="6521" length="7" wid="w1154">Clapper</wf>
+    <wf sent="47" para="2" offset="6529" length="3" wid="w1155">has</wf>
+    <wf sent="47" para="2" offset="6533" length="7" wid="w1156">ordered</wf>
+    <wf sent="47" para="2" offset="6541" length="2" wid="w1157">an</wf>
+    <wf sent="47" para="2" offset="6544" length="8" wid="w1158">internal</wf>
+    <wf sent="47" para="2" offset="6553" length="6" wid="w1159">review</wf>
+    <wf sent="47" para="2" offset="6560" length="2" wid="w1160">to</wf>
+    <wf sent="47" para="2" offset="6563" length="6" wid="w1161">assess</wf>
+    <wf sent="47" para="2" offset="6570" length="3" wid="w1162">how</wf>
+    <wf sent="47" para="2" offset="6574" length="4" wid="w1163">much</wf>
+    <wf sent="47" para="2" offset="6579" length="6" wid="w1164">damage</wf>
+    <wf sent="47" para="2" offset="6586" length="3" wid="w1165">the</wf>
+    <wf sent="47" para="2" offset="6590" length="11" wid="w1166">disclosures</wf>
+    <wf sent="47" para="2" offset="6602" length="7" wid="w1167">created</wf>
+    <wf sent="47" para="2" offset="6609" length="1" wid="w1168">.</wf>
+  </text>
+  <terms>
+    <!--His-->
+    <term type="close" lemma="his" pos="Q" morphofeat="PRP$" tid="t722">
+      <span>
+        <target id="w722"/>
+      </span>
+    </term>
+    <!--exact-->
+    <term type="open" lemma="exact" pos="G" morphofeat="JJ" tid="t723">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w723"/>
+      </span>
+    </term>
+    <!--whereabouts-->
+    <term type="open" lemma="whereabouts" pos="N" morphofeat="NNS" tid="t724">
+      <span>
+        <target id="w724"/>
+      </span>
+    </term>
+    <!--were-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t725">
+      <span>
+        <target id="w725"/>
+      </span>
+    </term>
+    <!--unknown-->
+    <term type="open" lemma="unknown" pos="G" morphofeat="JJ" tid="t726">
+      <span>
+        <target id="w726"/>
+      </span>
+    </term>
+    <!--Monday-->
+    <term type="close" lemma="Monday" pos="R" morphofeat="NNP" tid="t727">
+      <span>
+        <target id="w727"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t728">
+      <span>
+        <target id="w728"/>
+      </span>
+    </term>
+    <!--Clapper-->
+    <term type="open" lemma="clapper" pos="N" morphofeat="NN" tid="t1154">
+      <span>
+        <target id="w1154"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t1155">
+      <span>
+        <target id="w1155"/>
+      </span>
+    </term>
+    <!--ordered-->
+    <term type="open" lemma="order" pos="V" morphofeat="VBN" tid="t1156">
+      <span>
+        <target id="w1156"/>
+      </span>
+    </term>
+    <!--an-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t1157">
+      <span>
+        <target id="w1157"/>
+      </span>
+    </term>
+    <!--internal-->
+    <term type="open" lemma="internal" pos="G" morphofeat="JJ" tid="t1158">
+      <span>
+        <target id="w1158"/>
+      </span>
+    </term>
+    <!--review-->
+    <term type="open" lemma="review" pos="N" morphofeat="NN" tid="t1159">
+      <span>
+        <target id="w1159"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t1160">
+      <span>
+        <target id="w1160"/>
+      </span>
+    </term>
+    <!--assess-->
+    <term type="open" lemma="assess" pos="V" morphofeat="VB" tid="t1161">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w1161"/>
+      </span>
+    </term>
+    <!--how-->
+    <term type="close" lemma="how" pos="O" morphofeat="WRB" tid="t1162">
+      <span>
+        <target id="w1162"/>
+      </span>
+    </term>
+    <!--much-->
+    <term type="open" lemma="much" pos="G" morphofeat="JJ" tid="t1163">
+      <span>
+        <target id="w1163"/>
+      </span>
+    </term>
+    <!--damage-->
+    <term type="open" lemma="damage" pos="N" morphofeat="NN" tid="t1164">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w1164"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t1165">
+      <span>
+        <target id="w1165"/>
+      </span>
+    </term>
+    <!--disclosures-->
+    <term type="open" lemma="disclosure" pos="N" morphofeat="NNS" tid="t1166">
+      <span>
+        <target id="w1166"/>
+      </span>
+    </term>
+    <!--created-->
+    <term type="open" lemma="create" pos="V" morphofeat="VBN" tid="t1167">
+      <span>
+        <target id="w1167"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t1168">
+      <span>
+        <target id="w1168"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Clapper-->
+        <span>
+          <target id="t1154"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--an internal review-->
+        <span>
+          <target id="t1157"/>
+          <target id="t1158"/>
+          <target id="t1159"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ordered-->
+        <span>
+          <target id="t1156"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t722"/>
+          <target id="t723"/>
+          <target id="t724"/>
+          <target id="t725"/>
+          <target id="t726"/>
+          <target id="t727"/>
+          <target id="t728"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

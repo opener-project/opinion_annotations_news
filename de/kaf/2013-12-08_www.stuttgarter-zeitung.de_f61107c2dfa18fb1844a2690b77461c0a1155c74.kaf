@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T12:35:37Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T12:35:37Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:06:14CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T13:36:01CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w178" sent="14" para="5" offset="1002" length="3">Die</wf>
+    <wf wid="w179" sent="14" para="5" offset="1006" length="19">Leihstimmenkampagne</wf>
+    <wf wid="w180" sent="14" para="5" offset="1026" length="3">sei</wf>
+    <wf wid="w181" sent="14" para="5" offset="1030" length="3">ein</wf>
+    <wf wid="w182" sent="14" para="5" offset="1034" length="6">großer</wf>
+    <wf wid="w183" sent="14" para="5" offset="1041" length="6">Fehler</wf>
+    <wf wid="w184" sent="14" para="5" offset="1048" length="7">gewesen</wf>
+    <wf wid="w185" sent="14" para="5" offset="1055" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t178" type="close">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <term lemma="Leihstimmenkampagne" morphofeat="NN unknown_lemma" pos="O" tid="t179" type="open">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t180" type="open">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t181" type="close">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <term lemma="groß" morphofeat="ADJA" pos="G" tid="t182" type="open">
+      <span>
+        <target id="w182"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Fehler" morphofeat="NN" pos="N" tid="t183" type="open">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAPP" pos="V" tid="t184" type="open">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t185" type="open">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Die Leihstimmenkampagne-->
+        <span>
+          <target id="t178"/>
+          <target id="t179"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--ein großer Fehler-->
+        <span>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

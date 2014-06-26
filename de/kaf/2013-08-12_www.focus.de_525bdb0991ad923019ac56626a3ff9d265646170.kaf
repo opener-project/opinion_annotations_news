@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:52:39Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:52:39Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:01:57CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:53:00CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w233" sent="27" para="8" offset="1319" length="2">Es</wf>
+    <wf wid="w234" sent="27" para="8" offset="1322" length="3">ist</wf>
+    <wf wid="w235" sent="27" para="8" offset="1326" length="4">ganz</wf>
+    <wf wid="w236" sent="27" para="8" offset="1331" length="7">einfach</wf>
+    <wf wid="w237" sent="27" para="8" offset="1338" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t233" type="close">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t234" type="open">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <term lemma="ganz" morphofeat="ADV" pos="A" tid="t235" type="open">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <term lemma="einfach" morphofeat="ADJD" pos="G" tid="t236" type="open">
+      <span>
+        <target id="w236"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t237" type="open">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Es-->
+        <span>
+          <target id="t233"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--ganz einfach-->
+        <span>
+          <target id="t235"/>
+          <target id="t236"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

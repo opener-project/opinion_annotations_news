@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:54Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:54Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:04:48CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w91" sent="5" para="2" offset="506" length="2">De</wf>
+    <wf wid="w92" sent="5" para="2" offset="509" length="3">SPD</wf>
+    <wf wid="w93" sent="5" para="2" offset="513" length="7">behaalt</wf>
+    <wf wid="w94" sent="5" para="2" offset="521" length="4">25,8</wf>
+    <wf wid="w95" sent="5" para="2" offset="526" length="7">procent</wf>
+    <wf wid="w96" sent="5" para="2" offset="533" length="1">.</wf>
+    <wf wid="w994" sent="45" para="2" offset="4571" length="6">Somber</wf>
+    <wf wid="w995" sent="45" para="2" offset="4577" length="2">en</wf>
+    <wf wid="w996" sent="45" para="2" offset="4579" length="10">verdrietig</wf>
+    <wf wid="w997" sent="45" para="2" offset="4589" length="1">,</wf>
+    <wf wid="w998" sent="45" para="2" offset="4590" length="4">vond</wf>
+    <wf wid="w999" sent="45" para="2" offset="4594" length="3">hij</wf>
+    <wf wid="w1000" sent="45" para="2" offset="4597" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t91" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--SPD-->
+    <term tid="t92" type="open" lemma="SPD" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--behaalt-->
+    <term tid="t93" type="open" lemma="behalen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--25,8-->
+    <term tid="t94" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--procent-->
+    <term tid="t95" type="open" lemma="procent" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t96" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--Somber-->
+    <term tid="t994" type="open" lemma="somber" pos="G" morphofeat="adj">
+      <span>
+        <target id="w994"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--en-->
+    <term tid="t995" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w995"/>
+      </span>
+    </term>
+    <!--verdrietig-->
+    <term tid="t996" type="open" lemma="verdrietig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w996"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t997" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w997"/>
+      </span>
+    </term>
+    <!--vond-->
+    <term tid="t998" type="open" lemma="vinden" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w998"/>
+      </span>
+    </term>
+    <!--hij-->
+    <term tid="t999" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w999"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t1000" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w1000"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--hij-->
+        <span>
+          <target id="t999"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--verdrietig-->
+        <span>
+          <target id="t996"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--hij-->
+        <span>
+          <target id="t999"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--Somber-->
+        <span>
+          <target id="t994"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--hij-->
+        <span>
+          <target id="t999"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-neutral">
+        <!--vond-->
+        <span>
+          <target id="t998"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

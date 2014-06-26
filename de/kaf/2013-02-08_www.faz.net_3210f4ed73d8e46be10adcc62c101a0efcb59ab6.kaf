@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:24:20Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:24:20Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:03:01CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:24:35CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:45CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w171" sent="14" para="9" offset="1091" length="3">Die</wf>
+    <wf wid="w172" sent="14" para="9" offset="1095" length="10">Obergrenze</wf>
+    <wf wid="w173" sent="14" para="9" offset="1106" length="3">für</wf>
+    <wf wid="w174" sent="14" para="9" offset="1110" length="3">die</wf>
+    <wf wid="w175" sent="14" para="9" offset="1114" length="6">sieben</wf>
+    <wf wid="w176" sent="14" para="9" offset="1121" length="5">Jahre</wf>
+    <wf wid="w177" sent="14" para="9" offset="1127" length="3">bis</wf>
+    <wf wid="w178" sent="14" para="9" offset="1131" length="4">2020</wf>
+    <wf wid="w179" sent="14" para="9" offset="1136" length="4">soll</wf>
+    <wf wid="w180" sent="14" para="9" offset="1141" length="3">960</wf>
+    <wf wid="w181" sent="14" para="9" offset="1145" length="10">Milliarden</wf>
+    <wf wid="w182" sent="14" para="9" offset="1156" length="4">Euro</wf>
+    <wf wid="w183" sent="14" para="9" offset="1161" length="8">betragen</wf>
+    <wf wid="w184" sent="14" para="9" offset="1169" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t171" type="close">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <term lemma="Obergrenze" morphofeat="NN" pos="N" tid="t172" type="open">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t173" type="close">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t174" type="close">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <term lemma="sieben" morphofeat="CARD" pos="O" tid="t175" type="open">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <term lemma="Jahr" morphofeat="NN" pos="N" tid="t176" type="open">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <term lemma="bis" morphofeat="APPR" pos="P" tid="t177" type="close">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <term lemma="2020" morphofeat="CARD" pos="O" tid="t178" type="open">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <term lemma="sollen" morphofeat="VMFIN" pos="V" tid="t179" type="open">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t180" type="open">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <term lemma="Milliarde" morphofeat="NN" pos="N" tid="t181" type="open">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <term lemma="Euro" morphofeat="NN" pos="N" tid="t182" type="open">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <term lemma="betragen" morphofeat="VVPP" pos="V" tid="t183" type="open">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t184" type="open">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

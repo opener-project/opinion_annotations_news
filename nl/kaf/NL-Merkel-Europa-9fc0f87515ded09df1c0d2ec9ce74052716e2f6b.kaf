@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:57Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:57Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:17:22CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w56" sent="3" para="2" offset="346" length="11">Westerwelle</wf>
+    <wf wid="w57" sent="3" para="2" offset="358" length="6">bracht</wf>
+    <wf wid="w58" sent="3" para="2" offset="365" length="3">een</wf>
+    <wf wid="w59" sent="3" para="2" offset="369" length="4">kort</wf>
+    <wf wid="w60" sent="3" para="2" offset="374" length="6">bezoek</wf>
+    <wf wid="w61" sent="3" para="2" offset="381" length="3">aan</wf>
+    <wf wid="w62" sent="3" para="2" offset="385" length="2">de</wf>
+    <wf wid="w63" sent="3" para="2" offset="388" length="6">Franse</wf>
+    <wf wid="w64" sent="3" para="2" offset="395" length="9">ambassade</wf>
+    <wf wid="w65" sent="3" para="2" offset="405" length="2">in</wf>
+    <wf wid="w66" sent="3" para="2" offset="408" length="7">Berlijn</wf>
+    <wf wid="w67" sent="3" para="2" offset="415" length="1">.</wf>
+    <wf wid="w68" sent="4" para="2" offset="416" length="1">"</wf>
+    <wf wid="w69" sent="4" para="2" offset="417" length="2">We</wf>
+    <wf wid="w70" sent="4" para="2" offset="420" length="6">willen</wf>
+    <wf wid="w71" sent="4" para="2" offset="427" length="3">met</wf>
+    <wf wid="w72" sent="4" para="2" offset="431" length="2">de</wf>
+    <wf wid="w73" sent="4" para="2" offset="434" length="6">nieuwe</wf>
+    <wf wid="w74" sent="4" para="2" offset="441" length="9">president</wf>
+    <wf wid="w75" sent="4" para="2" offset="451" length="4">zeer</wf>
+    <wf wid="w76" sent="4" para="2" offset="456" length="4">nauw</wf>
+    <wf wid="w77" sent="4" para="2" offset="461" length="11">samenwerken</wf>
+    <wf wid="w78" sent="4" para="2" offset="472" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Westerwelle-->
+    <term tid="t56" type="open" lemma="Westerwelle" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--bracht-->
+    <term tid="t57" type="open" lemma="brengen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t58" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--kort-->
+    <term tid="t59" type="open" lemma="kort" pos="G" morphofeat="adj">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--bezoek-->
+    <term tid="t60" type="open" lemma="bezoek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t61" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t62" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--Franse-->
+    <term tid="t63" type="open" lemma="Frans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--ambassade-->
+    <term tid="t64" type="open" lemma="ambassade" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t65" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--Berlijn-->
+    <term tid="t66" type="open" lemma="Berlijn" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t67" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t68" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--We-->
+    <term tid="t69" type="close" lemma="we" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--willen-->
+    <term tid="t70" type="open" lemma="willen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t71" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t72" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--nieuwe-->
+    <term tid="t73" type="open" lemma="nieuw" pos="G" morphofeat="adj">
+      <span>
+        <target id="w73"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--president-->
+    <term tid="t74" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--zeer-->
+    <term tid="t75" type="open" lemma="zeer" pos="G" morphofeat="adj">
+      <span>
+        <target id="w75"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--nauw-->
+    <term tid="t76" type="open" lemma="nauw" pos="G" morphofeat="adj">
+      <span>
+        <target id="w76"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--samenwerken-->
+    <term tid="t77" type="open" lemma="samenwerken" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w77"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t78" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--samenwerken-->
+        <span>
+          <target id="t77"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--zeer nauw-->
+        <span>
+          <target id="t75"/>
+          <target id="t76"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

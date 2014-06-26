@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:27:37Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:27:37Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:59:20CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:27:51CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w345" sent="21" para="13" offset="2119" length="3">Und</wf>
+    <wf wid="w346" sent="21" para="13" offset="2123" length="3">sie</wf>
+    <wf wid="w347" sent="21" para="13" offset="2127" length="6">möchte</wf>
+    <wf wid="w348" sent="21" para="13" offset="2134" length="9">möglichst</wf>
+    <wf wid="w349" sent="21" para="13" offset="2144" length="8">schwache</wf>
+    <wf wid="w350" sent="21" para="13" offset="2153" length="11">europäische</wf>
+    <wf wid="w351" sent="21" para="13" offset="2165" length="13">Institutionen</wf>
+    <wf wid="w352" sent="21" para="13" offset="2178" length="1">“</wf>
+    <wf wid="w353" sent="21" para="13" offset="2179" length="1">,</wf>
+    <wf wid="w354" sent="21" para="13" offset="2181" length="8">erklärte</wf>
+    <wf wid="w355" sent="21" para="13" offset="2190" length="7">Trittin</wf>
+    <wf wid="w356" sent="21" para="13" offset="2197" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t345" type="close">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <term lemma="sie" morphofeat="PPER" pos="Q" tid="t346" type="close">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <term lemma="mögen" morphofeat="VMFIN" pos="V" tid="t347" type="open">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <term lemma="möglichst" morphofeat="ADV" pos="A" tid="t348" type="open">
+      <span>
+        <target id="w348"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="schwach" morphofeat="ADJA" pos="G" tid="t349" type="open">
+      <span>
+        <target id="w349"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="europäisch" morphofeat="ADJA" pos="G" tid="t350" type="open">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <term lemma="Institution" morphofeat="NN" pos="N" tid="t351" type="open">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <term lemma="“" morphofeat="ADJD unknown_lemma" pos="O" tid="t352" type="open">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t353" type="open">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+    <term lemma="erklären" morphofeat="VVFIN" pos="V" tid="t354" type="open">
+      <span>
+        <target id="w354"/>
+      </span>
+    </term>
+    <term lemma="Trittin" morphofeat="NE unknown_lemma" pos="O" tid="t355" type="open">
+      <span>
+        <target id="w355"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t356" type="open">
+      <span>
+        <target id="w356"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--sie-->
+        <span>
+          <target id="t346"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--europäische Institutionen-->
+        <span>
+          <target id="t350"/>
+          <target id="t351"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--möchte-->
+        <span>
+          <target id="t347"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--sie-->
+        <span>
+          <target id="t346"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--europäische Institutionen-->
+        <span>
+          <target id="t350"/>
+          <target id="t351"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--möglichst schwache-->
+        <span>
+          <target id="t348"/>
+          <target id="t349"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

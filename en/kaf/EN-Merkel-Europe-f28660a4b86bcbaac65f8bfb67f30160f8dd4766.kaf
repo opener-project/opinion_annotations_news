@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:39Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:39Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:19:44" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:17:16CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="41" para="2" offset="5094" length="1" wid="w973">"</wf>
+    <wf sent="41" para="2" offset="5095" length="3" wid="w974">One</wf>
+    <wf sent="41" para="2" offset="5099" length="4" wid="w975">year</wf>
+    <wf sent="41" para="2" offset="5104" length="3" wid="w976">ago</wf>
+    <wf sent="41" para="2" offset="5107" length="1" wid="w977">,</wf>
+    <wf sent="41" para="2" offset="5109" length="8" wid="w978">Hollande</wf>
+    <wf sent="41" para="2" offset="5118" length="4" wid="w979">wasn</wf>
+    <wf sent="41" para="2" offset="5122" length="2" wid="w980">'t</wf>
+    <wf sent="41" para="2" offset="5125" length="4" wid="w981">even</wf>
+    <wf sent="41" para="2" offset="5130" length="10" wid="w982">considered</wf>
+    <wf sent="41" para="2" offset="5141" length="2" wid="w983">by</wf>
+    <wf sent="41" para="2" offset="5144" length="4" wid="w984">many</wf>
+    <wf sent="41" para="2" offset="5149" length="2" wid="w985">as</wf>
+    <wf sent="41" para="2" offset="5152" length="3" wid="w986">the</wf>
+    <wf sent="41" para="2" offset="5156" length="9" wid="w987">Socialist</wf>
+    <wf sent="41" para="2" offset="5166" length="5" wid="w988">party</wf>
+    <wf sent="41" para="2" offset="5171" length="2" wid="w989">'s</wf>
+    <wf sent="41" para="2" offset="5174" length="4" wid="w990">best</wf>
+    <wf sent="41" para="2" offset="5179" length="4" wid="w991">hope</wf>
+    <wf sent="41" para="2" offset="5183" length="1" wid="w992">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="A" morphofeat="RB" tid="t973">
+      <span>
+        <target id="w973"/>
+      </span>
+    </term>
+    <!--One-->
+    <term type="close" lemma="one" pos="O" morphofeat="CD" tid="t974">
+      <span>
+        <target id="w974"/>
+      </span>
+    </term>
+    <!--year-->
+    <term type="open" lemma="year" pos="N" morphofeat="NN" tid="t975">
+      <span>
+        <target id="w975"/>
+      </span>
+    </term>
+    <!--ago-->
+    <term type="open" lemma="ago" pos="A" morphofeat="RB" tid="t976">
+      <span>
+        <target id="w976"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t977">
+      <span>
+        <target id="w977"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term type="close" lemma="Hollande" pos="R" morphofeat="NNP" tid="t978">
+      <span>
+        <target id="w978"/>
+      </span>
+    </term>
+    <!--wasn-->
+    <term type="open" lemma="wasn" pos="V" morphofeat="VBD" tid="t979">
+      <span>
+        <target id="w979"/>
+      </span>
+    </term>
+    <!--'t-->
+    <term type="open" lemma="'t" pos="A" morphofeat="RB" tid="t980">
+      <span>
+        <target id="w980"/>
+      </span>
+    </term>
+    <!--even-->
+    <term type="open" lemma="even" pos="A" morphofeat="RB" tid="t981">
+      <span>
+        <target id="w981"/>
+      </span>
+    </term>
+    <!--considered-->
+    <term type="open" lemma="consider" pos="V" morphofeat="VBN" tid="t982">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w982"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t983">
+      <span>
+        <target id="w983"/>
+      </span>
+    </term>
+    <!--many-->
+    <term type="open" lemma="many" pos="G" morphofeat="JJ" tid="t984">
+      <span>
+        <target id="w984"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t985">
+      <span>
+        <target id="w985"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t986">
+      <span>
+        <target id="w986"/>
+      </span>
+    </term>
+    <!--Socialist-->
+    <term type="open" lemma="socialist" pos="G" morphofeat="JJ" tid="t987">
+      <span>
+        <target id="w987"/>
+      </span>
+    </term>
+    <!--party-->
+    <term type="open" lemma="party" pos="N" morphofeat="NN" tid="t988">
+      <span>
+        <target id="w988"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t989">
+      <span>
+        <target id="w989"/>
+      </span>
+    </term>
+    <!--best-->
+    <term type="open" lemma="good" pos="G" morphofeat="JJS" tid="t990">
+      <span>
+        <target id="w990"/>
+      </span>
+    </term>
+    <!--hope-->
+    <term type="open" lemma="hope" pos="N" morphofeat="NN" tid="t991">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w991"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t992">
+      <span>
+        <target id="w992"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Hollande-->
+        <span>
+          <target id="t978"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the Socialist party 's best hope-->
+        <span>
+          <target id="t986"/>
+          <target id="t987"/>
+          <target id="t988"/>
+          <target id="t989"/>
+          <target id="t990"/>
+          <target id="t991"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--wasn 't even considered-->
+        <span>
+          <target id="t979"/>
+          <target id="t980"/>
+          <target id="t981"/>
+          <target id="t982"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

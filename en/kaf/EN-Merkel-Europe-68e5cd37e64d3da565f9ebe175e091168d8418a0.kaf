@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:14Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:14Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:25:55" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:32:46CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="5" wid="w1">World</wf>
+    <wf sent="1" para="1" offset="6" length="7" wid="w2">leaders</wf>
+    <wf sent="1" para="1" offset="14" length="4" wid="w3">head</wf>
+    <wf sent="1" para="1" offset="19" length="2" wid="w4">to</wf>
+    <wf sent="1" para="1" offset="22" length="4" wid="w5">Rome</wf>
+    <wf sent="1" para="1" offset="27" length="3" wid="w6">for</wf>
+    <wf sent="1" para="1" offset="31" length="4" wid="w7">pope</wf>
+    <wf sent="1" para="1" offset="35" length="2" wid="w8">'s</wf>
+    <wf sent="1" para="1" offset="38" length="9" wid="w9">inaugural</wf>
+    <wf sent="1" para="1" offset="48" length="4" wid="w10">mass</wf>
+  </text>
+  <terms>
+    <!--World-->
+    <term type="open" lemma="world" pos="N" morphofeat="NN" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--leaders-->
+    <term type="open" lemma="leader" pos="N" morphofeat="NNS" tid="t2">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--head-->
+    <term type="open" lemma="head" pos="V" morphofeat="VBP" tid="t3">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t4">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Rome-->
+    <term type="close" lemma="Rome" pos="R" morphofeat="NNP" tid="t5">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t6">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--pope-->
+    <term type="open" lemma="pope" pos="N" morphofeat="NN" tid="t7">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t8">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--inaugural-->
+    <term type="open" lemma="inaugural" pos="G" morphofeat="JJ" tid="t9">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--mass-->
+    <term type="open" lemma="mass" pos="N" morphofeat="NN" tid="t10">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

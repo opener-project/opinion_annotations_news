@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T18:06:39Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T18:06:39Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:04:50CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T19:07:20CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w395" sent="22" para="11" offset="2393" length="8">Zugleich</wf>
+    <wf wid="w396" sent="22" para="11" offset="2402" length="11">kritisierte</wf>
+    <wf wid="w397" sent="22" para="11" offset="2414" length="2">er</wf>
+    <wf wid="w398" sent="22" para="11" offset="2417" length="3">den</wf>
+    <wf wid="w399" sent="22" para="11" offset="2421" length="9">Rücktritt</wf>
+    <wf wid="w400" sent="22" para="11" offset="2431" length="3">von</wf>
+    <wf wid="w401" sent="22" para="11" offset="2435" length="13">Außenminister</wf>
+    <wf wid="w402" sent="22" para="11" offset="2449" length="5">Paulo</wf>
+    <wf wid="w403" sent="22" para="11" offset="2455" length="6">Portas</wf>
+    <wf wid="w404" sent="22" para="11" offset="2461" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="zugleich" morphofeat="ADV" pos="A" tid="t395" type="open">
+      <span>
+        <target id="w395"/>
+      </span>
+    </term>
+    <term lemma="kritisieren" morphofeat="VVFIN" pos="V" tid="t396" type="open">
+      <span>
+        <target id="w396"/>
+      </span>
+    </term>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t397" type="close">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t398" type="close">
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <term lemma="Rücktritt" morphofeat="NN" pos="N" tid="t399" type="open">
+      <span>
+        <target id="w399"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t400" type="close">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+    <term lemma="Außenminister" morphofeat="NN" pos="N" tid="t401" type="open">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <term lemma="Paulo" morphofeat="NE" pos="R" tid="t402" type="open">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <term lemma="Portas" morphofeat="NN unknown_lemma" pos="O" tid="t403" type="open">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t404" type="open">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--er-->
+        <span>
+          <target id="t397"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--den Rücktritt von Außenminister Paulo Portas-->
+        <span>
+          <target id="t398"/>
+          <target id="t399"/>
+          <target id="t400"/>
+          <target id="t401"/>
+          <target id="t402"/>
+          <target id="t403"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--kritisierte-->
+        <span>
+          <target id="t396"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

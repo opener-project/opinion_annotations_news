@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:03:57CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w266" sent="18" para="2" offset="1575" length="2">De</wf>
+    <wf wid="w267" sent="18" para="2" offset="1578" length="6">Duitse</wf>
+    <wf wid="w268" sent="18" para="2" offset="1585" length="15">Opel-werknemers</wf>
+    <wf wid="w269" sent="18" para="2" offset="1601" length="6">vrezen</wf>
+    <wf wid="w270" sent="18" para="2" offset="1608" length="3">dat</wf>
+    <wf wid="w271" sent="18" para="2" offset="1612" length="3">zij</wf>
+    <wf wid="w272" sent="18" para="2" offset="1616" length="2">nu</wf>
+    <wf wid="w273" sent="18" para="2" offset="1619" length="2">de</wf>
+    <wf wid="w274" sent="18" para="2" offset="1622" length="8">rekening</wf>
+    <wf wid="w275" sent="18" para="2" offset="1631" length="6">zullen</wf>
+    <wf wid="w276" sent="18" para="2" offset="1638" length="7">betalen</wf>
+    <wf wid="w277" sent="18" para="2" offset="1645" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t266" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t267" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--Opel-werknemers-->
+    <term tid="t268" type="open" lemma="Opel-werknemers" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--vrezen-->
+    <term tid="t269" type="open" lemma="vrezen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w269"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t270" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--zij-->
+    <term tid="t271" type="close" lemma="zij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--nu-->
+    <term tid="t272" type="open" lemma="nu" pos="A" morphofeat="adv">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t273" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--rekening-->
+    <term tid="t274" type="open" lemma="rekening" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--zullen-->
+    <term tid="t275" type="open" lemma="zullen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--betalen-->
+    <term tid="t276" type="open" lemma="betalen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t277" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--De Duitse Opel-werknemers-->
+        <span>
+          <target id="t266"/>
+          <target id="t267"/>
+          <target id="t268"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de rekening betalen-->
+        <span>
+          <target id="t273"/>
+          <target id="t274"/>
+          <target id="t276"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--vrezen-->
+        <span>
+          <target id="t269"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--de rekening betalen-->
+        <span>
+          <target id="t273"/>
+          <target id="t274"/>
+          <target id="t276"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

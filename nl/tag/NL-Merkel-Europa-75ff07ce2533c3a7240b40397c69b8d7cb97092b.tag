@@ -1,0 +1,15 @@
+w137	Minder	min	G			0		0		0		0		0	OPINIONATED	5		0		0	136	false	7
+w138	fanatiek	fanatiek	G			0		0		0		0		0	OPINIONATED	5		0		0	137	false	7
+w139	bezuinigenDe	bezuinigende	N			0		0		0		0		0	OPINIONATED	5		0		0	138	false	7
+w140	socialist	socialist	N			0		0		0		0		0	OPINIONATED	5		0		0	139	false	7
+w141	Hollande	Hollande	O			0		0		0		0		0	OPINIONATED	5		0		0	140	false	7
+w142	wil	willen	V			0		0		0		0		0	OPINIONATED	5		0		0	141	false	7
+w143	veel	veel	A			0		0		0		0		0	OPINIONATED	5		0		0	142	false	7
+w144	minder	min	G			0		0		0		0		0	OPINIONATED	5		0		0	143	false	7
+w145	fanatiek	fanatiek	G			0		0		0		0		0	OPINIONATED	5		0		0	144	false	7
+w146	bezuinigen	bezuinigen	V			0		0		0		0		0	OPINIONATED	5		0		0	145	false	7
+w147	dan	dan	C			0		0		0		0		0	OPINIONATED	5		0		0	146	false	7
+w148	de	de	D			0		0		0		0		0	OPINIONATED	5		0		0	147	false	7
+w149	christendemocratische	christendemocratische	O			0		0		0		0		0	OPINIONATED	5		0		0	148	false	7
+w150	Merkel	Merkel	O			0		0		0		0		0	OPINIONATED	5		0		0	149	false	7
+w151	.	.	O			0		0		0		0		0	OPINIONATED	5		0		0	150	false	7

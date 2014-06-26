@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:53:16Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:53:16Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:53:16Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:34:45CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w143" sent="10" para="7" offset="720" length="2">60</wf>
+    <wf wid="w144" sent="10" para="7" offset="723" length="1">%</wf>
+    <wf wid="w145" sent="10" para="7" offset="725" length="2">D’</wf>
+    <wf wid="w146" sent="10" para="7" offset="727" length="5">entre</wf>
+    <wf wid="w147" sent="10" para="7" offset="733" length="3">eux</wf>
+    <wf wid="w148" sent="10" para="7" offset="737" length="6">disent</wf>
+    <wf wid="w149" sent="10" para="7" offset="744" length="9">également</wf>
+    <wf wid="w150" sent="10" para="7" offset="754" length="7">vouloir</wf>
+    <wf wid="w151" sent="10" para="7" offset="762" length="8">profiter</wf>
+    <wf wid="w152" sent="10" para="7" offset="771" length="2">de</wf>
+    <wf wid="w153" sent="10" para="7" offset="774" length="4">leur</wf>
+    <wf wid="w154" sent="10" para="7" offset="779" length="7">liberté</wf>
+    <wf wid="w155" sent="10" para="7" offset="787" length="6">plutôt</wf>
+    <wf wid="w156" sent="10" para="7" offset="794" length="3">que</wf>
+    <wf wid="w157" sent="10" para="7" offset="798" length="2">de</wf>
+    <wf wid="w158" sent="10" para="7" offset="801" length="6">passer</wf>
+    <wf wid="w159" sent="10" para="7" offset="808" length="2">du</wf>
+    <wf wid="w160" sent="10" para="7" offset="811" length="5">temps</wf>
+    <wf wid="w161" sent="10" para="7" offset="817" length="1">à</wf>
+    <wf wid="w162" sent="10" para="7" offset="819" length="2">s’</wf>
+    <wf wid="w163" sent="10" para="7" offset="821" length="7">occuper</wf>
+    <wf wid="w164" sent="10" para="7" offset="829" length="2">d’</wf>
+    <wf wid="w165" sent="10" para="7" offset="831" length="2">un</wf>
+    <wf wid="w166" sent="10" para="7" offset="834" length="6">enfant</wf>
+    <wf wid="w167" sent="10" para="7" offset="840" length="1">.</wf>
+  </text>
+  <terms>
+    <!--60-->
+    <term tid="t143" type="close" lemma="60" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t144" type="open" lemma="pourcent" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--D’-->
+    <term tid="t145" type="close" lemma="D’" pos="P" morphofeat="P">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--entre-->
+    <term tid="t146" type="close" lemma="entre" pos="P" morphofeat="P">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--eux-->
+    <term tid="t147" type="close" lemma="eux" pos="P" morphofeat="PROmp">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--disent-->
+    <term tid="t148" type="open" lemma="dire" pos="V" morphofeat="VP3p">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--également-->
+    <term tid="t149" type="open" lemma="également" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--vouloir-->
+    <term tid="t150" type="open" lemma="vouloir" pos="V" morphofeat="VW">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--profiter-->
+    <term tid="t151" type="open" lemma="profiter" pos="V" morphofeat="VW">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t152" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--leur-->
+    <term tid="t153" type="close" lemma="son" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--liberté-->
+    <term tid="t154" type="open" lemma="liberté" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--plutôt-->
+    <term tid="t155" type="open" lemma="plutôt" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--que-->
+    <term tid="t156" type="close" lemma="que" pos="C" morphofeat="C">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t157" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--passer-->
+    <term tid="t158" type="open" lemma="passer" pos="V" morphofeat="VW">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t159" type="close" lemma="du" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--temps-->
+    <term tid="t160" type="open" lemma="temps" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t161" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--s’-->
+    <term tid="t162" type="open" lemma="s’" pos="V" morphofeat="VW">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--occuper-->
+    <term tid="t163" type="open" lemma="occuper" pos="V" morphofeat="VW">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--d’-->
+    <term tid="t164" type="open" lemma="d’" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t165" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--enfant-->
+    <term tid="t166" type="open" lemma="enfant" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t167" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--eux-->
+        <span>
+          <target id="t147"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--occuper d’ un enfant-->
+        <span>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--vouloir profiter de leur liberté-->
+        <span>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+          <target id="t153"/>
+          <target id="t154"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:21:01" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:41:41CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="47" para="2" offset="4578" length="2" wid="w898">It</wf>
+    <wf sent="47" para="2" offset="4580" length="2" wid="w899">'s</wf>
+    <wf sent="47" para="2" offset="4583" length="4" wid="w900">very</wf>
+    <wf sent="47" para="2" offset="4588" length="13" wid="w901">disappointing</wf>
+    <wf sent="47" para="2" offset="4601" length="1" wid="w902">.</wf>
+  </text>
+  <terms>
+    <!--It-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t898">
+      <span>
+        <target id="w898"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t899">
+      <span>
+        <target id="w899"/>
+      </span>
+    </term>
+    <!--very-->
+    <term type="open" lemma="very" pos="A" morphofeat="RB" tid="t900">
+      <span>
+        <target id="w900"/>
+      </span>
+    </term>
+    <!--disappointing-->
+    <term type="open" lemma="disappointing" pos="G" morphofeat="JJ" tid="t901">
+      <span>
+        <target id="w901"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t902">
+      <span>
+        <target id="w902"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--It 's-->
+        <span>
+          <target id="t898"/>
+          <target id="t899"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--very disappointing-->
+        <span>
+          <target id="t900"/>
+          <target id="t901"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

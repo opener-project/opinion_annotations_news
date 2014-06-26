@@ -1,0 +1,15 @@
+w1	German	german	G		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	0	true	1
+w2	Constitutional	Constitutional	R		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	1	true	1
+w3	Court	Court	R		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	2	true	1
+w4	backs	back	V		D-Positive	2	Opinion	4		0		0		0		0		0		0	3	true	1
+w5	Euro	Euro	R		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	4	true	1
+w6	rescue	rescue	N		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	5	true	1
+w7	fund	fund	N		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	6	true	1
+w450	They	they	Q		OpinionHolder	5	Opinion	8		0		0		0		0		0		0	449	true	12
+w451	wanted	want	V		D-Positive	6	Opinion	8		0		0		0		0		0		0	450	true	12
+w452	a	a	D		OpinionTarget	7	Opinion	8		0		0		0		0		0		0	451	true	12
+w453	referendum	referendum	N		OpinionTarget	7	Opinion	8		0		0		0		0		0		0	452	true	12
+w454	to	to	P		OpinionTarget	7	Opinion	8		0		0		0		0		0		0	453	true	12
+w455	decide	decide	V		OpinionTarget	7	Opinion	8		0		0		0		0		0		0	454	true	12
+w456	the	the	D		OpinionTarget	7	Opinion	8		0		0		0		0		0		0	455	true	12
+w457	issue	issue	N		OpinionTarget	7	Opinion	8		0		0		0		0		0		0	456	true	12

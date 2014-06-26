@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:36:20CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w45" sent="4" para="2" offset="258" length="3">Hij</wf>
+    <wf wid="w46" sent="4" para="2" offset="262" length="6">brengt</wf>
+    <wf wid="w47" sent="4" para="2" offset="269" length="4">deze</wf>
+    <wf wid="w48" sent="4" para="2" offset="274" length="4">week</wf>
+    <wf wid="w49" sent="4" para="2" offset="279" length="3">een</wf>
+    <wf wid="w50" sent="4" para="2" offset="283" length="6">bezoek</wf>
+    <wf wid="w51" sent="4" para="2" offset="290" length="3">aan</wf>
+    <wf wid="w52" sent="4" para="2" offset="294" length="6">Madrid</wf>
+    <wf wid="w53" sent="4" para="2" offset="300" length="1">,</wf>
+    <wf wid="w54" sent="4" para="2" offset="302" length="6">Parijs</wf>
+    <wf wid="w55" sent="4" para="2" offset="309" length="2">en</wf>
+    <wf wid="w56" sent="4" para="2" offset="312" length="7">Berlijn</wf>
+    <wf wid="w57" sent="4" para="2" offset="320" length="2">en</wf>
+    <wf wid="w58" sent="4" para="2" offset="323" length="5">hoopt</wf>
+    <wf wid="w59" sent="4" para="2" offset="329" length="4">zijn</wf>
+    <wf wid="w60" sent="4" para="2" offset="334" length="24">collega-regeringsleiders</wf>
+    <wf wid="w61" sent="4" para="2" offset="359" length="2">te</wf>
+    <wf wid="w62" sent="4" para="2" offset="362" length="6">kunnen</wf>
+    <wf wid="w63" sent="4" para="2" offset="369" length="10">overtuigen</wf>
+    <wf wid="w64" sent="4" para="2" offset="379" length="1">.</wf>
+    <wf wid="w154" sent="9" para="2" offset="896" length="2">In</wf>
+    <wf wid="w155" sent="9" para="2" offset="899" length="6">Madrid</wf>
+    <wf wid="w156" sent="9" para="2" offset="906" length="3">zit</wf>
+    <wf wid="w157" sent="9" para="2" offset="910" length="7">Cameron</wf>
+    <wf wid="w158" sent="9" para="2" offset="918" length="7">maandag</wf>
+    <wf wid="w159" sent="9" para="2" offset="926" length="5">samen</wf>
+    <wf wid="w160" sent="9" para="2" offset="932" length="3">met</wf>
+    <wf wid="w161" sent="9" para="2" offset="936" length="2">de</wf>
+    <wf wid="w162" sent="9" para="2" offset="939" length="7">Spaanse</wf>
+    <wf wid="w163" sent="9" para="2" offset="947" length="7">premier</wf>
+    <wf wid="w164" sent="9" para="2" offset="955" length="7">Mariano</wf>
+    <wf wid="w165" sent="9" para="2" offset="963" length="5">Rajoy</wf>
+    <wf wid="w166" sent="9" para="2" offset="968" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hij-->
+    <term tid="t45" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--brengt-->
+    <term tid="t46" type="open" lemma="brengen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--deze-->
+    <term tid="t47" type="close" lemma="deze" pos="D" morphofeat="det__demo">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--week-->
+    <term tid="t48" type="open" lemma="week" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w48"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--een-->
+    <term tid="t49" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--bezoek-->
+    <term tid="t50" type="open" lemma="bezoek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t51" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--Madrid-->
+    <term tid="t52" type="open" lemma="Madrid" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t53" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--Parijs-->
+    <term tid="t54" type="open" lemma="Parijs" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t55" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--Berlijn-->
+    <term tid="t56" type="open" lemma="Berlijn" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t57" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--hoopt-->
+    <term tid="t58" type="open" lemma="hopen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w58"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--zijn-->
+    <term tid="t59" type="close" lemma="zijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--collega-regeringsleiders-->
+    <term tid="t60" type="open" lemma="collega-regeringsleiders" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t61" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--kunnen-->
+    <term tid="t62" type="open" lemma="kunnen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--overtuigen-->
+    <term tid="t63" type="open" lemma="overtuigen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w63"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t64" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--In-->
+    <term tid="t154" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--Madrid-->
+    <term tid="t155" type="open" lemma="Madrid" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--zit-->
+    <term tid="t156" type="open" lemma="zitten" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t157" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--maandag-->
+    <term tid="t158" type="open" lemma="maandag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--samen-->
+    <term tid="t159" type="open" lemma="samen" pos="A" morphofeat="adv">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t160" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t161" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--Spaanse-->
+    <term tid="t162" type="open" lemma="Spaans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t163" type="open" lemma="premier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w163"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Mariano-->
+    <term tid="t164" type="open" lemma="Mariano" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--Rajoy-->
+    <term tid="t165" type="open" lemma="Rajoy" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t166" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Hij-->
+        <span>
+          <target id="t45"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--te overtuigen-->
+        <span>
+          <target id="t61"/>
+          <target id="t63"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--hoopt-->
+        <span>
+          <target id="t58"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+          <target id="t157"/>
+          <target id="t158"/>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

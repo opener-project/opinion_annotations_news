@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:08:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:08:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:34:14" version="1.0"/>
+      <lp timestamp="2014-05-07T15:43:09CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w576" sent="19" para="2" offset="2918" length="3">The</wf>
+    <wf wid="w577" sent="19" para="2" offset="2922" length="2">PM</wf>
+    <wf wid="w578" sent="19" para="2" offset="2925" length="7">replies</wf>
+    <wf wid="w579" sent="19" para="2" offset="2933" length="4">that</wf>
+    <wf wid="w580" sent="19" para="2" offset="2938" length="2">he</wf>
+    <wf wid="w581" sent="19" para="2" offset="2941" length="7">enjoyed</wf>
+    <wf wid="w582" sent="19" para="2" offset="2949" length="7">working</wf>
+    <wf wid="w583" sent="19" para="2" offset="2957" length="4">with</wf>
+    <wf wid="w584" sent="19" para="2" offset="2962" length="6">allies</wf>
+    <wf wid="w585" sent="19" para="2" offset="2968" length="1">,</wf>
+    <wf wid="w586" sent="19" para="2" offset="2970" length="4">such</wf>
+    <wf wid="w587" sent="19" para="2" offset="2975" length="2">as</wf>
+    <wf wid="w588" sent="19" para="2" offset="2978" length="6">Angela</wf>
+    <wf wid="w589" sent="19" para="2" offset="2985" length="6">Merkel</wf>
+    <wf wid="w590" sent="19" para="2" offset="2991" length="1">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term tid="t576" type="close" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w576"/>
+      </span>
+    </term>
+    <!--PM-->
+    <term tid="t577" type="close" lemma="PM" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w577"/>
+      </span>
+    </term>
+    <!--replies-->
+    <term tid="t578" type="open" lemma="reply" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w578"/>
+      </span>
+    </term>
+    <!--that-->
+    <term tid="t579" type="close" lemma="that" pos="P" morphofeat="IN">
+      <span>
+        <target id="w579"/>
+      </span>
+    </term>
+    <!--he-->
+    <term tid="t580" type="close" lemma="he" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w580"/>
+      </span>
+    </term>
+    <!--enjoyed-->
+    <term tid="t581" type="open" lemma="enjoy" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w581"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for English . VUA_olery_lexicon_EN_lmf"/>
+    </term>
+    <!--working-->
+    <term tid="t582" type="open" lemma="work" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w582"/>
+      </span>
+    </term>
+    <!--with-->
+    <term tid="t583" type="close" lemma="with" pos="P" morphofeat="IN">
+      <span>
+        <target id="w583"/>
+      </span>
+    </term>
+    <!--allies-->
+    <term tid="t584" type="open" lemma="ally" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w584"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for English . VUA_olery_lexicon_EN_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t585" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w585"/>
+      </span>
+    </term>
+    <!--such-->
+    <term tid="t586" type="open" lemma="such" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w586"/>
+      </span>
+    </term>
+    <!--as-->
+    <term tid="t587" type="close" lemma="as" pos="P" morphofeat="IN">
+      <span>
+        <target id="w587"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t588" type="close" lemma="Angela" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w588"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t589" type="close" lemma="Merkel" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w589"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t590" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w590"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--The PM-->
+        <span>
+          <target id="t576"/>
+          <target id="t577"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--working with allies-->
+        <span>
+          <target id="t582"/>
+          <target id="t583"/>
+          <target id="t584"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--replies-->
+        <span>
+          <target id="t578"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--The PM-->
+        <span>
+          <target id="t576"/>
+          <target id="t577"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--working with allies-->
+        <span>
+          <target id="t582"/>
+          <target id="t583"/>
+          <target id="t584"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--enjoyed-->
+        <span>
+          <target id="t581"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

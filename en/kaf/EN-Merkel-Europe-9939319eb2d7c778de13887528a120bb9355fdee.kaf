@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:08:59" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:38:04CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="22" para="2" offset="3722" length="9" wid="w684">Meanwhile</wf>
+    <wf sent="22" para="2" offset="3731" length="1" wid="w685">,</wf>
+    <wf sent="22" para="2" offset="3733" length="6" wid="w686">others</wf>
+    <wf sent="22" para="2" offset="3740" length="4" wid="w687">have</wf>
+    <wf sent="22" para="2" offset="3745" length="10" wid="w688">criticized</wf>
+    <wf sent="22" para="2" offset="3756" length="3" wid="w689">the</wf>
+    <wf sent="22" para="2" offset="3760" length="7" wid="w690">failure</wf>
+    <wf sent="22" para="2" offset="3768" length="2" wid="w691">of</wf>
+    <wf sent="22" para="2" offset="3771" length="7" wid="w692">Germany</wf>
+    <wf sent="22" para="2" offset="3779" length="2" wid="w693">to</wf>
+    <wf sent="22" para="2" offset="3782" length="7" wid="w694">provide</wf>
+    <wf sent="22" para="2" offset="3790" length="8" wid="w695">decisive</wf>
+    <wf sent="22" para="2" offset="3799" length="10" wid="w696">leadership</wf>
+    <wf sent="22" para="2" offset="3810" length="2" wid="w697">in</wf>
+    <wf sent="22" para="2" offset="3813" length="3" wid="w698">the</wf>
+    <wf sent="22" para="2" offset="3817" length="4" wid="w699">euro</wf>
+    <wf sent="22" para="2" offset="3822" length="6" wid="w700">crisis</wf>
+    <wf sent="22" para="2" offset="3828" length="1" wid="w701">.</wf>
+    <wf sent="45" para="2" offset="7309" length="1" wid="w1370">"</wf>
+    <wf sent="45" para="2" offset="7310" length="7" wid="w1371">Germans</wf>
+    <wf sent="45" para="2" offset="7318" length="3" wid="w1372">are</wf>
+    <wf sent="45" para="2" offset="7322" length="7" wid="w1373">unhappy</wf>
+    <wf sent="45" para="2" offset="7330" length="4" wid="w1374">with</wf>
+    <wf sent="45" para="2" offset="7335" length="5" wid="w1375">being</wf>
+    <wf sent="45" para="2" offset="7341" length="6" wid="w1376">blamed</wf>
+    <wf sent="45" para="2" offset="7348" length="2" wid="w1377">by</wf>
+    <wf sent="45" para="2" offset="7351" length="6" wid="w1378">crisis</wf>
+    <wf sent="45" para="2" offset="7358" length="9" wid="w1379">countries</wf>
+    <wf sent="45" para="2" offset="7367" length="1" wid="w1380">.</wf>
+  </text>
+  <terms>
+    <!--Meanwhile-->
+    <term type="open" lemma="meanwhile" pos="A" morphofeat="RB" tid="t684">
+      <span>
+        <target id="w684"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t685">
+      <span>
+        <target id="w685"/>
+      </span>
+    </term>
+    <!--others-->
+    <term type="open" lemma="other" pos="N" morphofeat="NNS" tid="t686">
+      <span>
+        <target id="w686"/>
+      </span>
+    </term>
+    <!--have-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBP" tid="t687">
+      <span>
+        <target id="w687"/>
+      </span>
+    </term>
+    <!--criticized-->
+    <term type="open" lemma="criticize" pos="V" morphofeat="VBN" tid="t688">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w688"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t689">
+      <span>
+        <target id="w689"/>
+      </span>
+    </term>
+    <!--failure-->
+    <term type="open" lemma="failure" pos="N" morphofeat="NN" tid="t690">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w690"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t691">
+      <span>
+        <target id="w691"/>
+      </span>
+    </term>
+    <!--Germany-->
+    <term type="close" lemma="Germany" pos="R" morphofeat="NNP" tid="t692">
+      <span>
+        <target id="w692"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t693">
+      <span>
+        <target id="w693"/>
+      </span>
+    </term>
+    <!--provide-->
+    <term type="open" lemma="provide" pos="V" morphofeat="VB" tid="t694">
+      <span>
+        <target id="w694"/>
+      </span>
+    </term>
+    <!--decisive-->
+    <term type="open" lemma="decisive" pos="G" morphofeat="JJ" tid="t695">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w695"/>
+      </span>
+    </term>
+    <!--leadership-->
+    <term type="open" lemma="leadership" pos="N" morphofeat="NN" tid="t696">
+      <span>
+        <target id="w696"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t697">
+      <span>
+        <target id="w697"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t698">
+      <span>
+        <target id="w698"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term type="open" lemma="euro" pos="N" morphofeat="NN" tid="t699">
+      <span>
+        <target id="w699"/>
+      </span>
+    </term>
+    <!--crisis-->
+    <term type="open" lemma="crisis" pos="N" morphofeat="NN" tid="t700">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w700"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t701">
+      <span>
+        <target id="w701"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NNS" tid="t1370">
+      <span>
+        <target id="w1370"/>
+      </span>
+    </term>
+    <!--Germans-->
+    <term type="open" lemma="germans" pos="N" morphofeat="NNS" tid="t1371">
+      <span>
+        <target id="w1371"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t1372">
+      <span>
+        <target id="w1372"/>
+      </span>
+    </term>
+    <!--unhappy-->
+    <term type="open" lemma="unhappy" pos="G" morphofeat="JJ" tid="t1373">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w1373"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t1374">
+      <span>
+        <target id="w1374"/>
+      </span>
+    </term>
+    <!--being-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBG" tid="t1375">
+      <span>
+        <target id="w1375"/>
+      </span>
+    </term>
+    <!--blamed-->
+    <term type="open" lemma="blame" pos="V" morphofeat="VBN" tid="t1376">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w1376"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t1377">
+      <span>
+        <target id="w1377"/>
+      </span>
+    </term>
+    <!--crisis-->
+    <term type="open" lemma="crisis" pos="N" morphofeat="NN" tid="t1378">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w1378"/>
+      </span>
+    </term>
+    <!--countries-->
+    <term type="open" lemma="country" pos="N" morphofeat="NNS" tid="t1379">
+      <span>
+        <target id="w1379"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t1380">
+      <span>
+        <target id="w1380"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder>
+        <!--Germans-->
+        <span>
+          <target id="t1371"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--being blamed-->
+        <span>
+          <target id="t1375"/>
+          <target id="t1376"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--are unhappy with-->
+        <span>
+          <target id="t1372"/>
+          <target id="t1373"/>
+          <target id="t1374"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=20-->
+      <opinion_holder>
+        <!--crisis countries-->
+        <span>
+          <target id="t1378"/>
+          <target id="t1379"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Germans-->
+        <span>
+          <target id="t1371"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--blamed-->
+        <span>
+          <target id="t1376"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--others-->
+        <span>
+          <target id="t686"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the failure to provide decisive leadership-->
+        <span>
+          <target id="t689"/>
+          <target id="t690"/>
+          <target id="t693"/>
+          <target id="t694"/>
+          <target id="t695"/>
+          <target id="t696"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--criticized-->
+        <span>
+          <target id="t688"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=23-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--provide decisive leadership-->
+        <span>
+          <target id="t694"/>
+          <target id="t695"/>
+          <target id="t696"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--failure-->
+        <span>
+          <target id="t690"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

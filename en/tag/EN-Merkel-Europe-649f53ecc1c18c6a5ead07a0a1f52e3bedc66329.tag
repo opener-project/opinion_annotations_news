@@ -1,0 +1,15 @@
+w113	The	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	112	true	8
+w114	VVD	VVD	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	113	true	8
+w115	took	take	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	114	true	8
+w116	41	41	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	115	true	8
+w117	seats	seat	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	116	true	8
+w118	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	117	true	8
+w119	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	118	true	8
+w120	150-member	150-member	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	119	true	8
+w121	lower	lower	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	120	true	8
+w122	house	house	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	121	true	8
+w123	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	122	true	8
+w124	three	three	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	123	true	8
+w125	more	more	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	124	true	8
+w126	than	than	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	125	true	8
+w127	Labour	Labour	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	126	true	8

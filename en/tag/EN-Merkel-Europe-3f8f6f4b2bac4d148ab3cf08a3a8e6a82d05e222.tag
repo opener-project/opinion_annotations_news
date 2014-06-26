@@ -1,0 +1,9 @@
+w487	The	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	486	true	32
+w488	program	program	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	487	true	32
+w489	had	have	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	488	true	32
+w490	been	be	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	489	true	32
+w491	scheduled	schedule	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	490	true	32
+w492	to	to	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	491	true	32
+w493	end	end	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	492	true	32
+w494	this	this	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	493	true	32
+w495	month	month	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	494	true	32

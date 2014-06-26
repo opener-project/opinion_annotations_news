@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T16:14:09CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w255" sent="12" para="2" offset="1438" length="2">De</wf>
+    <wf wid="w256" sent="12" para="2" offset="1441" length="12">Nobelprijzen</wf>
+    <wf wid="w257" sent="12" para="2" offset="1454" length="6">worden</wf>
+    <wf wid="w258" sent="12" para="2" offset="1461" length="3">elk</wf>
+    <wf wid="w259" sent="12" para="2" offset="1465" length="4">jaar</wf>
+    <wf wid="w260" sent="12" para="2" offset="1470" length="10">uitgereikt</wf>
+    <wf wid="w261" sent="12" para="2" offset="1481" length="2">op</wf>
+    <wf wid="w262" sent="12" para="2" offset="1484" length="2">de</wf>
+    <wf wid="w263" sent="12" para="2" offset="1487" length="8">sterfdag</wf>
+    <wf wid="w264" sent="12" para="2" offset="1496" length="3">van</wf>
+    <wf wid="w265" sent="12" para="2" offset="1500" length="6">Alfred</wf>
+    <wf wid="w266" sent="12" para="2" offset="1507" length="5">Nobel</wf>
+    <wf wid="w267" sent="12" para="2" offset="1512" length="1">,</wf>
+    <wf wid="w268" sent="12" para="2" offset="1514" length="3">die</wf>
+    <wf wid="w269" sent="12" para="2" offset="1518" length="3">met</wf>
+    <wf wid="w270" sent="12" para="2" offset="1522" length="4">zijn</wf>
+    <wf wid="w271" sent="12" para="2" offset="1527" length="6">legaat</wf>
+    <wf wid="w272" sent="12" para="2" offset="1534" length="2">de</wf>
+    <wf wid="w273" sent="12" para="2" offset="1537" length="10">toekenning</wf>
+    <wf wid="w274" sent="12" para="2" offset="1548" length="3">van</wf>
+    <wf wid="w275" sent="12" para="2" offset="1552" length="2">de</wf>
+    <wf wid="w276" sent="12" para="2" offset="1555" length="7">prijzen</wf>
+    <wf wid="w277" sent="12" para="2" offset="1563" length="8">mogelijk</wf>
+    <wf wid="w278" sent="12" para="2" offset="1572" length="6">maakte</wf>
+    <wf wid="w279" sent="12" para="2" offset="1578" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t255" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--Nobelprijzen-->
+    <term tid="t256" type="open" lemma="Nobelprijs" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--worden-->
+    <term tid="t257" type="open" lemma="worden" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--elk-->
+    <term tid="t258" type="close" lemma="elk" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--jaar-->
+    <term tid="t259" type="open" lemma="jaar" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--uitgereikt-->
+    <term tid="t260" type="open" lemma="uitreiken" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t261" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t262" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--sterfdag-->
+    <term tid="t263" type="open" lemma="sterfdag" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t264" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--Alfred-->
+    <term tid="t265" type="open" lemma="Alfred" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--Nobel-->
+    <term tid="t266" type="open" lemma="Nobel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w266"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t267" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--die-->
+    <term tid="t268" type="close" lemma="die" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t269" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t270" type="close" lemma="zijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--legaat-->
+    <term tid="t271" type="open" lemma="legaat" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t272" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--toekenning-->
+    <term tid="t273" type="open" lemma="toekenning" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t274" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t275" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--prijzen-->
+    <term tid="t276" type="open" lemma="prijs" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--mogelijk-->
+    <term tid="t277" type="open" lemma="mogelijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--maakte-->
+    <term tid="t278" type="open" lemma="maken" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t279" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t255"/>
+          <target id="t256"/>
+          <target id="t257"/>
+          <target id="t258"/>
+          <target id="t259"/>
+          <target id="t260"/>
+          <target id="t261"/>
+          <target id="t262"/>
+          <target id="t263"/>
+          <target id="t264"/>
+          <target id="t265"/>
+          <target id="t266"/>
+          <target id="t267"/>
+          <target id="t268"/>
+          <target id="t269"/>
+          <target id="t270"/>
+          <target id="t271"/>
+          <target id="t272"/>
+          <target id="t273"/>
+          <target id="t274"/>
+          <target id="t275"/>
+          <target id="t276"/>
+          <target id="t277"/>
+          <target id="t278"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

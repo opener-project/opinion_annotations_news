@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:50Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:50Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:33:41" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:03:17CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:48CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="11" para="2" offset="1129" length="4" wid="w206">Last</wf>
+    <wf sent="11" para="2" offset="1134" length="4" wid="w207">year</wf>
+    <wf sent="11" para="2" offset="1139" length="2" wid="w208">it</wf>
+    <wf sent="11" para="2" offset="1142" length="3" wid="w209">was</wf>
+    <wf sent="11" para="2" offset="1146" length="3" wid="w210">the</wf>
+    <wf sent="11" para="2" offset="1150" length="7" wid="w211">Olympic</wf>
+    <wf sent="11" para="2" offset="1158" length="5" wid="w212">torch</wf>
+    <wf sent="11" para="2" offset="1163" length="1" wid="w213">.</wf>
+  </text>
+  <terms>
+    <!--Last-->
+    <term type="open" lemma="last" pos="G" morphofeat="JJ" tid="t206">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--year-->
+    <term type="open" lemma="year" pos="N" morphofeat="NN" tid="t207">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t208">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t209">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t210">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--Olympic-->
+    <term type="close" lemma="Olympic" pos="R" morphofeat="NNP" tid="t211">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--torch-->
+    <term type="open" lemma="torch" pos="N" morphofeat="NN" tid="t212">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t213">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

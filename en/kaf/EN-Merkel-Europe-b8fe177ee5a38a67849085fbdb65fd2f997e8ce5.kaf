@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:23Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:23Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:58:10" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:37:19CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="11" para="2" offset="1597" length="6" wid="w288">France</wf>
+    <wf sent="11" para="2" offset="1604" length="2" wid="w289">is</wf>
+    <wf sent="11" para="2" offset="1607" length="8" wid="w290">strongly</wf>
+    <wf sent="11" para="2" offset="1616" length="7" wid="w291">against</wf>
+    <wf sent="11" para="2" offset="1624" length="4" wid="w292">more</wf>
+    <wf sent="11" para="2" offset="1629" length="4" wid="w293">cuts</wf>
+    <wf sent="11" para="2" offset="1633" length="1" wid="w294">.</wf>
+  </text>
+  <terms>
+    <!--France-->
+    <term type="close" lemma="France" pos="R" morphofeat="NNP" tid="t288">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t289">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--strongly-->
+    <term type="open" lemma="strongly" pos="A" morphofeat="RB" tid="t290">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--against-->
+    <term type="close" lemma="against" pos="P" morphofeat="IN" tid="t291">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--more-->
+    <term type="open" lemma="more" pos="G" morphofeat="JJR" tid="t292">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--cuts-->
+    <term type="open" lemma="cut" pos="N" morphofeat="NNS" tid="t293">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t294">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--France-->
+        <span>
+          <target id="t288"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--more cuts-->
+        <span>
+          <target id="t292"/>
+          <target id="t293"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--is strongly against-->
+        <span>
+          <target id="t289"/>
+          <target id="t290"/>
+          <target id="t291"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

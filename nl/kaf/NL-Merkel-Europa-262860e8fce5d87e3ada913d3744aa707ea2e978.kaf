@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:53:12CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:29CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="1">'</wf>
+    <wf wid="w2" sent="1" para="1" offset="1" length="8">Europese</wf>
+    <wf wid="w3" sent="1" para="1" offset="10" length="7">beurzen</wf>
+    <wf wid="w4" sent="1" para="1" offset="18" length="6">openen</wf>
+    <wf wid="w5" sent="1" para="1" offset="25" length="5">lager</wf>
+    <wf wid="w6" sent="1" para="1" offset="30" length="1">'</wf>
+    <wf wid="w132" sent="8" para="2" offset="817" length="2">In</wf>
+    <wf wid="w133" sent="8" para="2" offset="820" length="9">Amsterdam</wf>
+    <wf wid="w134" sent="8" para="2" offset="830" length="6">bracht</wf>
+    <wf wid="w135" sent="8" para="2" offset="837" length="5">Vopak</wf>
+    <wf wid="w136" sent="8" para="2" offset="843" length="7">vrijdag</wf>
+    <wf wid="w137" sent="8" para="2" offset="851" length="2">de</wf>
+    <wf wid="w138" sent="8" para="2" offset="854" length="10">resultaten</wf>
+    <wf wid="w139" sent="8" para="2" offset="865" length="4">naar</wf>
+    <wf wid="w140" sent="8" para="2" offset="870" length="6">buiten</wf>
+    <wf wid="w141" sent="8" para="2" offset="876" length="1">.</wf>
+    <wf wid="w207" sent="13" para="2" offset="1260" length="2">De</wf>
+    <wf wid="w208" sent="13" para="2" offset="1263" length="7">beurzen</wf>
+    <wf wid="w209" sent="13" para="2" offset="1271" length="2">in</wf>
+    <wf wid="w210" sent="13" para="2" offset="1274" length="3">het</wf>
+    <wf wid="w211" sent="13" para="2" offset="1278" length="5">Verre</wf>
+    <wf wid="w212" sent="13" para="2" offset="1284" length="6">Oosten</wf>
+    <wf wid="w213" sent="13" para="2" offset="1291" length="6">gingen</wf>
+    <wf wid="w214" sent="13" para="2" offset="1298" length="7">vrijdag</wf>
+    <wf wid="w215" sent="13" para="2" offset="1306" length="6">omlaag</wf>
+    <wf wid="w216" sent="13" para="2" offset="1312" length="1">.</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term tid="t1" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t2" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--beurzen-->
+    <term tid="t3" type="open" lemma="beurs" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--openen-->
+    <term tid="t4" type="open" lemma="openen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--lager-->
+    <term tid="t5" type="open" lemma="laag" pos="G" morphofeat="adj">
+      <span>
+        <target id="w5"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--'-->
+    <term tid="t6" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--In-->
+    <term tid="t132" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--Amsterdam-->
+    <term tid="t133" type="open" lemma="Amsterdam" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--bracht-->
+    <term tid="t134" type="open" lemma="brengen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--Vopak-->
+    <term tid="t135" type="open" lemma="Vopak" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--vrijdag-->
+    <term tid="t136" type="open" lemma="vrijdag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t137" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--resultaten-->
+    <term tid="t138" type="open" lemma="resultaat" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--naar-->
+    <term tid="t139" type="close" lemma="naar" pos="P" morphofeat="prep">
+      <span>
+        <target id="w139"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--buiten-->
+    <term tid="t140" type="open" lemma="buiten" pos="A" morphofeat="adv">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t141" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t207" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--beurzen-->
+    <term tid="t208" type="open" lemma="beurs" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t209" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t210" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--Verre-->
+    <term tid="t211" type="open" lemma="ver" pos="G" morphofeat="adj">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--Oosten-->
+    <term tid="t212" type="open" lemma="Oosten" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--gingen-->
+    <term tid="t213" type="open" lemma="gaan" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--vrijdag-->
+    <term tid="t214" type="open" lemma="vrijdag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--omlaag-->
+    <term tid="t215" type="open" lemma="omlaag" pos="A" morphofeat="adv">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t216" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t132"/>
+          <target id="t133"/>
+          <target id="t134"/>
+          <target id="t135"/>
+          <target id="t136"/>
+          <target id="t137"/>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

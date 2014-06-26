@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:00:55Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:00:55Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:10:08CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:01:23CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w721" sent="39" para="17" offset="4279" length="3">SPD</wf>
+    <wf wid="w722" sent="39" para="17" offset="4282" length="1">·</wf>
+    <wf wid="w723" sent="39" para="17" offset="4283" length="15">Kanzlerkandidat</wf>
+    <wf wid="w724" sent="39" para="17" offset="4299" length="4">Peer</wf>
+    <wf wid="w725" sent="39" para="17" offset="4304" length="10">Steinbrück</wf>
+    <wf wid="w726" sent="39" para="17" offset="4315" length="3">gab</wf>
+    <wf wid="w727" sent="39" para="17" offset="4319" length="6">Merkel</wf>
+    <wf wid="w728" sent="39" para="17" offset="4326" length="4">eine</wf>
+    <wf wid="w729" sent="39" para="17" offset="4331" length="9">Mitschuld</wf>
+    <wf wid="w730" sent="39" para="17" offset="4341" length="3">für</wf>
+    <wf wid="w731" sent="39" para="17" offset="4345" length="3">die</wf>
+    <wf wid="w732" sent="39" para="17" offset="4349" length="4">hohe</wf>
+    <wf wid="w733" sent="39" para="17" offset="4354" length="22">Jugendarbeitslosigkeit</wf>
+    <wf wid="w734" sent="39" para="17" offset="4377" length="2">in</wf>
+    <wf wid="w735" sent="39" para="17" offset="4380" length="6">Europa</wf>
+    <wf wid="w736" sent="39" para="17" offset="4386" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="SPD" morphofeat="NE" pos="R" tid="t721" type="open">
+      <span>
+        <target id="w721"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t722" type="open">
+      <span>
+        <target id="w722"/>
+      </span>
+    </term>
+    <term lemma="Kanzlerkandidat" morphofeat="NN" pos="N" tid="t723" type="open">
+      <span>
+        <target id="w723"/>
+      </span>
+    </term>
+    <term lemma="Peer" morphofeat="NE" pos="R" tid="t724" type="open">
+      <span>
+        <target id="w724"/>
+      </span>
+    </term>
+    <term lemma="Steinbrück" morphofeat="NN unknown_lemma" pos="O" tid="t725" type="open">
+      <span>
+        <target id="w725"/>
+      </span>
+    </term>
+    <term lemma="geben" morphofeat="VVFIN" pos="V" tid="t726" type="open">
+      <span>
+        <target id="w726"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t727" type="open">
+      <span>
+        <target id="w727"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t728" type="close">
+      <span>
+        <target id="w728"/>
+      </span>
+    </term>
+    <term lemma="Mitschuld" morphofeat="NN" pos="N" tid="t729" type="open">
+      <span>
+        <target id="w729"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t730" type="close">
+      <span>
+        <target id="w730"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t731" type="close">
+      <span>
+        <target id="w731"/>
+      </span>
+    </term>
+    <term lemma="hoch" morphofeat="ADJA" pos="G" tid="t732" type="open">
+      <span>
+        <target id="w732"/>
+      </span>
+    </term>
+    <term lemma="Jugendarbeitslosigkeit" morphofeat="NN" pos="N" tid="t733" type="open">
+      <span>
+        <target id="w733"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t734" type="close">
+      <span>
+        <target id="w734"/>
+      </span>
+    </term>
+    <term lemma="Europa" morphofeat="NE" pos="R" tid="t735" type="open">
+      <span>
+        <target id="w735"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t736" type="open">
+      <span>
+        <target id="w736"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Jugendarbeitslosigkeit-->
+        <span>
+          <target id="t733"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--hohe-->
+        <span>
+          <target id="t732"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

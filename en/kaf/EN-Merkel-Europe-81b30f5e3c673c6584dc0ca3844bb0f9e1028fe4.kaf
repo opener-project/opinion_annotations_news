@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:13:03" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:27:38CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:24CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="12" para="2" offset="44" length="1" wid="w357">“</wf>
+    <wf sent="12" para="2" offset="2030" length="6" wid="w358">Growth</wf>
+    <wf sent="12" para="2" offset="2037" length="3" wid="w359">and</wf>
+    <wf sent="12" para="2" offset="2041" length="4" wid="w360">jobs</wf>
+    <wf sent="12" para="2" offset="2046" length="4" wid="w361">must</wf>
+    <wf sent="12" para="2" offset="2051" length="2" wid="w362">be</wf>
+    <wf sent="12" para="2" offset="2054" length="3" wid="w363">our</wf>
+    <wf sent="12" para="2" offset="2058" length="3" wid="w364">top</wf>
+    <wf sent="12" para="2" offset="2062" length="8" wid="w365">priority</wf>
+    <wf sent="12" para="2" offset="2070" length="1" wid="w366">,</wf>
+    <wf sent="12" para="2" offset="44" length="1" wid="w367">”</wf>
+    <wf sent="12" para="2" offset="173" length="2" wid="w368">he</wf>
+    <wf sent="12" para="2" offset="865" length="4" wid="w369">said</wf>
+    <wf sent="12" para="2" offset="1018" length="1" wid="w370">,</wf>
+    <wf sent="12" para="2" offset="2083" length="11" wid="w371">reaffirming</wf>
+    <wf sent="12" para="2" offset="2095" length="4" wid="w372">that</wf>
+    <wf sent="12" para="2" offset="2100" length="6" wid="w373">Europe</wf>
+    <wf sent="12" para="2" offset="2107" length="3" wid="w374">has</wf>
+    <wf sent="12" para="2" offset="2111" length="3" wid="w375">the</wf>
+    <wf sent="12" para="2" offset="2115" length="8" wid="w376">capacity</wf>
+    <wf sent="12" para="2" offset="2124" length="2" wid="w377">to</wf>
+    <wf sent="12" para="2" offset="2127" length="4" wid="w378">meet</wf>
+    <wf sent="12" para="2" offset="2132" length="3" wid="w379">the</wf>
+    <wf sent="12" para="2" offset="2136" length="9" wid="w380">challenge</wf>
+    <wf sent="12" para="2" offset="2145" length="1" wid="w381">.</wf>
+  </text>
+  <terms>
+    <!--“-->
+    <term type="open" lemma="“" pos="N" morphofeat="NN" tid="t357">
+      <span>
+        <target id="w357"/>
+      </span>
+    </term>
+    <!--Growth-->
+    <term type="open" lemma="growth" pos="N" morphofeat="NN" tid="t358">
+      <span>
+        <target id="w358"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t359">
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <!--jobs-->
+    <term type="open" lemma="job" pos="N" morphofeat="NNS" tid="t360">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+    <!--must-->
+    <term type="close" lemma="must" pos="O" morphofeat="MD" tid="t361">
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t362">
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <!--our-->
+    <term type="close" lemma="our" pos="Q" morphofeat="PRP$" tid="t363">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <!--top-->
+    <term type="open" lemma="top" pos="N" morphofeat="NN" tid="t364">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <!--priority-->
+    <term type="open" lemma="priority" pos="N" morphofeat="NN" tid="t365">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t366">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="N" morphofeat="NN" tid="t367">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t368">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t369">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t370">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <!--reaffirming-->
+    <term type="open" lemma="reaffirm" pos="V" morphofeat="VBG" tid="t371">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="P" morphofeat="IN" tid="t372">
+      <span>
+        <target id="w372"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term type="close" lemma="Europe" pos="R" morphofeat="NNP" tid="t373">
+      <span>
+        <target id="w373"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t374">
+      <span>
+        <target id="w374"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t375">
+      <span>
+        <target id="w375"/>
+      </span>
+    </term>
+    <!--capacity-->
+    <term type="open" lemma="capacity" pos="N" morphofeat="NN" tid="t376">
+      <span>
+        <target id="w376"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t377">
+      <span>
+        <target id="w377"/>
+      </span>
+    </term>
+    <!--meet-->
+    <term type="open" lemma="meet" pos="V" morphofeat="VB" tid="t378">
+      <span>
+        <target id="w378"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t379">
+      <span>
+        <target id="w379"/>
+      </span>
+    </term>
+    <!--challenge-->
+    <term type="open" lemma="challenge" pos="N" morphofeat="NN" tid="t380">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w380"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t381">
+      <span>
+        <target id="w381"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--he-->
+        <span>
+          <target id="t368"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Growth-->
+        <span>
+          <target id="t358"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--must be our top priority-->
+        <span>
+          <target id="t361"/>
+          <target id="t362"/>
+          <target id="t363"/>
+          <target id="t364"/>
+          <target id="t365"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--he-->
+        <span>
+          <target id="t368"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--jobs-->
+        <span>
+          <target id="t360"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--must be our top priority-->
+        <span>
+          <target id="t361"/>
+          <target id="t362"/>
+          <target id="t363"/>
+          <target id="t364"/>
+          <target id="t365"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

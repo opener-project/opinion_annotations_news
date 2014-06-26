@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:55Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:55Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:02:49" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:27:39CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="21" para="2" offset="2293" length="1" wid="w457">"</wf>
+    <wf sent="21" para="2" offset="2294" length="5" wid="w458">Their</wf>
+    <wf sent="21" para="2" offset="2300" length="6" wid="w459">change</wf>
+    <wf sent="21" para="2" offset="2307" length="2" wid="w460">of</wf>
+    <wf sent="21" para="2" offset="2310" length="5" wid="w461">heart</wf>
+    <wf sent="21" para="2" offset="2316" length="2" wid="w462">is</wf>
+    <wf sent="21" para="2" offset="2319" length="9" wid="w463">dishonest</wf>
+    <wf sent="21" para="2" offset="2328" length="1" wid="w464">,</wf>
+    <wf sent="21" para="2" offset="2330" length="2" wid="w465">it</wf>
+    <wf sent="21" para="2" offset="2332" length="2" wid="w466">'s</wf>
+    <wf sent="21" para="2" offset="2335" length="12" wid="w467">hypocritical</wf>
+    <wf sent="21" para="2" offset="2347" length="1" wid="w468">.</wf>
+    <wf sent="27" para="2" offset="3351" length="1" wid="w662">"</wf>
+    <wf sent="27" para="2" offset="3352" length="2" wid="w663">We</wf>
+    <wf sent="27" para="2" offset="3355" length="7" wid="w664">support</wf>
+    <wf sent="27" para="2" offset="3363" length="7" wid="w665">Britain</wf>
+    <wf sent="27" para="2" offset="3370" length="2" wid="w666">'s</wf>
+    <wf sent="27" para="2" offset="3373" length="6" wid="w667">future</wf>
+    <wf sent="27" para="2" offset="3380" length="2" wid="w668">in</wf>
+    <wf sent="27" para="2" offset="3383" length="6" wid="w669">Europe</wf>
+    <wf sent="27" para="2" offset="3390" length="3" wid="w670">but</wf>
+    <wf sent="27" para="2" offset="3394" length="2" wid="w671">we</wf>
+    <wf sent="27" para="2" offset="3397" length="4" wid="w672">also</wf>
+    <wf sent="27" para="2" offset="3402" length="7" wid="w673">support</wf>
+    <wf sent="27" para="2" offset="3410" length="3" wid="w674">the</wf>
+    <wf sent="27" para="2" offset="3414" length="6" wid="w675">reform</wf>
+    <wf sent="27" para="2" offset="3421" length="2" wid="w676">of</wf>
+    <wf sent="27" para="2" offset="3424" length="6" wid="w677">Europe</wf>
+    <wf sent="27" para="2" offset="3430" length="1" wid="w678">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t457">
+      <span>
+        <target id="w457"/>
+      </span>
+    </term>
+    <!--Their-->
+    <term type="close" lemma="their" pos="Q" morphofeat="PRP$" tid="t458">
+      <span>
+        <target id="w458"/>
+      </span>
+    </term>
+    <!--change-->
+    <term type="open" lemma="change" pos="N" morphofeat="NN" tid="t459">
+      <span>
+        <target id="w459"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t460">
+      <span>
+        <target id="w460"/>
+      </span>
+    </term>
+    <!--heart-->
+    <term type="open" lemma="heart" pos="N" morphofeat="NN" tid="t461">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w461"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t462">
+      <span>
+        <target id="w462"/>
+      </span>
+    </term>
+    <!--dishonest-->
+    <term type="open" lemma="dishonest" pos="G" morphofeat="JJ" tid="t463">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w463"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t464">
+      <span>
+        <target id="w464"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t465">
+      <span>
+        <target id="w465"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t466">
+      <span>
+        <target id="w466"/>
+      </span>
+    </term>
+    <!--hypocritical-->
+    <term type="open" lemma="hypocritical" pos="G" morphofeat="JJ" tid="t467">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w467"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t468">
+      <span>
+        <target id="w468"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t662">
+      <span>
+        <target id="w662"/>
+      </span>
+    </term>
+    <!--We-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t663">
+      <span>
+        <target id="w663"/>
+      </span>
+    </term>
+    <!--support-->
+    <term type="open" lemma="support" pos="V" morphofeat="VBP" tid="t664">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w664"/>
+      </span>
+    </term>
+    <!--Britain-->
+    <term type="close" lemma="Britain" pos="R" morphofeat="NNP" tid="t665">
+      <span>
+        <target id="w665"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t666">
+      <span>
+        <target id="w666"/>
+      </span>
+    </term>
+    <!--future-->
+    <term type="open" lemma="future" pos="N" morphofeat="NN" tid="t667">
+      <span>
+        <target id="w667"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t668">
+      <span>
+        <target id="w668"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term type="close" lemma="Europe" pos="R" morphofeat="NNP" tid="t669">
+      <span>
+        <target id="w669"/>
+      </span>
+    </term>
+    <!--but-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t670">
+      <span>
+        <target id="w670"/>
+      </span>
+    </term>
+    <!--we-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t671">
+      <span>
+        <target id="w671"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t672">
+      <span>
+        <target id="w672"/>
+      </span>
+    </term>
+    <!--support-->
+    <term type="open" lemma="support" pos="V" morphofeat="VBP" tid="t673">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w673"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t674">
+      <span>
+        <target id="w674"/>
+      </span>
+    </term>
+    <!--reform-->
+    <term type="open" lemma="reform" pos="N" morphofeat="NN" tid="t675">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w675"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t676">
+      <span>
+        <target id="w676"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term type="close" lemma="Europe" pos="R" morphofeat="NNP" tid="t677">
+      <span>
+        <target id="w677"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t678">
+      <span>
+        <target id="w678"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t663"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Britain 's future-->
+        <span>
+          <target id="t665"/>
+          <target id="t666"/>
+          <target id="t667"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--support-->
+        <span>
+          <target id="t664"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Their change of heart-->
+        <span>
+          <target id="t458"/>
+          <target id="t459"/>
+          <target id="t460"/>
+          <target id="t461"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--dishonest-->
+        <span>
+          <target id="t463"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder>
+        <!--we-->
+        <span>
+          <target id="t671"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the reform of Europe-->
+        <span>
+          <target id="t674"/>
+          <target id="t675"/>
+          <target id="t676"/>
+          <target id="t677"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--support-->
+        <span>
+          <target id="t673"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--it-->
+        <span>
+          <target id="t465"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--hypocritical-->
+        <span>
+          <target id="t467"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:40:53Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:40:53Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:51:26CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:41:34CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w80" sent="6" para="3" offset="479" length="6">Seinem</wf>
+    <wf wid="w81" sent="6" para="3" offset="486" length="10">Nachfolger</wf>
+    <wf wid="w82" sent="6" para="3" offset="497" length="7">wünsche</wf>
+    <wf wid="w83" sent="6" para="3" offset="505" length="2">er</wf>
+    <wf wid="w84" sent="6" para="3" offset="508" length="6">Erfolg</wf>
+    <wf wid="w85" sent="6" para="3" offset="514" length="1">,</wf>
+    <wf wid="w86" sent="6" para="3" offset="516" length="4">ohne</wf>
+    <wf wid="w87" sent="6" para="3" offset="521" length="10">allerdings</wf>
+    <wf wid="w88" sent="6" para="3" offset="532" length="3">dem</wf>
+    <wf wid="w89" sent="6" para="3" offset="536" length="5">Namen</wf>
+    <wf wid="w90" sent="6" para="3" offset="542" length="3">von</wf>
+    <wf wid="w91" sent="6" para="3" offset="546" length="3">Joe</wf>
+    <wf wid="w92" sent="6" para="3" offset="550" length="6">Kaeser</wf>
+    <wf wid="w93" sent="6" para="3" offset="557" length="2">zu</wf>
+    <wf wid="w94" sent="6" para="3" offset="560" length="6">nennen</wf>
+    <wf wid="w95" sent="6" para="3" offset="566" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="sein" morphofeat="PPOSAT" pos="Q" tid="t80" type="close">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <term lemma="Nachfolger" morphofeat="NN" pos="N" tid="t81" type="open">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <term lemma="wünschen" morphofeat="VVFIN" pos="V" tid="t82" type="open">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t83" type="close">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <term lemma="Erfolg" morphofeat="NN" pos="N" tid="t84" type="open">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t85" type="open">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term lemma="ohne" morphofeat="KOUI" pos="C" tid="t86" type="close">
+      <span>
+        <target id="w86"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="allerdings" morphofeat="ADV" pos="A" tid="t87" type="open">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t88" type="close">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <term lemma="Name" morphofeat="NN" pos="N" tid="t89" type="open">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t90" type="close">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <term lemma="Joe" morphofeat="NE" pos="R" tid="t91" type="open">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <term lemma="Kaeser" morphofeat="NE unknown_lemma" pos="O" tid="t92" type="open">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="PTKZU" pos="O" tid="t93" type="open">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <term lemma="nennen" morphofeat="VVINF" pos="V" tid="t94" type="open">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t95" type="open">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--Erfolg-->
+        <span>
+          <target id="t84"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

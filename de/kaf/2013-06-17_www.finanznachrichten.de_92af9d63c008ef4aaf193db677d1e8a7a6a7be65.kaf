@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:38:51Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:38:51Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:12:23CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:39:15CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w92" sent="5" para="2" offset="539" length="3">Die</wf>
+    <wf wid="w93" sent="5" para="2" offset="544" length="15">symbolträchtige</wf>
+    <wf wid="w94" sent="5" para="2" offset="560" length="10">Terminwahl</wf>
+    <wf wid="w95" sent="5" para="2" offset="571" length="11">illustriert</wf>
+    <wf wid="w96" sent="5" para="2" offset="583" length="4">aber</wf>
+    <wf wid="w97" sent="5" para="2" offset="588" length="4">auch</wf>
+    <wf wid="w98" sent="5" para="2" offset="593" length="3">den</wf>
+    <wf wid="w99" sent="5" para="2" offset="597" length="6">Wandel</wf>
+    <wf wid="w100" sent="5" para="2" offset="603" length="1">,</wf>
+    <wf wid="w101" sent="5" para="2" offset="605" length="3">der</wf>
+    <wf wid="w102" sent="5" para="2" offset="609" length="4">sich</wf>
+    <wf wid="w103" sent="5" para="2" offset="614" length="7">seitdem</wf>
+    <wf wid="w104" sent="5" para="2" offset="622" length="7">vollzog</wf>
+    <wf wid="w105" sent="5" para="2" offset="629" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t92" type="close">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <term lemma="symbolträchtig" morphofeat="ADJA" pos="G" tid="t93" type="open">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <term lemma="Terminwahl" morphofeat="NN" pos="N" tid="t94" type="open">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <term lemma="illustrieren" morphofeat="VVPP" pos="V" tid="t95" type="open">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <term lemma="aber" morphofeat="KON" pos="C" tid="t96" type="close">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <term lemma="auch" morphofeat="ADV" pos="A" tid="t97" type="open">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t98" type="close">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <term lemma="Wandel" morphofeat="NN" pos="N" tid="t99" type="open">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t100" type="open">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="PRELS" pos="Q" tid="t101" type="close">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t102" type="close">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <term lemma="seitdem" morphofeat="PAV" pos="Q" tid="t103" type="close">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <term lemma="vollziehen" morphofeat="VVFIN" pos="V" tid="t104" type="open">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t105" type="open">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

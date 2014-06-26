@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:54:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:54:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:54:37Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:31:35CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w138" sent="6" para="4" offset="687" length="2">Il</wf>
+    <wf wid="w139" sent="6" para="4" offset="690" length="10">atteignait</wf>
+    <wf wid="w140" sent="6" para="4" offset="701" length="4">7,41</wf>
+    <wf wid="w141" sent="6" para="4" offset="706" length="6">mètres</wf>
+    <wf wid="w142" sent="6" para="4" offset="713" length="1">à</wf>
+    <wf wid="w143" sent="6" para="4" offset="715" length="5">14H00</wf>
+    <wf wid="w144" sent="6" para="4" offset="721" length="3">GMT</wf>
+    <wf wid="w145" sent="6" para="4" offset="724" length="1">.</wf>
+    <wf wid="w276" sent="13" para="8" offset="1347" length="2">Un</wf>
+    <wf wid="w277" sent="13" para="8" offset="1350" length="7">gymnase</wf>
+    <wf wid="w278" sent="13" para="8" offset="1358" length="10">transformé</wf>
+    <wf wid="w279" sent="13" para="8" offset="1369" length="2">en</wf>
+    <wf wid="w280" sent="13" para="8" offset="1372" length="6">centre</wf>
+    <wf wid="w281" sent="13" para="8" offset="1379" length="2">d'</wf>
+    <wf wid="w282" sent="13" para="8" offset="1381" length="7">accueil</wf>
+    <wf wid="w283" sent="13" para="8" offset="1389" length="2">d'</wf>
+    <wf wid="w284" sent="13" para="8" offset="1391" length="7">urgence</wf>
+    <wf wid="w285" sent="13" para="8" offset="1399" length="10">hébergeait</wf>
+    <wf wid="w286" sent="13" para="8" offset="1410" length="3">des</wf>
+    <wf wid="w287" sent="13" para="8" offset="1414" length="9">personnes</wf>
+    <wf wid="w288" sent="13" para="8" offset="1424" length="5">âgées</wf>
+    <wf wid="w289" sent="13" para="8" offset="1430" length="8">évacuées</wf>
+    <wf wid="w290" sent="13" para="8" offset="1439" length="2">de</wf>
+    <wf wid="w291" sent="13" para="8" offset="1442" length="4">leur</wf>
+    <wf wid="w292" sent="13" para="8" offset="1447" length="8">domicile</wf>
+    <wf wid="w293" sent="13" para="8" offset="1455" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t138" type="close" lemma="Il" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--atteignait-->
+    <term tid="t139" type="open" lemma="atteindre" pos="V" morphofeat="VI3s">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--7,41-->
+    <term tid="t140" type="close" lemma="7,41" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--mètres-->
+    <term tid="t141" type="open" lemma="mètre" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t142" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--14H00-->
+    <term tid="t143" type="close" lemma="14H00" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--GMT-->
+    <term tid="t144" type="open" lemma="GMT" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t145" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--Un-->
+    <term tid="t276" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--gymnase-->
+    <term tid="t277" type="open" lemma="gymnase" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--transformé-->
+    <term tid="t278" type="open" lemma="transformer" pos="V" morphofeat="VKms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t279" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--centre-->
+    <term tid="t280" type="open" lemma="centre" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--d'-->
+    <term tid="t281" type="close" lemma="d'" pos="P" morphofeat="P">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--accueil-->
+    <term tid="t282" type="open" lemma="accueil" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--d'-->
+    <term tid="t283" type="close" lemma="d'" pos="P" morphofeat="P">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--urgence-->
+    <term tid="t284" type="open" lemma="urgence" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--hébergeait-->
+    <term tid="t285" type="open" lemma="héberger" pos="V" morphofeat="VI3s">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t286" type="close" lemma="un" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--personnes-->
+    <term tid="t287" type="open" lemma="personne" pos="N" morphofeat="NCfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--âgées-->
+    <term tid="t288" type="open" lemma="âgé" pos="G" morphofeat="Afp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--évacuées-->
+    <term tid="t289" type="open" lemma="évacuer" pos="V" morphofeat="VKfp">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t290" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--leur-->
+    <term tid="t291" type="close" lemma="son" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--domicile-->
+    <term tid="t292" type="open" lemma="domicile" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t293" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t276"/>
+          <target id="t277"/>
+          <target id="t278"/>
+          <target id="t279"/>
+          <target id="t280"/>
+          <target id="t281"/>
+          <target id="t282"/>
+          <target id="t283"/>
+          <target id="t284"/>
+          <target id="t285"/>
+          <target id="t286"/>
+          <target id="t287"/>
+          <target id="t288"/>
+          <target id="t289"/>
+          <target id="t290"/>
+          <target id="t291"/>
+          <target id="t292"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

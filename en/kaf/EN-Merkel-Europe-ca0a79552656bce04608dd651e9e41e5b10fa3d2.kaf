@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:47:01" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:17:07CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="588" length="5" wid="w98">Greek</wf>
+    <wf sent="5" para="2" offset="594" length="11" wid="w99">politicians</wf>
+    <wf sent="5" para="2" offset="606" length="7" wid="w100">reacted</wf>
+    <wf sent="5" para="2" offset="614" length="7" wid="w101">angrily</wf>
+    <wf sent="5" para="2" offset="621" length="1" wid="w102">,</wf>
+    <wf sent="5" para="2" offset="623" length="3" wid="w103">but</wf>
+    <wf sent="5" para="2" offset="627" length="6" wid="w104">Merkel</wf>
+    <wf sent="5" para="2" offset="633" length="2" wid="w105">'s</wf>
+    <wf sent="5" para="2" offset="636" length="5" wid="w106">aides</wf>
+    <wf sent="5" para="2" offset="642" length="8" wid="w107">insisted</wf>
+    <wf sent="5" para="2" offset="651" length="3" wid="w108">she</wf>
+    <wf sent="5" para="2" offset="655" length="3" wid="w109">had</wf>
+    <wf sent="5" para="2" offset="659" length="3" wid="w110">not</wf>
+    <wf sent="5" para="2" offset="663" length="9" wid="w111">suggested</wf>
+    <wf sent="5" para="2" offset="673" length="1" wid="w112">a</wf>
+    <wf sent="5" para="2" offset="675" length="10" wid="w113">referendum</wf>
+    <wf sent="5" para="2" offset="686" length="6" wid="w114">during</wf>
+    <wf sent="5" para="2" offset="694" length="1" wid="w115">a</wf>
+    <wf sent="5" para="2" offset="696" length="9" wid="w116">telephone</wf>
+    <wf sent="5" para="2" offset="706" length="4" wid="w117">call</wf>
+    <wf sent="5" para="2" offset="711" length="2" wid="w118">on</wf>
+    <wf sent="5" para="2" offset="714" length="6" wid="w119">Friday</wf>
+    <wf sent="5" para="2" offset="721" length="4" wid="w120">with</wf>
+    <wf sent="5" para="2" offset="726" length="3" wid="w121">the</wf>
+    <wf sent="5" para="2" offset="730" length="5" wid="w122">Greek</wf>
+    <wf sent="5" para="2" offset="736" length="9" wid="w123">president</wf>
+    <wf sent="5" para="2" offset="745" length="1" wid="w124">,</wf>
+    <wf sent="5" para="2" offset="747" length="7" wid="w125">Karolos</wf>
+    <wf sent="5" para="2" offset="755" length="9" wid="w126">Papoulias</wf>
+    <wf sent="5" para="2" offset="764" length="1" wid="w127">.</wf>
+  </text>
+  <terms>
+    <!--Greek-->
+    <term type="open" lemma="greek" pos="G" morphofeat="JJ" tid="t98">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--politicians-->
+    <term type="open" lemma="politician" pos="N" morphofeat="NNS" tid="t99">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--reacted-->
+    <term type="open" lemma="react" pos="V" morphofeat="VBN" tid="t100">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--angrily-->
+    <term type="open" lemma="angrily" pos="A" morphofeat="RB" tid="t101">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t102">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--but-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t103">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t104">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t105">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--aides-->
+    <term type="open" lemma="aide" pos="N" morphofeat="NNS" tid="t106">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--insisted-->
+    <term type="open" lemma="insist" pos="V" morphofeat="VBD" tid="t107">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--she-->
+    <term type="close" lemma="she" pos="Q" morphofeat="PRP" tid="t108">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--had-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBD" tid="t109">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t110">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--suggested-->
+    <term type="open" lemma="suggest" pos="V" morphofeat="VBN" tid="t111">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t112">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--referendum-->
+    <term type="open" lemma="referendum" pos="N" morphofeat="NN" tid="t113">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--during-->
+    <term type="close" lemma="during" pos="P" morphofeat="IN" tid="t114">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t115">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--telephone-->
+    <term type="open" lemma="telephone" pos="N" morphofeat="NN" tid="t116">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--call-->
+    <term type="open" lemma="call" pos="N" morphofeat="NN" tid="t117">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t118">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--Friday-->
+    <term type="close" lemma="Friday" pos="R" morphofeat="NNP" tid="t119">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t120">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t121">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--Greek-->
+    <term type="open" lemma="greek" pos="G" morphofeat="JJ" tid="t122">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--president-->
+    <term type="open" lemma="president" pos="N" morphofeat="NN" tid="t123">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t124">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--Karolos-->
+    <term type="close" lemma="Karolos" pos="R" morphofeat="NNP" tid="t125">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--Papoulias-->
+    <term type="close" lemma="Papoulias" pos="R" morphofeat="NNPS" tid="t126">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t127">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Greek politicians-->
+        <span>
+          <target id="t98"/>
+          <target id="t99"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--reacted-->
+        <span>
+          <target id="t100"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--angrily-->
+        <span>
+          <target id="t101"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

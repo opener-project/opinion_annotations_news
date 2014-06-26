@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:08:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:08:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:10:44" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:24:02CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="644" length="4" wid="w122">They</wf>
+    <wf sent="5" para="2" offset="649" length="6" wid="w123">agreed</wf>
+    <wf sent="5" para="2" offset="656" length="1" wid="w124">a</wf>
+    <wf sent="5" para="2" offset="658" length="6" wid="w125">series</wf>
+    <wf sent="5" para="2" offset="665" length="2" wid="w126">of</wf>
+    <wf sent="5" para="2" offset="668" length="7" wid="w127">actions</wf>
+    <wf sent="5" para="2" offset="676" length="5" wid="w128">aimed</wf>
+    <wf sent="5" para="2" offset="682" length="2" wid="w129">at</wf>
+    <wf sent="5" para="2" offset="685" length="9" wid="w130">promoting</wf>
+    <wf sent="5" para="2" offset="695" length="12" wid="w131">transparency</wf>
+    <wf sent="5" para="2" offset="708" length="3" wid="w132">and</wf>
+    <wf sent="5" para="2" offset="712" length="8" wid="w133">exchange</wf>
+    <wf sent="5" para="2" offset="721" length="2" wid="w134">of</wf>
+    <wf sent="5" para="2" offset="724" length="11" wid="w135">information</wf>
+    <wf sent="5" para="2" offset="736" length="7" wid="w136">between</wf>
+    <wf sent="5" para="2" offset="744" length="3" wid="w137">tax</wf>
+    <wf sent="5" para="2" offset="748" length="13" wid="w138">jurisdictions</wf>
+    <wf sent="5" para="2" offset="761" length="1" wid="w139">.</wf>
+    <wf sent="10" para="2" offset="1347" length="1" wid="w258">"</wf>
+    <wf sent="10" para="2" offset="1348" length="3" wid="w259">Aid</wf>
+    <wf sent="10" para="2" offset="1352" length="2" wid="w260">is</wf>
+    <wf sent="10" para="2" offset="1355" length="9" wid="w261">important</wf>
+    <wf sent="10" para="2" offset="1365" length="3" wid="w262">but</wf>
+    <wf sent="10" para="2" offset="1369" length="5" wid="w263">these</wf>
+    <wf sent="10" para="2" offset="1375" length="6" wid="w264">things</wf>
+    <wf sent="10" para="2" offset="1382" length="6" wid="w265">matter</wf>
+    <wf sent="10" para="2" offset="1389" length="4" wid="w266">just</wf>
+    <wf sent="10" para="2" offset="1394" length="2" wid="w267">as</wf>
+    <wf sent="10" para="2" offset="1397" length="4" wid="w268">much</wf>
+    <wf sent="10" para="2" offset="1401" length="1" wid="w269">.</wf>
+  </text>
+  <terms>
+    <!--They-->
+    <term type="close" lemma="they" pos="Q" morphofeat="PRP" tid="t122">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--agreed-->
+    <term type="open" lemma="agree" pos="V" morphofeat="VBD" tid="t123">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t124">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--series-->
+    <term type="open" lemma="series" pos="N" morphofeat="NN" tid="t125">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t126">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--actions-->
+    <term type="open" lemma="action" pos="N" morphofeat="NNS" tid="t127">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--aimed-->
+    <term type="open" lemma="aim" pos="V" morphofeat="VBN" tid="t128">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--at-->
+    <term type="close" lemma="at" pos="P" morphofeat="IN" tid="t129">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--promoting-->
+    <term type="open" lemma="promote" pos="V" morphofeat="VBG" tid="t130">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--transparency-->
+    <term type="open" lemma="transparency" pos="N" morphofeat="NN" tid="t131">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t132">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--exchange-->
+    <term type="open" lemma="exchange" pos="N" morphofeat="NN" tid="t133">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t134">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--information-->
+    <term type="open" lemma="information" pos="N" morphofeat="NN" tid="t135">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--between-->
+    <term type="close" lemma="between" pos="P" morphofeat="IN" tid="t136">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--tax-->
+    <term type="open" lemma="tax" pos="N" morphofeat="NN" tid="t137">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--jurisdictions-->
+    <term type="open" lemma="jurisdiction" pos="N" morphofeat="NNS" tid="t138">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t139">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t258">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--Aid-->
+    <term type="open" lemma="aid" pos="N" morphofeat="NN" tid="t259">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t260">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--important-->
+    <term type="open" lemma="important" pos="G" morphofeat="JJ" tid="t261">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--but-->
+    <term type="close" lemma="but" pos="P" morphofeat="IN" tid="t262">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--these-->
+    <term type="close" lemma="these" pos="D" morphofeat="DT" tid="t263">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--things-->
+    <term type="open" lemma="thing" pos="N" morphofeat="NNS" tid="t264">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--matter-->
+    <term type="open" lemma="matter" pos="V" morphofeat="VBP" tid="t265">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--just-->
+    <term type="open" lemma="just" pos="A" morphofeat="RB" tid="t266">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="open" lemma="as" pos="A" morphofeat="RB" tid="t267">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--much-->
+    <term type="open" lemma="much" pos="A" morphofeat="RB" tid="t268">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t269">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--They-->
+        <span>
+          <target id="t122"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--a series of actions-->
+        <span>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--agreed-->
+        <span>
+          <target id="t123"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Aid-->
+        <span>
+          <target id="t259"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--is important-->
+        <span>
+          <target id="t260"/>
+          <target id="t261"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--They-->
+        <span>
+          <target id="t122"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--exchange of information-->
+        <span>
+          <target id="t133"/>
+          <target id="t134"/>
+          <target id="t135"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--agreed promoting-->
+        <span>
+          <target id="t123"/>
+          <target id="t130"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--They-->
+        <span>
+          <target id="t122"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--transparency-->
+        <span>
+          <target id="t131"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--agreed promoting-->
+        <span>
+          <target id="t123"/>
+          <target id="t130"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--these things-->
+        <span>
+          <target id="t263"/>
+          <target id="t264"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--matter just as much-->
+        <span>
+          <target id="t265"/>
+          <target id="t266"/>
+          <target id="t267"/>
+          <target id="t268"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

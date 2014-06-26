@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:23Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:23Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:57:40" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:00:07CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="10" para="2" offset="1592" length="10" wid="w293">Democratic</wf>
+    <wf sent="10" para="2" offset="1603" length="6" wid="w294">Ulster</wf>
+    <wf sent="10" para="2" offset="1610" length="8" wid="w295">Unionist</wf>
+    <wf sent="10" para="2" offset="1619" length="2" wid="w296">MP</wf>
+    <wf sent="10" para="2" offset="1622" length="5" wid="w297">Nigel</wf>
+    <wf sent="10" para="2" offset="1628" length="5" wid="w298">Dodds</wf>
+    <wf sent="10" para="2" offset="1633" length="1" wid="w299">,</wf>
+    <wf sent="10" para="2" offset="1635" length="3" wid="w300">who</wf>
+    <wf sent="10" para="2" offset="1639" length="9" wid="w301">supported</wf>
+    <wf sent="10" para="2" offset="1649" length="12" wid="w302">Conservative</wf>
+    <wf sent="10" para="2" offset="1662" length="2" wid="w303">MP</wf>
+    <wf sent="10" para="2" offset="1665" length="4" wid="w304">Mark</wf>
+    <wf sent="10" para="2" offset="1670" length="8" wid="w305">Reckless</wf>
+    <wf sent="10" para="2" offset="1678" length="2" wid="w306">’s</wf>
+    <wf sent="10" para="2" offset="1681" length="9" wid="w307">amendment</wf>
+    <wf sent="10" para="2" offset="1690" length="1" wid="w308">,</wf>
+    <wf sent="10" para="2" offset="1692" length="4" wid="w309">said</wf>
+    <wf sent="10" para="2" offset="1697" length="3" wid="w310">the</wf>
+    <wf sent="10" para="2" offset="1701" length="4" wid="w311">vote</wf>
+    <wf sent="10" para="2" offset="1706" length="3" wid="w312">was</wf>
+    <wf sent="10" para="2" offset="1710" length="1" wid="w313">“</wf>
+    <wf sent="10" para="2" offset="1711" length="1" wid="w314">a</wf>
+    <wf sent="10" para="2" offset="1713" length="9" wid="w315">wonderful</wf>
+    <wf sent="10" para="2" offset="1723" length="11" wid="w316">opportunity</wf>
+    <wf sent="10" para="2" offset="1735" length="3" wid="w317">for</wf>
+    <wf sent="10" para="2" offset="1739" length="3" wid="w318">the</wf>
+    <wf sent="10" para="2" offset="1743" length="5" wid="w319">prime</wf>
+    <wf sent="10" para="2" offset="1749" length="8" wid="w320">minister</wf>
+    <wf sent="10" para="2" offset="1758" length="2" wid="w321">to</wf>
+    <wf sent="10" para="2" offset="1761" length="4" wid="w322">take</wf>
+    <wf sent="10" para="2" offset="1766" length="9" wid="w323">increased</wf>
+    <wf sent="10" para="2" offset="1776" length="10" wid="w324">bargaining</wf>
+    <wf sent="10" para="2" offset="1787" length="5" wid="w325">power</wf>
+    <wf sent="10" para="2" offset="1793" length="2" wid="w326">to</wf>
+    <wf sent="10" para="2" offset="1796" length="8" wid="w327">Brussels</wf>
+    <wf sent="10" para="2" offset="1804" length="1" wid="w328">”</wf>
+    <wf sent="10" para="2" offset="1805" length="1" wid="w329">.</wf>
+  </text>
+  <terms>
+    <!--Democratic-->
+    <term type="open" lemma="democratic" pos="G" morphofeat="JJ" tid="t293">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--Ulster-->
+    <term type="close" lemma="Ulster" pos="R" morphofeat="NNP" tid="t294">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--Unionist-->
+    <term type="close" lemma="Unionist" pos="R" morphofeat="NNP" tid="t295">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--MP-->
+    <term type="close" lemma="MP" pos="R" morphofeat="NNP" tid="t296">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--Nigel-->
+    <term type="close" lemma="Nigel" pos="R" morphofeat="NNP" tid="t297">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--Dodds-->
+    <term type="close" lemma="Dodds" pos="R" morphofeat="NNPS" tid="t298">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t299">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--who-->
+    <term type="close" lemma="who" pos="Q" morphofeat="WP" tid="t300">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--supported-->
+    <term type="open" lemma="support" pos="V" morphofeat="VBD" tid="t301">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--Conservative-->
+    <term type="close" lemma="Conservative" pos="R" morphofeat="NNP" tid="t302">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--MP-->
+    <term type="close" lemma="MP" pos="R" morphofeat="NNP" tid="t303">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--Mark-->
+    <term type="close" lemma="Mark" pos="R" morphofeat="NNP" tid="t304">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <!--Reckless-->
+    <term type="open" lemma="reckless" pos="G" morphofeat="JJ" tid="t305">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--’s-->
+    <term type="open" lemma="’s" pos="N" morphofeat="NNS" tid="t306">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <!--amendment-->
+    <term type="open" lemma="amendment" pos="N" morphofeat="NN" tid="t307">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t308">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t309">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t310">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <!--vote-->
+    <term type="open" lemma="vote" pos="N" morphofeat="NN" tid="t311">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t312">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <!--“-->
+    <term type="open" lemma="“" pos="N" morphofeat="NN" tid="t313">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t314">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <!--wonderful-->
+    <term type="open" lemma="wonderful" pos="G" morphofeat="JJ" tid="t315">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <!--opportunity-->
+    <term type="open" lemma="opportunity" pos="N" morphofeat="NN" tid="t316">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t317">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t318">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <!--prime-->
+    <term type="open" lemma="prime" pos="G" morphofeat="JJ" tid="t319">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--minister-->
+    <term type="open" lemma="minister" pos="N" morphofeat="NN" tid="t320">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t321">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <!--take-->
+    <term type="open" lemma="take" pos="V" morphofeat="VB" tid="t322">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--increased-->
+    <term type="open" lemma="increase" pos="V" morphofeat="VBN" tid="t323">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--bargaining-->
+    <term type="open" lemma="bargaining" pos="N" morphofeat="NN" tid="t324">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--power-->
+    <term type="open" lemma="power" pos="N" morphofeat="NN" tid="t325">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t326">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <!--Brussels-->
+    <term type="close" lemma="Brussels" pos="R" morphofeat="NNP" tid="t327">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="N" morphofeat="NN" tid="t328">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t329">
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--who-->
+        <span>
+          <target id="t300"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Conservative MP Mark Reckless ’s amendment-->
+        <span>
+          <target id="t302"/>
+          <target id="t303"/>
+          <target id="t304"/>
+          <target id="t305"/>
+          <target id="t306"/>
+          <target id="t307"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--supported-->
+        <span>
+          <target id="t301"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bargaining power-->
+        <span>
+          <target id="t324"/>
+          <target id="t325"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--increased-->
+        <span>
+          <target id="t323"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Democratic Ulster Unionist MP Nigel Dodds-->
+        <span>
+          <target id="t293"/>
+          <target id="t294"/>
+          <target id="t295"/>
+          <target id="t296"/>
+          <target id="t297"/>
+          <target id="t298"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the vote-->
+        <span>
+          <target id="t310"/>
+          <target id="t311"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--a wonderful opportunity for the prime minister to take increased bargaining power to Brussels-->
+        <span>
+          <target id="t314"/>
+          <target id="t315"/>
+          <target id="t316"/>
+          <target id="t317"/>
+          <target id="t318"/>
+          <target id="t319"/>
+          <target id="t320"/>
+          <target id="t321"/>
+          <target id="t322"/>
+          <target id="t323"/>
+          <target id="t324"/>
+          <target id="t325"/>
+          <target id="t326"/>
+          <target id="t327"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

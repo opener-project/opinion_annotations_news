@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:55Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:55Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:44:03CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w515" sent="25" para="2" offset="2638" length="6">Eerder</wf>
+    <wf wid="w516" sent="25" para="2" offset="2644" length="4">werd</wf>
+    <wf wid="w517" sent="25" para="2" offset="2648" length="2">al</wf>
+    <wf wid="w518" sent="25" para="2" offset="2650" length="6">bekend</wf>
+    <wf wid="w519" sent="25" para="2" offset="2656" length="3">dat</wf>
+    <wf wid="w520" sent="25" para="2" offset="2659" length="2">de</wf>
+    <wf wid="w521" sent="25" para="2" offset="2661" length="12">Braziliaanse</wf>
+    <wf wid="w522" sent="25" para="2" offset="2673" length="9">president</wf>
+    <wf wid="w523" sent="25" para="2" offset="2682" length="8">Rousseff</wf>
+    <wf wid="w524" sent="25" para="2" offset="2690" length="4">werd</wf>
+    <wf wid="w525" sent="25" para="2" offset="2694" length="8">afgetapt</wf>
+    <wf wid="w526" sent="25" para="2" offset="2702" length="1">,</wf>
+    <wf wid="w527" sent="25" para="2" offset="2703" length="6">alsook</wf>
+    <wf wid="w528" sent="25" para="2" offset="2709" length="2">de</wf>
+    <wf wid="w529" sent="25" para="2" offset="2711" length="10">voormalige</wf>
+    <wf wid="w530" sent="25" para="2" offset="2721" length="9">president</wf>
+    <wf wid="w531" sent="25" para="2" offset="2730" length="3">van</wf>
+    <wf wid="w532" sent="25" para="2" offset="2733" length="6">Mexico</wf>
+    <wf wid="w533" sent="25" para="2" offset="2739" length="8">Calderon</wf>
+    <wf wid="w534" sent="25" para="2" offset="2747" length="2">en</wf>
+    <wf wid="w535" sent="25" para="2" offset="2749" length="4">zijn</wf>
+    <wf wid="w536" sent="25" para="2" offset="2753" length="8">opvolger</wf>
+    <wf wid="w537" sent="25" para="2" offset="2761" length="4">Peña</wf>
+    <wf wid="w538" sent="25" para="2" offset="2765" length="5">Nieto</wf>
+    <wf wid="w539" sent="25" para="2" offset="2770" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Eerder-->
+    <term tid="t515" type="open" lemma="eerder" pos="G" morphofeat="adj">
+      <span>
+        <target id="w515"/>
+      </span>
+    </term>
+    <!--werd-->
+    <term tid="t516" type="open" lemma="worden" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w516"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t517" type="open" lemma="al" pos="A" morphofeat="adv">
+      <span>
+        <target id="w517"/>
+      </span>
+    </term>
+    <!--bekend-->
+    <term tid="t518" type="open" lemma="bekennen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w518"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t519" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w519"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t520" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w520"/>
+      </span>
+    </term>
+    <!--Braziliaanse-->
+    <term tid="t521" type="open" lemma="Braziliaans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w521"/>
+      </span>
+    </term>
+    <!--president-->
+    <term tid="t522" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w522"/>
+      </span>
+    </term>
+    <!--Rousseff-->
+    <term tid="t523" type="open" lemma="Rousseff" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w523"/>
+      </span>
+    </term>
+    <!--werd-->
+    <term tid="t524" type="open" lemma="worden" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w524"/>
+      </span>
+    </term>
+    <!--afgetapt-->
+    <term tid="t525" type="open" lemma="aftappen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w525"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t526" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w526"/>
+      </span>
+    </term>
+    <!--alsook-->
+    <term tid="t527" type="close" lemma="alsook" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w527"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t528" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w528"/>
+      </span>
+    </term>
+    <!--voormalige-->
+    <term tid="t529" type="open" lemma="voormalig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w529"/>
+      </span>
+    </term>
+    <!--president-->
+    <term tid="t530" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w530"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t531" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w531"/>
+      </span>
+    </term>
+    <!--Mexico-->
+    <term tid="t532" type="open" lemma="Mexico" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w532"/>
+      </span>
+    </term>
+    <!--Calderon-->
+    <term tid="t533" type="open" lemma="Calderon" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w533"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t534" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w534"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t535" type="close" lemma="zijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w535"/>
+      </span>
+    </term>
+    <!--opvolger-->
+    <term tid="t536" type="open" lemma="opvolger" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w536"/>
+      </span>
+    </term>
+    <!--Peña-->
+    <term tid="t537" type="open" lemma="Peña" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w537"/>
+      </span>
+    </term>
+    <!--Nieto-->
+    <term tid="t538" type="open" lemma="Nieto" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w538"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t539" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w539"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t515"/>
+          <target id="t516"/>
+          <target id="t517"/>
+          <target id="t518"/>
+          <target id="t519"/>
+          <target id="t520"/>
+          <target id="t521"/>
+          <target id="t522"/>
+          <target id="t523"/>
+          <target id="t524"/>
+          <target id="t525"/>
+          <target id="t526"/>
+          <target id="t527"/>
+          <target id="t528"/>
+          <target id="t529"/>
+          <target id="t530"/>
+          <target id="t531"/>
+          <target id="t532"/>
+          <target id="t533"/>
+          <target id="t534"/>
+          <target id="t535"/>
+          <target id="t536"/>
+          <target id="t537"/>
+          <target id="t538"/>
+          <target id="t539"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

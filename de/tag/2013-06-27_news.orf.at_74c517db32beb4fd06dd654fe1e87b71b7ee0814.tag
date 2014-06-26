@@ -1,0 +1,14 @@
+w10	In	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	9	true	3
+w11	Brüssel	Brüssel	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	10	true	3
+w12	hat	haben	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	11	true	3
+w13	der	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	12	true	3
+w14	EU	EU	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	13	true	3
+w15	·	·	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	14	true	3
+w16	Gipfel	Gipfel	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	15	true	3
+w17	zu	zu	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	16	true	3
+w18	den	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	17	true	3
+w19	Themen	Thema	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	18	true	3
+w20	Wirtschaftswachstum	Wirtschaftswachstum	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	19	true	3
+w21	und	und	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	20	true	3
+w22	Jugendarbeitslosigkeit	Jugendarbeitslosigkeit	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	21	true	3
+w23	begonnen	beginnen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	22	true	3

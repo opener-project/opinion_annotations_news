@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:29:41" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:27:08CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:50CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="12" para="2" offset="1322" length="1" wid="w234">"</wf>
+    <wf sent="12" para="2" offset="1323" length="2" wid="w235">We</wf>
+    <wf sent="12" para="2" offset="1326" length="4" wid="w236">will</wf>
+    <wf sent="12" para="2" offset="1331" length="7" wid="w237">respond</wf>
+    <wf sent="12" para="2" offset="1339" length="2" wid="w238">to</wf>
+    <wf sent="12" para="2" offset="1342" length="3" wid="w239">any</wf>
+    <wf sent="12" para="2" offset="1346" length="7" wid="w240">request</wf>
+    <wf sent="12" para="2" offset="1354" length="3" wid="w241">for</wf>
+    <wf sent="12" para="2" offset="1358" length="11" wid="w242">information</wf>
+    <wf sent="12" para="2" offset="1369" length="1" wid="w243">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t234">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--We-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t235">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--will-->
+    <term type="close" lemma="will" pos="O" morphofeat="MD" tid="t236">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--respond-->
+    <term type="open" lemma="respond" pos="V" morphofeat="VB" tid="t237">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t238">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--any-->
+    <term type="close" lemma="any" pos="D" morphofeat="DT" tid="t239">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--request-->
+    <term type="open" lemma="request" pos="N" morphofeat="NN" tid="t240">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t241">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--information-->
+    <term type="open" lemma="information" pos="N" morphofeat="NN" tid="t242">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t243">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t235"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--to any request for information-->
+        <span>
+          <target id="t238"/>
+          <target id="t239"/>
+          <target id="t240"/>
+          <target id="t241"/>
+          <target id="t242"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--will respond-->
+        <span>
+          <target id="t236"/>
+          <target id="t237"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

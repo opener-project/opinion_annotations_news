@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:02:41Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:02:41Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:10:15CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:02:47CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w52" sent="8" para="3" offset="308" length="6">Danach</wf>
+    <wf wid="w53" sent="8" para="3" offset="315" length="5">reist</wf>
+    <wf wid="w54" sent="8" para="3" offset="321" length="3">der</wf>
+    <wf wid="w55" sent="8" para="3" offset="325" length="13">Linksliberale</wf>
+    <wf wid="w56" sent="8" para="3" offset="339" length="4">nach</wf>
+    <wf wid="w57" sent="8" para="3" offset="344" length="5">Paris</wf>
+    <wf wid="w58" sent="8" para="3" offset="350" length="3">und</wf>
+    <wf wid="w59" sent="8" para="3" offset="354" length="7">Brüssel</wf>
+    <wf wid="w60" sent="8" para="3" offset="362" length="6">weiter</wf>
+    <wf wid="w61" sent="8" para="3" offset="368" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="danach" morphofeat="PAV" pos="Q" tid="t52" type="close">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <term lemma="reisen" morphofeat="VVFIN" pos="V" tid="t53" type="open">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t54" type="close">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <term lemma="Linksliberale" morphofeat="NN" pos="N" tid="t55" type="open">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <term lemma="nach" morphofeat="APPR" pos="P" tid="t56" type="close">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <term lemma="Paris" morphofeat="NE" pos="R" tid="t57" type="open">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t58" type="close">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <term lemma="Brüssel" morphofeat="NE" pos="R" tid="t59" type="open">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <term lemma="weiter" morphofeat="PTKVZ" pos="V" tid="t60" type="open">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t61" type="open">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

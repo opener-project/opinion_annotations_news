@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:53:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:53:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:53:38Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:34:43CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w77" sent="6" para="4" offset="365" length="1">"</wf>
+    <wf wid="w78" sent="6" para="4" offset="366" length="2">La</wf>
+    <wf wid="w79" sent="6" para="4" offset="369" length="8">relation</wf>
+    <wf wid="w80" sent="6" para="4" offset="378" length="6">franco</wf>
+    <wf wid="w81" sent="6" para="4" offset="384" length="1">·</wf>
+    <wf wid="w82" sent="6" para="4" offset="385" length="9">allemande</wf>
+    <wf wid="w83" sent="6" para="4" offset="395" length="3">est</wf>
+    <wf wid="w84" sent="6" para="4" offset="399" length="11">essentielle</wf>
+    <wf wid="w85" sent="6" para="4" offset="411" length="4">pour</wf>
+    <wf wid="w86" sent="6" para="4" offset="416" length="4">nous</wf>
+    <wf wid="w87" sent="6" para="4" offset="420" length="1">"</wf>
+    <wf wid="w88" sent="6" para="4" offset="422" length="1">a</wf>
+    <wf wid="w89" sent="6" para="4" offset="424" length="7">déclaré</wf>
+    <wf wid="w90" sent="6" para="4" offset="432" length="2">le</wf>
+    <wf wid="w91" sent="6" para="4" offset="435" length="5">porte</wf>
+    <wf wid="w92" sent="6" para="4" offset="440" length="1">·</wf>
+    <wf wid="w93" sent="6" para="4" offset="441" length="6">parole</wf>
+    <wf wid="w94" sent="6" para="4" offset="448" length="2">de</wf>
+    <wf wid="w95" sent="6" para="4" offset="451" length="2">la</wf>
+    <wf wid="w96" sent="6" para="4" offset="454" length="12">chancellière</wf>
+    <wf wid="w97" sent="6" para="4" offset="466" length="1">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term tid="t77" type="close" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--La-->
+    <term tid="t78" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--relation-->
+    <term tid="t79" type="open" lemma="relation" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--franco-->
+    <term tid="t80" type="open" lemma="franco" pos="G" morphofeat="A">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--·-->
+    <term tid="t81" type="close" lemma="·" pos="P" morphofeat="PONCT">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--allemande-->
+    <term tid="t82" type="open" lemma="allemand" pos="G" morphofeat="A">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t83" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--essentielle-->
+    <term tid="t84" type="open" lemma="essentiel" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t85" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--nous-->
+    <term tid="t86" type="close" lemma="lui" pos="Q" morphofeat="CLS1mp">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t87" type="close" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t88" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--déclaré-->
+    <term tid="t89" type="open" lemma="déclarer" pos="V" morphofeat="VKms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t90" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--porte-->
+    <term tid="t91" type="open" lemma="porte" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--·-->
+    <term tid="t92" type="close" lemma="·" pos="P" morphofeat="P">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--parole-->
+    <term tid="t93" type="open" lemma="parole" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t94" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t95" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--chancellière-->
+    <term tid="t96" type="open" lemma="chancellière" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t97" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--le porte · parole de la chancellière-->
+        <span>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--La relation franco · allemande-->
+        <span>
+          <target id="t78"/>
+          <target id="t79"/>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--essentielle pour nous-->
+        <span>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

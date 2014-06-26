@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:08:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:08:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:34:05" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:26:00CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="11" para="2" offset="1331" length="2" wid="w240">It</wf>
+    <wf sent="11" para="2" offset="1334" length="2" wid="w241">is</wf>
+    <wf sent="11" para="2" offset="1337" length="1" wid="w242">a</wf>
+    <wf sent="11" para="2" offset="1339" length="4" wid="w243">very</wf>
+    <wf sent="11" para="2" offset="1344" length="9" wid="w244">dangerous</wf>
+    <wf sent="11" para="2" offset="1353" length="1" wid="w245">,</wf>
+    <wf sent="11" para="2" offset="1355" length="4" wid="w246">very</wf>
+    <wf sent="11" para="2" offset="1360" length="9" wid="w247">uncertain</wf>
+    <wf sent="11" para="2" offset="1369" length="1" wid="w248">,</wf>
+    <wf sent="11" para="2" offset="1371" length="4" wid="w249">very</wf>
+    <wf sent="11" para="2" offset="1376" length="5" wid="w250">fluid</wf>
+    <wf sent="11" para="2" offset="1382" length="9" wid="w251">situation</wf>
+    <wf sent="11" para="2" offset="1391" length="1" wid="w252">.</wf>
+  </text>
+  <terms>
+    <!--It-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t240">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t241">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t242">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--very-->
+    <term type="open" lemma="very" pos="A" morphofeat="RB" tid="t243">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--dangerous-->
+    <term type="open" lemma="dangerous" pos="G" morphofeat="JJ" tid="t244">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t245">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--very-->
+    <term type="open" lemma="very" pos="A" morphofeat="RB" tid="t246">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--uncertain-->
+    <term type="open" lemma="uncertain" pos="G" morphofeat="JJ" tid="t247">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t248">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--very-->
+    <term type="open" lemma="very" pos="A" morphofeat="RB" tid="t249">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--fluid-->
+    <term type="open" lemma="fluid" pos="G" morphofeat="JJ" tid="t250">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--situation-->
+    <term type="open" lemma="situation" pos="N" morphofeat="NN" tid="t251">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t252">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--It-->
+        <span>
+          <target id="t240"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--very dangerous-->
+        <span>
+          <target id="t243"/>
+          <target id="t244"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--It-->
+        <span>
+          <target id="t240"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--very uncertain-->
+        <span>
+          <target id="t246"/>
+          <target id="t247"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--It-->
+        <span>
+          <target id="t240"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--very fluid situation-->
+        <span>
+          <target id="t249"/>
+          <target id="t250"/>
+          <target id="t251"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--situation-->
+        <span>
+          <target id="t251"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--very fluid-->
+        <span>
+          <target id="t249"/>
+          <target id="t250"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

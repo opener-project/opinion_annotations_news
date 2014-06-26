@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:05:33Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:05:33Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:08:15CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:05:52CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w265" sent="16" para="7" offset="1528" length="3">Die</wf>
+    <wf wid="w266" sent="16" para="7" offset="1532" length="9">Koalition</wf>
+    <wf wid="w267" sent="16" para="7" offset="1542" length="3">mit</wf>
+    <wf wid="w268" sent="16" para="7" offset="1546" length="3">der</wf>
+    <wf wid="w269" sent="16" para="7" offset="1550" length="3">FDP</wf>
+    <wf wid="w270" sent="16" para="7" offset="1554" length="7">krankte</wf>
+    <wf wid="w271" sent="16" para="7" offset="1562" length="4">vier</wf>
+    <wf wid="w272" sent="16" para="7" offset="1567" length="5">Jahre</wf>
+    <wf wid="w273" sent="16" para="7" offset="1573" length="2">an</wf>
+    <wf wid="w274" sent="16" para="7" offset="1576" length="3">den</wf>
+    <wf wid="w275" sent="16" para="7" offset="1580" length="8">hastigen</wf>
+    <wf wid="w276" sent="16" para="7" offset="1589" length="23">Koalitionsverhandlungen</wf>
+    <wf wid="w277" sent="16" para="7" offset="1613" length="2">am</wf>
+    <wf wid="w278" sent="16" para="7" offset="1616" length="6">Anfang</wf>
+    <wf wid="w279" sent="16" para="7" offset="1622" length="1">.</wf>
+    <wf wid="w280" sent="16" para="7" offset="1623" length="1">"</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t265" type="close">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <term lemma="Koalition" morphofeat="NN" pos="N" tid="t266" type="open">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t267" type="close">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t268" type="close">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <term lemma="FDP" morphofeat="NE" pos="R" tid="t269" type="open">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <term lemma="krankte" morphofeat="VVFIN unknown_lemma" pos="O" tid="t270" type="open">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <term lemma="vier" morphofeat="CARD" pos="O" tid="t271" type="open">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <term lemma="Jahr" morphofeat="NN" pos="N" tid="t272" type="open">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPR" pos="P" tid="t273" type="close">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t274" type="close">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <term lemma="hastig" morphofeat="ADJA" pos="G" tid="t275" type="open">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <term lemma="Koalitionsverhandlung" morphofeat="NN" pos="N" tid="t276" type="open">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t277" type="close">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <term lemma="Anfang" morphofeat="NN" pos="N" tid="t278" type="open">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t279" type="open">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t280" type="open">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Die Koalition mit der FDP-->
+        <span>
+          <target id="t265"/>
+          <target id="t266"/>
+          <target id="t267"/>
+          <target id="t268"/>
+          <target id="t269"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--den hastigen Koalitionsverhandlungen am Anfang-->
+        <span>
+          <target id="t274"/>
+          <target id="t275"/>
+          <target id="t276"/>
+          <target id="t277"/>
+          <target id="t278"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--krankte an-->
+        <span>
+          <target id="t270"/>
+          <target id="t273"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Koalitionsverhandlungen-->
+        <span>
+          <target id="t276"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--hastigen-->
+        <span>
+          <target id="t275"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:21:17CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w163" sent="13" para="2" offset="816" length="6">Bankia</wf>
+    <wf wid="w164" sent="13" para="2" offset="823" length="4">werd</wf>
+    <wf wid="w165" sent="13" para="2" offset="828" length="2">op</wf>
+    <wf wid="w166" sent="13" para="2" offset="831" length="1">9</wf>
+    <wf wid="w167" sent="13" para="2" offset="833" length="3">mei</wf>
+    <wf wid="w168" sent="13" para="2" offset="837" length="5">deels</wf>
+    <wf wid="w169" sent="13" para="2" offset="843" length="16">genationaliseerd</wf>
+    <wf wid="w170" sent="13" para="2" offset="859" length="1">.</wf>
+    <wf wid="w196" sent="15" para="2" offset="992" length="2">De</wf>
+    <wf wid="w197" sent="15" para="2" offset="995" length="4">bank</wf>
+    <wf wid="w198" sent="15" para="2" offset="1000" length="7">verloor</wf>
+    <wf wid="w199" sent="15" para="2" offset="1008" length="12">uiteindelijk</wf>
+    <wf wid="w200" sent="15" para="2" offset="1021" length="2">14</wf>
+    <wf wid="w201" sent="15" para="2" offset="1024" length="7">procent</wf>
+    <wf wid="w202" sent="15" para="2" offset="1032" length="3">van</wf>
+    <wf wid="w203" sent="15" para="2" offset="1036" length="4">haar</wf>
+    <wf wid="w204" sent="15" para="2" offset="1041" length="6">waarde</wf>
+    <wf wid="w205" sent="15" para="2" offset="1047" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Bankia-->
+    <term tid="t163" type="open" lemma="Bankia" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--werd-->
+    <term tid="t164" type="open" lemma="worden" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t165" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--9-->
+    <term tid="t166" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--mei-->
+    <term tid="t167" type="open" lemma="mei" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--deels-->
+    <term tid="t168" type="open" lemma="deels" pos="A" morphofeat="adv">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--genationaliseerd-->
+    <term tid="t169" type="open" lemma="nationaliseren" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t170" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t196" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--bank-->
+    <term tid="t197" type="open" lemma="bank" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--verloor-->
+    <term tid="t198" type="open" lemma="verliezen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w198"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--uiteindelijk-->
+    <term tid="t199" type="open" lemma="uiteindelijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--14-->
+    <term tid="t200" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--procent-->
+    <term tid="t201" type="open" lemma="procent" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t202" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--haar-->
+    <term tid="t203" type="close" lemma="haar" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--waarde-->
+    <term tid="t204" type="open" lemma="waarde" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w204"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t205" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

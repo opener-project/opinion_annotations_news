@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:04:45Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:04:45Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:50:34" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:14:35CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="19" para="2" offset="3269" length="6" wid="w573">Growth</wf>
+    <wf sent="19" para="2" offset="3276" length="3" wid="w574">was</wf>
+    <wf sent="19" para="2" offset="3280" length="4" wid="w575">also</wf>
+    <wf sent="19" para="2" offset="3285" length="4" wid="w576">seen</wf>
+    <wf sent="19" para="2" offset="3290" length="2" wid="w577">in</wf>
+    <wf sent="19" para="2" offset="3293" length="7" wid="w578">Finland</wf>
+    <wf sent="19" para="2" offset="3301" length="1" wid="w579">(</wf>
+    <wf sent="19" para="2" offset="3302" length="1" wid="w580">1</wf>
+    <wf sent="19" para="2" offset="3303" length="1" wid="w581">.</wf>
+    <wf sent="20" para="2" offset="3304" length="1" wid="w582">3</wf>
+    <wf sent="20" para="2" offset="3305" length="1" wid="w583">%</wf>
+    <wf sent="20" para="2" offset="3306" length="1" wid="w584">)</wf>
+    <wf sent="20" para="2" offset="3308" length="3" wid="w585">and</wf>
+    <wf sent="20" para="2" offset="3312" length="7" wid="w586">Belgium</wf>
+    <wf sent="20" para="2" offset="3320" length="1" wid="w587">(</wf>
+    <wf sent="20" para="2" offset="3321" length="1" wid="w588">0</wf>
+    <wf sent="20" para="2" offset="3322" length="1" wid="w589">.</wf>
+    <wf sent="21" para="2" offset="3323" length="1" wid="w590">3</wf>
+    <wf sent="21" para="2" offset="3324" length="1" wid="w591">%</wf>
+    <wf sent="21" para="2" offset="3325" length="1" wid="w592">)</wf>
+    <wf sent="21" para="2" offset="3326" length="1" wid="w593">,</wf>
+    <wf sent="21" para="2" offset="3328" length="5" wid="w594">while</wf>
+    <wf sent="21" para="2" offset="3334" length="6" wid="w595">France</wf>
+    <wf sent="21" para="2" offset="3341" length="8" wid="w596">recorded</wf>
+    <wf sent="21" para="2" offset="3350" length="4" wid="w597">zero</wf>
+    <wf sent="21" para="2" offset="3355" length="6" wid="w598">growth</wf>
+    <wf sent="21" para="2" offset="3361" length="1" wid="w599">.</wf>
+  </text>
+  <terms>
+    <!--Growth-->
+    <term type="open" lemma="growth" pos="N" morphofeat="NN" tid="t573">
+      <span>
+        <target id="w573"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t574">
+      <span>
+        <target id="w574"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t575">
+      <span>
+        <target id="w575"/>
+      </span>
+    </term>
+    <!--seen-->
+    <term type="open" lemma="see" pos="V" morphofeat="VBN" tid="t576">
+      <span>
+        <target id="w576"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t577">
+      <span>
+        <target id="w577"/>
+      </span>
+    </term>
+    <!--Finland-->
+    <term type="close" lemma="Finland" pos="R" morphofeat="NNP" tid="t578">
+      <span>
+        <target id="w578"/>
+      </span>
+    </term>
+    <!--(-->
+    <term type="close" lemma="(" pos="O" morphofeat="(" tid="t579">
+      <span>
+        <target id="w579"/>
+      </span>
+    </term>
+    <!--1-->
+    <term type="close" lemma="1" pos="O" morphofeat="CD" tid="t580">
+      <span>
+        <target id="w580"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t581">
+      <span>
+        <target id="w581"/>
+      </span>
+    </term>
+    <!--3-->
+    <term type="close" lemma="3" pos="O" morphofeat="CD" tid="t582">
+      <span>
+        <target id="w582"/>
+      </span>
+    </term>
+    <!--%-->
+    <term type="open" lemma="%" pos="N" morphofeat="NN" tid="t583">
+      <span>
+        <target id="w583"/>
+      </span>
+    </term>
+    <!--)-->
+    <term type="close" lemma=")" pos="O" morphofeat=")" tid="t584">
+      <span>
+        <target id="w584"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t585">
+      <span>
+        <target id="w585"/>
+      </span>
+    </term>
+    <!--Belgium-->
+    <term type="close" lemma="Belgium" pos="R" morphofeat="NNP" tid="t586">
+      <span>
+        <target id="w586"/>
+      </span>
+    </term>
+    <!--(-->
+    <term type="close" lemma="(" pos="O" morphofeat="(" tid="t587">
+      <span>
+        <target id="w587"/>
+      </span>
+    </term>
+    <!--0-->
+    <term type="close" lemma="0" pos="O" morphofeat="CD" tid="t588">
+      <span>
+        <target id="w588"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t589">
+      <span>
+        <target id="w589"/>
+      </span>
+    </term>
+    <!--3-->
+    <term type="close" lemma="3" pos="O" morphofeat="CD" tid="t590">
+      <span>
+        <target id="w590"/>
+      </span>
+    </term>
+    <!--%-->
+    <term type="open" lemma="%" pos="N" morphofeat="NN" tid="t591">
+      <span>
+        <target id="w591"/>
+      </span>
+    </term>
+    <!--)-->
+    <term type="close" lemma=")" pos="O" morphofeat=")" tid="t592">
+      <span>
+        <target id="w592"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t593">
+      <span>
+        <target id="w593"/>
+      </span>
+    </term>
+    <!--while-->
+    <term type="close" lemma="while" pos="P" morphofeat="IN" tid="t594">
+      <span>
+        <target id="w594"/>
+      </span>
+    </term>
+    <!--France-->
+    <term type="close" lemma="France" pos="R" morphofeat="NNP" tid="t595">
+      <span>
+        <target id="w595"/>
+      </span>
+    </term>
+    <!--recorded-->
+    <term type="open" lemma="record" pos="V" morphofeat="VBD" tid="t596">
+      <span>
+        <target id="w596"/>
+      </span>
+    </term>
+    <!--zero-->
+    <term type="close" lemma="zero" pos="O" morphofeat="CD" tid="t597">
+      <span>
+        <target id="w597"/>
+      </span>
+    </term>
+    <!--growth-->
+    <term type="open" lemma="growth" pos="N" morphofeat="NN" tid="t598">
+      <span>
+        <target id="w598"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t599">
+      <span>
+        <target id="w599"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t573"/>
+          <target id="t574"/>
+          <target id="t575"/>
+          <target id="t576"/>
+          <target id="t577"/>
+          <target id="t578"/>
+          <target id="t579"/>
+          <target id="t580"/>
+          <target id="t581"/>
+          <target id="t582"/>
+          <target id="t583"/>
+          <target id="t584"/>
+          <target id="t585"/>
+          <target id="t586"/>
+          <target id="t587"/>
+          <target id="t588"/>
+          <target id="t589"/>
+          <target id="t590"/>
+          <target id="t591"/>
+          <target id="t592"/>
+          <target id="t593"/>
+          <target id="t594"/>
+          <target id="t595"/>
+          <target id="t596"/>
+          <target id="t597"/>
+          <target id="t598"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

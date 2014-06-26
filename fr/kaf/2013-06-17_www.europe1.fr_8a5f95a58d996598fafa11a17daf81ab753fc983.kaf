@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:47:29Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:47:29Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:47:29Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:34:46CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w416" sent="20" para="10" offset="2033" length="8">François</wf>
+    <wf wid="w417" sent="20" para="10" offset="2042" length="8">Hollande</wf>
+    <wf wid="w418" sent="20" para="10" offset="2051" length="1">a</wf>
+    <wf wid="w419" sent="20" para="10" offset="2053" length="2">d'</wf>
+    <wf wid="w420" sent="20" para="10" offset="2055" length="8">ailleurs</wf>
+    <wf wid="w421" sent="20" para="10" offset="2064" length="8">critiqué</wf>
+    <wf wid="w422" sent="20" para="10" offset="2073" length="1">à</wf>
+    <wf wid="w423" sent="20" para="10" offset="2075" length="3">son</wf>
+    <wf wid="w424" sent="20" para="10" offset="2079" length="7">arrivée</wf>
+    <wf wid="w425" sent="20" para="10" offset="2087" length="2">au</wf>
+    <wf wid="w426" sent="20" para="10" offset="2090" length="6">sommet</wf>
+    <wf wid="w427" sent="20" para="10" offset="2097" length="2">le</wf>
+    <wf wid="w428" sent="20" para="10" offset="2100" length="7">soutien</wf>
+    <wf wid="w429" sent="20" para="10" offset="2108" length="3">qu'</wf>
+    <wf wid="w430" sent="20" para="10" offset="2111" length="7">apporte</wf>
+    <wf wid="w431" sent="20" para="10" offset="2119" length="2">la</wf>
+    <wf wid="w432" sent="20" para="10" offset="2122" length="6">Russie</wf>
+    <wf wid="w433" sent="20" para="10" offset="2129" length="2">au</wf>
+    <wf wid="w434" sent="20" para="10" offset="2132" length="6">régime</wf>
+    <wf wid="w435" sent="20" para="10" offset="2139" length="6">syrien</wf>
+    <wf wid="w436" sent="20" para="10" offset="2146" length="4">dans</wf>
+    <wf wid="w437" sent="20" para="10" offset="2151" length="2">le</wf>
+    <wf wid="w438" sent="20" para="10" offset="2154" length="7">conflit</wf>
+    <wf wid="w439" sent="20" para="10" offset="2161" length="1">.</wf>
+  </text>
+  <terms>
+    <!--François-->
+    <term tid="t416" type="open" lemma="François" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w416"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t417" type="open" lemma="hollande" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t418" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <!--d'-->
+    <term tid="t419" type="close" lemma="d'" pos="P" morphofeat="P">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+    <!--ailleurs-->
+    <term tid="t420" type="open" lemma="ailleurs" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w420"/>
+      </span>
+    </term>
+    <!--critiqué-->
+    <term tid="t421" type="open" lemma="critiquer" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w421"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t422" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w422"/>
+      </span>
+    </term>
+    <!--son-->
+    <term tid="t423" type="close" lemma="son" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w423"/>
+      </span>
+    </term>
+    <!--arrivée-->
+    <term tid="t424" type="open" lemma="arrivé" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w424"/>
+      </span>
+    </term>
+    <!--au-->
+    <term tid="t425" type="close" lemma="au" pos="P" morphofeat="P">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w425"/>
+      </span>
+    </term>
+    <!--sommet-->
+    <term tid="t426" type="open" lemma="sommet" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w426"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t427" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w427"/>
+      </span>
+    </term>
+    <!--soutien-->
+    <term tid="t428" type="open" lemma="soutien" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w428"/>
+      </span>
+    </term>
+    <!--qu'-->
+    <term tid="t429" type="open" lemma="qu'" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w429"/>
+      </span>
+    </term>
+    <!--apporte-->
+    <term tid="t430" type="open" lemma="apporter" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w430"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t431" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w431"/>
+      </span>
+    </term>
+    <!--Russie-->
+    <term tid="t432" type="open" lemma="Russie" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w432"/>
+      </span>
+    </term>
+    <!--au-->
+    <term tid="t433" type="close" lemma="au" pos="O" morphofeat="default">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w433"/>
+      </span>
+    </term>
+    <!--régime-->
+    <term tid="t434" type="open" lemma="régime" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w434"/>
+      </span>
+    </term>
+    <!--syrien-->
+    <term tid="t435" type="open" lemma="syrien" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w435"/>
+      </span>
+    </term>
+    <!--dans-->
+    <term tid="t436" type="close" lemma="dans" pos="P" morphofeat="P">
+      <span>
+        <target id="w436"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t437" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w437"/>
+      </span>
+    </term>
+    <!--conflit-->
+    <term tid="t438" type="open" lemma="conflit" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w438"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t439" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w439"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--François Hollande-->
+        <span>
+          <target id="t416"/>
+          <target id="t417"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--le soutien qu' apporte la Russie au régime syrien dans le conflit-->
+        <span>
+          <target id="t427"/>
+          <target id="t428"/>
+          <target id="t429"/>
+          <target id="t430"/>
+          <target id="t431"/>
+          <target id="t432"/>
+          <target id="t433"/>
+          <target id="t434"/>
+          <target id="t435"/>
+          <target id="t436"/>
+          <target id="t437"/>
+          <target id="t438"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--a critiqué-->
+        <span>
+          <target id="t418"/>
+          <target id="t421"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

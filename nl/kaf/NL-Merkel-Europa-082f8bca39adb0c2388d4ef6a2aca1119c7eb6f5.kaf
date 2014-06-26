@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T16:09:12CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:26CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w109" sent="8" para="2" offset="679" length="3">Dit</wf>
+    <wf wid="w110" sent="8" para="2" offset="683" length="4">jaar</wf>
+    <wf wid="w111" sent="8" para="2" offset="688" length="2">is</wf>
+    <wf wid="w112" sent="8" para="2" offset="691" length="3">het</wf>
+    <wf wid="w113" sent="8" para="2" offset="695" length="16">begrotingstekort</wf>
+    <wf wid="w114" sent="8" para="2" offset="712" length="4">naar</wf>
+    <wf wid="w115" sent="8" para="2" offset="717" length="11">verwachting</wf>
+    <wf wid="w116" sent="8" para="2" offset="729" length="3">9,3</wf>
+    <wf wid="w117" sent="8" para="2" offset="733" length="7">procent</wf>
+    <wf wid="w118" sent="8" para="2" offset="740" length="1">.</wf>
+    <wf wid="w273" sent="17" para="2" offset="1640" length="2">De</wf>
+    <wf wid="w274" sent="17" para="2" offset="1643" length="8">minister</wf>
+    <wf wid="w275" sent="17" para="2" offset="1652" length="3">van</wf>
+    <wf wid="w276" sent="17" para="2" offset="1656" length="9">Financiën</wf>
+    <wf wid="w277" sent="17" para="2" offset="1666" length="2">in</wf>
+    <wf wid="w278" sent="17" para="2" offset="1669" length="7">Berlijn</wf>
+    <wf wid="w279" sent="17" para="2" offset="1676" length="1">,</wf>
+    <wf wid="w280" sent="17" para="2" offset="1678" length="8">Wolfgang</wf>
+    <wf wid="w281" sent="17" para="2" offset="1687" length="8">Schäuble</wf>
+    <wf wid="w282" sent="17" para="2" offset="1695" length="1">,</wf>
+    <wf wid="w283" sent="17" para="2" offset="1697" length="11">waarschuwde</wf>
+    <wf wid="w284" sent="17" para="2" offset="1709" length="4">voor</wf>
+    <wf wid="w285" sent="17" para="2" offset="1714" length="10">arrogantie</wf>
+    <wf wid="w286" sent="17" para="2" offset="1725" length="9">tegenover</wf>
+    <wf wid="w287" sent="17" para="2" offset="1735" length="6">landen</wf>
+    <wf wid="w288" sent="17" para="2" offset="1742" length="3">als</wf>
+    <wf wid="w289" sent="17" para="2" offset="1746" length="11">Griekenland</wf>
+    <wf wid="w290" sent="17" para="2" offset="1757" length="1">.</wf>
+    <wf wid="w311" sent="19" para="2" offset="1844" length="8">Schäuble</wf>
+    <wf wid="w312" sent="19" para="2" offset="1853" length="5">vindt</wf>
+    <wf wid="w313" sent="19" para="2" offset="1859" length="7">clichés</wf>
+    <wf wid="w314" sent="19" para="2" offset="1867" length="4">over</wf>
+    <wf wid="w315" sent="19" para="2" offset="1872" length="8">slordige</wf>
+    <wf wid="w316" sent="19" para="2" offset="1881" length="15">Zuid-Europeanen</wf>
+    <wf wid="w317" sent="19" para="2" offset="1897" length="5">grote</wf>
+    <wf wid="w318" sent="19" para="2" offset="1903" length="5">onzin</wf>
+    <wf wid="w319" sent="19" para="2" offset="1908" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Dit-->
+    <term tid="t109" type="close" lemma="dit" pos="D" morphofeat="det__demo">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--jaar-->
+    <term tid="t110" type="open" lemma="jaar" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t111" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t112" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--begrotingstekort-->
+    <term tid="t113" type="open" lemma="begrotingstekort" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--naar-->
+    <term tid="t114" type="close" lemma="naar" pos="P" morphofeat="prep">
+      <span>
+        <target id="w114"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--verwachting-->
+    <term tid="t115" type="open" lemma="verwachting" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--9,3-->
+    <term tid="t116" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--procent-->
+    <term tid="t117" type="open" lemma="procent" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t118" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t273" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--minister-->
+    <term tid="t274" type="open" lemma="minister" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t275" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--Financiën-->
+    <term tid="t276" type="open" lemma="financiën" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t277" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--Berlijn-->
+    <term tid="t278" type="open" lemma="Berlijn" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t279" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--Wolfgang-->
+    <term tid="t280" type="open" lemma="Wolfgang" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--Schäuble-->
+    <term tid="t281" type="open" lemma="Schäuble" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t282" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--waarschuwde-->
+    <term tid="t283" type="open" lemma="waarschuwen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t284" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--arrogantie-->
+    <term tid="t285" type="open" lemma="arrogantie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w285"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--tegenover-->
+    <term tid="t286" type="close" lemma="tegenover" pos="P" morphofeat="prep">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--landen-->
+    <term tid="t287" type="open" lemma="land" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--als-->
+    <term tid="t288" type="close" lemma="als" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--Griekenland-->
+    <term tid="t289" type="open" lemma="Griekenland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t290" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--Schäuble-->
+    <term tid="t311" type="open" lemma="Schäuble" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <!--vindt-->
+    <term tid="t312" type="open" lemma="vinden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <!--clichés-->
+    <term tid="t313" type="open" lemma="cliché" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t314" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <!--slordige-->
+    <term tid="t315" type="open" lemma="slordig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w315"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Zuid-Europeanen-->
+    <term tid="t316" type="open" lemma="Zuid-Europeanen" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--grote-->
+    <term tid="t317" type="open" lemma="groot" pos="G" morphofeat="adj">
+      <span>
+        <target id="w317"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--onzin-->
+    <term tid="t318" type="open" lemma="onzin" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w318"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t319" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Zuid-Europeanen-->
+        <span>
+          <target id="t316"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--slordige-->
+        <span>
+          <target id="t315"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--minister van Financiën in Berlijn-->
+        <span>
+          <target id="t274"/>
+          <target id="t275"/>
+          <target id="t276"/>
+          <target id="t277"/>
+          <target id="t278"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--arrogantie-->
+        <span>
+          <target id="t285"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--waarschuwde-->
+        <span>
+          <target id="t283"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--landen als Griekenland-->
+        <span>
+          <target id="t287"/>
+          <target id="t288"/>
+          <target id="t289"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--arrogantie-->
+        <span>
+          <target id="t285"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:24Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:24Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:55:26CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:31CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w120" sent="9" para="2" offset="718" length="2">De</wf>
+    <wf wid="w121" sent="9" para="2" offset="721" length="14">multinationals</wf>
+    <wf wid="w122" sent="9" para="2" offset="736" length="5">lopen</wf>
+    <wf wid="w123" sent="9" para="2" offset="742" length="7">volgens</wf>
+    <wf wid="w124" sent="9" para="2" offset="750" length="2">de</wf>
+    <wf wid="w125" sent="9" para="2" offset="753" length="18">kredietbeoordelaar</wf>
+    <wf wid="w126" sent="9" para="2" offset="772" length="12">aanzienlijke</wf>
+    <wf wid="w127" sent="9" para="2" offset="785" length="6">risico</wf>
+    <wf wid="w128" sent="9" para="2" offset="791" length="1">'</wf>
+    <wf wid="w129" sent="9" para="2" offset="792" length="1">s</wf>
+    <wf wid="w130" sent="9" para="2" offset="794" length="4">door</wf>
+    <wf wid="w131" sent="9" para="2" offset="799" length="2">de</wf>
+    <wf wid="w132" sent="9" para="2" offset="802" length="15">voortwoekerende</wf>
+    <wf wid="w133" sent="9" para="2" offset="818" length="14">schuldencrisis</wf>
+    <wf wid="w134" sent="9" para="2" offset="832" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t120" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--multinationals-->
+    <term tid="t121" type="open" lemma="multinational" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--lopen-->
+    <term tid="t122" type="open" lemma="lopen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w122"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--volgens-->
+    <term tid="t123" type="close" lemma="volgens" pos="P" morphofeat="prep">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t124" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--kredietbeoordelaar-->
+    <term tid="t125" type="open" lemma="kredietbeoordelaar" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--aanzienlijke-->
+    <term tid="t126" type="open" lemma="aanzienlijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--risico-->
+    <term tid="t127" type="open" lemma="risico" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w127"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--'-->
+    <term tid="t128" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--s-->
+    <term tid="t129" type="open" lemma="s" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--door-->
+    <term tid="t130" type="close" lemma="door" pos="P" morphofeat="prep">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t131" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--voortwoekerende-->
+    <term tid="t132" type="open" lemma="voortwoekeren" pos="V" morphofeat="verbpresp">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--schuldencrisis-->
+    <term tid="t133" type="open" lemma="schuldencrisis" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t134" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--voortwoekerende schuldencrisis-->
+        <span>
+          <target id="t132"/>
+          <target id="t133"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

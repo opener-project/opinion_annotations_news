@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:04:21CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w173" sent="10" para="2" offset="1012" length="2">De</wf>
+    <wf wid="w174" sent="10" para="2" offset="1015" length="6">Britse</wf>
+    <wf wid="w175" sent="10" para="2" offset="1022" length="7">premier</wf>
+    <wf wid="w176" sent="10" para="2" offset="1030" length="7">Cameron</wf>
+    <wf wid="w177" sent="10" para="2" offset="1038" length="12">feliciteerde</wf>
+    <wf wid="w178" sent="10" para="2" offset="1051" length="5">Obama</wf>
+    <wf wid="w179" sent="10" para="2" offset="1057" length="3">via</wf>
+    <wf wid="w180" sent="10" para="2" offset="1061" length="7">Twitter</wf>
+    <wf wid="w181" sent="10" para="2" offset="1069" length="6">vanuit</wf>
+    <wf wid="w182" sent="10" para="2" offset="1076" length="3">een</wf>
+    <wf wid="w183" sent="10" para="2" offset="1080" length="7">Syrisch</wf>
+    <wf wid="w184" sent="10" para="2" offset="1088" length="17">vluchtelingenkamp</wf>
+    <wf wid="w185" sent="10" para="2" offset="1106" length="2">in</wf>
+    <wf wid="w186" sent="10" para="2" offset="1109" length="3">het</wf>
+    <wf wid="w187" sent="10" para="2" offset="1113" length="7">noorden</wf>
+    <wf wid="w188" sent="10" para="2" offset="1121" length="3">van</wf>
+    <wf wid="w189" sent="10" para="2" offset="1125" length="8">Jordanië</wf>
+    <wf wid="w190" sent="10" para="2" offset="1134" length="1">:</wf>
+    <wf wid="w191" sent="10" para="2" offset="1136" length="1">'</wf>
+    <wf wid="w192" sent="10" para="2" offset="1137" length="5">Warme</wf>
+    <wf wid="w193" sent="10" para="2" offset="1143" length="11">gelukwensen</wf>
+    <wf wid="w194" sent="10" para="2" offset="1155" length="3">aan</wf>
+    <wf wid="w195" sent="10" para="2" offset="1159" length="4">mijn</wf>
+    <wf wid="w196" sent="10" para="2" offset="1164" length="6">vriend</wf>
+    <wf wid="w197" sent="10" para="2" offset="1171" length="6">Barack</wf>
+    <wf wid="w198" sent="10" para="2" offset="1178" length="5">Obama</wf>
+    <wf wid="w199" sent="10" para="2" offset="1183" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t173" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--Britse-->
+    <term tid="t174" type="open" lemma="Brits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t175" type="open" lemma="premier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w175"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Cameron-->
+    <term tid="t176" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--feliciteerde-->
+    <term tid="t177" type="open" lemma="feliciteren" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term tid="t178" type="open" lemma="Obama" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--via-->
+    <term tid="t179" type="close" lemma="via" pos="P" morphofeat="prep">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--Twitter-->
+    <term tid="t180" type="open" lemma="Twitter" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--vanuit-->
+    <term tid="t181" type="close" lemma="vanuit" pos="P" morphofeat="prep">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t182" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--Syrisch-->
+    <term tid="t183" type="open" lemma="Syrisch" pos="G" morphofeat="adj">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--vluchtelingenkamp-->
+    <term tid="t184" type="open" lemma="vluchtelingenkamp" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t185" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t186" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--noorden-->
+    <term tid="t187" type="open" lemma="noorden" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t188" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--Jordanië-->
+    <term tid="t189" type="open" lemma="Jordanië" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t190" type="open" lemma=":" pos="O" morphofeat="$.">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t191" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--Warme-->
+    <term tid="t192" type="open" lemma="warme" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--gelukwensen-->
+    <term tid="t193" type="open" lemma="gelukwensen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t194" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--mijn-->
+    <term tid="t195" type="close" lemma="mijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--vriend-->
+    <term tid="t196" type="open" lemma="vriend" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w196"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Barack-->
+    <term tid="t197" type="open" lemma="Barack" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term tid="t198" type="open" lemma="Obama" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t199" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--De Britse premier Cameron-->
+        <span>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Obama-->
+        <span>
+          <target id="t178"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--feliciteerde-->
+        <span>
+          <target id="t177"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Barack Obama-->
+        <span>
+          <target id="t197"/>
+          <target id="t198"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--vriend-->
+        <span>
+          <target id="t196"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Barack Obama-->
+        <span>
+          <target id="t197"/>
+          <target id="t198"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--Warme gelukwensen-->
+        <span>
+          <target id="t192"/>
+          <target id="t193"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

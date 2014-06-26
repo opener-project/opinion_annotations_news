@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:13Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:13Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:51:33CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:31CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w84" sent="5" para="2" offset="487" length="7">Cameron</wf>
+    <wf wid="w85" sent="5" para="2" offset="495" length="3">wil</wf>
+    <wf wid="w86" sent="5" para="2" offset="499" length="2">in</wf>
+    <wf wid="w87" sent="5" para="2" offset="502" length="6">eerste</wf>
+    <wf wid="w88" sent="5" para="2" offset="509" length="9">instantie</wf>
+    <wf wid="w89" sent="5" para="2" offset="519" length="2">de</wf>
+    <wf wid="w90" sent="5" para="2" offset="522" length="7">relatie</wf>
+    <wf wid="w91" sent="5" para="2" offset="530" length="6">tussen</wf>
+    <wf wid="w92" sent="5" para="2" offset="537" length="4">zijn</wf>
+    <wf wid="w93" sent="5" para="2" offset="542" length="4">land</wf>
+    <wf wid="w94" sent="5" para="2" offset="547" length="2">en</wf>
+    <wf wid="w95" sent="5" para="2" offset="550" length="2">de</wf>
+    <wf wid="w96" sent="5" para="2" offset="553" length="8">Europese</wf>
+    <wf wid="w97" sent="5" para="2" offset="562" length="4">Unie</wf>
+    <wf wid="w98" sent="5" para="2" offset="567" length="16">heronderhandelen</wf>
+    <wf wid="w99" sent="5" para="2" offset="583" length="1">.</wf>
+    <wf wid="w479" sent="26" para="2" offset="2609" length="2">De</wf>
+    <wf wid="w480" sent="26" para="2" offset="2612" length="6">speech</wf>
+    <wf wid="w481" sent="26" para="2" offset="2619" length="3">zal</wf>
+    <wf wid="w482" sent="26" para="2" offset="2623" length="3">een</wf>
+    <wf wid="w483" sent="26" para="2" offset="2627" length="6">aantal</wf>
+    <wf wid="w484" sent="26" para="2" offset="2634" length="8">Europese</wf>
+    <wf wid="w485" sent="26" para="2" offset="2643" length="6">landen</wf>
+    <wf wid="w486" sent="26" para="2" offset="2650" length="8">ongerust</wf>
+    <wf wid="w487" sent="26" para="2" offset="2659" length="5">maken</wf>
+    <wf wid="w488" sent="26" para="2" offset="2664" length="1">,</wf>
+    <wf wid="w489" sent="26" para="2" offset="2666" length="5">zoals</wf>
+    <wf wid="w490" sent="26" para="2" offset="2672" length="9">Frankrijk</wf>
+    <wf wid="w491" sent="26" para="2" offset="2682" length="2">en</wf>
+    <wf wid="w492" sent="26" para="2" offset="2685" length="9">Duitsland</wf>
+    <wf wid="w493" sent="26" para="2" offset="2694" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Cameron-->
+    <term tid="t84" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t85" type="open" lemma="wil" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t86" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--eerste-->
+    <term tid="t87" type="open" lemma="een" pos="O" morphofeat="num__ord">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--instantie-->
+    <term tid="t88" type="open" lemma="instantie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t89" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--relatie-->
+    <term tid="t90" type="open" lemma="relatie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w90"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--tussen-->
+    <term tid="t91" type="close" lemma="tussen" pos="P" morphofeat="prep">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t92" type="close" lemma="zijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--land-->
+    <term tid="t93" type="open" lemma="land" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t94" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t95" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t96" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--Unie-->
+    <term tid="t97" type="open" lemma="unie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w97"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--heronderhandelen-->
+    <term tid="t98" type="open" lemma="heronderhandelen" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t99" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t479" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w479"/>
+      </span>
+    </term>
+    <!--speech-->
+    <term tid="t480" type="open" lemma="speech" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w480"/>
+      </span>
+    </term>
+    <!--zal-->
+    <term tid="t481" type="open" lemma="zullen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w481"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t482" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w482"/>
+      </span>
+    </term>
+    <!--aantal-->
+    <term tid="t483" type="open" lemma="aantal" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w483"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t484" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w484"/>
+      </span>
+    </term>
+    <!--landen-->
+    <term tid="t485" type="open" lemma="land" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w485"/>
+      </span>
+    </term>
+    <!--ongerust-->
+    <term tid="t486" type="open" lemma="ongerust" pos="G" morphofeat="adj">
+      <span>
+        <target id="w486"/>
+      </span>
+    </term>
+    <!--maken-->
+    <term tid="t487" type="open" lemma="maken" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w487"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t488" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w488"/>
+      </span>
+    </term>
+    <!--zoals-->
+    <term tid="t489" type="close" lemma="zoals" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w489"/>
+      </span>
+    </term>
+    <!--Frankrijk-->
+    <term tid="t490" type="open" lemma="Frankrijk" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w490"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t491" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w491"/>
+      </span>
+    </term>
+    <!--Duitsland-->
+    <term tid="t492" type="open" lemma="Duitsland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w492"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t493" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w493"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=19-->
+      <opinion_holder>
+        <!--aantal Europese landen-->
+        <span>
+          <target id="t483"/>
+          <target id="t484"/>
+          <target id="t485"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--De speech-->
+        <span>
+          <target id="t479"/>
+          <target id="t480"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ongerust maken-->
+        <span>
+          <target id="t486"/>
+          <target id="t487"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--relatie-->
+        <span>
+          <target id="t90"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--ongerust-->
+        <span>
+          <target id="t486"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

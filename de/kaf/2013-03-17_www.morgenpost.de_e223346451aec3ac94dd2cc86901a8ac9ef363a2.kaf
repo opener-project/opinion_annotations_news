@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:39:28Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:39:28Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:51:34CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:39:41CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:28CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w219" sent="17" para="9" offset="1213" length="3">Die</wf>
+    <wf wid="w220" sent="17" para="9" offset="1217" length="5">große</wf>
+    <wf wid="w221" sent="17" para="9" offset="1223" length="8">Mehrheit</wf>
+    <wf wid="w222" sent="17" para="9" offset="1232" length="3">der</wf>
+    <wf wid="w223" sent="17" para="9" offset="1236" length="9">Deutschen</wf>
+    <wf wid="w224" sent="17" para="9" offset="1246" length="6">glaubt</wf>
+    <wf wid="w225" sent="17" para="9" offset="1252" length="1">,</wf>
+    <wf wid="w226" sent="17" para="9" offset="1254" length="4">dass</wf>
+    <wf wid="w227" sent="17" para="9" offset="1259" length="10">Franziskus</wf>
+    <wf wid="w228" sent="17" para="9" offset="1270" length="3">ein</wf>
+    <wf wid="w229" sent="17" para="9" offset="1274" length="5">guter</wf>
+    <wf wid="w230" sent="17" para="9" offset="1280" length="5">Papst</wf>
+    <wf wid="w231" sent="17" para="9" offset="1286" length="4">sein</wf>
+    <wf wid="w232" sent="17" para="9" offset="1291" length="4">wird</wf>
+    <wf wid="w233" sent="17" para="9" offset="1295" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t219" type="close">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <term lemma="groß" morphofeat="ADJA" pos="G" tid="t220" type="open">
+      <span>
+        <target id="w220"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Mehrheit" morphofeat="NN" pos="N" tid="t221" type="open">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t222" type="close">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <term lemma="Deutsche" morphofeat="NN" pos="N" tid="t223" type="open">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <term lemma="glauben" morphofeat="VVFIN" pos="V" tid="t224" type="open">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t225" type="open">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <term lemma="dass" morphofeat="KOUS" pos="C" tid="t226" type="close">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <term lemma="Franziskus" morphofeat="NE" pos="R" tid="t227" type="open">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t228" type="close">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <term lemma="gut" morphofeat="ADJA" pos="G" tid="t229" type="open">
+      <span>
+        <target id="w229"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Papst" morphofeat="NN" pos="N" tid="t230" type="open">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAINF" pos="V" tid="t231" type="open">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t232" type="open">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t233" type="open">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Papst-->
+        <span>
+          <target id="t230"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--guter-->
+        <span>
+          <target id="t229"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

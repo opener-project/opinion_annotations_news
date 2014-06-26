@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:24Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:24Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:35:57CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w481" sent="25" para="2" offset="2644" length="7">Sterker</wf>
+    <wf wid="w482" sent="25" para="2" offset="2652" length="3">nog</wf>
+    <wf wid="w483" sent="25" para="2" offset="2655" length="1">,</wf>
+    <wf wid="w484" sent="25" para="2" offset="2657" length="4">toen</wf>
+    <wf wid="w485" sent="25" para="2" offset="2662" length="5">heeft</wf>
+    <wf wid="w486" sent="25" para="2" offset="2668" length="7">Berlijn</wf>
+    <wf wid="w487" sent="25" para="2" offset="2676" length="2">de</wf>
+    <wf wid="w488" sent="25" para="2" offset="2679" length="6">eerste</wf>
+    <wf wid="w489" sent="25" para="2" offset="2686" length="4">gele</wf>
+    <wf wid="w490" sent="25" para="2" offset="2691" length="5">kaart</wf>
+    <wf wid="w491" sent="25" para="2" offset="2697" length="8">gekregen</wf>
+    <wf wid="w492" sent="25" para="2" offset="2705" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Sterker-->
+    <term tid="t481" type="open" lemma="sterk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w481"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--nog-->
+    <term tid="t482" type="open" lemma="nog" pos="A" morphofeat="adv">
+      <span>
+        <target id="w482"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t483" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w483"/>
+      </span>
+    </term>
+    <!--toen-->
+    <term tid="t484" type="close" lemma="toen" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w484"/>
+      </span>
+    </term>
+    <!--heeft-->
+    <term tid="t485" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w485"/>
+      </span>
+    </term>
+    <!--Berlijn-->
+    <term tid="t486" type="open" lemma="Berlijn" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w486"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t487" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w487"/>
+      </span>
+    </term>
+    <!--eerste-->
+    <term tid="t488" type="open" lemma="een" pos="O" morphofeat="num__ord">
+      <span>
+        <target id="w488"/>
+      </span>
+    </term>
+    <!--gele-->
+    <term tid="t489" type="open" lemma="geel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w489"/>
+      </span>
+    </term>
+    <!--kaart-->
+    <term tid="t490" type="open" lemma="kaart" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w490"/>
+      </span>
+    </term>
+    <!--gekregen-->
+    <term tid="t491" type="open" lemma="krijgen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w491"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t492" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w492"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Berlijn-->
+        <span>
+          <target id="t486"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--gele kaart gekregen-->
+        <span>
+          <target id="t489"/>
+          <target id="t490"/>
+          <target id="t491"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

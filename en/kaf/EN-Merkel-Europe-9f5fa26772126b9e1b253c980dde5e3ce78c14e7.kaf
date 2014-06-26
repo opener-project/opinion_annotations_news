@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:33Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:33Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:01:19" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:00:39CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="23" para="2" offset="6446" length="9" wid="w706">Attention</wf>
+    <wf sent="23" para="2" offset="6456" length="2" wid="w707">to</wf>
+    <wf sent="23" para="2" offset="6459" length="5" wid="w708">small</wf>
+    <wf sent="23" para="2" offset="6465" length="5" wid="w709">firms</wf>
+    <wf sent="23" para="2" offset="6471" length="2" wid="w710">is</wf>
+    <wf sent="23" para="2" offset="6474" length="1" wid="w711">a</wf>
+    <wf sent="23" para="2" offset="6507" length="3" wid="w712">key</wf>
+    <wf sent="23" para="2" offset="6511" length="5" wid="w713">topic</wf>
+    <wf sent="23" para="2" offset="6517" length="2" wid="w714">as</wf>
+    <wf sent="23" para="2" offset="6520" length="4" wid="w715">much</wf>
+    <wf sent="23" para="2" offset="6525" length="2" wid="w716">in</wf>
+    <wf sent="23" para="2" offset="6528" length="5" wid="w717">China</wf>
+    <wf sent="23" para="2" offset="6534" length="2" wid="w718">as</wf>
+    <wf sent="23" para="2" offset="6537" length="2" wid="w719">in</wf>
+    <wf sent="23" para="2" offset="6540" length="6" wid="w720">Europe</wf>
+    <wf sent="23" para="2" offset="6546" length="1" wid="w721">.</wf>
+  </text>
+  <terms>
+    <!--Attention-->
+    <term type="open" lemma="attention" pos="V" morphofeat="VB" tid="t706">
+      <span>
+        <target id="w706"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t707">
+      <span>
+        <target id="w707"/>
+      </span>
+    </term>
+    <!--small-->
+    <term type="open" lemma="small" pos="G" morphofeat="JJ" tid="t708">
+      <span>
+        <target id="w708"/>
+      </span>
+    </term>
+    <!--firms-->
+    <term type="open" lemma="firm" pos="N" morphofeat="NNS" tid="t709">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w709"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t710">
+      <span>
+        <target id="w710"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t711">
+      <span>
+        <target id="w711"/>
+      </span>
+    </term>
+    <!--key-->
+    <term type="open" lemma="key" pos="G" morphofeat="JJ" tid="t712">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w712"/>
+      </span>
+    </term>
+    <!--topic-->
+    <term type="open" lemma="topic" pos="N" morphofeat="NN" tid="t713">
+      <span>
+        <target id="w713"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="open" lemma="as" pos="A" morphofeat="RB" tid="t714">
+      <span>
+        <target id="w714"/>
+      </span>
+    </term>
+    <!--much-->
+    <term type="open" lemma="much" pos="G" morphofeat="JJ" tid="t715">
+      <span>
+        <target id="w715"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t716">
+      <span>
+        <target id="w716"/>
+      </span>
+    </term>
+    <!--China-->
+    <term type="close" lemma="China" pos="R" morphofeat="NNP" tid="t717">
+      <span>
+        <target id="w717"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t718">
+      <span>
+        <target id="w718"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t719">
+      <span>
+        <target id="w719"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term type="close" lemma="Europe" pos="R" morphofeat="NNP" tid="t720">
+      <span>
+        <target id="w720"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t721">
+      <span>
+        <target id="w721"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--small firms-->
+        <span>
+          <target id="t708"/>
+          <target id="t709"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--Attention-->
+        <span>
+          <target id="t706"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Attention to small firms-->
+        <span>
+          <target id="t706"/>
+          <target id="t707"/>
+          <target id="t708"/>
+          <target id="t709"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--a key topic-->
+        <span>
+          <target id="t711"/>
+          <target id="t712"/>
+          <target id="t713"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--topic-->
+        <span>
+          <target id="t713"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--key-->
+        <span>
+          <target id="t712"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

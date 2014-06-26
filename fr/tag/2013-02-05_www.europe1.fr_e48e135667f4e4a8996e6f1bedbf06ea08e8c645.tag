@@ -1,0 +1,51 @@
+w229	"	&quot;	O			0	Opinion	1		0		0		0		0		0		0	228	true	16
+w230	La	le	D		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	229	true	16
+w231	différence	différence	N		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	230	true	16
+w232	entre	entre	P		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	231	true	16
+w233	eux	eux	P		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	232	true	16
+w234	et	et	C		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	233	true	16
+w235	nous	nous	P		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	234	true	16
+w236	,	,	O		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	235	true	16
+w237	c’	c’	P		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	236	true	16
+w238	est	être	V		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	237	true	16
+w239	que	que	C		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	238	true	16
+w240	la	le	D		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	239	true	16
+w241	France	France	N		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	240	true	16
+w242	exerce	exercer	V		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	241	true	16
+w243	des	un	D		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	242	true	16
+w244	responsabilités	responsabilité	N		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	243	true	16
+w245	actives	actif	G		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	244	true	16
+w246	,	,	O		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	245	true	16
+w247	quand	quand	C		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	246	true	16
+w248	Cameron	Cameron	N		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	247	true	16
+w249	lui	lui	Q		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	248	true	16
+w250	en	en	P		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	249	true	16
+w251	reste	rester	V		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	250	true	16
+w252	à	à	P		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	251	true	16
+w253	des	un	D		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	252	true	16
+w254	généralités	généralité	N		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	253	true	16
+w255	"	&quot;	O			0	Opinion	1		0		0		0		0		0		0	254	true	16
+w256	,	,	O			0	Opinion	1		0		0		0		0		0		0	255	true	16
+w257	s’	s’	V		D-Negative	3	Opinion	1		0		0		0		0		0		0	256	true	16
+w258	agace	agace	N		D-Negative	3	Opinion	1		0		0		0		0		0		0	257	true	16
+w259	un	un	D		OpinionHolder	4	Opinion	1		0		0		0		0		0		0	258	true	16
+w260	diplomate	diplomate	N		OpinionHolder	4	Opinion	1		0		0		0		0		0		0	259	true	16
+w261	français	français	G		OpinionHolder	4	Opinion	1		0		0		0		0		0		0	260	true	16
+w284	François	François	N		OpinionHolder	6	Opinion	5		0		0		0		0		0		0	283	true	19
+w285	Hollande	hollande	N		OpinionHolder	6	Opinion	5		0		0		0		0		0		0	284	true	19
+w286	va	aller	V		D-Positive	7	Opinion	5		0		0		0		0		0		0	285	true	19
+w287	donc	donc	G			0	Opinion	5		0		0		0		0		0		0	286	true	19
+w288	défendre	défendre	V		D-Positive	7	Opinion	5		0		0		0		0		0		0	287	true	19
+w289	une	un	D		OpinionTarget	8	Opinion	5		0		0		0		0		0		0	288	true	19
+w290	vision	vision	N		OpinionTarget	8	Opinion	5		0		0		0		0		0		0	289	true	19
+w291	de	de	P		OpinionTarget	8	Opinion	5		0		0		0		0		0		0	290	true	19
+w292	l'	le	D		OpinionTarget	8	Opinion	5		0		0		0		0		0		0	291	true	19
+w293	Europe	Europe	N		OpinionTarget	8	Opinion	5		0		0		0		0		0		0	292	true	19
+w294	qui	qui	P		OpinionTarget	8	Opinion	5		0		0		0		0		0		0	293	true	19
+w295	n'	n'	G		OpinionTarget	8	Opinion	5		0		0		0		0		0		0	294	true	19
+w296	est	être	V		OpinionTarget	8	Opinion	5		0		0		0		0		0		0	295	true	19
+w297	pas	pas	G		OpinionTarget	8	Opinion	5		0		0		0		0		0		0	296	true	19
+w298	forcément	forcément	G		OpinionTarget	8	Opinion	5		0		0		0		0		0		0	297	true	19
+w299	partagée	partager	V		OpinionTarget	8	Opinion	5		0		0		0		0		0		0	298	true	19
+w300	par	par	P		OpinionTarget	8	Opinion	5		0		0		0		0		0		0	299	true	19
+w301	tous	tout	G		OpinionTarget	8	Opinion	5		0		0		0		0		0		0	300	true	19

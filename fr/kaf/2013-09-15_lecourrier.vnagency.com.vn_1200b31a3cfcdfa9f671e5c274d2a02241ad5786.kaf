@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:45:31Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:45:31Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:45:31Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:31:58CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="1">À</wf>
+    <wf wid="w2" sent="1" para="1" offset="2" length="3">une</wf>
+    <wf wid="w3" sent="1" para="1" offset="6" length="7">semaine</wf>
+    <wf wid="w4" sent="1" para="1" offset="14" length="3">des</wf>
+    <wf wid="w5" sent="1" para="1" offset="18" length="12">législatives</wf>
+    <wf wid="w6" sent="1" para="1" offset="30" length="1">,</wf>
+    <wf wid="w7" sent="1" para="1" offset="32" length="6">Merkel</wf>
+    <wf wid="w8" sent="1" para="1" offset="39" length="4">veut</wf>
+    <wf wid="w9" sent="1" para="1" offset="44" length="3">une</wf>
+    <wf wid="w10" sent="1" para="1" offset="48" length="8">victoire</wf>
+    <wf wid="w11" sent="1" para="1" offset="57" length="8">décisive</wf>
+    <wf wid="w12" sent="1" para="1" offset="66" length="2">en</wf>
+    <wf wid="w13" sent="1" para="1" offset="69" length="7">Bavière</wf>
+    <wf wid="w131" sent="6" para="5" offset="713" length="3">Une</wf>
+    <wf wid="w132" sent="6" para="5" offset="717" length="7">semaine</wf>
+    <wf wid="w133" sent="6" para="5" offset="725" length="5">avant</wf>
+    <wf wid="w134" sent="6" para="5" offset="731" length="3">les</wf>
+    <wf wid="w135" sent="6" para="5" offset="735" length="12">législatives</wf>
+    <wf wid="w136" sent="6" para="5" offset="747" length="1">,</wf>
+    <wf wid="w137" sent="6" para="5" offset="749" length="6">Angela</wf>
+    <wf wid="w138" sent="6" para="5" offset="756" length="6">Merkel</wf>
+    <wf wid="w139" sent="6" para="5" offset="763" length="8">souhaite</wf>
+    <wf wid="w140" sent="6" para="5" offset="772" length="3">une</wf>
+    <wf wid="w141" sent="6" para="5" offset="776" length="8">victoire</wf>
+    <wf wid="w142" sent="6" para="5" offset="785" length="9">régionale</wf>
+    <wf wid="w143" sent="6" para="5" offset="794" length="1">.</wf>
+  </text>
+  <terms>
+    <!--À-->
+    <term tid="t1" type="close" lemma="À" pos="P" morphofeat="P">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--une-->
+    <term tid="t2" type="close" lemma="un" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--semaine-->
+    <term tid="t3" type="open" lemma="semaine" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t4" type="close" lemma="des" pos="P" morphofeat="P">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--législatives-->
+    <term tid="t5" type="open" lemma="législative" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t6" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t7" type="open" lemma="Merkel" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--veut-->
+    <term tid="t8" type="open" lemma="vouloir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--une-->
+    <term tid="t9" type="close" lemma="un" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--victoire-->
+    <term tid="t10" type="open" lemma="victoire" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--décisive-->
+    <term tid="t11" type="open" lemma="décisif" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t12" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--Bavière-->
+    <term tid="t13" type="open" lemma="bavière" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--Une-->
+    <term tid="t131" type="close" lemma="un" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--semaine-->
+    <term tid="t132" type="open" lemma="semaine" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--avant-->
+    <term tid="t133" type="close" lemma="avant" pos="P" morphofeat="P">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t134" type="close" lemma="le" pos="D" morphofeat="Dfp">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--législatives-->
+    <term tid="t135" type="open" lemma="législative" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t136" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t137" type="open" lemma="Angela" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t138" type="open" lemma="Merkel" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--souhaite-->
+    <term tid="t139" type="open" lemma="souhaiter" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--une-->
+    <term tid="t140" type="close" lemma="un" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--victoire-->
+    <term tid="t141" type="open" lemma="victoire" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--régionale-->
+    <term tid="t142" type="open" lemma="régional" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t143" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder>
+        <!--Angela Merkel-->
+        <span>
+          <target id="t137"/>
+          <target id="t138"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--une victoire régionale-->
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--souhaite-->
+        <span>
+          <target id="t139"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

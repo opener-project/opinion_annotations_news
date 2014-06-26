@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:58:47" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:00:04CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:48CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="7" wid="w1">Cameron</wf>
+    <wf sent="1" para="1" offset="7" length="1" wid="w2">:</wf>
+    <wf sent="1" para="1" offset="9" length="7" wid="w3">Britain</wf>
+    <wf sent="1" para="1" offset="17" length="1" wid="w4">'</wf>
+    <wf sent="1" para="1" offset="18" length="2" wid="w5">On</wf>
+    <wf sent="1" para="1" offset="21" length="5" wid="w6">Right</wf>
+    <wf sent="1" para="1" offset="27" length="5" wid="w7">Track</wf>
+    <wf sent="1" para="1" offset="32" length="1" wid="w8">'</wf>
+    <wf sent="1" para="1" offset="34" length="3" wid="w9">For</wf>
+    <wf sent="1" para="1" offset="38" length="4" wid="w10">2013</wf>
+  </text>
+  <terms>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--:-->
+    <term type="close" lemma=":" pos="O" morphofeat=":" tid="t2">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Britain-->
+    <term type="close" lemma="Britain" pos="R" morphofeat="NNP" tid="t3">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="''" tid="t4">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--On-->
+    <term type="close" lemma="On" pos="R" morphofeat="NNP" tid="t5">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--Right-->
+    <term type="close" lemma="Right" pos="R" morphofeat="NNP" tid="t6">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--Track-->
+    <term type="close" lemma="Track" pos="R" morphofeat="NNP" tid="t7">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="POS" tid="t8">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--For-->
+    <term type="close" lemma="For" pos="R" morphofeat="NNP" tid="t9">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--2013-->
+    <term type="close" lemma="2013" pos="O" morphofeat="CD" tid="t10">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Cameron-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Britain-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--On Right Track-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

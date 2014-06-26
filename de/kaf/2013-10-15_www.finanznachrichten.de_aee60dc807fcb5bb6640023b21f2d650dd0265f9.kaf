@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:41:44Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:41:44Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:55:56CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:41:50CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w9" sent="2" para="2" offset="49" length="3">SPD</wf>
+    <wf wid="w10" sent="2" para="2" offset="53" length="3">und</wf>
+    <wf wid="w11" sent="2" para="2" offset="57" length="5">Union</wf>
+    <wf wid="w12" sent="2" para="2" offset="63" length="5">haben</wf>
+    <wf wid="w13" sent="2" para="2" offset="69" length="3">bei</wf>
+    <wf wid="w14" sent="2" para="2" offset="73" length="3">den</wf>
+    <wf wid="w15" sent="2" para="2" offset="77" length="21">Sondierungsgesprächen</wf>
+    <wf wid="w16" sent="2" para="2" offset="99" length="2">in</wf>
+    <wf wid="w17" sent="2" para="2" offset="102" length="3">der</wf>
+    <wf wid="w18" sent="2" para="2" offset="106" length="13">Europapolitik</wf>
+    <wf wid="w19" sent="2" para="2" offset="120" length="10">weitgehend</wf>
+    <wf wid="w20" sent="2" para="2" offset="131" length="15">Übereinstimmung</wf>
+    <wf wid="w21" sent="2" para="2" offset="147" length="12">festgestellt</wf>
+    <wf wid="w22" sent="2" para="2" offset="159" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="SPD" morphofeat="NE" pos="R" tid="t9" type="open">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t10" type="close">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="Union" morphofeat="NE" pos="R" tid="t11" type="open">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t12" type="open">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="bei" morphofeat="APPR" pos="P" tid="t13" type="close">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t14" type="close">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="Sondierungsgespräch" morphofeat="NN" pos="N" tid="t15" type="open">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t16" type="close">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t17" type="close">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="Europapolitik" morphofeat="NN" pos="N" tid="t18" type="open">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="weitgehend" morphofeat="ADJD" pos="G" tid="t19" type="open">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="Übereinstimmung" morphofeat="NN" pos="N" tid="t20" type="open">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="feststellen" morphofeat="VVPP" pos="V" tid="t21" type="open">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t22" type="open">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--Übereinstimmung-->
+        <span>
+          <target id="t20"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

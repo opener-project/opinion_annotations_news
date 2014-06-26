@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:55Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:55Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:49:01CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w237" sent="13" para="2" offset="1319" length="1">"</wf>
+    <wf wid="w238" sent="13" para="2" offset="1320" length="3">Uit</wf>
+    <wf wid="w239" sent="13" para="2" offset="1324" length="5">beide</wf>
+    <wf wid="w240" sent="13" para="2" offset="1330" length="6">hoeken</wf>
+    <wf wid="w241" sent="13" para="2" offset="1337" length="6">klinkt</wf>
+    <wf wid="w242" sent="13" para="2" offset="1344" length="7">onvrede</wf>
+    <wf wid="w243" sent="13" para="2" offset="1351" length="1">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term tid="t237" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--Uit-->
+    <term tid="t238" type="close" lemma="uit" pos="P" morphofeat="prep">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--beide-->
+    <term tid="t239" type="open" lemma="beide" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--hoeken-->
+    <term tid="t240" type="open" lemma="hoek" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--klinkt-->
+    <term tid="t241" type="open" lemma="klinken" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w241"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--onvrede-->
+    <term tid="t242" type="open" lemma="onvrede" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w242"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t243" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--Uit beide hoeken-->
+        <span>
+          <target id="t238"/>
+          <target id="t239"/>
+          <target id="t240"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--klinkt onvrede-->
+        <span>
+          <target id="t241"/>
+          <target id="t242"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

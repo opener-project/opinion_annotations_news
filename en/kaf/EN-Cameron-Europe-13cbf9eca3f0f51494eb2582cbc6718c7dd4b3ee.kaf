@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:34Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:34Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:13:29" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:23:25CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="2" para="2" offset="63" length="9" wid="w12">Netanyahu</wf>
+    <wf sent="2" para="2" offset="73" length="9" wid="w13">adamantly</wf>
+    <wf sent="2" para="2" offset="83" length="9" wid="w14">distrusts</wf>
+    <wf sent="2" para="2" offset="93" length="4" wid="w15">Iran</wf>
+    <wf sent="2" para="2" offset="98" length="3" wid="w16">and</wf>
+    <wf sent="2" para="2" offset="102" length="7" wid="w17">decried</wf>
+    <wf sent="2" para="2" offset="110" length="3" wid="w18">the</wf>
+    <wf sent="2" para="2" offset="114" length="9" wid="w19">agreement</wf>
+    <wf sent="2" para="2" offset="124" length="2" wid="w20">as</wf>
+    <wf sent="2" para="2" offset="127" length="1" wid="w21">a</wf>
+    <wf sent="2" para="2" offset="129" length="1" wid="w22">"</wf>
+    <wf sent="2" para="2" offset="130" length="8" wid="w23">historic</wf>
+    <wf sent="2" para="2" offset="139" length="7" wid="w24">mistake</wf>
+    <wf sent="2" para="2" offset="146" length="1" wid="w25">"</wf>
+    <wf sent="2" para="2" offset="148" length="2" wid="w26">on</wf>
+    <wf sent="2" para="2" offset="151" length="6" wid="w27">Sunday</wf>
+    <wf sent="2" para="2" offset="158" length="1" wid="w28">.</wf>
+  </text>
+  <terms>
+    <!--Netanyahu-->
+    <term type="close" lemma="Netanyahu" pos="R" morphofeat="NNP" tid="t12">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--adamantly-->
+    <term type="open" lemma="adamantly" pos="A" morphofeat="RB" tid="t13">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--distrusts-->
+    <term type="open" lemma="distrust" pos="V" morphofeat="VBZ" tid="t14">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--Iran-->
+    <term type="close" lemma="Iran" pos="R" morphofeat="NNP" tid="t15">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t16">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--decried-->
+    <term type="open" lemma="decry" pos="V" morphofeat="VBD" tid="t17">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t18">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--agreement-->
+    <term type="open" lemma="agreement" pos="N" morphofeat="NN" tid="t19">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t20">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t21">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t22">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--historic-->
+    <term type="open" lemma="historic" pos="G" morphofeat="JJ" tid="t23">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--mistake-->
+    <term type="open" lemma="mistake" pos="N" morphofeat="NN" tid="t24">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t25">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t26">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--Sunday-->
+    <term type="close" lemma="Sunday" pos="R" morphofeat="NNP" tid="t27">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t28">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Netanyahu-->
+        <span>
+          <target id="t12"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Iran-->
+        <span>
+          <target id="t15"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--adamantly distrusts-->
+        <span>
+          <target id="t13"/>
+          <target id="t14"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

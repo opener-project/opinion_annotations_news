@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:19Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:19Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:11:50" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:56:16CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:48CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="8" para="2" offset="1304" length="5" wid="w228">Obama</wf>
+    <wf sent="8" para="2" offset="1310" length="2" wid="w229">is</wf>
+    <wf sent="8" para="2" offset="1313" length="3" wid="w230">set</wf>
+    <wf sent="8" para="2" offset="1317" length="2" wid="w231">to</wf>
+    <wf sent="8" para="2" offset="1320" length="5" wid="w232">visit</wf>
+    <wf sent="8" para="2" offset="1326" length="7" wid="w233">Germany</wf>
+    <wf sent="8" para="2" offset="1334" length="5" wid="w234">after</wf>
+    <wf sent="8" para="2" offset="1340" length="9" wid="w235">attending</wf>
+    <wf sent="8" para="2" offset="1350" length="3" wid="w236">the</wf>
+    <wf sent="8" para="2" offset="1354" length="2" wid="w237">G8</wf>
+    <wf sent="8" para="2" offset="1357" length="6" wid="w238">summit</wf>
+    <wf sent="8" para="2" offset="1364" length="2" wid="w239">in</wf>
+    <wf sent="8" para="2" offset="1367" length="8" wid="w240">Northern</wf>
+    <wf sent="8" para="2" offset="1376" length="7" wid="w241">Ireland</wf>
+    <wf sent="8" para="2" offset="1383" length="1" wid="w242">.</wf>
+  </text>
+  <terms>
+    <!--Obama-->
+    <term type="close" lemma="Obama" pos="R" morphofeat="NNP" tid="t228">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t229">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--set-->
+    <term type="open" lemma="set" pos="V" morphofeat="VBN" tid="t230">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t231">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--visit-->
+    <term type="open" lemma="visit" pos="V" morphofeat="VB" tid="t232">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--Germany-->
+    <term type="close" lemma="Germany" pos="R" morphofeat="NNP" tid="t233">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--after-->
+    <term type="close" lemma="after" pos="P" morphofeat="IN" tid="t234">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--attending-->
+    <term type="open" lemma="attend" pos="V" morphofeat="VBG" tid="t235">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t236">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--G8-->
+    <term type="close" lemma="G8" pos="O" morphofeat="CD" tid="t237">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--summit-->
+    <term type="open" lemma="summit" pos="N" morphofeat="NN" tid="t238">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t239">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--Northern-->
+    <term type="open" lemma="northern" pos="G" morphofeat="JJ" tid="t240">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--Ireland-->
+    <term type="close" lemma="Ireland" pos="R" morphofeat="NNP" tid="t241">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t242">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t228"/>
+          <target id="t229"/>
+          <target id="t230"/>
+          <target id="t231"/>
+          <target id="t232"/>
+          <target id="t233"/>
+          <target id="t234"/>
+          <target id="t235"/>
+          <target id="t236"/>
+          <target id="t237"/>
+          <target id="t238"/>
+          <target id="t239"/>
+          <target id="t240"/>
+          <target id="t241"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

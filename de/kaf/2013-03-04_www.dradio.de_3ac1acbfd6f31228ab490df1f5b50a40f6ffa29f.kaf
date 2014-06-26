@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:53:36Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:53:36Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:53:33CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:54:21CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w149" sent="12" para="3" offset="1017" length="3">Der</wf>
+    <wf wid="w150" sent="12" para="3" offset="1021" length="13">Bundesverband</wf>
+    <wf wid="w151" sent="12" para="3" offset="1035" length="3">der</wf>
+    <wf wid="w152" sent="12" para="3" offset="1039" length="9">Deutschen</wf>
+    <wf wid="w153" sent="12" para="3" offset="1049" length="9">Industrie</wf>
+    <wf wid="w154" sent="12" para="3" offset="1059" length="8">forderte</wf>
+    <wf wid="w155" sent="12" para="3" offset="1068" length="3">die</wf>
+    <wf wid="w156" sent="12" para="3" offset="1072" length="7">schwarz</wf>
+    <wf wid="w157" sent="12" para="3" offset="1079" length="1">·</wf>
+    <wf wid="w158" sent="12" para="3" offset="1080" length="4">rote</wf>
+    <wf wid="w159" sent="12" para="3" offset="1085" length="9">Koalition</wf>
+    <wf wid="w160" sent="12" para="3" offset="1095" length="3">auf</wf>
+    <wf wid="w161" sent="12" para="3" offset="1098" length="1">,</wf>
+    <wf wid="w162" sent="12" para="3" offset="1100" length="3">die</wf>
+    <wf wid="w163" sent="12" para="3" offset="1104" length="17">Rahmenbedingungen</wf>
+    <wf wid="w164" sent="12" para="3" offset="1122" length="3">für</wf>
+    <wf wid="w165" sent="12" para="3" offset="1126" length="13">Investitionen</wf>
+    <wf wid="w166" sent="12" para="3" offset="1140" length="2">zu</wf>
+    <wf wid="w167" sent="12" para="3" offset="1143" length="10">verbessern</wf>
+    <wf wid="w168" sent="12" para="3" offset="1153" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t149" type="close">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <term lemma="Bundesverband" morphofeat="NN" pos="N" tid="t150" type="open">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t151" type="close">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <term lemma="deutsch" morphofeat="ADJA" pos="G" tid="t152" type="open">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <term lemma="Industrie" morphofeat="NN" pos="N" tid="t153" type="open">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <term lemma="fordern" morphofeat="VVFIN" pos="V" tid="t154" type="open">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t155" type="close">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <term lemma="schwarz" morphofeat="ADJD" pos="G" tid="t156" type="open">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t157" type="open">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <term lemma="rot" morphofeat="ADJA" pos="G" tid="t158" type="open">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <term lemma="Koalition" morphofeat="NN" pos="N" tid="t159" type="open">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <term lemma="auf" morphofeat="PTKVZ" pos="V" tid="t160" type="open">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t161" type="open">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t162" type="close">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <term lemma="Rahmenbedingung" morphofeat="NN" pos="N" tid="t163" type="open">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t164" type="close">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <term lemma="Investition" morphofeat="NN" pos="N" tid="t165" type="open">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="PTKZU" pos="O" tid="t166" type="open">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <term lemma="verbessern" morphofeat="VVINF" pos="V" tid="t167" type="open">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t168" type="open">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Der Bundesverband der Deutschen Industrie-->
+        <span>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+          <target id="t153"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die Rahmenbedingungen für Investitionen-->
+        <span>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--zu verbessern-->
+        <span>
+          <target id="t166"/>
+          <target id="t167"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

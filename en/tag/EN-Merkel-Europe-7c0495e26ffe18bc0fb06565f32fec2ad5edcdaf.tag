@@ -1,0 +1,13 @@
+w1	6,000	6,000	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	0	true	1
+w2	Greek	greek	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	1	true	1
+w3	police	police	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	2	true	1
+w4	to	to	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	3	true	1
+w5	guard	guard	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	4	true	1
+w6	Angela	Angela	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	5	true	1
+w7	Merkel	Merkel	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	6	true	1
+w8	during	during	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	7	true	1
+w9	her	her	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	8	true	1
+w10	SIX-HOUR	SIX-HOUR	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	9	true	1
+w11	visit	visit	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	10	true	1
+w12	to	to	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	11	true	1
+w13	Athens	Athens	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	12	true	1

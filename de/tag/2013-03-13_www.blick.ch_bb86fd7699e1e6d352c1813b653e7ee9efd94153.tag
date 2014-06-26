@@ -1,0 +1,16 @@
+w185	Bergoglio	Bergoglio	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	184	true	15
+w186	wurde	werden	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	185	true	15
+w187	am	an	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	186	true	15
+w188	17.	17.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	187	true	15
+w189	Dezember	Dezember	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	188	true	15
+w190	1936	@card@	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	189	true	15
+w191	als	als	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	190	true	15
+w192	Sohn	Sohn	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	191	true	15
+w193	eines	eine	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	192	true	15
+w194	Eisenbahnarbeiters	Eisenbahnarbeiters	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	193	true	15
+w195	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	194	true	15
+w196	der	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	195	true	15
+w197	argentinischen	argentinisch	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	196	true	15
+w198	Hauptstadt	Hauptstadt	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	197	true	15
+w199	geboren	gebären	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	198	true	15
+w200	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	199	true	15

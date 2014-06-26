@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:32:46Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:32:46Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:05:33CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:33:11CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w228" sent="18" para="11" offset="1370" length="3">Die</wf>
+    <wf wid="w229" sent="18" para="11" offset="1374" length="3">SPD</wf>
+    <wf wid="w230" sent="18" para="11" offset="1378" length="4">will</wf>
+    <wf wid="w231" sent="18" para="11" offset="1383" length="6">Banken</wf>
+    <wf wid="w232" sent="18" para="11" offset="1390" length="3">und</wf>
+    <wf wid="w233" sent="18" para="11" offset="1394" length="6">Märkte</wf>
+    <wf wid="w234" sent="18" para="11" offset="1401" length="7">stärker</wf>
+    <wf wid="w235" sent="18" para="11" offset="1409" length="10">regulieren</wf>
+    <wf wid="w236" sent="18" para="11" offset="1419" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t228" type="close">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <term lemma="SPD" morphofeat="NE" pos="R" tid="t229" type="open">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t230" type="open">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <term lemma="Bank" morphofeat="NN" pos="N" tid="t231" type="open">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t232" type="close">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <term lemma="Markt" morphofeat="NN" pos="N" tid="t233" type="open">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <term lemma="stark" morphofeat="ADJD" pos="G" tid="t234" type="open">
+      <span>
+        <target id="w234"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="regulieren" morphofeat="VVINF" pos="V" tid="t235" type="open">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t236" type="open">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Die SPD-->
+        <span>
+          <target id="t228"/>
+          <target id="t229"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Banken-->
+        <span>
+          <target id="t231"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--will-->
+        <span>
+          <target id="t230"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Die SPD-->
+        <span>
+          <target id="t228"/>
+          <target id="t229"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Märkte-->
+        <span>
+          <target id="t233"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--will-->
+        <span>
+          <target id="t230"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Die SPD-->
+        <span>
+          <target id="t228"/>
+          <target id="t229"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Banken-->
+        <span>
+          <target id="t231"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--stärker regulieren-->
+        <span>
+          <target id="t234"/>
+          <target id="t235"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Die SPD-->
+        <span>
+          <target id="t228"/>
+          <target id="t229"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Märkte-->
+        <span>
+          <target id="t233"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--stärker regulieren-->
+        <span>
+          <target id="t234"/>
+          <target id="t235"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

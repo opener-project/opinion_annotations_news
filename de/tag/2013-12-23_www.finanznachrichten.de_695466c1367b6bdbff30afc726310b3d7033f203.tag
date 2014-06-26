@@ -1,0 +1,10 @@
+w3	Enrico	Enrico	R		OpinionHolder	2	Opinion	6		0		0		0		0		0		0	2	true	1
+w4	Letta	Letta	O		OpinionHolder	2	Opinion	6		0		0		0		0		0		0	3	true	1
+w5	sieht	sehen	V		D-neutral	3	Opinion	6		0		0		0		0		0		0	4	true	1
+w6	2014	@card@	A		OpinionTarget	4	Opinion	6		0		0		0		0		0		0	5	true	1
+w7	als	als	C		I-Positive	5	Opinion	6		0		0		0		0		0		0	6	true	1
+w8	Jahr	Jahr	N		I-Positive	5	Opinion	6		0		0		0		0		0		0	7	true	1
+w9	des	die	D		I-Positive	5	Opinion	6		0		0		0		0		0		0	8	true	1
+w10	Wachstums	Wachstum	N		I-Positive	5	Opinion	6		0		0		0		0		0		0	9	true	1
+w11	für	für	P		I-Positive	5	Opinion	6		0		0		0		0		0		0	10	true	1
+w12	Italien	Italien	R		I-Positive	5	Opinion	6		0		0		0		0		0		0	11	true	1

@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:56:36CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:37CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w334" sent="19" para="2" offset="1764" length="6">Merkel</wf>
+    <wf wid="w335" sent="19" para="2" offset="1771" length="5">voelt</wf>
+    <wf wid="w336" sent="19" para="2" offset="1777" length="3">ook</wf>
+    <wf wid="w337" sent="19" para="2" offset="1781" length="4">niet</wf>
+    <wf wid="w338" sent="19" para="2" offset="1786" length="4">veel</wf>
+    <wf wid="w339" sent="19" para="2" offset="1791" length="4">voor</wf>
+    <wf wid="w340" sent="19" para="2" offset="1796" length="9">invoering</wf>
+    <wf wid="w341" sent="19" para="2" offset="1806" length="3">van</wf>
+    <wf wid="w342" sent="19" para="2" offset="1810" length="3">een</wf>
+    <wf wid="w343" sent="19" para="2" offset="1814" length="10">bankenunie</wf>
+    <wf wid="w344" sent="19" para="2" offset="1824" length="1">,</wf>
+    <wf wid="w345" sent="19" para="2" offset="1826" length="5">zoals</wf>
+    <wf wid="w346" sent="19" para="2" offset="1832" length="2">de</wf>
+    <wf wid="w347" sent="19" para="2" offset="1835" length="6">andere</wf>
+    <wf wid="w348" sent="19" para="2" offset="1842" length="4">drie</wf>
+    <wf wid="w349" sent="19" para="2" offset="1847" length="6">willen</wf>
+    <wf wid="w350" sent="19" para="2" offset="1853" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t334" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <!--voelt-->
+    <term tid="t335" type="open" lemma="voelen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <!--ook-->
+    <term tid="t336" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t337" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <!--veel-->
+    <term tid="t338" type="open" lemma="veel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t339" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--invoering-->
+    <term tid="t340" type="open" lemma="invoering" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t341" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t342" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--bankenunie-->
+    <term tid="t343" type="open" lemma="bankenunie" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t344" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--zoals-->
+    <term tid="t345" type="close" lemma="zoals" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t346" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--andere-->
+    <term tid="t347" type="open" lemma="andere" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--drie-->
+    <term tid="t348" type="open" lemma="drie" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <!--willen-->
+    <term tid="t349" type="open" lemma="willen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t350" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--de andere drie-->
+        <span>
+          <target id="t346"/>
+          <target id="t347"/>
+          <target id="t348"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--invoering van een bankenunie-->
+        <span>
+          <target id="t340"/>
+          <target id="t341"/>
+          <target id="t342"/>
+          <target id="t343"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--willen-->
+        <span>
+          <target id="t349"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t334"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--invoering van een bankenunie-->
+        <span>
+          <target id="t340"/>
+          <target id="t341"/>
+          <target id="t342"/>
+          <target id="t343"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--voelt niet veel voor-->
+        <span>
+          <target id="t335"/>
+          <target id="t337"/>
+          <target id="t338"/>
+          <target id="t339"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:55:19Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:55:19Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:55:19Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:20:06CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w23" sent="3" para="2" offset="140" length="2">D'</wf>
+    <wf wid="w24" sent="3" para="2" offset="142" length="5">après</wf>
+    <wf wid="w25" sent="3" para="2" offset="148" length="3">les</wf>
+    <wf wid="w26" sent="3" para="2" offset="152" length="8">derniers</wf>
+    <wf wid="w27" sent="3" para="2" offset="161" length="8">sondages</wf>
+    <wf wid="w28" sent="3" para="2" offset="169" length="1">,</wf>
+    <wf wid="w29" sent="3" para="2" offset="171" length="2">la</wf>
+    <wf wid="w30" sent="3" para="2" offset="174" length="3">CDU</wf>
+    <wf wid="w31" sent="3" para="2" offset="178" length="3">est</wf>
+    <wf wid="w32" sent="3" para="2" offset="182" length="8">favorite</wf>
+    <wf wid="w33" sent="3" para="2" offset="190" length="1">.</wf>
+  </text>
+  <terms>
+    <!--D'-->
+    <term tid="t23" type="close" lemma="D'" pos="P" morphofeat="P">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--après-->
+    <term tid="t24" type="close" lemma="après" pos="P" morphofeat="P">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t25" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--derniers-->
+    <term tid="t26" type="open" lemma="dernier" pos="G" morphofeat="Amp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--sondages-->
+    <term tid="t27" type="open" lemma="sondage" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t28" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t29" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--CDU-->
+    <term tid="t30" type="open" lemma="CDU" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t31" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--favorite-->
+    <term tid="t32" type="open" lemma="favorite" pos="V" morphofeat="VKfs">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t33" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--les derniers sondages-->
+        <span>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--la CDU-->
+        <span>
+          <target id="t29"/>
+          <target id="t30"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--favorite-->
+        <span>
+          <target id="t32"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:14:09Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:14:09Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:56:20CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:14:29CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w445" sent="33" para="13" offset="2683" length="3">Das</wf>
+    <wf wid="w446" sent="33" para="13" offset="2687" length="11">Unternehmen</wf>
+    <wf wid="w447" sent="33" para="13" offset="2699" length="3">hat</wf>
+    <wf wid="w448" sent="33" para="13" offset="2703" length="3">die</wf>
+    <wf wid="w449" sent="33" para="13" offset="2707" length="8">Vorfälle</wf>
+    <wf wid="w450" sent="33" para="13" offset="2716" length="8">bedauert</wf>
+    <wf wid="w451" sent="33" para="13" offset="2725" length="3">und</wf>
+    <wf wid="w452" sent="33" para="13" offset="2729" length="4">etwa</wf>
+    <wf wid="w453" sent="33" para="13" offset="2734" length="5">einem</wf>
+    <wf wid="w454" sent="33" para="13" offset="2740" length="17">Sicherheitsdienst</wf>
+    <wf wid="w455" sent="33" para="13" offset="2758" length="9">gekündigt</wf>
+    <wf wid="w456" sent="33" para="13" offset="2767" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t445" type="close">
+      <span>
+        <target id="w445"/>
+      </span>
+    </term>
+    <term lemma="Unternehmen" morphofeat="NN" pos="N" tid="t446" type="open">
+      <span>
+        <target id="w446"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t447" type="open">
+      <span>
+        <target id="w447"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t448" type="close">
+      <span>
+        <target id="w448"/>
+      </span>
+    </term>
+    <term lemma="Vorfall" morphofeat="NN" pos="N" tid="t449" type="open">
+      <span>
+        <target id="w449"/>
+      </span>
+    </term>
+    <term lemma="bedauern" morphofeat="VVPP" pos="V" tid="t450" type="open">
+      <span>
+        <target id="w450"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t451" type="close">
+      <span>
+        <target id="w451"/>
+      </span>
+    </term>
+    <term lemma="etwa" morphofeat="ADV" pos="A" tid="t452" type="open">
+      <span>
+        <target id="w452"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t453" type="close">
+      <span>
+        <target id="w453"/>
+      </span>
+    </term>
+    <term lemma="Sicherheitsdienst" morphofeat="NN" pos="N" tid="t454" type="open">
+      <span>
+        <target id="w454"/>
+      </span>
+    </term>
+    <term lemma="kündigen" morphofeat="VVPP" pos="V" tid="t455" type="open">
+      <span>
+        <target id="w455"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t456" type="open">
+      <span>
+        <target id="w456"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Das Unternehmen-->
+        <span>
+          <target id="t445"/>
+          <target id="t446"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die Vorfälle-->
+        <span>
+          <target id="t448"/>
+          <target id="t449"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--bedauert-->
+        <span>
+          <target id="t450"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

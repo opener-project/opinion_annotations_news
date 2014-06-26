@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:32Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:32Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:07:46" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:23:27CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="291" length="6" wid="w49">Police</wf>
+    <wf sent="3" para="2" offset="298" length="4" wid="w50">said</wf>
+    <wf sent="3" para="2" offset="303" length="4" wid="w51">they</wf>
+    <wf sent="3" para="2" offset="308" length="3" wid="w52">had</wf>
+    <wf sent="3" para="2" offset="312" length="9" wid="w53">recovered</wf>
+    <wf sent="3" para="2" offset="322" length="4" wid="w54">more</wf>
+    <wf sent="3" para="2" offset="327" length="4" wid="w55">than</wf>
+    <wf sent="3" para="2" offset="332" length="2" wid="w56">60</wf>
+    <wf sent="3" para="2" offset="335" length="6" wid="w57">bullet</wf>
+    <wf sent="3" para="2" offset="342" length="7" wid="w58">casings</wf>
+    <wf sent="3" para="2" offset="349" length="1" wid="w59">.</wf>
+    <wf sent="10" para="2" offset="1239" length="2" wid="w216">Mr</wf>
+    <wf sent="10" para="2" offset="1242" length="4" wid="w217">Dold</wf>
+    <wf sent="10" para="2" offset="1246" length="1" wid="w218">,</wf>
+    <wf sent="10" para="2" offset="1248" length="1" wid="w219">a</wf>
+    <wf sent="10" para="2" offset="1250" length="11" wid="w220">55-year-old</wf>
+    <wf sent="10" para="2" offset="1262" length="4" wid="w221">with</wf>
+    <wf sent="10" para="2" offset="1267" length="5" wid="w222">three</wf>
+    <wf sent="10" para="2" offset="1273" length="8" wid="w223">children</wf>
+    <wf sent="10" para="2" offset="1281" length="1" wid="w224">,</wf>
+    <wf sent="10" para="2" offset="1283" length="7" wid="w225">thanked</wf>
+    <wf sent="10" para="2" offset="1291" length="3" wid="w226">the</wf>
+    <wf sent="10" para="2" offset="1295" length="10" wid="w227">government</wf>
+    <wf sent="10" para="2" offset="1306" length="3" wid="w228">for</wf>
+    <wf sent="10" para="2" offset="1310" length="3" wid="w229">the</wf>
+    <wf sent="10" para="2" offset="1314" length="6" wid="w230">police</wf>
+    <wf sent="10" para="2" offset="1320" length="2" wid="w231">'s</wf>
+    <wf sent="10" para="2" offset="1323" length="1" wid="w232">"</wf>
+    <wf sent="10" para="2" offset="1324" length="5" wid="w233">swift</wf>
+    <wf sent="10" para="2" offset="1330" length="8" wid="w234">response</wf>
+    <wf sent="10" para="2" offset="1338" length="1" wid="w235">"</wf>
+    <wf sent="10" para="2" offset="1339" length="1" wid="w236">.</wf>
+  </text>
+  <terms>
+    <!--Police-->
+    <term type="open" lemma="police" pos="N" morphofeat="NN" tid="t49">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t50">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--they-->
+    <term type="close" lemma="they" pos="Q" morphofeat="PRP" tid="t51">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--had-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBD" tid="t52">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--recovered-->
+    <term type="open" lemma="recover" pos="V" morphofeat="VBN" tid="t53">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--more-->
+    <term type="open" lemma="much" pos="A" morphofeat="RBR" tid="t54">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--than-->
+    <term type="close" lemma="than" pos="P" morphofeat="IN" tid="t55">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--60-->
+    <term type="close" lemma="60" pos="O" morphofeat="CD" tid="t56">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--bullet-->
+    <term type="open" lemma="bullet" pos="N" morphofeat="NN" tid="t57">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--casings-->
+    <term type="open" lemma="casing" pos="N" morphofeat="NNS" tid="t58">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t59">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t216">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--Dold-->
+    <term type="close" lemma="Dold" pos="R" morphofeat="NNP" tid="t217">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t218">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t219">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--55-year-old-->
+    <term type="open" lemma="55-year-old" pos="G" morphofeat="JJ" tid="t220">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t221">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--three-->
+    <term type="close" lemma="three" pos="O" morphofeat="CD" tid="t222">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--children-->
+    <term type="open" lemma="child" pos="N" morphofeat="NNS" tid="t223">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t224">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--thanked-->
+    <term type="open" lemma="thank" pos="V" morphofeat="VBD" tid="t225">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t226">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--government-->
+    <term type="open" lemma="government" pos="N" morphofeat="NN" tid="t227">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t228">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t229">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--police-->
+    <term type="open" lemma="police" pos="N" morphofeat="NN" tid="t230">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t231">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="G" morphofeat="JJ" tid="t232">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--swift-->
+    <term type="open" lemma="swift" pos="N" morphofeat="NN" tid="t233">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--response-->
+    <term type="open" lemma="response" pos="N" morphofeat="NN" tid="t234">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t235">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t236">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--Mr Dold-->
+        <span>
+          <target id="t216"/>
+          <target id="t217"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the government-->
+        <span>
+          <target id="t226"/>
+          <target id="t227"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--thanked-->
+        <span>
+          <target id="t225"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--the police-->
+        <span>
+          <target id="t229"/>
+          <target id="t230"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--swift response-->
+        <span>
+          <target id="t233"/>
+          <target id="t234"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

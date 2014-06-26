@@ -1,0 +1,15 @@
+w142	Le	le	D		OpinionHolder	2	Opinion	1		0		0		0		0		0		0	141	true	8
+w143	Premier	premier	G		OpinionHolder	2	Opinion	1		0		0		0		0		0		0	142	true	8
+w144	ministre	ministre	N		OpinionHolder	2	Opinion	1		0		0		0		0		0		0	143	true	8
+w145	britannique	britannique	G		OpinionHolder	2	Opinion	1		0		0		0		0		0		0	144	true	8
+w146	prônait	prôner	V		D-Neutral	3	Opinion	1		0		0		0		0		0		0	145	true	8
+w147	une	un	D		OpinionTarget	4	Opinion	1		0		0		0		0		0		0	146	true	8
+w148	action	action	N		OpinionTarget	4	Opinion	1		0		0		0		0		0		0	147	true	8
+w149	"	&quot;	O		OpinionTarget	4	Opinion	1		0		0		0		0		0		0	148	true	8
+w150	ciblée	ciblée	N		OpinionTarget	4	Opinion	1		0		0		0		0		0		0	149	true	8
+w151	"	&quot;	O		OpinionTarget	4	Opinion	1		0		0		0		0		0		0	150	true	8
+w152	contre	contre	P		OpinionTarget	4	Opinion	1		0		0		0		0		0		0	151	true	8
+w153	le	le	D		OpinionTarget	4	Opinion	1		0		0		0		0		0		0	152	true	8
+w154	régime	régime	N		OpinionTarget	4	Opinion	1		0		0		0		0		0		0	153	true	8
+w155	de	de	P		OpinionTarget	4	Opinion	1		0		0		0		0		0		0	154	true	8
+w156	Damas	damas	N		OpinionTarget	4	Opinion	1		0		0		0		0		0		0	155	true	8

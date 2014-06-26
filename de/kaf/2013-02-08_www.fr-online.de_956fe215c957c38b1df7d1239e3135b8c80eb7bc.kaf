@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T18:09:45Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T18:09:45Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:05:49CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T19:10:10CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w53" sent="7" para="4" offset="301" length="3">Die</wf>
+    <wf wid="w54" sent="7" para="4" offset="305" length="4">Etat</wf>
+    <wf wid="w55" sent="7" para="4" offset="309" length="1">·</wf>
+    <wf wid="w56" sent="7" para="4" offset="310" length="10">Obergrenze</wf>
+    <wf wid="w57" sent="7" para="4" offset="321" length="3">von</wf>
+    <wf wid="w58" sent="7" para="4" offset="325" length="3">960</wf>
+    <wf wid="w59" sent="7" para="4" offset="329" length="10">Milliarden</wf>
+    <wf wid="w60" sent="7" para="4" offset="340" length="4">Euro</wf>
+    <wf wid="w61" sent="7" para="4" offset="345" length="5">steht</wf>
+    <wf wid="w62" sent="7" para="4" offset="351" length="4">fest</wf>
+    <wf wid="w63" sent="7" para="4" offset="355" length="1">.</wf>
+    <wf wid="w114" sent="11" para="6" offset="673" length="3">Das</wf>
+    <wf wid="w115" sent="11" para="6" offset="677" length="6">erfuhr</wf>
+    <wf wid="w116" sent="11" para="6" offset="684" length="3">die</wf>
+    <wf wid="w117" sent="11" para="6" offset="688" length="8">Deutsche</wf>
+    <wf wid="w118" sent="11" para="6" offset="697" length="6">Presse</wf>
+    <wf wid="w119" sent="11" para="6" offset="703" length="1">·</wf>
+    <wf wid="w120" sent="11" para="6" offset="704" length="7">Agentur</wf>
+    <wf wid="w121" sent="11" para="6" offset="712" length="2">am</wf>
+    <wf wid="w122" sent="11" para="6" offset="715" length="13">Freitagmorgen</wf>
+    <wf wid="w123" sent="11" para="6" offset="729" length="3">aus</wf>
+    <wf wid="w124" sent="11" para="6" offset="733" length="19">Verhandlungskreisen</wf>
+    <wf wid="w125" sent="11" para="6" offset="753" length="2">in</wf>
+    <wf wid="w126" sent="11" para="6" offset="756" length="7">Brüssel</wf>
+    <wf wid="w127" sent="11" para="6" offset="763" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t53" type="close">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <term lemma="Etat" morphofeat="NN" pos="N" tid="t54" type="open">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t55" type="open">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <term lemma="Obergrenze" morphofeat="NN" pos="N" tid="t56" type="open">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t57" type="close">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t58" type="open">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <term lemma="Milliarde" morphofeat="NN" pos="N" tid="t59" type="open">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <term lemma="Euro" morphofeat="NN" pos="N" tid="t60" type="open">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <term lemma="stehen" morphofeat="VVFIN" pos="V" tid="t61" type="open">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <term lemma="fest" morphofeat="PTKVZ" pos="V" tid="t62" type="open">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t63" type="open">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="PDS" pos="Q" tid="t114" type="close">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <term lemma="erfahren" morphofeat="VVFIN" pos="V" tid="t115" type="open">
+      <span>
+        <target id="w115"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t116" type="close">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <term lemma="deutsch" morphofeat="ADJA" pos="G" tid="t117" type="open">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <term lemma="Presse" morphofeat="NN" pos="N" tid="t118" type="open">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t119" type="open">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <term lemma="Agentur" morphofeat="NN" pos="N" tid="t120" type="open">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t121" type="close">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <term lemma="Freitagmorgen" morphofeat="NN" pos="N" tid="t122" type="open">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <term lemma="aus" morphofeat="APPR" pos="P" tid="t123" type="close">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <term lemma="Verhandlungskreis" morphofeat="NN" pos="N" tid="t124" type="open">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t125" type="close">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <term lemma="Brüssel" morphofeat="NE" pos="R" tid="t126" type="open">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t127" type="open">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

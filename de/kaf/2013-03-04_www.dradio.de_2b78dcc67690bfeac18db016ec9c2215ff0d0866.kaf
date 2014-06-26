@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:52:50Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:52:50Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:52:34CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:53:35CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w125" sent="11" para="3" offset="858" length="3">Der</wf>
+    <wf wid="w126" sent="11" para="3" offset="862" length="8">Deutsche</wf>
+    <wf wid="w127" sent="11" para="3" offset="871" length="9">Industrie</wf>
+    <wf wid="w128" sent="11" para="3" offset="880" length="1">·</wf>
+    <wf wid="w129" sent="11" para="3" offset="882" length="3">und</wf>
+    <wf wid="w130" sent="11" para="3" offset="886" length="16">Handelskammertag</wf>
+    <wf wid="w131" sent="11" para="3" offset="903" length="6">warnte</wf>
+    <wf wid="w132" sent="11" para="3" offset="909" length="1">,</wf>
+    <wf wid="w133" sent="11" para="3" offset="911" length="18">Fehlentscheidungen</wf>
+    <wf wid="w134" sent="11" para="3" offset="930" length="3">bei</wf>
+    <wf wid="w135" sent="11" para="3" offset="934" length="3">der</wf>
+    <wf wid="w136" sent="11" para="3" offset="938" length="12">Energiewende</wf>
+    <wf wid="w137" sent="11" para="3" offset="951" length="3">und</wf>
+    <wf wid="w138" sent="11" para="3" offset="955" length="3">der</wf>
+    <wf wid="w139" sent="11" para="3" offset="959" length="5">Rente</wf>
+    <wf wid="w140" sent="11" para="3" offset="965" length="3">von</wf>
+    <wf wid="w141" sent="11" para="3" offset="969" length="5">heute</wf>
+    <wf wid="w142" sent="11" para="3" offset="975" length="7">könnten</wf>
+    <wf wid="w143" sent="11" para="3" offset="983" length="3">das</wf>
+    <wf wid="w144" sent="11" para="3" offset="987" length="8">Wachstum</wf>
+    <wf wid="w145" sent="11" para="3" offset="996" length="3">von</wf>
+    <wf wid="w146" sent="11" para="3" offset="1000" length="6">morgen</wf>
+    <wf wid="w147" sent="11" para="3" offset="1007" length="8">belasten</wf>
+    <wf wid="w148" sent="11" para="3" offset="1015" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t125" type="close">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <term lemma="deutsch" morphofeat="ADJA" pos="G" tid="t126" type="open">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <term lemma="Industrie" morphofeat="NN" pos="N" tid="t127" type="open">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t128" type="open">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t129" type="close">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <term lemma="Handelskammertag" morphofeat="NN unknown_lemma" pos="O" tid="t130" type="open">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <term lemma="warnen" morphofeat="VVFIN" pos="V" tid="t131" type="open">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t132" type="open">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <term lemma="Fehlentscheidung" morphofeat="NN" pos="N" tid="t133" type="open">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <term lemma="bei" morphofeat="APPR" pos="P" tid="t134" type="close">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t135" type="close">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <term lemma="Energiewende" morphofeat="NN" pos="N" tid="t136" type="open">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t137" type="close">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t138" type="close">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <term lemma="Rente" morphofeat="NN" pos="N" tid="t139" type="open">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t140" type="close">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <term lemma="heute" morphofeat="ADV" pos="A" tid="t141" type="open">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <term lemma="können" morphofeat="VMFIN" pos="V" tid="t142" type="open">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t143" type="close">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <term lemma="Wachstum" morphofeat="NN" pos="N" tid="t144" type="open">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t145" type="close">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <term lemma="morgen" morphofeat="ADV" pos="A" tid="t146" type="open">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <term lemma="belasten" morphofeat="VVINF" pos="V" tid="t147" type="open">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t148" type="open">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bei der Energiewende-->
+        <span>
+          <target id="t134"/>
+          <target id="t135"/>
+          <target id="t136"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--Fehlentscheidungen-->
+        <span>
+          <target id="t133"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Der Deutsche Industrie-->
+        <span>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Fehlentscheidungen-->
+        <span>
+          <target id="t133"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--warnte-->
+        <span>
+          <target id="t131"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Handelskammertag-->
+        <span>
+          <target id="t130"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Fehlentscheidungen-->
+        <span>
+          <target id="t133"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--warnte-->
+        <span>
+          <target id="t131"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,21 @@
+w80	Minister	minister	N		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	79	true	4
+w81	Asscher	Asscher	O		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	80	true	4
+w82	van	van	P		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	81	true	4
+w83	Sociale	sociaal	G		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	82	true	4
+w84	Zaken	zaak|zaken	N		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	83	true	4
+w85	staat	staat	N		D-Positive	2	Opinion	4		0		0		0		0		0		0	84	true	4
+w86	open	openen	V		D-Positive	2	Opinion	4		0		0		0		0		0		0	85	true	4
+w87	voor	voor	P		D-Positive	2	Opinion	4		0		0		0		0		0		0	86	true	4
+w88	de	de	D		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	87	true	4
+w89	plannen	plan	N		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	88	true	4
+w90	van	van	P		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	89	true	4
+w91	Cameron	Cameron	O		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	90	true	4
+w93	de	de	D		OpinionTarget	5	Opinion	7		0		0		0		0		0		0	92	true	4
+w94	migratie	migratie	N		OpinionTarget	5	Opinion	7		0		0		0		0		0		0	93	true	4
+w95	van	van	P		OpinionTarget	5	Opinion	7		0		0		0		0		0		0	94	true	4
+w96	arme	arme	N		OpinionTarget	5	Opinion	7		0		0		0		0		0		0	95	true	4
+w97	naar	naar	P		OpinionTarget	5	Opinion	7		0		0		0		0		0		0	96	true	4
+w98	rijke	rijk	G		OpinionTarget	5	Opinion	7		0		0		0		0		0		0	97	true	4
+w99	EU-lidstaten	EU-lidstaten	O		OpinionTarget	5	Opinion	7		0		0		0		0		0		0	98	true	4
+w100	te	te	O			0	Opinion	7		0		0		0		0		0		0	99	true	4
+w101	beperken	beperken	V		D-Negative	6	Opinion	7		0		0		0		0		0		0	100	true	4

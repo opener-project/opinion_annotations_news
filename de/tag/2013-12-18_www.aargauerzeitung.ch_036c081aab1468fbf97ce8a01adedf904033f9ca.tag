@@ -1,0 +1,10 @@
+w80	sprach	sprechen	V		D-Positive	3	Opinion	1		0		0		0		0		0		0	79	true	9
+w81	sich	sich	Q		D-Positive	3	Opinion	1		0		0		0		0		0		0	80	true	9
+w82	die	die	D		OpinionHolder	2	Opinion	1		0		0		0		0		0		0	81	true	9
+w83	heute	heute	A		OpinionHolder	2	Opinion	1		0		0		0		0		0		0	82	true	9
+w84	vereidigte	vereidigt	G		OpinionHolder	2	Opinion	1		0		0		0		0		0		0	83	true	9
+w85	Bundeskanzlerin	Bundeskanzlerin	N		OpinionHolder	2	Opinion	1		0		0		0		0		0		0	84	true	9
+w86	für	für	P		D-Positive	3	Opinion	1		0		0		0		0		0		0	85	true	9
+w87	verbindlichere	verbindlich	G		OpinionTarget	4	Opinion	1		0		0		0		0		0		0	86	true	9
+w88	Regeln	Regel|Regeln	N		OpinionTarget	4	Opinion	1		0		0		0		0		0		0	87	true	9
+w89	aus	aus	V		D-Positive	3	Opinion	1		0		0		0		0		0		0	88	true	9

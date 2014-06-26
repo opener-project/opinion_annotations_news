@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:57:05" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:45:06CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="515" length="3" wid="w94">His</wf>
+    <wf sent="5" para="2" offset="519" length="8" wid="w95">comments</wf>
+    <wf sent="5" para="2" offset="528" length="4" wid="w96">come</wf>
+    <wf sent="5" para="2" offset="533" length="4" wid="w97">days</wf>
+    <wf sent="5" para="2" offset="538" length="6" wid="w98">before</wf>
+    <wf sent="5" para="2" offset="545" length="2" wid="w99">Mr</wf>
+    <wf sent="5" para="2" offset="548" length="7" wid="w100">Cameron</wf>
+    <wf sent="5" para="2" offset="556" length="2" wid="w101">is</wf>
+    <wf sent="5" para="2" offset="559" length="3" wid="w102">due</wf>
+    <wf sent="5" para="2" offset="563" length="2" wid="w103">to</wf>
+    <wf sent="5" para="2" offset="566" length="7" wid="w104">deliver</wf>
+    <wf sent="5" para="2" offset="574" length="1" wid="w105">a</wf>
+    <wf sent="5" para="2" offset="576" length="3" wid="w106">key</wf>
+    <wf sent="5" para="2" offset="580" length="6" wid="w107">speech</wf>
+    <wf sent="5" para="2" offset="587" length="2" wid="w108">on</wf>
+    <wf sent="5" para="2" offset="590" length="7" wid="w109">Britain</wf>
+    <wf sent="5" para="2" offset="597" length="2" wid="w110">'s</wf>
+    <wf sent="5" para="2" offset="600" length="5" wid="w111">place</wf>
+    <wf sent="5" para="2" offset="606" length="2" wid="w112">in</wf>
+    <wf sent="5" para="2" offset="609" length="6" wid="w113">Europe</wf>
+    <wf sent="5" para="2" offset="616" length="2" wid="w114">in</wf>
+    <wf sent="5" para="2" offset="619" length="9" wid="w115">Amsterdam</wf>
+    <wf sent="5" para="2" offset="629" length="2" wid="w116">on</wf>
+    <wf sent="5" para="2" offset="632" length="6" wid="w117">Friday</wf>
+    <wf sent="5" para="2" offset="638" length="1" wid="w118">.</wf>
+  </text>
+  <terms>
+    <!--His-->
+    <term type="close" lemma="his" pos="Q" morphofeat="PRP$" tid="t94">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--comments-->
+    <term type="open" lemma="comment" pos="N" morphofeat="NNS" tid="t95">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--come-->
+    <term type="open" lemma="come" pos="V" morphofeat="VBP" tid="t96">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--days-->
+    <term type="open" lemma="day" pos="N" morphofeat="NNS" tid="t97">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--before-->
+    <term type="close" lemma="before" pos="P" morphofeat="IN" tid="t98">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--Mr-->
+    <term type="close" lemma="Mr" pos="R" morphofeat="NNP" tid="t99">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t100">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t101">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--due-->
+    <term type="open" lemma="due" pos="G" morphofeat="JJ" tid="t102">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t103">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--deliver-->
+    <term type="open" lemma="deliver" pos="V" morphofeat="VB" tid="t104">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t105">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--key-->
+    <term type="open" lemma="key" pos="N" morphofeat="NN" tid="t106">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--speech-->
+    <term type="open" lemma="speech" pos="N" morphofeat="NN" tid="t107">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t108">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--Britain-->
+    <term type="close" lemma="Britain" pos="R" morphofeat="NNP" tid="t109">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t110">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--place-->
+    <term type="open" lemma="place" pos="N" morphofeat="NN" tid="t111">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t112">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term type="close" lemma="Europe" pos="R" morphofeat="NNP" tid="t113">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t114">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--Amsterdam-->
+    <term type="close" lemma="Amsterdam" pos="R" morphofeat="NNP" tid="t115">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t116">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--Friday-->
+    <term type="close" lemma="Friday" pos="R" morphofeat="NNP" tid="t117">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t118">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

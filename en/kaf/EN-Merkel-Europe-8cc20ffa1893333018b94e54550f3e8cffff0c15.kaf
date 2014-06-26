@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:10:12" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:47:28CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="934" length="9" wid="w164">Wealthier</wf>
+    <wf sent="5" para="2" offset="944" length="7" wid="w165">nations</wf>
+    <wf sent="5" para="2" offset="952" length="4" wid="w166">like</wf>
+    <wf sent="5" para="2" offset="957" length="7" wid="w167">Germany</wf>
+    <wf sent="5" para="2" offset="964" length="1" wid="w168">,</wf>
+    <wf sent="5" para="2" offset="966" length="3" wid="w169">the</wf>
+    <wf sent="5" para="2" offset="970" length="11" wid="w170">Netherlands</wf>
+    <wf sent="5" para="2" offset="982" length="3" wid="w171">and</wf>
+    <wf sent="5" para="2" offset="986" length="7" wid="w172">Denmark</wf>
+    <wf sent="5" para="2" offset="994" length="3" wid="w173">saw</wf>
+    <wf sent="5" para="2" offset="998" length="4" wid="w174">only</wf>
+    <wf sent="5" para="2" offset="1003" length="5" wid="w175">small</wf>
+    <wf sent="5" para="2" offset="1008" length="1" wid="w176">,</wf>
+    <wf sent="5" para="2" offset="1010" length="6" wid="w177">sedate</wf>
+    <wf sent="5" para="2" offset="1017" length="14" wid="w178">demonstrations</wf>
+    <wf sent="5" para="2" offset="1031" length="1" wid="w179">.</wf>
+  </text>
+  <terms>
+    <!--Wealthier-->
+    <term type="open" lemma="wealthier" pos="G" morphofeat="JJR" tid="t164">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--nations-->
+    <term type="open" lemma="nation" pos="N" morphofeat="NNS" tid="t165">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--like-->
+    <term type="close" lemma="like" pos="P" morphofeat="IN" tid="t166">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--Germany-->
+    <term type="close" lemma="Germany" pos="R" morphofeat="NNP" tid="t167">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t168">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t169">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--Netherlands-->
+    <term type="close" lemma="Netherlands" pos="R" morphofeat="NNP" tid="t170">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t171">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--Denmark-->
+    <term type="close" lemma="Denmark" pos="R" morphofeat="NNP" tid="t172">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--saw-->
+    <term type="open" lemma="see" pos="V" morphofeat="VBD" tid="t173">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--only-->
+    <term type="open" lemma="only" pos="A" morphofeat="RB" tid="t174">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--small-->
+    <term type="open" lemma="small" pos="G" morphofeat="JJ" tid="t175">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t176">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--sedate-->
+    <term type="open" lemma="sedate" pos="G" morphofeat="JJ" tid="t177">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--demonstrations-->
+    <term type="open" lemma="demonstration" pos="N" morphofeat="NNS" tid="t178">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t179">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+          <target id="t178"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

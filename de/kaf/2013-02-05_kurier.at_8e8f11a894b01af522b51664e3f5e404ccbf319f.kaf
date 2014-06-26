@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:03:52Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:03:52Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:53:03CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:04:18CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w34" sent="5" para="3" offset="205" length="5">Heute</wf>
+    <wf wid="w35" sent="5" para="3" offset="211" length="5">haben</wf>
+    <wf wid="w36" sent="5" para="3" offset="217" length="7">mehrere</wf>
+    <wf wid="w37" sent="5" para="3" offset="225" length="7">Tausend</wf>
+    <wf wid="w38" sent="5" para="3" offset="233" length="6">Beamte</wf>
+    <wf wid="w39" sent="5" para="3" offset="240" length="3">der</wf>
+    <wf wid="w40" sent="5" para="3" offset="244" length="12">Europäischen</wf>
+    <wf wid="w41" sent="5" para="3" offset="257" length="5">Union</wf>
+    <wf wid="w42" sent="5" para="3" offset="263" length="5">gegen</wf>
+    <wf wid="w43" sent="5" para="3" offset="269" length="12">Einsparungen</wf>
+    <wf wid="w44" sent="5" para="3" offset="282" length="3">bei</wf>
+    <wf wid="w45" sent="5" para="3" offset="286" length="3">den</wf>
+    <wf wid="w46" sent="5" para="3" offset="290" length="11">Verwaltungs</wf>
+    <wf wid="w47" sent="5" para="3" offset="301" length="1">·</wf>
+    <wf wid="w48" sent="5" para="3" offset="303" length="3">und</wf>
+    <wf wid="w49" sent="5" para="3" offset="307" length="16">Personalausgaben</wf>
+    <wf wid="w50" sent="5" para="3" offset="324" length="3">der</wf>
+    <wf wid="w51" sent="5" para="3" offset="328" length="2">EU</wf>
+    <wf wid="w52" sent="5" para="3" offset="331" length="9">gestreikt</wf>
+    <wf wid="w53" sent="5" para="3" offset="340" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="heute" morphofeat="ADV" pos="A" tid="t34" type="open">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t35" type="open">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="mehrere" morphofeat="PIAT" pos="Q" tid="t36" type="close">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="Tausend" morphofeat="NN" pos="N" tid="t37" type="open">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="Beamter" morphofeat="NN" pos="N" tid="t38" type="open">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t39" type="close">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="europäisch" morphofeat="ADJA" pos="G" tid="t40" type="open">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="Union" morphofeat="NN" pos="N" tid="t41" type="open">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term lemma="gegen" morphofeat="APPR" pos="P" tid="t42" type="close">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term lemma="Einsparung" morphofeat="NN" pos="N" tid="t43" type="open">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term lemma="bei" morphofeat="APPR" pos="P" tid="t44" type="close">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t45" type="close">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term lemma="Verwaltungs" morphofeat="NN unknown_lemma" pos="O" tid="t46" type="open">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t47" type="open">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t48" type="close">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <term lemma="Personalausgabe" morphofeat="NN" pos="N" tid="t49" type="open">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t50" type="close">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t51" type="open">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <term lemma="streiken" morphofeat="VVPP" pos="V" tid="t52" type="open">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t53" type="open">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--den Verwaltungs · und Personalausgaben-->
+        <span>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--Einsparungen-->
+        <span>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

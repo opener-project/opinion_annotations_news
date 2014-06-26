@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:55Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:55Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:01:38CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w27" sent="3" para="2" offset="186" length="3">Dat</wf>
+    <wf wid="w28" sent="3" para="2" offset="190" length="4">zegt</wf>
+    <wf wid="w29" sent="3" para="2" offset="195" length="2">de</wf>
+    <wf wid="w30" sent="3" para="2" offset="198" length="6">Duitse</wf>
+    <wf wid="w31" sent="3" para="2" offset="205" length="8">minister</wf>
+    <wf wid="w32" sent="3" para="2" offset="214" length="3">van</wf>
+    <wf wid="w33" sent="3" para="2" offset="218" length="9">financiën</wf>
+    <wf wid="w34" sent="3" para="2" offset="228" length="8">Wolfgang</wf>
+    <wf wid="w35" sent="3" para="2" offset="237" length="8">Schäuble</wf>
+    <wf wid="w36" sent="3" para="2" offset="246" length="7">vandaag</wf>
+    <wf wid="w37" sent="3" para="2" offset="254" length="2">in</wf>
+    <wf wid="w38" sent="3" para="2" offset="257" length="3">een</wf>
+    <wf wid="w39" sent="3" para="2" offset="261" length="9">interview</wf>
+    <wf wid="w40" sent="3" para="2" offset="271" length="3">met</wf>
+    <wf wid="w41" sent="3" para="2" offset="275" length="3">The</wf>
+    <wf wid="w42" sent="3" para="2" offset="279" length="4">Wall</wf>
+    <wf wid="w43" sent="3" para="2" offset="284" length="6">Street</wf>
+    <wf wid="w44" sent="3" para="2" offset="291" length="7">Journal</wf>
+    <wf wid="w45" sent="3" para="2" offset="299" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Dat-->
+    <term tid="t27" type="close" lemma="dat" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--zegt-->
+    <term tid="t28" type="open" lemma="zeggen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t29" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t30" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--minister-->
+    <term tid="t31" type="open" lemma="minister" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t32" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--financiën-->
+    <term tid="t33" type="open" lemma="financiën" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--Wolfgang-->
+    <term tid="t34" type="open" lemma="Wolfgang" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--Schäuble-->
+    <term tid="t35" type="open" lemma="Schäuble" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--vandaag-->
+    <term tid="t36" type="open" lemma="vandaag" pos="A" morphofeat="adv">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t37" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t38" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--interview-->
+    <term tid="t39" type="open" lemma="interview" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t40" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--The-->
+    <term tid="t41" type="open" lemma="The" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--Wall-->
+    <term tid="t42" type="open" lemma="Wall" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--Street-->
+    <term tid="t43" type="open" lemma="Street" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--Journal-->
+    <term tid="t44" type="open" lemma="Journal" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t45" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

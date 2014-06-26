@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:27:30" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:41:25CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="28" para="2" offset="3219" length="3" wid="w611">But</wf>
+    <wf sent="28" para="2" offset="3223" length="2" wid="w612">he</wf>
+    <wf sent="28" para="2" offset="3226" length="6" wid="w613">leaves</wf>
+    <wf sent="28" para="2" offset="3233" length="6" wid="w614">France</wf>
+    <wf sent="28" para="2" offset="3240" length="6" wid="w615">weaker</wf>
+    <wf sent="28" para="2" offset="3246" length="1" wid="w616">,</wf>
+    <wf sent="28" para="2" offset="3248" length="4" wid="w617">more</wf>
+    <wf sent="28" para="2" offset="3253" length="7" wid="w618">divided</wf>
+    <wf sent="28" para="2" offset="3261" length="3" wid="w619">and</wf>
+    <wf sent="28" para="2" offset="3265" length="4" wid="w620">more</wf>
+    <wf sent="28" para="2" offset="3270" length="7" wid="w621">muddled</wf>
+    <wf sent="28" para="2" offset="3278" length="4" wid="w622">than</wf>
+    <wf sent="28" para="2" offset="3283" length="2" wid="w623">he</wf>
+    <wf sent="28" para="2" offset="3286" length="5" wid="w624">found</wf>
+    <wf sent="28" para="2" offset="3292" length="2" wid="w625">it</wf>
+    <wf sent="28" para="2" offset="3294" length="1" wid="w626">.</wf>
+  </text>
+  <terms>
+    <!--But-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t611">
+      <span>
+        <target id="w611"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t612">
+      <span>
+        <target id="w612"/>
+      </span>
+    </term>
+    <!--leaves-->
+    <term type="open" lemma="leave" pos="V" morphofeat="VBZ" tid="t613">
+      <span>
+        <target id="w613"/>
+      </span>
+    </term>
+    <!--France-->
+    <term type="close" lemma="France" pos="R" morphofeat="NNP" tid="t614">
+      <span>
+        <target id="w614"/>
+      </span>
+    </term>
+    <!--weaker-->
+    <term type="open" lemma="weaker" pos="G" morphofeat="JJR" tid="t615">
+      <span>
+        <target id="w615"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t616">
+      <span>
+        <target id="w616"/>
+      </span>
+    </term>
+    <!--more-->
+    <term type="open" lemma="much" pos="A" morphofeat="RBR" tid="t617">
+      <span>
+        <target id="w617"/>
+      </span>
+    </term>
+    <!--divided-->
+    <term type="open" lemma="divide" pos="V" morphofeat="VBN" tid="t618">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w618"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t619">
+      <span>
+        <target id="w619"/>
+      </span>
+    </term>
+    <!--more-->
+    <term type="open" lemma="more" pos="G" morphofeat="JJR" tid="t620">
+      <span>
+        <target id="w620"/>
+      </span>
+    </term>
+    <!--muddled-->
+    <term type="open" lemma="muddle" pos="V" morphofeat="VBN" tid="t621">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w621"/>
+      </span>
+    </term>
+    <!--than-->
+    <term type="close" lemma="than" pos="P" morphofeat="IN" tid="t622">
+      <span>
+        <target id="w622"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t623">
+      <span>
+        <target id="w623"/>
+      </span>
+    </term>
+    <!--found-->
+    <term type="open" lemma="find" pos="V" morphofeat="VBD" tid="t624">
+      <span>
+        <target id="w624"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t625">
+      <span>
+        <target id="w625"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t626">
+      <span>
+        <target id="w626"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--he-->
+        <span>
+          <target id="t612"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--leaves France weaker-->
+        <span>
+          <target id="t613"/>
+          <target id="t614"/>
+          <target id="t615"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--France-->
+        <span>
+          <target id="t614"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--weaker-->
+        <span>
+          <target id="t615"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--France-->
+        <span>
+          <target id="t614"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--divided-->
+        <span>
+          <target id="t618"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--France-->
+        <span>
+          <target id="t614"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--muddled-->
+        <span>
+          <target id="t621"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

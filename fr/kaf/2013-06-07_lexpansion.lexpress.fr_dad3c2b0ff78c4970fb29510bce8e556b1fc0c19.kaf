@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:45:53Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:45:53Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:45:53Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:26:58CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="2">La</wf>
+    <wf wid="w2" sent="1" para="1" offset="3" length="5">Chine</wf>
+    <wf wid="w3" sent="1" para="1" offset="9" length="6">menace</wf>
+    <wf wid="w4" sent="1" para="1" offset="16" length="2">de</wf>
+    <wf wid="w5" sent="1" para="1" offset="19" length="5">taxer</wf>
+    <wf wid="w6" sent="1" para="1" offset="25" length="3">les</wf>
+    <wf wid="w7" sent="1" para="1" offset="29" length="8">voitures</wf>
+    <wf wid="w8" sent="1" para="1" offset="38" length="2">de</wf>
+    <wf wid="w9" sent="1" para="1" offset="41" length="4">luxe</wf>
+    <wf wid="w10" sent="1" para="1" offset="46" length="10">allemandes</wf>
+    <wf wid="w23" sent="3" para="3" offset="104" length="2">La</wf>
+    <wf wid="w24" sent="3" para="3" offset="107" length="6">guerre</wf>
+    <wf wid="w25" sent="3" para="3" offset="114" length="5">entre</wf>
+    <wf wid="w26" sent="3" para="3" offset="120" length="2">l'</wf>
+    <wf wid="w27" sent="3" para="3" offset="122" length="6">Europe</wf>
+    <wf wid="w28" sent="3" para="3" offset="129" length="2">et</wf>
+    <wf wid="w29" sent="3" para="3" offset="132" length="2">la</wf>
+    <wf wid="w30" sent="3" para="3" offset="135" length="5">Chine</wf>
+    <wf wid="w31" sent="3" para="3" offset="141" length="2">n'</wf>
+    <wf wid="w32" sent="3" para="3" offset="143" length="3">est</wf>
+    <wf wid="w33" sent="3" para="3" offset="147" length="3">pas</wf>
+    <wf wid="w34" sent="3" para="3" offset="151" length="4">près</wf>
+    <wf wid="w35" sent="3" para="3" offset="156" length="2">de</wf>
+    <wf wid="w36" sent="3" para="3" offset="159" length="2">s'</wf>
+    <wf wid="w37" sent="3" para="3" offset="161" length="7">arrêter</wf>
+    <wf wid="w38" sent="3" para="3" offset="168" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t1" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Chine-->
+    <term tid="t2" type="open" lemma="chine" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--menace-->
+    <term tid="t3" type="open" lemma="menacer" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t4" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--taxer-->
+    <term tid="t5" type="open" lemma="taxer" pos="V" morphofeat="VW">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t6" type="close" lemma="le" pos="D" morphofeat="Dfp">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--voitures-->
+    <term tid="t7" type="open" lemma="voiture" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t8" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--luxe-->
+    <term tid="t9" type="open" lemma="luxe" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--allemandes-->
+    <term tid="t10" type="open" lemma="allemand" pos="G" morphofeat="Afp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--La-->
+    <term tid="t23" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--guerre-->
+    <term tid="t24" type="open" lemma="guerre" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--entre-->
+    <term tid="t25" type="close" lemma="entre" pos="P" morphofeat="P">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t26" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term tid="t27" type="open" lemma="Europe" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t28" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t29" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--Chine-->
+    <term tid="t30" type="open" lemma="chine" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--n'-->
+    <term tid="t31" type="open" lemma="n'" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t32" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--pas-->
+    <term tid="t33" type="open" lemma="pas" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative" sentiment_modifier="shifter"/>
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--près-->
+    <term tid="t34" type="close" lemma="près" pos="P" morphofeat="P">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t35" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--s'-->
+    <term tid="t36" type="close" lemma="s'" pos="Q" morphofeat="CL3fs">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--arrêter-->
+    <term tid="t37" type="open" lemma="arrêter" pos="V" morphofeat="VW">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t38" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--La Chine-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de taxer les voitures de luxe allemandes-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--menace-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

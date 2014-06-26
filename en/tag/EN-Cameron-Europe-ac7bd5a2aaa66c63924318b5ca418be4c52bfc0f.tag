@@ -1,0 +1,11 @@
+w652	Russia	Russia	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	651	true	23
+w653	meanwhile	meanwhile	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	652	true	23
+w654	supplies	supply	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	653	true	23
+w655	weapons	weapon	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	654	true	23
+w656	to	to	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	655	true	23
+w657	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	656	true	23
+w658	government	government	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	657	true	23
+w659	of	of	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	658	true	23
+w660	President	President	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	659	true	23
+w661	Bashar	Bashar	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	660	true	23
+w662	al-Assad	al-Assad	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	661	true	23

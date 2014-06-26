@@ -1,0 +1,9 @@
+w397	Zelf	zelf	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	396	true	25
+w398	begint	beginnen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	397	true	25
+w399	Merkel	Merkel	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	398	true	25
+w400	aan	aan	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	399	true	25
+w401	haar	haar	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	400	true	25
+w402	derde	derde	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	401	true	25
+w403	ambtstermijn	ambtstermijn	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	402	true	25
+w404	als	als	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	403	true	25
+w405	bondskanselier	bondskanselier	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	404	true	25

@@ -1,0 +1,10 @@
+w254	Ähnlich	ähnlich	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	253	true	14
+w255	hatte	haben	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	254	true	14
+w256	Steinbrück	Steinbrück	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	255	true	14
+w257	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	256	true	14
+w258	einem	eine	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	257	true	14
+w259	Buch	Buch	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	258	true	14
+w260	mit	mit	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	259	true	14
+w261	Helmut	Helmut	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	260	true	14
+w262	Schmidt	Schmidt	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	261	true	14
+w263	formuliert	formulieren	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	262	true	14

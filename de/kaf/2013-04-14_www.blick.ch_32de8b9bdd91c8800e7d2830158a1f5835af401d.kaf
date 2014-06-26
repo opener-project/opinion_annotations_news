@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:33:49Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:33:49Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:51:12CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:34:10CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w66" sent="4" para="3" offset="317" length="3">Auf</wf>
+    <wf wid="w67" sent="4" para="3" offset="321" length="5">ihrem</wf>
+    <wf wid="w68" sent="4" para="3" offset="327" length="18">Gründungsparteitag</wf>
+    <wf wid="w69" sent="4" para="3" offset="346" length="2">am</wf>
+    <wf wid="w70" sent="4" para="3" offset="349" length="7">Sonntag</wf>
+    <wf wid="w71" sent="4" para="3" offset="357" length="2">in</wf>
+    <wf wid="w72" sent="4" para="3" offset="360" length="6">Berlin</wf>
+    <wf wid="w73" sent="4" para="3" offset="367" length="14">verabschiedete</wf>
+    <wf wid="w74" sent="4" para="3" offset="382" length="3">die</wf>
+    <wf wid="w75" sent="4" para="3" offset="386" length="3">AfD</wf>
+    <wf wid="w76" sent="4" para="3" offset="390" length="3">das</wf>
+    <wf wid="w77" sent="4" para="3" offset="394" length="12">Wahlprogramm</wf>
+    <wf wid="w78" sent="4" para="3" offset="406" length="1">.</wf>
+    <wf wid="w165" sent="12" para="7" offset="933" length="3">Das</wf>
+    <wf wid="w166" sent="12" para="7" offset="937" length="12">Sprechertrio</wf>
+    <wf wid="w167" sent="12" para="7" offset="950" length="4">wird</wf>
+    <wf wid="w168" sent="12" para="7" offset="955" length="7">ergänzt</wf>
+    <wf wid="w169" sent="12" para="7" offset="963" length="5">durch</wf>
+    <wf wid="w170" sent="12" para="7" offset="969" length="3">die</wf>
+    <wf wid="w171" sent="12" para="7" offset="973" length="13">Unternehmerin</wf>
+    <wf wid="w172" sent="12" para="7" offset="987" length="6">Frauke</wf>
+    <wf wid="w173" sent="12" para="7" offset="994" length="5">Petry</wf>
+    <wf wid="w174" sent="12" para="7" offset="1000" length="3">und</wf>
+    <wf wid="w175" sent="12" para="7" offset="1004" length="3">den</wf>
+    <wf wid="w176" sent="12" para="7" offset="1008" length="11">Publizisten</wf>
+    <wf wid="w177" sent="12" para="7" offset="1020" length="6">Konrad</wf>
+    <wf wid="w178" sent="12" para="7" offset="1027" length="4">Adam</wf>
+    <wf wid="w179" sent="12" para="7" offset="1031" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="auf" morphofeat="APPR" pos="P" tid="t66" type="close">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <term lemma="ihr" morphofeat="PPOSAT" pos="Q" tid="t67" type="close">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <term lemma="Gründungsparteitag" morphofeat="NN" pos="N" tid="t68" type="open">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t69" type="close">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <term lemma="Sonntag" morphofeat="NN" pos="N" tid="t70" type="open">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t71" type="close">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <term lemma="Berlin" morphofeat="NE" pos="R" tid="t72" type="open">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <term lemma="verabschieden" morphofeat="VVFIN" pos="V" tid="t73" type="open">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t74" type="close">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <term lemma="AfD" morphofeat="NN unknown_lemma" pos="O" tid="t75" type="open">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t76" type="close">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <term lemma="Wahlprogramm" morphofeat="NN" pos="N" tid="t77" type="open">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t78" type="open">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t165" type="close">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <term lemma="Sprechertrio" morphofeat="NN unknown_lemma" pos="O" tid="t166" type="open">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t167" type="open">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <term lemma="ergänzen" morphofeat="VVPP" pos="V" tid="t168" type="open">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <term lemma="durch" morphofeat="APPR" pos="P" tid="t169" type="close">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t170" type="close">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <term lemma="Unternehmerin" morphofeat="NN" pos="N" tid="t171" type="open">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <term lemma="Frauke" morphofeat="NE" pos="R" tid="t172" type="open">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <term lemma="Petry" morphofeat="NE" pos="R" tid="t173" type="open">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t174" type="close">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t175" type="close">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <term lemma="Publizist" morphofeat="NN" pos="N" tid="t176" type="open">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <term lemma="Konrad" morphofeat="NE" pos="R" tid="t177" type="open">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <term lemma="Adam" morphofeat="NE" pos="R" tid="t178" type="open">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t179" type="open">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--die AfD-->
+        <span>
+          <target id="t74"/>
+          <target id="t75"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--das Wahlprogramm-->
+        <span>
+          <target id="t76"/>
+          <target id="t77"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--verabschiedete-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+          <target id="t178"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

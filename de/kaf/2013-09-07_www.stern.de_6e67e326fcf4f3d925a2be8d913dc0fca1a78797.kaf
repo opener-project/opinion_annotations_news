@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T12:26:26Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T12:26:26Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:54:00CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T13:26:41CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:22CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w417" sent="24" para="13" offset="2353" length="3">Die</wf>
+    <wf wid="w418" sent="24" para="13" offset="2357" length="3">CSU</wf>
+    <wf wid="w419" sent="24" para="13" offset="2360" length="1">·</wf>
+    <wf wid="w420" sent="24" para="13" offset="2361" length="19">Landesgruppenchefin</wf>
+    <wf wid="w421" sent="24" para="13" offset="2381" length="5">Gerda</wf>
+    <wf wid="w422" sent="24" para="13" offset="2387" length="11">Hasselfeldt</wf>
+    <wf wid="w423" sent="24" para="13" offset="2399" length="4">warf</wf>
+    <wf wid="w424" sent="24" para="13" offset="2404" length="3">der</wf>
+    <wf wid="w425" sent="24" para="13" offset="2408" length="3">AfD</wf>
+    <wf wid="w426" sent="24" para="13" offset="2412" length="3">vor</wf>
+    <wf wid="w427" sent="24" para="13" offset="2415" length="1">,</wf>
+    <wf wid="w428" sent="24" para="13" offset="2417" length="1">"</wf>
+    <wf wid="w429" sent="24" para="13" offset="2418" length="3">mit</wf>
+    <wf wid="w430" sent="24" para="13" offset="2422" length="3">dem</wf>
+    <wf wid="w431" sent="24" para="13" offset="2426" length="5">Feuer</wf>
+    <wf wid="w432" sent="24" para="13" offset="2432" length="2">zu</wf>
+    <wf wid="w433" sent="24" para="13" offset="2435" length="7">spielen</wf>
+    <wf wid="w434" sent="24" para="13" offset="2442" length="1">"</wf>
+    <wf wid="w435" sent="24" para="13" offset="2443" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t417" type="close">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <term lemma="CSU" morphofeat="NE" pos="R" tid="t418" type="open">
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t419" type="open">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+    <term lemma="Landesgruppenchefin" morphofeat="NN unknown_lemma" pos="O" tid="t420" type="open">
+      <span>
+        <target id="w420"/>
+      </span>
+    </term>
+    <term lemma="Gerda" morphofeat="NE" pos="R" tid="t421" type="open">
+      <span>
+        <target id="w421"/>
+      </span>
+    </term>
+    <term lemma="Hasselfeldt" morphofeat="NE" pos="R" tid="t422" type="open">
+      <span>
+        <target id="w422"/>
+      </span>
+    </term>
+    <term lemma="werfen" morphofeat="VVFIN" pos="V" tid="t423" type="open">
+      <span>
+        <target id="w423"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t424" type="close">
+      <span>
+        <target id="w424"/>
+      </span>
+    </term>
+    <term lemma="AfD" morphofeat="NN unknown_lemma" pos="O" tid="t425" type="open">
+      <span>
+        <target id="w425"/>
+      </span>
+    </term>
+    <term lemma="vor" morphofeat="PTKVZ" pos="V" tid="t426" type="open">
+      <span>
+        <target id="w426"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t427" type="open">
+      <span>
+        <target id="w427"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t428" type="open">
+      <span>
+        <target id="w428"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t429" type="close">
+      <span>
+        <target id="w429"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t430" type="close">
+      <span>
+        <target id="w430"/>
+      </span>
+    </term>
+    <term lemma="Feuer" morphofeat="NN" pos="N" tid="t431" type="open">
+      <span>
+        <target id="w431"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="PTKZU" pos="O" tid="t432" type="open">
+      <span>
+        <target id="w432"/>
+      </span>
+    </term>
+    <term lemma="spielen" morphofeat="VVINF" pos="V" tid="t433" type="open">
+      <span>
+        <target id="w433"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t434" type="open">
+      <span>
+        <target id="w434"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t435" type="open">
+      <span>
+        <target id="w435"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--mit dem Feuer zu spielen-->
+        <span>
+          <target id="t429"/>
+          <target id="t430"/>
+          <target id="t431"/>
+          <target id="t432"/>
+          <target id="t433"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

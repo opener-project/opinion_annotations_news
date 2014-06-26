@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T12:33:23Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T12:33:23Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:14:27CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T13:33:45CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w433" sent="23" para="9" offset="2766" length="3">Der</wf>
+    <wf wid="w434" sent="23" para="9" offset="2770" length="17">Spitzensteuersatz</wf>
+    <wf wid="w435" sent="23" para="9" offset="2788" length="4">soll</wf>
+    <wf wid="w436" sent="23" para="9" offset="2793" length="3">für</wf>
+    <wf wid="w437" sent="23" para="9" offset="2797" length="12">Verheiratete</wf>
+    <wf wid="w438" sent="23" para="9" offset="2810" length="2">ab</wf>
+    <wf wid="w439" sent="23" para="9" offset="2813" length="5">einem</wf>
+    <wf wid="w440" sent="23" para="9" offset="2819" length="2">zu</wf>
+    <wf wid="w441" sent="23" para="9" offset="2822" length="13">versteuernden</wf>
+    <wf wid="w442" sent="23" para="9" offset="2836" length="15">Jahreseinkommen</wf>
+    <wf wid="w443" sent="23" para="9" offset="2852" length="3">von</wf>
+    <wf wid="w444" sent="23" para="9" offset="2856" length="4">mehr</wf>
+    <wf wid="w445" sent="23" para="9" offset="2861" length="3">als</wf>
+    <wf wid="w446" sent="23" para="9" offset="2865" length="3">200</wf>
+    <wf wid="w447" sent="23" para="9" offset="2869" length="3">000</wf>
+    <wf wid="w448" sent="23" para="9" offset="2873" length="4">Euro</wf>
+    <wf wid="w449" sent="23" para="9" offset="2878" length="3">auf</wf>
+    <wf wid="w450" sent="23" para="9" offset="2882" length="2">49</wf>
+    <wf wid="w451" sent="23" para="9" offset="2885" length="7">Prozent</wf>
+    <wf wid="w452" sent="23" para="9" offset="2893" length="7">steigen</wf>
+    <wf wid="w453" sent="23" para="9" offset="2900" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t433" type="close">
+      <span>
+        <target id="w433"/>
+      </span>
+    </term>
+    <term lemma="Spitzensteuersatz" morphofeat="NN" pos="N" tid="t434" type="open">
+      <span>
+        <target id="w434"/>
+      </span>
+    </term>
+    <term lemma="sollen" morphofeat="VMFIN" pos="V" tid="t435" type="open">
+      <span>
+        <target id="w435"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t436" type="close">
+      <span>
+        <target id="w436"/>
+      </span>
+    </term>
+    <term lemma="Verheiratete" morphofeat="NN" pos="N" tid="t437" type="open">
+      <span>
+        <target id="w437"/>
+      </span>
+    </term>
+    <term lemma="ab" morphofeat="APPR" pos="P" tid="t438" type="close">
+      <span>
+        <target id="w438"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t439" type="close">
+      <span>
+        <target id="w439"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPR" pos="P" tid="t440" type="close">
+      <span>
+        <target id="w440"/>
+      </span>
+    </term>
+    <term lemma="versteuernd" morphofeat="ADJA" pos="G" tid="t441" type="open">
+      <span>
+        <target id="w441"/>
+      </span>
+    </term>
+    <term lemma="Jahreseinkommen" morphofeat="NN" pos="N" tid="t442" type="open">
+      <span>
+        <target id="w442"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t443" type="close">
+      <span>
+        <target id="w443"/>
+      </span>
+    </term>
+    <term lemma="mehr" morphofeat="ADV" pos="A" tid="t444" type="open">
+      <span>
+        <target id="w444"/>
+      </span>
+    </term>
+    <term lemma="als" morphofeat="KOKOM" pos="C" tid="t445" type="close">
+      <span>
+        <target id="w445"/>
+      </span>
+    </term>
+    <term lemma="200" morphofeat="CARD" pos="O" tid="t446" type="open">
+      <span>
+        <target id="w446"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t447" type="open">
+      <span>
+        <target id="w447"/>
+      </span>
+    </term>
+    <term lemma="Euro" morphofeat="NN" pos="N" tid="t448" type="open">
+      <span>
+        <target id="w448"/>
+      </span>
+    </term>
+    <term lemma="auf" morphofeat="APPR" pos="P" tid="t449" type="close">
+      <span>
+        <target id="w449"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t450" type="open">
+      <span>
+        <target id="w450"/>
+      </span>
+    </term>
+    <term lemma="Prozent" morphofeat="NN" pos="N" tid="t451" type="open">
+      <span>
+        <target id="w451"/>
+      </span>
+    </term>
+    <term lemma="steigen" morphofeat="VVINF" pos="V" tid="t452" type="open">
+      <span>
+        <target id="w452"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t453" type="open">
+      <span>
+        <target id="w453"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t433"/>
+          <target id="t434"/>
+          <target id="t435"/>
+          <target id="t436"/>
+          <target id="t437"/>
+          <target id="t438"/>
+          <target id="t439"/>
+          <target id="t440"/>
+          <target id="t441"/>
+          <target id="t442"/>
+          <target id="t443"/>
+          <target id="t444"/>
+          <target id="t445"/>
+          <target id="t446"/>
+          <target id="t447"/>
+          <target id="t448"/>
+          <target id="t449"/>
+          <target id="t450"/>
+          <target id="t451"/>
+          <target id="t452"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

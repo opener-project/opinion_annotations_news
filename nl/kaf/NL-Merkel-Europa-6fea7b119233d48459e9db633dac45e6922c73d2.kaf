@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:17Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:17Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T16:00:47CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w252" sent="12" para="2" offset="1568" length="3">Het</wf>
+    <wf wid="w253" sent="12" para="2" offset="1572" length="4">land</wf>
+    <wf wid="w254" sent="12" para="2" offset="1577" length="4">liet</wf>
+    <wf wid="w255" sent="12" para="2" offset="1582" length="5">weten</wf>
+    <wf wid="w256" sent="12" para="2" offset="1588" length="1">"</wf>
+    <wf wid="w257" sent="12" para="2" offset="1590" length="4">diep</wf>
+    <wf wid="w258" sent="12" para="2" offset="1595" length="7">bezorgd</wf>
+    <wf wid="w259" sent="12" para="2" offset="1602" length="1">"</wf>
+    <wf wid="w260" sent="12" para="2" offset="1605" length="2">te</wf>
+    <wf wid="w261" sent="12" para="2" offset="1608" length="4">zijn</wf>
+    <wf wid="w262" sent="12" para="2" offset="1613" length="4">over</wf>
+    <wf wid="w263" sent="12" para="2" offset="1618" length="2">de</wf>
+    <wf wid="w264" sent="12" para="2" offset="1621" length="11">bouwplannen</wf>
+    <wf wid="w265" sent="12" para="2" offset="1632" length="1">.</wf>
+    <wf wid="w295" sent="15" para="2" offset="1821" length="9">Netanyahu</wf>
+    <wf wid="w296" sent="15" para="2" offset="1831" length="2">en</wf>
+    <wf wid="w297" sent="15" para="2" offset="1834" length="14">bondskanselier</wf>
+    <wf wid="w298" sent="15" para="2" offset="1849" length="6">Angela</wf>
+    <wf wid="w299" sent="15" para="2" offset="1856" length="6">Merkel</wf>
+    <wf wid="w300" sent="15" para="2" offset="1863" length="9">ontmoeten</wf>
+    <wf wid="w301" sent="15" para="2" offset="1873" length="6">elkaar</wf>
+    <wf wid="w302" sent="15" para="2" offset="1880" length="8">woensdag</wf>
+    <wf wid="w303" sent="15" para="2" offset="1888" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Het-->
+    <term tid="t252" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--land-->
+    <term tid="t253" type="open" lemma="land" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--liet-->
+    <term tid="t254" type="open" lemma="laten" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--weten-->
+    <term tid="t255" type="open" lemma="weten" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t256" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--diep-->
+    <term tid="t257" type="open" lemma="diep" pos="A" morphofeat="adv">
+      <span>
+        <target id="w257"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--bezorgd-->
+    <term tid="t258" type="open" lemma="bezorgen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w258"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--"-->
+    <term tid="t259" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t260" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t261" type="open" lemma="zijn" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t262" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t263" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--bouwplannen-->
+    <term tid="t264" type="open" lemma="bouwplan" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t265" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--Netanyahu-->
+    <term tid="t295" type="open" lemma="Netanyahu" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t296" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--bondskanselier-->
+    <term tid="t297" type="open" lemma="bondskanselier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t298" type="open" lemma="Angela" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t299" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--ontmoeten-->
+    <term tid="t300" type="open" lemma="ontmoeten" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--elkaar-->
+    <term tid="t301" type="close" lemma="elkaar" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--woensdag-->
+    <term tid="t302" type="open" lemma="woensdag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t303" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Het land-->
+        <span>
+          <target id="t252"/>
+          <target id="t253"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de bouwplannen-->
+        <span>
+          <target id="t263"/>
+          <target id="t264"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--diep bezorgd-->
+        <span>
+          <target id="t257"/>
+          <target id="t258"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t295"/>
+          <target id="t296"/>
+          <target id="t297"/>
+          <target id="t298"/>
+          <target id="t299"/>
+          <target id="t300"/>
+          <target id="t301"/>
+          <target id="t302"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

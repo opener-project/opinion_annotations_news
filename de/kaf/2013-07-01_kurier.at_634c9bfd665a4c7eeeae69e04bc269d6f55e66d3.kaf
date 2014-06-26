@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:11:07Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:11:07Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:56:50CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:11:34CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w568" sent="35" para="17" offset="3104" length="9">Natürlich</wf>
+    <wf wid="w569" sent="35" para="17" offset="3114" length="3">ist</wf>
+    <wf wid="w570" sent="35" para="17" offset="3118" length="8">Kroatien</wf>
+    <wf wid="w571" sent="35" para="17" offset="3127" length="5">nicht</wf>
+    <wf wid="w572" sent="35" para="17" offset="3133" length="7">perfekt</wf>
+    <wf wid="w573" sent="35" para="17" offset="3140" length="1">,</wf>
+    <wf wid="w574" sent="35" para="17" offset="3142" length="3">die</wf>
+    <wf wid="w575" sent="35" para="17" offset="3146" length="17">Herausforderungen</wf>
+    <wf wid="w576" sent="35" para="17" offset="3164" length="3">als</wf>
+    <wf wid="w577" sent="35" para="17" offset="3168" length="3">Neo</wf>
+    <wf wid="w578" sent="35" para="17" offset="3171" length="1">·</wf>
+    <wf wid="w579" sent="35" para="17" offset="3172" length="8">Mitglied</wf>
+    <wf wid="w580" sent="35" para="17" offset="3181" length="4">sind</wf>
+    <wf wid="w581" sent="35" para="17" offset="3186" length="5">enorm</wf>
+    <wf wid="w582" sent="35" para="17" offset="3191" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="natürlich" morphofeat="ADV" pos="A" tid="t568" type="open">
+      <span>
+        <target id="w568"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t569" type="open">
+      <span>
+        <target id="w569"/>
+      </span>
+    </term>
+    <term lemma="Kroatien" morphofeat="NE" pos="R" tid="t570" type="open">
+      <span>
+        <target id="w570"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t571" type="open">
+      <span>
+        <target id="w571"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="perfekt" morphofeat="ADJD" pos="G" tid="t572" type="open">
+      <span>
+        <target id="w572"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t573" type="open">
+      <span>
+        <target id="w573"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t574" type="close">
+      <span>
+        <target id="w574"/>
+      </span>
+    </term>
+    <term lemma="Herausforderung" morphofeat="NN" pos="N" tid="t575" type="open">
+      <span>
+        <target id="w575"/>
+      </span>
+    </term>
+    <term lemma="als" morphofeat="KOKOM" pos="C" tid="t576" type="close">
+      <span>
+        <target id="w576"/>
+      </span>
+    </term>
+    <term lemma="Neo" morphofeat="NN unknown_lemma" pos="O" tid="t577" type="open">
+      <span>
+        <target id="w577"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t578" type="open">
+      <span>
+        <target id="w578"/>
+      </span>
+    </term>
+    <term lemma="Mitglied" morphofeat="NN" pos="N" tid="t579" type="open">
+      <span>
+        <target id="w579"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t580" type="open">
+      <span>
+        <target id="w580"/>
+      </span>
+    </term>
+    <term lemma="enorm" morphofeat="ADJD" pos="G" tid="t581" type="open">
+      <span>
+        <target id="w581"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t582" type="open">
+      <span>
+        <target id="w582"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die Herausforderungen als Neo · Mitglied-->
+        <span>
+          <target id="t574"/>
+          <target id="t575"/>
+          <target id="t576"/>
+          <target id="t577"/>
+          <target id="t578"/>
+          <target id="t579"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--enorm-->
+        <span>
+          <target id="t581"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Kroatien-->
+        <span>
+          <target id="t570"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--nicht perfekt-->
+        <span>
+          <target id="t571"/>
+          <target id="t572"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

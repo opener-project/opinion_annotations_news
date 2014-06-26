@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:31:00" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:38:32CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="4" para="2" offset="569" length="6" wid="w102">German</wf>
+    <wf sent="4" para="2" offset="576" length="10" wid="w103">chancellor</wf>
+    <wf sent="4" para="2" offset="587" length="6" wid="w104">Angela</wf>
+    <wf sent="4" para="2" offset="594" length="6" wid="w105">Merkel</wf>
+    <wf sent="4" para="2" offset="601" length="10" wid="w106">criticised</wf>
+    <wf sent="4" para="2" offset="612" length="6" wid="w107">France</wf>
+    <wf sent="4" para="2" offset="618" length="2" wid="w108">’s</wf>
+    <wf sent="4" para="2" offset="621" length="8" wid="w109">economic</wf>
+    <wf sent="4" para="2" offset="630" length="11" wid="w110">performance</wf>
+    <wf sent="4" para="2" offset="641" length="1" wid="w111">,</wf>
+    <wf sent="4" para="2" offset="643" length="11" wid="w112">effectively</wf>
+    <wf sent="4" para="2" offset="655" length="6" wid="w113">taking</wf>
+    <wf sent="4" para="2" offset="662" length="1" wid="w114">a</wf>
+    <wf sent="4" para="2" offset="664" length="5" wid="w115">swipe</wf>
+    <wf sent="4" para="2" offset="670" length="2" wid="w116">at</wf>
+    <wf sent="4" para="2" offset="673" length="9" wid="w117">Socialist</wf>
+    <wf sent="4" para="2" offset="683" length="9" wid="w118">President</wf>
+    <wf sent="4" para="2" offset="693" length="8" wid="w119">François</wf>
+    <wf sent="4" para="2" offset="702" length="8" wid="w120">Hollande</wf>
+    <wf sent="4" para="2" offset="710" length="1" wid="w121">,</wf>
+    <wf sent="4" para="2" offset="712" length="3" wid="w122">who</wf>
+    <wf sent="4" para="2" offset="716" length="3" wid="w123">has</wf>
+    <wf sent="4" para="2" offset="720" length="6" wid="w124">called</wf>
+    <wf sent="4" para="2" offset="727" length="3" wid="w125">for</wf>
+    <wf sent="4" para="2" offset="731" length="4" wid="w126">more</wf>
+    <wf sent="4" para="2" offset="736" length="8" wid="w127">emphasis</wf>
+    <wf sent="4" para="2" offset="745" length="2" wid="w128">on</wf>
+    <wf sent="4" para="2" offset="748" length="8" wid="w129">economic</wf>
+    <wf sent="4" para="2" offset="757" length="6" wid="w130">growth</wf>
+    <wf sent="4" para="2" offset="764" length="3" wid="w131">and</wf>
+    <wf sent="4" para="2" offset="768" length="4" wid="w132">less</wf>
+    <wf sent="4" para="2" offset="773" length="2" wid="w133">on</wf>
+    <wf sent="4" para="2" offset="776" length="6" wid="w134">budget</wf>
+    <wf sent="4" para="2" offset="783" length="9" wid="w135">austerity</wf>
+    <wf sent="4" para="2" offset="792" length="1" wid="w136">.</wf>
+  </text>
+  <terms>
+    <!--German-->
+    <term type="open" lemma="german" pos="G" morphofeat="JJ" tid="t102">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--chancellor-->
+    <term type="open" lemma="chancellor" pos="N" morphofeat="NN" tid="t103">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term type="close" lemma="Angela" pos="R" morphofeat="NNP" tid="t104">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t105">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--criticised-->
+    <term type="open" lemma="criticised" pos="G" morphofeat="JJ" tid="t106">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--France-->
+    <term type="close" lemma="France" pos="R" morphofeat="NNP" tid="t107">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--’s-->
+    <term type="open" lemma="’s" pos="N" morphofeat="NNS" tid="t108">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--economic-->
+    <term type="open" lemma="economic" pos="G" morphofeat="JJ" tid="t109">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--performance-->
+    <term type="open" lemma="performance" pos="N" morphofeat="NN" tid="t110">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t111">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--effectively-->
+    <term type="open" lemma="effectively" pos="A" morphofeat="RB" tid="t112">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--taking-->
+    <term type="open" lemma="take" pos="V" morphofeat="VBG" tid="t113">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t114">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--swipe-->
+    <term type="open" lemma="swipe" pos="N" morphofeat="NN" tid="t115">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--at-->
+    <term type="close" lemma="at" pos="P" morphofeat="IN" tid="t116">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--Socialist-->
+    <term type="close" lemma="Socialist" pos="R" morphofeat="NNP" tid="t117">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--President-->
+    <term type="close" lemma="President" pos="R" morphofeat="NNP" tid="t118">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--François-->
+    <term type="close" lemma="François" pos="R" morphofeat="NNP" tid="t119">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term type="close" lemma="Hollande" pos="R" morphofeat="NNP" tid="t120">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t121">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--who-->
+    <term type="close" lemma="who" pos="Q" morphofeat="WP" tid="t122">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t123">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--called-->
+    <term type="open" lemma="call" pos="V" morphofeat="VBN" tid="t124">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t125">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--more-->
+    <term type="open" lemma="more" pos="G" morphofeat="JJR" tid="t126">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--emphasis-->
+    <term type="open" lemma="emphasis" pos="N" morphofeat="NN" tid="t127">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t128">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--economic-->
+    <term type="open" lemma="economic" pos="G" morphofeat="JJ" tid="t129">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--growth-->
+    <term type="open" lemma="growth" pos="N" morphofeat="NN" tid="t130">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t131">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--less-->
+    <term type="open" lemma="less" pos="V" morphofeat="VB" tid="t132">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="open" lemma="on" pos="A" morphofeat="RB" tid="t133">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--budget-->
+    <term type="open" lemma="budget" pos="N" morphofeat="NN" tid="t134">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--austerity-->
+    <term type="open" lemma="austerity" pos="N" morphofeat="NN" tid="t135">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t136">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--taking a swipe at-->
+        <span>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--effectively-->
+        <span>
+          <target id="t112"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder>
+        <!--who-->
+        <span>
+          <target id="t122"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--less on budget austerity-->
+        <span>
+          <target id="t132"/>
+          <target id="t133"/>
+          <target id="t134"/>
+          <target id="t135"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--called for-->
+        <span>
+          <target id="t124"/>
+          <target id="t125"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder>
+        <!--who-->
+        <span>
+          <target id="t122"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--more emphasis on economic growth-->
+        <span>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--called for-->
+        <span>
+          <target id="t124"/>
+          <target id="t125"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--budget austerity-->
+        <span>
+          <target id="t134"/>
+          <target id="t135"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--less-->
+        <span>
+          <target id="t132"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder>
+        <!--German chancellor Angela Merkel-->
+        <span>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Socialist President François Hollande-->
+        <span>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--effectively taking a swipe at-->
+        <span>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--economic growth-->
+        <span>
+          <target id="t129"/>
+          <target id="t130"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--more emphasis-->
+        <span>
+          <target id="t126"/>
+          <target id="t127"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o6">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--German chancellor Angela Merkel-->
+        <span>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--France ’s economic performance-->
+        <span>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--criticised-->
+        <span>
+          <target id="t106"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

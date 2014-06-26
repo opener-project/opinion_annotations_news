@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:58:11" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:12:00CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="1017" length="1" wid="w198">S</wf>
+    <wf sent="9" para="2" offset="1018" length="1" wid="w199">&amp;</wf>
+    <wf sent="9" para="2" offset="1019" length="1" wid="w200">P</wf>
+    <wf sent="9" para="2" offset="1021" length="4" wid="w201">said</wf>
+    <wf sent="9" para="2" offset="1026" length="3" wid="w202">its</wf>
+    <wf sent="9" para="2" offset="1030" length="7" wid="w203">outlook</wf>
+    <wf sent="9" para="2" offset="1038" length="3" wid="w204">for</wf>
+    <wf sent="9" para="2" offset="1042" length="3" wid="w205">the</wf>
+    <wf sent="9" para="2" offset="1046" length="2" wid="w206">UK</wf>
+    <wf sent="9" para="2" offset="1048" length="2" wid="w207">'s</wf>
+    <wf sent="9" para="2" offset="1051" length="7" wid="w208">coveted</wf>
+    <wf sent="9" para="2" offset="1059" length="6" wid="w209">rating</wf>
+    <wf sent="9" para="2" offset="1066" length="3" wid="w210">was</wf>
+    <wf sent="9" para="2" offset="1070" length="6" wid="w211">stable</wf>
+    <wf sent="9" para="2" offset="1077" length="3" wid="w212">and</wf>
+    <wf sent="9" para="2" offset="1081" length="9" wid="w213">predicted</wf>
+    <wf sent="9" para="2" offset="1091" length="3" wid="w214">the</wf>
+    <wf sent="9" para="2" offset="1095" length="7" wid="w215">economy</wf>
+    <wf sent="9" para="2" offset="1103" length="5" wid="w216">would</wf>
+    <wf sent="9" para="2" offset="1109" length="4" wid="w217">pick</wf>
+    <wf sent="9" para="2" offset="1114" length="2" wid="w218">up</wf>
+    <wf sent="9" para="2" offset="1117" length="2" wid="w219">in</wf>
+    <wf sent="9" para="2" offset="1120" length="3" wid="w220">the</wf>
+    <wf sent="9" para="2" offset="1124" length="6" wid="w221">coming</wf>
+    <wf sent="9" para="2" offset="1131" length="6" wid="w222">months</wf>
+    <wf sent="9" para="2" offset="1137" length="1" wid="w223">.</wf>
+  </text>
+  <terms>
+    <!--S-->
+    <term type="open" lemma="S" pos="N" morphofeat="NNS" tid="t198">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--&-->
+    <term type="close" lemma="&amp;" pos="C" morphofeat="CC" tid="t199">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--P-->
+    <term type="close" lemma="P" pos="R" morphofeat="NNP" tid="t200">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t201">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--its-->
+    <term type="close" lemma="its" pos="Q" morphofeat="PRP$" tid="t202">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--outlook-->
+    <term type="open" lemma="outlook" pos="N" morphofeat="NN" tid="t203">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t204">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t205">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--UK-->
+    <term type="close" lemma="UK" pos="R" morphofeat="NNP" tid="t206">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t207">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--coveted-->
+    <term type="open" lemma="coveted" pos="G" morphofeat="JJ" tid="t208">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--rating-->
+    <term type="open" lemma="rating" pos="N" morphofeat="NN" tid="t209">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t210">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--stable-->
+    <term type="open" lemma="stable" pos="G" morphofeat="JJ" tid="t211">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t212">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--predicted-->
+    <term type="open" lemma="predict" pos="V" morphofeat="VBD" tid="t213">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t214">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--economy-->
+    <term type="open" lemma="economy" pos="N" morphofeat="NN" tid="t215">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--would-->
+    <term type="close" lemma="would" pos="O" morphofeat="MD" tid="t216">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--pick-->
+    <term type="open" lemma="pick" pos="V" morphofeat="VB" tid="t217">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--up-->
+    <term type="close" lemma="up" pos="O" morphofeat="RP" tid="t218">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t219">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t220">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--coming-->
+    <term type="open" lemma="coming" pos="G" morphofeat="JJ" tid="t221">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--months-->
+    <term type="open" lemma="month" pos="N" morphofeat="NNS" tid="t222">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t223">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--S & P-->
+        <span>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the economy-->
+        <span>
+          <target id="t214"/>
+          <target id="t215"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--would pick up-->
+        <span>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--S & P-->
+        <span>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--its outlook for the UK 's coveted rating-->
+        <span>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--stable-->
+        <span>
+          <target id="t211"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

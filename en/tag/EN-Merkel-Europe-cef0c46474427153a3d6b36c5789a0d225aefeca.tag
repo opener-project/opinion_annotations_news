@@ -1,0 +1,9 @@
+w43	EPO	EPO	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	42	true	4
+w44	maintains	maintain	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	43	true	4
+w45	a	a	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	44	true	4
+w46	sponsored	sponsored	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	45	true	4
+w47	content	content	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	46	true	4
+w48	section	section	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	47	true	4
+w49	on	on	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	48	true	4
+w50	this	this	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	49	true	4
+w51	microsite	microsite	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	50	true	4

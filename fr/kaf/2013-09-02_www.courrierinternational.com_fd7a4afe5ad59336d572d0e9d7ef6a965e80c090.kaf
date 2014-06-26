@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:46:54Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:46:54Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:46:55Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:23:52CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:13CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w574" sent="19" para="11" offset="3005" length="2">En</wf>
+    <wf wid="w575" sent="19" para="11" offset="3008" length="2">d'</wf>
+    <wf wid="w576" sent="19" para="11" offset="3010" length="6">autres</wf>
+    <wf wid="w577" sent="19" para="11" offset="3017" length="6">termes</wf>
+    <wf wid="w578" sent="19" para="11" offset="3024" length="1">:</wf>
+    <wf wid="w579" sent="19" para="11" offset="3026" length="2">un</wf>
+    <wf wid="w580" sent="19" para="11" offset="3029" length="12">gouvernement</wf>
+    <wf wid="w581" sent="19" para="11" offset="3042" length="3">CDU</wf>
+    <wf wid="w582" sent="19" para="11" offset="3045" length="1">·</wf>
+    <wf wid="w583" sent="19" para="11" offset="3046" length="3">SPD</wf>
+    <wf wid="w584" sent="19" para="11" offset="3049" length="1">.</wf>
+  </text>
+  <terms>
+    <!--En-->
+    <term tid="t574" type="close" lemma="En" pos="P" morphofeat="P">
+      <span>
+        <target id="w574"/>
+      </span>
+    </term>
+    <!--d'-->
+    <term tid="t575" type="close" lemma="un" pos="D" morphofeat="Dmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w575"/>
+      </span>
+    </term>
+    <!--autres-->
+    <term tid="t576" type="open" lemma="autre" pos="G" morphofeat="AImp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w576"/>
+      </span>
+    </term>
+    <!--termes-->
+    <term tid="t577" type="open" lemma="terme" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w577"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t578" type="close" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w578"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t579" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w579"/>
+      </span>
+    </term>
+    <!--gouvernement-->
+    <term tid="t580" type="open" lemma="gouvernement" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w580"/>
+      </span>
+    </term>
+    <!--CDU-->
+    <term tid="t581" type="open" lemma="CDU" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w581"/>
+      </span>
+    </term>
+    <!--·-->
+    <term tid="t582" type="open" lemma="·" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w582"/>
+      </span>
+    </term>
+    <!--SPD-->
+    <term tid="t583" type="open" lemma="SPD" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w583"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t584" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w584"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t574"/>
+          <target id="t575"/>
+          <target id="t576"/>
+          <target id="t577"/>
+          <target id="t578"/>
+          <target id="t579"/>
+          <target id="t580"/>
+          <target id="t581"/>
+          <target id="t582"/>
+          <target id="t583"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

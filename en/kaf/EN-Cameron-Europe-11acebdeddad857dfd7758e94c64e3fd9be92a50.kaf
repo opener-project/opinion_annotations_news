@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:51Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:51Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:31:42" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:46:44CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="11" para="2" offset="871" length="2" wid="w171">No</wf>
+    <wf sent="11" para="2" offset="874" length="5" wid="w172">doubt</wf>
+    <wf sent="11" para="2" offset="880" length="5" wid="w173">1,514</wf>
+    <wf sent="11" para="2" offset="886" length="6" wid="w174">island</wf>
+    <wf sent="11" para="2" offset="893" length="9" wid="w175">residents</wf>
+    <wf sent="11" para="2" offset="903" length="6" wid="w176">really</wf>
+    <wf sent="11" para="2" offset="910" length="3" wid="w177">did</wf>
+    <wf sent="11" para="2" offset="914" length="4" wid="w178">vote</wf>
+    <wf sent="11" para="2" offset="919" length="2" wid="w179">in</wf>
+    <wf sent="11" para="2" offset="922" length="6" wid="w180">favour</wf>
+    <wf sent="11" para="2" offset="929" length="2" wid="w181">of</wf>
+    <wf sent="11" para="2" offset="932" length="9" wid="w182">continued</wf>
+    <wf sent="11" para="2" offset="942" length="7" wid="w183">British</wf>
+    <wf sent="11" para="2" offset="950" length="4" wid="w184">rule</wf>
+    <wf sent="11" para="2" offset="954" length="1" wid="w185">.</wf>
+  </text>
+  <terms>
+    <!--No-->
+    <term type="close" lemma="no" pos="D" morphofeat="DT" tid="t171">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--doubt-->
+    <term type="open" lemma="doubt" pos="N" morphofeat="NN" tid="t172">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--1,514-->
+    <term type="close" lemma="1,514" pos="O" morphofeat="CD" tid="t173">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--island-->
+    <term type="open" lemma="island" pos="V" morphofeat="VBP" tid="t174">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--residents-->
+    <term type="open" lemma="resident" pos="N" morphofeat="NNS" tid="t175">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--really-->
+    <term type="open" lemma="really" pos="A" morphofeat="RB" tid="t176">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--did-->
+    <term type="open" lemma="do" pos="V" morphofeat="VBD" tid="t177">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--vote-->
+    <term type="open" lemma="vote" pos="V" morphofeat="VB" tid="t178">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t179">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--favour-->
+    <term type="open" lemma="favour" pos="N" morphofeat="NN" tid="t180">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t181">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--continued-->
+    <term type="open" lemma="continued" pos="G" morphofeat="JJ" tid="t182">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--British-->
+    <term type="open" lemma="british" pos="G" morphofeat="JJ" tid="t183">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--rule-->
+    <term type="open" lemma="rule" pos="N" morphofeat="NN" tid="t184">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t185">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--1,514 island residents-->
+        <span>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--continued British rule-->
+        <span>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--vote in favour of-->
+        <span>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

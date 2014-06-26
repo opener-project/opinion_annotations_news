@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:49:25CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:39CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w92" sent="8" para="2" offset="517" length="2">De</wf>
+    <wf wid="w93" sent="8" para="2" offset="520" length="10">Italiaanse</wf>
+    <wf wid="w94" sent="8" para="2" offset="531" length="7">premier</wf>
+    <wf wid="w95" sent="8" para="2" offset="539" length="5">Mario</wf>
+    <wf wid="w96" sent="8" para="2" offset="545" length="5">Monti</wf>
+    <wf wid="w97" sent="8" para="2" offset="550" length="1">,</wf>
+    <wf wid="w98" sent="8" para="2" offset="552" length="2">de</wf>
+    <wf wid="w99" sent="8" para="2" offset="555" length="6">Duitse</wf>
+    <wf wid="w100" sent="8" para="2" offset="562" length="14">bondskanselier</wf>
+    <wf wid="w101" sent="8" para="2" offset="577" length="6">Angela</wf>
+    <wf wid="w102" sent="8" para="2" offset="584" length="6">Merkel</wf>
+    <wf wid="w103" sent="8" para="2" offset="591" length="2">en</wf>
+    <wf wid="w104" sent="8" para="2" offset="594" length="2">de</wf>
+    <wf wid="w105" sent="8" para="2" offset="597" length="7">Griekse</wf>
+    <wf wid="w106" sent="8" para="2" offset="605" length="7">premier</wf>
+    <wf wid="w107" sent="8" para="2" offset="613" length="5">Lucas</wf>
+    <wf wid="w108" sent="8" para="2" offset="619" length="9">Papademos</wf>
+    <wf wid="w109" sent="8" para="2" offset="629" length="4">zijn</wf>
+    <wf wid="w110" sent="8" para="2" offset="634" length="12">optimistisch</wf>
+    <wf wid="w111" sent="8" para="2" offset="647" length="4">over</wf>
+    <wf wid="w112" sent="8" para="2" offset="652" length="2">de</wf>
+    <wf wid="w113" sent="8" para="2" offset="655" length="4">kans</wf>
+    <wf wid="w114" sent="8" para="2" offset="660" length="3">dat</wf>
+    <wf wid="w115" sent="8" para="2" offset="664" length="2">er</wf>
+    <wf wid="w116" sent="8" para="2" offset="667" length="7">maandag</wf>
+    <wf wid="w117" sent="8" para="2" offset="675" length="3">een</wf>
+    <wf wid="w118" sent="8" para="2" offset="679" length="7">akkoord</wf>
+    <wf wid="w119" sent="8" para="2" offset="687" length="3">kan</wf>
+    <wf wid="w120" sent="8" para="2" offset="691" length="6">worden</wf>
+    <wf wid="w121" sent="8" para="2" offset="698" length="8">gesloten</wf>
+    <wf wid="w122" sent="8" para="2" offset="707" length="4">over</wf>
+    <wf wid="w123" sent="8" para="2" offset="712" length="11">Griekenland</wf>
+    <wf wid="w124" sent="8" para="2" offset="723" length="1">.</wf>
+    <wf wid="w236" sent="15" para="2" offset="1402" length="6">Topman</wf>
+    <wf wid="w237" sent="15" para="2" offset="1409" length="4">Alex</wf>
+    <wf wid="w238" sent="15" para="2" offset="1414" length="9">Wynaendts</wf>
+    <wf wid="w239" sent="15" para="2" offset="1424" length="2">is</wf>
+    <wf wid="w240" sent="15" para="2" offset="1427" length="6">echter</wf>
+    <wf wid="w241" sent="15" para="2" offset="1434" length="12">optimistisch</wf>
+    <wf wid="w242" sent="15" para="2" offset="1447" length="4">over</wf>
+    <wf wid="w243" sent="15" para="2" offset="1452" length="4">2012</wf>
+    <wf wid="w244" sent="15" para="2" offset="1456" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t92" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--Italiaanse-->
+    <term tid="t93" type="open" lemma="Italiaans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t94" type="open" lemma="premier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w94"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Mario-->
+    <term tid="t95" type="open" lemma="Mario" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t96" type="open" lemma="Monti" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t97" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t98" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t99" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--bondskanselier-->
+    <term tid="t100" type="open" lemma="bondskanselier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t101" type="open" lemma="Angela" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t102" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t103" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t104" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--Griekse-->
+    <term tid="t105" type="open" lemma="Grieks" pos="G" morphofeat="adj">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t106" type="open" lemma="premier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w106"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Lucas-->
+    <term tid="t107" type="open" lemma="Lucas" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--Papademos-->
+    <term tid="t108" type="open" lemma="Papademos" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t109" type="open" lemma="zijn" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--optimistisch-->
+    <term tid="t110" type="open" lemma="optimistisch" pos="G" morphofeat="adj">
+      <span>
+        <target id="w110"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--over-->
+    <term tid="t111" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t112" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--kans-->
+    <term tid="t113" type="open" lemma="kans" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w113"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t114" type="close" lemma="dat" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--er-->
+    <term tid="t115" type="close" lemma="er" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--maandag-->
+    <term tid="t116" type="open" lemma="maandag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t117" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--akkoord-->
+    <term tid="t118" type="open" lemma="akkoord" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w118"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--kan-->
+    <term tid="t119" type="open" lemma="kunnen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--worden-->
+    <term tid="t120" type="open" lemma="worden" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--gesloten-->
+    <term tid="t121" type="open" lemma="sluiten" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t122" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--Griekenland-->
+    <term tid="t123" type="open" lemma="Griekenland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t124" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--Topman-->
+    <term tid="t236" type="open" lemma="topman" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w236"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Alex-->
+    <term tid="t237" type="open" lemma="Alex" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--Wynaendts-->
+    <term tid="t238" type="open" lemma="Wynaendts" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t239" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--echter-->
+    <term tid="t240" type="open" lemma="echter" pos="A" morphofeat="adv">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--optimistisch-->
+    <term tid="t241" type="open" lemma="optimistisch" pos="G" morphofeat="adj">
+      <span>
+        <target id="w241"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--over-->
+    <term tid="t242" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--2012-->
+    <term tid="t243" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t244" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder>
+        <!--de Griekse premier Lucas Papademos-->
+        <span>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--over de kans-->
+        <span>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--optimistisch-->
+        <span>
+          <target id="t110"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder>
+        <!--De Italiaanse premier Mario Monti-->
+        <span>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--over de kans-->
+        <span>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--optimistisch-->
+        <span>
+          <target id="t110"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder>
+        <!--de Duitse bondskanselier Angela Merkel-->
+        <span>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--over de kans-->
+        <span>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--optimistisch-->
+        <span>
+          <target id="t110"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--akkoord-->
+        <span>
+          <target id="t118"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Topman Alex Wynaendts-->
+        <span>
+          <target id="t236"/>
+          <target id="t237"/>
+          <target id="t238"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--2012-->
+        <span>
+          <target id="t243"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--echter optimistisch-->
+        <span>
+          <target id="t240"/>
+          <target id="t241"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

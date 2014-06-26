@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:21:18CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w151" sent="8" para="2" offset="916" length="8">Hollande</wf>
+    <wf wid="w152" sent="8" para="2" offset="925" length="5">prees</wf>
+    <wf wid="w153" sent="8" para="2" offset="931" length="2">de</wf>
+    <wf wid="w154" sent="8" para="2" offset="934" length="12">Frans-Duitse</wf>
+    <wf wid="w155" sent="8" para="2" offset="947" length="11">vriendschap</wf>
+    <wf wid="w156" sent="8" para="2" offset="958" length="1">,</wf>
+    <wf wid="w157" sent="8" para="2" offset="960" length="3">die</wf>
+    <wf wid="w158" sent="8" para="2" offset="964" length="7">volgens</wf>
+    <wf wid="w159" sent="8" para="2" offset="972" length="3">hem</wf>
+    <wf wid="w160" sent="8" para="2" offset="976" length="5">juist</wf>
+    <wf wid="w161" sent="8" para="2" offset="982" length="2">nu</wf>
+    <wf wid="w162" sent="8" para="2" offset="985" length="3">van</wf>
+    <wf wid="w163" sent="8" para="2" offset="989" length="5">groot</wf>
+    <wf wid="w164" sent="8" para="2" offset="995" length="6">belang</wf>
+    <wf wid="w165" sent="8" para="2" offset="1002" length="2">is</wf>
+    <wf wid="w166" sent="8" para="2" offset="1005" length="3">met</wf>
+    <wf wid="w167" sent="8" para="2" offset="1009" length="3">het</wf>
+    <wf wid="w168" sent="8" para="2" offset="1013" length="3">oog</wf>
+    <wf wid="w169" sent="8" para="2" offset="1017" length="2">op</wf>
+    <wf wid="w170" sent="8" para="2" offset="1020" length="2">de</wf>
+    <wf wid="w171" sent="8" para="2" offset="1023" length="14">schuldencrisis</wf>
+    <wf wid="w172" sent="8" para="2" offset="1037" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hollande-->
+    <term tid="t151" type="open" lemma="Hollande" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--prees-->
+    <term tid="t152" type="open" lemma="prijzen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w152"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--de-->
+    <term tid="t153" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--Frans-Duitse-->
+    <term tid="t154" type="open" lemma="Frans-Duitse" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--vriendschap-->
+    <term tid="t155" type="open" lemma="vriendschap" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w155"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t156" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--die-->
+    <term tid="t157" type="close" lemma="die" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--volgens-->
+    <term tid="t158" type="close" lemma="volgens" pos="P" morphofeat="prep">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--hem-->
+    <term tid="t159" type="close" lemma="hem" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--juist-->
+    <term tid="t160" type="open" lemma="juist" pos="G" morphofeat="adj">
+      <span>
+        <target id="w160"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--nu-->
+    <term tid="t161" type="open" lemma="nu" pos="A" morphofeat="adv">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t162" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--groot-->
+    <term tid="t163" type="open" lemma="groot" pos="G" morphofeat="adj">
+      <span>
+        <target id="w163"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--belang-->
+    <term tid="t164" type="open" lemma="belang" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w164"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--is-->
+    <term tid="t165" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t166" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t167" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--oog-->
+    <term tid="t168" type="open" lemma="oog" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t169" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t170" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--schuldencrisis-->
+    <term tid="t171" type="open" lemma="schuldencrisis" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t172" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=19-->
+      <opinion_holder>
+        <!--volgens hem-->
+        <span>
+          <target id="t158"/>
+          <target id="t159"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de Frans-Duitse vriendschap-->
+        <span>
+          <target id="t153"/>
+          <target id="t154"/>
+          <target id="t155"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--van groot belang-->
+        <span>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Hollande-->
+        <span>
+          <target id="t151"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Frans-Duitse vriendschap-->
+        <span>
+          <target id="t154"/>
+          <target id="t155"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--prees-->
+        <span>
+          <target id="t152"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

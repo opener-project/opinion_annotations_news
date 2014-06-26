@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:53Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:53Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:12:19CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w75" sent="4" para="2" offset="485" length="2">De</wf>
+    <wf wid="w76" sent="4" para="2" offset="488" length="6">Duitse</wf>
+    <wf wid="w77" sent="4" para="2" offset="495" length="8">regering</wf>
+    <wf wid="w78" sent="4" para="2" offset="504" length="2">is</wf>
+    <wf wid="w79" sent="4" para="2" offset="507" length="11">onaangenaam</wf>
+    <wf wid="w80" sent="4" para="2" offset="519" length="7">verrast</wf>
+    <wf wid="w81" sent="4" para="2" offset="527" length="4">door</wf>
+    <wf wid="w82" sent="4" para="2" offset="532" length="2">de</wf>
+    <wf wid="w83" sent="4" para="2" offset="535" length="9">berichten</wf>
+    <wf wid="w84" sent="4" para="2" offset="545" length="4">over</wf>
+    <wf wid="w85" sent="4" para="2" offset="550" length="3">het</wf>
+    <wf wid="w86" sent="4" para="2" offset="554" length="11">afluisteren</wf>
+    <wf wid="w87" sent="4" para="2" offset="566" length="2">in</wf>
+    <wf wid="w88" sent="4" para="2" offset="569" length="3">het</wf>
+    <wf wid="w89" sent="4" para="2" offset="573" length="4">blad</wf>
+    <wf wid="w90" sent="4" para="2" offset="578" length="3">Der</wf>
+    <wf wid="w91" sent="4" para="2" offset="582" length="7">Spiegel</wf>
+    <wf wid="w92" sent="4" para="2" offset="589" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t75" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t76" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--regering-->
+    <term tid="t77" type="open" lemma="regering" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t78" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--onaangenaam-->
+    <term tid="t79" type="open" lemma="onaangenaam" pos="G" morphofeat="adj">
+      <span>
+        <target id="w79"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--verrast-->
+    <term tid="t80" type="open" lemma="verrassen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--door-->
+    <term tid="t81" type="close" lemma="door" pos="P" morphofeat="prep">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t82" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--berichten-->
+    <term tid="t83" type="open" lemma="bericht" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t84" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t85" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--afluisteren-->
+    <term tid="t86" type="open" lemma="afluisteren" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t87" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t88" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--blad-->
+    <term tid="t89" type="open" lemma="blad" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--Der-->
+    <term tid="t90" type="open" lemma="Der" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--Spiegel-->
+    <term tid="t91" type="open" lemma="spiegel" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t92" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--De Duitse regering-->
+        <span>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de berichten over het afluisteren-->
+        <span>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--is onaangenaam verrast-->
+        <span>
+          <target id="t78"/>
+          <target id="t79"/>
+          <target id="t80"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

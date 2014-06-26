@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:45Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:45Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:31:01" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:40:32CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="26" para="2" offset="3655" length="11" wid="w702">Westminster</wf>
+    <wf sent="26" para="2" offset="3667" length="9" wid="w703">struggles</wf>
+    <wf sent="26" para="2" offset="3677" length="2" wid="w704">to</wf>
+    <wf sent="26" para="2" offset="3680" length="10" wid="w705">understand</wf>
+    <wf sent="26" para="2" offset="3691" length="3" wid="w706">the</wf>
+    <wf sent="26" para="2" offset="3695" length="4" wid="w707">vast</wf>
+    <wf sent="26" para="2" offset="3700" length="9" wid="w708">political</wf>
+    <wf sent="26" para="2" offset="3710" length="7" wid="w709">project</wf>
+    <wf sent="26" para="2" offset="3718" length="8" wid="w710">creaking</wf>
+    <wf sent="26" para="2" offset="3727" length="4" wid="w711">into</wf>
+    <wf sent="26" para="2" offset="3732" length="4" wid="w712">life</wf>
+    <wf sent="26" para="2" offset="3737" length="6" wid="w713">across</wf>
+    <wf sent="26" para="2" offset="3744" length="3" wid="w714">the</wf>
+    <wf sent="26" para="2" offset="3748" length="7" wid="w715">English</wf>
+    <wf sent="26" para="2" offset="3756" length="7" wid="w716">Channel</wf>
+    <wf sent="26" para="2" offset="3763" length="1" wid="w717">.</wf>
+  </text>
+  <terms>
+    <!--Westminster-->
+    <term type="close" lemma="Westminster" pos="R" morphofeat="NNP" tid="t702">
+      <span>
+        <target id="w702"/>
+      </span>
+    </term>
+    <!--struggles-->
+    <term type="open" lemma="struggle" pos="V" morphofeat="VBZ" tid="t703">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w703"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t704">
+      <span>
+        <target id="w704"/>
+      </span>
+    </term>
+    <!--understand-->
+    <term type="open" lemma="understand" pos="V" morphofeat="VB" tid="t705">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w705"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t706">
+      <span>
+        <target id="w706"/>
+      </span>
+    </term>
+    <!--vast-->
+    <term type="open" lemma="vast" pos="G" morphofeat="JJ" tid="t707">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w707"/>
+      </span>
+    </term>
+    <!--political-->
+    <term type="open" lemma="political" pos="G" morphofeat="JJ" tid="t708">
+      <span>
+        <target id="w708"/>
+      </span>
+    </term>
+    <!--project-->
+    <term type="open" lemma="project" pos="N" morphofeat="NN" tid="t709">
+      <span>
+        <target id="w709"/>
+      </span>
+    </term>
+    <!--creaking-->
+    <term type="open" lemma="creak" pos="V" morphofeat="VBG" tid="t710">
+      <span>
+        <target id="w710"/>
+      </span>
+    </term>
+    <!--into-->
+    <term type="close" lemma="into" pos="P" morphofeat="IN" tid="t711">
+      <span>
+        <target id="w711"/>
+      </span>
+    </term>
+    <!--life-->
+    <term type="open" lemma="life" pos="N" morphofeat="NN" tid="t712">
+      <span>
+        <target id="w712"/>
+      </span>
+    </term>
+    <!--across-->
+    <term type="close" lemma="across" pos="P" morphofeat="IN" tid="t713">
+      <span>
+        <target id="w713"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t714">
+      <span>
+        <target id="w714"/>
+      </span>
+    </term>
+    <!--English-->
+    <term type="close" lemma="English" pos="R" morphofeat="NNP" tid="t715">
+      <span>
+        <target id="w715"/>
+      </span>
+    </term>
+    <!--Channel-->
+    <term type="close" lemma="Channel" pos="R" morphofeat="NNP" tid="t716">
+      <span>
+        <target id="w716"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t717">
+      <span>
+        <target id="w717"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Westminster-->
+        <span>
+          <target id="t702"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the vast political project-->
+        <span>
+          <target id="t706"/>
+          <target id="t707"/>
+          <target id="t708"/>
+          <target id="t709"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--struggles to understand-->
+        <span>
+          <target id="t703"/>
+          <target id="t704"/>
+          <target id="t705"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

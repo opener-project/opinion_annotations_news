@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:25Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:25Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:50:59" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:24:00CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="6" para="2" offset="687" length="2" wid="w127">He</wf>
+    <wf sent="6" para="2" offset="690" length="4" wid="w128">said</wf>
+    <wf sent="6" para="2" offset="694" length="1" wid="w129">:</wf>
+    <wf sent="6" para="2" offset="696" length="1" wid="w130">"</wf>
+    <wf sent="6" para="2" offset="697" length="2" wid="w131">It</wf>
+    <wf sent="6" para="2" offset="700" length="2" wid="w132">is</wf>
+    <wf sent="6" para="2" offset="703" length="1" wid="w133">a</wf>
+    <wf sent="6" para="2" offset="705" length="8" wid="w134">strongly</wf>
+    <wf sent="6" para="2" offset="714" length="6" wid="w135">worded</wf>
+    <wf sent="6" para="2" offset="721" length="6" wid="w136">letter</wf>
+    <wf sent="6" para="2" offset="728" length="3" wid="w137">but</wf>
+    <wf sent="6" para="2" offset="732" length="2" wid="w138">it</wf>
+    <wf sent="6" para="2" offset="735" length="2" wid="w139">is</wf>
+    <wf sent="6" para="2" offset="738" length="14" wid="w140">congratulatory</wf>
+    <wf sent="6" para="2" offset="753" length="2" wid="w141">of</wf>
+    <wf sent="6" para="2" offset="756" length="3" wid="w142">the</wf>
+    <wf sent="6" para="2" offset="760" length="5" wid="w143">Prime</wf>
+    <wf sent="6" para="2" offset="766" length="8" wid="w144">Minister</wf>
+    <wf sent="6" para="2" offset="774" length="1" wid="w145">.</wf>
+  </text>
+  <terms>
+    <!--He-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t127">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t128">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--:-->
+    <term type="close" lemma=":" pos="O" morphofeat=":" tid="t129">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t130">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--It-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t131">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t132">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t133">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--strongly-->
+    <term type="open" lemma="strongly" pos="A" morphofeat="RB" tid="t134">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--worded-->
+    <term type="open" lemma="word" pos="V" morphofeat="VBN" tid="t135">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--letter-->
+    <term type="open" lemma="letter" pos="N" morphofeat="NN" tid="t136">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--but-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t137">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t138">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t139">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--congratulatory-->
+    <term type="open" lemma="congratulatory" pos="G" morphofeat="JJ" tid="t140">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t141">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t142">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--Prime-->
+    <term type="close" lemma="Prime" pos="R" morphofeat="NNP" tid="t143">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--Minister-->
+    <term type="close" lemma="Minister" pos="R" morphofeat="NNP" tid="t144">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t145">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--He-->
+        <span>
+          <target id="t127"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--it-->
+        <span>
+          <target id="t138"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--congratulatory of the Prime Minister-->
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

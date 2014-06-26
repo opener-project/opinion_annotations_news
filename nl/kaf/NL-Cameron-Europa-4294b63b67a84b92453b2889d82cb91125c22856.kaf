@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:25:22CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="5">Rutte</wf>
+    <wf wid="w2" sent="1" para="1" offset="6" length="10">waarschuwt</wf>
+    <wf wid="w3" sent="1" para="1" offset="17" length="4">voor</wf>
+    <wf wid="w4" sent="1" para="1" offset="22" length="7">vertrek</wf>
+    <wf wid="w5" sent="1" para="1" offset="30" length="7">Britten</wf>
+    <wf wid="w6" sent="1" para="1" offset="38" length="3">uit</wf>
+    <wf wid="w7" sent="1" para="1" offset="42" length="2">EU</wf>
+  </text>
+  <terms>
+    <!--Rutte-->
+    <term tid="t1" type="open" lemma="Rutte" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--waarschuwt-->
+    <term tid="t2" type="open" lemma="waarschuwen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t3" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--vertrek-->
+    <term tid="t4" type="open" lemma="vertrek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Britten-->
+    <term tid="t5" type="open" lemma="Brit" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--uit-->
+    <term tid="t6" type="close" lemma="uit" pos="P" morphofeat="prep">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term tid="t7" type="open" lemma="EU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Rutte-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--voor vertrek Britten-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--waarschuwt-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

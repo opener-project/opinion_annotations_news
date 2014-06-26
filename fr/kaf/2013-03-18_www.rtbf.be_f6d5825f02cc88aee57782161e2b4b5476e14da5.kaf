@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:55:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:55:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:55:07Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:25:14CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w458" sent="21" para="19" offset="2387" length="5">Autre</wf>
+    <wf wid="w459" sent="21" para="19" offset="2393" length="5">sujet</wf>
+    <wf wid="w460" sent="21" para="19" offset="2399" length="2">de</wf>
+    <wf wid="w461" sent="21" para="19" offset="2402" length="8">friction</wf>
+    <wf wid="w462" sent="21" para="19" offset="2411" length="9">potentiel</wf>
+    <wf wid="w463" sent="21" para="19" offset="2420" length="1">:</wf>
+    <wf wid="w464" sent="21" para="19" offset="2422" length="2">la</wf>
+    <wf wid="w465" sent="21" para="19" offset="2425" length="5">venue</wf>
+    <wf wid="w466" sent="21" para="19" offset="2431" length="6">prévue</wf>
+    <wf wid="w467" sent="21" para="19" offset="2438" length="2">du</wf>
+    <wf wid="w468" sent="21" para="19" offset="2441" length="9">président</wf>
+    <wf wid="w469" sent="21" para="19" offset="2451" length="9">taïwanais</wf>
+    <wf wid="w470" sent="21" para="19" offset="2461" length="2">Ma</wf>
+    <wf wid="w471" sent="21" para="19" offset="2464" length="4">Ying</wf>
+    <wf wid="w472" sent="21" para="19" offset="2468" length="1">·</wf>
+    <wf wid="w473" sent="21" para="19" offset="2469" length="4">jeou</wf>
+    <wf wid="w474" sent="21" para="19" offset="2473" length="1">,</wf>
+    <wf wid="w475" sent="21" para="19" offset="2475" length="3">qui</wf>
+    <wf wid="w476" sent="21" para="19" offset="2479" length="1">a</wf>
+    <wf wid="w477" sent="21" para="19" offset="2481" length="4">déjà</wf>
+    <wf wid="w478" sent="21" para="19" offset="2486" length="7">suscité</wf>
+    <wf wid="w479" sent="21" para="19" offset="2494" length="2">l'</wf>
+    <wf wid="w480" sent="21" para="19" offset="2496" length="3">ire</wf>
+    <wf wid="w481" sent="21" para="19" offset="2500" length="2">de</wf>
+    <wf wid="w482" sent="21" para="19" offset="2503" length="5">Pékin</wf>
+    <wf wid="w483" sent="21" para="19" offset="2508" length="1">.</wf>
+    <wf wid="w744" sent="30" para="26" offset="3834" length="5">Enfin</wf>
+    <wf wid="w745" sent="30" para="26" offset="3839" length="1">,</wf>
+    <wf wid="w746" sent="30" para="26" offset="3841" length="2">un</wf>
+    <wf wid="w747" sent="30" para="26" offset="3844" length="7">secteur</wf>
+    <wf wid="w748" sent="30" para="26" offset="3852" length="4">sera</wf>
+    <wf wid="w749" sent="30" para="26" offset="3857" length="7">réservé</wf>
+    <wf wid="w750" sent="30" para="26" offset="3865" length="3">aux</wf>
+    <wf wid="w751" sent="30" para="26" offset="3869" length="7">malades</wf>
+    <wf wid="w752" sent="30" para="26" offset="3877" length="2">et</wf>
+    <wf wid="w753" sent="30" para="26" offset="3880" length="10">handicapés</wf>
+    <wf wid="w754" sent="30" para="26" offset="3890" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Autre-->
+    <term tid="t458" type="open" lemma="autre" pos="G" morphofeat="AIms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w458"/>
+      </span>
+    </term>
+    <!--sujet-->
+    <term tid="t459" type="open" lemma="sujet" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w459"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t460" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w460"/>
+      </span>
+    </term>
+    <!--friction-->
+    <term tid="t461" type="open" lemma="friction" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w461"/>
+      </span>
+    </term>
+    <!--potentiel-->
+    <term tid="t462" type="open" lemma="potentiel" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w462"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t463" type="close" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w463"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t464" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w464"/>
+      </span>
+    </term>
+    <!--venue-->
+    <term tid="t465" type="open" lemma="venu" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w465"/>
+      </span>
+    </term>
+    <!--prévue-->
+    <term tid="t466" type="open" lemma="prévoir" pos="V" morphofeat="VKfs">
+      <span>
+        <target id="w466"/>
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t467" type="close" lemma="du" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w467"/>
+      </span>
+    </term>
+    <!--président-->
+    <term tid="t468" type="open" lemma="président" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w468"/>
+      </span>
+    </term>
+    <!--taïwanais-->
+    <term tid="t469" type="open" lemma="taïwanais" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w469"/>
+      </span>
+    </term>
+    <!--Ma-->
+    <term tid="t470" type="open" lemma="Ma" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w470"/>
+      </span>
+    </term>
+    <!--Ying-->
+    <term tid="t471" type="open" lemma="Ying" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w471"/>
+      </span>
+    </term>
+    <!--·-->
+    <term tid="t472" type="close" lemma="·" pos="O" morphofeat=",">
+      <span>
+        <target id="w472"/>
+      </span>
+    </term>
+    <!--jeou-->
+    <term tid="t473" type="open" lemma="jeou" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w473"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t474" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w474"/>
+      </span>
+    </term>
+    <!--qui-->
+    <term tid="t475" type="close" lemma="qui" pos="P" morphofeat="PROR3ms">
+      <span>
+        <target id="w475"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t476" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w476"/>
+      </span>
+    </term>
+    <!--déjà-->
+    <term tid="t477" type="open" lemma="déjà" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w477"/>
+      </span>
+    </term>
+    <!--suscité-->
+    <term tid="t478" type="open" lemma="susciter" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w478"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t479" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w479"/>
+      </span>
+    </term>
+    <!--ire-->
+    <term tid="t480" type="open" lemma="ire" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w480"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t481" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w481"/>
+      </span>
+    </term>
+    <!--Pékin-->
+    <term tid="t482" type="open" lemma="pékin" pos="N" morphofeat="NPs">
+      <span>
+        <target id="w482"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t483" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w483"/>
+      </span>
+    </term>
+    <!--Enfin-->
+    <term tid="t744" type="open" lemma="Enfin" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w744"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t745" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w745"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t746" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w746"/>
+      </span>
+    </term>
+    <!--secteur-->
+    <term tid="t747" type="open" lemma="secteur" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w747"/>
+      </span>
+    </term>
+    <!--sera-->
+    <term tid="t748" type="open" lemma="être" pos="V" morphofeat="VF3s">
+      <span>
+        <target id="w748"/>
+      </span>
+    </term>
+    <!--réservé-->
+    <term tid="t749" type="open" lemma="réserver" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w749"/>
+      </span>
+    </term>
+    <!--aux-->
+    <term tid="t750" type="close" lemma="aux" pos="P" morphofeat="P">
+      <span>
+        <target id="w750"/>
+      </span>
+    </term>
+    <!--malades-->
+    <term tid="t751" type="open" lemma="malade" pos="N" morphofeat="NCmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w751"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t752" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w752"/>
+      </span>
+    </term>
+    <!--handicapés-->
+    <term tid="t753" type="open" lemma="handicapé" pos="N" morphofeat="NCmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w753"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t754" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w754"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Pékin-->
+        <span>
+          <target id="t482"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--la venue prévue du président taïwanais Ma Ying-->
+        <span>
+          <target id="t464"/>
+          <target id="t465"/>
+          <target id="t466"/>
+          <target id="t467"/>
+          <target id="t468"/>
+          <target id="t469"/>
+          <target id="t470"/>
+          <target id="t471"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--suscité l' ire-->
+        <span>
+          <target id="t478"/>
+          <target id="t479"/>
+          <target id="t480"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t744"/>
+          <target id="t745"/>
+          <target id="t746"/>
+          <target id="t747"/>
+          <target id="t748"/>
+          <target id="t749"/>
+          <target id="t750"/>
+          <target id="t751"/>
+          <target id="t752"/>
+          <target id="t753"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

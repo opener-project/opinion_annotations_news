@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:18Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:18Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:43:18CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w74" sent="5" para="2" offset="426" length="3">Ook</wf>
+    <wf wid="w75" sent="5" para="2" offset="430" length="6">Merkel</wf>
+    <wf wid="w76" sent="5" para="2" offset="437" length="5">hield</wf>
+    <wf wid="w77" sent="5" para="2" offset="443" length="3">een</wf>
+    <wf wid="w78" sent="5" para="2" offset="447" length="8">pleidooi</wf>
+    <wf wid="w79" sent="5" para="2" offset="456" length="4">voor</wf>
+    <wf wid="w80" sent="5" para="2" offset="461" length="1">'</wf>
+    <wf wid="w81" sent="5" para="2" offset="462" length="4">meer</wf>
+    <wf wid="w82" sent="5" para="2" offset="467" length="6">Europa</wf>
+    <wf wid="w83" sent="5" para="2" offset="473" length="1">'</wf>
+    <wf wid="w84" sent="5" para="2" offset="474" length="1">,</wf>
+    <wf wid="w85" sent="5" para="2" offset="476" length="2">in</wf>
+    <wf wid="w86" sent="5" para="2" offset="479" length="3">het</wf>
+    <wf wid="w87" sent="5" para="2" offset="483" length="9">bijzonder</wf>
+    <wf wid="w88" sent="5" para="2" offset="493" length="4">meer</wf>
+    <wf wid="w89" sent="5" para="2" offset="498" length="9">politieke</wf>
+    <wf wid="w90" sent="5" para="2" offset="508" length="4">unie</wf>
+    <wf wid="w91" sent="5" para="2" offset="512" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ook-->
+    <term tid="t74" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t75" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--hield-->
+    <term tid="t76" type="open" lemma="houden" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w76"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--een-->
+    <term tid="t77" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--pleidooi-->
+    <term tid="t78" type="open" lemma="pleidooi" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t79" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t80" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--meer-->
+    <term tid="t81" type="open" lemma="veel" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t82" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t83" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t84" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t85" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t86" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--bijzonder-->
+    <term tid="t87" type="open" lemma="bijzonder" pos="G" morphofeat="adj">
+      <span>
+        <target id="w87"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--meer-->
+    <term tid="t88" type="open" lemma="meer" pos="A" morphofeat="adv">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--politieke-->
+    <term tid="t89" type="open" lemma="politiek" pos="G" morphofeat="adj">
+      <span>
+        <target id="w89"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--unie-->
+    <term tid="t90" type="open" lemma="unie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w90"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t91" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t75"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--meer Europa-->
+        <span>
+          <target id="t81"/>
+          <target id="t82"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--hield een pleidooi voor-->
+        <span>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+          <target id="t79"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t75"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--politieke unie-->
+        <span>
+          <target id="t89"/>
+          <target id="t90"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--meer-->
+        <span>
+          <target id="t88"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:30:39Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:30:39Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:06:35CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:31:51CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w384" sent="33" para="20" offset="2439" length="1">«</wf>
+    <wf wid="w385" sent="33" para="20" offset="2440" length="3">Wir</wf>
+    <wf wid="w386" sent="33" para="20" offset="2444" length="4">sind</wf>
+    <wf wid="w387" sent="33" para="20" offset="2449" length="3">auf</wf>
+    <wf wid="w388" sent="33" para="20" offset="2453" length="5">einem</wf>
+    <wf wid="w389" sent="33" para="20" offset="2459" length="4">sehr</wf>
+    <wf wid="w390" sent="33" para="20" offset="2464" length="5">guten</wf>
+    <wf wid="w391" sent="33" para="20" offset="2470" length="3">Weg</wf>
+    <wf wid="w392" sent="33" para="20" offset="2474" length="1">»</wf>
+    <wf wid="w393" sent="33" para="20" offset="2480" length="1">.</wf>
+    <wf wid="w394" sent="34" para="20" offset="2348" length="2">Am</wf>
+    <wf wid="w395" sent="34" para="20" offset="2479" length="2">6.</wf>
+    <wf wid="w396" sent="34" para="20" offset="2482" length="4">März</wf>
+    <wf wid="w397" sent="34" para="20" offset="2487" length="5">werde</wf>
+    <wf wid="w398" sent="34" para="20" offset="2493" length="9">Moscovici</wf>
+    <wf wid="w399" sent="34" para="20" offset="2503" length="2">in</wf>
+    <wf wid="w400" sent="34" para="20" offset="2506" length="3">die</wf>
+    <wf wid="w401" sent="34" para="20" offset="2510" length="7">Schweiz</wf>
+    <wf wid="w402" sent="34" para="20" offset="2518" length="6">reisen</wf>
+    <wf wid="w403" sent="34" para="20" offset="2524" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="«" morphofeat="$(" pos="O" tid="t384" type="open">
+      <span>
+        <target id="w384"/>
+      </span>
+    </term>
+    <term lemma="wir" morphofeat="PPER" pos="Q" tid="t385" type="close">
+      <span>
+        <target id="w385"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t386" type="open">
+      <span>
+        <target id="w386"/>
+      </span>
+    </term>
+    <term lemma="auf" morphofeat="APPR" pos="P" tid="t387" type="close">
+      <span>
+        <target id="w387"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t388" type="close">
+      <span>
+        <target id="w388"/>
+      </span>
+    </term>
+    <term lemma="sehr" morphofeat="ADV" pos="A" tid="t389" type="open">
+      <span>
+        <target id="w389"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="gut" morphofeat="ADJA" pos="G" tid="t390" type="open">
+      <span>
+        <target id="w390"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Weg" morphofeat="NN" pos="N" tid="t391" type="open">
+      <span>
+        <target id="w391"/>
+      </span>
+    </term>
+    <term lemma="»" morphofeat="$(" pos="O" tid="t392" type="open">
+      <span>
+        <target id="w392"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t393" type="open">
+      <span>
+        <target id="w393"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t394" type="close">
+      <span>
+        <target id="w394"/>
+      </span>
+    </term>
+    <term lemma="6." morphofeat="CARD" pos="O" tid="t395" type="open">
+      <span>
+        <target id="w395"/>
+      </span>
+    </term>
+    <term lemma="März" morphofeat="NN" pos="N" tid="t396" type="open">
+      <span>
+        <target id="w396"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t397" type="open">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <term lemma="Moscovici" morphofeat="NE unknown_lemma" pos="O" tid="t398" type="open">
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t399" type="close">
+      <span>
+        <target id="w399"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t400" type="close">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+    <term lemma="Schweiz" morphofeat="NE" pos="R" tid="t401" type="open">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <term lemma="reisen" morphofeat="VVINF" pos="V" tid="t402" type="open">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t403" type="open">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Wir-->
+        <span>
+          <target id="t385"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Weg-->
+        <span>
+          <target id="t391"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--sehr guten-->
+        <span>
+          <target id="t389"/>
+          <target id="t390"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t394"/>
+          <target id="t395"/>
+          <target id="t396"/>
+          <target id="t397"/>
+          <target id="t398"/>
+          <target id="t399"/>
+          <target id="t400"/>
+          <target id="t401"/>
+          <target id="t402"/>
+          <target id="t403"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

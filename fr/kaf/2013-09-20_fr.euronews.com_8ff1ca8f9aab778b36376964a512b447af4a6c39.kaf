@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:44:48Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:44:48Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:44:48Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:34:39CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w37" sent="5" para="5" offset="201" length="2">Le</wf>
+    <wf wid="w38" sent="5" para="5" offset="204" length="5">parti</wf>
+    <wf wid="w39" sent="5" para="5" offset="210" length="6">social</wf>
+    <wf wid="w40" sent="5" para="5" offset="217" length="9">démocrate</wf>
+    <wf wid="w41" sent="5" para="5" offset="227" length="1">(</wf>
+    <wf wid="w42" sent="5" para="5" offset="228" length="3">SPD</wf>
+    <wf wid="w43" sent="5" para="5" offset="231" length="1">)</wf>
+    <wf wid="w44" sent="5" para="5" offset="233" length="5">avait</wf>
+    <wf wid="w45" sent="5" para="5" offset="239" length="8">organisé</wf>
+    <wf wid="w46" sent="5" para="5" offset="248" length="2">ce</wf>
+    <wf wid="w47" sent="5" para="5" offset="251" length="5">jeudi</wf>
+    <wf wid="w48" sent="5" para="5" offset="257" length="4">soir</wf>
+    <wf wid="w49" sent="5" para="5" offset="262" length="2">un</wf>
+    <wf wid="w50" sent="5" para="5" offset="265" length="5">grand</wf>
+    <wf wid="w51" sent="5" para="5" offset="271" length="7">meeting</wf>
+    <wf wid="w52" sent="5" para="5" offset="279" length="1">à</wf>
+    <wf wid="w53" sent="5" para="5" offset="281" length="6">Berlin</wf>
+    <wf wid="w54" sent="5" para="5" offset="287" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Le-->
+    <term tid="t37" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--parti-->
+    <term tid="t38" type="open" lemma="parti" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--social-->
+    <term tid="t39" type="open" lemma="social" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--démocrate-->
+    <term tid="t40" type="open" lemma="démocrate" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--(-->
+    <term tid="t41" type="close" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--SPD-->
+    <term tid="t42" type="open" lemma="SPD" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t43" type="close" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--avait-->
+    <term tid="t44" type="open" lemma="avoir" pos="V" morphofeat="VI3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--organisé-->
+    <term tid="t45" type="open" lemma="organiser" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--ce-->
+    <term tid="t46" type="close" lemma="ce" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--jeudi-->
+    <term tid="t47" type="open" lemma="jeudi" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--soir-->
+    <term tid="t48" type="open" lemma="soir" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t49" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--grand-->
+    <term tid="t50" type="open" lemma="grand" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--meeting-->
+    <term tid="t51" type="open" lemma="meeting" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t52" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--Berlin-->
+    <term tid="t53" type="open" lemma="Berlin" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t54" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

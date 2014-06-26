@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:51Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:51Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:40:22CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w159" sent="10" para="2" offset="976" length="6">Spanje</wf>
+    <wf wid="w160" sent="10" para="2" offset="983" length="2">en</wf>
+    <wf wid="w161" sent="10" para="2" offset="986" length="8">ItaliëDe</wf>
+    <wf wid="w162" sent="10" para="2" offset="995" length="9">Roemeense</wf>
+    <wf wid="w163" sent="10" para="2" offset="1005" length="7">premier</wf>
+    <wf wid="w164" sent="10" para="2" offset="1013" length="4">zegt</wf>
+    <wf wid="w165" sent="10" para="2" offset="1018" length="6">verder</wf>
+    <wf wid="w166" sent="10" para="2" offset="1025" length="3">dat</wf>
+    <wf wid="w167" sent="10" para="2" offset="1029" length="4">veel</wf>
+    <wf wid="w168" sent="10" para="2" offset="1034" length="3">van</wf>
+    <wf wid="w169" sent="10" para="2" offset="1038" length="4">zijn</wf>
+    <wf wid="w170" sent="10" para="2" offset="1043" length="11">landgenoten</wf>
+    <wf wid="w171" sent="10" para="2" offset="1055" length="6">liever</wf>
+    <wf wid="w172" sent="10" para="2" offset="1062" length="6">werken</wf>
+    <wf wid="w173" sent="10" para="2" offset="1069" length="2">in</wf>
+    <wf wid="w174" sent="10" para="2" offset="1072" length="6">Italië</wf>
+    <wf wid="w175" sent="10" para="2" offset="1079" length="2">of</wf>
+    <wf wid="w176" sent="10" para="2" offset="1082" length="6">Spanje</wf>
+    <wf wid="w177" sent="10" para="2" offset="1088" length="1">,</wf>
+    <wf wid="w178" sent="10" para="2" offset="1090" length="5">omdat</wf>
+    <wf wid="w179" sent="10" para="2" offset="1096" length="2">ze</wf>
+    <wf wid="w180" sent="10" para="2" offset="1099" length="4">zich</wf>
+    <wf wid="w181" sent="10" para="2" offset="1104" length="4">daar</wf>
+    <wf wid="w182" sent="10" para="2" offset="1109" length="5">beter</wf>
+    <wf wid="w183" sent="10" para="2" offset="1115" length="11">thuisvoelen</wf>
+    <wf wid="w184" sent="10" para="2" offset="1126" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Spanje-->
+    <term tid="t159" type="open" lemma="Spanje" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t160" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--ItaliëDe-->
+    <term tid="t161" type="open" lemma="ItaliëDe" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--Roemeense-->
+    <term tid="t162" type="open" lemma="Roemeens" pos="G" morphofeat="adj">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t163" type="open" lemma="premier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w163"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--zegt-->
+    <term tid="t164" type="open" lemma="zeggen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--verder-->
+    <term tid="t165" type="open" lemma="ver|verder" pos="G" morphofeat="adj">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t166" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--veel-->
+    <term tid="t167" type="open" lemma="veel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t168" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t169" type="close" lemma="zijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--landgenoten-->
+    <term tid="t170" type="open" lemma="landgenoot|landgenote" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--liever-->
+    <term tid="t171" type="open" lemma="lief" pos="G" morphofeat="adj">
+      <span>
+        <target id="w171"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--werken-->
+    <term tid="t172" type="open" lemma="werken" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t173" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--Italië-->
+    <term tid="t174" type="open" lemma="Italië" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--of-->
+    <term tid="t175" type="close" lemma="of" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--Spanje-->
+    <term tid="t176" type="open" lemma="Spanje" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t177" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--omdat-->
+    <term tid="t178" type="close" lemma="omdat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--ze-->
+    <term tid="t179" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--zich-->
+    <term tid="t180" type="close" lemma="zich" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--daar-->
+    <term tid="t181" type="open" lemma="daar" pos="A" morphofeat="adv">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--beter-->
+    <term tid="t182" type="open" lemma="beter|goed" pos="G" morphofeat="adj">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--thuisvoelen-->
+    <term tid="t183" type="open" lemma="thuisvoelen" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t184" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--veel van zijn landgenoten-->
+        <span>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--werken in Italië of Spanje-->
+        <span>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--liever-->
+        <span>
+          <target id="t171"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

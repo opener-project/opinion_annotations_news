@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:45:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:45:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:45:04Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:14:39CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="8">Hollande</wf>
+    <wf wid="w2" sent="1" para="1" offset="9" length="2">et</wf>
+    <wf wid="w3" sent="1" para="1" offset="12" length="5">Letta</wf>
+    <wf wid="w4" sent="1" para="1" offset="18" length="8">plaident</wf>
+    <wf wid="w5" sent="1" para="1" offset="27" length="4">pour</wf>
+    <wf wid="w6" sent="1" para="1" offset="32" length="3">une</wf>
+    <wf wid="w7" sent="1" para="1" offset="36" length="6">Europe</wf>
+    <wf wid="w8" sent="1" para="1" offset="43" length="3">qui</wf>
+    <wf wid="w9" sent="1" para="1" offset="47" length="2">s'</wf>
+    <wf wid="w10" sent="1" para="1" offset="49" length="6">occupe</wf>
+    <wf wid="w11" sent="1" para="1" offset="56" length="9">davantage</wf>
+    <wf wid="w12" sent="1" para="1" offset="66" length="2">de</wf>
+    <wf wid="w13" sent="1" para="1" offset="69" length="2">l'</wf>
+    <wf wid="w14" sent="1" para="1" offset="71" length="6">emploi</wf>
+    <wf wid="w95" sent="10" para="9" offset="493" length="8">François</wf>
+    <wf wid="w96" sent="10" para="9" offset="502" length="8">Hollande</wf>
+    <wf wid="w97" sent="10" para="9" offset="511" length="1">a</wf>
+    <wf wid="w98" sent="10" para="9" offset="513" length="4">reçu</wf>
+    <wf wid="w99" sent="10" para="9" offset="518" length="1">à</wf>
+    <wf wid="w100" sent="10" para="9" offset="520" length="2">l'</wf>
+    <wf wid="w101" sent="10" para="9" offset="522" length="6">Elysée</wf>
+    <wf wid="w102" sent="10" para="9" offset="529" length="2">ce</wf>
+    <wf wid="w103" sent="10" para="9" offset="532" length="8">mercredi</wf>
+    <wf wid="w104" sent="10" para="9" offset="541" length="2">le</wf>
+    <wf wid="w105" sent="10" para="9" offset="544" length="7">nouveau</wf>
+    <wf wid="w106" sent="10" para="9" offset="552" length="9">président</wf>
+    <wf wid="w107" sent="10" para="9" offset="562" length="2">du</wf>
+    <wf wid="w108" sent="10" para="9" offset="565" length="7">Conseil</wf>
+    <wf wid="w109" sent="10" para="9" offset="573" length="7">italien</wf>
+    <wf wid="w110" sent="10" para="9" offset="580" length="1">,</wf>
+    <wf wid="w111" sent="10" para="9" offset="582" length="6">Enrico</wf>
+    <wf wid="w112" sent="10" para="9" offset="589" length="5">Letta</wf>
+    <wf wid="w113" sent="10" para="9" offset="594" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hollande-->
+    <term tid="t1" type="open" lemma="hollande" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t2" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Letta-->
+    <term tid="t3" type="open" lemma="Letta" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--plaident-->
+    <term tid="t4" type="open" lemma="plaider" pos="V" morphofeat="VP3p">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t5" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--une-->
+    <term tid="t6" type="close" lemma="un" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term tid="t7" type="open" lemma="Europe" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--qui-->
+    <term tid="t8" type="close" lemma="qui" pos="P" morphofeat="PROR3fs">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--s'-->
+    <term tid="t9" type="close" lemma="s'" pos="Q" morphofeat="CL3fs">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--occupe-->
+    <term tid="t10" type="open" lemma="occuper" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--davantage-->
+    <term tid="t11" type="open" lemma="davantage" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t12" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t13" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--emploi-->
+    <term tid="t14" type="open" lemma="emploi" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--François-->
+    <term tid="t95" type="open" lemma="François" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t96" type="open" lemma="hollande" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t97" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--reçu-->
+    <term tid="t98" type="open" lemma="recevoir" pos="V" morphofeat="VKms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t99" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t100" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--Elysée-->
+    <term tid="t101" type="open" lemma="Elysée" pos="N" morphofeat="NPs">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--ce-->
+    <term tid="t102" type="close" lemma="ce" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--mercredi-->
+    <term tid="t103" type="open" lemma="mercredi" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t104" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--nouveau-->
+    <term tid="t105" type="open" lemma="nouveau" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--président-->
+    <term tid="t106" type="open" lemma="président" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t107" type="close" lemma="du" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--Conseil-->
+    <term tid="t108" type="open" lemma="conseil" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--italien-->
+    <term tid="t109" type="open" lemma="italien" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t110" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--Enrico-->
+    <term tid="t111" type="open" lemma="Enrico" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--Letta-->
+    <term tid="t112" type="open" lemma="Letta" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t113" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Letta-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--une Europe qui s' occupe davantage de l' emploi-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--plaident-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Hollande-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--une Europe qui s' occupe davantage de l' emploi-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--plaident-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

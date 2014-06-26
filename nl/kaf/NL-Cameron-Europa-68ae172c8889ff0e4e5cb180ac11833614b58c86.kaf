@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:30:31CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w80" sent="4" para="2" offset="458" length="8">Minister</wf>
+    <wf wid="w81" sent="4" para="2" offset="467" length="7">Asscher</wf>
+    <wf wid="w82" sent="4" para="2" offset="475" length="3">van</wf>
+    <wf wid="w83" sent="4" para="2" offset="479" length="7">Sociale</wf>
+    <wf wid="w84" sent="4" para="2" offset="487" length="5">Zaken</wf>
+    <wf wid="w85" sent="4" para="2" offset="493" length="5">staat</wf>
+    <wf wid="w86" sent="4" para="2" offset="499" length="4">open</wf>
+    <wf wid="w87" sent="4" para="2" offset="504" length="4">voor</wf>
+    <wf wid="w88" sent="4" para="2" offset="509" length="2">de</wf>
+    <wf wid="w89" sent="4" para="2" offset="512" length="7">plannen</wf>
+    <wf wid="w90" sent="4" para="2" offset="520" length="3">van</wf>
+    <wf wid="w91" sent="4" para="2" offset="524" length="7">Cameron</wf>
+    <wf wid="w92" sent="4" para="2" offset="532" length="2">om</wf>
+    <wf wid="w93" sent="4" para="2" offset="535" length="2">de</wf>
+    <wf wid="w94" sent="4" para="2" offset="538" length="8">migratie</wf>
+    <wf wid="w95" sent="4" para="2" offset="547" length="3">van</wf>
+    <wf wid="w96" sent="4" para="2" offset="551" length="4">arme</wf>
+    <wf wid="w97" sent="4" para="2" offset="556" length="4">naar</wf>
+    <wf wid="w98" sent="4" para="2" offset="561" length="5">rijke</wf>
+    <wf wid="w99" sent="4" para="2" offset="567" length="12">EU-lidstaten</wf>
+    <wf wid="w100" sent="4" para="2" offset="580" length="2">te</wf>
+    <wf wid="w101" sent="4" para="2" offset="583" length="8">beperken</wf>
+    <wf wid="w102" sent="4" para="2" offset="591" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Minister-->
+    <term tid="t80" type="open" lemma="minister" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--Asscher-->
+    <term tid="t81" type="open" lemma="Asscher" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t82" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--Sociale-->
+    <term tid="t83" type="open" lemma="sociaal" pos="G" morphofeat="adj">
+      <span>
+        <target id="w83"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Zaken-->
+    <term tid="t84" type="open" lemma="zaak|zaken" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--staat-->
+    <term tid="t85" type="open" lemma="staat" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--open-->
+    <term tid="t86" type="open" lemma="openen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t87" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t88" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--plannen-->
+    <term tid="t89" type="open" lemma="plan" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t90" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t91" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t92" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t93" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--migratie-->
+    <term tid="t94" type="open" lemma="migratie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t95" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--arme-->
+    <term tid="t96" type="open" lemma="arme" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w96"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--naar-->
+    <term tid="t97" type="close" lemma="naar" pos="P" morphofeat="prep">
+      <span>
+        <target id="w97"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--rijke-->
+    <term tid="t98" type="open" lemma="rijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w98"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--EU-lidstaten-->
+    <term tid="t99" type="open" lemma="EU-lidstaten" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t100" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--beperken-->
+    <term tid="t101" type="open" lemma="beperken" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w101"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t102" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Minister Asscher van Sociale Zaken-->
+        <span>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de plannen van Cameron-->
+        <span>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--staat open voor-->
+        <span>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--de migratie van arme naar rijke EU-lidstaten-->
+        <span>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--beperken-->
+        <span>
+          <target id="t101"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

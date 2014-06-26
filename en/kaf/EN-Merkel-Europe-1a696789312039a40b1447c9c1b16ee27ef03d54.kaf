@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:28:46" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:19:38CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="12" para="2" offset="1900" length="6" wid="w361">Merkel</wf>
+    <wf sent="12" para="2" offset="1907" length="2" wid="w362">is</wf>
+    <wf sent="12" para="2" offset="1910" length="2" wid="w363">on</wf>
+    <wf sent="12" para="2" offset="1913" length="6" wid="w364">Monday</wf>
+    <wf sent="12" para="2" offset="1920" length="2" wid="w365">to</wf>
+    <wf sent="12" para="2" offset="1923" length="7" wid="w366">deliver</wf>
+    <wf sent="12" para="2" offset="1931" length="1" wid="w367">a</wf>
+    <wf sent="12" para="2" offset="1933" length="6" wid="w368">speech</wf>
+    <wf sent="12" para="2" offset="1940" length="2" wid="w369">in</wf>
+    <wf sent="12" para="2" offset="1943" length="3" wid="w370">the</wf>
+    <wf sent="12" para="2" offset="1947" length="9" wid="w371">Bundestag</wf>
+    <wf sent="12" para="2" offset="1957" length="9" wid="w372">defending</wf>
+    <wf sent="12" para="2" offset="1967" length="3" wid="w373">the</wf>
+    <wf sent="12" para="2" offset="1971" length="8" wid="w374">bail-out</wf>
+    <wf sent="12" para="2" offset="1980" length="5" wid="w375">ahead</wf>
+    <wf sent="12" para="2" offset="1986" length="2" wid="w376">of</wf>
+    <wf sent="12" para="2" offset="1989" length="3" wid="w377">the</wf>
+    <wf sent="12" para="2" offset="1993" length="4" wid="w378">vote</wf>
+    <wf sent="12" para="2" offset="1997" length="1" wid="w379">.</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t361">
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t362">
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t363">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <!--Monday-->
+    <term type="close" lemma="Monday" pos="R" morphofeat="NNP" tid="t364">
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t365">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <!--deliver-->
+    <term type="open" lemma="deliver" pos="V" morphofeat="VB" tid="t366">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t367">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <!--speech-->
+    <term type="open" lemma="speech" pos="N" morphofeat="NN" tid="t368">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t369">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t370">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <!--Bundestag-->
+    <term type="close" lemma="Bundestag" pos="R" morphofeat="NNP" tid="t371">
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+    <!--defending-->
+    <term type="open" lemma="defend" pos="V" morphofeat="VBG" tid="t372">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w372"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t373">
+      <span>
+        <target id="w373"/>
+      </span>
+    </term>
+    <!--bail-out-->
+    <term type="open" lemma="bail-out" pos="N" morphofeat="NN" tid="t374">
+      <span>
+        <target id="w374"/>
+      </span>
+    </term>
+    <!--ahead-->
+    <term type="open" lemma="ahead" pos="A" morphofeat="RB" tid="t375">
+      <span>
+        <target id="w375"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t376">
+      <span>
+        <target id="w376"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t377">
+      <span>
+        <target id="w377"/>
+      </span>
+    </term>
+    <!--vote-->
+    <term type="open" lemma="vote" pos="N" morphofeat="NN" tid="t378">
+      <span>
+        <target id="w378"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t379">
+      <span>
+        <target id="w379"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t361"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the bail-out-->
+        <span>
+          <target id="t373"/>
+          <target id="t374"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--defending-->
+        <span>
+          <target id="t372"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

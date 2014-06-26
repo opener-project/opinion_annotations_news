@@ -1,0 +1,13 @@
+w436	Insgesamt	insgesamt	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	435	true	32
+w437	hätten	haben	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	436	true	32
+w438	seit	seit	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	437	true	32
+w439	dem	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	438	true	32
+w440	vergangenen	vergangen	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	439	true	32
+w441	Freitag	Freitag	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	440	true	32
+w442	gut	gut	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	441	true	32
+w443	1.400	@card@	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	442	true	32
+w444	Menschen	Mensch	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	443	true	32
+w445	die	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	444	true	32
+w446	Stadt	Stadt	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	445	true	32
+w447	verlassen	verlassen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	446	true	32
+w448	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	447	true	32

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:24Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:24Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:57:28" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:15:10CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="1303" length="6" wid="w235">Europe</wf>
+    <wf sent="9" para="2" offset="1310" length="6" wid="w236">cannot</wf>
+    <wf sent="9" para="2" offset="1317" length="6" wid="w237">afford</wf>
+    <wf sent="9" para="2" offset="1324" length="3" wid="w238">not</wf>
+    <wf sent="9" para="2" offset="1328" length="2" wid="w239">to</wf>
+    <wf sent="9" para="2" offset="1330" length="1" wid="w240">.</wf>
+  </text>
+  <terms>
+    <!--Europe-->
+    <term type="close" lemma="Europe" pos="R" morphofeat="NNP" tid="t235">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--cannot-->
+    <term type="open" lemma="cannot" pos="N" morphofeat="NN" tid="t236">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--afford-->
+    <term type="open" lemma="afford" pos="N" morphofeat="NN" tid="t237">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t238">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t239">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t240">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Europe-->
+        <span>
+          <target id="t235"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--afford-->
+        <span>
+          <target id="t237"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--cannot-->
+        <span>
+          <target id="t236"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

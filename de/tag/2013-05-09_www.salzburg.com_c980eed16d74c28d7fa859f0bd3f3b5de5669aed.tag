@@ -1,0 +1,11 @@
+w254	Die	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	253	true	18
+w255	57	@card@	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	254	true	18
+w256	·	·	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	255	true	18
+w257	Jährige	Jährige	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	256	true	18
+w258	ist	sein	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	257	true	18
+w259	die	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	258	true	18
+w260	55.	@card@.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	259	true	18
+w261	Trägerin	Trägerin	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	260	true	18
+w262	des	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	261	true	18
+w263	Karlspreises	Karlspreises	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	262	true	18
+w264	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	263	true	18

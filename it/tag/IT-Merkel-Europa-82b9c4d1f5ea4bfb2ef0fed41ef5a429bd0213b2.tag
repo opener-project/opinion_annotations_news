@@ -1,0 +1,9 @@
+w25	Il	lo	D		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	24	true	3
+w26	cancelliere	cancelliere	N		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	25	true	3
+w27	tedesco	tedesco	G		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	26	true	3
+w28	Angela	angela	R		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	27	true	3
+w29	Merkel	merkel	R		OpinionHolder	1	Opinion	5		0		0		0		0		0		0	28	true	3
+w30	ha	avere	V		D-Positive	2	Opinion	5		0		0		0		0		0		0	29	true	3
+w31	difeso	difendere	V		D-Positive	2	Opinion	5		0		0		0		0		0		0	30	true	3
+w32	la	lo	D		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	31	true	3
+w33	proposta	proposta	N		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	32	true	3

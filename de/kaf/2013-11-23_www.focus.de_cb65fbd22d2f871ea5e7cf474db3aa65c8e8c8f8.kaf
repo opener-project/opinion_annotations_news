@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:58:38Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:58:38Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:14:50CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:58:51CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w300" sent="16" para="8" offset="1869" length="3">Die</wf>
+    <wf wid="w301" sent="16" para="8" offset="1873" length="2">EU</wf>
+    <wf wid="w302" sent="16" para="8" offset="1876" length="3">und</wf>
+    <wf wid="w303" sent="16" para="8" offset="1880" length="3">die</wf>
+    <wf wid="w304" sent="16" para="8" offset="1884" length="7">Ukraine</wf>
+    <wf wid="w305" sent="16" para="8" offset="1892" length="7">wollten</wf>
+    <wf wid="w306" sent="16" para="8" offset="1900" length="10">eigentlich</wf>
+    <wf wid="w307" sent="16" para="8" offset="1911" length="2">am</wf>
+    <wf wid="w308" sent="16" para="8" offset="1914" length="9">kommenden</wf>
+    <wf wid="w309" sent="16" para="8" offset="1924" length="7">Freitag</wf>
+    <wf wid="w310" sent="16" para="8" offset="1932" length="2">in</wf>
+    <wf wid="w311" sent="16" para="8" offset="1935" length="3">der</wf>
+    <wf wid="w312" sent="16" para="8" offset="1939" length="11">litauischen</wf>
+    <wf wid="w313" sent="16" para="8" offset="1951" length="10">Hauptstadt</wf>
+    <wf wid="w314" sent="16" para="8" offset="1962" length="7">Vilnius</wf>
+    <wf wid="w315" sent="16" para="8" offset="1970" length="3">ein</wf>
+    <wf wid="w316" sent="16" para="8" offset="1974" length="21">Assoziierungsabkommen</wf>
+    <wf wid="w317" sent="16" para="8" offset="1996" length="13">unterzeichnen</wf>
+    <wf wid="w318" sent="16" para="8" offset="2009" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t300" type="close">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t301" type="open">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t302" type="close">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t303" type="close">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <term lemma="Ukraine" morphofeat="NE" pos="R" tid="t304" type="open">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t305" type="open">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <term lemma="eigentlich" morphofeat="ADV" pos="A" tid="t306" type="open">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t307" type="close">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <term lemma="kommend" morphofeat="ADJA" pos="G" tid="t308" type="open">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <term lemma="Freitag" morphofeat="NN" pos="N" tid="t309" type="open">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t310" type="close">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t311" type="close">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <term lemma="litauisch" morphofeat="ADJA" pos="G" tid="t312" type="open">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <term lemma="Hauptstadt" morphofeat="NN" pos="N" tid="t313" type="open">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <term lemma="Vilnius" morphofeat="NE unknown_lemma" pos="O" tid="t314" type="open">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t315" type="close">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <term lemma="Assoziierungsabkommen" morphofeat="NN" pos="N" tid="t316" type="open">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <term lemma="unterzeichnen" morphofeat="VVINF" pos="V" tid="t317" type="open">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t318" type="open">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--die Ukraine-->
+        <span>
+          <target id="t303"/>
+          <target id="t304"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--ein Assoziierungsabkommen-->
+        <span>
+          <target id="t315"/>
+          <target id="t316"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wollten-->
+        <span>
+          <target id="t305"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Die EU-->
+        <span>
+          <target id="t300"/>
+          <target id="t301"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--ein Assoziierungsabkommen-->
+        <span>
+          <target id="t315"/>
+          <target id="t316"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wollten-->
+        <span>
+          <target id="t305"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--die Ukraine-->
+        <span>
+          <target id="t303"/>
+          <target id="t304"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--ein Assoziierungsabkommen-->
+        <span>
+          <target id="t315"/>
+          <target id="t316"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--unterzeichnen-->
+        <span>
+          <target id="t317"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Die EU-->
+        <span>
+          <target id="t300"/>
+          <target id="t301"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--ein Assoziierungsabkommen-->
+        <span>
+          <target id="t315"/>
+          <target id="t316"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--unterzeichnen-->
+        <span>
+          <target id="t317"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:55:57Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:55:57Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:56:49CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:56:31CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w374" sent="22" para="11" offset="2319" length="7">Weitere</wf>
+    <wf wid="w375" sent="22" para="11" offset="2327" length="6">Länder</wf>
+    <wf wid="w376" sent="22" para="11" offset="2334" length="7">könnten</wf>
+    <wf wid="w377" sent="22" para="11" offset="2342" length="9">ebenfalls</wf>
+    <wf wid="w378" sent="22" para="11" offset="2352" length="10">untersucht</wf>
+    <wf wid="w379" sent="22" para="11" offset="2363" length="6">werden</wf>
+    <wf wid="w380" sent="22" para="11" offset="2369" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="weit" morphofeat="ADJA" pos="G" tid="t374" type="open">
+      <span>
+        <target id="w374"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Land" morphofeat="NN" pos="N" tid="t375" type="open">
+      <span>
+        <target id="w375"/>
+      </span>
+    </term>
+    <term lemma="können" morphofeat="VMFIN" pos="V" tid="t376" type="open">
+      <span>
+        <target id="w376"/>
+      </span>
+    </term>
+    <term lemma="ebenfalls" morphofeat="ADV" pos="A" tid="t377" type="open">
+      <span>
+        <target id="w377"/>
+      </span>
+    </term>
+    <term lemma="untersuchen" morphofeat="VVPP" pos="V" tid="t378" type="open">
+      <span>
+        <target id="w378"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAINF" pos="V" tid="t379" type="open">
+      <span>
+        <target id="w379"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t380" type="open">
+      <span>
+        <target id="w380"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t374"/>
+          <target id="t375"/>
+          <target id="t376"/>
+          <target id="t377"/>
+          <target id="t378"/>
+          <target id="t379"/>
+          <target id="t380"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:20:00" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:21:09CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="28" para="2" offset="3230" length="3" wid="w630">The</wf>
+    <wf sent="28" para="2" offset="3234" length="5" wid="w631">media</wf>
+    <wf sent="28" para="2" offset="3240" length="5" wid="w632">leapt</wf>
+    <wf sent="28" para="2" offset="3246" length="2" wid="w633">on</wf>
+    <wf sent="28" para="2" offset="3249" length="5" wid="w634">every</wf>
+    <wf sent="28" para="2" offset="3255" length="4" wid="w635">joke</wf>
+    <wf sent="28" para="2" offset="3260" length="2" wid="w636">he</wf>
+    <wf sent="28" para="2" offset="3263" length="3" wid="w637">has</wf>
+    <wf sent="28" para="2" offset="3267" length="4" wid="w638">made</wf>
+    <wf sent="28" para="2" offset="3272" length="5" wid="w639">since</wf>
+    <wf sent="28" para="2" offset="3277" length="1" wid="w640">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t630">
+      <span>
+        <target id="w630"/>
+      </span>
+    </term>
+    <!--media-->
+    <term type="open" lemma="medium" pos="N" morphofeat="NNS" tid="t631">
+      <span>
+        <target id="w631"/>
+      </span>
+    </term>
+    <!--leapt-->
+    <term type="open" lemma="leapt" pos="N" morphofeat="NN" tid="t632">
+      <span>
+        <target id="w632"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t633">
+      <span>
+        <target id="w633"/>
+      </span>
+    </term>
+    <!--every-->
+    <term type="close" lemma="every" pos="D" morphofeat="DT" tid="t634">
+      <span>
+        <target id="w634"/>
+      </span>
+    </term>
+    <!--joke-->
+    <term type="open" lemma="joke" pos="N" morphofeat="NN" tid="t635">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w635"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t636">
+      <span>
+        <target id="w636"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t637">
+      <span>
+        <target id="w637"/>
+      </span>
+    </term>
+    <!--made-->
+    <term type="open" lemma="make" pos="V" morphofeat="VBN" tid="t638">
+      <span>
+        <target id="w638"/>
+      </span>
+    </term>
+    <!--since-->
+    <term type="open" lemma="since" pos="A" morphofeat="RB" tid="t639">
+      <span>
+        <target id="w639"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t640">
+      <span>
+        <target id="w640"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--The media-->
+        <span>
+          <target id="t630"/>
+          <target id="t631"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--every joke he has made since-->
+        <span>
+          <target id="t634"/>
+          <target id="t635"/>
+          <target id="t636"/>
+          <target id="t637"/>
+          <target id="t638"/>
+          <target id="t639"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--leapt on-->
+        <span>
+          <target id="t632"/>
+          <target id="t633"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

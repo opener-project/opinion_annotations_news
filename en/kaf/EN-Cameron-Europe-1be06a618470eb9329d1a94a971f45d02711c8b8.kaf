@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:18Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:18Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:00:29" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:15:24CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="737" length="8" wid="w139">Tensions</wf>
+    <wf sent="5" para="2" offset="746" length="4" wid="w140">over</wf>
+    <wf sent="5" para="2" offset="751" length="4" wid="w141">Iran</wf>
+    <wf sent="5" para="2" offset="755" length="2" wid="w142">’s</wf>
+    <wf sent="5" para="2" offset="758" length="7" wid="w143">nuclear</wf>
+    <wf sent="5" para="2" offset="766" length="7" wid="w144">program</wf>
+    <wf sent="5" para="2" offset="774" length="3" wid="w145">are</wf>
+    <wf sent="5" para="2" offset="778" length="7" wid="w146">running</wf>
+    <wf sent="5" para="2" offset="786" length="4" wid="w147">high</wf>
+    <wf sent="5" para="2" offset="790" length="1" wid="w148">.</wf>
+  </text>
+  <terms>
+    <!--Tensions-->
+    <term type="open" lemma="tension" pos="N" morphofeat="NNS" tid="t139">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--over-->
+    <term type="close" lemma="over" pos="P" morphofeat="IN" tid="t140">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--Iran-->
+    <term type="close" lemma="Iran" pos="R" morphofeat="NNP" tid="t141">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--’s-->
+    <term type="open" lemma="’s" pos="N" morphofeat="NNS" tid="t142">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--nuclear-->
+    <term type="open" lemma="nuclear" pos="G" morphofeat="JJ" tid="t143">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--program-->
+    <term type="open" lemma="program" pos="N" morphofeat="NN" tid="t144">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t145">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--running-->
+    <term type="open" lemma="run" pos="V" morphofeat="VBG" tid="t146">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--high-->
+    <term type="open" lemma="high" pos="A" morphofeat="RB" tid="t147">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t148">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Tensions over Iran ’s nuclear program-->
+        <span>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--running high-->
+        <span>
+          <target id="t146"/>
+          <target id="t147"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Iran ’s nuclear program-->
+        <span>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--Tensions-->
+        <span>
+          <target id="t139"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

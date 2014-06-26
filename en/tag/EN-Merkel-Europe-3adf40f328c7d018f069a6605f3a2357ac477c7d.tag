@@ -1,0 +1,16 @@
+w137	In	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	136	true	12
+w138	New	New	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	137	true	12
+w139	York	York	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	138	true	12
+w140	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	139	true	12
+w141	U.S.	U.S.	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	140	true	12
+w142	stocks	stock	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	141	true	12
+w143	also	also	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	142	true	12
+w144	gave	give	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	143	true	12
+w145	up	up	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	144	true	12
+w146	some	some	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	145	true	12
+w147	of	of	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	146	true	12
+w148	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	147	true	12
+w149	gains	gain	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	148	true	12
+w150	recorded	record	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	149	true	12
+w151	last	last	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	150	true	12
+w152	week	week	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	151	true	12

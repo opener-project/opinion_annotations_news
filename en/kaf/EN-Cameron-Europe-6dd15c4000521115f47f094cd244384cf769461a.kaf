@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:51Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:51Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:53:23" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:15:44CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="859" length="3" wid="w165">Van</wf>
+    <wf sent="5" para="2" offset="863" length="6" wid="w166">Rompuy</wf>
+    <wf sent="5" para="2" offset="870" length="4" wid="w167">said</wf>
+    <wf sent="5" para="2" offset="875" length="7" wid="w168">British</wf>
+    <wf sent="5" para="2" offset="883" length="5" wid="w169">Prime</wf>
+    <wf sent="5" para="2" offset="889" length="8" wid="w170">Minister</wf>
+    <wf sent="5" para="2" offset="898" length="5" wid="w171">David</wf>
+    <wf sent="5" para="2" offset="904" length="7" wid="w172">Cameron</wf>
+    <wf sent="5" para="2" offset="912" length="1" wid="w173">"</wf>
+    <wf sent="5" para="2" offset="913" length="6" wid="w174">agreed</wf>
+    <wf sent="5" para="2" offset="920" length="4" wid="w175">with</wf>
+    <wf sent="5" para="2" offset="925" length="3" wid="w176">the</wf>
+    <wf sent="5" para="2" offset="929" length="4" wid="w177">text</wf>
+    <wf sent="5" para="2" offset="934" length="2" wid="w178">as</wf>
+    <wf sent="5" para="2" offset="937" length="2" wid="w179">it</wf>
+    <wf sent="5" para="2" offset="940" length="6" wid="w180">stands</wf>
+    <wf sent="5" para="2" offset="946" length="1" wid="w181">"</wf>
+    <wf sent="5" para="2" offset="947" length="1" wid="w182">.</wf>
+  </text>
+  <terms>
+    <!--Van-->
+    <term type="close" lemma="Van" pos="R" morphofeat="NNP" tid="t165">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--Rompuy-->
+    <term type="close" lemma="Rompuy" pos="R" morphofeat="NNP" tid="t166">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t167">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--British-->
+    <term type="close" lemma="British" pos="R" morphofeat="NNP" tid="t168">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--Prime-->
+    <term type="close" lemma="Prime" pos="R" morphofeat="NNP" tid="t169">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--Minister-->
+    <term type="close" lemma="Minister" pos="R" morphofeat="NNP" tid="t170">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--David-->
+    <term type="close" lemma="David" pos="R" morphofeat="NNP" tid="t171">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t172">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="close" lemma="&quot;" pos="O" morphofeat="POS" tid="t173">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--agreed-->
+    <term type="open" lemma="agreed" pos="N" morphofeat="NN" tid="t174">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t175">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t176">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--text-->
+    <term type="open" lemma="text" pos="N" morphofeat="NN" tid="t177">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t178">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t179">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--stands-->
+    <term type="open" lemma="stand" pos="V" morphofeat="VBZ" tid="t180">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t181">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t182">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--British Prime Minister David Cameron-->
+        <span>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the text-->
+        <span>
+          <target id="t176"/>
+          <target id="t177"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--agreed with-->
+        <span>
+          <target id="t174"/>
+          <target id="t175"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

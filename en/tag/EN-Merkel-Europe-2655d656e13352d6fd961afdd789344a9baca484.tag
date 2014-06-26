@@ -1,0 +1,17 @@
+w287	Unemployment	unemployment	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	286	true	14
+w288	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	287	true	14
+w289	now	now	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	288	true	14
+w290	affecting	affect	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	289	true	14
+w291	one	one	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	290	true	14
+w292	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	291	true	14
+w293	four	four	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	292	true	14
+w294	workers	worker	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	293	true	14
+w295	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	294	true	14
+w296	is	be	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	295	true	14
+w297	set	set	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	296	true	14
+w298	to	to	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	297	true	14
+w299	continue	continue	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	298	true	14
+w300	well	well	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	299	true	14
+w301	into	into	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	300	true	14
+w302	next	next	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	301	true	14
+w303	year	year	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	302	true	14

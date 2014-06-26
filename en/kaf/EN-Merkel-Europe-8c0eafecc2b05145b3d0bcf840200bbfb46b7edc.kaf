@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:35Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:35Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:18:04" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:27:04CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="16" para="2" offset="2244" length="6" wid="w410">Rather</wf>
+    <wf sent="16" para="2" offset="2250" length="1" wid="w411">,</wf>
+    <wf sent="16" para="2" offset="2252" length="3" wid="w412">the</wf>
+    <wf sent="16" para="2" offset="2256" length="9" wid="w413">president</wf>
+    <wf sent="16" para="2" offset="2266" length="8" wid="w414">approves</wf>
+    <wf sent="16" para="2" offset="2275" length="1" wid="w415">a</wf>
+    <wf sent="16" para="2" offset="2277" length="3" wid="w416">set</wf>
+    <wf sent="16" para="2" offset="2281" length="2" wid="w417">of</wf>
+    <wf sent="16" para="2" offset="2284" length="12" wid="w418">intelligence</wf>
+    <wf sent="16" para="2" offset="2297" length="10" wid="w419">priorities</wf>
+    <wf sent="16" para="2" offset="2308" length="3" wid="w420">and</wf>
+    <wf sent="16" para="2" offset="2312" length="4" wid="w421">then</wf>
+    <wf sent="16" para="2" offset="2317" length="2" wid="w422">it</wf>
+    <wf sent="16" para="2" offset="2319" length="2" wid="w423">'s</wf>
+    <wf sent="16" para="2" offset="2322" length="3" wid="w424">the</wf>
+    <wf sent="16" para="2" offset="2326" length="14" wid="w425">responsibility</wf>
+    <wf sent="16" para="2" offset="2341" length="2" wid="w426">of</wf>
+    <wf sent="16" para="2" offset="2344" length="3" wid="w427">his</wf>
+    <wf sent="16" para="2" offset="2348" length="14" wid="w428">administration</wf>
+    <wf sent="16" para="2" offset="2363" length="2" wid="w429">to</wf>
+    <wf sent="16" para="2" offset="2366" length="9" wid="w430">determine</wf>
+    <wf sent="16" para="2" offset="2376" length="3" wid="w431">how</wf>
+    <wf sent="16" para="2" offset="2380" length="2" wid="w432">to</wf>
+    <wf sent="16" para="2" offset="2383" length="5" wid="w433">carry</wf>
+    <wf sent="16" para="2" offset="2389" length="5" wid="w434">those</wf>
+    <wf sent="16" para="2" offset="2395" length="3" wid="w435">out</wf>
+    <wf sent="16" para="2" offset="2398" length="1" wid="w436">.</wf>
+  </text>
+  <terms>
+    <!--Rather-->
+    <term type="open" lemma="rather" pos="A" morphofeat="RB" tid="t410">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t411">
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t412">
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <!--president-->
+    <term type="open" lemma="president" pos="N" morphofeat="NN" tid="t413">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+    <!--approves-->
+    <term type="open" lemma="approve" pos="V" morphofeat="VBZ" tid="t414">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w414"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t415">
+      <span>
+        <target id="w415"/>
+      </span>
+    </term>
+    <!--set-->
+    <term type="open" lemma="set" pos="N" morphofeat="NN" tid="t416">
+      <span>
+        <target id="w416"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t417">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <!--intelligence-->
+    <term type="open" lemma="intelligence" pos="N" morphofeat="NN" tid="t418">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <!--priorities-->
+    <term type="open" lemma="priority" pos="N" morphofeat="NNS" tid="t419">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t420">
+      <span>
+        <target id="w420"/>
+      </span>
+    </term>
+    <!--then-->
+    <term type="open" lemma="then" pos="A" morphofeat="RB" tid="t421">
+      <span>
+        <target id="w421"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t422">
+      <span>
+        <target id="w422"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t423">
+      <span>
+        <target id="w423"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t424">
+      <span>
+        <target id="w424"/>
+      </span>
+    </term>
+    <!--responsibility-->
+    <term type="open" lemma="responsibility" pos="N" morphofeat="NN" tid="t425">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w425"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t426">
+      <span>
+        <target id="w426"/>
+      </span>
+    </term>
+    <!--his-->
+    <term type="close" lemma="his" pos="Q" morphofeat="PRP$" tid="t427">
+      <span>
+        <target id="w427"/>
+      </span>
+    </term>
+    <!--administration-->
+    <term type="open" lemma="administration" pos="N" morphofeat="NN" tid="t428">
+      <span>
+        <target id="w428"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t429">
+      <span>
+        <target id="w429"/>
+      </span>
+    </term>
+    <!--determine-->
+    <term type="open" lemma="determine" pos="V" morphofeat="VB" tid="t430">
+      <span>
+        <target id="w430"/>
+      </span>
+    </term>
+    <!--how-->
+    <term type="close" lemma="how" pos="O" morphofeat="WRB" tid="t431">
+      <span>
+        <target id="w431"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t432">
+      <span>
+        <target id="w432"/>
+      </span>
+    </term>
+    <!--carry-->
+    <term type="open" lemma="carry" pos="V" morphofeat="VB" tid="t433">
+      <span>
+        <target id="w433"/>
+      </span>
+    </term>
+    <!--those-->
+    <term type="close" lemma="those" pos="D" morphofeat="DT" tid="t434">
+      <span>
+        <target id="w434"/>
+      </span>
+    </term>
+    <!--out-->
+    <term type="open" lemma="out" pos="A" morphofeat="RB" tid="t435">
+      <span>
+        <target id="w435"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t436">
+      <span>
+        <target id="w436"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--the president-->
+        <span>
+          <target id="t412"/>
+          <target id="t413"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--a set of intelligence priorities-->
+        <span>
+          <target id="t415"/>
+          <target id="t416"/>
+          <target id="t417"/>
+          <target id="t418"/>
+          <target id="t419"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--approves-->
+        <span>
+          <target id="t414"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

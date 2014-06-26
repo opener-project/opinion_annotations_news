@@ -1,0 +1,12 @@
+w98	Greek	greek	G		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	97	true	5
+w99	politicians	politician	N		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	98	true	5
+w100	reacted	react	V		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	99	true	5
+w101	angrily	angrily	A		I-Negative	3	Opinion	4		0		0		0		0		0		0	100	true	5
+w104	Merkel	Merkel	R		OpinionHolder	5	Opinion	9		0		0		0		0		0		0	103	true	5
+w105	's	's	O		OpinionHolder	5	Opinion	9		0		0		0		0		0		0	104	true	5
+w106	aides	aide	N		OpinionHolder	5	Opinion	9		0		0		0		0		0		0	105	true	5
+w107	insisted	insist	V		D-neutral	6	Opinion	9		0		0		0		0		0		0	106	true	5
+w108	she	she	Q		OpinionTarget	7	Opinion	9		0		0		0		0		0		0	107	true	5
+w109	had	have	V		I-Positive	8	Opinion	9		0		0		0		0		0		0	108	true	5
+w110	not	not	A		I-Positive	8	Opinion	9		0		0		0		0		0		0	109	true	5
+w111	suggested	suggest	V		I-Positive	8	Opinion	9		0		0		0		0		0		0	110	true	5

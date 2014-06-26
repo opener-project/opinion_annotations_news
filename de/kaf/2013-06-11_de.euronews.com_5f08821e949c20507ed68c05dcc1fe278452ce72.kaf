@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:01:15Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:01:15Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:02:35CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:01:23CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w19" sent="4" para="4" offset="98" length="3">Die</wf>
+    <wf wid="w20" sent="4" para="4" offset="102" length="11">Europäische</wf>
+    <wf wid="w21" sent="4" para="4" offset="114" length="10">Kommission</wf>
+    <wf wid="w22" sent="4" para="4" offset="125" length="3">ist</wf>
+    <wf wid="w23" sent="4" para="4" offset="129" length="7">besorgt</wf>
+    <wf wid="w24" sent="4" para="4" offset="137" length="4">über</wf>
+    <wf wid="w25" sent="4" para="4" offset="142" length="3">die</wf>
+    <wf wid="w26" sent="4" para="4" offset="146" length="11">Überwachung</wf>
+    <wf wid="w27" sent="4" para="4" offset="158" length="3">des</wf>
+    <wf wid="w28" sent="4" para="4" offset="162" length="9">Internets</wf>
+    <wf wid="w29" sent="4" para="4" offset="172" length="5">durch</wf>
+    <wf wid="w30" sent="4" para="4" offset="178" length="3">den</wf>
+    <wf wid="w31" sent="4" para="4" offset="182" length="14">amerikanischen</wf>
+    <wf wid="w32" sent="4" para="4" offset="197" length="11">Abhördienst</wf>
+    <wf wid="w33" sent="4" para="4" offset="209" length="3">NSA</wf>
+    <wf wid="w34" sent="4" para="4" offset="212" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t19" type="close">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="europäisch" morphofeat="ADJA" pos="G" tid="t20" type="open">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="Kommission" morphofeat="NN" pos="N" tid="t21" type="open">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t22" type="open">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="besorgt" morphofeat="ADJD" pos="G" tid="t23" type="open">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="über" morphofeat="APPR" pos="P" tid="t24" type="close">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t25" type="close">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="Überwachung" morphofeat="NN" pos="N" tid="t26" type="open">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t27" type="close">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="Internets" morphofeat="NN unknown_lemma" pos="O" tid="t28" type="open">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="durch" morphofeat="APPR" pos="P" tid="t29" type="close">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t30" type="close">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="amerikanisch" morphofeat="ADJA" pos="G" tid="t31" type="open">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="Abhördienst" morphofeat="NN" pos="N" tid="t32" type="open">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="NSA" morphofeat="NN unknown_lemma" pos="O" tid="t33" type="open">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t34" type="open">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Die Europäische Kommission-->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--die Überwachung des Internets-->
+        <span>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ist besorgt über-->
+        <span>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

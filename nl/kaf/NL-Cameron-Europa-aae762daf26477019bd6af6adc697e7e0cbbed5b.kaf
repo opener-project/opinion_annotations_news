@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:14Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:14Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:28:00CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:26CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w166" sent="7" para="2" offset="1051" length="2">De</wf>
+    <wf wid="w167" sent="7" para="2" offset="1054" length="6">Duitse</wf>
+    <wf wid="w168" sent="7" para="2" offset="1061" length="14">bondskanselier</wf>
+    <wf wid="w169" sent="7" para="2" offset="1076" length="6">Angela</wf>
+    <wf wid="w170" sent="7" para="2" offset="1083" length="6">Merkel</wf>
+    <wf wid="w171" sent="7" para="2" offset="1090" length="8">twijfelt</wf>
+    <wf wid="w172" sent="7" para="2" offset="1099" length="8">intussen</wf>
+    <wf wid="w173" sent="7" para="2" offset="1108" length="8">openlijk</wf>
+    <wf wid="w174" sent="7" para="2" offset="1117" length="3">aan</wf>
+    <wf wid="w175" sent="7" para="2" offset="1121" length="2">de</wf>
+    <wf wid="w176" sent="7" para="2" offset="1124" length="11">slaagkansen</wf>
+    <wf wid="w177" sent="7" para="2" offset="1136" length="3">van</wf>
+    <wf wid="w178" sent="7" para="2" offset="1140" length="2">de</wf>
+    <wf wid="w179" sent="7" para="2" offset="1143" length="3">top</wf>
+    <wf wid="w180" sent="7" para="2" offset="1146" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t166" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t167" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--bondskanselier-->
+    <term tid="t168" type="open" lemma="bondskanselier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t169" type="open" lemma="Angela" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t170" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--twijfelt-->
+    <term tid="t171" type="open" lemma="twijfelen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--intussen-->
+    <term tid="t172" type="open" lemma="intussen" pos="A" morphofeat="adv">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--openlijk-->
+    <term tid="t173" type="open" lemma="openlijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w173"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--aan-->
+    <term tid="t174" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t175" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--slaagkansen-->
+    <term tid="t176" type="open" lemma="slaagkansen" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t177" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t178" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--top-->
+    <term tid="t179" type="open" lemma="top" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w179"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t180" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Angela Merkel-->
+        <span>
+          <target id="t169"/>
+          <target id="t170"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--slaagkansen-->
+        <span>
+          <target id="t176"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--twijfelt openlijk aan-->
+        <span>
+          <target id="t171"/>
+          <target id="t173"/>
+          <target id="t174"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

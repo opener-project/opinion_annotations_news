@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:36:55Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:36:55Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:12:07CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:37:25CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w36" sent="4" para="3" offset="201" length="3">Mit</wf>
+    <wf wid="w37" sent="4" para="3" offset="205" length="14">überraschenden</wf>
+    <wf wid="w38" sent="4" para="3" offset="220" length="11">Personalien</wf>
+    <wf wid="w39" sent="4" para="3" offset="232" length="3">und</wf>
+    <wf wid="w40" sent="4" para="3" offset="236" length="3">dem</wf>
+    <wf wid="w41" sent="4" para="3" offset="240" length="5">neuen</wf>
+    <wf wid="w42" sent="4" para="3" offset="246" length="9">Zuschnitt</wf>
+    <wf wid="w43" sent="4" para="3" offset="256" length="7">einiger</wf>
+    <wf wid="w44" sent="4" para="3" offset="264" length="11">Ministerien</wf>
+    <wf wid="w45" sent="4" para="3" offset="276" length="4">will</wf>
+    <wf wid="w46" sent="4" para="3" offset="281" length="3">die</wf>
+    <wf wid="w47" sent="4" para="3" offset="285" length="5">Große</wf>
+    <wf wid="w48" sent="4" para="3" offset="291" length="9">Koalition</wf>
+    <wf wid="w49" sent="4" para="3" offset="301" length="5">unter</wf>
+    <wf wid="w50" sent="4" para="3" offset="307" length="3">der</wf>
+    <wf wid="w51" sent="4" para="3" offset="311" length="9">deutschen</wf>
+    <wf wid="w52" sent="4" para="3" offset="321" length="9">Kanzlerin</wf>
+    <wf wid="w53" sent="4" para="3" offset="331" length="6">Angela</wf>
+    <wf wid="w54" sent="4" para="3" offset="338" length="6">Merkel</wf>
+    <wf wid="w55" sent="4" para="3" offset="345" length="1">(</wf>
+    <wf wid="w56" sent="4" para="3" offset="346" length="3">CDU</wf>
+    <wf wid="w57" sent="4" para="3" offset="349" length="1">)</wf>
+    <wf wid="w58" sent="4" para="3" offset="351" length="11">Deutschland</wf>
+    <wf wid="w59" sent="4" para="3" offset="363" length="2">in</wf>
+    <wf wid="w60" sent="4" para="3" offset="366" length="6">Europa</wf>
+    <wf wid="w61" sent="4" para="3" offset="373" length="2">an</wf>
+    <wf wid="w62" sent="4" para="3" offset="376" length="3">der</wf>
+    <wf wid="w63" sent="4" para="3" offset="380" length="6">Spitze</wf>
+    <wf wid="w64" sent="4" para="3" offset="387" length="6">halten</wf>
+    <wf wid="w65" sent="4" para="3" offset="393" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t36" type="close">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="überraschend" morphofeat="ADJA" pos="G" tid="t37" type="open">
+      <span>
+        <target id="w37"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="Personalien" morphofeat="NN" pos="N" tid="t38" type="open">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t39" type="close">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t40" type="close">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="neu" morphofeat="ADJA" pos="G" tid="t41" type="open">
+      <span>
+        <target id="w41"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Zuschnitt" morphofeat="NN" pos="N" tid="t42" type="open">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term lemma="einige" morphofeat="PIAT" pos="Q" tid="t43" type="close">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term lemma="Ministerium" morphofeat="NN" pos="N" tid="t44" type="open">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t45" type="open">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t46" type="close">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <term lemma="groß" morphofeat="ADJA" pos="G" tid="t47" type="open">
+      <span>
+        <target id="w47"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Koalition" morphofeat="NN" pos="N" tid="t48" type="open">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <term lemma="unter" morphofeat="APPR" pos="P" tid="t49" type="close">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t50" type="close">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <term lemma="deutsch" morphofeat="ADJA" pos="G" tid="t51" type="open">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <term lemma="Kanzlerin" morphofeat="NN" pos="N" tid="t52" type="open">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <term lemma="Angela" morphofeat="NE" pos="R" tid="t53" type="open">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t54" type="open">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="$(" pos="O" tid="t55" type="open">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <term lemma="CDU" morphofeat="NE" pos="R" tid="t56" type="open">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat="$(" pos="O" tid="t57" type="open">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <term lemma="Deutschland" morphofeat="NE" pos="R" tid="t58" type="open">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t59" type="close">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <term lemma="Europa" morphofeat="NE" pos="R" tid="t60" type="open">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPR" pos="P" tid="t61" type="close">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t62" type="close">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <term lemma="Spitze" morphofeat="NN" pos="N" tid="t63" type="open">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <term lemma="halten" morphofeat="VVINF" pos="V" tid="t64" type="open">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t65" type="open">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--die Große Koalition unter der deutschen Kanzlerin Angela Merkel-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--an der Spitze halten-->
+        <span>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--will-->
+        <span>
+          <target id="t45"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

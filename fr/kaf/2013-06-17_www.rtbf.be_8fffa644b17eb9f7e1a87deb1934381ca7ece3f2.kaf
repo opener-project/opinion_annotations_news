@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:55:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:55:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:55:12Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:36:01CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:13CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w197" sent="8" para="7" offset="958" length="2">Il</wf>
+    <wf wid="w198" sent="8" para="7" offset="961" length="1">a</wf>
+    <wf wid="w199" sent="8" para="7" offset="963" length="7">annoncé</wf>
+    <wf wid="w200" sent="8" para="7" offset="971" length="3">que</wf>
+    <wf wid="w201" sent="8" para="7" offset="975" length="2">le</wf>
+    <wf wid="w202" sent="8" para="7" offset="978" length="7">premier</wf>
+    <wf wid="w203" sent="8" para="7" offset="986" length="5">cycle</wf>
+    <wf wid="w204" sent="8" para="7" offset="992" length="2">de</wf>
+    <wf wid="w205" sent="8" para="7" offset="995" length="12">négociations</wf>
+    <wf wid="w206" sent="8" para="7" offset="1008" length="4">aura</wf>
+    <wf wid="w207" sent="8" para="7" offset="1013" length="4">lieu</wf>
+    <wf wid="w208" sent="8" para="7" offset="1018" length="1">à</wf>
+    <wf wid="w209" sent="8" para="7" offset="1020" length="10">Washington</wf>
+    <wf wid="w210" sent="8" para="7" offset="1031" length="2">en</wf>
+    <wf wid="w211" sent="8" para="7" offset="1034" length="7">juillet</wf>
+    <wf wid="w212" sent="8" para="7" offset="1041" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t197" type="close" lemma="Il" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t198" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--annoncé-->
+    <term tid="t199" type="open" lemma="annoncer" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--que-->
+    <term tid="t200" type="close" lemma="que" pos="C" morphofeat="CS">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t201" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t202" type="open" lemma="premier" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--cycle-->
+    <term tid="t203" type="open" lemma="cycle" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t204" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--négociations-->
+    <term tid="t205" type="open" lemma="négociation" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--aura-->
+    <term tid="t206" type="open" lemma="avoir" pos="V" morphofeat="VF3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--lieu-->
+    <term tid="t207" type="open" lemma="lieu" pos="N" morphofeat="N">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t208" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--Washington-->
+    <term tid="t209" type="open" lemma="Washington" pos="N" morphofeat="NPs">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t210" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--juillet-->
+    <term tid="t211" type="open" lemma="juillet" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t212" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:30Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:30Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:55:02" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:30:57CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="4" para="2" offset="829" length="3" wid="w151">But</wf>
+    <wf sent="4" para="2" offset="833" length="4" wid="w152">many</wf>
+    <wf sent="4" para="2" offset="838" length="11" wid="w153">delegations</wf>
+    <wf sent="4" para="2" offset="850" length="3" wid="w154">and</wf>
+    <wf sent="4" para="2" offset="854" length="6" wid="w155">summit</wf>
+    <wf sent="4" para="2" offset="861" length="10" wid="w156">organizers</wf>
+    <wf sent="4" para="2" offset="872" length="1" wid="w157">-</wf>
+    <wf sent="4" para="2" offset="874" length="2" wid="w158">as</wf>
+    <wf sent="4" para="2" offset="877" length="4" wid="w159">well</wf>
+    <wf sent="4" para="2" offset="882" length="2" wid="w160">as</wf>
+    <wf sent="4" para="2" offset="885" length="8" wid="w161">outraged</wf>
+    <wf sent="4" para="2" offset="894" length="17" wid="w162">environmentalists</wf>
+    <wf sent="4" para="2" offset="912" length="3" wid="w163">and</wf>
+    <wf sent="4" para="2" offset="916" length="8" wid="w164">activist</wf>
+    <wf sent="4" para="2" offset="925" length="6" wid="w165">groups</wf>
+    <wf sent="4" para="2" offset="932" length="1" wid="w166">-</wf>
+    <wf sent="4" para="2" offset="934" length="3" wid="w167">are</wf>
+    <wf sent="4" para="2" offset="938" length="10" wid="w168">lambasting</wf>
+    <wf sent="4" para="2" offset="949" length="3" wid="w169">the</wf>
+    <wf sent="4" para="2" offset="953" length="8" wid="w170">document</wf>
+    <wf sent="4" para="2" offset="962" length="2" wid="w171">as</wf>
+    <wf sent="4" para="2" offset="965" length="4" wid="w172">weak</wf>
+    <wf sent="4" para="2" offset="969" length="1" wid="w173">.</wf>
+  </text>
+  <terms>
+    <!--But-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t151">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--many-->
+    <term type="open" lemma="many" pos="G" morphofeat="JJ" tid="t152">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--delegations-->
+    <term type="open" lemma="delegation" pos="N" morphofeat="NNS" tid="t153">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t154">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--summit-->
+    <term type="open" lemma="summit" pos="N" morphofeat="NN" tid="t155">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--organizers-->
+    <term type="open" lemma="organizer" pos="N" morphofeat="NNS" tid="t156">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--- -->
+    <term type="close" lemma="-" pos="O" morphofeat=":" tid="t157">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="open" lemma="as" pos="A" morphofeat="RB" tid="t158">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--well-->
+    <term type="open" lemma="well" pos="A" morphofeat="RB" tid="t159">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t160">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--outraged-->
+    <term type="open" lemma="outraged" pos="G" morphofeat="JJ" tid="t161">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--environmentalists-->
+    <term type="open" lemma="environmentalist" pos="N" morphofeat="NNS" tid="t162">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t163">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--activist-->
+    <term type="open" lemma="activist" pos="N" morphofeat="NN" tid="t164">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--groups-->
+    <term type="open" lemma="group" pos="N" morphofeat="NNS" tid="t165">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--- -->
+    <term type="close" lemma="-" pos="O" morphofeat=":" tid="t166">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t167">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--lambasting-->
+    <term type="open" lemma="lambaste" pos="V" morphofeat="VBG" tid="t168">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t169">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--document-->
+    <term type="open" lemma="document" pos="N" morphofeat="NN" tid="t170">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t171">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--weak-->
+    <term type="open" lemma="weak" pos="G" morphofeat="JJ" tid="t172">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t173">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--outraged environmentalists and activist groups-->
+        <span>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the document-->
+        <span>
+          <target id="t169"/>
+          <target id="t170"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--weak-->
+        <span>
+          <target id="t172"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--summit organizers-->
+        <span>
+          <target id="t155"/>
+          <target id="t156"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the document-->
+        <span>
+          <target id="t169"/>
+          <target id="t170"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--weak-->
+        <span>
+          <target id="t172"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--many delegations-->
+        <span>
+          <target id="t152"/>
+          <target id="t153"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the document-->
+        <span>
+          <target id="t169"/>
+          <target id="t170"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--weak-->
+        <span>
+          <target id="t172"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--outraged environmentalists and activist groups-->
+        <span>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the document-->
+        <span>
+          <target id="t169"/>
+          <target id="t170"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--lambasting-->
+        <span>
+          <target id="t168"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--summit organizers-->
+        <span>
+          <target id="t155"/>
+          <target id="t156"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the document-->
+        <span>
+          <target id="t169"/>
+          <target id="t170"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--lambasting-->
+        <span>
+          <target id="t168"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--many delegations-->
+        <span>
+          <target id="t152"/>
+          <target id="t153"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the document-->
+        <span>
+          <target id="t169"/>
+          <target id="t170"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--lambasting-->
+        <span>
+          <target id="t168"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o6">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--environmentalists and activist groups-->
+        <span>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--outraged-->
+        <span>
+          <target id="t161"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

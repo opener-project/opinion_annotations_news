@@ -1,0 +1,14 @@
+w187	Two	two	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	186	true	10
+w188	of	of	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	187	true	10
+w189	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	188	true	10
+w190	largest	largest	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	189	true	10
+w191	foreign	foreign	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	190	true	10
+w192	investors	investor	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	191	true	10
+w193	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	192	true	10
+w194	India	India	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	193	true	10
+w195	are	be	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	194	true	10
+w196	British	british	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	195	true	10
+w197	—	—	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	196	true	10
+w198	Vodafone	Vodafone	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	197	true	10
+w199	and	and	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	198	true	10
+w200	BP	BP	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	199	true	10

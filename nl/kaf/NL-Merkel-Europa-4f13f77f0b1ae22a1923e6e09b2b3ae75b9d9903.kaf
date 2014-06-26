@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:39:07CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w143" sent="10" para="2" offset="758" length="2">De</wf>
+    <wf wid="w144" sent="10" para="2" offset="761" length="7">Chinese</wf>
+    <wf wid="w145" sent="10" para="2" offset="769" length="7">premier</wf>
+    <wf wid="w146" sent="10" para="2" offset="777" length="3">gaf</wf>
+    <wf wid="w147" sent="10" para="2" offset="781" length="3">wel</wf>
+    <wf wid="w148" sent="10" para="2" offset="785" length="3">aan</wf>
+    <wf wid="w149" sent="10" para="2" offset="789" length="3">dat</wf>
+    <wf wid="w150" sent="10" para="2" offset="793" length="2">de</wf>
+    <wf wid="w151" sent="10" para="2" offset="796" length="11">aanhoudende</wf>
+    <wf wid="w152" sent="10" para="2" offset="808" length="14">schuldencrisis</wf>
+    <wf wid="w153" sent="10" para="2" offset="823" length="3">hem</wf>
+    <wf wid="w154" sent="10" para="2" offset="827" length="4">veel</wf>
+    <wf wid="w155" sent="10" para="2" offset="832" length="6">zorgen</wf>
+    <wf wid="w156" sent="10" para="2" offset="839" length="5">baart</wf>
+    <wf wid="w157" sent="10" para="2" offset="844" length="1">.</wf>
+    <wf wid="w258" sent="17" para="2" offset="1381" length="4">Veel</wf>
+    <wf wid="w259" sent="17" para="2" offset="1386" length="6">landen</wf>
+    <wf wid="w260" sent="17" para="2" offset="1393" length="6">voeren</wf>
+    <wf wid="w261" sent="17" para="2" offset="1400" length="12">hervormingen</wf>
+    <wf wid="w262" sent="17" para="2" offset="1413" length="4">door</wf>
+    <wf wid="w263" sent="17" para="2" offset="1418" length="2">en</wf>
+    <wf wid="w264" sent="17" para="2" offset="1421" length="4">zijn</wf>
+    <wf wid="w265" sent="17" para="2" offset="1426" length="5">bezig</wf>
+    <wf wid="w266" sent="17" para="2" offset="1432" length="3">die</wf>
+    <wf wid="w267" sent="17" para="2" offset="1436" length="2">te</wf>
+    <wf wid="w268" sent="17" para="2" offset="1439" length="13">implementeren</wf>
+    <wf wid="w269" sent="17" para="2" offset="1452" length="1">.</wf>
+    <wf wid="w270" sent="17" para="2" offset="1453" length="1">"</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t143" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--Chinese-->
+    <term tid="t144" type="open" lemma="Chinees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t145" type="open" lemma="premier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w145"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--gaf-->
+    <term tid="t146" type="open" lemma="geven" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--wel-->
+    <term tid="t147" type="open" lemma="wel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t148" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t149" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t150" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--aanhoudende-->
+    <term tid="t151" type="open" lemma="aanhoudend" pos="G" morphofeat="adj">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--schuldencrisis-->
+    <term tid="t152" type="open" lemma="schuldencrisis" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--hem-->
+    <term tid="t153" type="close" lemma="hem" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--veel-->
+    <term tid="t154" type="open" lemma="veel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--zorgen-->
+    <term tid="t155" type="open" lemma="zorg" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w155"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--baart-->
+    <term tid="t156" type="open" lemma="baren" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t157" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--Veel-->
+    <term tid="t258" type="open" lemma="veel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--landen-->
+    <term tid="t259" type="open" lemma="landen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--voeren-->
+    <term tid="t260" type="open" lemma="voeren" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--hervormingen-->
+    <term tid="t261" type="open" lemma="hervorming" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--door-->
+    <term tid="t262" type="close" lemma="door" pos="P" morphofeat="prep">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t263" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t264" type="open" lemma="zijn" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--bezig-->
+    <term tid="t265" type="open" lemma="bezig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w265"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--die-->
+    <term tid="t266" type="close" lemma="die" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t267" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--implementeren-->
+    <term tid="t268" type="open" lemma="implementeren" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t269" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t270" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--De Chinese premier-->
+        <span>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de aanhoudende schuldencrisis-->
+        <span>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--veel zorgen baart-->
+        <span>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t258"/>
+          <target id="t259"/>
+          <target id="t260"/>
+          <target id="t261"/>
+          <target id="t262"/>
+          <target id="t263"/>
+          <target id="t264"/>
+          <target id="t265"/>
+          <target id="t266"/>
+          <target id="t267"/>
+          <target id="t268"/>
+          <target id="t269"/>
+          <target id="t270"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

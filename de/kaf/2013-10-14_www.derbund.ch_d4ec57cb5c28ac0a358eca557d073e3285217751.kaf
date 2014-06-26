@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:46:15Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:46:15Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:53:44CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:46:42CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w164" sent="18" para="12" offset="931" length="4">Eine</wf>
+    <wf wid="w165" sent="18" para="12" offset="936" length="6">letzte</wf>
+    <wf wid="w166" sent="18" para="12" offset="943" length="6">Klippe</wf>
+    <wf wid="w167" sent="18" para="12" offset="950" length="3">ist</wf>
+    <wf wid="w168" sent="18" para="12" offset="954" length="3">der</wf>
+    <wf wid="w169" sent="18" para="12" offset="958" length="6">kleine</wf>
+    <wf wid="w170" sent="18" para="12" offset="965" length="9">Parteitag</wf>
+    <wf wid="w171" sent="18" para="12" offset="975" length="3">der</wf>
+    <wf wid="w172" sent="18" para="12" offset="979" length="3">SPD</wf>
+    <wf wid="w173" sent="18" para="12" offset="983" length="2">am</wf>
+    <wf wid="w174" sent="18" para="12" offset="986" length="9">kommenden</wf>
+    <wf wid="w175" sent="18" para="12" offset="996" length="7">Sonntag</wf>
+    <wf wid="w176" sent="18" para="12" offset="1003" length="1">.</wf>
+    <wf wid="w223" sent="21" para="13" offset="1279" length="4">Auch</wf>
+    <wf wid="w224" sent="21" para="13" offset="1284" length="3">die</wf>
+    <wf wid="w225" sent="21" para="13" offset="1288" length="9">Kanzlerin</wf>
+    <wf wid="w226" sent="21" para="13" offset="1298" length="5">würde</wf>
+    <wf wid="w227" sent="21" para="13" offset="1304" length="3">ein</wf>
+    <wf wid="w228" sent="21" para="13" offset="1308" length="7">Bündnis</wf>
+    <wf wid="w229" sent="21" para="13" offset="1316" length="3">mit</wf>
+    <wf wid="w230" sent="21" para="13" offset="1320" length="3">der</wf>
+    <wf wid="w231" sent="21" para="13" offset="1324" length="3">SPD</wf>
+    <wf wid="w232" sent="21" para="13" offset="1328" length="9">vorziehen</wf>
+    <wf wid="w233" sent="21" para="13" offset="1337" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t164" type="close">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <term lemma="letzt" morphofeat="ADJA" pos="G" tid="t165" type="open">
+      <span>
+        <target id="w165"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Klippe" morphofeat="NN" pos="N" tid="t166" type="open">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t167" type="open">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t168" type="close">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <term lemma="klein" morphofeat="ADJA" pos="G" tid="t169" type="open">
+      <span>
+        <target id="w169"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Parteitag" morphofeat="NN" pos="N" tid="t170" type="open">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t171" type="close">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <term lemma="SPD" morphofeat="NE" pos="R" tid="t172" type="open">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t173" type="close">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <term lemma="kommend" morphofeat="ADJA" pos="G" tid="t174" type="open">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <term lemma="Sonntag" morphofeat="NN" pos="N" tid="t175" type="open">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t176" type="open">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <term lemma="auch" morphofeat="ADV" pos="A" tid="t223" type="open">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t224" type="close">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <term lemma="Kanzlerin" morphofeat="NN" pos="N" tid="t225" type="open">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t226" type="open">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t227" type="close">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <term lemma="Bündnis" morphofeat="NN" pos="N" tid="t228" type="open">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t229" type="close">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t230" type="close">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <term lemma="SPD" morphofeat="NE" pos="R" tid="t231" type="open">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <term lemma="vorziehen" morphofeat="VVINF" pos="V" tid="t232" type="open">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t233" type="open">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--der kleine Parteitag der SPD-->
+        <span>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--Eine letzte Klippe-->
+        <span>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--mit der SPD-->
+        <span>
+          <target id="t229"/>
+          <target id="t230"/>
+          <target id="t231"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--ein Bündnis-->
+        <span>
+          <target id="t227"/>
+          <target id="t228"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

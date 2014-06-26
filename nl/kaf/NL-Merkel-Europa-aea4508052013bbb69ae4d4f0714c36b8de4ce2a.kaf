@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:46:15CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w107" sent="10" para="2" offset="583" length="2">Ze</wf>
+    <wf wid="w108" sent="10" para="2" offset="586" length="3">was</wf>
+    <wf wid="w109" sent="10" para="2" offset="590" length="3">tot</wf>
+    <wf wid="w110" sent="10" para="2" offset="594" length="4">2010</wf>
+    <wf wid="w111" sent="10" para="2" offset="599" length="7">premier</wf>
+    <wf wid="w112" sent="10" para="2" offset="606" length="1">.</wf>
+    <wf wid="w113" sent="11" para="2" offset="608" length="5">Vorig</wf>
+    <wf wid="w114" sent="11" para="2" offset="614" length="4">jaar</wf>
+    <wf wid="w115" sent="11" para="2" offset="619" length="4">werd</wf>
+    <wf wid="w116" sent="11" para="2" offset="624" length="2">ze</wf>
+    <wf wid="w117" sent="11" para="2" offset="627" length="11">veroordeeld</wf>
+    <wf wid="w118" sent="11" para="2" offset="639" length="3">tot</wf>
+    <wf wid="w119" sent="11" para="2" offset="643" length="1">7</wf>
+    <wf wid="w120" sent="11" para="2" offset="645" length="4">jaar</wf>
+    <wf wid="w121" sent="11" para="2" offset="650" length="8">celstraf</wf>
+    <wf wid="w122" sent="11" para="2" offset="658" length="1">.</wf>
+    <wf wid="w162" sent="14" para="2" offset="893" length="3">Het</wf>
+    <wf wid="w163" sent="14" para="2" offset="897" length="6">vonnis</wf>
+    <wf wid="w164" sent="14" para="2" offset="904" length="4">werd</wf>
+    <wf wid="w165" sent="14" para="2" offset="909" length="14">internationaal</wf>
+    <wf wid="w166" sent="14" para="2" offset="924" length="6">scherp</wf>
+    <wf wid="w167" sent="14" para="2" offset="931" length="11">veroordeeld</wf>
+    <wf wid="w168" sent="14" para="2" offset="942" length="1">,</wf>
+    <wf wid="w169" sent="14" para="2" offset="944" length="5">zowel</wf>
+    <wf wid="w170" sent="14" para="2" offset="950" length="4">door</wf>
+    <wf wid="w171" sent="14" para="2" offset="955" length="6">Europa</wf>
+    <wf wid="w172" sent="14" para="2" offset="962" length="3">als</wf>
+    <wf wid="w173" sent="14" para="2" offset="966" length="4">door</wf>
+    <wf wid="w174" sent="14" para="2" offset="971" length="7">Rusland</wf>
+    <wf wid="w175" sent="14" para="2" offset="978" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ze-->
+    <term tid="t107" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--was-->
+    <term tid="t108" type="open" lemma="wezen|zijn" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--tot-->
+    <term tid="t109" type="close" lemma="tot" pos="P" morphofeat="prep">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--2010-->
+    <term tid="t110" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t111" type="open" lemma="premier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w111"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t112" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--Vorig-->
+    <term tid="t113" type="open" lemma="vorig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--jaar-->
+    <term tid="t114" type="open" lemma="jaar" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--werd-->
+    <term tid="t115" type="open" lemma="worden" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--ze-->
+    <term tid="t116" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--veroordeeld-->
+    <term tid="t117" type="open" lemma="veroordelen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w117"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--tot-->
+    <term tid="t118" type="close" lemma="tot" pos="P" morphofeat="prep">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--7-->
+    <term tid="t119" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--jaar-->
+    <term tid="t120" type="open" lemma="jaar" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--celstraf-->
+    <term tid="t121" type="open" lemma="celstraf" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w121"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t122" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--Het-->
+    <term tid="t162" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--vonnis-->
+    <term tid="t163" type="open" lemma="vonnis" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--werd-->
+    <term tid="t164" type="open" lemma="worden" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--internationaal-->
+    <term tid="t165" type="open" lemma="internationaal" pos="G" morphofeat="adj">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--scherp-->
+    <term tid="t166" type="open" lemma="scherp" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w166"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--veroordeeld-->
+    <term tid="t167" type="open" lemma="veroordelen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w167"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t168" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--zowel-->
+    <term tid="t169" type="close" lemma="zowel" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--door-->
+    <term tid="t170" type="close" lemma="door" pos="P" morphofeat="prep">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t171" type="open" lemma="Europa" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--als-->
+    <term tid="t172" type="close" lemma="als" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--door-->
+    <term tid="t173" type="close" lemma="door" pos="P" morphofeat="prep">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--Rusland-->
+    <term tid="t174" type="open" lemma="Rusland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t175" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--door Europa-->
+        <span>
+          <target id="t170"/>
+          <target id="t171"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Het vonnis-->
+        <span>
+          <target id="t162"/>
+          <target id="t163"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--scherp veroordeeld-->
+        <span>
+          <target id="t166"/>
+          <target id="t167"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--door Rusland-->
+        <span>
+          <target id="t173"/>
+          <target id="t174"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Het vonnis-->
+        <span>
+          <target id="t162"/>
+          <target id="t163"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--scherp veroordeeld-->
+        <span>
+          <target id="t166"/>
+          <target id="t167"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

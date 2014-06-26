@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:43Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:43Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:25:16" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:33:21CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="716" length="1" wid="w128">'</wf>
+    <wf sent="5" para="2" offset="717" length="12" wid="w129">Homelessness</wf>
+    <wf sent="5" para="2" offset="730" length="3" wid="w130">and</wf>
+    <wf sent="5" para="2" offset="734" length="4" wid="w131">even</wf>
+    <wf sent="5" para="2" offset="739" length="6" wid="w132">hunger</wf>
+    <wf sent="5" para="2" offset="746" length="4" wid="w133">have</wf>
+    <wf sent="5" para="2" offset="751" length="7" wid="w134">reached</wf>
+    <wf sent="5" para="2" offset="759" length="9" wid="w135">nightmare</wf>
+    <wf sent="5" para="2" offset="769" length="11" wid="w136">proportions</wf>
+    <wf sent="5" para="2" offset="780" length="1" wid="w137">,</wf>
+    <wf sent="5" para="2" offset="781" length="1" wid="w138">'</wf>
+    <wf sent="5" para="2" offset="784" length="4" wid="w139">said</wf>
+    <wf sent="5" para="2" offset="789" length="3" wid="w140">the</wf>
+    <wf sent="5" para="2" offset="793" length="5" wid="w141">Greek</wf>
+    <wf sent="5" para="2" offset="799" length="9" wid="w142">religious</wf>
+    <wf sent="5" para="2" offset="809" length="6" wid="w143">leader</wf>
+    <wf sent="5" para="2" offset="815" length="1" wid="w144">.</wf>
+    <wf sent="39" para="2" offset="6498" length="1" wid="w1188">'</wf>
+    <wf sent="39" para="2" offset="6499" length="5" wid="w1189">China</wf>
+    <wf sent="39" para="2" offset="6505" length="8" wid="w1190">supports</wf>
+    <wf sent="39" para="2" offset="6514" length="6" wid="w1191">Europe</wf>
+    <wf sent="39" para="2" offset="6521" length="2" wid="w1192">in</wf>
+    <wf sent="39" para="2" offset="6524" length="12" wid="w1193">safeguarding</wf>
+    <wf sent="39" para="2" offset="6537" length="3" wid="w1194">the</wf>
+    <wf sent="39" para="2" offset="6541" length="9" wid="w1195">stability</wf>
+    <wf sent="39" para="2" offset="6551" length="2" wid="w1196">of</wf>
+    <wf sent="39" para="2" offset="6554" length="3" wid="w1197">the</wf>
+    <wf sent="39" para="2" offset="6558" length="4" wid="w1198">euro</wf>
+    <wf sent="39" para="2" offset="6562" length="1" wid="w1199">.</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="''" tid="t128">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--Homelessness-->
+    <term type="open" lemma="homelessness" pos="N" morphofeat="NN" tid="t129">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t130">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--even-->
+    <term type="open" lemma="even" pos="A" morphofeat="RB" tid="t131">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--hunger-->
+    <term type="open" lemma="hunger" pos="N" morphofeat="NNS" tid="t132">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--have-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBP" tid="t133">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--reached-->
+    <term type="open" lemma="reach" pos="V" morphofeat="VBN" tid="t134">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--nightmare-->
+    <term type="open" lemma="nightmare" pos="G" morphofeat="JJ" tid="t135">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--proportions-->
+    <term type="open" lemma="proportion" pos="N" morphofeat="NNS" tid="t136">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t137">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="''" tid="t138">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t139">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t140">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--Greek-->
+    <term type="open" lemma="greek" pos="G" morphofeat="JJ" tid="t141">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--religious-->
+    <term type="open" lemma="religious" pos="G" morphofeat="JJ" tid="t142">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--leader-->
+    <term type="open" lemma="leader" pos="N" morphofeat="NN" tid="t143">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t144">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--'-->
+    <term type="close" lemma="'" pos="O" morphofeat="''" tid="t1188">
+      <span>
+        <target id="w1188"/>
+      </span>
+    </term>
+    <!--China-->
+    <term type="close" lemma="China" pos="R" morphofeat="NNP" tid="t1189">
+      <span>
+        <target id="w1189"/>
+      </span>
+    </term>
+    <!--supports-->
+    <term type="open" lemma="support" pos="V" morphofeat="VBZ" tid="t1190">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w1190"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term type="close" lemma="Europe" pos="R" morphofeat="NNP" tid="t1191">
+      <span>
+        <target id="w1191"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t1192">
+      <span>
+        <target id="w1192"/>
+      </span>
+    </term>
+    <!--safeguarding-->
+    <term type="open" lemma="safeguard" pos="V" morphofeat="VBG" tid="t1193">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w1193"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t1194">
+      <span>
+        <target id="w1194"/>
+      </span>
+    </term>
+    <!--stability-->
+    <term type="open" lemma="stability" pos="N" morphofeat="NN" tid="t1195">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w1195"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t1196">
+      <span>
+        <target id="w1196"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t1197">
+      <span>
+        <target id="w1197"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term type="open" lemma="euro" pos="N" morphofeat="NN" tid="t1198">
+      <span>
+        <target id="w1198"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t1199">
+      <span>
+        <target id="w1199"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--proportions-->
+        <span>
+          <target id="t136"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--nightmare-->
+        <span>
+          <target id="t135"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder>
+        <!--China-->
+        <span>
+          <target id="t1189"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Europe-->
+        <span>
+          <target id="t1191"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--supports-->
+        <span>
+          <target id="t1190"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=19-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stability-->
+        <span>
+          <target id="t1195"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--safeguarding-->
+        <span>
+          <target id="t1193"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--the Greek religious leader-->
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Homelessness-->
+        <span>
+          <target id="t129"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--have reached nightmare proportions-->
+        <span>
+          <target id="t133"/>
+          <target id="t134"/>
+          <target id="t135"/>
+          <target id="t136"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--the Greek religious leader-->
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--hunger-->
+        <span>
+          <target id="t132"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--have reached nightmare proportions-->
+        <span>
+          <target id="t133"/>
+          <target id="t134"/>
+          <target id="t135"/>
+          <target id="t136"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--Homelessness-->
+        <span>
+          <target id="t129"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o6">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--hunger-->
+        <span>
+          <target id="t132"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

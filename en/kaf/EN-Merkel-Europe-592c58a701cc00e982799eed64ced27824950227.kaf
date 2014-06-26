@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:41Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:41Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:28:04" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:15:55CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:52CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="13" para="2" offset="1174" length="4" wid="w211">With</wf>
+    <wf sent="13" para="2" offset="1179" length="3" wid="w212">the</wf>
+    <wf sent="13" para="2" offset="1183" length="7" wid="w213">victory</wf>
+    <wf sent="13" para="2" offset="1190" length="1" wid="w214">,</wf>
+    <wf sent="13" para="2" offset="1192" length="2" wid="w215">he</wf>
+    <wf sent="13" para="2" offset="1195" length="7" wid="w216">becomes</wf>
+    <wf sent="13" para="2" offset="1203" length="6" wid="w217">France</wf>
+    <wf sent="13" para="2" offset="1209" length="2" wid="w218">'s</wf>
+    <wf sent="13" para="2" offset="1212" length="5" wid="w219">first</wf>
+    <wf sent="13" para="2" offset="1218" length="9" wid="w220">Socialist</wf>
+    <wf sent="13" para="2" offset="1228" length="9" wid="w221">president</wf>
+    <wf sent="13" para="2" offset="1238" length="5" wid="w222">since</wf>
+    <wf sent="13" para="2" offset="1244" length="8" wid="w223">Francois</wf>
+    <wf sent="13" para="2" offset="1253" length="10" wid="w224">Mitterrand</wf>
+    <wf sent="13" para="2" offset="1264" length="4" wid="w225">held</wf>
+    <wf sent="13" para="2" offset="1269" length="3" wid="w226">the</wf>
+    <wf sent="13" para="2" offset="1273" length="4" wid="w227">post</wf>
+    <wf sent="13" para="2" offset="1278" length="4" wid="w228">from</wf>
+    <wf sent="13" para="2" offset="1283" length="4" wid="w229">1981</wf>
+    <wf sent="13" para="2" offset="1288" length="2" wid="w230">to</wf>
+    <wf sent="13" para="2" offset="1291" length="4" wid="w231">1995</wf>
+    <wf sent="13" para="2" offset="1295" length="1" wid="w232">.</wf>
+  </text>
+  <terms>
+    <!--With-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t211">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t212">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--victory-->
+    <term type="open" lemma="victory" pos="N" morphofeat="NN" tid="t213">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t214">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t215">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--becomes-->
+    <term type="open" lemma="become" pos="V" morphofeat="VBZ" tid="t216">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--France-->
+    <term type="close" lemma="France" pos="R" morphofeat="NNP" tid="t217">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t218">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--first-->
+    <term type="open" lemma="1" pos="G" morphofeat="JJ" tid="t219">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--Socialist-->
+    <term type="open" lemma="socialist" pos="G" morphofeat="JJ" tid="t220">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--president-->
+    <term type="open" lemma="president" pos="N" morphofeat="NN" tid="t221">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--since-->
+    <term type="close" lemma="since" pos="P" morphofeat="IN" tid="t222">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--Francois-->
+    <term type="close" lemma="Francois" pos="R" morphofeat="NNP" tid="t223">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--Mitterrand-->
+    <term type="close" lemma="Mitterrand" pos="R" morphofeat="NNP" tid="t224">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--held-->
+    <term type="open" lemma="hold" pos="V" morphofeat="VBD" tid="t225">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t226">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--post-->
+    <term type="open" lemma="post" pos="N" morphofeat="NN" tid="t227">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t228">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--1981-->
+    <term type="close" lemma="1981" pos="O" morphofeat="CD" tid="t229">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t230">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--1995-->
+    <term type="close" lemma="1995" pos="O" morphofeat="CD" tid="t231">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t232">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+          <target id="t229"/>
+          <target id="t230"/>
+          <target id="t231"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

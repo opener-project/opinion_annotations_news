@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:47Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:47Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:52:12" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:25:50CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="25" para="2" offset="3493" length="1" wid="w717">“</wf>
+    <wf sent="25" para="2" offset="3494" length="2" wid="w718">We</wf>
+    <wf sent="25" para="2" offset="3497" length="6" wid="w719">should</wf>
+    <wf sent="25" para="2" offset="3504" length="2" wid="w720">be</wf>
+    <wf sent="25" para="2" offset="3507" length="4" wid="w721">able</wf>
+    <wf sent="25" para="2" offset="3512" length="2" wid="w722">to</wf>
+    <wf sent="25" para="2" offset="3515" length="6" wid="w723">bridge</wf>
+    <wf sent="25" para="2" offset="3522" length="5" wid="w724">those</wf>
+    <wf sent="25" para="2" offset="3528" length="11" wid="w725">differences</wf>
+    <wf sent="25" para="2" offset="3539" length="1" wid="w726">,</wf>
+    <wf sent="25" para="2" offset="3540" length="1" wid="w727">”</wf>
+    <wf sent="25" para="2" offset="3542" length="3" wid="w728">she</wf>
+    <wf sent="25" para="2" offset="3546" length="4" wid="w729">said</wf>
+    <wf sent="25" para="2" offset="3550" length="1" wid="w730">.</wf>
+  </text>
+  <terms>
+    <!--“-->
+    <term type="open" lemma="“" pos="N" morphofeat="NNS" tid="t717">
+      <span>
+        <target id="w717"/>
+      </span>
+    </term>
+    <!--We-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t718">
+      <span>
+        <target id="w718"/>
+      </span>
+    </term>
+    <!--should-->
+    <term type="close" lemma="should" pos="O" morphofeat="MD" tid="t719">
+      <span>
+        <target id="w719"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t720">
+      <span>
+        <target id="w720"/>
+      </span>
+    </term>
+    <!--able-->
+    <term type="open" lemma="able" pos="G" morphofeat="JJ" tid="t721">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w721"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t722">
+      <span>
+        <target id="w722"/>
+      </span>
+    </term>
+    <!--bridge-->
+    <term type="open" lemma="bridge" pos="V" morphofeat="VB" tid="t723">
+      <span>
+        <target id="w723"/>
+      </span>
+    </term>
+    <!--those-->
+    <term type="close" lemma="those" pos="D" morphofeat="DT" tid="t724">
+      <span>
+        <target id="w724"/>
+      </span>
+    </term>
+    <!--differences-->
+    <term type="open" lemma="difference" pos="N" morphofeat="NNS" tid="t725">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w725"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t726">
+      <span>
+        <target id="w726"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="V" morphofeat="VB" tid="t727">
+      <span>
+        <target id="w727"/>
+      </span>
+    </term>
+    <!--she-->
+    <term type="close" lemma="she" pos="Q" morphofeat="PRP" tid="t728">
+      <span>
+        <target id="w728"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t729">
+      <span>
+        <target id="w729"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t730">
+      <span>
+        <target id="w730"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--We-->
+        <span>
+          <target id="t718"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--to bridge those differences-->
+        <span>
+          <target id="t722"/>
+          <target id="t723"/>
+          <target id="t724"/>
+          <target id="t725"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--should be able-->
+        <span>
+          <target id="t719"/>
+          <target id="t720"/>
+          <target id="t721"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

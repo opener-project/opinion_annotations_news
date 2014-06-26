@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T18:07:35Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T18:07:35Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:03:26CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T19:07:58CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w164" sent="11" para="6" offset="1039" length="6">Merkel</wf>
+    <wf wid="w165" sent="11" para="6" offset="1046" length="4">wies</wf>
+    <wf wid="w166" sent="11" para="6" offset="1051" length="3">den</wf>
+    <wf wid="w167" sent="11" para="6" offset="1055" length="7">Vorwurf</wf>
+    <wf wid="w168" sent="11" para="6" offset="1063" length="6">zurück</wf>
+    <wf wid="w169" sent="11" para="6" offset="1069" length="1">,</wf>
+    <wf wid="w170" sent="11" para="6" offset="1071" length="3">sie</wf>
+    <wf wid="w171" sent="11" para="6" offset="1075" length="5">wolle</wf>
+    <wf wid="w172" sent="11" para="6" offset="1081" length="5">nicht</wf>
+    <wf wid="w173" sent="11" para="6" offset="1087" length="1">"</wf>
+    <wf wid="w174" sent="11" para="6" offset="1088" length="4">mehr</wf>
+    <wf wid="w175" sent="11" para="6" offset="1093" length="6">Europa</wf>
+    <wf wid="w176" sent="11" para="6" offset="1099" length="1">"</wf>
+    <wf wid="w177" sent="11" para="6" offset="1100" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t164" type="open">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <term lemma="weisen" morphofeat="VVFIN" pos="V" tid="t165" type="open">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t166" type="close">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <term lemma="Vorwurf" morphofeat="NN" pos="N" tid="t167" type="open">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <term lemma="zurück" morphofeat="PTKVZ" pos="V" tid="t168" type="open">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t169" type="open">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <term lemma="sie" morphofeat="PPER" pos="Q" tid="t170" type="close">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t171" type="open">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t172" type="open">
+      <span>
+        <target id="w172"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t173" type="open">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <term lemma="mehr" morphofeat="ADV" pos="A" tid="t174" type="open">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <term lemma="Europa" morphofeat="NE" pos="R" tid="t175" type="open">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t176" type="open">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t177" type="open">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--sie-->
+        <span>
+          <target id="t170"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--mehr Europa-->
+        <span>
+          <target id="t174"/>
+          <target id="t175"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--wolle nicht-->
+        <span>
+          <target id="t171"/>
+          <target id="t172"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

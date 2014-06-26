@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:05:11Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:05:11Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:15:44CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:05:55CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:35CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w436" sent="32" para="9" offset="3012" length="9">Insgesamt</wf>
+    <wf wid="w437" sent="32" para="9" offset="3022" length="6">hätten</wf>
+    <wf wid="w438" sent="32" para="9" offset="3029" length="4">seit</wf>
+    <wf wid="w439" sent="32" para="9" offset="3034" length="3">dem</wf>
+    <wf wid="w440" sent="32" para="9" offset="3038" length="11">vergangenen</wf>
+    <wf wid="w441" sent="32" para="9" offset="3050" length="7">Freitag</wf>
+    <wf wid="w442" sent="32" para="9" offset="3058" length="3">gut</wf>
+    <wf wid="w443" sent="32" para="9" offset="3062" length="5">1.400</wf>
+    <wf wid="w444" sent="32" para="9" offset="3068" length="8">Menschen</wf>
+    <wf wid="w445" sent="32" para="9" offset="3077" length="3">die</wf>
+    <wf wid="w446" sent="32" para="9" offset="3081" length="5">Stadt</wf>
+    <wf wid="w447" sent="32" para="9" offset="3087" length="9">verlassen</wf>
+    <wf wid="w448" sent="32" para="9" offset="3096" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="insgesamt" morphofeat="ADV" pos="A" tid="t436" type="open">
+      <span>
+        <target id="w436"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t437" type="open">
+      <span>
+        <target id="w437"/>
+      </span>
+    </term>
+    <term lemma="seit" morphofeat="APPR" pos="P" tid="t438" type="close">
+      <span>
+        <target id="w438"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t439" type="close">
+      <span>
+        <target id="w439"/>
+      </span>
+    </term>
+    <term lemma="vergangen" morphofeat="ADJA" pos="G" tid="t440" type="open">
+      <span>
+        <target id="w440"/>
+      </span>
+    </term>
+    <term lemma="Freitag" morphofeat="NN" pos="N" tid="t441" type="open">
+      <span>
+        <target id="w441"/>
+      </span>
+    </term>
+    <term lemma="gut" morphofeat="ADJD" pos="G" tid="t442" type="open">
+      <span>
+        <target id="w442"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t443" type="open">
+      <span>
+        <target id="w443"/>
+      </span>
+    </term>
+    <term lemma="Mensch" morphofeat="NN" pos="N" tid="t444" type="open">
+      <span>
+        <target id="w444"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t445" type="close">
+      <span>
+        <target id="w445"/>
+      </span>
+    </term>
+    <term lemma="Stadt" morphofeat="NN" pos="N" tid="t446" type="open">
+      <span>
+        <target id="w446"/>
+      </span>
+    </term>
+    <term lemma="verlassen" morphofeat="VVPP" pos="V" tid="t447" type="open">
+      <span>
+        <target id="w447"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t448" type="open">
+      <span>
+        <target id="w448"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t436"/>
+          <target id="t437"/>
+          <target id="t438"/>
+          <target id="t439"/>
+          <target id="t440"/>
+          <target id="t441"/>
+          <target id="t442"/>
+          <target id="t443"/>
+          <target id="t444"/>
+          <target id="t445"/>
+          <target id="t446"/>
+          <target id="t447"/>
+          <target id="t448"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

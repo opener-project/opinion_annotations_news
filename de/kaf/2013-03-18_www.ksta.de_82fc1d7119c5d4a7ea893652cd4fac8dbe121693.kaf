@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:02:13Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:02:13Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:56:44CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:02:40CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w246" sent="24" para="10" offset="1543" length="2">77</wf>
+    <wf wid="w247" sent="24" para="10" offset="1546" length="7">Prozent</wf>
+    <wf wid="w248" sent="24" para="10" offset="1554" length="3">der</wf>
+    <wf wid="w249" sent="24" para="10" offset="1558" length="9">Deutschen</wf>
+    <wf wid="w250" sent="24" para="10" offset="1568" length="4">sind</wf>
+    <wf wid="w251" sent="24" para="10" offset="1573" length="3">mit</wf>
+    <wf wid="w252" sent="24" para="10" offset="1577" length="6">seiner</wf>
+    <wf wid="w253" sent="24" para="10" offset="1584" length="6">Arbeit</wf>
+    <wf wid="w254" sent="24" para="10" offset="1591" length="9">zufrieden</wf>
+    <wf wid="w255" sent="24" para="10" offset="1600" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t246" type="open">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <term lemma="Prozent" morphofeat="NN" pos="N" tid="t247" type="open">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t248" type="close">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <term lemma="Deutsche" morphofeat="NN" pos="N" tid="t249" type="open">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t250" type="open">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t251" type="close">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="PPOSAT" pos="Q" tid="t252" type="close">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <term lemma="Arbeit" morphofeat="NN" pos="N" tid="t253" type="open">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <term lemma="zufrieden" morphofeat="ADJD" pos="G" tid="t254" type="open">
+      <span>
+        <target id="w254"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t255" type="open">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--77 Prozent der Deutschen-->
+        <span>
+          <target id="t246"/>
+          <target id="t247"/>
+          <target id="t248"/>
+          <target id="t249"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--seiner Arbeit-->
+        <span>
+          <target id="t252"/>
+          <target id="t253"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--zufrieden-->
+        <span>
+          <target id="t254"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

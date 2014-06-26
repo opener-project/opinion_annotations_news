@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:28:02Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:28:02Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:15:26CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:28:32CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w266" sent="19" para="9" offset="1517" length="3">Sie</wf>
+    <wf wid="w267" sent="19" para="9" offset="1521" length="6">glaubt</wf>
+    <wf wid="w268" sent="19" para="9" offset="1527" length="1">,</wf>
+    <wf wid="w269" sent="19" para="9" offset="1529" length="3">die</wf>
+    <wf wid="w270" sent="19" para="9" offset="1533" length="8">Menschen</wf>
+    <wf wid="w271" sent="19" para="9" offset="1542" length="6">stösst</wf>
+    <wf wid="w272" sent="19" para="9" offset="1549" length="2">es</wf>
+    <wf wid="w273" sent="19" para="9" offset="1552" length="2">ab</wf>
+    <wf wid="w274" sent="19" para="9" offset="1554" length="1">,</wf>
+    <wf wid="w275" sent="19" para="9" offset="1556" length="4">wenn</wf>
+    <wf wid="w276" sent="19" para="9" offset="1561" length="4">sich</wf>
+    <wf wid="w277" sent="19" para="9" offset="1566" length="9">Politiker</wf>
+    <wf wid="w278" sent="19" para="9" offset="1576" length="9">anfeinden</wf>
+    <wf wid="w279" sent="19" para="9" offset="1585" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Sie|sie" morphofeat="PPER" pos="Q" tid="t266" type="close">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <term lemma="glauben" morphofeat="VVFIN" pos="V" tid="t267" type="open">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t268" type="open">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t269" type="close">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <term lemma="Mensch" morphofeat="NN" pos="N" tid="t270" type="open">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <term lemma="stoßen" morphofeat="VVFIN" pos="V" tid="t271" type="open">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t272" type="close">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <term lemma="ab" morphofeat="PTKVZ" pos="V" tid="t273" type="open">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t274" type="open">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <term lemma="wenn" morphofeat="KOUS" pos="C" tid="t275" type="close">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t276" type="close">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <term lemma="Politiker" morphofeat="NN" pos="N" tid="t277" type="open">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <term lemma="anfeinden" morphofeat="VVFIN" pos="V" tid="t278" type="open">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t279" type="open">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Sie-->
+        <span>
+          <target id="t266"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--wenn sich Politiker anfeinden-->
+        <span>
+          <target id="t275"/>
+          <target id="t276"/>
+          <target id="t277"/>
+          <target id="t278"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--glaubt-->
+        <span>
+          <target id="t267"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Sie-->
+        <span>
+          <target id="t266"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--wenn sich Politiker anfeinden-->
+        <span>
+          <target id="t275"/>
+          <target id="t276"/>
+          <target id="t277"/>
+          <target id="t278"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--stösst es ab-->
+        <span>
+          <target id="t271"/>
+          <target id="t272"/>
+          <target id="t273"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

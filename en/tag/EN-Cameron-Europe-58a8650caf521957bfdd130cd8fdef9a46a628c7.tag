@@ -1,0 +1,11 @@
+w436	"	"	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	435	true	12
+w437	This	this	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	436	true	12
+w438	is	be	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	437	true	12
+w439	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	438	true	12
+w440	budget	budget	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	439	true	12
+w441	for	for	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	440	true	12
+w442	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	441	true	12
+w443	rest	rest	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	442	true	12
+w444	of	of	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	443	true	12
+w445	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	444	true	12
+w446	decade	decade	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	445	true	12

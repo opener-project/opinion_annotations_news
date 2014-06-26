@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:56Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:56Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:34:46" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:01:32CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="396" length="7" wid="w71">Downing</wf>
+    <wf sent="3" para="2" offset="404" length="6" wid="w72">Street</wf>
+    <wf sent="3" para="2" offset="411" length="6" wid="w73">admits</wf>
+    <wf sent="3" para="2" offset="418" length="2" wid="w74">in</wf>
+    <wf sent="3" para="2" offset="421" length="7" wid="w75">private</wf>
+    <wf sent="3" para="2" offset="429" length="4" wid="w76">that</wf>
+    <wf sent="3" para="2" offset="434" length="3" wid="w77">the</wf>
+    <wf sent="3" para="2" offset="438" length="5" wid="w78">prime</wf>
+    <wf sent="3" para="2" offset="444" length="8" wid="w79">minister</wf>
+    <wf sent="3" para="2" offset="453" length="4" wid="w80">also</wf>
+    <wf sent="3" para="2" offset="458" length="3" wid="w81">has</wf>
+    <wf sent="3" para="2" offset="462" length="1" wid="w82">a</wf>
+    <wf sent="3" para="2" offset="464" length="5" wid="w83">party</wf>
+    <wf sent="3" para="2" offset="470" length="8" wid="w84">interest</wf>
+    <wf sent="3" para="2" offset="478" length="1" wid="w85">,</wf>
+    <wf sent="3" para="2" offset="480" length="5" wid="w86">which</wf>
+    <wf sent="3" para="2" offset="486" length="8" wid="w87">operates</wf>
+    <wf sent="3" para="2" offset="495" length="2" wid="w88">on</wf>
+    <wf sent="3" para="2" offset="498" length="3" wid="w89">two</wf>
+    <wf sent="3" para="2" offset="502" length="6" wid="w90">levels</wf>
+    <wf sent="3" para="2" offset="508" length="1" wid="w91">.</wf>
+  </text>
+  <terms>
+    <!--Downing-->
+    <term type="close" lemma="Downing" pos="R" morphofeat="NNP" tid="t71">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--Street-->
+    <term type="close" lemma="Street" pos="R" morphofeat="NNP" tid="t72">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--admits-->
+    <term type="open" lemma="admit" pos="V" morphofeat="VBZ" tid="t73">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t74">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--private-->
+    <term type="open" lemma="private" pos="G" morphofeat="JJ" tid="t75">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="P" morphofeat="IN" tid="t76">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t77">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--prime-->
+    <term type="open" lemma="prime" pos="G" morphofeat="JJ" tid="t78">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--minister-->
+    <term type="open" lemma="minister" pos="N" morphofeat="NN" tid="t79">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t80">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t81">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t82">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--party-->
+    <term type="open" lemma="party" pos="N" morphofeat="NN" tid="t83">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--interest-->
+    <term type="open" lemma="interest" pos="N" morphofeat="NN" tid="t84">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t85">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--which-->
+    <term type="close" lemma="which" pos="O" morphofeat="WDT" tid="t86">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--operates-->
+    <term type="open" lemma="operate" pos="V" morphofeat="VBZ" tid="t87">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t88">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--two-->
+    <term type="close" lemma="two" pos="O" morphofeat="CD" tid="t89">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--levels-->
+    <term type="open" lemma="level" pos="N" morphofeat="NNS" tid="t90">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t91">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Downing Street-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--in private-->
+        <span>
+          <target id="t74"/>
+          <target id="t75"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--admits-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

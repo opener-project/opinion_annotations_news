@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:13Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:13Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:17:03CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w164" sent="7" para="2" offset="900" length="7">Desmond</wf>
+    <wf wid="w165" sent="7" para="2" offset="908" length="4">Tutu</wf>
+    <wf wid="w166" sent="7" para="2" offset="912" length="1">,</wf>
+    <wf wid="w167" sent="7" para="2" offset="914" length="4">zelf</wf>
+    <wf wid="w168" sent="7" para="2" offset="919" length="3">een</wf>
+    <wf wid="w169" sent="7" para="2" offset="923" length="7">gewezen</wf>
+    <wf wid="w170" sent="7" para="2" offset="931" length="7">winnaar</wf>
+    <wf wid="w171" sent="7" para="2" offset="939" length="3">van</wf>
+    <wf wid="w172" sent="7" para="2" offset="943" length="2">de</wf>
+    <wf wid="w173" sent="7" para="2" offset="946" length="10">Nobelprijs</wf>
+    <wf wid="w174" sent="7" para="2" offset="957" length="4">voor</wf>
+    <wf wid="w175" sent="7" para="2" offset="962" length="2">de</wf>
+    <wf wid="w176" sent="7" para="2" offset="965" length="5">Vrede</wf>
+    <wf wid="w177" sent="7" para="2" offset="970" length="1">,</wf>
+    <wf wid="w178" sent="7" para="2" offset="972" length="3">had</wf>
+    <wf wid="w179" sent="7" para="2" offset="976" length="6">moeite</wf>
+    <wf wid="w180" sent="7" para="2" offset="983" length="3">met</wf>
+    <wf wid="w181" sent="7" para="2" offset="987" length="2">de</wf>
+    <wf wid="w182" sent="7" para="2" offset="990" length="5">keuze</wf>
+    <wf wid="w183" sent="7" para="2" offset="996" length="3">van</wf>
+    <wf wid="w184" sent="7" para="2" offset="1000" length="3">het</wf>
+    <wf wid="w185" sent="7" para="2" offset="1004" length="6">comité</wf>
+    <wf wid="w186" sent="7" para="2" offset="1010" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Desmond-->
+    <term tid="t164" type="open" lemma="Desmond" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--Tutu-->
+    <term tid="t165" type="open" lemma="tutu" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t166" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--zelf-->
+    <term tid="t167" type="close" lemma="zelf" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t168" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--gewezen-->
+    <term tid="t169" type="open" lemma="gewezen" pos="G" morphofeat="adj">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--winnaar-->
+    <term tid="t170" type="open" lemma="winnaar" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t171" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t172" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--Nobelprijs-->
+    <term tid="t173" type="open" lemma="Nobelprijs" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t174" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t175" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--Vrede-->
+    <term tid="t176" type="open" lemma="vrede" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w176"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t177" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--had-->
+    <term tid="t178" type="open" lemma="hebben" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--moeite-->
+    <term tid="t179" type="open" lemma="moeite" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w179"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--met-->
+    <term tid="t180" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t181" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--keuze-->
+    <term tid="t182" type="open" lemma="keuze" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t183" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t184" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--comité-->
+    <term tid="t185" type="open" lemma="comité" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t186" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Desmond Tutu-->
+        <span>
+          <target id="t164"/>
+          <target id="t165"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--een gewezen winnaar-->
+        <span>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Desmond Tutu-->
+        <span>
+          <target id="t164"/>
+          <target id="t165"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de keuze-->
+        <span>
+          <target id="t181"/>
+          <target id="t182"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--had moeite met-->
+        <span>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

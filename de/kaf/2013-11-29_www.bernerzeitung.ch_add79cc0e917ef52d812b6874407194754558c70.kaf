@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:29:53Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:29:53Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:59:54CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:30:16CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w520" sent="34" para="14" offset="3252" length="3">Sie</wf>
+    <wf wid="w521" sent="34" para="14" offset="3256" length="9">forderten</wf>
+    <wf wid="w522" sent="34" para="14" offset="3266" length="13">Janukowitschs</wf>
+    <wf wid="w523" sent="34" para="14" offset="3280" length="9">Rücktritt</wf>
+    <wf wid="w524" sent="34" para="14" offset="3290" length="3">und</wf>
+    <wf wid="w525" sent="34" para="14" offset="3294" length="9">zerrissen</wf>
+    <wf wid="w526" sent="34" para="14" offset="3304" length="6">Bilder</wf>
+    <wf wid="w527" sent="34" para="14" offset="3311" length="3">von</wf>
+    <wf wid="w528" sent="34" para="14" offset="3315" length="3">ihm</wf>
+    <wf wid="w529" sent="34" para="14" offset="3318" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Sie|sie" morphofeat="PPER" pos="Q" tid="t520" type="close">
+      <span>
+        <target id="w520"/>
+      </span>
+    </term>
+    <term lemma="fordern" morphofeat="VVFIN" pos="V" tid="t521" type="open">
+      <span>
+        <target id="w521"/>
+      </span>
+    </term>
+    <term lemma="Janukowitschs" morphofeat="NN unknown_lemma" pos="O" tid="t522" type="open">
+      <span>
+        <target id="w522"/>
+      </span>
+    </term>
+    <term lemma="Rücktritt" morphofeat="NN" pos="N" tid="t523" type="open">
+      <span>
+        <target id="w523"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t524" type="close">
+      <span>
+        <target id="w524"/>
+      </span>
+    </term>
+    <term lemma="zerreißen" morphofeat="VVFIN" pos="V" tid="t525" type="open">
+      <span>
+        <target id="w525"/>
+      </span>
+    </term>
+    <term lemma="Bild" morphofeat="NN" pos="N" tid="t526" type="open">
+      <span>
+        <target id="w526"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t527" type="close">
+      <span>
+        <target id="w527"/>
+      </span>
+    </term>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t528" type="close">
+      <span>
+        <target id="w528"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t529" type="open">
+      <span>
+        <target id="w529"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Janukowitschs-->
+        <span>
+          <target id="t522"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--Rücktritt-->
+        <span>
+          <target id="t523"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Sie-->
+        <span>
+          <target id="t520"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Janukowitschs Rücktritt-->
+        <span>
+          <target id="t522"/>
+          <target id="t523"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--forderten-->
+        <span>
+          <target id="t521"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--ihm-->
+        <span>
+          <target id="t528"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--zerrissen Bilder-->
+        <span>
+          <target id="t525"/>
+          <target id="t526"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

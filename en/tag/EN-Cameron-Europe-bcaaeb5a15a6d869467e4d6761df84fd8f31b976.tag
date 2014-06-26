@@ -1,0 +1,10 @@
+w158	Most	most	G		OpinionHolder	3	Opinion	1		0		0		0		0		0		0	157	true	7
+w159	coalition	coalition	N		OpinionHolder	3	Opinion	1		0		0		0		0		0		0	158	true	7
+w160	MPs	mps	N		OpinionHolder	3	Opinion	1		0		0		0		0		0		0	159	true	7
+w161	and	and	C		OpinionHolder	3	Opinion	1		0		0		0		0		0		0	160	true	7
+w162	Labour	Labour	R		OpinionHolder	3	Opinion	1		0		0		0		0		0		0	161	true	7
+w163	oppose	oppose	V		D-Negative	4	Opinion	1		0		0		0		0		0		0	162	true	7
+w164	giving	give	V		OpinionTarget	5	Opinion	1		0		0		0		0		0		0	163	true	7
+w165	prisoners	prisoner	N		OpinionTarget	5	Opinion	1		0		0		0		0		0		0	164	true	7
+w166	the	the	D		OpinionTarget	5	Opinion	1		0		0		0		0		0		0	165	true	7
+w167	vote	vote	N		OpinionTarget	5	Opinion	1		0		0		0		0		0		0	166	true	7

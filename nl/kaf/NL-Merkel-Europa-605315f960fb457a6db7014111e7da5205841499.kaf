@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:02:46CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Herman</wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="3">Van</wf>
+    <wf wid="w3" sent="1" para="1" offset="11" length="6">Rompuy</wf>
+    <wf wid="w4" sent="1" para="1" offset="18" length="11">feliciteert</wf>
+    <wf wid="w5" sent="1" para="1" offset="30" length="6">Angela</wf>
+    <wf wid="w6" sent="1" para="1" offset="37" length="6">Merkel</wf>
+    <wf wid="w102" sent="8" para="2" offset="618" length="1">"</wf>
+    <wf wid="w103" sent="8" para="2" offset="619" length="2">Ik</wf>
+    <wf wid="w104" sent="8" para="2" offset="622" length="4">kijk</wf>
+    <wf wid="w105" sent="8" para="2" offset="627" length="6">ernaar</wf>
+    <wf wid="w106" sent="8" para="2" offset="634" length="3">uit</wf>
+    <wf wid="w107" sent="8" para="2" offset="638" length="6">verder</wf>
+    <wf wid="w108" sent="8" para="2" offset="645" length="4">nauw</wf>
+    <wf wid="w109" sent="8" para="2" offset="650" length="5">samen</wf>
+    <wf wid="w110" sent="8" para="2" offset="656" length="2">te</wf>
+    <wf wid="w111" sent="8" para="2" offset="659" length="6">werken</wf>
+    <wf wid="w112" sent="8" para="2" offset="666" length="3">met</wf>
+    <wf wid="w113" sent="8" para="2" offset="670" length="6">Angela</wf>
+    <wf wid="w114" sent="8" para="2" offset="677" length="6">Merkel</wf>
+    <wf wid="w115" sent="8" para="2" offset="683" length="1">"</wf>
+    <wf wid="w116" sent="8" para="2" offset="684" length="1">,</wf>
+    <wf wid="w117" sent="8" para="2" offset="686" length="2">zo</wf>
+    <wf wid="w118" sent="8" para="2" offset="689" length="5">klonk</wf>
+    <wf wid="w119" sent="8" para="2" offset="695" length="3">het</wf>
+    <wf wid="w120" sent="8" para="2" offset="699" length="3">nog</wf>
+    <wf wid="w121" sent="8" para="2" offset="702" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Herman-->
+    <term tid="t1" type="open" lemma="Herman" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Van-->
+    <term tid="t2" type="open" lemma="Van" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Rompuy-->
+    <term tid="t3" type="open" lemma="Rompuy" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--feliciteert-->
+    <term tid="t4" type="open" lemma="feliciteren" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t5" type="open" lemma="Angela" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t6" type="open" lemma="Merkel" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t102" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--Ik-->
+    <term tid="t103" type="close" lemma="ik" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--kijk-->
+    <term tid="t104" type="open" lemma="kijken" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--ernaar-->
+    <term tid="t105" type="close" lemma="ernaar" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--uit-->
+    <term tid="t106" type="open" lemma="uit" pos="A" morphofeat="adv">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--verder-->
+    <term tid="t107" type="open" lemma="ver|verder" pos="G" morphofeat="adj">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--nauw-->
+    <term tid="t108" type="open" lemma="nauw" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w108"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--samen-->
+    <term tid="t109" type="open" lemma="samen" pos="A" morphofeat="adv">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t110" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--werken-->
+    <term tid="t111" type="open" lemma="werken" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t112" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t113" type="open" lemma="Angela" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t114" type="open" lemma="Merkel" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t115" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t116" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--zo-->
+    <term tid="t117" type="open" lemma="zo" pos="A" morphofeat="adv">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--klonk-->
+    <term tid="t118" type="open" lemma="klinken" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w118"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--het-->
+    <term tid="t119" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--nog-->
+    <term tid="t120" type="open" lemma="nog" pos="A" morphofeat="adv">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t121" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Ik-->
+        <span>
+          <target id="t103"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--nauw samen te werken met Angela Merkel-->
+        <span>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--kijk ernaar uit-->
+        <span>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Herman Van Rompuy-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Angela Merkel-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--feliciteert-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:51:09CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w118" sent="9" para="2" offset="672" length="3">Hij</wf>
+    <wf wid="w119" sent="9" para="2" offset="676" length="3">zei</wf>
+    <wf wid="w120" sent="9" para="2" offset="680" length="4">open</wf>
+    <wf wid="w121" sent="9" para="2" offset="685" length="2">te</wf>
+    <wf wid="w122" sent="9" para="2" offset="688" length="5">staan</wf>
+    <wf wid="w123" sent="9" para="2" offset="694" length="4">voor</wf>
+    <wf wid="w124" sent="9" para="2" offset="699" length="10">argumenten</wf>
+    <wf wid="w125" sent="9" para="2" offset="709" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hij-->
+    <term tid="t118" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--zei-->
+    <term tid="t119" type="open" lemma="zeggen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--open-->
+    <term tid="t120" type="open" lemma="open" pos="G" morphofeat="adj">
+      <span>
+        <target id="w120"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--te-->
+    <term tid="t121" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--staan-->
+    <term tid="t122" type="open" lemma="staan" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t123" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--argumenten-->
+    <term tid="t124" type="open" lemma="argument" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w124"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t125" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Hij-->
+        <span>
+          <target id="t118"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--argumenten-->
+        <span>
+          <target id="t124"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--zei-->
+        <span>
+          <target id="t119"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Hij-->
+        <span>
+          <target id="t118"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--argumenten-->
+        <span>
+          <target id="t124"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--open te staan voor-->
+        <span>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

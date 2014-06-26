@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:06:30Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:06:30Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:53:28CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:06:47CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w85" sent="10" para="5" offset="596" length="15">Bundespräsident</wf>
+    <wf wid="w86" sent="10" para="5" offset="612" length="7">Joachim</wf>
+    <wf wid="w87" sent="10" para="5" offset="620" length="5">Gauck</wf>
+    <wf wid="w88" sent="10" para="5" offset="626" length="8">würdigte</wf>
+    <wf wid="w89" sent="10" para="5" offset="635" length="3">ihn</wf>
+    <wf wid="w90" sent="10" para="5" offset="639" length="3">als</wf>
+    <wf wid="w91" sent="10" para="5" offset="643" length="6">großen</wf>
+    <wf wid="w92" sent="10" para="5" offset="650" length="8">Europäer</wf>
+    <wf wid="w93" sent="10" para="5" offset="658" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Bundespräsident" morphofeat="NN" pos="N" tid="t85" type="open">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <term lemma="Joachim" morphofeat="NE" pos="R" tid="t86" type="open">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <term lemma="Gauck" morphofeat="NE" pos="R" tid="t87" type="open">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <term lemma="würdigen" morphofeat="VVFIN" pos="V" tid="t88" type="open">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t89" type="close">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <term lemma="als" morphofeat="KOKOM" pos="C" tid="t90" type="close">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <term lemma="groß" morphofeat="ADJA" pos="G" tid="t91" type="open">
+      <span>
+        <target id="w91"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Europäer" morphofeat="NN" pos="N" tid="t92" type="open">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t93" type="open">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Europäer-->
+        <span>
+          <target id="t92"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--großen-->
+        <span>
+          <target id="t91"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

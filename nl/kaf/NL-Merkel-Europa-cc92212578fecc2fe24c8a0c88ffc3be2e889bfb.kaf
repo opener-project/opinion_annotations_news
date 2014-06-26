@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:25:29CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w124" sent="8" para="2" offset="715" length="11">Griekenland</wf>
+    <wf wid="w125" sent="8" para="2" offset="727" length="5">houdt</wf>
+    <wf wid="w126" sent="8" para="2" offset="733" length="6">morgen</wf>
+    <wf wid="w127" sent="8" para="2" offset="740" length="4">voor</wf>
+    <wf wid="w128" sent="8" para="2" offset="745" length="2">de</wf>
+    <wf wid="w129" sent="8" para="2" offset="748" length="6">tweede</wf>
+    <wf wid="w130" sent="8" para="2" offset="755" length="4">keer</wf>
+    <wf wid="w131" sent="8" para="2" offset="760" length="2">in</wf>
+    <wf wid="w132" sent="8" para="2" offset="763" length="3">zes</wf>
+    <wf wid="w133" sent="8" para="2" offset="767" length="5">weken</wf>
+    <wf wid="w134" sent="8" para="2" offset="773" length="4">tijd</wf>
+    <wf wid="w135" sent="8" para="2" offset="778" length="12">verkiezingen</wf>
+    <wf wid="w136" sent="8" para="2" offset="790" length="1">.</wf>
+    <wf wid="w153" sent="10" para="2" offset="884" length="3">Een</wf>
+    <wf wid="w154" sent="10" para="2" offset="888" length="6">aantal</wf>
+    <wf wid="w155" sent="10" para="2" offset="895" length="8">partijen</wf>
+    <wf wid="w156" sent="10" para="2" offset="904" length="2">is</wf>
+    <wf wid="w157" sent="10" para="2" offset="907" length="3">fel</wf>
+    <wf wid="w158" sent="10" para="2" offset="911" length="6">gekant</wf>
+    <wf wid="w159" sent="10" para="2" offset="918" length="5">tegen</wf>
+    <wf wid="w160" sent="10" para="2" offset="924" length="2">de</wf>
+    <wf wid="w161" sent="10" para="2" offset="927" length="5">forse</wf>
+    <wf wid="w162" sent="10" para="2" offset="933" length="13">bezuinigingen</wf>
+    <wf wid="w163" sent="10" para="2" offset="947" length="3">die</wf>
+    <wf wid="w164" sent="10" para="2" offset="951" length="11">Griekenland</wf>
+    <wf wid="w165" sent="10" para="2" offset="963" length="9">doorvoert</wf>
+    <wf wid="w166" sent="10" para="2" offset="973" length="2">in</wf>
+    <wf wid="w167" sent="10" para="2" offset="976" length="4">ruil</wf>
+    <wf wid="w168" sent="10" para="2" offset="981" length="4">voor</wf>
+    <wf wid="w169" sent="10" para="2" offset="986" length="12">noodleningen</wf>
+    <wf wid="w170" sent="10" para="2" offset="999" length="3">van</wf>
+    <wf wid="w171" sent="10" para="2" offset="1003" length="2">de</wf>
+    <wf wid="w172" sent="10" para="2" offset="1006" length="8">Europese</wf>
+    <wf wid="w173" sent="10" para="2" offset="1015" length="4">Unie</wf>
+    <wf wid="w174" sent="10" para="2" offset="1020" length="2">en</wf>
+    <wf wid="w175" sent="10" para="2" offset="1023" length="3">het</wf>
+    <wf wid="w176" sent="10" para="2" offset="1027" length="14">Internationaal</wf>
+    <wf wid="w177" sent="10" para="2" offset="1042" length="8">Monetair</wf>
+    <wf wid="w178" sent="10" para="2" offset="1051" length="5">Fonds</wf>
+    <wf wid="w179" sent="10" para="2" offset="1056" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Griekenland-->
+    <term tid="t124" type="open" lemma="Griekenland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--houdt-->
+    <term tid="t125" type="open" lemma="houden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w125"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--morgen-->
+    <term tid="t126" type="open" lemma="morgen" pos="A" morphofeat="adv">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t127" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t128" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--tweede-->
+    <term tid="t129" type="open" lemma="twee" pos="O" morphofeat="num__ord">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--keer-->
+    <term tid="t130" type="open" lemma="keer" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t131" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--zes-->
+    <term tid="t132" type="open" lemma="zes" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--weken-->
+    <term tid="t133" type="open" lemma="week" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w133"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--tijd-->
+    <term tid="t134" type="open" lemma="tijd" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--verkiezingen-->
+    <term tid="t135" type="open" lemma="verkiezing" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t136" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--Een-->
+    <term tid="t153" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--aantal-->
+    <term tid="t154" type="open" lemma="aantal" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--partijen-->
+    <term tid="t155" type="open" lemma="partij" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t156" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--fel-->
+    <term tid="t157" type="open" lemma="fel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w157"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--gekant-->
+    <term tid="t158" type="open" lemma="kanten" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w158"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--tegen-->
+    <term tid="t159" type="close" lemma="tegen" pos="P" morphofeat="prep">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t160" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--forse-->
+    <term tid="t161" type="open" lemma="fors" pos="G" morphofeat="adj">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--bezuinigingen-->
+    <term tid="t162" type="open" lemma="bezuiniging" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--die-->
+    <term tid="t163" type="close" lemma="die" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--Griekenland-->
+    <term tid="t164" type="open" lemma="Griekenland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--doorvoert-->
+    <term tid="t165" type="open" lemma="doorvoeren" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t166" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--ruil-->
+    <term tid="t167" type="open" lemma="ruil" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t168" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--noodleningen-->
+    <term tid="t169" type="open" lemma="noodleningen" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t170" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t171" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t172" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--Unie-->
+    <term tid="t173" type="open" lemma="unie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w173"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--en-->
+    <term tid="t174" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t175" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--Internationaal-->
+    <term tid="t176" type="open" lemma="internationaal" pos="G" morphofeat="adj">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--Monetair-->
+    <term tid="t177" type="open" lemma="monetair" pos="G" morphofeat="adj">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--Fonds-->
+    <term tid="t178" type="open" lemma="fonds" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t179" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Een aantal partijen-->
+        <span>
+          <target id="t153"/>
+          <target id="t154"/>
+          <target id="t155"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de forse bezuinigingen-->
+        <span>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--fel gekant tegen-->
+        <span>
+          <target id="t157"/>
+          <target id="t158"/>
+          <target id="t159"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+          <target id="t132"/>
+          <target id="t133"/>
+          <target id="t134"/>
+          <target id="t135"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

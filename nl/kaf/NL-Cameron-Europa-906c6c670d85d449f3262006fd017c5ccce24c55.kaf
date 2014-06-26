@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:21:14CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:31CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w44" sent="4" para="2" offset="246" length="7">Volgens</wf>
+    <wf wid="w45" sent="4" para="2" offset="254" length="3">hem</wf>
+    <wf wid="w46" sent="4" para="2" offset="258" length="4">zijn</wf>
+    <wf wid="w47" sent="4" para="2" offset="263" length="4">veel</wf>
+    <wf wid="w48" sent="4" para="2" offset="268" length="7">Britten</wf>
+    <wf wid="w49" sent="4" para="2" offset="276" length="17">gedesillusioneerd</wf>
+    <wf wid="w50" sent="4" para="2" offset="294" length="4">over</wf>
+    <wf wid="w51" sent="4" para="2" offset="299" length="2">de</wf>
+    <wf wid="w52" sent="4" para="2" offset="302" length="2">EU</wf>
+    <wf wid="w53" sent="4" para="2" offset="304" length="1">.</wf>
+    <wf wid="w137" sent="9" para="2" offset="751" length="3">Hij</wf>
+    <wf wid="w138" sent="9" para="2" offset="755" length="3">wil</wf>
+    <wf wid="w139" sent="9" para="2" offset="759" length="4">meer</wf>
+    <wf wid="w140" sent="9" para="2" offset="764" length="5">macht</wf>
+    <wf wid="w141" sent="9" para="2" offset="770" length="4">voor</wf>
+    <wf wid="w142" sent="9" para="2" offset="775" length="2">de</wf>
+    <wf wid="w143" sent="9" para="2" offset="778" length="9">nationale</wf>
+    <wf wid="w144" sent="9" para="2" offset="788" length="11">parlementen</wf>
+    <wf wid="w145" sent="9" para="2" offset="799" length="1">.</wf>
+    <wf wid="w585" sent="30" para="2" offset="3169" length="3">Dus</wf>
+    <wf wid="w586" sent="30" para="2" offset="3173" length="2">ik</wf>
+    <wf wid="w587" sent="30" para="2" offset="3176" length="3">zou</wf>
+    <wf wid="w588" sent="30" para="2" offset="3180" length="3">het</wf>
+    <wf wid="w589" sent="30" para="2" offset="3184" length="10">ontzettend</wf>
+    <wf wid="w590" sent="30" para="2" offset="3195" length="6">jammer</wf>
+    <wf wid="w591" sent="30" para="2" offset="3202" length="6">vinden</wf>
+    <wf wid="w592" sent="30" para="2" offset="3209" length="3">als</wf>
+    <wf wid="w593" sent="30" para="2" offset="3213" length="8">Engeland</wf>
+    <wf wid="w594" sent="30" para="2" offset="3222" length="3">zou</wf>
+    <wf wid="w595" sent="30" para="2" offset="3226" length="10">vertrekken</wf>
+    <wf wid="w596" sent="30" para="2" offset="3237" length="1">”</wf>
+    <wf wid="w597" sent="30" para="2" offset="3236" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Volgens-->
+    <term tid="t44" type="close" lemma="volgens" pos="P" morphofeat="prep">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--hem-->
+    <term tid="t45" type="close" lemma="hem" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t46" type="open" lemma="zijn" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--veel-->
+    <term tid="t47" type="open" lemma="veel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--Britten-->
+    <term tid="t48" type="open" lemma="Brit" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--gedesillusioneerd-->
+    <term tid="t49" type="open" lemma="gedesillusioneerd" pos="G" morphofeat="adj">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t50" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t51" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term tid="t52" type="open" lemma="EU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t53" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--Hij-->
+    <term tid="t137" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t138" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--meer-->
+    <term tid="t139" type="open" lemma="meer" pos="A" morphofeat="adv">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--macht-->
+    <term tid="t140" type="open" lemma="macht" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t141" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t142" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--nationale-->
+    <term tid="t143" type="open" lemma="nationaal" pos="G" morphofeat="adj">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--parlementen-->
+    <term tid="t144" type="open" lemma="parlement" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t145" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--Dus-->
+    <term tid="t585" type="open" lemma="dus" pos="A" morphofeat="adv">
+      <span>
+        <target id="w585"/>
+      </span>
+    </term>
+    <!--ik-->
+    <term tid="t586" type="close" lemma="ik" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w586"/>
+      </span>
+    </term>
+    <!--zou-->
+    <term tid="t587" type="open" lemma="zullen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w587"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t588" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w588"/>
+      </span>
+    </term>
+    <!--ontzettend-->
+    <term tid="t589" type="open" lemma="ontzettend" pos="A" morphofeat="adv">
+      <span>
+        <target id="w589"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--jammer-->
+    <term tid="t590" type="open" lemma="jammer" pos="G" morphofeat="adj">
+      <span>
+        <target id="w590"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--vinden-->
+    <term tid="t591" type="open" lemma="vinden" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w591"/>
+      </span>
+    </term>
+    <!--als-->
+    <term tid="t592" type="close" lemma="als" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w592"/>
+      </span>
+    </term>
+    <!--Engeland-->
+    <term tid="t593" type="open" lemma="Engeland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w593"/>
+      </span>
+    </term>
+    <!--zou-->
+    <term tid="t594" type="open" lemma="zullen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w594"/>
+      </span>
+    </term>
+    <!--vertrekken-->
+    <term tid="t595" type="open" lemma="vertrekken" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w595"/>
+      </span>
+    </term>
+    <!--”-->
+    <term tid="t596" type="open" lemma="”" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w596"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t597" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w597"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--veel Britten-->
+        <span>
+          <target id="t47"/>
+          <target id="t48"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--over de EU-->
+        <span>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--gedesillusioneerd-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=33-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--macht-->
+        <span>
+          <target id="t140"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--meer-->
+        <span>
+          <target id="t139"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=38-->
+      <opinion_holder>
+        <!--Volgens hem-->
+        <span>
+          <target id="t44"/>
+          <target id="t45"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--veel Britten-->
+        <span>
+          <target id="t47"/>
+          <target id="t48"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--gedesillusioneerd-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder>
+        <!--Hij-->
+        <span>
+          <target id="t137"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--meer macht voor de nationale parlementen-->
+        <span>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t138"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=30-->
+      <opinion_holder>
+        <!--ik-->
+        <span>
+          <target id="t586"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--als Engeland zou vertrekken-->
+        <span>
+          <target id="t592"/>
+          <target id="t593"/>
+          <target id="t594"/>
+          <target id="t595"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--vinden-->
+        <span>
+          <target id="t591"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!--Tag opinion scope id=30-->
+      <opinion_holder>
+        <!--ik-->
+        <span>
+          <target id="t586"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--als Engeland zou vertrekken-->
+        <span>
+          <target id="t592"/>
+          <target id="t593"/>
+          <target id="t594"/>
+          <target id="t595"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--ontzettend jammer-->
+        <span>
+          <target id="t589"/>
+          <target id="t590"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

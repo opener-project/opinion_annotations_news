@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:06:57Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:06:57Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:51:10CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:07:12CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w13" sent="3" para="2" offset="68" length="3">Die</wf>
+    <wf wid="w14" sent="3" para="2" offset="72" length="6">beiden</wf>
+    <wf wid="w15" sent="3" para="2" offset="79" length="8">schlagen</wf>
+    <wf wid="w16" sent="3" para="2" offset="88" length="5">einen</wf>
+    <wf wid="w17" sent="3" para="2" offset="94" length="11">Präsidenten</wf>
+    <wf wid="w18" sent="3" para="2" offset="106" length="3">der</wf>
+    <wf wid="w19" sent="3" para="2" offset="110" length="13">Währungsunion</wf>
+    <wf wid="w20" sent="3" para="2" offset="124" length="3">vor</wf>
+    <wf wid="w21" sent="3" para="2" offset="127" length="1">,</wf>
+    <wf wid="w22" sent="3" para="2" offset="129" length="8">Hollande</wf>
+    <wf wid="w23" sent="3" para="2" offset="138" length="4">lobt</wf>
+    <wf wid="w24" sent="3" para="2" offset="143" length="3">das</wf>
+    <wf wid="w25" sent="3" para="2" offset="147" length="8">deutsche</wf>
+    <wf wid="w26" sent="3" para="2" offset="156" length="7">Vorbild</wf>
+    <wf wid="w27" sent="3" para="2" offset="163" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t13" type="close">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="beide" morphofeat="PIS" pos="Q" tid="t14" type="close">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="schlagen" morphofeat="VVFIN" pos="V" tid="t15" type="open">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t16" type="close">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="Präsident" morphofeat="NN" pos="N" tid="t17" type="open">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t18" type="close">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="Währungsunion" morphofeat="NN" pos="N" tid="t19" type="open">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="vor" morphofeat="PTKVZ" pos="V" tid="t20" type="open">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t21" type="open">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="Hollande" morphofeat="NN unknown_lemma" pos="O" tid="t22" type="open">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="loben" morphofeat="VVFIN" pos="V" tid="t23" type="open">
+      <span>
+        <target id="w23"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t24" type="close">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="deutsch" morphofeat="ADJA" pos="G" tid="t25" type="open">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="Vorbild" morphofeat="NN" pos="N" tid="t26" type="open">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t27" type="open">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Hollande-->
+        <span>
+          <target id="t22"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--das deutsche Vorbild-->
+        <span>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--lobt-->
+        <span>
+          <target id="t23"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

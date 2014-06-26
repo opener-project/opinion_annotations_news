@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T16:36:50CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w153" sent="8" para="2" offset="849" length="1">'</wf>
+    <wf wid="w154" sent="8" para="2" offset="850" length="2">De</wf>
+    <wf wid="w155" sent="8" para="2" offset="853" length="6">Franse</wf>
+    <wf wid="w156" sent="8" para="2" offset="860" length="9">president</wf>
+    <wf wid="w157" sent="8" para="2" offset="870" length="5">vindt</wf>
+    <wf wid="w158" sent="8" para="2" offset="876" length="3">wel</wf>
+    <wf wid="w159" sent="8" para="2" offset="880" length="3">net</wf>
+    <wf wid="w160" sent="8" para="2" offset="884" length="5">zoals</wf>
+    <wf wid="w161" sent="8" para="2" offset="890" length="2">de</wf>
+    <wf wid="w162" sent="8" para="2" offset="893" length="6">Duitse</wf>
+    <wf wid="w163" sent="8" para="2" offset="900" length="14">bondskanselier</wf>
+    <wf wid="w164" sent="8" para="2" offset="915" length="6">Angela</wf>
+    <wf wid="w165" sent="8" para="2" offset="922" length="6">Merkel</wf>
+    <wf wid="w166" sent="8" para="2" offset="929" length="3">dat</wf>
+    <wf wid="w167" sent="8" para="2" offset="933" length="11">Griekenland</wf>
+    <wf wid="w168" sent="8" para="2" offset="945" length="2">in</wf>
+    <wf wid="w169" sent="8" para="2" offset="948" length="2">de</wf>
+    <wf wid="w170" sent="8" para="2" offset="951" length="8">eurozone</wf>
+    <wf wid="w171" sent="8" para="2" offset="960" length="4">moet</wf>
+    <wf wid="w172" sent="8" para="2" offset="965" length="7">blijven</wf>
+    <wf wid="w173" sent="8" para="2" offset="972" length="1">.</wf>
+    <wf wid="w212" sent="12" para="2" offset="1170" length="3">Zij</wf>
+    <wf wid="w213" sent="12" para="2" offset="1174" length="7">ontving</wf>
+    <wf wid="w214" sent="12" para="2" offset="1182" length="7">Samaras</wf>
+    <wf wid="w215" sent="12" para="2" offset="1190" length="7">vrijdag</wf>
+    <wf wid="w216" sent="12" para="2" offset="1198" length="2">in</wf>
+    <wf wid="w217" sent="12" para="2" offset="1201" length="7">Berlijn</wf>
+    <wf wid="w218" sent="12" para="2" offset="1208" length="1">.</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term tid="t153" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t154" type="open" lemma="De" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--Franse-->
+    <term tid="t155" type="open" lemma="Frans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--president-->
+    <term tid="t156" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--vindt-->
+    <term tid="t157" type="open" lemma="vinden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--wel-->
+    <term tid="t158" type="open" lemma="wel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--net-->
+    <term tid="t159" type="open" lemma="net" pos="A" morphofeat="adv">
+      <span>
+        <target id="w159"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--zoals-->
+    <term tid="t160" type="close" lemma="zoals" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t161" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--Duitse-->
+    <term tid="t162" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--bondskanselier-->
+    <term tid="t163" type="open" lemma="bondskanselier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t164" type="open" lemma="Angela" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t165" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t166" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--Griekenland-->
+    <term tid="t167" type="open" lemma="Griekenland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t168" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t169" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--eurozone-->
+    <term tid="t170" type="open" lemma="eurozone" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--moet-->
+    <term tid="t171" type="open" lemma="moeten" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--blijven-->
+    <term tid="t172" type="open" lemma="blijven" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t173" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--Zij-->
+    <term tid="t212" type="close" lemma="zij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--ontving-->
+    <term tid="t213" type="open" lemma="ontvangen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w213"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Samaras-->
+    <term tid="t214" type="open" lemma="Samaras" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--vrijdag-->
+    <term tid="t215" type="open" lemma="vrijdag" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t216" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--Berlijn-->
+    <term tid="t217" type="open" lemma="Berlijn" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t218" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--de Duitse bondskanselier Angela Merkel-->
+        <span>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Griekenland-->
+        <span>
+          <target id="t167"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--vindt-->
+        <span>
+          <target id="t157"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--De Franse president-->
+        <span>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Griekenland-->
+        <span>
+          <target id="t167"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--vindt-->
+        <span>
+          <target id="t157"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--de Duitse bondskanselier Angela Merkel-->
+        <span>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Griekenland-->
+        <span>
+          <target id="t167"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--in de eurozone moet blijven-->
+        <span>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--De Franse president-->
+        <span>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Griekenland-->
+        <span>
+          <target id="t167"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--in de eurozone moet blijven-->
+        <span>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

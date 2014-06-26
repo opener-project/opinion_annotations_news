@@ -1,0 +1,12 @@
+w89	De	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	88	true	8
+w90	beurzen	beurs	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	89	true	8
+w91	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	90	true	8
+w92	Londen	Londen	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	91	true	8
+w93	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	92	true	8
+w94	Frankfurt	Frankfurt	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	93	true	8
+w95	en	en	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	94	true	8
+w96	Parijs	Parijs	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	95	true	8
+w97	stegen	steeg	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	96	true	8
+w98	0,9	@card@	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	97	true	8
+w99	procent	procent	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	98	true	8
+w100	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	99	true	8

@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:27:28" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:46:24CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="8" para="2" offset="1024" length="3" wid="w171">The</wf>
+    <wf sent="8" para="2" offset="1028" length="9" wid="w172">President</wf>
+    <wf sent="8" para="2" offset="1038" length="4" wid="w173">said</wf>
+    <wf sent="8" para="2" offset="1043" length="3" wid="w174">the</wf>
+    <wf sent="8" para="2" offset="1047" length="6" wid="w175">United</wf>
+    <wf sent="8" para="2" offset="1054" length="7" wid="w176">Kingdom</wf>
+    <wf sent="8" para="2" offset="1062" length="3" wid="w177">has</wf>
+    <wf sent="8" para="2" offset="1066" length="4" wid="w178">been</wf>
+    <wf sent="8" para="2" offset="1071" length="10" wid="w179">supportive</wf>
+    <wf sent="8" para="2" offset="1082" length="2" wid="w180">of</wf>
+    <wf sent="8" para="2" offset="1085" length="5" wid="w181">India</wf>
+    <wf sent="8" para="2" offset="1090" length="2" wid="w182">'s</wf>
+    <wf sent="8" para="2" offset="1093" length="9" wid="w183">interests</wf>
+    <wf sent="8" para="2" offset="1103" length="2" wid="w184">in</wf>
+    <wf sent="8" para="2" offset="1106" length="13" wid="w185">international</wf>
+    <wf sent="8" para="2" offset="1120" length="5" wid="w186">fora-</wf>
+    <wf sent="8" para="2" offset="1126" length="2" wid="w187">in</wf>
+    <wf sent="8" para="2" offset="1129" length="3" wid="w188">the</wf>
+    <wf sent="8" para="2" offset="1133" length="8" wid="w189">European</wf>
+    <wf sent="8" para="2" offset="1142" length="5" wid="w190">Union</wf>
+    <wf sent="8" para="2" offset="1148" length="1" wid="w191">,</wf>
+    <wf sent="8" para="2" offset="1150" length="3" wid="w192">G-8</wf>
+    <wf sent="8" para="2" offset="1153" length="1" wid="w193">,</wf>
+    <wf sent="8" para="2" offset="1155" length="4" wid="w194">G-20</wf>
+    <wf sent="8" para="2" offset="1160" length="3" wid="w195">and</wf>
+    <wf sent="8" para="2" offset="1164" length="3" wid="w196">the</wf>
+    <wf sent="8" para="2" offset="1168" length="6" wid="w197">global</wf>
+    <wf sent="8" para="2" offset="1175" length="7" wid="w198">context</wf>
+    <wf sent="8" para="2" offset="1182" length="1" wid="w199">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t171">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--President-->
+    <term type="close" lemma="President" pos="R" morphofeat="NNP" tid="t172">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t173">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t174">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--United-->
+    <term type="close" lemma="United" pos="R" morphofeat="NNP" tid="t175">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--Kingdom-->
+    <term type="close" lemma="Kingdom" pos="R" morphofeat="NNP" tid="t176">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t177">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--been-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBN" tid="t178">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--supportive-->
+    <term type="open" lemma="supportive" pos="G" morphofeat="JJ" tid="t179">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t180">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--India-->
+    <term type="close" lemma="India" pos="R" morphofeat="NNP" tid="t181">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t182">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--interests-->
+    <term type="open" lemma="interest" pos="N" morphofeat="NNS" tid="t183">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t184">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--international-->
+    <term type="open" lemma="international" pos="G" morphofeat="JJ" tid="t185">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--fora- -->
+    <term type="open" lemma="fora-" pos="N" morphofeat="NN" tid="t186">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t187">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t188">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--European-->
+    <term type="close" lemma="European" pos="R" morphofeat="NNP" tid="t189">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--Union-->
+    <term type="close" lemma="Union" pos="R" morphofeat="NNP" tid="t190">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t191">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--G-8-->
+    <term type="close" lemma="G-8" pos="R" morphofeat="NNP" tid="t192">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t193">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--G-20-->
+    <term type="close" lemma="G-20" pos="R" morphofeat="NNP" tid="t194">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t195">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t196">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--global-->
+    <term type="open" lemma="global" pos="G" morphofeat="JJ" tid="t197">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--context-->
+    <term type="open" lemma="context" pos="N" morphofeat="NN" tid="t198">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t199">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--the United Kingdom-->
+        <span>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--of India 's interests-->
+        <span>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--has been supportive-->
+        <span>
+          <target id="t177"/>
+          <target id="t178"/>
+          <target id="t179"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,10 @@
+w98	Nestlé	Nestlé	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	97	true	9
+w99	investiert	investieren	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	98	true	9
+w100	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	99	true	9
+w101	das	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	100	true	9
+w102	Werk	Werk	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	101	true	9
+w103	über	über	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	102	true	9
+w104	270	270	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	103	true	9
+w105	Mio.	Mio.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	104	true	9
+w106	Franken	Franken	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	105	true	9
+w107	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	106	true	9

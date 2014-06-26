@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:46:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:46:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:46:00Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:30:32CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="2">Le</wf>
+    <wf wid="w2" sent="1" para="1" offset="3" length="7">chômage</wf>
+    <wf wid="w3" sent="1" para="1" offset="11" length="3">des</wf>
+    <wf wid="w4" sent="1" para="1" offset="15" length="6">jeunes</wf>
+    <wf wid="w5" sent="1" para="1" offset="22" length="7">atteint</wf>
+    <wf wid="w6" sent="1" para="1" offset="30" length="4">25,5</wf>
+    <wf wid="w7" sent="1" para="1" offset="34" length="1">%</wf>
+    <wf wid="w8" sent="1" para="1" offset="36" length="2">en</wf>
+    <wf wid="w9" sent="1" para="1" offset="39" length="6">France</wf>
+    <wf wid="w10" sent="1" para="1" offset="46" length="2">et</wf>
+    <wf wid="w11" sent="1" para="1" offset="49" length="7">dépasse</wf>
+    <wf wid="w12" sent="1" para="1" offset="57" length="10">légèrement</wf>
+    <wf wid="w13" sent="1" para="1" offset="68" length="2">la</wf>
+    <wf wid="w14" sent="1" para="1" offset="71" length="7">moyenne</wf>
+    <wf wid="w15" sent="1" para="1" offset="79" length="2">de</wf>
+    <wf wid="w16" sent="1" para="1" offset="82" length="2">la</wf>
+    <wf wid="w17" sent="1" para="1" offset="85" length="4">zone</wf>
+    <wf wid="w18" sent="1" para="1" offset="90" length="4">euro</wf>
+    <wf wid="w19" sent="1" para="1" offset="94" length="1">.</wf>
+    <wf wid="w30" sent="4" para="3" offset="150" length="2">Il</wf>
+    <wf wid="w31" sent="4" para="3" offset="153" length="7">atteint</wf>
+    <wf wid="w32" sent="4" para="3" offset="161" length="4">61,5</wf>
+    <wf wid="w33" sent="4" para="3" offset="165" length="1">%</wf>
+    <wf wid="w34" sent="4" para="3" offset="167" length="2">en</wf>
+    <wf wid="w35" sent="4" para="3" offset="170" length="5">Grèce</wf>
+    <wf wid="w36" sent="4" para="3" offset="175" length="1">,</wf>
+    <wf wid="w37" sent="4" para="3" offset="177" length="2">56</wf>
+    <wf wid="w38" sent="4" para="3" offset="179" length="1">%</wf>
+    <wf wid="w39" sent="4" para="3" offset="181" length="2">en</wf>
+    <wf wid="w40" sent="4" para="3" offset="184" length="7">Espagne</wf>
+    <wf wid="w41" sent="4" para="3" offset="191" length="1">.</wf>
+    <wf wid="w63" sent="6" para="3" offset="278" length="1">A</wf>
+    <wf wid="w64" sent="6" para="3" offset="280" length="3">7,7</wf>
+    <wf wid="w65" sent="6" para="3" offset="283" length="1">%</wf>
+    <wf wid="w66" sent="6" para="3" offset="284" length="1">,</wf>
+    <wf wid="w67" sent="6" para="3" offset="286" length="5">seule</wf>
+    <wf wid="w68" sent="6" para="3" offset="292" length="2">l'</wf>
+    <wf wid="w69" sent="6" para="3" offset="294" length="9">Allemagne</wf>
+    <wf wid="w70" sent="6" para="3" offset="304" length="2">s'</wf>
+    <wf wid="w71" sent="6" para="3" offset="306" length="2">en</wf>
+    <wf wid="w72" sent="6" para="3" offset="309" length="4">sort</wf>
+    <wf wid="w73" sent="6" para="3" offset="313" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Le-->
+    <term tid="t1" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--chômage-->
+    <term tid="t2" type="open" lemma="chômage" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t3" type="close" lemma="des" pos="P" morphofeat="P">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--jeunes-->
+    <term tid="t4" type="open" lemma="jeune" pos="N" morphofeat="NCmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--atteint-->
+    <term tid="t5" type="open" lemma="atteindre" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--25,5-->
+    <term tid="t6" type="close" lemma="25,5" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t7" type="open" lemma="pourcent" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t8" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--France-->
+    <term tid="t9" type="open" lemma="France" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t10" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--dépasse-->
+    <term tid="t11" type="open" lemma="dépasser" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--légèrement-->
+    <term tid="t12" type="open" lemma="légèrement" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t13" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--moyenne-->
+    <term tid="t14" type="open" lemma="moyenne" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t15" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t16" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--zone-->
+    <term tid="t17" type="open" lemma="zone" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t18" type="open" lemma="euro" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t19" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--Il-->
+    <term tid="t30" type="close" lemma="Il" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--atteint-->
+    <term tid="t31" type="open" lemma="atteindre" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--61,5-->
+    <term tid="t32" type="close" lemma="61,5" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t33" type="open" lemma="pourcent" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t34" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--Grèce-->
+    <term tid="t35" type="open" lemma="Grèce" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t36" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--56-->
+    <term tid="t37" type="close" lemma="56" pos="D" morphofeat="Dmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t38" type="open" lemma="pourcent" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t39" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--Espagne-->
+    <term tid="t40" type="open" lemma="Espagne" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t41" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--A-->
+    <term tid="t63" type="close" lemma="A" pos="P" morphofeat="P">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--7,7-->
+    <term tid="t64" type="close" lemma="7,7" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t65" type="open" lemma="pourcent" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t66" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--seule-->
+    <term tid="t67" type="open" lemma="seul" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t68" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--Allemagne-->
+    <term tid="t69" type="open" lemma="Allemagne" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--s'-->
+    <term tid="t70" type="close" lemma="s'" pos="Q" morphofeat="CLR3ms">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t71" type="close" lemma="en" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--sort-->
+    <term tid="t72" type="open" lemma="sortir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t73" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

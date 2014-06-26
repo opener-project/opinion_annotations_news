@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:08:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:08:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:10:56" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:01:03CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="1545" length="5" wid="w275">Obama</wf>
+    <wf sent="9" para="2" offset="1551" length="5" wid="w276">spoke</wf>
+    <wf sent="9" para="2" offset="1557" length="2" wid="w277">on</wf>
+    <wf sent="9" para="2" offset="1560" length="4" wid="w278">late</wf>
+    <wf sent="9" para="2" offset="1565" length="6" wid="w279">Friday</wf>
+    <wf sent="9" para="2" offset="1572" length="4" wid="w280">with</wf>
+    <wf sent="9" para="2" offset="1577" length="7" wid="w281">British</wf>
+    <wf sent="9" para="2" offset="1585" length="5" wid="w282">Prime</wf>
+    <wf sent="9" para="2" offset="1591" length="8" wid="w283">Minister</wf>
+    <wf sent="9" para="2" offset="1600" length="5" wid="w284">David</wf>
+    <wf sent="9" para="2" offset="1606" length="7" wid="w285">Cameron</wf>
+    <wf sent="9" para="2" offset="1613" length="1" wid="w286">,</wf>
+    <wf sent="9" para="2" offset="1615" length="6" wid="w287">French</wf>
+    <wf sent="9" para="2" offset="1622" length="9" wid="w288">President</wf>
+    <wf sent="9" para="2" offset="1632" length="8" wid="w289">Francois</wf>
+    <wf sent="9" para="2" offset="1641" length="8" wid="w290">Hollande</wf>
+    <wf sent="9" para="2" offset="1649" length="1" wid="w291">,</wf>
+    <wf sent="9" para="2" offset="1651" length="7" wid="w292">Italian</wf>
+    <wf sent="9" para="2" offset="1659" length="5" wid="w293">Prime</wf>
+    <wf sent="9" para="2" offset="1665" length="8" wid="w294">Minister</wf>
+    <wf sent="9" para="2" offset="1674" length="6" wid="w295">Enrico</wf>
+    <wf sent="9" para="2" offset="1681" length="5" wid="w296">Letta</wf>
+    <wf sent="9" para="2" offset="1687" length="3" wid="w297">and</wf>
+    <wf sent="9" para="2" offset="1691" length="6" wid="w298">German</wf>
+    <wf sent="9" para="2" offset="1698" length="10" wid="w299">Chancellor</wf>
+    <wf sent="9" para="2" offset="1709" length="6" wid="w300">Angela</wf>
+    <wf sent="9" para="2" offset="1716" length="6" wid="w301">Merkel</wf>
+    <wf sent="9" para="2" offset="1722" length="1" wid="w302">.</wf>
+  </text>
+  <terms>
+    <!--Obama-->
+    <term type="close" lemma="Obama" pos="R" morphofeat="NNP" tid="t275">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--spoke-->
+    <term type="open" lemma="speak" pos="V" morphofeat="VBD" tid="t276">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="open" lemma="on" pos="A" morphofeat="RB" tid="t277">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--late-->
+    <term type="open" lemma="late" pos="G" morphofeat="JJ" tid="t278">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--Friday-->
+    <term type="close" lemma="Friday" pos="R" morphofeat="NNP" tid="t279">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t280">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--British-->
+    <term type="close" lemma="British" pos="R" morphofeat="NNP" tid="t281">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--Prime-->
+    <term type="close" lemma="Prime" pos="R" morphofeat="NNP" tid="t282">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--Minister-->
+    <term type="close" lemma="Minister" pos="R" morphofeat="NNP" tid="t283">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--David-->
+    <term type="close" lemma="David" pos="R" morphofeat="NNP" tid="t284">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t285">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t286">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--French-->
+    <term type="close" lemma="French" pos="R" morphofeat="NNP" tid="t287">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--President-->
+    <term type="close" lemma="President" pos="R" morphofeat="NNP" tid="t288">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--Francois-->
+    <term type="close" lemma="Francois" pos="R" morphofeat="NNP" tid="t289">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term type="close" lemma="Hollande" pos="R" morphofeat="NNP" tid="t290">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t291">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--Italian-->
+    <term type="close" lemma="Italian" pos="R" morphofeat="NNP" tid="t292">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--Prime-->
+    <term type="close" lemma="Prime" pos="R" morphofeat="NNP" tid="t293">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--Minister-->
+    <term type="close" lemma="Minister" pos="R" morphofeat="NNP" tid="t294">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--Enrico-->
+    <term type="close" lemma="Enrico" pos="R" morphofeat="NNP" tid="t295">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--Letta-->
+    <term type="close" lemma="Letta" pos="R" morphofeat="NNP" tid="t296">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t297">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--German-->
+    <term type="close" lemma="German" pos="R" morphofeat="NNP" tid="t298">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--Chancellor-->
+    <term type="close" lemma="Chancellor" pos="R" morphofeat="NNP" tid="t299">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term type="close" lemma="Angela" pos="R" morphofeat="NNP" tid="t300">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t301">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t302">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t275"/>
+          <target id="t276"/>
+          <target id="t277"/>
+          <target id="t278"/>
+          <target id="t279"/>
+          <target id="t280"/>
+          <target id="t281"/>
+          <target id="t282"/>
+          <target id="t283"/>
+          <target id="t284"/>
+          <target id="t285"/>
+          <target id="t286"/>
+          <target id="t287"/>
+          <target id="t288"/>
+          <target id="t289"/>
+          <target id="t290"/>
+          <target id="t291"/>
+          <target id="t292"/>
+          <target id="t293"/>
+          <target id="t294"/>
+          <target id="t295"/>
+          <target id="t296"/>
+          <target id="t297"/>
+          <target id="t298"/>
+          <target id="t299"/>
+          <target id="t300"/>
+          <target id="t301"/>
+          <target id="t302"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

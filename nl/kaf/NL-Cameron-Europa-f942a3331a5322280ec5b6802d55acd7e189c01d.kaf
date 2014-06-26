@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:08:21CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w279" sent="13" para="2" offset="1541" length="2">De</wf>
+    <wf wid="w280" sent="13" para="2" offset="1544" length="15">administratieve</wf>
+    <wf wid="w281" sent="13" para="2" offset="1560" length="6">kosten</wf>
+    <wf wid="w282" sent="13" para="2" offset="1567" length="3">van</wf>
+    <wf wid="w283" sent="13" para="2" offset="1571" length="2">de</wf>
+    <wf wid="w284" sent="13" para="2" offset="1574" length="2">EU</wf>
+    <wf wid="w285" sent="13" para="2" offset="1577" length="4">zijn</wf>
+    <wf wid="w286" sent="13" para="2" offset="1582" length="2">te</wf>
+    <wf wid="w287" sent="13" para="2" offset="1585" length="4">hoog</wf>
+    <wf wid="w288" sent="13" para="2" offset="1589" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t279" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--administratieve-->
+    <term tid="t280" type="open" lemma="administratief" pos="G" morphofeat="adj">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--kosten-->
+    <term tid="t281" type="open" lemma="kost" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t282" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t283" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--EU-->
+    <term tid="t284" type="open" lemma="EU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t285" type="open" lemma="zijn" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t286" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--hoog-->
+    <term tid="t287" type="open" lemma="hoog" pos="G" morphofeat="adj">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t288" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--De administratieve kosten van de EU-->
+        <span>
+          <target id="t279"/>
+          <target id="t280"/>
+          <target id="t281"/>
+          <target id="t282"/>
+          <target id="t283"/>
+          <target id="t284"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--te hoog-->
+        <span>
+          <target id="t286"/>
+          <target id="t287"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--kosten-->
+        <span>
+          <target id="t281"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

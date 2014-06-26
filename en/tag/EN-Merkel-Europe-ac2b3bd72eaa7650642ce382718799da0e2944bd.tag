@@ -1,0 +1,12 @@
+w927	Hollande	Hollande	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	926	true	38
+w928	made	make	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	927	true	38
+w929	his	his	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	928	true	38
+w930	way	way	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	929	true	38
+w931	up	up	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	930	true	38
+w932	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	931	true	38
+w933	carpet	carpet	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	932	true	38
+w934	to	to	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	933	true	38
+w935	be	be	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	934	true	38
+w936	met	meet	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	935	true	38
+w937	by	by	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	936	true	38
+w938	Sarkozy	Sarkozy	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	937	true	38

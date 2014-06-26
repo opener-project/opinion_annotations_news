@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:56:28Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:56:28Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:03:51CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:56:48CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w613" sent="35" para="11" offset="3938" length="2">Er</wf>
+    <wf wid="w614" sent="35" para="11" offset="3941" length="11">versicherte</wf>
+    <wf wid="w615" sent="35" para="11" offset="3953" length="4">aber</wf>
+    <wf wid="w616" sent="35" para="11" offset="3957" length="1">:</wf>
+    <wf wid="w617" sent="35" para="11" offset="3959" length="1">"</wf>
+    <wf wid="w618" sent="35" para="11" offset="3960" length="3">Wir</wf>
+    <wf wid="w619" sent="35" para="11" offset="3964" length="5">haben</wf>
+    <wf wid="w620" sent="35" para="11" offset="3970" length="4">eine</wf>
+    <wf wid="w621" sent="35" para="11" offset="3975" length="10">politische</wf>
+    <wf wid="w622" sent="35" para="11" offset="3986" length="8">Einigung</wf>
+    <wf wid="w623" sent="35" para="11" offset="3995" length="8">erreicht</wf>
+    <wf wid="w624" sent="35" para="11" offset="4003" length="1">"</wf>
+    <wf wid="w625" sent="35" para="11" offset="4004" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t613" type="close">
+      <span>
+        <target id="w613"/>
+      </span>
+    </term>
+    <term lemma="versichern" morphofeat="VVFIN" pos="V" tid="t614" type="open">
+      <span>
+        <target id="w614"/>
+      </span>
+    </term>
+    <term lemma="aber" morphofeat="ADV" pos="A" tid="t615" type="open">
+      <span>
+        <target id="w615"/>
+      </span>
+    </term>
+    <term lemma=":" morphofeat="$." pos="O" tid="t616" type="open">
+      <span>
+        <target id="w616"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t617" type="open">
+      <span>
+        <target id="w617"/>
+      </span>
+    </term>
+    <term lemma="wir" morphofeat="PPER" pos="Q" tid="t618" type="close">
+      <span>
+        <target id="w618"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t619" type="open">
+      <span>
+        <target id="w619"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t620" type="close">
+      <span>
+        <target id="w620"/>
+      </span>
+    </term>
+    <term lemma="politisch" morphofeat="ADJA" pos="G" tid="t621" type="open">
+      <span>
+        <target id="w621"/>
+      </span>
+    </term>
+    <term lemma="Einigung" morphofeat="NN" pos="N" tid="t622" type="open">
+      <span>
+        <target id="w622"/>
+      </span>
+    </term>
+    <term lemma="erreichen" morphofeat="VVPP" pos="V" tid="t623" type="open">
+      <span>
+        <target id="w623"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t624" type="open">
+      <span>
+        <target id="w624"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t625" type="open">
+      <span>
+        <target id="w625"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder>
+        <!--Er-->
+        <span>
+          <target id="t613"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--haben eine politische Einigung erreicht-->
+        <span>
+          <target id="t619"/>
+          <target id="t620"/>
+          <target id="t621"/>
+          <target id="t622"/>
+          <target id="t623"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--versicherte-->
+        <span>
+          <target id="t614"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Wir-->
+        <span>
+          <target id="t618"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--eine politische Einigung-->
+        <span>
+          <target id="t620"/>
+          <target id="t621"/>
+          <target id="t622"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--erreicht-->
+        <span>
+          <target id="t623"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

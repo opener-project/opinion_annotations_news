@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:59:42CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w200" sent="13" para="2" offset="1107" length="10">Diplomaten</wf>
+    <wf wid="w201" sent="13" para="2" offset="1118" length="6">vrezen</wf>
+    <wf wid="w202" sent="13" para="2" offset="1125" length="4">voor</wf>
+    <wf wid="w203" sent="13" para="2" offset="1130" length="3">een</wf>
+    <wf wid="w204" sent="13" para="2" offset="1134" length="1">'</wf>
+    <wf wid="w205" sent="13" para="2" offset="1135" length="4">hete</wf>
+    <wf wid="w206" sent="13" para="2" offset="1140" length="9">eurozomer</wf>
+    <wf wid="w207" sent="13" para="2" offset="1149" length="1">'</wf>
+    <wf wid="w208" sent="13" para="2" offset="1151" length="2">op</wf>
+    <wf wid="w209" sent="13" para="2" offset="1154" length="2">de</wf>
+    <wf wid="w210" sent="13" para="2" offset="1157" length="10">financiële</wf>
+    <wf wid="w211" sent="13" para="2" offset="1168" length="7">markten</wf>
+    <wf wid="w212" sent="13" para="2" offset="1176" length="3">als</wf>
+    <wf wid="w213" sent="13" para="2" offset="1180" length="3">dit</wf>
+    <wf wid="w214" sent="13" para="2" offset="1184" length="7">gebeurt</wf>
+    <wf wid="w215" sent="13" para="2" offset="1191" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Diplomaten-->
+    <term tid="t200" type="open" lemma="diplomaat" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--vrezen-->
+    <term tid="t201" type="open" lemma="vrezen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w201"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--voor-->
+    <term tid="t202" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t203" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t204" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--hete-->
+    <term tid="t205" type="open" lemma="heet" pos="G" morphofeat="adj">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--eurozomer-->
+    <term tid="t206" type="open" lemma="eurozomer" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t207" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t208" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t209" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--financiële-->
+    <term tid="t210" type="open" lemma="financieel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--markten-->
+    <term tid="t211" type="open" lemma="markt" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--als-->
+    <term tid="t212" type="close" lemma="als" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--dit-->
+    <term tid="t213" type="close" lemma="dit" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--gebeurt-->
+    <term tid="t214" type="open" lemma="gebeuren" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t215" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--Diplomaten-->
+        <span>
+          <target id="t200"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--hete eurozomer-->
+        <span>
+          <target id="t205"/>
+          <target id="t206"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--vrezen-->
+        <span>
+          <target id="t201"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

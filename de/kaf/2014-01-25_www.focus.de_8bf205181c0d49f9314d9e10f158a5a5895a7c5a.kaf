@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T18:00:17Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T18:00:17Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:09:22CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T19:00:42CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w102" sent="8" para="4" offset="604" length="3">Der</wf>
+    <wf wid="w103" sent="8" para="4" offset="608" length="7">frühere</wf>
+    <wf wid="w104" sent="8" para="4" offset="616" length="18">Industriepräsident</wf>
+    <wf wid="w105" sent="8" para="4" offset="635" length="4">Hans</wf>
+    <wf wid="w106" sent="8" para="4" offset="639" length="1">·</wf>
+    <wf wid="w107" sent="8" para="4" offset="640" length="4">Olaf</wf>
+    <wf wid="w108" sent="8" para="4" offset="645" length="6">Henkel</wf>
+    <wf wid="w109" sent="8" para="4" offset="652" length="5">wurde</wf>
+    <wf wid="w110" sent="8" para="4" offset="658" length="3">mit</wf>
+    <wf wid="w111" sent="8" para="4" offset="662" length="2">78</wf>
+    <wf wid="w112" sent="8" para="4" offset="665" length="7">Prozent</wf>
+    <wf wid="w113" sent="8" para="4" offset="673" length="3">auf</wf>
+    <wf wid="w114" sent="8" para="4" offset="677" length="11">Listenplatz</wf>
+    <wf wid="w115" sent="8" para="4" offset="689" length="4">zwei</wf>
+    <wf wid="w116" sent="8" para="4" offset="694" length="7">gewählt</wf>
+    <wf wid="w117" sent="8" para="4" offset="701" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t102" type="close">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <term lemma="früh" morphofeat="ADJA" pos="G" tid="t103" type="open">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <term lemma="Industriepräsident" morphofeat="NN" pos="N" tid="t104" type="open">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <term lemma="Hans" morphofeat="NE" pos="R" tid="t105" type="open">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t106" type="open">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <term lemma="Olaf" morphofeat="NE" pos="R" tid="t107" type="open">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <term lemma="Henkel" morphofeat="NE" pos="R" tid="t108" type="open">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t109" type="open">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <term lemma="mit" morphofeat="APPR" pos="P" tid="t110" type="close">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <term lemma="78" morphofeat="CARD" pos="O" tid="t111" type="open">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <term lemma="Prozent" morphofeat="NN" pos="N" tid="t112" type="open">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <term lemma="auf" morphofeat="APPR" pos="P" tid="t113" type="close">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <term lemma="Listenplatz" morphofeat="NN" pos="N" tid="t114" type="open">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <term lemma="zwei" morphofeat="CARD" pos="O" tid="t115" type="open">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <term lemma="wählen" morphofeat="VVPP" pos="V" tid="t116" type="open">
+      <span>
+        <target id="w116"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t117" type="open">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

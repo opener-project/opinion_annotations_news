@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:46:58Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:46:58Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:46:58Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:23:08CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w129" sent="8" para="5" offset="622" length="2">D’</wf>
+    <wf wid="w130" sent="8" para="5" offset="624" length="2">un</wf>
+    <wf wid="w131" sent="8" para="5" offset="627" length="4">côté</wf>
+    <wf wid="w132" sent="8" para="5" offset="631" length="1">,</wf>
+    <wf wid="w133" sent="8" para="5" offset="633" length="3">les</wf>
+    <wf wid="w134" sent="8" para="5" offset="637" length="13">constructeurs</wf>
+    <wf wid="w135" sent="8" para="5" offset="651" length="2">et</wf>
+    <wf wid="w136" sent="8" para="5" offset="654" length="4">leur</wf>
+    <wf wid="w137" sent="8" para="5" offset="659" length="6">leader</wf>
+    <wf wid="w138" sent="8" para="5" offset="666" length="2">l’</wf>
+    <wf wid="w139" sent="8" para="5" offset="668" length="8">Allemand</wf>
+    <wf wid="w140" sent="8" para="5" offset="677" length="10">SolarWorld</wf>
+    <wf wid="w141" sent="8" para="5" offset="687" length="1">,</wf>
+    <wf wid="w142" sent="8" para="5" offset="689" length="3">qui</wf>
+    <wf wid="w143" sent="8" para="5" offset="693" length="3">ont</wf>
+    <wf wid="w144" sent="8" para="5" offset="697" length="5">porté</wf>
+    <wf wid="w145" sent="8" para="5" offset="703" length="7">plainte</wf>
+    <wf wid="w146" sent="8" para="5" offset="711" length="6">contre</wf>
+    <wf wid="w147" sent="8" para="5" offset="718" length="3">des</wf>
+    <wf wid="w148" sent="8" para="5" offset="722" length="9">pratiques</wf>
+    <wf wid="w149" sent="8" para="5" offset="732" length="6">jugées</wf>
+    <wf wid="w150" sent="8" para="5" offset="739" length="20">anticoncurrentielles</wf>
+    <wf wid="w151" sent="8" para="5" offset="760" length="2">de</wf>
+    <wf wid="w152" sent="8" para="5" offset="763" length="5">Pékin</wf>
+    <wf wid="w153" sent="8" para="5" offset="768" length="1">.</wf>
+  </text>
+  <terms>
+    <!--D’-->
+    <term tid="t129" type="close" lemma="D’" pos="P" morphofeat="P">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t130" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--côté-->
+    <term tid="t131" type="open" lemma="côté" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t132" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t133" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--constructeurs-->
+    <term tid="t134" type="open" lemma="constructeur" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t135" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--leur-->
+    <term tid="t136" type="close" lemma="son" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--leader-->
+    <term tid="t137" type="open" lemma="leader" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t138" type="open" lemma="l’" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--Allemand-->
+    <term tid="t139" type="open" lemma="allemand" pos="N" morphofeat="NPms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--SolarWorld-->
+    <term tid="t140" type="open" lemma="SolarWorld" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t141" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--qui-->
+    <term tid="t142" type="close" lemma="qui" pos="P" morphofeat="PROR3mp">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--ont-->
+    <term tid="t143" type="open" lemma="avoir" pos="V" morphofeat="VP3p">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--porté-->
+    <term tid="t144" type="open" lemma="porter" pos="V" morphofeat="V">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--plainte-->
+    <term tid="t145" type="open" lemma="plainte" pos="N" morphofeat="N">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--contre-->
+    <term tid="t146" type="close" lemma="contre" pos="P" morphofeat="P">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t147" type="close" lemma="un" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--pratiques-->
+    <term tid="t148" type="open" lemma="pratique" pos="N" morphofeat="NCfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--jugées-->
+    <term tid="t149" type="open" lemma="juger" pos="V" morphofeat="VKfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--anticoncurrentielles-->
+    <term tid="t150" type="open" lemma="anticoncurrentielles" pos="G" morphofeat="Afp">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t151" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--Pékin-->
+    <term tid="t152" type="open" lemma="pékin" pos="N" morphofeat="NPs">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t153" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--leur leader l’ Allemand SolarWorld-->
+        <span>
+          <target id="t136"/>
+          <target id="t137"/>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--des pratiques jugées anticoncurrentielles de Pékin-->
+        <span>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--ont porté plainte contre-->
+        <span>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t146"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--les constructeurs-->
+        <span>
+          <target id="t133"/>
+          <target id="t134"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--des pratiques jugées anticoncurrentielles de Pékin-->
+        <span>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--ont porté plainte contre-->
+        <span>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t146"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

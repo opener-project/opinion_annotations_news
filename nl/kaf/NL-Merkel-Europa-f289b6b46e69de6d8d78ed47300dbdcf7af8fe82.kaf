@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:18Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:18Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:17:25CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:36CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w103" sent="9" para="2" offset="656" length="3">Die</wf>
+    <wf wid="w104" sent="9" para="2" offset="660" length="3">mag</wf>
+    <wf wid="w105" sent="9" para="2" offset="664" length="4">niet</wf>
+    <wf wid="w106" sent="9" para="2" offset="669" length="4">meer</wf>
+    <wf wid="w107" sent="9" para="2" offset="674" length="3">dan</wf>
+    <wf wid="w108" sent="9" para="2" offset="678" length="1">3</wf>
+    <wf wid="w109" sent="9" para="2" offset="680" length="7">procent</wf>
+    <wf wid="w110" sent="9" para="2" offset="688" length="3">van</wf>
+    <wf wid="w111" sent="9" para="2" offset="692" length="3">het</wf>
+    <wf wid="w112" sent="9" para="2" offset="696" length="5">bruto</wf>
+    <wf wid="w113" sent="9" para="2" offset="702" length="11">binnenlands</wf>
+    <wf wid="w114" sent="9" para="2" offset="714" length="7">product</wf>
+    <wf wid="w115" sent="9" para="2" offset="722" length="8">bedragen</wf>
+    <wf wid="w116" sent="9" para="2" offset="730" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Die-->
+    <term tid="t103" type="close" lemma="die" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--mag-->
+    <term tid="t104" type="open" lemma="mogen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t105" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--meer-->
+    <term tid="t106" type="open" lemma="meer" pos="A" morphofeat="adv">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--dan-->
+    <term tid="t107" type="close" lemma="dan" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--3-->
+    <term tid="t108" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--procent-->
+    <term tid="t109" type="open" lemma="procent" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t110" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t111" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--bruto-->
+    <term tid="t112" type="open" lemma="bruto" pos="G" morphofeat="adj">
+      <span>
+        <target id="w112"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--binnenlands-->
+    <term tid="t113" type="open" lemma="binnenlands" pos="G" morphofeat="adj">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--product-->
+    <term tid="t114" type="open" lemma="product" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--bedragen-->
+    <term tid="t115" type="open" lemma="bedragen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t116" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

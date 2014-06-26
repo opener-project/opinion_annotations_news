@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:28:56" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:27:51CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="26" para="2" offset="2305" length="3" wid="w455">The</wf>
+    <wf sent="26" para="2" offset="2309" length="5" wid="w456">story</wf>
+    <wf sent="26" para="2" offset="2315" length="9" wid="w457">continues</wf>
+    <wf sent="26" para="2" offset="2325" length="2" wid="w458">to</wf>
+    <wf sent="26" para="2" offset="2328" length="6" wid="w459">unfold</wf>
+    <wf sent="26" para="2" offset="2334" length="1" wid="w460">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t455">
+      <span>
+        <target id="w455"/>
+      </span>
+    </term>
+    <!--story-->
+    <term type="open" lemma="story" pos="N" morphofeat="NN" tid="t456">
+      <span>
+        <target id="w456"/>
+      </span>
+    </term>
+    <!--continues-->
+    <term type="open" lemma="continue" pos="V" morphofeat="VBZ" tid="t457">
+      <span>
+        <target id="w457"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t458">
+      <span>
+        <target id="w458"/>
+      </span>
+    </term>
+    <!--unfold-->
+    <term type="open" lemma="unfold" pos="V" morphofeat="VB" tid="t459">
+      <span>
+        <target id="w459"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t460">
+      <span>
+        <target id="w460"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t455"/>
+          <target id="t456"/>
+          <target id="t457"/>
+          <target id="t458"/>
+          <target id="t459"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

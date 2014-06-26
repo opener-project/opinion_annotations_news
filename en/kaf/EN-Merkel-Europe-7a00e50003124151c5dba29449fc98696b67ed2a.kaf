@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:01:52" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:55:17CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:57CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="1216" length="3" wid="w205">The</wf>
+    <wf sent="9" para="2" offset="1220" length="4" wid="w206">toll</wf>
+    <wf sent="9" para="2" offset="1225" length="3" wid="w207">has</wf>
+    <wf sent="9" para="2" offset="1229" length="4" wid="w208">been</wf>
+    <wf sent="9" para="2" offset="1234" length="10" wid="w209">tremendous</wf>
+    <wf sent="9" para="2" offset="1244" length="1" wid="w210">:</wf>
+    <wf sent="9" para="2" offset="1246" length="9" wid="w211">political</wf>
+    <wf sent="9" para="2" offset="1256" length="11" wid="w212">instability</wf>
+    <wf sent="9" para="2" offset="1268" length="3" wid="w213">and</wf>
+    <wf sent="9" para="2" offset="1272" length="1" wid="w214">a</wf>
+    <wf sent="9" para="2" offset="1274" length="7" wid="w215">society</wf>
+    <wf sent="9" para="2" offset="1282" length="4" wid="w216">near</wf>
+    <wf sent="9" para="2" offset="1287" length="8" wid="w217">breaking</wf>
+    <wf sent="9" para="2" offset="1296" length="5" wid="w218">point</wf>
+    <wf sent="9" para="2" offset="1301" length="1" wid="w219">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t205">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--toll-->
+    <term type="open" lemma="toll" pos="N" morphofeat="NN" tid="t206">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t207">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--been-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBN" tid="t208">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--tremendous-->
+    <term type="open" lemma="tremendous" pos="G" morphofeat="JJ" tid="t209">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--:-->
+    <term type="close" lemma=":" pos="O" morphofeat=":" tid="t210">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--political-->
+    <term type="open" lemma="political" pos="G" morphofeat="JJ" tid="t211">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--instability-->
+    <term type="open" lemma="instability" pos="N" morphofeat="NN" tid="t212">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t213">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t214">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--society-->
+    <term type="open" lemma="society" pos="N" morphofeat="NN" tid="t215">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--near-->
+    <term type="close" lemma="near" pos="P" morphofeat="IN" tid="t216">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--breaking-->
+    <term type="open" lemma="breaking" pos="N" morphofeat="NN" tid="t217">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--point-->
+    <term type="open" lemma="point" pos="N" morphofeat="NN" tid="t218">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t219">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--The toll-->
+        <span>
+          <target id="t205"/>
+          <target id="t206"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--has been tremendous-->
+        <span>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

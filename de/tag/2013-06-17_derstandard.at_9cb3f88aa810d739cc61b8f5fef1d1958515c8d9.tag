@@ -1,0 +1,16 @@
+w11	Einsatz	Einsatz	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	10	true	2
+w178	Fünf	fünf	O			0		0		0		0	NON-OPINIONATED	2		0		0		0	177	true	14
+w179	Menschen	Mensch	N			0		0		0		0	NON-OPINIONATED	2		0		0		0	178	true	14
+w180	kamen	kommen	V			0		0		0		0	NON-OPINIONATED	2		0		0		0	179	true	14
+w181	bisher	bisher	A			0		0		0		0	NON-OPINIONATED	2		0		0		0	180	true	14
+w182	ums	ums	P			0		0		0		0	NON-OPINIONATED	2		0		0		0	181	true	14
+w183	Leben	Leben	N			0		0		0		0	NON-OPINIONATED	2		0		0		0	182	true	14
+w184	,	,	O			0		0		0		0	NON-OPINIONATED	2		0		0		0	183	true	14
+w185	ein	eine	D			0		0		0		0	NON-OPINIONATED	2		0		0		0	184	true	14
+w186	16	16	O			0		0		0		0	NON-OPINIONATED	2		0		0		0	185	true	14
+w187	·	·	O			0		0		0		0	NON-OPINIONATED	2		0		0		0	186	true	14
+w188	Jähriger	Jähriger	O			0		0		0		0	NON-OPINIONATED	2		0		0		0	187	true	14
+w189	liegt	liegen	V			0		0		0		0	NON-OPINIONATED	2		0		0		0	188	true	14
+w190	im	in	P			0		0		0		0	NON-OPINIONATED	2		0		0		0	189	true	14
+w191	Koma	Koma	N			0		0		0		0	NON-OPINIONATED	2		0		0		0	190	true	14
+w192	.	.	O			0		0		0		0	NON-OPINIONATED	2		0		0		0	191	true	14

@@ -1,0 +1,9 @@
+w272	Es	es	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	271	true	25
+w273	war	sein	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	272	true	25
+w274	Ashtons	Ashtons	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	273	true	25
+w275	zweite	zweit	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	274	true	25
+w276	Mission	Mission	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	275	true	25
+w277	innerhalb	innerhalb	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	276	true	25
+w278	von	von	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	277	true	25
+w279	zwei	zwei	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	278	true	25
+w280	Wochen	Woche	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	279	true	25

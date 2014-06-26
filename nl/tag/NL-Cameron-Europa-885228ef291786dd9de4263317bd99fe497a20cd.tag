@@ -1,0 +1,9 @@
+w258	Rusland	Rusland	R		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	257	true	18
+w259	steunt	steunen	V		D-Positive	2	Opinion	4		0		0		0		0		0		0	258	true	18
+w260	het	het	D		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	259	true	18
+w261	Syrische	Syrische	N		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	260	true	18
+w262	bewind	bewind	N		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	261	true	18
+w264	heeft	hebben	V		D-Negative	5	OH1-OP	7		0		0		0		0		0		0	263	true	18
+w265	internationale	internationaal	G		OpinionTarget	6	OH1-OP	7		0		0		0		0		0		0	264	true	18
+w266	veroordeling	veroordeling	N		OpinionTarget	6	OH1-OP	7		0		0		0		0		0		0	265	true	18
+w267	geblokkeerd	blokkeren	V		D-Negative	5	OH1-OP	7		0		0		0		0		0		0	266	true	18

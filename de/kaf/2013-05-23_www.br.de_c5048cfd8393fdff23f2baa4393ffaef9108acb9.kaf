@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:38:46Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:38:46Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:03:38CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:39:23CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w648" sent="51" para="25" offset="4272" length="3">Die</wf>
+    <wf wid="w649" sent="51" para="25" offset="4276" length="14">Energiepolitik</wf>
+    <wf wid="w650" sent="51" para="25" offset="4291" length="5">liegt</wf>
+    <wf wid="w651" sent="51" para="25" offset="4297" length="10">allerdings</wf>
+    <wf wid="w652" sent="51" para="25" offset="4308" length="2">in</wf>
+    <wf wid="w653" sent="51" para="25" offset="4311" length="3">der</wf>
+    <wf wid="w654" sent="51" para="25" offset="4315" length="9">Kompetenz</wf>
+    <wf wid="w655" sent="51" para="25" offset="4325" length="3">der</wf>
+    <wf wid="w656" sent="51" para="25" offset="4329" length="9">einzelnen</wf>
+    <wf wid="w657" sent="51" para="25" offset="4339" length="2">EU</wf>
+    <wf wid="w658" sent="51" para="25" offset="4341" length="1">·</wf>
+    <wf wid="w659" sent="51" para="25" offset="4342" length="7">Staaten</wf>
+    <wf wid="w660" sent="51" para="25" offset="4349" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t648" type="close">
+      <span>
+        <target id="w648"/>
+      </span>
+    </term>
+    <term lemma="Energiepolitik" morphofeat="NN" pos="N" tid="t649" type="open">
+      <span>
+        <target id="w649"/>
+      </span>
+    </term>
+    <term lemma="liegen" morphofeat="VVFIN" pos="V" tid="t650" type="open">
+      <span>
+        <target id="w650"/>
+      </span>
+    </term>
+    <term lemma="allerdings" morphofeat="ADV" pos="A" tid="t651" type="open">
+      <span>
+        <target id="w651"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t652" type="close">
+      <span>
+        <target id="w652"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t653" type="close">
+      <span>
+        <target id="w653"/>
+      </span>
+    </term>
+    <term lemma="Kompetenz" morphofeat="NN" pos="N" tid="t654" type="open">
+      <span>
+        <target id="w654"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t655" type="close">
+      <span>
+        <target id="w655"/>
+      </span>
+    </term>
+    <term lemma="einzeln" morphofeat="ADJA" pos="G" tid="t656" type="open">
+      <span>
+        <target id="w656"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t657" type="open">
+      <span>
+        <target id="w657"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t658" type="open">
+      <span>
+        <target id="w658"/>
+      </span>
+    </term>
+    <term lemma="Staat" morphofeat="NN" pos="N" tid="t659" type="open">
+      <span>
+        <target id="w659"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t660" type="open">
+      <span>
+        <target id="w660"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t648"/>
+          <target id="t649"/>
+          <target id="t650"/>
+          <target id="t651"/>
+          <target id="t652"/>
+          <target id="t653"/>
+          <target id="t654"/>
+          <target id="t655"/>
+          <target id="t656"/>
+          <target id="t657"/>
+          <target id="t658"/>
+          <target id="t659"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

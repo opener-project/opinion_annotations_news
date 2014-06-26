@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:04:32Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:04:32Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:26:45" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:57:28CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="41" para="2" offset="2315" length="3" wid="w478">The</wf>
+    <wf sent="41" para="2" offset="2319" length="7" wid="w479">fallout</wf>
+    <wf sent="41" para="2" offset="2327" length="4" wid="w480">from</wf>
+    <wf sent="41" para="2" offset="2332" length="7" wid="w481">Greeces</wf>
+    <wf sent="41" para="2" offset="2340" length="8" wid="w482">possible</wf>
+    <wf sent="41" para="2" offset="2349" length="4" wid="w483">exit</wf>
+    <wf sent="41" para="2" offset="2354" length="4" wid="w484">from</wf>
+    <wf sent="41" para="2" offset="2359" length="3" wid="w485">the</wf>
+    <wf sent="41" para="2" offset="2363" length="4" wid="w486">euro</wf>
+    <wf sent="41" para="2" offset="2368" length="5" wid="w487">would</wf>
+    <wf sent="41" para="2" offset="2374" length="2" wid="w488">be</wf>
+    <wf sent="41" para="2" offset="2377" length="12" wid="w489">catastrophic</wf>
+    <wf sent="41" para="2" offset="2390" length="3" wid="w490">for</wf>
+    <wf sent="41" para="2" offset="2394" length="3" wid="w491">the</wf>
+    <wf sent="41" para="2" offset="2398" length="6" wid="w492">market</wf>
+    <wf sent="41" para="2" offset="2404" length="1" wid="w493">,</wf>
+    <wf sent="41" para="2" offset="2406" length="2" wid="w494">he</wf>
+    <wf sent="41" para="2" offset="2409" length="4" wid="w495">told</wf>
+    <wf sent="41" para="2" offset="2414" length="3" wid="w496">Dow</wf>
+    <wf sent="41" para="2" offset="2418" length="5" wid="w497">Jones</wf>
+    <wf sent="41" para="2" offset="2424" length="9" wid="w498">Newswires</wf>
+    <wf sent="41" para="2" offset="2433" length="1" wid="w499">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t478">
+      <span>
+        <target id="w478"/>
+      </span>
+    </term>
+    <!--fallout-->
+    <term type="open" lemma="fallout" pos="N" morphofeat="NN" tid="t479">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w479"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t480">
+      <span>
+        <target id="w480"/>
+      </span>
+    </term>
+    <!--Greeces-->
+    <term type="open" lemma="greeces" pos="N" morphofeat="NNS" tid="t481">
+      <span>
+        <target id="w481"/>
+      </span>
+    </term>
+    <!--possible-->
+    <term type="open" lemma="possible" pos="G" morphofeat="JJ" tid="t482">
+      <span>
+        <target id="w482"/>
+      </span>
+    </term>
+    <!--exit-->
+    <term type="open" lemma="exit" pos="N" morphofeat="NN" tid="t483">
+      <span>
+        <target id="w483"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t484">
+      <span>
+        <target id="w484"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t485">
+      <span>
+        <target id="w485"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term type="open" lemma="euro" pos="N" morphofeat="NN" tid="t486">
+      <span>
+        <target id="w486"/>
+      </span>
+    </term>
+    <!--would-->
+    <term type="close" lemma="would" pos="O" morphofeat="MD" tid="t487">
+      <span>
+        <target id="w487"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t488">
+      <span>
+        <target id="w488"/>
+      </span>
+    </term>
+    <!--catastrophic-->
+    <term type="open" lemma="catastrophic" pos="G" morphofeat="JJ" tid="t489">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w489"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t490">
+      <span>
+        <target id="w490"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t491">
+      <span>
+        <target id="w491"/>
+      </span>
+    </term>
+    <!--market-->
+    <term type="open" lemma="market" pos="N" morphofeat="NN" tid="t492">
+      <span>
+        <target id="w492"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t493">
+      <span>
+        <target id="w493"/>
+      </span>
+    </term>
+    <!--he-->
+    <term type="close" lemma="he" pos="Q" morphofeat="PRP" tid="t494">
+      <span>
+        <target id="w494"/>
+      </span>
+    </term>
+    <!--told-->
+    <term type="open" lemma="tell" pos="V" morphofeat="VBD" tid="t495">
+      <span>
+        <target id="w495"/>
+      </span>
+    </term>
+    <!--Dow-->
+    <term type="close" lemma="Dow" pos="R" morphofeat="NNP" tid="t496">
+      <span>
+        <target id="w496"/>
+      </span>
+    </term>
+    <!--Jones-->
+    <term type="close" lemma="Jones" pos="R" morphofeat="NNP" tid="t497">
+      <span>
+        <target id="w497"/>
+      </span>
+    </term>
+    <!--Newswires-->
+    <term type="close" lemma="Newswires" pos="R" morphofeat="NNP" tid="t498">
+      <span>
+        <target id="w498"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t499">
+      <span>
+        <target id="w499"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--the market-->
+        <span>
+          <target id="t491"/>
+          <target id="t492"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--catastrophic-->
+        <span>
+          <target id="t489"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

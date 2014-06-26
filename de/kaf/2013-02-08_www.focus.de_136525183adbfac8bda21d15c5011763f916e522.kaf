@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:45:10Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:45:10Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:04:53CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:45:26CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w216" sent="12" para="7" offset="1282" length="3">Das</wf>
+    <wf wid="w217" sent="12" para="7" offset="1286" length="3">ist</wf>
+    <wf wid="w218" sent="12" para="7" offset="1290" length="3">das</wf>
+    <wf wid="w219" sent="12" para="7" offset="1294" length="5">erste</wf>
+    <wf wid="w220" sent="12" para="7" offset="1300" length="3">Mal</wf>
+    <wf wid="w221" sent="12" para="7" offset="1303" length="1">,</wf>
+    <wf wid="w222" sent="12" para="7" offset="1305" length="3">das</wf>
+    <wf wid="w223" sent="12" para="7" offset="1309" length="3">ein</wf>
+    <wf wid="w224" sent="12" para="7" offset="1313" length="18">Siebenjahresbudget</wf>
+    <wf wid="w225" sent="12" para="7" offset="1332" length="7">kleiner</wf>
+    <wf wid="w226" sent="12" para="7" offset="1340" length="8">ausfällt</wf>
+    <wf wid="w227" sent="12" para="7" offset="1349" length="3">als</wf>
+    <wf wid="w228" sent="12" para="7" offset="1353" length="3">das</wf>
+    <wf wid="w229" sent="12" para="7" offset="1357" length="9">vorherige</wf>
+    <wf wid="w230" sent="12" para="7" offset="1366" length="1">.</wf>
+    <wf wid="w467" sent="24" para="11" offset="2953" length="10">Allerdings</wf>
+    <wf wid="w468" sent="24" para="11" offset="2964" length="8">kündigte</wf>
+    <wf wid="w469" sent="24" para="11" offset="2973" length="3">das</wf>
+    <wf wid="w470" sent="24" para="11" offset="2977" length="15">Europaparlament</wf>
+    <wf wid="w471" sent="24" para="11" offset="2993" length="10">Widerstand</wf>
+    <wf wid="w472" sent="24" para="11" offset="3004" length="5">gegen</wf>
+    <wf wid="w473" sent="24" para="11" offset="3010" length="3">den</wf>
+    <wf wid="w474" sent="24" para="11" offset="3014" length="4">sich</wf>
+    <wf wid="w475" sent="24" para="11" offset="3019" length="11">anbahnenden</wf>
+    <wf wid="w476" sent="24" para="11" offset="3031" length="10">Kompromiss</wf>
+    <wf wid="w477" sent="24" para="11" offset="3042" length="2">an</wf>
+    <wf wid="w478" sent="24" para="11" offset="3044" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="PDS" pos="Q" tid="t216" type="close">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t217" type="open">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t218" type="close">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <term lemma="erst" morphofeat="ADJA" pos="G" tid="t219" type="open">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <term lemma="Mal" morphofeat="NN" pos="N" tid="t220" type="open">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t221" type="open">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="PRELS" pos="Q" tid="t222" type="close">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t223" type="close">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <term lemma="Siebenjahresbudget" morphofeat="NN unknown_lemma" pos="O" tid="t224" type="open">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <term lemma="klein" morphofeat="ADJD" pos="G" tid="t225" type="open">
+      <span>
+        <target id="w225"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="ausfallen" morphofeat="VVFIN" pos="V" tid="t226" type="open">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <term lemma="als" morphofeat="KOKOM" pos="C" tid="t227" type="close">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t228" type="close">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <term lemma="vorherig" morphofeat="ADJA" pos="G" tid="t229" type="open">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t230" type="open">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <term lemma="allerdings" morphofeat="ADV" pos="A" tid="t467" type="open">
+      <span>
+        <target id="w467"/>
+      </span>
+    </term>
+    <term lemma="kündigen" morphofeat="VVFIN" pos="V" tid="t468" type="open">
+      <span>
+        <target id="w468"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t469" type="close">
+      <span>
+        <target id="w469"/>
+      </span>
+    </term>
+    <term lemma="Europaparlament" morphofeat="NN" pos="N" tid="t470" type="open">
+      <span>
+        <target id="w470"/>
+      </span>
+    </term>
+    <term lemma="Widerstand" morphofeat="NN" pos="N" tid="t471" type="open">
+      <span>
+        <target id="w471"/>
+      </span>
+    </term>
+    <term lemma="gegen" morphofeat="APPR" pos="P" tid="t472" type="close">
+      <span>
+        <target id="w472"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t473" type="close">
+      <span>
+        <target id="w473"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t474" type="close">
+      <span>
+        <target id="w474"/>
+      </span>
+    </term>
+    <term lemma="anbahnend" morphofeat="ADJA" pos="G" tid="t475" type="open">
+      <span>
+        <target id="w475"/>
+      </span>
+    </term>
+    <term lemma="Kompromiss" morphofeat="NN" pos="N" tid="t476" type="open">
+      <span>
+        <target id="w476"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="PTKVZ" pos="V" tid="t477" type="open">
+      <span>
+        <target id="w477"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t478" type="open">
+      <span>
+        <target id="w478"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--das Europaparlament-->
+        <span>
+          <target id="t469"/>
+          <target id="t470"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--den sich anbahnenden Kompromiss-->
+        <span>
+          <target id="t473"/>
+          <target id="t474"/>
+          <target id="t475"/>
+          <target id="t476"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--Widerstand gegen-->
+        <span>
+          <target id="t471"/>
+          <target id="t472"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+          <target id="t229"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

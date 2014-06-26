@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 12:01:36" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:08:12CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="7" para="2" offset="736" length="13" wid="w140">Unfortunately</wf>
+    <wf sent="7" para="2" offset="749" length="1" wid="w141">,</wf>
+    <wf sent="7" para="2" offset="751" length="11" wid="w142">consecutive</wf>
+    <wf sent="7" para="2" offset="763" length="5" wid="w143">Greek</wf>
+    <wf sent="7" para="2" offset="769" length="9" wid="w144">political</wf>
+    <wf sent="7" para="2" offset="779" length="11" wid="w145">leaderships</wf>
+    <wf sent="7" para="2" offset="791" length="4" wid="w146">over</wf>
+    <wf sent="7" para="2" offset="796" length="3" wid="w147">the</wf>
+    <wf sent="7" para="2" offset="800" length="4" wid="w148">past</wf>
+    <wf sent="7" para="2" offset="805" length="5" wid="w149">three</wf>
+    <wf sent="7" para="2" offset="811" length="5" wid="w150">years</wf>
+    <wf sent="7" para="2" offset="817" length="4" wid="w151">have</wf>
+    <wf sent="7" para="2" offset="822" length="10" wid="w152">squandered</wf>
+    <wf sent="7" para="2" offset="833" length="8" wid="w153">precious</wf>
+    <wf sent="7" para="2" offset="842" length="4" wid="w154">time</wf>
+    <wf sent="7" para="2" offset="846" length="1" wid="w155">.</wf>
+  </text>
+  <terms>
+    <!--Unfortunately-->
+    <term type="open" lemma="unfortunately" pos="A" morphofeat="RB" tid="t140">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t141">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--consecutive-->
+    <term type="open" lemma="consecutive" pos="G" morphofeat="JJ" tid="t142">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--Greek-->
+    <term type="close" lemma="Greek" pos="R" morphofeat="NNP" tid="t143">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--political-->
+    <term type="open" lemma="political" pos="G" morphofeat="JJ" tid="t144">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--leaderships-->
+    <term type="open" lemma="leadership" pos="N" morphofeat="NNS" tid="t145">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--over-->
+    <term type="close" lemma="over" pos="P" morphofeat="IN" tid="t146">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t147">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--past-->
+    <term type="open" lemma="past" pos="G" morphofeat="JJ" tid="t148">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--three-->
+    <term type="close" lemma="three" pos="O" morphofeat="CD" tid="t149">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--years-->
+    <term type="open" lemma="year" pos="N" morphofeat="NNS" tid="t150">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--have-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBP" tid="t151">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--squandered-->
+    <term type="open" lemma="squander" pos="V" morphofeat="VBN" tid="t152">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--precious-->
+    <term type="open" lemma="precious" pos="G" morphofeat="JJ" tid="t153">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--time-->
+    <term type="open" lemma="time" pos="N" morphofeat="NN" tid="t154">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t155">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Greek political leaderships-->
+        <span>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--have squandered-->
+        <span>
+          <target id="t151"/>
+          <target id="t152"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

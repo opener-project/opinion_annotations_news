@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:19Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:19Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:11:39" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:22:33CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="16" para="2" offset="846" length="3" wid="w170">But</wf>
+    <wf sent="16" para="2" offset="850" length="5" wid="w171">major</wf>
+    <wf sent="16" para="2" offset="856" length="5" wid="w172">stock</wf>
+    <wf sent="16" para="2" offset="862" length="7" wid="w173">markets</wf>
+    <wf sent="16" para="2" offset="870" length="2" wid="w174">in</wf>
+    <wf sent="16" para="2" offset="873" length="6" wid="w175">France</wf>
+    <wf sent="16" para="2" offset="880" length="3" wid="w176">and</wf>
+    <wf sent="16" para="2" offset="884" length="3" wid="w177">the</wf>
+    <wf sent="16" para="2" offset="888" length="6" wid="w178">United</wf>
+    <wf sent="16" para="2" offset="895" length="7" wid="w179">Kingdom</wf>
+    <wf sent="16" para="2" offset="903" length="4" wid="w180">lost</wf>
+    <wf sent="16" para="2" offset="908" length="8" wid="w181">slightly</wf>
+    <wf sent="16" para="2" offset="917" length="2" wid="w182">in</wf>
+    <wf sent="16" para="2" offset="920" length="5" wid="w183">early</wf>
+    <wf sent="16" para="2" offset="926" length="7" wid="w184">trading</wf>
+    <wf sent="16" para="2" offset="933" length="1" wid="w185">,</wf>
+    <wf sent="16" para="2" offset="935" length="5" wid="w186">while</wf>
+    <wf sent="16" para="2" offset="941" length="7" wid="w187">markets</wf>
+    <wf sent="16" para="2" offset="949" length="2" wid="w188">in</wf>
+    <wf sent="16" para="2" offset="952" length="7" wid="w189">Germany</wf>
+    <wf sent="16" para="2" offset="960" length="7" wid="w190">climbed</wf>
+    <wf sent="16" para="2" offset="967" length="1" wid="w191">.</wf>
+  </text>
+  <terms>
+    <!--But-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t170">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--major-->
+    <term type="open" lemma="major" pos="G" morphofeat="JJ" tid="t171">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--stock-->
+    <term type="open" lemma="stock" pos="N" morphofeat="NN" tid="t172">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--markets-->
+    <term type="open" lemma="market" pos="N" morphofeat="NNS" tid="t173">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t174">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--France-->
+    <term type="close" lemma="France" pos="R" morphofeat="NNP" tid="t175">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t176">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t177">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--United-->
+    <term type="close" lemma="United" pos="R" morphofeat="NNP" tid="t178">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--Kingdom-->
+    <term type="close" lemma="Kingdom" pos="R" morphofeat="NNP" tid="t179">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--lost-->
+    <term type="open" lemma="lose" pos="V" morphofeat="VBD" tid="t180">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--slightly-->
+    <term type="open" lemma="slightly" pos="A" morphofeat="RB" tid="t181">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t182">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--early-->
+    <term type="open" lemma="early" pos="G" morphofeat="JJ" tid="t183">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--trading-->
+    <term type="open" lemma="trading" pos="N" morphofeat="NN" tid="t184">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t185">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--while-->
+    <term type="close" lemma="while" pos="P" morphofeat="IN" tid="t186">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--markets-->
+    <term type="open" lemma="market" pos="N" morphofeat="NNS" tid="t187">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t188">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--Germany-->
+    <term type="close" lemma="Germany" pos="R" morphofeat="NNP" tid="t189">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--climbed-->
+    <term type="open" lemma="climb" pos="V" morphofeat="VBD" tid="t190">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t191">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

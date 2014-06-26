@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:34:29Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:34:29Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:47:20CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:34:54CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w509" sent="29" para="13" offset="3028" length="2">Im</wf>
+    <wf wid="w510" sent="29" para="13" offset="3031" length="6">ersten</wf>
+    <wf wid="w511" sent="29" para="13" offset="3038" length="7">Entwurf</wf>
+    <wf wid="w512" sent="29" para="13" offset="3046" length="3">für</wf>
+    <wf wid="w513" sent="29" para="13" offset="3050" length="3">den</wf>
+    <wf wid="w514" sent="29" para="13" offset="3054" length="17">Koalitionsvertrag</wf>
+    <wf wid="w515" sent="29" para="13" offset="3072" length="6">taucht</wf>
+    <wf wid="w516" sent="29" para="13" offset="3079" length="3">das</wf>
+    <wf wid="w517" sent="29" para="13" offset="3083" length="5">Thema</wf>
+    <wf wid="w518" sent="29" para="13" offset="3089" length="3">gar</wf>
+    <wf wid="w519" sent="29" para="13" offset="3093" length="5">nicht</wf>
+    <wf wid="w520" sent="29" para="13" offset="3099" length="3">auf</wf>
+    <wf wid="w521" sent="29" para="13" offset="3102" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t509" type="close">
+      <span>
+        <target id="w509"/>
+      </span>
+    </term>
+    <term lemma="erst" morphofeat="ADJA" pos="G" tid="t510" type="open">
+      <span>
+        <target id="w510"/>
+      </span>
+    </term>
+    <term lemma="Entwurf" morphofeat="NN" pos="N" tid="t511" type="open">
+      <span>
+        <target id="w511"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t512" type="close">
+      <span>
+        <target id="w512"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t513" type="close">
+      <span>
+        <target id="w513"/>
+      </span>
+    </term>
+    <term lemma="Koalitionsvertrag" morphofeat="NN" pos="N" tid="t514" type="open">
+      <span>
+        <target id="w514"/>
+      </span>
+    </term>
+    <term lemma="tauchen" morphofeat="VVFIN" pos="V" tid="t515" type="open">
+      <span>
+        <target id="w515"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t516" type="close">
+      <span>
+        <target id="w516"/>
+      </span>
+    </term>
+    <term lemma="Thema" morphofeat="NN" pos="N" tid="t517" type="open">
+      <span>
+        <target id="w517"/>
+      </span>
+    </term>
+    <term lemma="gar" morphofeat="ADV" pos="A" tid="t518" type="open">
+      <span>
+        <target id="w518"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t519" type="open">
+      <span>
+        <target id="w519"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="auf" morphofeat="PTKVZ" pos="V" tid="t520" type="open">
+      <span>
+        <target id="w520"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t521" type="open">
+      <span>
+        <target id="w521"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t509"/>
+          <target id="t510"/>
+          <target id="t511"/>
+          <target id="t512"/>
+          <target id="t513"/>
+          <target id="t514"/>
+          <target id="t515"/>
+          <target id="t516"/>
+          <target id="t517"/>
+          <target id="t518"/>
+          <target id="t519"/>
+          <target id="t520"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

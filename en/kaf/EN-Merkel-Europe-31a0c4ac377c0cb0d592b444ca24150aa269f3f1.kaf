@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:04:53" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:27:40CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:24CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="2" wid="w1">US</wf>
+    <wf sent="1" para="1" offset="3" length="7" wid="w2">defends</wf>
+    <wf sent="1" para="1" offset="11" length="6" wid="w3">spying</wf>
+    <wf sent="1" para="1" offset="18" length="2" wid="w4">on</wf>
+    <wf sent="1" para="1" offset="21" length="7" wid="w5">foreign</wf>
+    <wf sent="1" para="1" offset="29" length="7" wid="w6">leaders</wf>
+  </text>
+  <terms>
+    <!--US-->
+    <term type="close" lemma="us" pos="Q" morphofeat="PRP" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--defends-->
+    <term type="open" lemma="defend" pos="V" morphofeat="VBZ" tid="t2">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--spying-->
+    <term type="open" lemma="spy" pos="V" morphofeat="VBG" tid="t3">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t4">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--foreign-->
+    <term type="open" lemma="foreign" pos="G" morphofeat="JJ" tid="t5">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--leaders-->
+    <term type="open" lemma="leader" pos="N" morphofeat="NNS" tid="t6">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--US-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--spying-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--defends-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

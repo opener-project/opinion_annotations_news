@@ -1,0 +1,17 @@
+w774	Wie	wie	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	773	true	48
+w775	die	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	774	true	48
+w776	Zentralbank	Zentralbank	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	775	true	48
+w777	des	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	776	true	48
+w778	Mittelmeerstaats	Mittelmeerstaats	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	777	true	48
+w779	am	an	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	778	true	48
+w780	Montagabend	Montagabend	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	779	true	48
+w781	mitteilte	mitteilen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	780	true	48
+w782	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	781	true	48
+w783	sollen	sollen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	782	true	48
+w784	alle	alle	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	783	true	48
+w785	Banken	Bank	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	784	true	48
+w786	bis	bis	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	785	true	48
+w787	Mittwoch	Mittwoch	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	786	true	48
+w788	geschlossen	schließen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	787	true	48
+w789	bleiben	bleiben	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	788	true	48
+w790	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	789	true	48

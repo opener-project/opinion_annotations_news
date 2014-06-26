@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:23Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:23Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:58:14" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:46:26CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="25" para="2" offset="3568" length="1" wid="w654">“</wf>
+    <wf sent="25" para="2" offset="3569" length="3" wid="w655">The</wf>
+    <wf sent="25" para="2" offset="3573" length="9" wid="w656">long-term</wf>
+    <wf sent="25" para="2" offset="3583" length="7" wid="w657">problem</wf>
+    <wf sent="25" para="2" offset="3591" length="2" wid="w658">is</wf>
+    <wf sent="25" para="2" offset="3594" length="4" wid="w659">that</wf>
+    <wf sent="25" para="2" offset="3599" length="3" wid="w660">the</wf>
+    <wf sent="25" para="2" offset="3603" length="6" wid="w661">fiscal</wf>
+    <wf sent="25" para="2" offset="3610" length="4" wid="w662">plan</wf>
+    <wf sent="25" para="2" offset="3615" length="3" wid="w663">for</wf>
+    <wf sent="25" para="2" offset="3619" length="6" wid="w664">Greece</wf>
+    <wf sent="25" para="2" offset="3626" length="2" wid="w665">is</wf>
+    <wf sent="25" para="2" offset="3629" length="8" wid="w666">entirely</wf>
+    <wf sent="25" para="2" offset="3638" length="11" wid="w667">implausible</wf>
+    <wf sent="25" para="2" offset="3649" length="1" wid="w668">,</wf>
+    <wf sent="25" para="2" offset="3650" length="1" wid="w669">”</wf>
+    <wf sent="25" para="2" offset="3652" length="4" wid="w670">said</wf>
+    <wf sent="25" para="2" offset="3657" length="7" wid="w671">Fredrik</wf>
+    <wf sent="25" para="2" offset="3665" length="6" wid="w672">Erixon</wf>
+    <wf sent="25" para="2" offset="3671" length="1" wid="w673">,</wf>
+    <wf sent="25" para="2" offset="3673" length="4" wid="w674">head</wf>
+    <wf sent="25" para="2" offset="3678" length="2" wid="w675">of</wf>
+    <wf sent="25" para="2" offset="3681" length="3" wid="w676">the</wf>
+    <wf sent="25" para="2" offset="3685" length="8" wid="w677">European</wf>
+    <wf sent="25" para="2" offset="3694" length="6" wid="w678">Centre</wf>
+    <wf sent="25" para="2" offset="3701" length="3" wid="w679">for</wf>
+    <wf sent="25" para="2" offset="3705" length="13" wid="w680">International</wf>
+    <wf sent="25" para="2" offset="3719" length="9" wid="w681">Political</wf>
+    <wf sent="25" para="2" offset="3729" length="7" wid="w682">Economy</wf>
+    <wf sent="25" para="2" offset="3737" length="2" wid="w683">in</wf>
+    <wf sent="25" para="2" offset="3740" length="8" wid="w684">Brussels</wf>
+    <wf sent="25" para="2" offset="3748" length="1" wid="w685">.</wf>
+  </text>
+  <terms>
+    <!--“-->
+    <term type="open" lemma="“" pos="N" morphofeat="NN" tid="t654">
+      <span>
+        <target id="w654"/>
+      </span>
+    </term>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t655">
+      <span>
+        <target id="w655"/>
+      </span>
+    </term>
+    <!--long-term-->
+    <term type="open" lemma="long-term" pos="G" morphofeat="JJ" tid="t656">
+      <span>
+        <target id="w656"/>
+      </span>
+    </term>
+    <!--problem-->
+    <term type="open" lemma="problem" pos="N" morphofeat="NN" tid="t657">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w657"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t658">
+      <span>
+        <target id="w658"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="P" morphofeat="IN" tid="t659">
+      <span>
+        <target id="w659"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t660">
+      <span>
+        <target id="w660"/>
+      </span>
+    </term>
+    <!--fiscal-->
+    <term type="open" lemma="fiscal" pos="G" morphofeat="JJ" tid="t661">
+      <span>
+        <target id="w661"/>
+      </span>
+    </term>
+    <!--plan-->
+    <term type="open" lemma="plan" pos="N" morphofeat="NN" tid="t662">
+      <span>
+        <target id="w662"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t663">
+      <span>
+        <target id="w663"/>
+      </span>
+    </term>
+    <!--Greece-->
+    <term type="close" lemma="Greece" pos="R" morphofeat="NNP" tid="t664">
+      <span>
+        <target id="w664"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t665">
+      <span>
+        <target id="w665"/>
+      </span>
+    </term>
+    <!--entirely-->
+    <term type="open" lemma="entirely" pos="A" morphofeat="RB" tid="t666">
+      <span>
+        <target id="w666"/>
+      </span>
+    </term>
+    <!--implausible-->
+    <term type="open" lemma="implausible" pos="G" morphofeat="JJ" tid="t667">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w667"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t668">
+      <span>
+        <target id="w668"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="N" morphofeat="NN" tid="t669">
+      <span>
+        <target id="w669"/>
+      </span>
+    </term>
+    <!--said-->
+    <term type="open" lemma="say" pos="V" morphofeat="VBD" tid="t670">
+      <span>
+        <target id="w670"/>
+      </span>
+    </term>
+    <!--Fredrik-->
+    <term type="close" lemma="Fredrik" pos="R" morphofeat="NNP" tid="t671">
+      <span>
+        <target id="w671"/>
+      </span>
+    </term>
+    <!--Erixon-->
+    <term type="close" lemma="Erixon" pos="R" morphofeat="NNP" tid="t672">
+      <span>
+        <target id="w672"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t673">
+      <span>
+        <target id="w673"/>
+      </span>
+    </term>
+    <!--head-->
+    <term type="open" lemma="head" pos="N" morphofeat="NN" tid="t674">
+      <span>
+        <target id="w674"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t675">
+      <span>
+        <target id="w675"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t676">
+      <span>
+        <target id="w676"/>
+      </span>
+    </term>
+    <!--European-->
+    <term type="open" lemma="european" pos="G" morphofeat="JJ" tid="t677">
+      <span>
+        <target id="w677"/>
+      </span>
+    </term>
+    <!--Centre-->
+    <term type="close" lemma="Centre" pos="R" morphofeat="NNP" tid="t678">
+      <span>
+        <target id="w678"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t679">
+      <span>
+        <target id="w679"/>
+      </span>
+    </term>
+    <!--International-->
+    <term type="close" lemma="International" pos="R" morphofeat="NNP" tid="t680">
+      <span>
+        <target id="w680"/>
+      </span>
+    </term>
+    <!--Political-->
+    <term type="close" lemma="Political" pos="R" morphofeat="NNP" tid="t681">
+      <span>
+        <target id="w681"/>
+      </span>
+    </term>
+    <!--Economy-->
+    <term type="close" lemma="Economy" pos="R" morphofeat="NNP" tid="t682">
+      <span>
+        <target id="w682"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t683">
+      <span>
+        <target id="w683"/>
+      </span>
+    </term>
+    <!--Brussels-->
+    <term type="close" lemma="Brussels" pos="R" morphofeat="NNP" tid="t684">
+      <span>
+        <target id="w684"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t685">
+      <span>
+        <target id="w685"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Fredrik Erixon-->
+        <span>
+          <target id="t671"/>
+          <target id="t672"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--The long-term problem-->
+        <span>
+          <target id="t655"/>
+          <target id="t656"/>
+          <target id="t657"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--the fiscal plan for Greece is entirely implausible-->
+        <span>
+          <target id="t660"/>
+          <target id="t661"/>
+          <target id="t662"/>
+          <target id="t663"/>
+          <target id="t664"/>
+          <target id="t665"/>
+          <target id="t666"/>
+          <target id="t667"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Fredrik Erixon-->
+        <span>
+          <target id="t671"/>
+          <target id="t672"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--The long-term problem-->
+        <span>
+          <target id="t655"/>
+          <target id="t656"/>
+          <target id="t657"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--said-->
+        <span>
+          <target id="t670"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--the fiscal plan-->
+        <span>
+          <target id="t660"/>
+          <target id="t661"/>
+          <target id="t662"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--entirely implausible-->
+        <span>
+          <target id="t666"/>
+          <target id="t667"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:17Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:17Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:15:48CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w62" sent="5" para="2" offset="360" length="3">Wij</wf>
+    <wf wid="w63" sent="5" para="2" offset="364" length="4">zien</wf>
+    <wf wid="w64" sent="5" para="2" offset="369" length="5">niets</wf>
+    <wf wid="w65" sent="5" para="2" offset="375" length="2">in</wf>
+    <wf wid="w66" sent="5" para="2" offset="378" length="9">eurobonds</wf>
+    <wf wid="w67" sent="5" para="2" offset="388" length="2">en</wf>
+    <wf wid="w68" sent="5" para="2" offset="391" length="3">het</wf>
+    <wf wid="w69" sent="5" para="2" offset="395" length="5">leidt</wf>
+    <wf wid="w70" sent="5" para="2" offset="401" length="4">niet</wf>
+    <wf wid="w71" sent="5" para="2" offset="406" length="3">tot</wf>
+    <wf wid="w72" sent="5" para="2" offset="410" length="5">groei</wf>
+    <wf wid="w73" sent="5" para="2" offset="415" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Wij-->
+    <term tid="t62" type="close" lemma="wij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--zien-->
+    <term tid="t63" type="open" lemma="zien" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--niets-->
+    <term tid="t64" type="close" lemma="niets" pos="Q" morphofeat="pronindef">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t65" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--eurobonds-->
+    <term tid="t66" type="open" lemma="eurobonds" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t67" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t68" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--leidt-->
+    <term tid="t69" type="open" lemma="leiden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t70" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--tot-->
+    <term tid="t71" type="close" lemma="tot" pos="P" morphofeat="prep">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--groei-->
+    <term tid="t72" type="open" lemma="groei" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t73" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--het-->
+        <span>
+          <target id="t68"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--leidt niet tot groei-->
+        <span>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Wij-->
+        <span>
+          <target id="t62"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--eurobonds-->
+        <span>
+          <target id="t66"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--zien niets-->
+        <span>
+          <target id="t63"/>
+          <target id="t64"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--groei-->
+        <span>
+          <target id="t72"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

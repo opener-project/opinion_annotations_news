@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:33Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:33Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:19:39" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:27:38CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:48CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="6" wid="w1">German</wf>
+    <wf sent="1" para="1" offset="7" length="14" wid="w2">Constitutional</wf>
+    <wf sent="1" para="1" offset="22" length="5" wid="w3">Court</wf>
+    <wf sent="1" para="1" offset="28" length="5" wid="w4">backs</wf>
+    <wf sent="1" para="1" offset="34" length="4" wid="w5">Euro</wf>
+    <wf sent="1" para="1" offset="39" length="6" wid="w6">rescue</wf>
+    <wf sent="1" para="1" offset="46" length="4" wid="w7">fund</wf>
+    <wf sent="12" para="2" offset="2531" length="4" wid="w450">They</wf>
+    <wf sent="12" para="2" offset="2536" length="6" wid="w451">wanted</wf>
+    <wf sent="12" para="2" offset="2543" length="1" wid="w452">a</wf>
+    <wf sent="12" para="2" offset="2545" length="10" wid="w453">referendum</wf>
+    <wf sent="12" para="2" offset="2556" length="2" wid="w454">to</wf>
+    <wf sent="12" para="2" offset="2559" length="6" wid="w455">decide</wf>
+    <wf sent="12" para="2" offset="2566" length="3" wid="w456">the</wf>
+    <wf sent="12" para="2" offset="2570" length="5" wid="w457">issue</wf>
+    <wf sent="12" para="2" offset="2575" length="1" wid="w458">.</wf>
+  </text>
+  <terms>
+    <!--German-->
+    <term type="open" lemma="german" pos="G" morphofeat="JJ" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Constitutional-->
+    <term type="close" lemma="Constitutional" pos="R" morphofeat="NNP" tid="t2">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Court-->
+    <term type="close" lemma="Court" pos="R" morphofeat="NNP" tid="t3">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--backs-->
+    <term type="open" lemma="back" pos="V" morphofeat="VBZ" tid="t4">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Euro-->
+    <term type="close" lemma="Euro" pos="R" morphofeat="NNP" tid="t5">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--rescue-->
+    <term type="open" lemma="rescue" pos="N" morphofeat="NN" tid="t6">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--fund-->
+    <term type="open" lemma="fund" pos="N" morphofeat="NN" tid="t7">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--They-->
+    <term type="close" lemma="they" pos="Q" morphofeat="PRP" tid="t450">
+      <span>
+        <target id="w450"/>
+      </span>
+    </term>
+    <!--wanted-->
+    <term type="open" lemma="want" pos="V" morphofeat="VBD" tid="t451">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w451"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t452">
+      <span>
+        <target id="w452"/>
+      </span>
+    </term>
+    <!--referendum-->
+    <term type="open" lemma="referendum" pos="N" morphofeat="NN" tid="t453">
+      <span>
+        <target id="w453"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t454">
+      <span>
+        <target id="w454"/>
+      </span>
+    </term>
+    <!--decide-->
+    <term type="open" lemma="decide" pos="V" morphofeat="VB" tid="t455">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w455"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t456">
+      <span>
+        <target id="w456"/>
+      </span>
+    </term>
+    <!--issue-->
+    <term type="open" lemma="issue" pos="N" morphofeat="NN" tid="t457">
+      <span>
+        <target id="w457"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t458">
+      <span>
+        <target id="w458"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--They-->
+        <span>
+          <target id="t450"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--a referendum to decide the issue-->
+        <span>
+          <target id="t452"/>
+          <target id="t453"/>
+          <target id="t454"/>
+          <target id="t455"/>
+          <target id="t456"/>
+          <target id="t457"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wanted-->
+        <span>
+          <target id="t451"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--German Constitutional Court-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Euro rescue fund-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--backs-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

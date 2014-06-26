@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:55:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:55:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:55:46Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="2" offset="183" para="3" sent="4" wid="w39">Le</wf>
+    <wf length="11" offset="186" para="3" sent="4" wid="w40">coprésident</wf>
+    <wf length="2" offset="198" para="3" sent="4" wid="w41">du</wf>
+    <wf length="5" offset="201" para="3" sent="4" wid="w42">Parti</wf>
+    <wf length="2" offset="207" para="3" sent="4" wid="w43">de</wf>
+    <wf length="6" offset="210" para="3" sent="4" wid="w44">gauche</wf>
+    <wf length="1" offset="217" para="3" sent="4" wid="w45">a</wf>
+    <wf length="5" offset="219" para="3" sent="4" wid="w46">livré</wf>
+    <wf length="2" offset="225" para="3" sent="4" wid="w47">un</wf>
+    <wf length="8" offset="228" para="3" sent="4" wid="w48">discours</wf>
+    <wf length="8" offset="237" para="3" sent="4" wid="w49">offensif</wf>
+    <wf length="6" offset="246" para="3" sent="4" wid="w50">envers</wf>
+    <wf length="8" offset="253" para="3" sent="4" wid="w51">François</wf>
+    <wf length="8" offset="262" para="3" sent="4" wid="w52">Hollande</wf>
+    <wf length="1" offset="270" para="3" sent="4" wid="w53">.</wf>
+    <wf length="3" offset="655" para="4" sent="10" wid="w137">Lui</wf>
+    <wf length="5" offset="659" para="4" sent="10" wid="w138">parle</wf>
+    <wf length="2" offset="665" para="4" sent="10" wid="w139">de</wf>
+    <wf length="1" offset="668" para="4" sent="10" wid="w140">"</wf>
+    <wf length="8" offset="669" para="4" sent="10" wid="w141">triomphe</wf>
+    <wf length="1" offset="677" para="4" sent="10" wid="w142">"</wf>
+    <wf length="1" offset="679" para="4" sent="10" wid="w143">.</wf>
+  </text>
+  <terms>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t39" type="close">
+      <span>
+        <!-- Le -->
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="coprésident" morphofeat="NCms" pos="N" tid="t40" type="open">
+      <span>
+        <!-- coprésident -->
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="P" pos="P" tid="t41" type="close">
+      <span>
+        <!-- du -->
+        <target id="w41"/>
+      </span>
+    </term>
+    <term lemma="parti" morphofeat="NCms" pos="N" tid="t42" type="open">
+      <span>
+        <!-- Parti -->
+        <target id="w42"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t43" type="close">
+      <span>
+        <!-- de -->
+        <target id="w43"/>
+      </span>
+    </term>
+    <term lemma="gauche" morphofeat="NCfs" pos="N" tid="t44" type="open">
+      <span>
+        <!-- gauche -->
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t45" type="open">
+      <span>
+        <!-- a -->
+        <target id="w45"/>
+      </span>
+    </term>
+    <term lemma="livrer" morphofeat="VKms" pos="V" tid="t46" type="open">
+      <span>
+        <!-- livré -->
+        <target id="w46"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t47" type="close">
+      <span>
+        <!-- un -->
+        <target id="w47"/>
+      </span>
+    </term>
+    <term lemma="discours" morphofeat="NCms" pos="N" tid="t48" type="open">
+      <span>
+        <!-- discours -->
+        <target id="w48"/>
+      </span>
+    </term>
+    <term lemma="offensif" morphofeat="Ams" pos="G" tid="t49" type="open">
+      <span>
+        <!-- offensif -->
+        <target id="w49"/>
+      </span>
+    </term>
+    <term lemma="envers]" morphofeat="P" pos="P" tid="t50" type="close">
+      <span>
+        <!-- envers -->
+        <target id="w50"/>
+      </span>
+    </term>
+    <term lemma="François" morphofeat="NPms" pos="N" tid="t51" type="open">
+      <span>
+        <!-- François -->
+        <target id="w51"/>
+      </span>
+    </term>
+    <term lemma="hollande" morphofeat="NPms" pos="N" tid="t52" type="open">
+      <span>
+        <!-- Hollande -->
+        <target id="w52"/>
+      </span>
+    </term>
+    <term lemma="cld" morphofeat="default" pos="O" tid="t137" type="close">
+      <span>
+        <!-- Lui -->
+        <target id="w137"/>
+      </span>
+    </term>
+    <term lemma="parler" morphofeat="VP3s" pos="V" tid="t138" type="open">
+      <span>
+        <!-- parle -->
+        <target id="w138"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t139" type="close">
+      <span>
+        <!-- de -->
+        <target id="w139"/>
+      </span>
+    </term>
+    <term lemma="&amp;quot;" morphofeat="&quot;" pos="O" tid="t140" type="close">
+      <span>
+        <!-- " -->
+        <target id="w140"/>
+      </span>
+    </term>
+    <term lemma="triomphe" morphofeat="NCms" pos="N" tid="t141" type="open">
+      <span>
+        <!-- triomphe -->
+        <target id="w141"/>
+      </span>
+    </term>
+    <term lemma="&amp;quot;" morphofeat="&quot;" pos="O" tid="t142" type="close">
+      <span>
+        <!-- " -->
+        <target id="w142"/>
+      </span>
+    </term>
+  </terms>
+  <chunks/>
+  <coreferences/>
+  <features>
+    <properties/>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Le coprésident du Parti de gauche-->
+        <span>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--François Hollande-->
+        <span>
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--a livré un discours offensif-->
+        <span>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Lui-->
+        <span>
+          <target id="t137"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--triomphe-->
+        <span>
+          <target id="t141"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

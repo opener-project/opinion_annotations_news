@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:53Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:53Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:12:16CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Merkel</wf>
+    <wf wid="w2" sent="1" para="1" offset="6" length="1">:</wf>
+    <wf wid="w3" sent="1" para="1" offset="8" length="8">Oekraïne</wf>
+    <wf wid="w4" sent="1" para="1" offset="17" length="2">is</wf>
+    <wf wid="w5" sent="1" para="1" offset="20" length="3">een</wf>
+    <wf wid="w6" sent="1" para="1" offset="24" length="9">dictatuur</wf>
+    <wf wid="w7" sent="1" para="1" offset="34" length="13">vergelijkbaar</wf>
+    <wf wid="w8" sent="1" para="1" offset="48" length="3">met</wf>
+    <wf wid="w9" sent="1" para="1" offset="52" length="3">die</wf>
+    <wf wid="w10" sent="1" para="1" offset="56" length="3">van</wf>
+    <wf wid="w11" sent="1" para="1" offset="60" length="11">Wit-Rusland</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t1" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t2" type="open" lemma=":" pos="O" morphofeat="$.">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Oekraïne-->
+    <term tid="t3" type="open" lemma="Oekraïne" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t4" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t5" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--dictatuur-->
+    <term tid="t6" type="open" lemma="dictatuur" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--vergelijkbaar-->
+    <term tid="t7" type="open" lemma="vergelijkbaar" pos="G" morphofeat="adj">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t8" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--die-->
+    <term tid="t9" type="close" lemma="die" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t10" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--Wit-Rusland-->
+    <term tid="t11" type="open" lemma="Wit-Rusland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Oekraïne-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--een dictatuur-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

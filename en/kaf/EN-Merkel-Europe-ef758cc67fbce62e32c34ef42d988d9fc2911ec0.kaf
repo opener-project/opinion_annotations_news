@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:50Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:50Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:28:12" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:46:00CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:45CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="872" length="3" wid="w159">For</wf>
+    <wf sent="9" para="2" offset="876" length="4" wid="w160">them</wf>
+    <wf sent="9" para="2" offset="881" length="8" wid="w161">European</wf>
+    <wf sent="9" para="2" offset="890" length="11" wid="w162">integration</wf>
+    <wf sent="9" para="2" offset="902" length="2" wid="w163">is</wf>
+    <wf sent="9" para="2" offset="905" length="3" wid="w164">not</wf>
+    <wf sent="9" para="2" offset="909" length="3" wid="w165">the</wf>
+    <wf sent="9" para="2" offset="913" length="8" wid="w166">solution</wf>
+    <wf sent="9" para="2" offset="921" length="1" wid="w167">,</wf>
+    <wf sent="9" para="2" offset="923" length="3" wid="w168">but</wf>
+    <wf sent="9" para="2" offset="927" length="3" wid="w169">the</wf>
+    <wf sent="9" para="2" offset="931" length="7" wid="w170">problem</wf>
+    <wf sent="9" para="2" offset="938" length="1" wid="w171">.</wf>
+  </text>
+  <terms>
+    <!--For-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t159">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--them-->
+    <term type="close" lemma="them" pos="Q" morphofeat="PRP" tid="t160">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--European-->
+    <term type="open" lemma="european" pos="G" morphofeat="JJ" tid="t161">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--integration-->
+    <term type="open" lemma="integration" pos="N" morphofeat="NN" tid="t162">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t163">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t164">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t165">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--solution-->
+    <term type="open" lemma="solution" pos="N" morphofeat="NN" tid="t166">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t167">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--but-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t168">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t169">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--problem-->
+    <term type="open" lemma="problem" pos="N" morphofeat="NN" tid="t170">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t171">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--the solution-->
+        <span>
+          <target id="t165"/>
+          <target id="t166"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--not-->
+        <span>
+          <target id="t164"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--them-->
+        <span>
+          <target id="t160"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--European integration-->
+        <span>
+          <target id="t161"/>
+          <target id="t162"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--not the solution-->
+        <span>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--them-->
+        <span>
+          <target id="t160"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--European integration-->
+        <span>
+          <target id="t161"/>
+          <target id="t162"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--the problem-->
+        <span>
+          <target id="t169"/>
+          <target id="t170"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

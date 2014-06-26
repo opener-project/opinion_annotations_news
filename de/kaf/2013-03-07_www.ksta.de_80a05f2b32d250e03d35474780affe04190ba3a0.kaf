@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:01:51Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:01:51Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:01:50CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:02:12CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w197" sent="14" para="6" offset="1253" length="6">Merkel</wf>
+    <wf wid="w198" sent="14" para="6" offset="1260" length="4">will</wf>
+    <wf wid="w199" sent="14" para="6" offset="1265" length="12">Stromrabatte</wf>
+    <wf wid="w200" sent="14" para="6" offset="1278" length="3">für</wf>
+    <wf wid="w201" sent="14" para="6" offset="1282" length="3">die</wf>
+    <wf wid="w202" sent="14" para="6" offset="1286" length="9">Industrie</wf>
+    <wf wid="w203" sent="14" para="6" offset="1296" length="6">kappen</wf>
+  </text>
+  <terms>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t197" type="open">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t198" type="open">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <term lemma="Stromrabatte" morphofeat="NN unknown_lemma" pos="O" tid="t199" type="open">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t200" type="close">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t201" type="close">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <term lemma="Industrie" morphofeat="NN" pos="N" tid="t202" type="open">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <term lemma="kappen" morphofeat="VVINF" pos="V" tid="t203" type="open">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t197"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Stromrabatte kappen-->
+        <span>
+          <target id="t199"/>
+          <target id="t203"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--will-->
+        <span>
+          <target id="t198"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Stromrabatte-->
+        <span>
+          <target id="t199"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--kappen-->
+        <span>
+          <target id="t203"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

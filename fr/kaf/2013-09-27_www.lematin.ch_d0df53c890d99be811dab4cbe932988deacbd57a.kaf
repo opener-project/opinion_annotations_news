@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:49:43Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:49:43Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:49:43Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:28:00CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w166" sent="19" para="15" offset="843" length="1">«</wf>
+    <wf wid="w167" sent="19" para="15" offset="844" length="2">Ma</wf>
+    <wf wid="w168" sent="19" para="15" offset="847" length="8">carrière</wf>
+    <wf wid="w169" sent="19" para="15" offset="856" length="7">prendra</wf>
+    <wf wid="w170" sent="19" para="15" offset="864" length="3">fin</wf>
+    <wf wid="w171" sent="19" para="15" offset="868" length="2">de</wf>
+    <wf wid="w172" sent="19" para="15" offset="871" length="5">façon</wf>
+    <wf wid="w173" sent="19" para="15" offset="877" length="11">harmonieuse</wf>
+    <wf wid="w174" sent="19" para="15" offset="888" length="1">»</wf>
+    <wf wid="w175" sent="19" para="15" offset="889" length="1">,</wf>
+    <wf wid="w176" sent="19" para="15" offset="891" length="1">a</wf>
+    <wf wid="w177" sent="19" para="15" offset="893" length="7">indiqué</wf>
+    <wf wid="w178" sent="19" para="15" offset="901" length="2">un</wf>
+    <wf wid="w179" sent="19" para="15" offset="904" length="3">des</wf>
+    <wf wid="w180" sent="19" para="15" offset="908" length="12">participants</wf>
+    <wf wid="w181" sent="19" para="15" offset="920" length="1">,</wf>
+    <wf wid="w182" sent="19" para="15" offset="922" length="6">citant</wf>
+    <wf wid="w183" sent="19" para="15" offset="929" length="4">Peer</wf>
+    <wf wid="w184" sent="19" para="15" offset="934" length="10">Steinbrück</wf>
+    <wf wid="w185" sent="19" para="15" offset="944" length="1">.</wf>
+  </text>
+  <terms>
+    <!--«-->
+    <term tid="t166" type="open" lemma="«" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--Ma-->
+    <term tid="t167" type="close" lemma="son" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--carrière-->
+    <term tid="t168" type="open" lemma="carrière" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--prendra-->
+    <term tid="t169" type="open" lemma="prendre" pos="V" morphofeat="VF3s">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--fin-->
+    <term tid="t170" type="open" lemma="fin" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t171" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--façon-->
+    <term tid="t172" type="open" lemma="façon" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--harmonieuse-->
+    <term tid="t173" type="open" lemma="harmonieux" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t174" type="open" lemma="»" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t175" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t176" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--indiqué-->
+    <term tid="t177" type="open" lemma="indiquer" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t178" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t179" type="close" lemma="un" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--participants-->
+    <term tid="t180" type="open" lemma="participant" pos="N" morphofeat="NCfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t181" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--citant-->
+    <term tid="t182" type="open" lemma="citer" pos="V" morphofeat="VG">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--Peer-->
+    <term tid="t183" type="open" lemma="Peer" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--Steinbrück-->
+    <term tid="t184" type="open" lemma="Steinbrück" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t185" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Peer Steinbrück-->
+        <span>
+          <target id="t183"/>
+          <target id="t184"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Ma carrière-->
+        <span>
+          <target id="t167"/>
+          <target id="t168"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--prendra fin de façon harmonieuse-->
+        <span>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:29Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:29Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:07:02" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:59:55CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="10" para="2" offset="1094" length="7" wid="w202">Britain</wf>
+    <wf sent="10" para="2" offset="1101" length="2" wid="w203">'s</wf>
+    <wf sent="10" para="2" offset="1104" length="5" wid="w204">Royal</wf>
+    <wf sent="10" para="2" offset="1110" length="6" wid="w205">United</wf>
+    <wf sent="10" para="2" offset="1117" length="8" wid="w206">Services</wf>
+    <wf sent="10" para="2" offset="1126" length="9" wid="w207">Institute</wf>
+    <wf sent="10" para="2" offset="1135" length="1" wid="w208">,</wf>
+    <wf sent="10" para="2" offset="1137" length="1" wid="w209">a</wf>
+    <wf sent="10" para="2" offset="1139" length="8" wid="w210">military</wf>
+    <wf sent="10" para="2" offset="1148" length="5" wid="w211">think</wf>
+    <wf sent="10" para="2" offset="1154" length="4" wid="w212">tank</wf>
+    <wf sent="10" para="2" offset="1158" length="1" wid="w213">,</wf>
+    <wf sent="10" para="2" offset="1160" length="9" wid="w214">estimates</wf>
+    <wf sent="10" para="2" offset="1170" length="5" wid="w215">about</wf>
+    <wf sent="10" para="2" offset="1176" length="3" wid="w216">200</wf>
+    <wf sent="10" para="2" offset="1180" length="10" wid="w217">foreigners</wf>
+    <wf sent="10" para="2" offset="1191" length="4" wid="w218">have</wf>
+    <wf sent="10" para="2" offset="1196" length="3" wid="w219">are</wf>
+    <wf sent="10" para="2" offset="1200" length="6" wid="w220">active</wf>
+    <wf sent="10" para="2" offset="1207" length="2" wid="w221">in</wf>
+    <wf sent="10" para="2" offset="1210" length="3" wid="w222">the</wf>
+    <wf sent="10" para="2" offset="1214" length="7" wid="w223">country</wf>
+    <wf sent="10" para="2" offset="1221" length="1" wid="w224">.</wf>
+  </text>
+  <terms>
+    <!--Britain-->
+    <term type="close" lemma="Britain" pos="R" morphofeat="NNP" tid="t202">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t203">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--Royal-->
+    <term type="close" lemma="Royal" pos="R" morphofeat="NNP" tid="t204">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--United-->
+    <term type="close" lemma="United" pos="R" morphofeat="NNP" tid="t205">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--Services-->
+    <term type="close" lemma="Services" pos="R" morphofeat="NNPS" tid="t206">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--Institute-->
+    <term type="close" lemma="Institute" pos="R" morphofeat="NNP" tid="t207">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t208">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t209">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--military-->
+    <term type="open" lemma="military" pos="G" morphofeat="JJ" tid="t210">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--think-->
+    <term type="open" lemma="think" pos="N" morphofeat="NN" tid="t211">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--tank-->
+    <term type="open" lemma="tank" pos="N" morphofeat="NN" tid="t212">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t213">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--estimates-->
+    <term type="open" lemma="estimate" pos="V" morphofeat="VBZ" tid="t214">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--about-->
+    <term type="close" lemma="about" pos="P" morphofeat="IN" tid="t215">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--200-->
+    <term type="close" lemma="200" pos="O" morphofeat="CD" tid="t216">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--foreigners-->
+    <term type="open" lemma="foreigner" pos="N" morphofeat="NNS" tid="t217">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--have-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBP" tid="t218">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t219">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--active-->
+    <term type="open" lemma="active" pos="G" morphofeat="JJ" tid="t220">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t221">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t222">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--country-->
+    <term type="open" lemma="country" pos="N" morphofeat="NN" tid="t223">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t224">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

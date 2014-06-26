@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:55:45Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:55:45Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:55:45Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:18:05CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w99" sent="6" para="5" offset="550" length="2">Au</wf>
+    <wf wid="w100" sent="6" para="5" offset="553" length="2">PS</wf>
+    <wf wid="w101" sent="6" para="5" offset="555" length="1">,</wf>
+    <wf wid="w102" sent="6" para="5" offset="557" length="2">on</wf>
+    <wf wid="w103" sent="6" para="5" offset="560" length="1">a</wf>
+    <wf wid="w104" sent="6" para="5" offset="562" length="8">confirmé</wf>
+    <wf wid="w105" sent="6" para="5" offset="571" length="3">que</wf>
+    <wf wid="w106" sent="6" para="5" offset="575" length="5">cette</wf>
+    <wf wid="w107" sent="6" para="5" offset="581" length="7">version</wf>
+    <wf wid="w108" sent="6" para="5" offset="589" length="5">était</wf>
+    <wf wid="w109" sent="6" para="5" offset="595" length="5">quasi</wf>
+    <wf wid="w110" sent="6" para="5" offset="601" length="10">définitive</wf>
+    <wf wid="w111" sent="6" para="5" offset="611" length="1">,</wf>
+    <wf wid="w112" sent="6" para="5" offset="613" length="1">à</wf>
+    <wf wid="w113" sent="6" para="5" offset="615" length="2">l'</wf>
+    <wf wid="w114" sent="6" para="5" offset="617" length="9">exception</wf>
+    <wf wid="w115" sent="6" para="5" offset="627" length="2">de</wf>
+    <wf wid="w116" sent="6" para="5" offset="630" length="8">quelques</wf>
+    <wf wid="w117" sent="6" para="5" offset="639" length="10">précisions</wf>
+    <wf wid="w118" sent="6" para="5" offset="650" length="10">marginales</wf>
+    <wf wid="w119" sent="6" para="5" offset="660" length="1">.</wf>
+    <wf wid="w249" sent="12" para="9" offset="1349" length="3">Les</wf>
+    <wf wid="w250" sent="12" para="9" offset="1353" length="8">attaques</wf>
+    <wf wid="w251" sent="12" para="9" offset="1362" length="3">sur</wf>
+    <wf wid="w252" sent="12" para="9" offset="1366" length="2">la</wf>
+    <wf wid="w253" sent="12" para="9" offset="1369" length="11">chancelière</wf>
+    <wf wid="w254" sent="12" para="9" offset="1381" length="13">disparaissent</wf>
+  </text>
+  <terms>
+    <!--Au-->
+    <term tid="t99" type="close" lemma="Au" pos="P" morphofeat="P">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--PS-->
+    <term tid="t100" type="open" lemma="PS" pos="N" morphofeat="NPs">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t101" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--on-->
+    <term tid="t102" type="close" lemma="on" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t103" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--confirmé-->
+    <term tid="t104" type="open" lemma="confirmer" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--que-->
+    <term tid="t105" type="close" lemma="que" pos="C" morphofeat="CS">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--cette-->
+    <term tid="t106" type="close" lemma="ce" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--version-->
+    <term tid="t107" type="open" lemma="version" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--était-->
+    <term tid="t108" type="open" lemma="être" pos="V" morphofeat="VI3s">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--quasi-->
+    <term tid="t109" type="open" lemma="quasi" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--définitive-->
+    <term tid="t110" type="open" lemma="définitif" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t111" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t112" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t113" type="close" lemma="le" pos="D" morphofeat="D">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--exception-->
+    <term tid="t114" type="open" lemma="exception" pos="N" morphofeat="N">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t115" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--quelques-->
+    <term tid="t116" type="close" lemma="quelque" pos="D" morphofeat="Dfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--précisions-->
+    <term tid="t117" type="open" lemma="précision" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--marginales-->
+    <term tid="t118" type="open" lemma="marginal" pos="G" morphofeat="Afp">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t119" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--Les-->
+    <term tid="t249" type="close" lemma="le" pos="D" morphofeat="Dfp">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--attaques-->
+    <term tid="t250" type="open" lemma="attaque" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--sur-->
+    <term tid="t251" type="close" lemma="sur" pos="P" morphofeat="P">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t252" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--chancelière-->
+    <term tid="t253" type="open" lemma="chancelier" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--disparaissent-->
+    <term tid="t254" type="open" lemma="disparaître" pos="V" morphofeat="VP3p">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Au PS-->
+        <span>
+          <target id="t99"/>
+          <target id="t100"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--cette version-->
+        <span>
+          <target id="t106"/>
+          <target id="t107"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--quasi définitive-->
+        <span>
+          <target id="t109"/>
+          <target id="t110"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Les attaques sur la chancelière-->
+        <span>
+          <target id="t249"/>
+          <target id="t250"/>
+          <target id="t251"/>
+          <target id="t252"/>
+          <target id="t253"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--disparaissent-->
+        <span>
+          <target id="t254"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

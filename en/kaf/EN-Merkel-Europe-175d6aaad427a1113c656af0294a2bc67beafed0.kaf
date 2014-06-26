@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:50Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:50Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:53:26" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:00:37CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:59CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="13" para="2" offset="2229" length="2" wid="w410">In</wf>
+    <wf sent="13" para="2" offset="2232" length="4" wid="w411">2005</wf>
+    <wf sent="13" para="2" offset="2236" length="1" wid="w412">,</wf>
+    <wf sent="13" para="2" offset="2238" length="3" wid="w413">the</wf>
+    <wf sent="13" para="2" offset="2242" length="3" wid="w414">CDU</wf>
+    <wf sent="13" para="2" offset="2246" length="3" wid="w415">led</wf>
+    <wf sent="13" para="2" offset="2250" length="1" wid="w416">a</wf>
+    <wf sent="13" para="2" offset="2252" length="12" wid="w417">centre-right</wf>
+    <wf sent="13" para="2" offset="2265" length="9" wid="w418">coalition</wf>
+    <wf sent="13" para="2" offset="2275" length="5" wid="w419">there</wf>
+    <wf sent="13" para="2" offset="2281" length="2" wid="w420">to</wf>
+    <wf sent="13" para="2" offset="2284" length="5" wid="w421">power</wf>
+    <wf sent="13" para="2" offset="2290" length="4" wid="w422">four</wf>
+    <wf sent="13" para="2" offset="2295" length="6" wid="w423">months</wf>
+    <wf sent="13" para="2" offset="2302" length="6" wid="w424">before</wf>
+    <wf sent="13" para="2" offset="2309" length="6" wid="w425">Merkel</wf>
+    <wf sent="13" para="2" offset="2316" length="3" wid="w426">was</wf>
+    <wf sent="13" para="2" offset="2320" length="7" wid="w427">elected</wf>
+    <wf sent="13" para="2" offset="2328" length="4" wid="w428">with</wf>
+    <wf sent="13" para="2" offset="2333" length="3" wid="w429">the</wf>
+    <wf sent="13" para="2" offset="2337" length="4" wid="w430">same</wf>
+    <wf sent="13" para="2" offset="2342" length="13" wid="w431">constellation</wf>
+    <wf sent="13" para="2" offset="2356" length="2" wid="w432">in</wf>
+    <wf sent="13" para="2" offset="2359" length="6" wid="w433">Berlin</wf>
+    <wf sent="13" para="2" offset="2365" length="1" wid="w434">.</wf>
+  </text>
+  <terms>
+    <!--In-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t410">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <!--2005-->
+    <term type="close" lemma="2005" pos="O" morphofeat="CD" tid="t411">
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t412">
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t413">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+    <!--CDU-->
+    <term type="close" lemma="CDU" pos="R" morphofeat="NNP" tid="t414">
+      <span>
+        <target id="w414"/>
+      </span>
+    </term>
+    <!--led-->
+    <term type="open" lemma="lead" pos="V" morphofeat="VBD" tid="t415">
+      <span>
+        <target id="w415"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t416">
+      <span>
+        <target id="w416"/>
+      </span>
+    </term>
+    <!--centre-right-->
+    <term type="open" lemma="centre-right" pos="G" morphofeat="JJ" tid="t417">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <!--coalition-->
+    <term type="open" lemma="coalition" pos="N" morphofeat="NN" tid="t418">
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <!--there-->
+    <term type="open" lemma="there" pos="A" morphofeat="RB" tid="t419">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t420">
+      <span>
+        <target id="w420"/>
+      </span>
+    </term>
+    <!--power-->
+    <term type="open" lemma="power" pos="V" morphofeat="VB" tid="t421">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w421"/>
+      </span>
+    </term>
+    <!--four-->
+    <term type="close" lemma="four" pos="O" morphofeat="CD" tid="t422">
+      <span>
+        <target id="w422"/>
+      </span>
+    </term>
+    <!--months-->
+    <term type="open" lemma="month" pos="N" morphofeat="NNS" tid="t423">
+      <span>
+        <target id="w423"/>
+      </span>
+    </term>
+    <!--before-->
+    <term type="open" lemma="before" pos="A" morphofeat="RB" tid="t424">
+      <span>
+        <target id="w424"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t425">
+      <span>
+        <target id="w425"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t426">
+      <span>
+        <target id="w426"/>
+      </span>
+    </term>
+    <!--elected-->
+    <term type="open" lemma="elect" pos="V" morphofeat="VBN" tid="t427">
+      <span>
+        <target id="w427"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t428">
+      <span>
+        <target id="w428"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t429">
+      <span>
+        <target id="w429"/>
+      </span>
+    </term>
+    <!--same-->
+    <term type="open" lemma="same" pos="G" morphofeat="JJ" tid="t430">
+      <span>
+        <target id="w430"/>
+      </span>
+    </term>
+    <!--constellation-->
+    <term type="open" lemma="constellation" pos="N" morphofeat="NN" tid="t431">
+      <span>
+        <target id="w431"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t432">
+      <span>
+        <target id="w432"/>
+      </span>
+    </term>
+    <!--Berlin-->
+    <term type="close" lemma="Berlin" pos="R" morphofeat="NNP" tid="t433">
+      <span>
+        <target id="w433"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t434">
+      <span>
+        <target id="w434"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t410"/>
+          <target id="t411"/>
+          <target id="t412"/>
+          <target id="t413"/>
+          <target id="t414"/>
+          <target id="t415"/>
+          <target id="t416"/>
+          <target id="t417"/>
+          <target id="t418"/>
+          <target id="t419"/>
+          <target id="t420"/>
+          <target id="t421"/>
+          <target id="t422"/>
+          <target id="t423"/>
+          <target id="t424"/>
+          <target id="t425"/>
+          <target id="t426"/>
+          <target id="t427"/>
+          <target id="t428"/>
+          <target id="t429"/>
+          <target id="t430"/>
+          <target id="t431"/>
+          <target id="t432"/>
+          <target id="t433"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

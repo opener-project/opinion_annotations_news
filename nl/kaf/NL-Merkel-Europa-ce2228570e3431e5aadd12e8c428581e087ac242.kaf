@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:54Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:54Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:42:45CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Duitse</wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="8">minister</wf>
+    <wf wid="w3" sent="1" para="1" offset="16" length="8">Schäuble</wf>
+    <wf wid="w4" sent="1" para="1" offset="25" length="3">wil</wf>
+    <wf wid="w5" sent="1" para="1" offset="29" length="6">direct</wf>
+    <wf wid="w6" sent="1" para="1" offset="36" length="7">gekozen</wf>
+    <wf wid="w7" sent="1" para="1" offset="44" length="12">EU-president</wf>
+    <wf wid="w312" sent="19" para="2" offset="1819" length="9">Momenteel</wf>
+    <wf wid="w313" sent="19" para="2" offset="1829" length="2">is</wf>
+    <wf wid="w314" sent="19" para="2" offset="1832" length="2">de</wf>
+    <wf wid="w315" sent="19" para="2" offset="1835" length="9">Portugees</wf>
+    <wf wid="w316" sent="19" para="2" offset="1845" length="4">Jose</wf>
+    <wf wid="w317" sent="19" para="2" offset="1850" length="6">Manuel</wf>
+    <wf wid="w318" sent="19" para="2" offset="1857" length="7">Barroso</wf>
+    <wf wid="w319" sent="19" para="2" offset="1865" length="9">president</wf>
+    <wf wid="w320" sent="19" para="2" offset="1875" length="3">van</wf>
+    <wf wid="w321" sent="19" para="2" offset="1879" length="2">de</wf>
+    <wf wid="w322" sent="19" para="2" offset="1882" length="8">Europese</wf>
+    <wf wid="w323" sent="19" para="2" offset="1891" length="9">Commissie</wf>
+    <wf wid="w324" sent="19" para="2" offset="1900" length="1">.</wf>
+    <wf wid="w325" sent="20" para="2" offset="1902" length="3">Hij</wf>
+    <wf wid="w326" sent="20" para="2" offset="1906" length="2">is</wf>
+    <wf wid="w327" sent="20" para="2" offset="1909" length="4">niet</wf>
+    <wf wid="w328" sent="20" para="2" offset="1914" length="6">direct</wf>
+    <wf wid="w329" sent="20" para="2" offset="1921" length="7">gekozen</wf>
+    <wf wid="w330" sent="20" para="2" offset="1928" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Duitse-->
+    <term tid="t1" type="open" lemma="Duits" pos="G" morphofeat="adj">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--minister-->
+    <term tid="t2" type="open" lemma="minister" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Schäuble-->
+    <term tid="t3" type="open" lemma="Schäuble" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t4" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--direct-->
+    <term tid="t5" type="open" lemma="direct" pos="G" morphofeat="adj">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--gekozen-->
+    <term tid="t6" type="open" lemma="kiezen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w6"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--EU-president-->
+    <term tid="t7" type="open" lemma="EU-president" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Momenteel-->
+    <term tid="t312" type="open" lemma="Momenteel" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t313" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t314" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <!--Portugees-->
+    <term tid="t315" type="open" lemma="Portugees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <!--Jose-->
+    <term tid="t316" type="open" lemma="Jose" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--Manuel-->
+    <term tid="t317" type="open" lemma="Manuel" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--Barroso-->
+    <term tid="t318" type="open" lemma="Barroso" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <!--president-->
+    <term tid="t319" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t320" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t321" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t322" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--Commissie-->
+    <term tid="t323" type="open" lemma="commissie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w323"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t324" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--Hij-->
+    <term tid="t325" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t326" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t327" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <!--direct-->
+    <term tid="t328" type="open" lemma="direct" pos="G" morphofeat="adj">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--gekozen-->
+    <term tid="t329" type="open" lemma="kiezen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w329"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t330" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--Duitse minister Schäuble-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--direct gekozen EU-president-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t312"/>
+          <target id="t313"/>
+          <target id="t314"/>
+          <target id="t315"/>
+          <target id="t316"/>
+          <target id="t317"/>
+          <target id="t318"/>
+          <target id="t319"/>
+          <target id="t320"/>
+          <target id="t321"/>
+          <target id="t322"/>
+          <target id="t323"/>
+          <target id="t325"/>
+          <target id="t326"/>
+          <target id="t327"/>
+          <target id="t328"/>
+          <target id="t329"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

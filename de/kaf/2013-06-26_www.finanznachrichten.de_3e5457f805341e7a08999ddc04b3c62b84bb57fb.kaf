@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:39:31Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:39:31Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:03:05CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:39:54CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w221" sent="14" para="6" offset="1412" length="2">In</wf>
+    <wf wid="w222" sent="14" para="6" offset="1415" length="3">den</wf>
+    <wf wid="w223" sent="14" para="6" offset="1419" length="2">27</wf>
+    <wf wid="w224" sent="14" para="6" offset="1422" length="2">EU</wf>
+    <wf wid="w225" sent="14" para="6" offset="1424" length="1">·</wf>
+    <wf wid="w226" sent="14" para="6" offset="1425" length="7">Ländern</wf>
+    <wf wid="w227" sent="14" para="6" offset="1433" length="4">sind</wf>
+    <wf wid="w228" sent="14" para="6" offset="1438" length="3">5,6</wf>
+    <wf wid="w229" sent="14" para="6" offset="1442" length="9">Millionen</wf>
+    <wf wid="w230" sent="14" para="6" offset="1452" length="11">Jugendliche</wf>
+    <wf wid="w231" sent="14" para="6" offset="1464" length="3">und</wf>
+    <wf wid="w232" sent="14" para="6" offset="1468" length="5">junge</wf>
+    <wf wid="w233" sent="14" para="6" offset="1474" length="10">Erwachsene</wf>
+    <wf wid="w234" sent="14" para="6" offset="1485" length="4">ohne</wf>
+    <wf wid="w235" sent="14" para="6" offset="1490" length="6">Arbeit</wf>
+    <wf wid="w236" sent="14" para="6" offset="1497" length="1">·</wf>
+    <wf wid="w237" sent="14" para="6" offset="1499" length="3">vor</wf>
+    <wf wid="w238" sent="14" para="6" offset="1503" length="5">allem</wf>
+    <wf wid="w239" sent="14" para="6" offset="1509" length="2">in</wf>
+    <wf wid="w240" sent="14" para="6" offset="1512" length="12">Griechenland</wf>
+    <wf wid="w241" sent="14" para="6" offset="1524" length="1">,</wf>
+    <wf wid="w242" sent="14" para="6" offset="1526" length="7">Spanien</wf>
+    <wf wid="w243" sent="14" para="6" offset="1534" length="3">und</wf>
+    <wf wid="w244" sent="14" para="6" offset="1538" length="8">Portugal</wf>
+    <wf wid="w245" sent="14" para="6" offset="1546" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t221" type="close">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t222" type="close">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <term lemma="27" morphofeat="CARD" pos="O" tid="t223" type="open">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t224" type="open">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t225" type="open">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <term lemma="Land" morphofeat="NN" pos="N" tid="t226" type="open">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t227" type="open">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <term lemma="@card@" morphofeat="CARD" pos="O" tid="t228" type="open">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <term lemma="Million" morphofeat="NN" pos="N" tid="t229" type="open">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <term lemma="jugendlich" morphofeat="ADJA" pos="G" tid="t230" type="open">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t231" type="close">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <term lemma="jung" morphofeat="ADJA" pos="G" tid="t232" type="open">
+      <span>
+        <target id="w232"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Erwachsene" morphofeat="NN" pos="N" tid="t233" type="open">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <term lemma="ohne" morphofeat="APPR" pos="P" tid="t234" type="close">
+      <span>
+        <target id="w234"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="Arbeit" morphofeat="NN" pos="N" tid="t235" type="open">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t236" type="open">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <term lemma="vor" morphofeat="APPR" pos="P" tid="t237" type="close">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <term lemma="alle" morphofeat="PIS" pos="Q" tid="t238" type="close">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t239" type="close">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <term lemma="Griechenland" morphofeat="NE" pos="R" tid="t240" type="open">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t241" type="open">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <term lemma="Spanien" morphofeat="NE" pos="R" tid="t242" type="open">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t243" type="close">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <term lemma="Portugal" morphofeat="NE" pos="R" tid="t244" type="open">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t245" type="open">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+          <target id="t229"/>
+          <target id="t230"/>
+          <target id="t231"/>
+          <target id="t232"/>
+          <target id="t233"/>
+          <target id="t234"/>
+          <target id="t235"/>
+          <target id="t236"/>
+          <target id="t237"/>
+          <target id="t238"/>
+          <target id="t239"/>
+          <target id="t240"/>
+          <target id="t241"/>
+          <target id="t242"/>
+          <target id="t243"/>
+          <target id="t244"/>
+          <target id="t245"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

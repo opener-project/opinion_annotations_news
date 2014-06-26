@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:56:00" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:54:56CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="496" length="1" wid="w89">A</wf>
+    <wf sent="5" para="2" offset="498" length="5" wid="w90">total</wf>
+    <wf sent="5" para="2" offset="504" length="2" wid="w91">of</wf>
+    <wf sent="5" para="2" offset="507" length="3" wid="w92">462</wf>
+    <wf sent="5" para="2" offset="511" length="9" wid="w93">lawmakers</wf>
+    <wf sent="5" para="2" offset="521" length="6" wid="w94">backed</wf>
+    <wf sent="5" para="2" offset="528" length="6" wid="w95">Merkel</wf>
+    <wf sent="5" para="2" offset="535" length="3" wid="w96">for</wf>
+    <wf sent="5" para="2" offset="539" length="10" wid="w97">chancellor</wf>
+    <wf sent="5" para="2" offset="549" length="1" wid="w98">,</wf>
+    <wf sent="5" para="2" offset="551" length="4" wid="w99">with</wf>
+    <wf sent="5" para="2" offset="556" length="3" wid="w100">150</wf>
+    <wf sent="5" para="2" offset="560" length="6" wid="w101">voting</wf>
+    <wf sent="5" para="2" offset="567" length="7" wid="w102">against</wf>
+    <wf sent="5" para="2" offset="575" length="3" wid="w103">and</wf>
+    <wf sent="5" para="2" offset="579" length="1" wid="w104">9</wf>
+    <wf sent="5" para="2" offset="581" length="10" wid="w105">abstaining</wf>
+    <wf sent="5" para="2" offset="591" length="1" wid="w106">.</wf>
+  </text>
+  <terms>
+    <!--A-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t89">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--total-->
+    <term type="open" lemma="total" pos="N" morphofeat="NN" tid="t90">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t91">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--462-->
+    <term type="close" lemma="462" pos="O" morphofeat="CD" tid="t92">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--lawmakers-->
+    <term type="open" lemma="lawmaker" pos="N" morphofeat="NNS" tid="t93">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--backed-->
+    <term type="open" lemma="back" pos="V" morphofeat="VBD" tid="t94">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t95">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t96">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--chancellor-->
+    <term type="open" lemma="chancellor" pos="N" morphofeat="NN" tid="t97">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t98">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t99">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--150-->
+    <term type="close" lemma="150" pos="O" morphofeat="CD" tid="t100">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--voting-->
+    <term type="open" lemma="voting" pos="N" morphofeat="NN" tid="t101">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--against-->
+    <term type="close" lemma="against" pos="P" morphofeat="IN" tid="t102">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t103">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--9-->
+    <term type="close" lemma="9" pos="O" morphofeat="CD" tid="t104">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--abstaining-->
+    <term type="open" lemma="abstaining" pos="N" morphofeat="NN" tid="t105">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t106">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--462 lawmakers-->
+        <span>
+          <target id="t92"/>
+          <target id="t93"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Merkel-->
+        <span>
+          <target id="t95"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--backed-->
+        <span>
+          <target id="t94"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

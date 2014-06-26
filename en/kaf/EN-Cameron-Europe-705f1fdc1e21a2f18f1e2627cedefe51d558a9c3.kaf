@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:04:35Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:04:35Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:30:14" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:38:38CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="290" length="3" wid="w51">The</wf>
+    <wf sent="5" para="2" offset="294" length="7" wid="w52">British</wf>
+    <wf sent="5" para="2" offset="302" length="8" wid="w53">business</wf>
+    <wf sent="5" para="2" offset="311" length="5" wid="w54">lobby</wf>
+    <wf sent="5" para="2" offset="317" length="5" wid="w55">urged</wf>
+    <wf sent="5" para="2" offset="323" length="3" wid="w56">him</wf>
+    <wf sent="5" para="2" offset="327" length="2" wid="w57">to</wf>
+    <wf sent="5" para="2" offset="330" length="6" wid="w58">ignore</wf>
+    <wf sent="5" para="2" offset="337" length="7" wid="w59">growing</wf>
+    <wf sent="5" para="2" offset="345" length="1" wid="w60">“</wf>
+    <wf sent="5" para="2" offset="346" length="11" wid="w61">Eurosceptic</wf>
+    <wf sent="5" para="2" offset="357" length="1" wid="w62">”</wf>
+    <wf sent="5" para="2" offset="359" length="5" wid="w63">calls</wf>
+    <wf sent="5" para="2" offset="365" length="2" wid="w64">to</wf>
+    <wf sent="5" para="2" offset="368" length="3" wid="w65">cut</wf>
+    <wf sent="5" para="2" offset="372" length="4" wid="w66">ties</wf>
+    <wf sent="5" para="2" offset="377" length="4" wid="w67">with</wf>
+    <wf sent="5" para="2" offset="382" length="6" wid="w68">Europe</wf>
+    <wf sent="5" para="2" offset="388" length="1" wid="w69">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t51">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--British-->
+    <term type="open" lemma="british" pos="G" morphofeat="JJ" tid="t52">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--business-->
+    <term type="open" lemma="business" pos="N" morphofeat="NN" tid="t53">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--lobby-->
+    <term type="open" lemma="lobby" pos="N" morphofeat="NN" tid="t54">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--urged-->
+    <term type="open" lemma="urge" pos="V" morphofeat="VBD" tid="t55">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--him-->
+    <term type="close" lemma="him" pos="Q" morphofeat="PRP" tid="t56">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t57">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--ignore-->
+    <term type="open" lemma="ignore" pos="V" morphofeat="VB" tid="t58">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--growing-->
+    <term type="open" lemma="grow" pos="V" morphofeat="VBG" tid="t59">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--“-->
+    <term type="open" lemma="“" pos="G" morphofeat="JJ" tid="t60">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--Eurosceptic-->
+    <term type="open" lemma="eurosceptic" pos="G" morphofeat="JJ" tid="t61">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--”-->
+    <term type="open" lemma="”" pos="N" morphofeat="NN" tid="t62">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--calls-->
+    <term type="open" lemma="call" pos="V" morphofeat="VBZ" tid="t63">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t64">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--cut-->
+    <term type="open" lemma="cut" pos="V" morphofeat="VB" tid="t65">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--ties-->
+    <term type="open" lemma="tie" pos="N" morphofeat="NNS" tid="t66">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--with-->
+    <term type="close" lemma="with" pos="P" morphofeat="IN" tid="t67">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term type="close" lemma="Europe" pos="R" morphofeat="NNP" tid="t68">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t69">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--growing “ Eurosceptic ” calls-->
+        <span>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ignore-->
+        <span>
+          <target id="t58"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder>
+        <!--The British business lobby-->
+        <span>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--to ignore growing “ Eurosceptic ” calls-->
+        <span>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--urged-->
+        <span>
+          <target id="t55"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Europe-->
+        <span>
+          <target id="t68"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--cut ties with-->
+        <span>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

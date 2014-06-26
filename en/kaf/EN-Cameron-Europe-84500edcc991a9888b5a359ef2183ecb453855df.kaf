@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:57:54" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:42:08CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="5" para="2" offset="567" length="2" wid="w100">In</wf>
+    <wf sent="5" para="2" offset="570" length="3" wid="w101">one</wf>
+    <wf sent="5" para="2" offset="574" length="4" wid="w102">case</wf>
+    <wf sent="5" para="2" offset="578" length="1" wid="w103">,</wf>
+    <wf sent="5" para="2" offset="580" length="7" wid="w104">testing</wf>
+    <wf sent="5" para="2" offset="588" length="8" wid="w105">revealed</wf>
+    <wf sent="5" para="2" offset="597" length="2" wid="w106">up</wf>
+    <wf sent="5" para="2" offset="600" length="2" wid="w107">to</wf>
+    <wf sent="5" para="2" offset="603" length="2" wid="w108">29</wf>
+    <wf sent="5" para="2" offset="605" length="1" wid="w109">%</wf>
+    <wf sent="5" para="2" offset="607" length="2" wid="w110">of</wf>
+    <wf sent="5" para="2" offset="610" length="1" wid="w111">a</wf>
+    <wf sent="5" para="2" offset="612" length="5" wid="w112">Tesco</wf>
+    <wf sent="5" para="2" offset="618" length="6" wid="w113">burger</wf>
+    <wf sent="5" para="2" offset="625" length="3" wid="w114">was</wf>
+    <wf sent="5" para="2" offset="629" length="5" wid="w115">horse</wf>
+    <wf sent="5" para="2" offset="635" length="4" wid="w116">meat</wf>
+    <wf sent="5" para="2" offset="639" length="1" wid="w117">,</wf>
+    <wf sent="5" para="2" offset="641" length="5" wid="w118">while</wf>
+    <wf sent="5" para="2" offset="647" length="3" wid="w119">pig</wf>
+    <wf sent="5" para="2" offset="651" length="8" wid="w120">products</wf>
+    <wf sent="5" para="2" offset="660" length="4" wid="w121">were</wf>
+    <wf sent="5" para="2" offset="665" length="5" wid="w122">found</wf>
+    <wf sent="5" para="2" offset="671" length="2" wid="w123">in</wf>
+    <wf sent="5" para="2" offset="674" length="5" wid="w124">items</wf>
+    <wf sent="5" para="2" offset="680" length="8" wid="w125">labelled</wf>
+    <wf sent="5" para="2" offset="689" length="4" wid="w126">beef</wf>
+    <wf sent="5" para="2" offset="693" length="1" wid="w127">.</wf>
+  </text>
+  <terms>
+    <!--In-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t100">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--one-->
+    <term type="close" lemma="one" pos="O" morphofeat="CD" tid="t101">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--case-->
+    <term type="open" lemma="case" pos="N" morphofeat="NN" tid="t102">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t103">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--testing-->
+    <term type="open" lemma="testing" pos="N" morphofeat="NN" tid="t104">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--revealed-->
+    <term type="open" lemma="reveal" pos="V" morphofeat="VBD" tid="t105">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--up-->
+    <term type="close" lemma="up" pos="P" morphofeat="IN" tid="t106">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t107">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--29-->
+    <term type="close" lemma="29" pos="O" morphofeat="CD" tid="t108">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--%-->
+    <term type="open" lemma="%" pos="N" morphofeat="NN" tid="t109">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t110">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t111">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--Tesco-->
+    <term type="close" lemma="Tesco" pos="R" morphofeat="NNP" tid="t112">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--burger-->
+    <term type="open" lemma="burger" pos="N" morphofeat="NN" tid="t113">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t114">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--horse-->
+    <term type="open" lemma="horse" pos="N" morphofeat="NN" tid="t115">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--meat-->
+    <term type="open" lemma="meat" pos="N" morphofeat="NN" tid="t116">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t117">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--while-->
+    <term type="close" lemma="while" pos="P" morphofeat="IN" tid="t118">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--pig-->
+    <term type="open" lemma="pig" pos="N" morphofeat="NN" tid="t119">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--products-->
+    <term type="open" lemma="product" pos="N" morphofeat="NNS" tid="t120">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--were-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t121">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--found-->
+    <term type="open" lemma="find" pos="V" morphofeat="VBN" tid="t122">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t123">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--items-->
+    <term type="open" lemma="item" pos="N" morphofeat="NNS" tid="t124">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--labelled-->
+    <term type="open" lemma="label" pos="V" morphofeat="VBD" tid="t125">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--beef-->
+    <term type="open" lemma="beef" pos="N" morphofeat="NN" tid="t126">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t127">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:57Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:57Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:05:02" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:58:44CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:50CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="8" para="2" offset="643" length="3" wid="w113">The</wf>
+    <wf sent="8" para="2" offset="647" length="3" wid="w114">VVD</wf>
+    <wf sent="8" para="2" offset="651" length="4" wid="w115">took</wf>
+    <wf sent="8" para="2" offset="656" length="2" wid="w116">41</wf>
+    <wf sent="8" para="2" offset="659" length="5" wid="w117">seats</wf>
+    <wf sent="8" para="2" offset="665" length="2" wid="w118">in</wf>
+    <wf sent="8" para="2" offset="668" length="3" wid="w119">the</wf>
+    <wf sent="8" para="2" offset="672" length="10" wid="w120">150-member</wf>
+    <wf sent="8" para="2" offset="683" length="5" wid="w121">lower</wf>
+    <wf sent="8" para="2" offset="689" length="5" wid="w122">house</wf>
+    <wf sent="8" para="2" offset="694" length="1" wid="w123">,</wf>
+    <wf sent="8" para="2" offset="696" length="5" wid="w124">three</wf>
+    <wf sent="8" para="2" offset="702" length="4" wid="w125">more</wf>
+    <wf sent="8" para="2" offset="707" length="4" wid="w126">than</wf>
+    <wf sent="8" para="2" offset="712" length="6" wid="w127">Labour</wf>
+    <wf sent="8" para="2" offset="718" length="1" wid="w128">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t113">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--VVD-->
+    <term type="close" lemma="VVD" pos="R" morphofeat="NNP" tid="t114">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--took-->
+    <term type="open" lemma="take" pos="V" morphofeat="VBD" tid="t115">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--41-->
+    <term type="close" lemma="41" pos="O" morphofeat="CD" tid="t116">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--seats-->
+    <term type="open" lemma="seat" pos="N" morphofeat="NNS" tid="t117">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t118">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t119">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--150-member-->
+    <term type="open" lemma="150-member" pos="G" morphofeat="JJ" tid="t120">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--lower-->
+    <term type="open" lemma="lower" pos="G" morphofeat="JJR" tid="t121">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--house-->
+    <term type="open" lemma="house" pos="N" morphofeat="NN" tid="t122">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t123">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--three-->
+    <term type="close" lemma="three" pos="O" morphofeat="CD" tid="t124">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--more-->
+    <term type="open" lemma="more" pos="G" morphofeat="JJR" tid="t125">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--than-->
+    <term type="close" lemma="than" pos="P" morphofeat="IN" tid="t126">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--Labour-->
+    <term type="close" lemma="Labour" pos="R" morphofeat="NNP" tid="t127">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t128">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

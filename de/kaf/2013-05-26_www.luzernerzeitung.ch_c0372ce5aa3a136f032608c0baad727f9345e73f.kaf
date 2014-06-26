@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:14:29Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:14:29Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:08:13CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:14:44CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w100" sent="8" para="6" offset="671" length="6">Merkel</wf>
+    <wf wid="w101" sent="8" para="6" offset="678" length="5">sagte</wf>
+    <wf wid="w102" sent="8" para="6" offset="683" length="1">,</wf>
+    <wf wid="w103" sent="8" para="6" offset="685" length="3">sie</wf>
+    <wf wid="w104" sent="8" para="6" offset="689" length="5">halte</wf>
+    <wf wid="w105" sent="8" para="6" offset="695" length="6">nichts</wf>
+    <wf wid="w106" sent="8" para="6" offset="702" length="3">von</wf>
+    <wf wid="w107" sent="8" para="6" offset="706" length="11">dauerhaften</wf>
+    <wf wid="w108" sent="8" para="6" offset="718" length="11">Strafzöllen</wf>
+    <wf wid="w109" sent="8" para="6" offset="729" length="1">.</wf>
+    <wf wid="w110" sent="9" para="6" offset="731" length="11">Deutschland</wf>
+    <wf wid="w111" sent="9" para="6" offset="743" length="5">werde</wf>
+    <wf wid="w112" sent="9" para="6" offset="749" length="4">sich</wf>
+    <wf wid="w113" sent="9" para="6" offset="754" length="2">in</wf>
+    <wf wid="w114" sent="9" para="6" offset="757" length="3">den</wf>
+    <wf wid="w115" sent="9" para="6" offset="761" length="8">nächsten</wf>
+    <wf wid="w116" sent="9" para="6" offset="770" length="5">sechs</wf>
+    <wf wid="w117" sent="9" para="6" offset="776" length="7">Monaten</wf>
+    <wf wid="w118" sent="9" para="6" offset="784" length="8">intensiv</wf>
+    <wf wid="w119" sent="9" para="6" offset="793" length="3">für</wf>
+    <wf wid="w120" sent="9" para="6" offset="797" length="4">eine</wf>
+    <wf wid="w121" sent="9" para="6" offset="802" length="18">Verhandlungslösung</wf>
+    <wf wid="w122" sent="9" para="6" offset="821" length="8">zwischen</wf>
+    <wf wid="w123" sent="9" para="6" offset="830" length="5">China</wf>
+    <wf wid="w124" sent="9" para="6" offset="836" length="3">und</wf>
+    <wf wid="w125" sent="9" para="6" offset="840" length="3">der</wf>
+    <wf wid="w126" sent="9" para="6" offset="844" length="12">Europäischen</wf>
+    <wf wid="w127" sent="9" para="6" offset="857" length="5">Union</wf>
+    <wf wid="w128" sent="9" para="6" offset="863" length="5">stark</wf>
+    <wf wid="w129" sent="9" para="6" offset="869" length="6">machen</wf>
+    <wf wid="w130" sent="9" para="6" offset="875" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t100" type="open">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t101" type="open">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t102" type="open">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <term lemma="sie" morphofeat="PPER" pos="Q" tid="t103" type="close">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <term lemma="halten" morphofeat="VVFIN" pos="V" tid="t104" type="open">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <term lemma="nichts" morphofeat="PIS" pos="Q" tid="t105" type="close">
+      <span>
+        <target id="w105"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t106" type="close">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <term lemma="dauerhaft" morphofeat="ADJA" pos="G" tid="t107" type="open">
+      <span>
+        <target id="w107"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Strafzoll" morphofeat="NN" pos="N" tid="t108" type="open">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t109" type="open">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <term lemma="Deutschland" morphofeat="NE" pos="R" tid="t110" type="open">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t111" type="open">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t112" type="close">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t113" type="close">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t114" type="close">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <term lemma="nah" morphofeat="ADJA" pos="G" tid="t115" type="open">
+      <span>
+        <target id="w115"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="sechs" morphofeat="CARD" pos="O" tid="t116" type="open">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <term lemma="Monat" morphofeat="NN" pos="N" tid="t117" type="open">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <term lemma="intensiv" morphofeat="ADJD" pos="G" tid="t118" type="open">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t119" type="close">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t120" type="close">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <term lemma="Verhandlungslösung" morphofeat="NN" pos="N" tid="t121" type="open">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <term lemma="zwischen" morphofeat="APPR" pos="P" tid="t122" type="close">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <term lemma="China" morphofeat="NE" pos="R" tid="t123" type="open">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t124" type="close">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t125" type="close">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <term lemma="europäisch" morphofeat="ADJA" pos="G" tid="t126" type="open">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <term lemma="Union" morphofeat="NN" pos="N" tid="t127" type="open">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <term lemma="stark" morphofeat="ADJD" pos="G" tid="t128" type="open">
+      <span>
+        <target id="w128"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="machen" morphofeat="VVINF" pos="V" tid="t129" type="open">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t130" type="open">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stark machen-->
+        <span>
+          <target id="t128"/>
+          <target id="t129"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--intensiv-->
+        <span>
+          <target id="t118"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t100"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--dauerhaften Strafzöllen-->
+        <span>
+          <target id="t107"/>
+          <target id="t108"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--halte nichts von-->
+        <span>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--der Europäischen Union-->
+        <span>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--eine Verhandlungslösung-->
+        <span>
+          <target id="t120"/>
+          <target id="t121"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--China-->
+        <span>
+          <target id="t123"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--eine Verhandlungslösung-->
+        <span>
+          <target id="t120"/>
+          <target id="t121"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

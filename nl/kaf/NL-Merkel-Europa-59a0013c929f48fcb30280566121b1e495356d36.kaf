@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:37:44CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:26CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w73" sent="5" para="2" offset="441" length="1">"</wf>
+    <wf wid="w74" sent="5" para="2" offset="442" length="2">De</wf>
+    <wf wid="w75" sent="5" para="2" offset="445" length="8">Europese</wf>
+    <wf wid="w76" sent="5" para="2" offset="454" length="14">schuldencrisis</wf>
+    <wf wid="w77" sent="5" para="2" offset="469" length="9">verergert</wf>
+    <wf wid="w78" sent="5" para="2" offset="479" length="2">en</wf>
+    <wf wid="w79" sent="5" para="2" offset="482" length="3">dit</wf>
+    <wf wid="w80" sent="5" para="2" offset="486" length="2">is</wf>
+    <wf wid="w81" sent="5" para="2" offset="489" length="10">aanleiding</wf>
+    <wf wid="w82" sent="5" para="2" offset="500" length="3">tot</wf>
+    <wf wid="w83" sent="5" para="2" offset="504" length="5">grote</wf>
+    <wf wid="w84" sent="5" para="2" offset="510" length="4">zorg</wf>
+    <wf wid="w85" sent="5" para="2" offset="515" length="3">bij</wf>
+    <wf wid="w86" sent="5" para="2" offset="519" length="2">de</wf>
+    <wf wid="w87" sent="5" para="2" offset="522" length="14">internationale</wf>
+    <wf wid="w88" sent="5" para="2" offset="537" length="11">gemeenschap</wf>
+    <wf wid="w89" sent="5" para="2" offset="548" length="1">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term tid="t73" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t74" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t75" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--schuldencrisis-->
+    <term tid="t76" type="open" lemma="schuldencrisis" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--verergert-->
+    <term tid="t77" type="open" lemma="verergeren" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w77"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--en-->
+    <term tid="t78" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--dit-->
+    <term tid="t79" type="close" lemma="dit" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t80" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--aanleiding-->
+    <term tid="t81" type="open" lemma="aanleiding" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--tot-->
+    <term tid="t82" type="close" lemma="tot" pos="P" morphofeat="prep">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--grote-->
+    <term tid="t83" type="open" lemma="groot" pos="G" morphofeat="adj">
+      <span>
+        <target id="w83"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--zorg-->
+    <term tid="t84" type="open" lemma="zorg" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w84"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--bij-->
+    <term tid="t85" type="close" lemma="bij" pos="P" morphofeat="prep">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t86" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--internationale-->
+    <term tid="t87" type="open" lemma="internationaal" pos="G" morphofeat="adj">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--gemeenschap-->
+    <term tid="t88" type="open" lemma="gemeenschap" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w88"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t89" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--schuldencrisis-->
+        <span>
+          <target id="t76"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--De Europese schuldencrisis-->
+        <span>
+          <target id="t74"/>
+          <target id="t75"/>
+          <target id="t76"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--verergert-->
+        <span>
+          <target id="t77"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

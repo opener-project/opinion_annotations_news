@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:42Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:42Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:21:58" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:13:29CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="1" para="1" offset="0" length="5" wid="w1">David</wf>
+    <wf sent="1" para="1" offset="6" length="7" wid="w2">Cameron</wf>
+    <wf sent="1" para="1" offset="14" length="2" wid="w3">is</wf>
+    <wf sent="1" para="1" offset="17" length="1" wid="w4">a</wf>
+    <wf sent="1" para="1" offset="19" length="5" wid="w5">brave</wf>
+    <wf sent="1" para="1" offset="25" length="3" wid="w6">and</wf>
+    <wf sent="1" para="1" offset="29" length="6" wid="w7">decent</wf>
+    <wf sent="1" para="1" offset="36" length="3" wid="w8">man</wf>
+    <wf sent="1" para="1" offset="39" length="1" wid="w9">.</wf>
+    <wf sent="41" para="2" offset="4531" length="5" wid="w887">There</wf>
+    <wf sent="41" para="2" offset="4537" length="3" wid="w888">are</wf>
+    <wf sent="41" para="2" offset="4541" length="3" wid="w889">939</wf>
+    <wf sent="41" para="2" offset="4545" length="4" wid="w890">days</wf>
+    <wf sent="41" para="2" offset="4550" length="4" wid="w891">left</wf>
+    <wf sent="41" para="2" offset="4555" length="6" wid="w892">before</wf>
+    <wf sent="41" para="2" offset="4562" length="3" wid="w893">the</wf>
+    <wf sent="41" para="2" offset="4566" length="4" wid="w894">next</wf>
+    <wf sent="41" para="2" offset="4571" length="7" wid="w895">general</wf>
+    <wf sent="41" para="2" offset="4579" length="8" wid="w896">election</wf>
+    <wf sent="41" para="2" offset="4587" length="1" wid="w897">,</wf>
+    <wf sent="41" para="2" offset="4589" length="9" wid="w898">according</wf>
+    <wf sent="41" para="2" offset="4599" length="2" wid="w899">to</wf>
+    <wf sent="41" para="2" offset="4602" length="3" wid="w900">the</wf>
+    <wf sent="41" para="2" offset="4606" length="5" wid="w901">clock</wf>
+    <wf sent="41" para="2" offset="4612" length="2" wid="w902">in</wf>
+    <wf sent="41" para="2" offset="4615" length="12" wid="w903">Conservative</wf>
+    <wf sent="41" para="2" offset="4628" length="7" wid="w904">Central</wf>
+    <wf sent="41" para="2" offset="4636" length="6" wid="w905">Office</wf>
+    <wf sent="41" para="2" offset="4642" length="1" wid="w906">.</wf>
+  </text>
+  <terms>
+    <!--David-->
+    <term type="close" lemma="David" pos="R" morphofeat="NNP" tid="t1">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t2">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--is-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBZ" tid="t3">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t4">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--brave-->
+    <term type="open" lemma="brave" pos="G" morphofeat="JJ" tid="t5">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t6">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--decent-->
+    <term type="open" lemma="decent" pos="G" morphofeat="JJ" tid="t7">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--man-->
+    <term type="open" lemma="man" pos="N" morphofeat="NN" tid="t8">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t9">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--There-->
+    <term type="close" lemma="there" pos="O" morphofeat="EX" tid="t887">
+      <span>
+        <target id="w887"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t888">
+      <span>
+        <target id="w888"/>
+      </span>
+    </term>
+    <!--939-->
+    <term type="close" lemma="939" pos="O" morphofeat="CD" tid="t889">
+      <span>
+        <target id="w889"/>
+      </span>
+    </term>
+    <!--days-->
+    <term type="open" lemma="day" pos="N" morphofeat="NNS" tid="t890">
+      <span>
+        <target id="w890"/>
+      </span>
+    </term>
+    <!--left-->
+    <term type="open" lemma="leave" pos="V" morphofeat="VBN" tid="t891">
+      <span>
+        <target id="w891"/>
+      </span>
+    </term>
+    <!--before-->
+    <term type="open" lemma="before" pos="A" morphofeat="RB" tid="t892">
+      <span>
+        <target id="w892"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t893">
+      <span>
+        <target id="w893"/>
+      </span>
+    </term>
+    <!--next-->
+    <term type="open" lemma="next" pos="G" morphofeat="JJ" tid="t894">
+      <span>
+        <target id="w894"/>
+      </span>
+    </term>
+    <!--general-->
+    <term type="open" lemma="general" pos="G" morphofeat="JJ" tid="t895">
+      <span>
+        <target id="w895"/>
+      </span>
+    </term>
+    <!--election-->
+    <term type="open" lemma="election" pos="N" morphofeat="NN" tid="t896">
+      <span>
+        <target id="w896"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t897">
+      <span>
+        <target id="w897"/>
+      </span>
+    </term>
+    <!--according-->
+    <term type="open" lemma="accord" pos="V" morphofeat="VBG" tid="t898">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w898"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t899">
+      <span>
+        <target id="w899"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t900">
+      <span>
+        <target id="w900"/>
+      </span>
+    </term>
+    <!--clock-->
+    <term type="open" lemma="clock" pos="N" morphofeat="NN" tid="t901">
+      <span>
+        <target id="w901"/>
+      </span>
+    </term>
+    <!--in-->
+    <term type="close" lemma="in" pos="P" morphofeat="IN" tid="t902">
+      <span>
+        <target id="w902"/>
+      </span>
+    </term>
+    <!--Conservative-->
+    <term type="close" lemma="Conservative" pos="R" morphofeat="NNP" tid="t903">
+      <span>
+        <target id="w903"/>
+      </span>
+    </term>
+    <!--Central-->
+    <term type="close" lemma="Central" pos="R" morphofeat="NNP" tid="t904">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w904"/>
+      </span>
+    </term>
+    <!--Office-->
+    <term type="close" lemma="Office" pos="R" morphofeat="NNP" tid="t905">
+      <span>
+        <target id="w905"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t906">
+      <span>
+        <target id="w906"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--man-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--decent-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--man-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--brave-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--David Cameron-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--brave-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--David Cameron-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--decent-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t887"/>
+          <target id="t888"/>
+          <target id="t889"/>
+          <target id="t890"/>
+          <target id="t891"/>
+          <target id="t892"/>
+          <target id="t893"/>
+          <target id="t894"/>
+          <target id="t895"/>
+          <target id="t896"/>
+          <target id="t897"/>
+          <target id="t898"/>
+          <target id="t899"/>
+          <target id="t900"/>
+          <target id="t901"/>
+          <target id="t902"/>
+          <target id="t903"/>
+          <target id="t904"/>
+          <target id="t905"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:58Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:58Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:38:54CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:29CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w197" sent="13" para="2" offset="1188" length="3">Van</wf>
+    <wf wid="w198" sent="13" para="2" offset="1192" length="6">Rompuy</wf>
+    <wf wid="w199" sent="13" para="2" offset="1199" length="5">stelt</wf>
+    <wf wid="w200" sent="13" para="2" offset="1205" length="4">voor</wf>
+    <wf wid="w201" sent="13" para="2" offset="1210" length="2">om</wf>
+    <wf wid="w202" sent="13" para="2" offset="1213" length="2">de</wf>
+    <wf wid="w203" sent="13" para="2" offset="1216" length="12">EU-begroting</wf>
+    <wf wid="w204" sent="13" para="2" offset="1229" length="3">met</wf>
+    <wf wid="w205" sent="13" para="2" offset="1233" length="2">80</wf>
+    <wf wid="w206" sent="13" para="2" offset="1236" length="7">miljard</wf>
+    <wf wid="w207" sent="13" para="2" offset="1244" length="2">te</wf>
+    <wf wid="w208" sent="13" para="2" offset="1247" length="8">verlagen</wf>
+    <wf wid="w209" sent="13" para="2" offset="1255" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Van-->
+    <term tid="t197" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--Rompuy-->
+    <term tid="t198" type="open" lemma="Rompuy" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--stelt-->
+    <term tid="t199" type="open" lemma="stellen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w199"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--voor-->
+    <term tid="t200" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t201" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t202" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--EU-begroting-->
+    <term tid="t203" type="open" lemma="EU-begroting" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t204" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--80-->
+    <term tid="t205" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--miljard-->
+    <term tid="t206" type="open" lemma="miljard" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t207" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--verlagen-->
+    <term tid="t208" type="open" lemma="verlagen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w208"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t209" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Van Rompuy-->
+        <span>
+          <target id="t197"/>
+          <target id="t198"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de EU-begroting te verlagen-->
+        <span>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t207"/>
+          <target id="t208"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--stelt voor-->
+        <span>
+          <target id="t199"/>
+          <target id="t200"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--de EU-begroting-->
+        <span>
+          <target id="t202"/>
+          <target id="t203"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--verlagen-->
+        <span>
+          <target id="t208"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

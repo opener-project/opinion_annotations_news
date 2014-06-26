@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:55:43Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:55:43Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:55:43Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:34:38CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w290" sent="16" para="9" offset="1553" length="4">Elle</wf>
+    <wf wid="w291" sent="16" para="9" offset="1558" length="8">souhaite</wf>
+    <wf wid="w292" sent="16" para="9" offset="1567" length="8">redonner</wf>
+    <wf wid="w293" sent="16" para="9" offset="1576" length="2">le</wf>
+    <wf wid="w294" sent="16" para="9" offset="1579" length="4">sens</wf>
+    <wf wid="w295" sent="16" para="9" offset="1585" length="2">de</wf>
+    <wf wid="w296" sent="16" para="9" offset="1588" length="2">l'</wf>
+    <wf wid="w297" sent="16" para="9" offset="1590" length="6">effort</wf>
+    <wf wid="w298" sent="16" para="9" offset="1596" length="1">,</wf>
+    <wf wid="w299" sent="16" para="9" offset="1598" length="8">exigeant</wf>
+    <wf wid="w300" sent="16" para="9" offset="1607" length="2">le</wf>
+    <wf wid="w301" sent="16" para="9" offset="1610" length="1">"</wf>
+    <wf wid="w302" sent="16" para="9" offset="1611" length="6">réveil</wf>
+    <wf wid="w303" sent="16" para="9" offset="1617" length="1">"</wf>
+    <wf wid="w304" sent="16" para="9" offset="1619" length="2">du</wf>
+    <wf wid="w305" sent="16" para="9" offset="1622" length="4">pays</wf>
+    <wf wid="w306" sent="16" para="9" offset="1626" length="1">.</wf>
+    <wf wid="w479" sent="25" para="13" offset="2468" length="4">Mais</wf>
+    <wf wid="w480" sent="25" para="13" offset="2474" length="3">son</wf>
+    <wf wid="w481" sent="25" para="13" offset="2478" length="9">caractère</wf>
+    <wf wid="w482" sent="25" para="13" offset="2488" length="10">implacable</wf>
+    <wf wid="w483" sent="25" para="13" offset="2499" length="2">se</wf>
+    <wf wid="w484" sent="25" para="13" offset="2502" length="8">retourne</wf>
+    <wf wid="w485" sent="25" para="13" offset="2511" length="6">contre</wf>
+    <wf wid="w486" sent="25" para="13" offset="2518" length="4">elle</wf>
+    <wf wid="w487" sent="25" para="13" offset="2522" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Elle-->
+    <term tid="t290" type="close" lemma="lui" pos="Q" morphofeat="CL3fs">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--souhaite-->
+    <term tid="t291" type="open" lemma="souhaiter" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--redonner-->
+    <term tid="t292" type="open" lemma="redonner" pos="V" morphofeat="VW">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t293" type="close" lemma="le" pos="D" morphofeat="D">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--sens-->
+    <term tid="t294" type="open" lemma="sens" pos="N" morphofeat="N">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t295" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t296" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--effort-->
+    <term tid="t297" type="open" lemma="effort" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t298" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--exigeant-->
+    <term tid="t299" type="open" lemma="exiger" pos="V" morphofeat="VG">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t300" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t301" type="close" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--réveil-->
+    <term tid="t302" type="open" lemma="réveil" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t303" type="close" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t304" type="close" lemma="du" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <!--pays-->
+    <term tid="t305" type="open" lemma="pays" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t306" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <!--Mais-->
+    <term tid="t479" type="close" lemma="Mais" pos="C" morphofeat="CC">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w479"/>
+      </span>
+    </term>
+    <!--son-->
+    <term tid="t480" type="close" lemma="son" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w480"/>
+      </span>
+    </term>
+    <!--caractère-->
+    <term tid="t481" type="open" lemma="caractère" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w481"/>
+      </span>
+    </term>
+    <!--implacable-->
+    <term tid="t482" type="open" lemma="implacable" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w482"/>
+      </span>
+    </term>
+    <!--se-->
+    <term tid="t483" type="close" lemma="se" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w483"/>
+      </span>
+    </term>
+    <!--retourne-->
+    <term tid="t484" type="open" lemma="retourner" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w484"/>
+      </span>
+    </term>
+    <!--contre-->
+    <term tid="t485" type="close" lemma="contre" pos="P" morphofeat="P">
+      <span>
+        <target id="w485"/>
+      </span>
+    </term>
+    <!--elle-->
+    <term tid="t486" type="close" lemma="elle" pos="P" morphofeat="PROfs">
+      <span>
+        <target id="w486"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t487" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w487"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Elle-->
+        <span>
+          <target id="t290"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--le sens de l' effort-->
+        <span>
+          <target id="t293"/>
+          <target id="t294"/>
+          <target id="t295"/>
+          <target id="t296"/>
+          <target id="t297"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--souhaite redonner-->
+        <span>
+          <target id="t291"/>
+          <target id="t292"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--son caractère implacable-->
+        <span>
+          <target id="t480"/>
+          <target id="t481"/>
+          <target id="t482"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--se retourne contre elle-->
+        <span>
+          <target id="t483"/>
+          <target id="t484"/>
+          <target id="t485"/>
+          <target id="t486"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

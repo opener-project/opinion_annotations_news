@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:16:27Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:16:27Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:04:10CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:16:33CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:35CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w120" sent="9" para="5" offset="667" length="1">“</wf>
+    <wf wid="w121" sent="9" para="5" offset="669" length="3">Auf</wf>
+    <wf wid="w122" sent="9" para="5" offset="673" length="3">die</wf>
+    <wf wid="w123" sent="9" para="5" offset="677" length="5">Frage</wf>
+    <wf wid="w124" sent="9" para="5" offset="682" length="1">,</wf>
+    <wf wid="w125" sent="9" para="5" offset="684" length="2">ob</wf>
+    <wf wid="w126" sent="9" para="5" offset="687" length="3">sie</wf>
+    <wf wid="w127" sent="9" para="5" offset="691" length="3">Fan</wf>
+    <wf wid="w128" sent="9" para="5" offset="695" length="3">von</wf>
+    <wf wid="w129" sent="9" para="5" offset="699" length="6">Bayern</wf>
+    <wf wid="w130" sent="9" para="5" offset="706" length="7">München</wf>
+    <wf wid="w131" sent="9" para="5" offset="714" length="4">oder</wf>
+    <wf wid="w132" sent="9" para="5" offset="719" length="8">Borussia</wf>
+    <wf wid="w133" sent="9" para="5" offset="728" length="8">Dortmund</wf>
+    <wf wid="w134" sent="9" para="5" offset="737" length="3">sei</wf>
+    <wf wid="w135" sent="9" para="5" offset="740" length="1">,</wf>
+    <wf wid="w136" sent="9" para="5" offset="742" length="5">sagte</wf>
+    <wf wid="w137" sent="9" para="5" offset="748" length="6">Merkel</wf>
+    <wf wid="w138" sent="9" para="5" offset="754" length="1">:</wf>
+    <wf wid="w139" sent="9" para="5" offset="756" length="1">„</wf>
+    <wf wid="w140" sent="9" para="5" offset="757" length="5">Beide</wf>
+    <wf wid="w141" sent="9" para="5" offset="763" length="12">Mannschaften</wf>
+    <wf wid="w142" sent="9" para="5" offset="776" length="5">haben</wf>
+    <wf wid="w143" sent="9" para="5" offset="782" length="4">mich</wf>
+    <wf wid="w144" sent="9" para="5" offset="787" length="5">schon</wf>
+    <wf wid="w145" sent="9" para="5" offset="793" length="5">immer</wf>
+    <wf wid="w146" sent="9" para="5" offset="799" length="10">begeistert</wf>
+    <wf wid="w147" sent="9" para="5" offset="809" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="“" morphofeat="NN unknown_lemma" pos="O" tid="t120" type="open">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <term lemma="auf" morphofeat="APPR" pos="P" tid="t121" type="close">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t122" type="close">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <term lemma="Frage" morphofeat="NN" pos="N" tid="t123" type="open">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t124" type="open">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <term lemma="ob" morphofeat="KOUS" pos="C" tid="t125" type="close">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <term lemma="sie" morphofeat="PPER" pos="Q" tid="t126" type="close">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <term lemma="Fan" morphofeat="NN" pos="N" tid="t127" type="open">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t128" type="close">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <term lemma="Bayern" morphofeat="NE" pos="R" tid="t129" type="open">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <term lemma="München" morphofeat="NE" pos="R" tid="t130" type="open">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <term lemma="oder" morphofeat="KON" pos="C" tid="t131" type="close">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <term lemma="Borussia" morphofeat="NE" pos="R" tid="t132" type="open">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <term lemma="Dortmund" morphofeat="NE" pos="R" tid="t133" type="open">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t134" type="open">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t135" type="open">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t136" type="open">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t137" type="open">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <term lemma=":" morphofeat="$." pos="O" tid="t138" type="open">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <term lemma="„" morphofeat="NN unknown_lemma" pos="O" tid="t139" type="open">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <term lemma="beide" morphofeat="PIAT" pos="Q" tid="t140" type="close">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <term lemma="Mannschaft" morphofeat="NN" pos="N" tid="t141" type="open">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t142" type="open">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <term lemma="ich" morphofeat="PRF" pos="Q" tid="t143" type="close">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <term lemma="schon" morphofeat="ADV" pos="A" tid="t144" type="open">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <term lemma="immer" morphofeat="ADV" pos="A" tid="t145" type="open">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <term lemma="begeistern" morphofeat="VVPP" pos="V" tid="t146" type="open">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t147" type="open">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--von Bayern München-->
+        <span>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--Fan-->
+        <span>
+          <target id="t127"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--mich-->
+        <span>
+          <target id="t143"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Beide Mannschaften-->
+        <span>
+          <target id="t140"/>
+          <target id="t141"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--schon immer begeistert-->
+        <span>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t146"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

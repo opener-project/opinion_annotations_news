@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:31:13CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w369" sent="22" para="2" offset="2134" length="8">Hollande</wf>
+    <wf wid="w370" sent="22" para="2" offset="2143" length="5">wilde</wf>
+    <wf wid="w371" sent="22" para="2" offset="2149" length="3">dat</wf>
+    <wf wid="w372" sent="22" para="2" offset="2153" length="2">de</wf>
+    <wf wid="w373" sent="22" para="2" offset="2156" length="9">ceremonie</wf>
+    <wf wid="w374" sent="22" para="2" offset="2166" length="2">zo</wf>
+    <wf wid="w375" sent="22" para="2" offset="2169" length="5">sober</wf>
+    <wf wid="w376" sent="22" para="2" offset="2175" length="8">mogelijk</wf>
+    <wf wid="w377" sent="22" para="2" offset="2184" length="4">werd</wf>
+    <wf wid="w378" sent="22" para="2" offset="2189" length="8">gehouden</wf>
+    <wf wid="w379" sent="22" para="2" offset="2197" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hollande-->
+    <term tid="t369" type="open" lemma="Hollande" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <!--wilde-->
+    <term tid="t370" type="open" lemma="willen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t371" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t372" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w372"/>
+      </span>
+    </term>
+    <!--ceremonie-->
+    <term tid="t373" type="open" lemma="ceremonie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w373"/>
+      </span>
+    </term>
+    <!--zo-->
+    <term tid="t374" type="open" lemma="zo" pos="A" morphofeat="adv">
+      <span>
+        <target id="w374"/>
+      </span>
+    </term>
+    <!--sober-->
+    <term tid="t375" type="open" lemma="sober" pos="G" morphofeat="adj">
+      <span>
+        <target id="w375"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--mogelijk-->
+    <term tid="t376" type="open" lemma="mogelijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w376"/>
+      </span>
+    </term>
+    <!--werd-->
+    <term tid="t377" type="open" lemma="worden" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w377"/>
+      </span>
+    </term>
+    <!--gehouden-->
+    <term tid="t378" type="open" lemma="houden" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w378"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t379" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w379"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Hollande-->
+        <span>
+          <target id="t369"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de ceremonie zo sober mogelijk-->
+        <span>
+          <target id="t372"/>
+          <target id="t373"/>
+          <target id="t374"/>
+          <target id="t375"/>
+          <target id="t376"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wilde-->
+        <span>
+          <target id="t370"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

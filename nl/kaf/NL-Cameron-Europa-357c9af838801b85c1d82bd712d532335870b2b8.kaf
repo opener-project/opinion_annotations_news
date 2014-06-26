@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:18Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:18Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:33:03CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w88" sent="7" para="2" offset="540" length="1">"</wf>
+    <wf wid="w89" sent="7" para="2" offset="542" length="2">Ik</wf>
+    <wf wid="w90" sent="7" para="2" offset="545" length="4">weet</wf>
+    <wf wid="w91" sent="7" para="2" offset="550" length="4">niet</wf>
+    <wf wid="w92" sent="7" para="2" offset="555" length="5">zeker</wf>
+    <wf wid="w93" sent="7" para="2" offset="561" length="2">of</wf>
+    <wf wid="w94" sent="7" para="2" offset="564" length="3">het</wf>
+    <wf wid="w95" sent="7" para="2" offset="568" length="4">gaat</wf>
+    <wf wid="w96" sent="7" para="2" offset="573" length="6">lukken</wf>
+    <wf wid="w97" sent="7" para="2" offset="579" length="1">,</wf>
+    <wf wid="w98" sent="7" para="2" offset="581" length="3">het</wf>
+    <wf wid="w99" sent="7" para="2" offset="585" length="2">is</wf>
+    <wf wid="w100" sent="7" para="2" offset="588" length="3">erg</wf>
+    <wf wid="w101" sent="7" para="2" offset="592" length="7">complex</wf>
+    <wf wid="w102" sent="7" para="2" offset="599" length="1">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term tid="t88" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--Ik-->
+    <term tid="t89" type="close" lemma="ik" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--weet-->
+    <term tid="t90" type="open" lemma="weten" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t91" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--zeker-->
+    <term tid="t92" type="open" lemma="zeker" pos="G" morphofeat="adj">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--of-->
+    <term tid="t93" type="close" lemma="of" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t94" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--gaat-->
+    <term tid="t95" type="open" lemma="gaan" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--lukken-->
+    <term tid="t96" type="open" lemma="lukken" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w96"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t97" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t98" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t99" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--erg-->
+    <term tid="t100" type="open" lemma="erg" pos="G" morphofeat="adj">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--complex-->
+    <term tid="t101" type="open" lemma="complex" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w101"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t102" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--erg complex-->
+        <span>
+          <target id="t100"/>
+          <target id="t101"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

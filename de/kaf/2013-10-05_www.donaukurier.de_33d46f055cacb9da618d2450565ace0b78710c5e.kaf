@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:51:25Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:51:25Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:17:40CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:51:52CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w100" sent="7" para="4" offset="602" length="3">SPD</wf>
+    <wf wid="w101" sent="7" para="4" offset="605" length="1">·</wf>
+    <wf wid="w102" sent="7" para="4" offset="606" length="4">Chef</wf>
+    <wf wid="w103" sent="7" para="4" offset="611" length="6">Sigmar</wf>
+    <wf wid="w104" sent="7" para="4" offset="618" length="7">Gabriel</wf>
+    <wf wid="w105" sent="7" para="4" offset="626" length="1">(</wf>
+    <wf wid="w106" sent="7" para="4" offset="627" length="2">r.</wf>
+    <wf wid="w107" sent="7" para="4" offset="629" length="1">)</wf>
+    <wf wid="w108" sent="7" para="4" offset="631" length="6">nannte</wf>
+    <wf wid="w109" sent="7" para="4" offset="638" length="15">Bundeskanzlerin</wf>
+    <wf wid="w110" sent="7" para="4" offset="654" length="6">Angela</wf>
+    <wf wid="w111" sent="7" para="4" offset="661" length="6">Merkel</wf>
+    <wf wid="w112" sent="7" para="4" offset="668" length="1">(</wf>
+    <wf wid="w113" sent="7" para="4" offset="669" length="3">CDU</wf>
+    <wf wid="w114" sent="7" para="4" offset="672" length="1">)</wf>
+    <wf wid="w115" sent="7" para="4" offset="674" length="3">und</wf>
+    <wf wid="w116" sent="7" para="4" offset="678" length="3">CSU</wf>
+    <wf wid="w117" sent="7" para="4" offset="681" length="1">·</wf>
+    <wf wid="w118" sent="7" para="4" offset="682" length="4">Chef</wf>
+    <wf wid="w119" sent="7" para="4" offset="687" length="5">Horst</wf>
+    <wf wid="w120" sent="7" para="4" offset="693" length="8">Seehofer</wf>
+    <wf wid="w121" sent="7" para="4" offset="702" length="12">verlässliche</wf>
+    <wf wid="w122" sent="7" para="4" offset="715" length="7">Partner</wf>
+    <wf wid="w123" sent="7" para="4" offset="722" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="SPD" morphofeat="NE" pos="R" tid="t100" type="open">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t101" type="open">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <term lemma="Chef" morphofeat="NN" pos="N" tid="t102" type="open">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <term lemma="Sigmar" morphofeat="NE" pos="R" tid="t103" type="open">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <term lemma="Gabriel" morphofeat="NE" pos="R" tid="t104" type="open">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="$(" pos="O" tid="t105" type="open">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <term lemma="R." morphofeat="NE" pos="R" tid="t106" type="open">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat="$(" pos="O" tid="t107" type="open">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <term lemma="nennen" morphofeat="VVFIN" pos="V" tid="t108" type="open">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <term lemma="Bundeskanzlerin" morphofeat="NN" pos="N" tid="t109" type="open">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <term lemma="Angela" morphofeat="NE" pos="R" tid="t110" type="open">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t111" type="open">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="$(" pos="O" tid="t112" type="open">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <term lemma="CDU" morphofeat="NE" pos="R" tid="t113" type="open">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat="$(" pos="O" tid="t114" type="open">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t115" type="close">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <term lemma="CSU" morphofeat="NE" pos="R" tid="t116" type="open">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t117" type="open">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <term lemma="Chef" morphofeat="NN" pos="N" tid="t118" type="open">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <term lemma="Horst" morphofeat="NE" pos="R" tid="t119" type="open">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <term lemma="Seehofer" morphofeat="NE" pos="R" tid="t120" type="open">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <term lemma="verlässlich" morphofeat="ADJA" pos="G" tid="t121" type="open">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <term lemma="Partner" morphofeat="NN" pos="N" tid="t122" type="open">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t123" type="open">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Partner-->
+        <span>
+          <target id="t122"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--verlässliche-->
+        <span>
+          <target id="t121"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Sigmar Gabriel-->
+        <span>
+          <target id="t103"/>
+          <target id="t104"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Bundeskanzlerin Angela Merkel-->
+        <span>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--nannte-->
+        <span>
+          <target id="t108"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Sigmar Gabriel-->
+        <span>
+          <target id="t103"/>
+          <target id="t104"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Horst Seehofer-->
+        <span>
+          <target id="t119"/>
+          <target id="t120"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--nannte-->
+        <span>
+          <target id="t108"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Sigmar Gabriel-->
+        <span>
+          <target id="t103"/>
+          <target id="t104"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Bundeskanzlerin Angela Merkel-->
+        <span>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--verlässliche Partner-->
+        <span>
+          <target id="t121"/>
+          <target id="t122"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Sigmar Gabriel-->
+        <span>
+          <target id="t103"/>
+          <target id="t104"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Horst Seehofer-->
+        <span>
+          <target id="t119"/>
+          <target id="t120"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--verlässliche Partner-->
+        <span>
+          <target id="t121"/>
+          <target id="t122"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

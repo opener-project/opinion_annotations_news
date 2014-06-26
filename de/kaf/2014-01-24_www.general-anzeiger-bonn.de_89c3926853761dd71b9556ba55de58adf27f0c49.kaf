@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:08:27Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:08:27Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:08:28CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:08:57CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w168" sent="14" para="7" offset="1256" length="3">Die</wf>
+    <wf wid="w169" sent="14" para="7" offset="1260" length="9">Kanzlerin</wf>
+    <wf wid="w170" sent="14" para="7" offset="1270" length="8">forderte</wf>
+    <wf wid="w171" sent="14" para="7" offset="1278" length="1">,</wf>
+    <wf wid="w172" sent="14" para="7" offset="1280" length="11">umstrittene</wf>
+    <wf wid="w173" sent="14" para="7" offset="1292" length="7">Gesetze</wf>
+    <wf wid="w174" sent="14" para="7" offset="1300" length="14">zurückzunehmen</wf>
+    <wf wid="w175" sent="14" para="7" offset="1314" length="1">,</wf>
+    <wf wid="w176" sent="14" para="7" offset="1316" length="3">die</wf>
+    <wf wid="w177" sent="14" para="7" offset="1320" length="3">die</wf>
+    <wf wid="w178" sent="14" para="7" offset="1324" length="12">Versammlungs</wf>
+    <wf wid="w179" sent="14" para="7" offset="1336" length="1">·</wf>
+    <wf wid="w180" sent="14" para="7" offset="1338" length="3">und</wf>
+    <wf wid="w181" sent="14" para="7" offset="1342" length="14">Pressefreiheit</wf>
+    <wf wid="w182" sent="14" para="7" offset="1357" length="12">einschränken</wf>
+    <wf wid="w183" sent="14" para="7" offset="1369" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t168" type="close">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <term lemma="Kanzlerin" morphofeat="NN" pos="N" tid="t169" type="open">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <term lemma="fordern" morphofeat="VVFIN" pos="V" tid="t170" type="open">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t171" type="open">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <term lemma="umstritten" morphofeat="ADJA" pos="G" tid="t172" type="open">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <term lemma="Gesetz" morphofeat="NN" pos="N" tid="t173" type="open">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <term lemma="zurücknehmen" morphofeat="VVIZU" pos="V" tid="t174" type="open">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t175" type="open">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="PRELS" pos="Q" tid="t176" type="close">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t177" type="close">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <term lemma="Versammlungs" morphofeat="NN unknown_lemma" pos="O" tid="t178" type="open">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t179" type="open">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t180" type="close">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <term lemma="Pressefreiheit" morphofeat="NN" pos="N" tid="t181" type="open">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <term lemma="einschränken" morphofeat="VVFIN" pos="V" tid="t182" type="open">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t183" type="open">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die Versammlungs · und Pressefreiheit-->
+        <span>
+          <target id="t177"/>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--einschränken-->
+        <span>
+          <target id="t182"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Die Kanzlerin-->
+        <span>
+          <target id="t168"/>
+          <target id="t169"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--umstrittene Gesetze zurückzunehmen-->
+        <span>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--forderte-->
+        <span>
+          <target id="t170"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

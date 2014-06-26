@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:54:46Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:54:46Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:50:40CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:55:06CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w108" sent="9" para="5" offset="643" length="5">Jeder</wf>
+    <wf wid="w109" sent="9" para="5" offset="649" length="6">Dritte</wf>
+    <wf wid="w110" sent="9" para="5" offset="656" length="4">wird</wf>
+    <wf wid="w111" sent="9" para="5" offset="661" length="4">dann</wf>
+    <wf wid="w112" sent="9" para="5" offset="666" length="2">65</wf>
+    <wf wid="w113" sent="9" para="5" offset="669" length="5">Jahre</wf>
+    <wf wid="w114" sent="9" para="5" offset="675" length="4">oder</wf>
+    <wf wid="w115" sent="9" para="5" offset="680" length="5">älter</wf>
+    <wf wid="w116" sent="9" para="5" offset="686" length="4">sein</wf>
+    <wf wid="w117" sent="9" para="5" offset="690" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="jede" morphofeat="PIAT" pos="Q" tid="t108" type="close">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <term lemma="Dritte" morphofeat="NN" pos="N" tid="t109" type="open">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t110" type="open">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <term lemma="dann" morphofeat="ADV" pos="A" tid="t111" type="open">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <term lemma="65" morphofeat="CARD" pos="O" tid="t112" type="open">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <term lemma="Jahr" morphofeat="NN" pos="N" tid="t113" type="open">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <term lemma="oder" morphofeat="KON" pos="C" tid="t114" type="close">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <term lemma="alt" morphofeat="ADJD" pos="G" tid="t115" type="open">
+      <span>
+        <target id="w115"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="sein" morphofeat="VAINF" pos="V" tid="t116" type="open">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t117" type="open">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

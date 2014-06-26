@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:12:10CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:32CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w56" sent="4" para="2" offset="339" length="1">'</wf>
+    <wf wid="w57" sent="4" para="2" offset="340" length="3">Een</wf>
+    <wf wid="w58" sent="4" para="2" offset="344" length="5">echte</wf>
+    <wf wid="w59" sent="4" para="2" offset="350" length="9">doorbraak</wf>
+    <wf wid="w60" sent="4" para="2" offset="359" length="1">'</wf>
+    <wf wid="w61" sent="4" para="2" offset="360" length="1">,</wf>
+    <wf wid="w62" sent="4" para="2" offset="362" length="4">zegt</wf>
+    <wf wid="w63" sent="4" para="2" offset="367" length="8">Europees</wf>
+    <wf wid="w64" sent="4" para="2" offset="376" length="9">president</wf>
+    <wf wid="w65" sent="4" para="2" offset="386" length="6">Herman</wf>
+    <wf wid="w66" sent="4" para="2" offset="393" length="3">Van</wf>
+    <wf wid="w67" sent="4" para="2" offset="397" length="6">Rompuy</wf>
+    <wf wid="w68" sent="4" para="2" offset="403" length="1">.</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term tid="t56" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--Een-->
+    <term tid="t57" type="open" lemma="een" pos="G" morphofeat="adj">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--echte-->
+    <term tid="t58" type="open" lemma="echt" pos="G" morphofeat="adj">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--doorbraak-->
+    <term tid="t59" type="open" lemma="doorbraak" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t60" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t61" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--zegt-->
+    <term tid="t62" type="open" lemma="zeggen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--Europees-->
+    <term tid="t63" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--president-->
+    <term tid="t64" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--Herman-->
+    <term tid="t65" type="open" lemma="Herman" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--Van-->
+    <term tid="t66" type="open" lemma="Van" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--Rompuy-->
+    <term tid="t67" type="open" lemma="Rompuy" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t68" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--Europees president Herman Van Rompuy-->
+        <span>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-neutral">
+        <!--zegt-->
+        <span>
+          <target id="t62"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--Europees president Herman Van Rompuy-->
+        <span>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--echte doorbraak-->
+        <span>
+          <target id="t58"/>
+          <target id="t59"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

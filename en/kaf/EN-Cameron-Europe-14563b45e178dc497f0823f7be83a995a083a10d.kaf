@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:06:47Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:06:47Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:59:39" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:31:42CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="9" para="2" offset="1162" length="7" wid="w222">British</wf>
+    <wf sent="9" para="2" offset="1170" length="5" wid="w223">Prime</wf>
+    <wf sent="9" para="2" offset="1176" length="8" wid="w224">Minister</wf>
+    <wf sent="9" para="2" offset="1185" length="5" wid="w225">David</wf>
+    <wf sent="9" para="2" offset="1191" length="7" wid="w226">Cameron</wf>
+    <wf sent="9" para="2" offset="1198" length="1" wid="w227">,</wf>
+    <wf sent="9" para="2" offset="1200" length="3" wid="w228">who</wf>
+    <wf sent="9" para="2" offset="1204" length="6" wid="w229">chairs</wf>
+    <wf sent="9" para="2" offset="1211" length="3" wid="w230">the</wf>
+    <wf sent="9" para="2" offset="1215" length="2" wid="w231">G8</wf>
+    <wf sent="9" para="2" offset="1218" length="6" wid="w232">summit</wf>
+    <wf sent="9" para="2" offset="1224" length="1" wid="w233">,</wf>
+    <wf sent="9" para="2" offset="1226" length="12" wid="w234">acknowledged</wf>
+    <wf sent="9" para="2" offset="1239" length="5" wid="w235">there</wf>
+    <wf sent="9" para="2" offset="1245" length="3" wid="w236">was</wf>
+    <wf sent="9" para="2" offset="1249" length="1" wid="w237">"</wf>
+    <wf sent="9" para="2" offset="1250" length="1" wid="w238">a</wf>
+    <wf sent="9" para="2" offset="1252" length="3" wid="w239">big</wf>
+    <wf sent="9" para="2" offset="1256" length="10" wid="w240">difference</wf>
+    <wf sent="9" para="2" offset="1266" length="1" wid="w241">"</wf>
+    <wf sent="9" para="2" offset="1268" length="7" wid="w242">between</wf>
+    <wf sent="9" para="2" offset="1276" length="3" wid="w243">the</wf>
+    <wf sent="9" para="2" offset="1280" length="9" wid="w244">positions</wf>
+    <wf sent="9" para="2" offset="1290" length="2" wid="w245">of</wf>
+    <wf sent="9" para="2" offset="1293" length="6" wid="w246">Russia</wf>
+    <wf sent="9" para="2" offset="1300" length="3" wid="w247">and</wf>
+    <wf sent="9" para="2" offset="1304" length="3" wid="w248">the</wf>
+    <wf sent="9" para="2" offset="1308" length="4" wid="w249">West</wf>
+    <wf sent="9" para="2" offset="1313" length="2" wid="w250">on</wf>
+    <wf sent="9" para="2" offset="1316" length="5" wid="w251">Syria</wf>
+    <wf sent="9" para="2" offset="1321" length="1" wid="w252">.</wf>
+  </text>
+  <terms>
+    <!--British-->
+    <term type="open" lemma="british" pos="G" morphofeat="JJ" tid="t222">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--Prime-->
+    <term type="close" lemma="Prime" pos="R" morphofeat="NNP" tid="t223">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--Minister-->
+    <term type="close" lemma="Minister" pos="R" morphofeat="NNP" tid="t224">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--David-->
+    <term type="close" lemma="David" pos="R" morphofeat="NNP" tid="t225">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term type="close" lemma="Cameron" pos="R" morphofeat="NNP" tid="t226">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t227">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--who-->
+    <term type="close" lemma="who" pos="Q" morphofeat="WP" tid="t228">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--chairs-->
+    <term type="open" lemma="chair" pos="V" morphofeat="VBZ" tid="t229">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t230">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--G8-->
+    <term type="close" lemma="G8" pos="R" morphofeat="NNP" tid="t231">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--summit-->
+    <term type="open" lemma="summit" pos="N" morphofeat="NN" tid="t232">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t233">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--acknowledged-->
+    <term type="open" lemma="acknowledge" pos="V" morphofeat="VBD" tid="t234">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--there-->
+    <term type="close" lemma="there" pos="O" morphofeat="EX" tid="t235">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t236">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t237">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t238">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--big-->
+    <term type="open" lemma="big" pos="G" morphofeat="JJ" tid="t239">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--difference-->
+    <term type="open" lemma="difference" pos="N" morphofeat="NN" tid="t240">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--"-->
+    <term type="open" lemma="&quot;" pos="N" morphofeat="NN" tid="t241">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--between-->
+    <term type="close" lemma="between" pos="P" morphofeat="IN" tid="t242">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t243">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--positions-->
+    <term type="open" lemma="position" pos="N" morphofeat="NNS" tid="t244">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t245">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--Russia-->
+    <term type="close" lemma="Russia" pos="R" morphofeat="NNP" tid="t246">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t247">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t248">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--West-->
+    <term type="close" lemma="West" pos="R" morphofeat="NNP" tid="t249">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t250">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--Syria-->
+    <term type="close" lemma="Syria" pos="R" morphofeat="NNP" tid="t251">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t252">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--British Prime Minister David Cameron , who chairs the G8 summit-->
+        <span>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+          <target id="t229"/>
+          <target id="t230"/>
+          <target id="t231"/>
+          <target id="t232"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the positions of Russia and the West on Syria-->
+        <span>
+          <target id="t243"/>
+          <target id="t244"/>
+          <target id="t245"/>
+          <target id="t246"/>
+          <target id="t247"/>
+          <target id="t248"/>
+          <target id="t249"/>
+          <target id="t250"/>
+          <target id="t251"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--acknowledged-->
+        <span>
+          <target id="t234"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--British Prime Minister David Cameron , who chairs the G8 summit-->
+        <span>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+          <target id="t229"/>
+          <target id="t230"/>
+          <target id="t231"/>
+          <target id="t232"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the positions of Russia and the West on Syria-->
+        <span>
+          <target id="t243"/>
+          <target id="t244"/>
+          <target id="t245"/>
+          <target id="t246"/>
+          <target id="t247"/>
+          <target id="t248"/>
+          <target id="t249"/>
+          <target id="t250"/>
+          <target id="t251"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--a big difference-->
+        <span>
+          <target id="t238"/>
+          <target id="t239"/>
+          <target id="t240"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

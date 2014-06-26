@@ -1,0 +1,16 @@
+w33	Die	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	32	true	5
+w34	Delegationen	Delegation	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	33	true	5
+w35	treffen	treffen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	34	true	5
+w36	sich	sich	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	35	true	5
+w37	zum	zu	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	36	true	5
+w38	Auftakt	Auftakt	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	37	true	5
+w39	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	38	true	5
+w40	Washington	Washington	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	39	true	5
+w41	,	,	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	40	true	5
+w42	teilte	teilen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	41	true	5
+w43	das	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	42	true	5
+w44	Büro	Büro	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	43	true	5
+w45	des	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	44	true	5
+w46	amerikanischen	amerikanisch	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	45	true	5
+w47	Handelsbeauftragen	Handelsbeauftragen	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	46	true	5
+w48	mit	mit	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	47	true	5

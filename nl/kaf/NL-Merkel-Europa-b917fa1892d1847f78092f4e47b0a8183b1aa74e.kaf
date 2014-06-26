@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:56:19CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:35CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w88" sent="6" para="2" offset="501" length="2">Ze</wf>
+    <wf wid="w89" sent="6" para="2" offset="504" length="5">pleit</wf>
+    <wf wid="w90" sent="6" para="2" offset="510" length="4">voor</wf>
+    <wf wid="w91" sent="6" para="2" offset="515" length="3">een</wf>
+    <wf wid="w92" sent="6" para="2" offset="519" length="4">meer</wf>
+    <wf wid="w93" sent="6" para="2" offset="524" length="9">afgestemd</wf>
+    <wf wid="w94" sent="6" para="2" offset="534" length="16">begrotingsbeleid</wf>
+    <wf wid="w95" sent="6" para="2" offset="550" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ze-->
+    <term tid="t88" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--pleit-->
+    <term tid="t89" type="open" lemma="pleiten" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t90" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t91" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--meer-->
+    <term tid="t92" type="open" lemma="meer" pos="A" morphofeat="adv">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--afgestemd-->
+    <term tid="t93" type="open" lemma="afstemmen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--begrotingsbeleid-->
+    <term tid="t94" type="open" lemma="begrotingsbeleid" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t95" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Ze-->
+        <span>
+          <target id="t88"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--een meer afgestemd begrotingsbeleid-->
+        <span>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--pleit voor-->
+        <span>
+          <target id="t89"/>
+          <target id="t90"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

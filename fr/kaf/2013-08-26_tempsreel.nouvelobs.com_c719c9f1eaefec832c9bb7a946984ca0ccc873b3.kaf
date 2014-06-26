@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:46:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:46:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:46:13Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:35:26CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1242" sent="45" para="31" offset="6008" length="3">Les</wf>
+    <wf wid="w1243" sent="45" para="31" offset="6012" length="7">experts</wf>
+    <wf wid="w1244" sent="45" para="31" offset="6020" length="2">de</wf>
+    <wf wid="w1245" sent="45" para="31" offset="6023" length="2">l'</wf>
+    <wf wid="w1246" sent="45" para="31" offset="6025" length="3">ONU</wf>
+    <wf wid="w1247" sent="45" para="31" offset="6029" length="7">doivent</wf>
+    <wf wid="w1248" sent="45" para="31" offset="6037" length="9">commencer</wf>
+    <wf wid="w1249" sent="45" para="31" offset="6047" length="1">à</wf>
+    <wf wid="w1250" sent="45" para="31" offset="6049" length="8">enquêter</wf>
+    <wf wid="w1251" sent="45" para="31" offset="6058" length="2">ce</wf>
+    <wf wid="w1252" sent="45" para="31" offset="6061" length="5">lundi</wf>
+    <wf wid="w1253" sent="45" para="31" offset="6067" length="3">sur</wf>
+    <wf wid="w1254" sent="45" para="31" offset="6071" length="3">les</wf>
+    <wf wid="w1255" sent="45" para="31" offset="6075" length="5">lieux</wf>
+    <wf wid="w1256" sent="45" para="31" offset="6081" length="2">de</wf>
+    <wf wid="w1257" sent="45" para="31" offset="6084" length="2">l'</wf>
+    <wf wid="w1258" sent="45" para="31" offset="6086" length="7">attaque</wf>
+    <wf wid="w1259" sent="45" para="31" offset="6094" length="8">chimique</wf>
+    <wf wid="w1260" sent="45" para="31" offset="6103" length="8">présumée</wf>
+    <wf wid="w1261" sent="45" para="31" offset="6112" length="8">survenue</wf>
+    <wf wid="w1262" sent="45" para="31" offset="6121" length="8">mercredi</wf>
+    <wf wid="w1263" sent="45" para="31" offset="6130" length="4">près</wf>
+    <wf wid="w1264" sent="45" para="31" offset="6135" length="2">de</wf>
+    <wf wid="w1265" sent="45" para="31" offset="6138" length="5">Damas</wf>
+    <wf wid="w1266" sent="45" para="31" offset="6143" length="1">,</wf>
+    <wf wid="w1267" sent="45" para="31" offset="6145" length="5">après</wf>
+    <wf wid="w1268" sent="45" para="31" offset="6151" length="5">avoir</wf>
+    <wf wid="w1269" sent="45" para="31" offset="6157" length="6">obtenu</wf>
+    <wf wid="w1270" sent="45" para="31" offset="6164" length="2">un</wf>
+    <wf wid="w1271" sent="45" para="31" offset="6167" length="3">feu</wf>
+    <wf wid="w1272" sent="45" para="31" offset="6171" length="4">vert</wf>
+    <wf wid="w1273" sent="45" para="31" offset="6176" length="2">du</wf>
+    <wf wid="w1274" sent="45" para="31" offset="6179" length="6">régime</wf>
+    <wf wid="w1275" sent="45" para="31" offset="6186" length="4">jugé</wf>
+    <wf wid="w1276" sent="45" para="31" offset="6191" length="4">trop</wf>
+    <wf wid="w1277" sent="45" para="31" offset="6196" length="6">tardif</wf>
+    <wf wid="w1278" sent="45" para="31" offset="6203" length="3">par</wf>
+    <wf wid="w1279" sent="45" para="31" offset="6207" length="3">les</wf>
+    <wf wid="w1280" sent="45" para="31" offset="6211" length="4">pays</wf>
+    <wf wid="w1281" sent="45" para="31" offset="6216" length="11">occidentaux</wf>
+    <wf wid="w1282" sent="45" para="31" offset="6227" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Les-->
+    <term tid="t1242" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w1242"/>
+      </span>
+    </term>
+    <!--experts-->
+    <term tid="t1243" type="open" lemma="expert" pos="N" morphofeat="NCmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w1243"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t1244" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w1244"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t1245" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w1245"/>
+      </span>
+    </term>
+    <!--ONU-->
+    <term tid="t1246" type="open" lemma="ONU" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w1246"/>
+      </span>
+    </term>
+    <!--doivent-->
+    <term tid="t1247" type="open" lemma="devoir" pos="V" morphofeat="VP3p">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w1247"/>
+      </span>
+    </term>
+    <!--commencer-->
+    <term tid="t1248" type="open" lemma="commencer" pos="V" morphofeat="VW">
+      <span>
+        <target id="w1248"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t1249" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w1249"/>
+      </span>
+    </term>
+    <!--enquêter-->
+    <term tid="t1250" type="open" lemma="enquêter" pos="V" morphofeat="VW">
+      <span>
+        <target id="w1250"/>
+      </span>
+    </term>
+    <!--ce-->
+    <term tid="t1251" type="close" lemma="ce" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w1251"/>
+      </span>
+    </term>
+    <!--lundi-->
+    <term tid="t1252" type="open" lemma="lundi" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w1252"/>
+      </span>
+    </term>
+    <!--sur-->
+    <term tid="t1253" type="close" lemma="sur" pos="P" morphofeat="P">
+      <span>
+        <target id="w1253"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t1254" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w1254"/>
+      </span>
+    </term>
+    <!--lieux-->
+    <term tid="t1255" type="open" lemma="lieu" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w1255"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t1256" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w1256"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t1257" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w1257"/>
+      </span>
+    </term>
+    <!--attaque-->
+    <term tid="t1258" type="open" lemma="attaque" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w1258"/>
+      </span>
+    </term>
+    <!--chimique-->
+    <term tid="t1259" type="open" lemma="chimique" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w1259"/>
+      </span>
+    </term>
+    <!--présumée-->
+    <term tid="t1260" type="open" lemma="présumer" pos="V" morphofeat="VKfs">
+      <span>
+        <target id="w1260"/>
+      </span>
+    </term>
+    <!--survenue-->
+    <term tid="t1261" type="open" lemma="survenir" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w1261"/>
+      </span>
+    </term>
+    <!--mercredi-->
+    <term tid="t1262" type="open" lemma="mercredi" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w1262"/>
+      </span>
+    </term>
+    <!--près-->
+    <term tid="t1263" type="close" lemma="près" pos="P" morphofeat="P">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w1263"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t1264" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w1264"/>
+      </span>
+    </term>
+    <!--Damas-->
+    <term tid="t1265" type="open" lemma="damas" pos="N" morphofeat="NPms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w1265"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t1266" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w1266"/>
+      </span>
+    </term>
+    <!--après-->
+    <term tid="t1267" type="close" lemma="après" pos="P" morphofeat="P">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w1267"/>
+      </span>
+    </term>
+    <!--avoir-->
+    <term tid="t1268" type="open" lemma="avoir" pos="V" morphofeat="VW">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w1268"/>
+      </span>
+    </term>
+    <!--obtenu-->
+    <term tid="t1269" type="open" lemma="obtenir" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w1269"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t1270" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w1270"/>
+      </span>
+    </term>
+    <!--feu-->
+    <term tid="t1271" type="open" lemma="feu" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w1271"/>
+      </span>
+    </term>
+    <!--vert-->
+    <term tid="t1272" type="open" lemma="vert" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w1272"/>
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t1273" type="close" lemma="du" pos="P" morphofeat="P">
+      <span>
+        <target id="w1273"/>
+      </span>
+    </term>
+    <!--régime-->
+    <term tid="t1274" type="open" lemma="régime" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w1274"/>
+      </span>
+    </term>
+    <!--jugé-->
+    <term tid="t1275" type="open" lemma="juger" pos="V" morphofeat="VKms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w1275"/>
+      </span>
+    </term>
+    <!--trop-->
+    <term tid="t1276" type="open" lemma="trop" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" sentiment_modifier="intensifier"/>
+      <span>
+        <target id="w1276"/>
+      </span>
+    </term>
+    <!--tardif-->
+    <term tid="t1277" type="open" lemma="tardif" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w1277"/>
+      </span>
+    </term>
+    <!--par-->
+    <term tid="t1278" type="close" lemma="par" pos="P" morphofeat="P">
+      <span>
+        <target id="w1278"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t1279" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w1279"/>
+      </span>
+    </term>
+    <!--pays-->
+    <term tid="t1280" type="open" lemma="pays" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w1280"/>
+      </span>
+    </term>
+    <!--occidentaux-->
+    <term tid="t1281" type="open" lemma="occidental" pos="G" morphofeat="Amp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w1281"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t1282" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w1282"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t1242"/>
+          <target id="t1243"/>
+          <target id="t1244"/>
+          <target id="t1245"/>
+          <target id="t1246"/>
+          <target id="t1247"/>
+          <target id="t1248"/>
+          <target id="t1249"/>
+          <target id="t1250"/>
+          <target id="t1251"/>
+          <target id="t1252"/>
+          <target id="t1253"/>
+          <target id="t1254"/>
+          <target id="t1255"/>
+          <target id="t1256"/>
+          <target id="t1257"/>
+          <target id="t1258"/>
+          <target id="t1259"/>
+          <target id="t1260"/>
+          <target id="t1261"/>
+          <target id="t1262"/>
+          <target id="t1263"/>
+          <target id="t1264"/>
+          <target id="t1265"/>
+          <target id="t1266"/>
+          <target id="t1267"/>
+          <target id="t1268"/>
+          <target id="t1269"/>
+          <target id="t1270"/>
+          <target id="t1271"/>
+          <target id="t1272"/>
+          <target id="t1273"/>
+          <target id="t1274"/>
+          <target id="t1275"/>
+          <target id="t1276"/>
+          <target id="t1277"/>
+          <target id="t1278"/>
+          <target id="t1279"/>
+          <target id="t1280"/>
+          <target id="t1281"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

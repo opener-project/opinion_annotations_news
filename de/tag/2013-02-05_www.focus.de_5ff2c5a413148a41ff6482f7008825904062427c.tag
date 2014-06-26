@@ -1,0 +1,11 @@
+w16	Tausende	Tausend	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	15	true	3
+w17	EU	EU	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	16	true	3
+w18	·	·	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	17	true	3
+w19	Beamte	Beamter	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	18	true	3
+w20	verdienen	verdienen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	19	true	3
+w21	angeblich	angeblich	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	20	true	3
+w22	mehr	mehr	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	21	true	3
+w23	als	als	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	22	true	3
+w24	die	die	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	23	true	3
+w25	Kanzlerin	Kanzlerin	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	24	true	3
+w26	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	25	true	3

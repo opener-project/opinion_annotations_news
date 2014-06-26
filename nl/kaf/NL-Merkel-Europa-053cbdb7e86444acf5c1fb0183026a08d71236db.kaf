@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:16Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:16Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T15:45:23CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:29CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w110" sent="6" para="2" offset="613" length="1">'</wf>
+    <wf wid="w111" sent="6" para="2" offset="614" length="2">De</wf>
+    <wf wid="w112" sent="6" para="2" offset="617" length="9">afgelopen</wf>
+    <wf wid="w113" sent="6" para="2" offset="627" length="5">weken</wf>
+    <wf wid="w114" sent="6" para="2" offset="633" length="4">zwol</wf>
+    <wf wid="w115" sent="6" para="2" offset="638" length="6">vooral</wf>
+    <wf wid="w116" sent="6" para="2" offset="645" length="6">vanuit</wf>
+    <wf wid="w117" sent="6" para="2" offset="652" length="9">Frankrijk</wf>
+    <wf wid="w118" sent="6" para="2" offset="662" length="2">de</wf>
+    <wf wid="w119" sent="6" para="2" offset="665" length="7">kritiek</wf>
+    <wf wid="w120" sent="6" para="2" offset="673" length="2">op</wf>
+    <wf wid="w121" sent="6" para="2" offset="676" length="9">Duitsland</wf>
+    <wf wid="w122" sent="6" para="2" offset="686" length="2">en</wf>
+    <wf wid="w123" sent="6" para="2" offset="689" length="14">bondskanselier</wf>
+    <wf wid="w124" sent="6" para="2" offset="704" length="6">Angela</wf>
+    <wf wid="w125" sent="6" para="2" offset="711" length="6">Merkel</wf>
+    <wf wid="w126" sent="6" para="2" offset="718" length="3">aan</wf>
+    <wf wid="w127" sent="6" para="2" offset="721" length="1">.</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term tid="t110" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t111" type="open" lemma="De" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--afgelopen-->
+    <term tid="t112" type="open" lemma="aflopen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--weken-->
+    <term tid="t113" type="open" lemma="week" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w113"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--zwol-->
+    <term tid="t114" type="open" lemma="zwellen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w114"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--vooral-->
+    <term tid="t115" type="open" lemma="vooral" pos="A" morphofeat="adv">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--vanuit-->
+    <term tid="t116" type="close" lemma="vanuit" pos="P" morphofeat="prep">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--Frankrijk-->
+    <term tid="t117" type="open" lemma="Frankrijk" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t118" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--kritiek-->
+    <term tid="t119" type="open" lemma="kritiek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w119"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--op-->
+    <term tid="t120" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--Duitsland-->
+    <term tid="t121" type="open" lemma="Duitsland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t122" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--bondskanselier-->
+    <term tid="t123" type="open" lemma="bondskanselier" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t124" type="open" lemma="Angela" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t125" type="open" lemma="Merkel" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t126" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t127" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Frankrijk-->
+        <span>
+          <target id="t117"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--bondskanselier Angela Merkel-->
+        <span>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--kritiek op-->
+        <span>
+          <target id="t119"/>
+          <target id="t120"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Frankrijk-->
+        <span>
+          <target id="t117"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Duitsland-->
+        <span>
+          <target id="t121"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--kritiek op-->
+        <span>
+          <target id="t119"/>
+          <target id="t120"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

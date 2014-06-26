@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:46:30Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:46:30Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:46:31Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:38:39CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w37" sent="4" para="4" offset="166" length="2">Le</wf>
+    <wf wid="w38" sent="4" para="4" offset="169" length="6">sommet</wf>
+    <wf wid="w39" sent="4" para="4" offset="176" length="2">de</wf>
+    <wf wid="w40" sent="4" para="4" offset="179" length="2">l'</wf>
+    <wf wid="w41" sent="4" para="4" offset="181" length="6">Elysée</wf>
+    <wf wid="w42" sent="4" para="4" offset="188" length="3">sur</wf>
+    <wf wid="w43" sent="4" para="4" offset="192" length="2">l'</wf>
+    <wf wid="w44" sent="4" para="4" offset="194" length="7">Afrique</wf>
+    <wf wid="w45" sent="4" para="4" offset="202" length="3">met</wf>
+    <wf wid="w46" sent="4" para="4" offset="206" length="2">l'</wf>
+    <wf wid="w47" sent="4" para="4" offset="208" length="6">accent</wf>
+    <wf wid="w48" sent="4" para="4" offset="215" length="3">sur</wf>
+    <wf wid="w49" sent="4" para="4" offset="219" length="3">les</wf>
+    <wf wid="w50" sent="4" para="4" offset="223" length="6">moyens</wf>
+    <wf wid="w51" sent="4" para="4" offset="230" length="1">à</wf>
+    <wf wid="w52" sent="4" para="4" offset="232" length="7">trouver</wf>
+    <wf wid="w53" sent="4" para="4" offset="240" length="4">pour</wf>
+    <wf wid="w54" sent="4" para="4" offset="245" length="4">plus</wf>
+    <wf wid="w55" sent="4" para="4" offset="250" length="2">de</wf>
+    <wf wid="w56" sent="4" para="4" offset="253" length="8">sécurité</wf>
+    <wf wid="w57" sent="4" para="4" offset="262" length="3">sur</wf>
+    <wf wid="w58" sent="4" para="4" offset="266" length="2">le</wf>
+    <wf wid="w59" sent="4" para="4" offset="269" length="9">continent</wf>
+    <wf wid="w60" sent="4" para="4" offset="279" length="8">africain</wf>
+    <wf wid="w61" sent="4" para="4" offset="287" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Le-->
+    <term tid="t37" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--sommet-->
+    <term tid="t38" type="open" lemma="sommet" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t39" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t40" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--Elysée-->
+    <term tid="t41" type="open" lemma="Elysée" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--sur-->
+    <term tid="t42" type="close" lemma="sur" pos="P" morphofeat="P">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t43" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--Afrique-->
+    <term tid="t44" type="open" lemma="Afrique" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t45" type="open" lemma="mettre" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t46" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--accent-->
+    <term tid="t47" type="open" lemma="accent" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--sur-->
+    <term tid="t48" type="close" lemma="sur" pos="P" morphofeat="P">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t49" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--moyens-->
+    <term tid="t50" type="open" lemma="moyen" pos="N" morphofeat="NCmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t51" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--trouver-->
+    <term tid="t52" type="open" lemma="trouver" pos="V" morphofeat="VW">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t53" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--plus-->
+    <term tid="t54" type="open" lemma="plus" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t55" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--sécurité-->
+    <term tid="t56" type="open" lemma="sécurité" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--sur-->
+    <term tid="t57" type="close" lemma="sur" pos="P" morphofeat="P">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t58" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--continent-->
+    <term tid="t59" type="open" lemma="continent" pos="N" morphofeat="NCms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--africain-->
+    <term tid="t60" type="open" lemma="africain" pos="G" morphofeat="Ams">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t61" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

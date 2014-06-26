@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T16:17:06CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w252" sent="10" para="2" offset="1510" length="3">Dat</wf>
+    <wf wid="w253" sent="10" para="2" offset="1514" length="2">is</wf>
+    <wf wid="w254" sent="10" para="2" offset="1517" length="3">nog</wf>
+    <wf wid="w255" sent="10" para="2" offset="1521" length="4">niet</wf>
+    <wf wid="w256" sent="10" para="2" offset="1526" length="8">geregeld</wf>
+    <wf wid="w257" sent="10" para="2" offset="1534" length="1">,</wf>
+    <wf wid="w258" sent="10" para="2" offset="1536" length="4">maar</wf>
+    <wf wid="w259" sent="10" para="2" offset="1541" length="3">het</wf>
+    <wf wid="w260" sent="10" para="2" offset="1545" length="2">is</wf>
+    <wf wid="w261" sent="10" para="2" offset="1548" length="3">wel</wf>
+    <wf wid="w262" sent="10" para="2" offset="1552" length="10">essentieel</wf>
+    <wf wid="w263" sent="10" para="2" offset="1562" length="1">"</wf>
+    <wf wid="w264" sent="10" para="2" offset="1564" length="1">,</wf>
+    <wf wid="w265" sent="10" para="2" offset="1566" length="5">stelt</wf>
+    <wf wid="w266" sent="10" para="2" offset="1572" length="10">Eijffinger</wf>
+    <wf wid="w267" sent="10" para="2" offset="1582" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Dat-->
+    <term tid="t252" type="close" lemma="dat" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t253" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--nog-->
+    <term tid="t254" type="open" lemma="nog" pos="A" morphofeat="adv">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t255" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--geregeld-->
+    <term tid="t256" type="open" lemma="regelen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t257" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--maar-->
+    <term tid="t258" type="close" lemma="maar" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w258"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--het-->
+    <term tid="t259" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t260" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--wel-->
+    <term tid="t261" type="open" lemma="wel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--essentieel-->
+    <term tid="t262" type="open" lemma="essentieel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t263" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t264" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--stelt-->
+    <term tid="t265" type="open" lemma="stellen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w265"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Eijffinger-->
+    <term tid="t266" type="open" lemma="Eijffinger" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t267" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Dat-->
+        <span>
+          <target id="t252"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--nog niet geregeld-->
+        <span>
+          <target id="t254"/>
+          <target id="t255"/>
+          <target id="t256"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Eijffinger-->
+        <span>
+          <target id="t266"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--het-->
+        <span>
+          <target id="t259"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--essentieel-->
+        <span>
+          <target id="t262"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Eijffinger-->
+        <span>
+          <target id="t266"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--het-->
+        <span>
+          <target id="t259"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--stelt-->
+        <span>
+          <target id="t265"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

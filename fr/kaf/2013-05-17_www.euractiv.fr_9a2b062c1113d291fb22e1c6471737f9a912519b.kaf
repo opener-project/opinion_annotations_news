@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:47:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:47:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:47:06Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:28:34CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w16" sent="3" para="3" offset="49" length="2">Le</wf>
+    <wf wid="w17" sent="3" para="3" offset="52" length="9">président</wf>
+    <wf wid="w18" sent="3" para="3" offset="62" length="2">ne</wf>
+    <wf wid="w19" sent="3" para="3" offset="65" length="2">se</wf>
+    <wf wid="w20" sent="3" para="3" offset="68" length="8">contente</wf>
+    <wf wid="w21" sent="3" para="3" offset="77" length="4">plus</wf>
+    <wf wid="w22" sent="3" para="3" offset="82" length="2">de</wf>
+    <wf wid="w23" sent="3" para="3" offset="85" length="1">"</wf>
+    <wf wid="w24" sent="3" para="3" offset="86" length="2">l'</wf>
+    <wf wid="w25" sent="3" para="3" offset="88" length="11">intégration</wf>
+    <wf wid="w26" sent="3" para="3" offset="100" length="9">solidaire</wf>
+    <wf wid="w27" sent="3" para="3" offset="109" length="1">"</wf>
+    <wf wid="w28" sent="3" para="3" offset="111" length="2">en</wf>
+    <wf wid="w29" sent="3" para="3" offset="114" length="6">Europe</wf>
+    <wf wid="w30" sent="3" para="3" offset="120" length="1">.</wf>
+    <wf wid="w475" sent="20" para="10" offset="2404" length="9">Bruxelles</wf>
+    <wf wid="w476" sent="20" para="10" offset="2414" length="7">promeut</wf>
+    <wf wid="w477" sent="20" para="10" offset="2422" length="2">la</wf>
+    <wf wid="w478" sent="20" para="10" offset="2425" length="14">libéralisation</wf>
+    <wf wid="w479" sent="20" para="10" offset="2440" length="3">des</wf>
+    <wf wid="w480" sent="20" para="10" offset="2444" length="8">secteurs</wf>
+    <wf wid="w481" sent="20" para="10" offset="2453" length="2">de</wf>
+    <wf wid="w482" sent="20" para="10" offset="2456" length="2">l'</wf>
+    <wf wid="w483" sent="20" para="10" offset="2458" length="11">électricité</wf>
+    <wf wid="w484" sent="20" para="10" offset="2470" length="2">ou</wf>
+    <wf wid="w485" sent="20" para="10" offset="2473" length="2">du</wf>
+    <wf wid="w486" sent="20" para="10" offset="2476" length="3">gaz</wf>
+    <wf wid="w487" sent="20" para="10" offset="2479" length="1">,</wf>
+    <wf wid="w488" sent="20" para="10" offset="2481" length="5">quand</wf>
+    <wf wid="w489" sent="20" para="10" offset="2487" length="5">Paris</wf>
+    <wf wid="w490" sent="20" para="10" offset="2493" length="6">semble</wf>
+    <wf wid="w491" sent="20" para="10" offset="2500" length="11">privilégier</wf>
+    <wf wid="w492" sent="20" para="10" offset="2512" length="3">les</wf>
+    <wf wid="w493" sent="20" para="10" offset="2516" length="15">investissements</wf>
+    <wf wid="w494" sent="20" para="10" offset="2532" length="2">et</wf>
+    <wf wid="w495" sent="20" para="10" offset="2535" length="2">la</wf>
+    <wf wid="w496" sent="20" para="10" offset="2538" length="12">coordination</wf>
+    <wf wid="w497" sent="20" para="10" offset="2551" length="5">entre</wf>
+    <wf wid="w498" sent="20" para="10" offset="2557" length="3">les</wf>
+    <wf wid="w499" sent="20" para="10" offset="2561" length="5">Etats</wf>
+    <wf wid="w500" sent="20" para="10" offset="2566" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Le-->
+    <term tid="t16" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--président-->
+    <term tid="t17" type="open" lemma="président" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--ne-->
+    <term tid="t18" type="open" lemma="ne" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--se-->
+    <term tid="t19" type="close" lemma="se" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--contente-->
+    <term tid="t20" type="open" lemma="contenter" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--plus-->
+    <term tid="t21" type="open" lemma="plus" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t22" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t23" type="close" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t24" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--intégration-->
+    <term tid="t25" type="open" lemma="intégration" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--solidaire-->
+    <term tid="t26" type="open" lemma="solidaire" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t27" type="close" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t28" type="close" lemma="en" pos="P" morphofeat="P">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term tid="t29" type="open" lemma="Europe" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t30" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--Bruxelles-->
+    <term tid="t475" type="open" lemma="Bruxelles" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w475"/>
+      </span>
+    </term>
+    <!--promeut-->
+    <term tid="t476" type="open" lemma="promouvoir" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w476"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t477" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w477"/>
+      </span>
+    </term>
+    <!--libéralisation-->
+    <term tid="t478" type="open" lemma="libéralisation" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w478"/>
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t479" type="close" lemma="des" pos="P" morphofeat="P">
+      <span>
+        <target id="w479"/>
+      </span>
+    </term>
+    <!--secteurs-->
+    <term tid="t480" type="open" lemma="secteur" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w480"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t481" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w481"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t482" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w482"/>
+      </span>
+    </term>
+    <!--électricité-->
+    <term tid="t483" type="open" lemma="électricité" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w483"/>
+      </span>
+    </term>
+    <!--ou-->
+    <term tid="t484" type="close" lemma="ou" pos="C" morphofeat="CC">
+      <span>
+        <target id="w484"/>
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t485" type="close" lemma="du" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w485"/>
+      </span>
+    </term>
+    <!--gaz-->
+    <term tid="t486" type="open" lemma="gaz" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w486"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t487" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w487"/>
+      </span>
+    </term>
+    <!--quand-->
+    <term tid="t488" type="close" lemma="quand" pos="C" morphofeat="CS">
+      <span>
+        <target id="w488"/>
+      </span>
+    </term>
+    <!--Paris-->
+    <term tid="t489" type="open" lemma="pari" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w489"/>
+      </span>
+    </term>
+    <!--semble-->
+    <term tid="t490" type="open" lemma="sembler" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w490"/>
+      </span>
+    </term>
+    <!--privilégier-->
+    <term tid="t491" type="open" lemma="privilégier" pos="V" morphofeat="VW">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w491"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t492" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w492"/>
+      </span>
+    </term>
+    <!--investissements-->
+    <term tid="t493" type="open" lemma="investissement" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w493"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t494" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w494"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t495" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w495"/>
+      </span>
+    </term>
+    <!--coordination-->
+    <term tid="t496" type="open" lemma="coordination" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w496"/>
+      </span>
+    </term>
+    <!--entre-->
+    <term tid="t497" type="close" lemma="entre" pos="P" morphofeat="P">
+      <span>
+        <target id="w497"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t498" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w498"/>
+      </span>
+    </term>
+    <!--Etats-->
+    <term tid="t499" type="open" lemma="Etats" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w499"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t500" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w500"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder>
+        <!--Le président-->
+        <span>
+          <target id="t16"/>
+          <target id="t17"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--de " l' intégration solidaire " en Europe-->
+        <span>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ne se contente-->
+        <span>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Bruxelles-->
+        <span>
+          <target id="t475"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--la libéralisation des secteurs de l' électricité ou du gaz-->
+        <span>
+          <target id="t477"/>
+          <target id="t478"/>
+          <target id="t479"/>
+          <target id="t480"/>
+          <target id="t481"/>
+          <target id="t482"/>
+          <target id="t483"/>
+          <target id="t484"/>
+          <target id="t485"/>
+          <target id="t486"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--promeut-->
+        <span>
+          <target id="t476"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

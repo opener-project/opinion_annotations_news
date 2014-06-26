@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:53:57Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:53:57Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:53:57Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:17:36CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w216" sent="6" para="4" offset="1076" length="8">François</wf>
+    <wf wid="w217" sent="6" para="4" offset="1085" length="8">Hollande</wf>
+    <wf wid="w218" sent="6" para="4" offset="1094" length="5">avait</wf>
+    <wf wid="w219" sent="6" para="4" offset="1100" length="6">estimé</wf>
+    <wf wid="w220" sent="6" para="4" offset="1107" length="8">dimanche</wf>
+    <wf wid="w221" sent="6" para="4" offset="1116" length="3">que</wf>
+    <wf wid="w222" sent="6" para="4" offset="1120" length="3">les</wf>
+    <wf wid="w223" sent="6" para="4" offset="1124" length="10">conditions</wf>
+    <wf wid="w224" sent="6" para="4" offset="1135" length="4">pour</wf>
+    <wf wid="w225" sent="6" para="4" offset="1140" length="2">un</wf>
+    <wf wid="w226" sent="6" para="4" offset="1143" length="6">accord</wf>
+    <wf wid="w227" sent="6" para="4" offset="1150" length="2">n'</wf>
+    <wf wid="w228" sent="6" para="4" offset="1152" length="7">étaient</wf>
+    <wf wid="w229" sent="6" para="4" offset="1160" length="1">«</wf>
+    <wf wid="w230" sent="6" para="4" offset="1161" length="3">pas</wf>
+    <wf wid="w231" sent="6" para="4" offset="1165" length="6">encore</wf>
+    <wf wid="w232" sent="6" para="4" offset="1172" length="7">réunies</wf>
+    <wf wid="w233" sent="6" para="4" offset="1179" length="1">»</wf>
+    <wf wid="w234" sent="6" para="4" offset="1180" length="1">.</wf>
+    <wf wid="w508" sent="15" para="8" offset="2437" length="1">«</wf>
+    <wf wid="w509" sent="15" para="8" offset="2438" length="2">Je</wf>
+    <wf wid="w510" sent="15" para="8" offset="2441" length="6">plaide</wf>
+    <wf wid="w511" sent="15" para="8" offset="2448" length="4">pour</wf>
+    <wf wid="w512" sent="15" para="8" offset="2453" length="3">une</wf>
+    <wf wid="w513" sent="15" para="8" offset="2457" length="6">Europe</wf>
+    <wf wid="w514" sent="15" para="8" offset="2464" length="12">différenciée</wf>
+    <wf wid="w515" sent="15" para="8" offset="2476" length="1">.</wf>
+  </text>
+  <terms>
+    <!--François-->
+    <term tid="t216" type="open" lemma="François" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t217" type="open" lemma="hollande" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--avait-->
+    <term tid="t218" type="open" lemma="avoir" pos="V" morphofeat="VI3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--estimé-->
+    <term tid="t219" type="open" lemma="estimer" pos="V" morphofeat="VKms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--dimanche-->
+    <term tid="t220" type="open" lemma="dimanche" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--que-->
+    <term tid="t221" type="close" lemma="que" pos="C" morphofeat="CS">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t222" type="close" lemma="le" pos="D" morphofeat="Dfp">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--conditions-->
+    <term tid="t223" type="open" lemma="condition" pos="N" morphofeat="NCfp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t224" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t225" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--accord-->
+    <term tid="t226" type="open" lemma="accord" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--n'-->
+    <term tid="t227" type="open" lemma="n'" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--étaient-->
+    <term tid="t228" type="open" lemma="étayer" pos="V" morphofeat="VI3p">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t229" type="open" lemma="«" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--pas-->
+    <term tid="t230" type="open" lemma="pas" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative" sentiment_modifier="shifter"/>
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--encore-->
+    <term tid="t231" type="open" lemma="encore" pos="G" morphofeat="ADV">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--réunies-->
+    <term tid="t232" type="open" lemma="réunir" pos="V" morphofeat="VKfp">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t233" type="open" lemma="»" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t234" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t508" type="close" lemma="«" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w508"/>
+      </span>
+    </term>
+    <!--Je-->
+    <term tid="t509" type="close" lemma="Je" pos="Q" morphofeat="CL1ms">
+      <span>
+        <target id="w509"/>
+      </span>
+    </term>
+    <!--plaide-->
+    <term tid="t510" type="open" lemma="plaider" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w510"/>
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t511" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w511"/>
+      </span>
+    </term>
+    <!--une-->
+    <term tid="t512" type="close" lemma="un" pos="D" morphofeat="Dfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w512"/>
+      </span>
+    </term>
+    <!--Europe-->
+    <term tid="t513" type="open" lemma="Europe" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w513"/>
+      </span>
+    </term>
+    <!--différenciée-->
+    <term tid="t514" type="open" lemma="différencier" pos="V" morphofeat="VKfs">
+      <span>
+        <target id="w514"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t515" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w515"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--François Hollande-->
+        <span>
+          <target id="t216"/>
+          <target id="t217"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--les conditions-->
+        <span>
+          <target id="t222"/>
+          <target id="t223"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--n' étaient « pas encore réunies-->
+        <span>
+          <target id="t227"/>
+          <target id="t228"/>
+          <target id="t229"/>
+          <target id="t230"/>
+          <target id="t231"/>
+          <target id="t232"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Je-->
+        <span>
+          <target id="t509"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--une Europe différenciée-->
+        <span>
+          <target id="t512"/>
+          <target id="t513"/>
+          <target id="t514"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--plaide-->
+        <span>
+          <target id="t510"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

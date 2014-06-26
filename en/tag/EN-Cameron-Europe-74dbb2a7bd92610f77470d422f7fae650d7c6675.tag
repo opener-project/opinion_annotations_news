@@ -1,0 +1,15 @@
+w316	The	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	315	true	12
+w317	cost	cost	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	316	true	12
+w318	of	of	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	317	true	12
+w319	a	a	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	318	true	12
+w320	one-way	one-way	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	319	true	12
+w321	train	train	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	320	true	12
+w322	ticket	ticket	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	321	true	12
+w323	for	for	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	322	true	12
+w324	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	323	true	12
+w325	journey	journey	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	324	true	12
+w326	is	be	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	325	true	12
+w327	about	about	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	326	true	12
+w328	$	$	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	327	true	12
+w329	12	12	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	328	true	12
+w330	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	329	true	12

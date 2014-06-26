@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:12:18" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T09:45:30CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:50CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="7" para="2" offset="2519" length="3" wid="w252">The</wf>
+    <wf sent="7" para="2" offset="43" length="10" wid="w253">government</wf>
+    <wf sent="7" para="2" offset="1352" length="8" wid="w254">delivers</wf>
+    <wf sent="7" para="2" offset="1361" length="3" wid="w255">new</wf>
+    <wf sent="7" para="2" offset="1365" length="8" wid="w256">economic</wf>
+    <wf sent="7" para="2" offset="1374" length="3" wid="w257">and</wf>
+    <wf sent="7" para="2" offset="1378" length="9" wid="w258">borrowing</wf>
+    <wf sent="7" para="2" offset="1388" length="9" wid="w259">forecasts</wf>
+    <wf sent="7" para="2" offset="1398" length="2" wid="w260">on</wf>
+    <wf sent="7" para="2" offset="1401" length="4" wid="w261">Dec.</wf>
+    <wf sent="7" para="2" offset="1406" length="1" wid="w262">5</wf>
+    <wf sent="7" para="2" offset="1407" length="1" wid="w263">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t252">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--government-->
+    <term type="open" lemma="government" pos="N" morphofeat="NN" tid="t253">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--delivers-->
+    <term type="open" lemma="deliver" pos="V" morphofeat="VBZ" tid="t254">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--new-->
+    <term type="open" lemma="new" pos="G" morphofeat="JJ" tid="t255">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--economic-->
+    <term type="open" lemma="economic" pos="G" morphofeat="JJ" tid="t256">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t257">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--borrowing-->
+    <term type="open" lemma="borrowing" pos="N" morphofeat="NN" tid="t258">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--forecasts-->
+    <term type="open" lemma="forecast" pos="N" morphofeat="NNS" tid="t259">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t260">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--Dec.-->
+    <term type="close" lemma="Dec." pos="R" morphofeat="NNP" tid="t261">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--5-->
+    <term type="close" lemma="5" pos="O" morphofeat="CD" tid="t262">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t263">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t252"/>
+          <target id="t253"/>
+          <target id="t254"/>
+          <target id="t255"/>
+          <target id="t256"/>
+          <target id="t257"/>
+          <target id="t258"/>
+          <target id="t259"/>
+          <target id="t260"/>
+          <target id="t261"/>
+          <target id="t262"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

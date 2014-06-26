@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:55:58Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:55:58Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:55:59Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:32:17CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w140" sent="16" para="12" offset="744" length="4">Mais</wf>
+    <wf wid="w141" sent="16" para="12" offset="749" length="5">cette</wf>
+    <wf wid="w142" sent="16" para="12" offset="755" length="9">hypothèse</wf>
+    <wf wid="w143" sent="16" para="12" offset="765" length="3">est</wf>
+    <wf wid="w144" sent="16" para="12" offset="769" length="10">considérée</wf>
+    <wf wid="w145" sent="16" para="12" offset="780" length="4">avec</wf>
+    <wf wid="w146" sent="16" para="12" offset="785" length="11">scepticisme</wf>
+    <wf wid="w147" sent="16" para="12" offset="797" length="4">dans</wf>
+    <wf wid="w148" sent="16" para="12" offset="802" length="3">les</wf>
+    <wf wid="w149" sent="16" para="12" offset="806" length="4">deux</wf>
+    <wf wid="w150" sent="16" para="12" offset="811" length="5">camps</wf>
+    <wf wid="w151" sent="16" para="12" offset="816" length="1">.</wf>
+    <wf wid="w511" sent="26" para="21" offset="2678" length="4">Elle</wf>
+    <wf wid="w512" sent="26" para="21" offset="2683" length="1">a</wf>
+    <wf wid="w513" sent="26" para="21" offset="2685" length="9">également</wf>
+    <wf wid="w514" sent="26" para="21" offset="2695" length="4">cité</wf>
+    <wf wid="w515" sent="26" para="21" offset="2700" length="2">la</wf>
+    <wf wid="w516" sent="26" para="21" offset="2703" length="9">politique</wf>
+    <wf wid="w517" sent="26" para="21" offset="2713" length="9">familiale</wf>
+    <wf wid="w518" sent="26" para="21" offset="2723" length="2">et</wf>
+    <wf wid="w519" sent="26" para="21" offset="2726" length="2">l'</wf>
+    <wf wid="w520" sent="26" para="21" offset="2728" length="9">éducation</wf>
+    <wf wid="w521" sent="26" para="21" offset="2738" length="5">comme</wf>
+    <wf wid="w522" sent="26" para="21" offset="2744" length="4">deux</wf>
+    <wf wid="w523" sent="26" para="21" offset="2749" length="6">thèmes</wf>
+    <wf wid="w524" sent="26" para="21" offset="2756" length="2">où</wf>
+    <wf wid="w525" sent="26" para="21" offset="2759" length="3">les</wf>
+    <wf wid="w526" sent="26" para="21" offset="2763" length="9">positions</wf>
+    <wf wid="w527" sent="26" para="21" offset="2773" length="6">seront</wf>
+    <wf wid="w528" sent="26" para="21" offset="2780" length="10">difficiles</wf>
+    <wf wid="w529" sent="26" para="21" offset="2791" length="1">à</wf>
+    <wf wid="w530" sent="26" para="21" offset="2793" length="10">rapprocher</wf>
+    <wf wid="w531" sent="26" para="21" offset="2803" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Mais-->
+    <term tid="t140" type="close" lemma="Mais" pos="C" morphofeat="CC">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--cette-->
+    <term tid="t141" type="close" lemma="ce" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--hypothèse-->
+    <term tid="t142" type="open" lemma="hypothèse" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t143" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--considérée-->
+    <term tid="t144" type="open" lemma="considérer" pos="V" morphofeat="VKfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--avec-->
+    <term tid="t145" type="close" lemma="avec" pos="P" morphofeat="P">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--scepticisme-->
+    <term tid="t146" type="open" lemma="scepticisme" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--dans-->
+    <term tid="t147" type="close" lemma="dans" pos="P" morphofeat="P">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t148" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--deux-->
+    <term tid="t149" type="open" lemma="deux" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--camps-->
+    <term tid="t150" type="open" lemma="camp" pos="N" morphofeat="NCmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t151" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--Elle-->
+    <term tid="t511" type="close" lemma="lui" pos="Q" morphofeat="CL3fs">
+      <span>
+        <target id="w511"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t512" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w512"/>
+      </span>
+    </term>
+    <!--également-->
+    <term tid="t513" type="open" lemma="également" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w513"/>
+      </span>
+    </term>
+    <!--cité-->
+    <term tid="t514" type="open" lemma="citer" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w514"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t515" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w515"/>
+      </span>
+    </term>
+    <!--politique-->
+    <term tid="t516" type="open" lemma="politique" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w516"/>
+      </span>
+    </term>
+    <!--familiale-->
+    <term tid="t517" type="open" lemma="familial" pos="G" morphofeat="Afs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w517"/>
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t518" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w518"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t519" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w519"/>
+      </span>
+    </term>
+    <!--éducation-->
+    <term tid="t520" type="open" lemma="éducation" pos="N" morphofeat="NCfs">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w520"/>
+      </span>
+    </term>
+    <!--comme-->
+    <term tid="t521" type="close" lemma="comme" pos="P" morphofeat="P">
+      <span>
+        <target id="w521"/>
+      </span>
+    </term>
+    <!--deux-->
+    <term tid="t522" type="close" lemma="deux" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w522"/>
+      </span>
+    </term>
+    <!--thèmes-->
+    <term tid="t523" type="open" lemma="thème" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w523"/>
+      </span>
+    </term>
+    <!--où-->
+    <term tid="t524" type="close" lemma="où" pos="P" morphofeat="PROR3mp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive"/>
+      <span>
+        <target id="w524"/>
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t525" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w525"/>
+      </span>
+    </term>
+    <!--positions-->
+    <term tid="t526" type="open" lemma="position" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w526"/>
+      </span>
+    </term>
+    <!--seront-->
+    <term tid="t527" type="open" lemma="être" pos="V" morphofeat="VF3p">
+      <span>
+        <target id="w527"/>
+      </span>
+    </term>
+    <!--difficiles-->
+    <term tid="t528" type="open" lemma="difficile" pos="G" morphofeat="Afp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="negative"/>
+      <span>
+        <target id="w528"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t529" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w529"/>
+      </span>
+    </term>
+    <!--rapprocher-->
+    <term tid="t530" type="open" lemma="rapprocher" pos="V" morphofeat="VW">
+      <span>
+        <target id="w530"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t531" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w531"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--les deux camps-->
+        <span>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--cette hypothèse-->
+        <span>
+          <target id="t141"/>
+          <target id="t142"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--considérée avec scepticisme-->
+        <span>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t146"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder>
+        <!--Elle-->
+        <span>
+          <target id="t511"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--la politique familiale et l' éducation comme-->
+        <span>
+          <target id="t515"/>
+          <target id="t516"/>
+          <target id="t517"/>
+          <target id="t518"/>
+          <target id="t519"/>
+          <target id="t520"/>
+          <target id="t521"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--les positions seront difficiles à rapprocher-->
+        <span>
+          <target id="t525"/>
+          <target id="t526"/>
+          <target id="t527"/>
+          <target id="t528"/>
+          <target id="t529"/>
+          <target id="t530"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

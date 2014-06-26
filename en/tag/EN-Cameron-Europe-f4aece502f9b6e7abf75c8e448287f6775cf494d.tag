@@ -1,0 +1,10 @@
+w630	The	the	D		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	629	true	28
+w631	media	medium	N		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	630	true	28
+w632	leapt	leapt	N		D-Negative	2	Opinion	4		0		0		0		0		0		0	631	true	28
+w633	on	on	P		D-Negative	2	Opinion	4		0		0		0		0		0		0	632	true	28
+w634	every	every	D		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	633	true	28
+w635	joke	joke	N		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	634	true	28
+w636	he	he	Q		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	635	true	28
+w637	has	have	V		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	636	true	28
+w638	made	make	V		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	637	true	28
+w639	since	since	A		OpinionTarget	3	Opinion	4		0		0		0		0		0		0	638	true	28

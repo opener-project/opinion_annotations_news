@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:48:28Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:48:28Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:13:07CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:48:46CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:37CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w355" sent="23" para="9" offset="2277" length="3">Die</wf>
+    <wf wid="w356" sent="23" para="9" offset="2281" length="10">Opposition</wf>
+    <wf wid="w357" sent="23" para="9" offset="2292" length="11">protestiert</wf>
+    <wf wid="w358" sent="23" para="9" offset="2304" length="4">seit</wf>
+    <wf wid="w359" sent="23" para="9" offset="2309" length="6">Wochen</wf>
+    <wf wid="w360" sent="23" para="9" offset="2316" length="5">gegen</wf>
+    <wf wid="w361" sent="23" para="9" offset="2322" length="12">Janukowitsch</wf>
+    <wf wid="w362" sent="23" para="9" offset="2335" length="3">und</wf>
+    <wf wid="w363" sent="23" para="9" offset="2339" length="8">verlangt</wf>
+    <wf wid="w364" sent="23" para="9" offset="2348" length="10">inzwischen</wf>
+    <wf wid="w365" sent="23" para="9" offset="2359" length="3">den</wf>
+    <wf wid="w366" sent="23" para="9" offset="2363" length="9">Rücktritt</wf>
+    <wf wid="w367" sent="23" para="9" offset="2373" length="3">der</wf>
+    <wf wid="w368" sent="23" para="9" offset="2377" length="9">Regierung</wf>
+    <wf wid="w369" sent="23" para="9" offset="2387" length="3">und</wf>
+    <wf wid="w370" sent="23" para="9" offset="2391" length="9">Neuwahlen</wf>
+    <wf wid="w371" sent="23" para="9" offset="2400" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t355" type="close">
+      <span>
+        <target id="w355"/>
+      </span>
+    </term>
+    <term lemma="Opposition" morphofeat="NN" pos="N" tid="t356" type="open">
+      <span>
+        <target id="w356"/>
+      </span>
+    </term>
+    <term lemma="protestieren" morphofeat="VVFIN" pos="V" tid="t357" type="open">
+      <span>
+        <target id="w357"/>
+      </span>
+    </term>
+    <term lemma="seit" morphofeat="APPR" pos="P" tid="t358" type="close">
+      <span>
+        <target id="w358"/>
+      </span>
+    </term>
+    <term lemma="Woche" morphofeat="NN" pos="N" tid="t359" type="open">
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <term lemma="gegen" morphofeat="APPR" pos="P" tid="t360" type="close">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+    <term lemma="Janukowitsch" morphofeat="NN unknown_lemma" pos="O" tid="t361" type="open">
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t362" type="close">
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <term lemma="verlangen" morphofeat="VVFIN" pos="V" tid="t363" type="open">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <term lemma="inzwischen" morphofeat="ADV" pos="A" tid="t364" type="open">
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t365" type="close">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <term lemma="Rücktritt" morphofeat="NN" pos="N" tid="t366" type="open">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t367" type="close">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <term lemma="Regierung" morphofeat="NN" pos="N" tid="t368" type="open">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t369" type="close">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <term lemma="Neuwahl" morphofeat="NN" pos="N" tid="t370" type="open">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t371" type="open">
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--der Regierung-->
+        <span>
+          <target id="t367"/>
+          <target id="t368"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--Rücktritt-->
+        <span>
+          <target id="t366"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Die Opposition-->
+        <span>
+          <target id="t355"/>
+          <target id="t356"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--den Rücktritt der Regierung-->
+        <span>
+          <target id="t365"/>
+          <target id="t366"/>
+          <target id="t367"/>
+          <target id="t368"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--verlangt-->
+        <span>
+          <target id="t363"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Die Opposition-->
+        <span>
+          <target id="t355"/>
+          <target id="t356"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Neuwahlen-->
+        <span>
+          <target id="t370"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--verlangt-->
+        <span>
+          <target id="t363"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Die Opposition-->
+        <span>
+          <target id="t355"/>
+          <target id="t356"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Janukowitsch-->
+        <span>
+          <target id="t361"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--protestiert gegen-->
+        <span>
+          <target id="t357"/>
+          <target id="t360"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

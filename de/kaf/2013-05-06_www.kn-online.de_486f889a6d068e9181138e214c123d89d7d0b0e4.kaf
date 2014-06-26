@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:53:41Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:53:41Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:46:24CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:53:59CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w105" sent="8" para="4" offset="585" length="7">Geplant</wf>
+    <wf wid="w106" sent="8" para="4" offset="593" length="3">ist</wf>
+    <wf wid="w107" sent="8" para="4" offset="596" length="1">,</wf>
+    <wf wid="w108" sent="8" para="4" offset="598" length="4">dass</wf>
+    <wf wid="w109" sent="8" para="4" offset="603" length="3">ein</wf>
+    <wf wid="w110" sent="8" para="4" offset="607" length="7">solcher</wf>
+    <wf wid="w111" sent="8" para="4" offset="615" length="16">Weltklimavertrag</wf>
+    <wf wid="w112" sent="8" para="4" offset="632" length="3">bis</wf>
+    <wf wid="w113" sent="8" para="4" offset="636" length="4">2020</wf>
+    <wf wid="w114" sent="8" para="4" offset="641" length="2">in</wf>
+    <wf wid="w115" sent="8" para="4" offset="644" length="5">Kraft</wf>
+    <wf wid="w116" sent="8" para="4" offset="650" length="6">treten</wf>
+    <wf wid="w117" sent="8" para="4" offset="657" length="4">soll</wf>
+    <wf wid="w118" sent="8" para="4" offset="661" length="1">.</wf>
+    <wf wid="w298" sent="19" para="7" offset="1693" length="19">Wirtschaftsminister</wf>
+    <wf wid="w299" sent="19" para="7" offset="1713" length="7">Philipp</wf>
+    <wf wid="w300" sent="19" para="7" offset="1721" length="6">Rösler</wf>
+    <wf wid="w301" sent="19" para="7" offset="1728" length="1">(</wf>
+    <wf wid="w302" sent="19" para="7" offset="1729" length="3">FDP</wf>
+    <wf wid="w303" sent="19" para="7" offset="1732" length="1">)</wf>
+    <wf wid="w304" sent="19" para="7" offset="1734" length="3">ist</wf>
+    <wf wid="w305" sent="19" para="7" offset="1738" length="5">gegen</wf>
+    <wf wid="w306" sent="19" para="7" offset="1744" length="5">einen</wf>
+    <wf wid="w307" sent="19" para="7" offset="1750" length="13">Markteingriff</wf>
+    <wf wid="w308" sent="19" para="7" offset="1763" length="1">,</wf>
+    <wf wid="w309" sent="19" para="7" offset="1765" length="14">Umweltminister</wf>
+    <wf wid="w310" sent="19" para="7" offset="1780" length="5">Peter</wf>
+    <wf wid="w311" sent="19" para="7" offset="1786" length="8">Altmaier</wf>
+    <wf wid="w312" sent="19" para="7" offset="1795" length="1">(</wf>
+    <wf wid="w313" sent="19" para="7" offset="1796" length="3">CDU</wf>
+    <wf wid="w314" sent="19" para="7" offset="1799" length="1">)</wf>
+    <wf wid="w315" sent="19" para="7" offset="1801" length="5">dafür</wf>
+    <wf wid="w316" sent="19" para="7" offset="1806" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="planen" morphofeat="VVPP" pos="V" tid="t105" type="open">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t106" type="open">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t107" type="open">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <term lemma="dass" morphofeat="KOUS" pos="C" tid="t108" type="close">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t109" type="close">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <term lemma="solche" morphofeat="PIAT" pos="Q" tid="t110" type="close">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <term lemma="Weltklimavertrag" morphofeat="NN unknown_lemma" pos="O" tid="t111" type="open">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <term lemma="bis" morphofeat="APPR" pos="P" tid="t112" type="close">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <term lemma="2020" morphofeat="CARD" pos="O" tid="t113" type="open">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t114" type="close">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <term lemma="Kraft" morphofeat="NN" pos="N" tid="t115" type="open">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <term lemma="treten" morphofeat="VVINF" pos="V" tid="t116" type="open">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <term lemma="sollen" morphofeat="VMFIN" pos="V" tid="t117" type="open">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t118" type="open">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <term lemma="Wirtschaftsminister" morphofeat="NN" pos="N" tid="t298" type="open">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <term lemma="Philipp" morphofeat="NE" pos="R" tid="t299" type="open">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <term lemma="Rösler" morphofeat="NE unknown_lemma" pos="O" tid="t300" type="open">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="$(" pos="O" tid="t301" type="open">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <term lemma="FDP" morphofeat="NE" pos="R" tid="t302" type="open">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat="$(" pos="O" tid="t303" type="open">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t304" type="open">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <term lemma="gegen" morphofeat="APPR" pos="P" tid="t305" type="close">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t306" type="close">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <term lemma="Markteingriff" morphofeat="NN unknown_lemma" pos="O" tid="t307" type="open">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t308" type="open">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <term lemma="Umweltminister" morphofeat="NN" pos="N" tid="t309" type="open">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <term lemma="Peter" morphofeat="NE" pos="R" tid="t310" type="open">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <term lemma="Altmaier" morphofeat="NE unknown_lemma" pos="O" tid="t311" type="open">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="$(" pos="O" tid="t312" type="open">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <term lemma="CDU" morphofeat="NE" pos="R" tid="t313" type="open">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat="$(" pos="O" tid="t314" type="open">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <term lemma="dafür" morphofeat="PAV" pos="Q" tid="t315" type="close">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t316" type="open">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--Wirtschaftsminister Philipp Rösler-->
+        <span>
+          <target id="t298"/>
+          <target id="t299"/>
+          <target id="t300"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--einen Markteingriff-->
+        <span>
+          <target id="t306"/>
+          <target id="t307"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ist gegen-->
+        <span>
+          <target id="t304"/>
+          <target id="t305"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

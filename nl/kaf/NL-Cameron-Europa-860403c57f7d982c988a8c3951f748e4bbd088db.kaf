@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:23Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:23Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:49:41CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w42" sent="5" para="2" offset="186" length="10">Aanhangers</wf>
+    <wf wid="w43" sent="5" para="2" offset="197" length="3">van</wf>
+    <wf wid="w44" sent="5" para="2" offset="201" length="8">Hollande</wf>
+    <wf wid="w45" sent="5" para="2" offset="210" length="6">vieren</wf>
+    <wf wid="w46" sent="5" para="2" offset="217" length="5">feest</wf>
+    <wf wid="w47" sent="5" para="2" offset="222" length="1">.</wf>
+    <wf wid="w153" sent="12" para="2" offset="916" length="6">Merkel</wf>
+    <wf wid="w154" sent="12" para="2" offset="923" length="7">steunde</wf>
+    <wf wid="w155" sent="12" para="2" offset="931" length="2">in</wf>
+    <wf wid="w156" sent="12" para="2" offset="934" length="2">de</wf>
+    <wf wid="w157" sent="12" para="2" offset="937" length="17">verkiezingsstrijd</wf>
+    <wf wid="w158" sent="12" para="2" offset="955" length="9">Hollandes</wf>
+    <wf wid="w159" sent="12" para="2" offset="965" length="12">tegenstander</wf>
+    <wf wid="w160" sent="12" para="2" offset="977" length="1">,</wf>
+    <wf wid="w161" sent="12" para="2" offset="979" length="2">de</wf>
+    <wf wid="w162" sent="12" para="2" offset="982" length="8">zittende</wf>
+    <wf wid="w163" sent="12" para="2" offset="991" length="9">president</wf>
+    <wf wid="w164" sent="12" para="2" offset="1001" length="7">Nicolas</wf>
+    <wf wid="w165" sent="12" para="2" offset="1009" length="7">Sarkozy</wf>
+    <wf wid="w166" sent="12" para="2" offset="1016" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Aanhangers-->
+    <term tid="t42" type="open" lemma="aanhanger" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t43" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t44" type="open" lemma="Hollande" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--vieren-->
+    <term tid="t45" type="open" lemma="vier" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--feest-->
+    <term tid="t46" type="open" lemma="feest" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w46"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t47" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t153" type="open" lemma="Merkel" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--steunde-->
+    <term tid="t154" type="open" lemma="steunen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t155" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t156" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--verkiezingsstrijd-->
+    <term tid="t157" type="open" lemma="verkiezingsstrijd" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--Hollandes-->
+    <term tid="t158" type="open" lemma="Hollandes" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--tegenstander-->
+    <term tid="t159" type="open" lemma="tegenstander" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w159"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t160" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t161" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--zittende-->
+    <term tid="t162" type="open" lemma="zittend" pos="G" morphofeat="adj">
+      <span>
+        <target id="w162"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--president-->
+    <term tid="t163" type="open" lemma="president" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--Nicolas-->
+    <term tid="t164" type="open" lemma="Nicolas" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--Sarkozy-->
+    <term tid="t165" type="open" lemma="Sarkozy" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t166" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--feest-->
+        <span>
+          <target id="t46"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder>
+        <!--Aanhangers van Hollande-->
+        <span>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--feest-->
+        <span>
+          <target id="t46"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--vieren-->
+        <span>
+          <target id="t45"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t153"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Hollandes tegenstander-->
+        <span>
+          <target id="t158"/>
+          <target id="t159"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--steunde-->
+        <span>
+          <target id="t154"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--tegenstander-->
+        <span>
+          <target id="t159"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

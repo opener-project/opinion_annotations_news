@@ -1,0 +1,9 @@
+w105	A	a	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	104	true	6
+w106	recent	recent	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	105	true	6
+w107	cover	cover	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	106	true	6
+w108	of	of	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	107	true	6
+w109	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	108	true	6
+w110	Economist	Economist	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	109	true	6
+w111	says	say	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	110	true	6
+w112	it	it	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	111	true	6
+w113	all	all	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	112	true	6

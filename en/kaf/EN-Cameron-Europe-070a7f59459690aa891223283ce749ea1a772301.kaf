@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:43Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:43Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:20:44" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:51:01CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="11" para="2" offset="1081" length="4" wid="w206">They</wf>
+    <wf sent="11" para="2" offset="1086" length="3" wid="w207">did</wf>
+    <wf sent="11" para="2" offset="1090" length="3" wid="w208">not</wf>
+    <wf sent="11" para="2" offset="1094" length="6" wid="w209">accept</wf>
+    <wf sent="11" para="2" offset="1101" length="4" wid="w210">that</wf>
+    <wf sent="11" para="2" offset="1106" length="3" wid="w211">the</wf>
+    <wf sent="11" para="2" offset="1110" length="6" wid="w212">Lisbon</wf>
+    <wf sent="11" para="2" offset="1117" length="6" wid="w213">Treaty</wf>
+    <wf sent="11" para="2" offset="1124" length="3" wid="w214">had</wf>
+    <wf sent="11" para="2" offset="1128" length="4" wid="w215">made</wf>
+    <wf sent="11" para="2" offset="1133" length="1" wid="w216">a</wf>
+    <wf sent="11" para="2" offset="1135" length="10" wid="w217">referendum</wf>
+    <wf sent="11" para="2" offset="1146" length="10" wid="w218">irrelevant</wf>
+    <wf sent="11" para="2" offset="1156" length="1" wid="w219">.</wf>
+  </text>
+  <terms>
+    <!--They-->
+    <term type="close" lemma="they" pos="Q" morphofeat="PRP" tid="t206">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--did-->
+    <term type="open" lemma="do" pos="V" morphofeat="VBD" tid="t207">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--not-->
+    <term type="open" lemma="not" pos="A" morphofeat="RB" tid="t208">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--accept-->
+    <term type="open" lemma="accept" pos="V" morphofeat="VB" tid="t209">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="P" morphofeat="IN" tid="t210">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t211">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--Lisbon-->
+    <term type="close" lemma="Lisbon" pos="R" morphofeat="NNP" tid="t212">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--Treaty-->
+    <term type="close" lemma="Treaty" pos="R" morphofeat="NNP" tid="t213">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--had-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBD" tid="t214">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--made-->
+    <term type="open" lemma="make" pos="V" morphofeat="VBN" tid="t215">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t216">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--referendum-->
+    <term type="open" lemma="referendum" pos="N" morphofeat="NN" tid="t217">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--irrelevant-->
+    <term type="open" lemma="irrelevant" pos="N" morphofeat="NN" tid="t218">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t219">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--They-->
+        <span>
+          <target id="t206"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the Lisbon Treaty had made a referendum irrelevant-->
+        <span>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--not accept-->
+        <span>
+          <target id="t208"/>
+          <target id="t209"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--the Lisbon Treaty-->
+        <span>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--made a referendum irrelevant-->
+        <span>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

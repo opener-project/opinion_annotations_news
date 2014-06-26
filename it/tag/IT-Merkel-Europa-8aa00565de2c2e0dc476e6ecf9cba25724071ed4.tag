@@ -1,0 +1,9 @@
+w29	Secondo	secondo	P		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	28	false	3
+w30	i	lo	D		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	29	false	3
+w31	sondaggi	sondaggio	N		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	30	false	3
+w32	Merkel	merkel	R		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	31	false	3
+w33	non	non	A		D-Negative	3	Opinion	4		0		0		0		0		0		0	32	false	3
+w34	dovrebbe	dovere	V		D-Negative	3	Opinion	4		0		0		0		0		0		0	33	false	3
+w35	avere	avere	V		D-Negative	3	Opinion	4		0		0		0		0		0		0	34	false	3
+w36	la	lo	D		D-Negative	3	Opinion	4		0		0		0		0		0		0	35	false	3
+w37	maggioranza	maggioranza	N		D-Negative	3	Opinion	4		0		0		0		0		0		0	36	false	3

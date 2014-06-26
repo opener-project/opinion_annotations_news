@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:03:09CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:26CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w339" sent="19" para="2" offset="1809" length="9">Noorwegen</wf>
+    <wf wid="w340" sent="19" para="2" offset="1819" length="2">is</wf>
+    <wf wid="w341" sent="19" para="2" offset="1822" length="4">zelf</wf>
+    <wf wid="w342" sent="19" para="2" offset="1827" length="4">geen</wf>
+    <wf wid="w343" sent="19" para="2" offset="1832" length="6">EU-lid</wf>
+    <wf wid="w344" sent="19" para="2" offset="1838" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Noorwegen-->
+    <term tid="t339" type="open" lemma="Noorwegen" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t340" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--zelf-->
+    <term tid="t341" type="close" lemma="zelf" pos="Q" morphofeat="prondemo">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--geen-->
+    <term tid="t342" type="close" lemma="geen" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--EU-lid-->
+    <term tid="t343" type="open" lemma="EU-lid" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t344" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t339"/>
+          <target id="t340"/>
+          <target id="t341"/>
+          <target id="t342"/>
+          <target id="t343"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

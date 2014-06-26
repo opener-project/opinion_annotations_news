@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T16:10:55CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w95" sent="7" para="2" offset="551" length="1">'</wf>
+    <wf wid="w96" sent="7" para="2" offset="552" length="7">Merkels</wf>
+    <wf wid="w97" sent="7" para="2" offset="560" length="3">CDU</wf>
+    <wf wid="w98" sent="7" para="2" offset="563" length="1">/</wf>
+    <wf wid="w99" sent="7" para="2" offset="564" length="3">CSU</wf>
+    <wf wid="w100" sent="7" para="2" offset="568" length="5">staat</wf>
+    <wf wid="w101" sent="7" para="2" offset="574" length="9">momenteel</wf>
+    <wf wid="w102" sent="7" para="2" offset="584" length="2">in</wf>
+    <wf wid="w103" sent="7" para="2" offset="587" length="2">de</wf>
+    <wf wid="w104" sent="7" para="2" offset="590" length="9">peilingen</wf>
+    <wf wid="w105" sent="7" para="2" offset="600" length="2">op</wf>
+    <wf wid="w106" sent="7" para="2" offset="603" length="2">42</wf>
+    <wf wid="w107" sent="7" para="2" offset="606" length="7">procent</wf>
+    <wf wid="w108" sent="7" para="2" offset="614" length="2">en</wf>
+    <wf wid="w109" sent="7" para="2" offset="617" length="4">laat</wf>
+    <wf wid="w110" sent="7" para="2" offset="622" length="2">de</wf>
+    <wf wid="w111" sent="7" para="2" offset="625" length="20">sociaaldemocratische</wf>
+    <wf wid="w112" sent="7" para="2" offset="646" length="3">SPD</wf>
+    <wf wid="w113" sent="7" para="2" offset="650" length="3">met</wf>
+    <wf wid="w114" sent="7" para="2" offset="654" length="2">26</wf>
+    <wf wid="w115" sent="7" para="2" offset="657" length="7">procent</wf>
+    <wf wid="w116" sent="7" para="2" offset="665" length="3">ver</wf>
+    <wf wid="w117" sent="7" para="2" offset="669" length="6">achter</wf>
+    <wf wid="w118" sent="7" para="2" offset="676" length="4">zich</wf>
+    <wf wid="w119" sent="7" para="2" offset="680" length="1">.</wf>
+  </text>
+  <terms>
+    <!--'-->
+    <term tid="t95" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--Merkels-->
+    <term tid="t96" type="open" lemma="Merkels" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--CDU-->
+    <term tid="t97" type="open" lemma="CDU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--/-->
+    <term tid="t98" type="open" lemma="/" pos="O" morphofeat="punc">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--CSU-->
+    <term tid="t99" type="open" lemma="CSU" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--staat-->
+    <term tid="t100" type="open" lemma="staat" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--momenteel-->
+    <term tid="t101" type="open" lemma="momenteel" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t102" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t103" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--peilingen-->
+    <term tid="t104" type="open" lemma="peiling" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t105" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--42-->
+    <term tid="t106" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--procent-->
+    <term tid="t107" type="open" lemma="procent" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t108" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--laat-->
+    <term tid="t109" type="open" lemma="laten" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t110" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--sociaaldemocratische-->
+    <term tid="t111" type="open" lemma="sociaaldemocratische" pos="O" morphofeat="adj unknown_lemma">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--SPD-->
+    <term tid="t112" type="open" lemma="SPD" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t113" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--26-->
+    <term tid="t114" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--procent-->
+    <term tid="t115" type="open" lemma="procent" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--ver-->
+    <term tid="t116" type="open" lemma="ver" pos="G" morphofeat="adj">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--achter-->
+    <term tid="t117" type="close" lemma="achter" pos="P" morphofeat="prep">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--zich-->
+    <term tid="t118" type="close" lemma="zich" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t119" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

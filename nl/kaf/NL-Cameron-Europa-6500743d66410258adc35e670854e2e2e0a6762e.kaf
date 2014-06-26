@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:01Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:01Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:21:18CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:28CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w251" sent="16" para="2" offset="1427" length="9">Nederland</wf>
+    <wf wid="w252" sent="16" para="2" offset="1437" length="2">en</wf>
+    <wf wid="w253" sent="16" para="2" offset="1440" length="6">andere</wf>
+    <wf wid="w254" sent="16" para="2" offset="1447" length="6">landen</wf>
+    <wf wid="w255" sent="16" para="2" offset="1454" length="8">pleitten</wf>
+    <wf wid="w256" sent="16" para="2" offset="1463" length="13">herhaaldelijk</wf>
+    <wf wid="w257" sent="16" para="2" offset="1477" length="4">voor</wf>
+    <wf wid="w258" sent="16" para="2" offset="1482" length="5">zeker</wf>
+    <wf wid="w259" sent="16" para="2" offset="1488" length="3">100</wf>
+    <wf wid="w260" sent="16" para="2" offset="1492" length="7">miljard</wf>
+    <wf wid="w261" sent="16" para="2" offset="1500" length="6">minder</wf>
+    <wf wid="w262" sent="16" para="2" offset="1506" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Nederland-->
+    <term tid="t251" type="open" lemma="Nederland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t252" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--andere-->
+    <term tid="t253" type="open" lemma="ander" pos="G" morphofeat="adj">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--landen-->
+    <term tid="t254" type="open" lemma="land" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--pleitten-->
+    <term tid="t255" type="open" lemma="pleiten" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--herhaaldelijk-->
+    <term tid="t256" type="open" lemma="herhaaldelijk" pos="A" morphofeat="adv">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--voor-->
+    <term tid="t257" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--zeker-->
+    <term tid="t258" type="open" lemma="zeker" pos="G" morphofeat="adj">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--100-->
+    <term tid="t259" type="open" lemma="@card@" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--miljard-->
+    <term tid="t260" type="open" lemma="miljard" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--minder-->
+    <term tid="t261" type="open" lemma="min" pos="G" morphofeat="adj">
+      <span>
+        <target id="w261"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t262" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Nederland-->
+        <span>
+          <target id="t251"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--zeker 100 miljard minder-->
+        <span>
+          <target id="t258"/>
+          <target id="t259"/>
+          <target id="t260"/>
+          <target id="t261"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--pleitten herhaaldelijk voor-->
+        <span>
+          <target id="t255"/>
+          <target id="t256"/>
+          <target id="t257"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--andere landen-->
+        <span>
+          <target id="t253"/>
+          <target id="t254"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--zeker 100 miljard minder-->
+        <span>
+          <target id="t258"/>
+          <target id="t259"/>
+          <target id="t260"/>
+          <target id="t261"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--pleitten herhaaldelijk voor-->
+        <span>
+          <target id="t255"/>
+          <target id="t256"/>
+          <target id="t257"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

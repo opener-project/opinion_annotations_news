@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:59Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:59Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:30:04CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w79" sent="5" para="2" offset="531" length="3">Het</wf>
+    <wf wid="w80" sent="5" para="2" offset="535" length="3">was</wf>
+    <wf wid="w81" sent="5" para="2" offset="539" length="2">de</wf>
+    <wf wid="w82" sent="5" para="2" offset="542" length="6">eerste</wf>
+    <wf wid="w83" sent="5" para="2" offset="549" length="4">keer</wf>
+    <wf wid="w84" sent="5" para="2" offset="554" length="3">dat</wf>
+    <wf wid="w85" sent="5" para="2" offset="558" length="2">de</wf>
+    <wf wid="w86" sent="5" para="2" offset="561" length="7">Grieken</wf>
+    <wf wid="w87" sent="5" para="2" offset="569" length="4">zich</wf>
+    <wf wid="w88" sent="5" para="2" offset="574" length="6">konden</wf>
+    <wf wid="w89" sent="5" para="2" offset="581" length="10">uitspreken</wf>
+    <wf wid="w90" sent="5" para="2" offset="592" length="4">over</wf>
+    <wf wid="w91" sent="5" para="2" offset="597" length="3">het</wf>
+    <wf wid="w92" sent="5" para="2" offset="601" length="18">bezuinigingspakket</wf>
+    <wf wid="w93" sent="5" para="2" offset="619" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Het-->
+    <term tid="t79" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--was-->
+    <term tid="t80" type="open" lemma="wezen|zijn" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t81" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--eerste-->
+    <term tid="t82" type="open" lemma="een" pos="O" morphofeat="num__ord">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--keer-->
+    <term tid="t83" type="open" lemma="keer" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t84" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t85" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--Grieken-->
+    <term tid="t86" type="open" lemma="Griek" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--zich-->
+    <term tid="t87" type="close" lemma="zich" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--konden-->
+    <term tid="t88" type="open" lemma="kunnen" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--uitspreken-->
+    <term tid="t89" type="open" lemma="uitspreken" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t90" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t91" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--bezuinigingspakket-->
+    <term tid="t92" type="open" lemma="bezuinigingspakket" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t93" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t79"/>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

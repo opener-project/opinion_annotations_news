@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:04:34Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:04:34Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:30:24" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T12:40:29CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="3" para="2" offset="262" length="9" wid="w44">Brazilian</wf>
+    <wf sent="3" para="2" offset="272" length="9" wid="w45">President</wf>
+    <wf sent="3" para="2" offset="282" length="5" wid="w46">Dilma</wf>
+    <wf sent="3" para="2" offset="288" length="8" wid="w47">Rousseff</wf>
+    <wf sent="3" para="2" offset="297" length="3" wid="w48">and</wf>
+    <wf sent="3" para="2" offset="301" length="6" wid="w49">German</wf>
+    <wf sent="3" para="2" offset="308" length="10" wid="w50">Chancellor</wf>
+    <wf sent="3" para="2" offset="319" length="6" wid="w51">Angela</wf>
+    <wf sent="3" para="2" offset="326" length="6" wid="w52">Merkel</wf>
+    <wf sent="3" para="2" offset="333" length="4" wid="w53">have</wf>
+    <wf sent="3" para="2" offset="338" length="9" wid="w54">condemned</wf>
+    <wf sent="3" para="2" offset="348" length="3" wid="w55">the</wf>
+    <wf sent="3" para="2" offset="352" length="2" wid="w56">US</wf>
+    <wf sent="3" para="2" offset="355" length="8" wid="w57">National</wf>
+    <wf sent="3" para="2" offset="364" length="8" wid="w58">Security</wf>
+    <wf sent="3" para="2" offset="373" length="6" wid="w59">Agency</wf>
+    <wf sent="3" para="2" offset="379" length="2" wid="w60">’s</wf>
+    <wf sent="3" para="2" offset="382" length="1" wid="w61">(</wf>
+    <wf sent="3" para="2" offset="383" length="3" wid="w62">NSA</wf>
+    <wf sent="3" para="2" offset="386" length="1" wid="w63">)</wf>
+    <wf sent="3" para="2" offset="388" length="12" wid="w64">surveillance</wf>
+    <wf sent="3" para="2" offset="401" length="9" wid="w65">programme</wf>
+    <wf sent="3" para="2" offset="410" length="1" wid="w66">.</wf>
+  </text>
+  <terms>
+    <!--Brazilian-->
+    <term type="open" lemma="brazilian" pos="G" morphofeat="JJ" tid="t44">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--President-->
+    <term type="close" lemma="President" pos="R" morphofeat="NNP" tid="t45">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--Dilma-->
+    <term type="close" lemma="Dilma" pos="R" morphofeat="NNP" tid="t46">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--Rousseff-->
+    <term type="close" lemma="Rousseff" pos="R" morphofeat="NNP" tid="t47">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t48">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--German-->
+    <term type="close" lemma="German" pos="R" morphofeat="NNP" tid="t49">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--Chancellor-->
+    <term type="close" lemma="Chancellor" pos="R" morphofeat="NNP" tid="t50">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term type="close" lemma="Angela" pos="R" morphofeat="NNP" tid="t51">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term type="close" lemma="Merkel" pos="R" morphofeat="NNP" tid="t52">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--have-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBP" tid="t53">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--condemned-->
+    <term type="open" lemma="condemn" pos="V" morphofeat="VBN" tid="t54">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t55">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--US-->
+    <term type="close" lemma="US" pos="R" morphofeat="NNP" tid="t56">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--National-->
+    <term type="close" lemma="National" pos="R" morphofeat="NNP" tid="t57">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--Security-->
+    <term type="close" lemma="Security" pos="R" morphofeat="NNP" tid="t58">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--Agency-->
+    <term type="close" lemma="Agency" pos="R" morphofeat="NNP" tid="t59">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--’s-->
+    <term type="open" lemma="’s" pos="N" morphofeat="NNS" tid="t60">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--(-->
+    <term type="close" lemma="(" pos="O" morphofeat="(" tid="t61">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--NSA-->
+    <term type="close" lemma="NSA" pos="R" morphofeat="NNP" tid="t62">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--)-->
+    <term type="close" lemma=")" pos="O" morphofeat=")" tid="t63">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--surveillance-->
+    <term type="open" lemma="surveillance" pos="N" morphofeat="NN" tid="t64">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--programme-->
+    <term type="open" lemma="programme" pos="N" morphofeat="NN" tid="t65">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t66">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Dilma Rousseff-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the US National Security Agency ’s ( NSA ) surveillance programme-->
+        <span>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--have condemned-->
+        <span>
+          <target id="t53"/>
+          <target id="t54"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Angela Merkel-->
+        <span>
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the US National Security Agency ’s ( NSA ) surveillance programme-->
+        <span>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--have condemned-->
+        <span>
+          <target id="t53"/>
+          <target id="t54"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

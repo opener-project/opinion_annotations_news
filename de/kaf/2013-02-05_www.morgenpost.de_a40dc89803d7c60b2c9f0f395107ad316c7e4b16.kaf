@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:35:34Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:35:34Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:55:46CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:36:24CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w296" sent="23" para="9" offset="1674" length="10">Steinbrück</wf>
+    <wf wid="w297" sent="23" para="9" offset="1685" length="4">will</wf>
+    <wf wid="w298" sent="23" para="9" offset="1690" length="2">im</wf>
+    <wf wid="w299" sent="23" para="9" offset="1693" length="7">Ausland</wf>
+    <wf wid="w300" sent="23" para="9" offset="1701" length="3">für</wf>
+    <wf wid="w301" sent="23" para="9" offset="1705" length="5">seine</wf>
+    <wf wid="w302" sent="23" para="9" offset="1711" length="5">Ziele</wf>
+    <wf wid="w303" sent="23" para="9" offset="1717" length="6">werben</wf>
+    <wf wid="w304" sent="23" para="9" offset="1724" length="3">und</wf>
+    <wf wid="w305" sent="23" para="9" offset="1728" length="4">sein</wf>
+    <wf wid="w306" sent="23" para="9" offset="1733" length="15">internationales</wf>
+    <wf wid="w307" sent="23" para="9" offset="1749" length="6">Profil</wf>
+    <wf wid="w308" sent="23" para="9" offset="1756" length="8">schärfen</wf>
+    <wf wid="w309" sent="23" para="9" offset="1764" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Steinbrück" morphofeat="NN unknown_lemma" pos="O" tid="t296" type="open">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t297" type="open">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPRART" pos="P" tid="t298" type="close">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <term lemma="Ausland" morphofeat="NN" pos="N" tid="t299" type="open">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <term lemma="für" morphofeat="APPR" pos="P" tid="t300" type="close">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="PPOSAT" pos="Q" tid="t301" type="close">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <term lemma="Ziel" morphofeat="NN" pos="N" tid="t302" type="open">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <term lemma="werben" morphofeat="VVINF" pos="V" tid="t303" type="open">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t304" type="close">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="PPOSAT" pos="Q" tid="t305" type="close">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <term lemma="international" morphofeat="ADJA" pos="G" tid="t306" type="open">
+      <span>
+        <target id="w306"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Profil" morphofeat="NN" pos="N" tid="t307" type="open">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <term lemma="schärfen" morphofeat="VVINF" pos="V" tid="t308" type="open">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t309" type="open">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--internationales Profil-->
+        <span>
+          <target id="t306"/>
+          <target id="t307"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--schärfen-->
+        <span>
+          <target id="t308"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Steinbrück-->
+        <span>
+          <target id="t296"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--sein internationales Profil schärfen-->
+        <span>
+          <target id="t305"/>
+          <target id="t306"/>
+          <target id="t307"/>
+          <target id="t308"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--will-->
+        <span>
+          <target id="t297"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Steinbrück-->
+        <span>
+          <target id="t296"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--für seine Ziele werben-->
+        <span>
+          <target id="t300"/>
+          <target id="t301"/>
+          <target id="t302"/>
+          <target id="t303"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--will-->
+        <span>
+          <target id="t297"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

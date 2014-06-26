@@ -1,0 +1,11 @@
+w48	De	de	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	47	true	3
+w49	Duitse	Duits	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	48	true	3
+w50	bondskanselier	bondskanselier	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	49	true	3
+w51	Angela	Angela	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	50	true	3
+w52	Merkel	Merkel	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	51	true	3
+w53	heeft	hebben	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	52	true	3
+w54	dat	dat	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	53	true	3
+w55	woensdag	woensdag	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	54	true	3
+w56	laten	laten	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	55	true	3
+w57	weten	weten	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	56	true	3
+w58	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	57	true	3

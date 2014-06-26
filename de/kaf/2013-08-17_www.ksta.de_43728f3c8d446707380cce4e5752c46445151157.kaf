@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:06:50Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:06:50Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:04:39CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:07:13CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w106" sent="12" para="7" offset="721" length="1">«</wf>
+    <wf wid="w107" sent="12" para="7" offset="722" length="3">Ich</wf>
+    <wf wid="w108" sent="12" para="7" offset="726" length="3">bin</wf>
+    <wf wid="w109" sent="12" para="7" offset="730" length="5">immer</wf>
+    <wf wid="w110" sent="12" para="7" offset="736" length="9">skeptisch</wf>
+    <wf wid="w111" sent="12" para="7" offset="746" length="9">gegenüber</wf>
+    <wf wid="w112" sent="12" para="7" offset="756" length="12">Beteuerungen</wf>
+    <wf wid="w113" sent="12" para="7" offset="769" length="3">von</wf>
+    <wf wid="w114" sent="12" para="7" offset="773" length="6">Seiten</wf>
+    <wf wid="w115" sent="12" para="7" offset="780" length="3">der</wf>
+    <wf wid="w116" sent="12" para="7" offset="784" length="13">Geheimdienste</wf>
+    <wf wid="w117" sent="12" para="7" offset="797" length="1">»</wf>
+    <wf wid="w118" sent="12" para="7" offset="798" length="1">,</wf>
+    <wf wid="w119" sent="12" para="7" offset="800" length="5">sagte</wf>
+    <wf wid="w120" sent="12" para="7" offset="806" length="3">sie</wf>
+    <wf wid="w121" sent="12" para="7" offset="810" length="3">der</wf>
+    <wf wid="w122" sent="12" para="7" offset="814" length="1">«</wf>
+    <wf wid="w123" sent="12" para="7" offset="815" length="13">Hannoverschen</wf>
+    <wf wid="w124" sent="12" para="7" offset="829" length="11">Allgemeinen</wf>
+    <wf wid="w125" sent="12" para="7" offset="841" length="7">Zeitung</wf>
+    <wf wid="w126" sent="12" para="7" offset="848" length="1">»</wf>
+    <wf wid="w127" sent="12" para="7" offset="850" length="1">(</wf>
+    <wf wid="w128" sent="12" para="7" offset="851" length="7">Samstag</wf>
+    <wf wid="w129" sent="12" para="7" offset="858" length="1">)</wf>
+    <wf wid="w130" sent="12" para="7" offset="859" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="«" morphofeat="$(" pos="O" tid="t106" type="open">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <term lemma="ich" morphofeat="PPER" pos="Q" tid="t107" type="close">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t108" type="open">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <term lemma="immer" morphofeat="ADV" pos="A" tid="t109" type="open">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <term lemma="skeptisch" morphofeat="ADJD" pos="G" tid="t110" type="open">
+      <span>
+        <target id="w110"/>
+      </span>
+      <sentiment polarity="negative" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="gegenüber" morphofeat="APPR" pos="P" tid="t111" type="close">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <term lemma="Beteuerung" morphofeat="NN" pos="N" tid="t112" type="open">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <term lemma="von" morphofeat="APPR" pos="P" tid="t113" type="close">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <term lemma="Seite" morphofeat="NN" pos="N" tid="t114" type="open">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t115" type="close">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <term lemma="Geheimdienst" morphofeat="NN" pos="N" tid="t116" type="open">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <term lemma="»" morphofeat="$(" pos="O" tid="t117" type="open">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t118" type="open">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t119" type="open">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <term lemma="sie" morphofeat="PPER" pos="Q" tid="t120" type="close">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t121" type="close">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <term lemma="«" morphofeat="$(" pos="O" tid="t122" type="open">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <term lemma="Hannoverschen" morphofeat="NN unknown_lemma" pos="O" tid="t123" type="open">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <term lemma="allgemein" morphofeat="ADJA" pos="G" tid="t124" type="open">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <term lemma="Zeitung" morphofeat="NN" pos="N" tid="t125" type="open">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <term lemma="»" morphofeat="$(" pos="O" tid="t126" type="open">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="$(" pos="O" tid="t127" type="open">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <term lemma="Samstag" morphofeat="NN" pos="N" tid="t128" type="open">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat="$(" pos="O" tid="t129" type="open">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t130" type="open">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Ich-->
+        <span>
+          <target id="t107"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Beteuerungen von Seiten der Geheimdienste-->
+        <span>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--bin skeptisch-->
+        <span>
+          <target id="t108"/>
+          <target id="t110"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

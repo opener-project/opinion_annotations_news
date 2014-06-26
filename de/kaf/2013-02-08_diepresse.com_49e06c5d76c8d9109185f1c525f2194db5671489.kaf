@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:02:00Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:02:00Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:01:23CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:02:20CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w357" sent="19" para="6" offset="2145" length="1">"</wf>
+    <wf wid="w358" sent="19" para="6" offset="2146" length="3">Aus</wf>
+    <wf wid="w359" sent="19" para="6" offset="2150" length="6">meiner</wf>
+    <wf wid="w360" sent="19" para="6" offset="2157" length="5">Sicht</wf>
+    <wf wid="w361" sent="19" para="6" offset="2163" length="3">ist</wf>
+    <wf wid="w362" sent="19" para="6" offset="2167" length="5">diese</wf>
+    <wf wid="w363" sent="19" para="6" offset="2173" length="8">Einigung</wf>
+    <wf wid="w364" sent="19" para="6" offset="2182" length="3">gut</wf>
+    <wf wid="w365" sent="19" para="6" offset="2186" length="3">und</wf>
+    <wf wid="w366" sent="19" para="6" offset="2190" length="7">wichtig</wf>
+    <wf wid="w367" sent="19" para="6" offset="2197" length="1">"</wf>
+    <wf wid="w368" sent="19" para="6" offset="2198" length="1">,</wf>
+    <wf wid="w369" sent="19" para="6" offset="2200" length="5">sagte</wf>
+    <wf wid="w370" sent="19" para="6" offset="2206" length="6">Merkel</wf>
+    <wf wid="w371" sent="19" para="6" offset="2212" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t357" type="open">
+      <span>
+        <target id="w357"/>
+      </span>
+    </term>
+    <term lemma="aus" morphofeat="APPR" pos="P" tid="t358" type="close">
+      <span>
+        <target id="w358"/>
+      </span>
+    </term>
+    <term lemma="mein" morphofeat="PPOSAT" pos="Q" tid="t359" type="close">
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <term lemma="Sicht" morphofeat="NN" pos="N" tid="t360" type="open">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t361" type="open">
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <term lemma="dies" morphofeat="PDAT" pos="Q" tid="t362" type="close">
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <term lemma="Einigung" morphofeat="NN" pos="N" tid="t363" type="open">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <term lemma="gut" morphofeat="ADJD" pos="G" tid="t364" type="open">
+      <span>
+        <target id="w364"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t365" type="close">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <term lemma="wichtig" morphofeat="ADJD" pos="G" tid="t366" type="open">
+      <span>
+        <target id="w366"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t367" type="open">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t368" type="open">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t369" type="open">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <term lemma="Merkel" morphofeat="NE" pos="R" tid="t370" type="open">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t371" type="open">
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Aus meiner Sicht-->
+        <span>
+          <target id="t358"/>
+          <target id="t359"/>
+          <target id="t360"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--diese Einigung-->
+        <span>
+          <target id="t362"/>
+          <target id="t363"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--gut-->
+        <span>
+          <target id="t364"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Aus meiner Sicht-->
+        <span>
+          <target id="t358"/>
+          <target id="t359"/>
+          <target id="t360"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--diese Einigung-->
+        <span>
+          <target id="t362"/>
+          <target id="t363"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--wichtig-->
+        <span>
+          <target id="t366"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

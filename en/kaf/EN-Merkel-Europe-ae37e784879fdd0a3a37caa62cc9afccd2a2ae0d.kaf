@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:05:24Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:05:24Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:54:41" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T11:17:29CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="4" para="2" offset="481" length="3" wid="w84">She</wf>
+    <wf sent="4" para="2" offset="485" length="3" wid="w85">has</wf>
+    <wf sent="4" para="2" offset="489" length="4" wid="w86">also</wf>
+    <wf sent="4" para="2" offset="494" length="7" wid="w87">written</wf>
+    <wf sent="4" para="2" offset="502" length="3" wid="w88">for</wf>
+    <wf sent="4" para="2" offset="506" length="8" wid="w89">cultural</wf>
+    <wf sent="4" para="2" offset="515" length="9" wid="w90">magazines</wf>
+    <wf sent="4" para="2" offset="525" length="9" wid="w91">including</wf>
+    <wf sent="4" para="2" offset="535" length="5" wid="w92">Dazed</wf>
+    <wf sent="4" para="2" offset="541" length="1" wid="w93">&amp;</wf>
+    <wf sent="4" para="2" offset="543" length="8" wid="w94">Confused</wf>
+    <wf sent="4" para="2" offset="552" length="3" wid="w95">and</wf>
+    <wf sent="4" para="2" offset="556" length="5" wid="w96">NYLON</wf>
+    <wf sent="4" para="2" offset="562" length="3" wid="w97">and</wf>
+    <wf sent="4" para="2" offset="566" length="11" wid="w98">contributed</wf>
+    <wf sent="4" para="2" offset="578" length="2" wid="w99">to</wf>
+    <wf sent="4" para="2" offset="581" length="7" wid="w100">several</wf>
+    <wf sent="4" para="2" offset="589" length="5" wid="w101">books</wf>
+    <wf sent="4" para="2" offset="594" length="1" wid="w102">,</wf>
+    <wf sent="4" para="2" offset="596" length="5" wid="w103">among</wf>
+    <wf sent="4" para="2" offset="602" length="4" wid="w104">them</wf>
+    <wf sent="4" para="2" offset="607" length="1" wid="w105">a</wf>
+    <wf sent="4" para="2" offset="609" length="9" wid="w106">biography</wf>
+    <wf sent="4" para="2" offset="619" length="2" wid="w107">of</wf>
+    <wf sent="4" para="2" offset="622" length="6" wid="w108">French</wf>
+    <wf sent="4" para="2" offset="629" length="6" wid="w109">street</wf>
+    <wf sent="4" para="2" offset="636" length="6" wid="w110">artist</wf>
+    <wf sent="4" para="2" offset="643" length="4" wid="w111">Blek</wf>
+    <wf sent="4" para="2" offset="648" length="2" wid="w112">Le</wf>
+    <wf sent="4" para="2" offset="651" length="3" wid="w113">Rat</wf>
+    <wf sent="4" para="2" offset="654" length="1" wid="w114">.</wf>
+  </text>
+  <terms>
+    <!--She-->
+    <term type="close" lemma="she" pos="Q" morphofeat="PRP" tid="t84">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--has-->
+    <term type="open" lemma="have" pos="V" morphofeat="VBZ" tid="t85">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--also-->
+    <term type="open" lemma="also" pos="A" morphofeat="RB" tid="t86">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--written-->
+    <term type="open" lemma="write" pos="V" morphofeat="VBN" tid="t87">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t88">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--cultural-->
+    <term type="open" lemma="cultural" pos="G" morphofeat="JJ" tid="t89">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--magazines-->
+    <term type="open" lemma="magazine" pos="N" morphofeat="NNS" tid="t90">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--including-->
+    <term type="open" lemma="include" pos="V" morphofeat="VBG" tid="t91">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--Dazed-->
+    <term type="close" lemma="Dazed" pos="R" morphofeat="NNP" tid="t92">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--&-->
+    <term type="close" lemma="&amp;" pos="C" morphofeat="CC" tid="t93">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--Confused-->
+    <term type="close" lemma="Confused" pos="R" morphofeat="NNP" tid="t94">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t95">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--NYLON-->
+    <term type="close" lemma="NYLON" pos="R" morphofeat="NNP" tid="t96">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--and-->
+    <term type="close" lemma="and" pos="C" morphofeat="CC" tid="t97">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--contributed-->
+    <term type="open" lemma="contribute" pos="V" morphofeat="VBD" tid="t98">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t99">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--several-->
+    <term type="open" lemma="several" pos="G" morphofeat="JJ" tid="t100">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--books-->
+    <term type="open" lemma="book" pos="N" morphofeat="NNS" tid="t101">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--,-->
+    <term type="close" lemma="," pos="O" morphofeat="," tid="t102">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--among-->
+    <term type="close" lemma="among" pos="P" morphofeat="IN" tid="t103">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--them-->
+    <term type="close" lemma="them" pos="Q" morphofeat="PRP" tid="t104">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t105">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--biography-->
+    <term type="open" lemma="biography" pos="N" morphofeat="NN" tid="t106">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t107">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--French-->
+    <term type="open" lemma="french" pos="G" morphofeat="JJ" tid="t108">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--street-->
+    <term type="open" lemma="street" pos="N" morphofeat="NN" tid="t109">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--artist-->
+    <term type="open" lemma="artist" pos="N" morphofeat="NN" tid="t110">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--Blek-->
+    <term type="close" lemma="Blek" pos="R" morphofeat="NNP" tid="t111">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--Le-->
+    <term type="close" lemma="Le" pos="R" morphofeat="NNP" tid="t112">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--Rat-->
+    <term type="close" lemma="Rat" pos="R" morphofeat="NNP" tid="t113">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t114">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

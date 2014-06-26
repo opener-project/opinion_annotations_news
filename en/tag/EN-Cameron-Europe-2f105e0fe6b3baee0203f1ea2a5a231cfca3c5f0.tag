@@ -1,0 +1,11 @@
+w335	A	a	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	334	true	15
+w336	Briton	Briton	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	335	true	15
+w337	and	and	C			0		0		0		0	NON-OPINIONATED	1		0		0		0	336	true	15
+w338	an	a	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	337	true	15
+w339	Algerian	Algerian	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	338	true	15
+w340	reportedly	reportedly	A			0		0		0		0	NON-OPINIONATED	1		0		0		0	339	true	15
+w341	died	die	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	340	true	15
+w342	in	in	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	341	true	15
+w343	the	the	D			0		0		0		0	NON-OPINIONATED	1		0		0		0	342	true	15
+w344	incident	incident	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	343	true	15
+w345	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	344	true	15

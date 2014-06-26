@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:40:56Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:40:56Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:15:18CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:41:12CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:33CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w112" sent="7" para="3" offset="626" length="2">Er</wf>
+    <wf wid="w113" sent="7" para="3" offset="629" length="4">wird</wf>
+    <wf wid="w114" sent="7" para="3" offset="634" length="4">mich</wf>
+    <wf wid="w115" sent="7" para="3" offset="639" length="12">unterstützen</wf>
+    <wf wid="w116" sent="7" para="3" offset="651" length="1">,</wf>
+    <wf wid="w117" sent="7" para="3" offset="653" length="2">wo</wf>
+    <wf wid="w118" sent="7" para="3" offset="656" length="2">er</wf>
+    <wf wid="w119" sent="7" para="3" offset="659" length="4">kann</wf>
+    <wf wid="w120" sent="7" para="3" offset="663" length="1">,</wf>
+    <wf wid="w121" sent="7" para="3" offset="665" length="3">und</wf>
+    <wf wid="w122" sent="7" para="3" offset="669" length="3">ich</wf>
+    <wf wid="w123" sent="7" para="3" offset="673" length="3">bin</wf>
+    <wf wid="w124" sent="7" para="3" offset="677" length="3">ihm</wf>
+    <wf wid="w125" sent="7" para="3" offset="681" length="5">dafür</wf>
+    <wf wid="w126" sent="7" para="3" offset="687" length="7">dankbar</wf>
+    <wf wid="w127" sent="7" para="3" offset="694" length="1">.</wf>
+    <wf wid="w128" sent="7" para="3" offset="695" length="1">"</wf>
+  </text>
+  <terms>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t112" type="close">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t113" type="open">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <term lemma="ich" morphofeat="PRF" pos="Q" tid="t114" type="close">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <term lemma="unterstützen" morphofeat="VVINF" pos="V" tid="t115" type="open">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t116" type="open">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <term lemma="wo" morphofeat="PWAV" pos="Q" tid="t117" type="close">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t118" type="close">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <term lemma="können" morphofeat="VMFIN" pos="V" tid="t119" type="open">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t120" type="open">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t121" type="close">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <term lemma="ich" morphofeat="PPER" pos="Q" tid="t122" type="close">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t123" type="open">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t124" type="close">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <term lemma="dafür" morphofeat="PAV" pos="Q" tid="t125" type="close">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <term lemma="dankbar" morphofeat="ADJD" pos="G" tid="t126" type="open">
+      <span>
+        <target id="w126"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t127" type="open">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t128" type="open">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Er-->
+        <span>
+          <target id="t112"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--mich-->
+        <span>
+          <target id="t114"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--unterstützen-->
+        <span>
+          <target id="t115"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

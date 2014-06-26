@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:36:12Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:36:12Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:58:16CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:36:32CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w89" sent="7" para="5" offset="571" length="3">CSU</wf>
+    <wf wid="w90" sent="7" para="5" offset="574" length="1">·</wf>
+    <wf wid="w91" sent="7" para="5" offset="575" length="4">Chef</wf>
+    <wf wid="w92" sent="7" para="5" offset="580" length="5">Horst</wf>
+    <wf wid="w93" sent="7" para="5" offset="586" length="8">Seehofer</wf>
+    <wf wid="w94" sent="7" para="5" offset="595" length="5">sagte</wf>
+    <wf wid="w95" sent="7" para="5" offset="600" length="1">,</wf>
+    <wf wid="w96" sent="7" para="5" offset="602" length="3">die</wf>
+    <wf wid="w97" sent="7" para="5" offset="606" length="23">Koalitionsverhandlungen</wf>
+    <wf wid="w98" sent="7" para="5" offset="630" length="7">sollten</wf>
+    <wf wid="w99" sent="7" para="5" offset="638" length="2">am</wf>
+    <wf wid="w100" sent="7" para="5" offset="641" length="8">Mittwoch</wf>
+    <wf wid="w101" sent="7" para="5" offset="650" length="8">beginnen</wf>
+    <wf wid="w102" sent="7" para="5" offset="658" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="CSU" morphofeat="NE" pos="R" tid="t89" type="open">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t90" type="open">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <term lemma="Chef" morphofeat="NN" pos="N" tid="t91" type="open">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <term lemma="Horst" morphofeat="NE" pos="R" tid="t92" type="open">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <term lemma="Seehofer" morphofeat="NE" pos="R" tid="t93" type="open">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t94" type="open">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t95" type="open">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t96" type="close">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <term lemma="Koalitionsverhandlung" morphofeat="NN" pos="N" tid="t97" type="open">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <term lemma="sollen" morphofeat="VMFIN" pos="V" tid="t98" type="open">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="APPRART" pos="P" tid="t99" type="close">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <term lemma="Mittwoch" morphofeat="NN" pos="N" tid="t100" type="open">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <term lemma="beginnen" morphofeat="VVINF" pos="V" tid="t101" type="open">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t102" type="open">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

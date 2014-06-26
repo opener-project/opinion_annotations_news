@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:48:04CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="4">Paus</wf>
+    <wf wid="w2" sent="1" para="1" offset="5" length="10">Benedictus</wf>
+    <wf wid="w3" sent="1" para="1" offset="16" length="6">treedt</wf>
+    <wf wid="w4" sent="1" para="1" offset="23" length="4">eind</wf>
+    <wf wid="w5" sent="1" para="1" offset="28" length="8">februari</wf>
+    <wf wid="w6" sent="1" para="1" offset="37" length="2">af</wf>
+    <wf wid="w273" sent="17" para="2" offset="1506" length="2">Zo</wf>
+    <wf wid="w274" sent="17" para="2" offset="1509" length="6">raakte</wf>
+    <wf wid="w275" sent="17" para="2" offset="1516" length="4">zijn</wf>
+    <wf wid="w276" sent="17" para="2" offset="1521" length="6">butler</wf>
+    <wf wid="w277" sent="17" para="2" offset="1528" length="5">vorig</wf>
+    <wf wid="w278" sent="17" para="2" offset="1534" length="4">jaar</wf>
+    <wf wid="w279" sent="17" para="2" offset="1539" length="2">in</wf>
+    <wf wid="w280" sent="17" para="2" offset="1542" length="8">opspraak</wf>
+    <wf wid="w281" sent="17" para="2" offset="1550" length="1">,</wf>
+    <wf wid="w282" sent="17" para="2" offset="1552" length="5">omdat</wf>
+    <wf wid="w283" sent="17" para="2" offset="1558" length="3">die</wf>
+    <wf wid="w284" sent="17" para="2" offset="1562" length="10">documenten</wf>
+    <wf wid="w285" sent="17" para="2" offset="1573" length="3">van</wf>
+    <wf wid="w286" sent="17" para="2" offset="1577" length="3">het</wf>
+    <wf wid="w287" sent="17" para="2" offset="1581" length="8">Vaticaan</wf>
+    <wf wid="w288" sent="17" para="2" offset="1590" length="4">liet</wf>
+    <wf wid="w289" sent="17" para="2" offset="1595" length="6">lekken</wf>
+    <wf wid="w290" sent="17" para="2" offset="1601" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Paus-->
+    <term tid="t1" type="open" lemma="paus" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Benedictus-->
+    <term tid="t2" type="open" lemma="Benedictus" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--treedt-->
+    <term tid="t3" type="open" lemma="treden" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--eind-->
+    <term tid="t4" type="open" lemma="eind" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--februari-->
+    <term tid="t5" type="open" lemma="februari" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--af-->
+    <term tid="t6" type="close" lemma="af" pos="P" morphofeat="prep">
+      <span>
+        <target id="w6"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Zo-->
+    <term tid="t273" type="open" lemma="zo" pos="A" morphofeat="adv">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--raakte-->
+    <term tid="t274" type="open" lemma="raken" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t275" type="close" lemma="zijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--butler-->
+    <term tid="t276" type="open" lemma="butler" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--vorig-->
+    <term tid="t277" type="open" lemma="vorig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--jaar-->
+    <term tid="t278" type="open" lemma="jaar" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t279" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--opspraak-->
+    <term tid="t280" type="open" lemma="opspraak" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t281" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--omdat-->
+    <term tid="t282" type="close" lemma="omdat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--die-->
+    <term tid="t283" type="close" lemma="die" pos="D" morphofeat="det__demo">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--documenten-->
+    <term tid="t284" type="open" lemma="document" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t285" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t286" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--Vaticaan-->
+    <term tid="t287" type="open" lemma="Vaticaan" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--liet-->
+    <term tid="t288" type="open" lemma="laten" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--lekken-->
+    <term tid="t289" type="open" lemma="lekken" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t290" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--zijn butler-->
+        <span>
+          <target id="t275"/>
+          <target id="t276"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--in opspraak-->
+        <span>
+          <target id="t279"/>
+          <target id="t280"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die-->
+        <span>
+          <target id="t283"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--documenten van het Vaticaan liet lekken-->
+        <span>
+          <target id="t284"/>
+          <target id="t285"/>
+          <target id="t286"/>
+          <target id="t287"/>
+          <target id="t288"/>
+          <target id="t289"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

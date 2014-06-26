@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="fr" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:44:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:44:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:44:37Z" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-14T09:15:18CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w382" sent="17" para="8" offset="1984" length="2">En</wf>
+    <wf wid="w383" sent="17" para="8" offset="1987" length="7">clôture</wf>
+    <wf wid="w384" sent="17" para="8" offset="1994" length="1">,</wf>
+    <wf wid="w385" sent="17" para="8" offset="1996" length="2">le</wf>
+    <wf wid="w386" sent="17" para="8" offset="1999" length="3">Cac</wf>
+    <wf wid="w387" sent="17" para="8" offset="2003" length="2">40</wf>
+    <wf wid="w388" sent="17" para="8" offset="2006" length="4">perd</wf>
+    <wf wid="w389" sent="17" para="8" offset="2011" length="4">1,24</wf>
+    <wf wid="w390" sent="17" para="8" offset="2015" length="1">%</wf>
+    <wf wid="w391" sent="17" para="8" offset="2017" length="1">à</wf>
+    <wf wid="w392" sent="17" para="8" offset="2019" length="1">4</wf>
+    <wf wid="w393" sent="17" para="8" offset="2020" length="1">.</wf>
+    <wf wid="w394" sent="18" para="8" offset="2021" length="6">068,64</wf>
+    <wf wid="w395" sent="18" para="8" offset="2028" length="6">points</wf>
+    <wf wid="w396" sent="18" para="8" offset="2035" length="4">dans</wf>
+    <wf wid="w397" sent="18" para="8" offset="2040" length="2">un</wf>
+    <wf wid="w398" sent="18" para="8" offset="2043" length="6">volume</wf>
+    <wf wid="w399" sent="18" para="8" offset="2050" length="2">de</wf>
+    <wf wid="w400" sent="18" para="8" offset="2053" length="4">2,74</wf>
+    <wf wid="w401" sent="18" para="8" offset="2058" length="9">milliards</wf>
+    <wf wid="w402" sent="18" para="8" offset="2068" length="2">d’</wf>
+    <wf wid="w403" sent="18" para="8" offset="2070" length="5">euros</wf>
+    <wf wid="w404" sent="18" para="8" offset="2075" length="1">.</wf>
+  </text>
+  <terms>
+    <!--En-->
+    <term tid="t382" type="close" lemma="En" pos="P" morphofeat="P">
+      <span>
+        <target id="w382"/>
+      </span>
+    </term>
+    <!--clôture-->
+    <term tid="t383" type="open" lemma="clôture" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w383"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t384" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w384"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t385" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w385"/>
+      </span>
+    </term>
+    <!--Cac-->
+    <term tid="t386" type="open" lemma="Cac" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w386"/>
+      </span>
+    </term>
+    <!--40-->
+    <term tid="t387" type="close" lemma="40" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w387"/>
+      </span>
+    </term>
+    <!--perd-->
+    <term tid="t388" type="open" lemma="perdre" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w388"/>
+      </span>
+    </term>
+    <!--1,24-->
+    <term tid="t389" type="close" lemma="1,24" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w389"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t390" type="open" lemma="pourcent" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w390"/>
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t391" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w391"/>
+      </span>
+    </term>
+    <!--4-->
+    <term tid="t392" type="close" lemma="4" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w392"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t393" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w393"/>
+      </span>
+    </term>
+    <!--068,64-->
+    <term tid="t394" type="close" lemma="068,64" pos="D" morphofeat="D">
+      <span>
+        <target id="w394"/>
+      </span>
+    </term>
+    <!--points-->
+    <term tid="t395" type="open" lemma="point" pos="N" morphofeat="NCmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="positive" sentiment_modifier="shifter"/>
+      <span>
+        <target id="w395"/>
+      </span>
+    </term>
+    <!--dans-->
+    <term tid="t396" type="close" lemma="dans" pos="P" morphofeat="P">
+      <span>
+        <target id="w396"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t397" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <!--volume-->
+    <term tid="t398" type="open" lemma="volume" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t399" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w399"/>
+      </span>
+    </term>
+    <!--2,74-->
+    <term tid="t400" type="close" lemma="2,74" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+    <!--milliards-->
+    <term tid="t401" type="open" lemma="milliard" pos="N" morphofeat="NCmp">
+      <sentiment resource="General domain lexicon for French . Vicomtech_general_lexicon_french" polarity="neutral"/>
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <!--d’-->
+    <term tid="t402" type="close" lemma="d’" pos="P" morphofeat="P">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <!--euros-->
+    <term tid="t403" type="open" lemma="euro" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t404" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--le Cac 40-->
+        <span>
+          <target id="t385"/>
+          <target id="t386"/>
+          <target id="t387"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--1,24 % à 4 . 068,64 points-->
+        <span>
+          <target id="t389"/>
+          <target id="t390"/>
+          <target id="t391"/>
+          <target id="t392"/>
+          <target id="t393"/>
+          <target id="t394"/>
+          <target id="t395"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--perd-->
+        <span>
+          <target id="t388"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

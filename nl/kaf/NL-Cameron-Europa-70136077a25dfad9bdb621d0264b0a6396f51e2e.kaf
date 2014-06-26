@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:14Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:14Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:14:51CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w433" sent="20" para="2" offset="2489" length="3">Het</wf>
+    <wf wid="w434" sent="20" para="2" offset="2493" length="10">referendum</wf>
+    <wf wid="w435" sent="20" para="2" offset="2504" length="2">is</wf>
+    <wf wid="w436" sent="20" para="2" offset="2507" length="7">daartoe</wf>
+    <wf wid="w437" sent="20" para="2" offset="2515" length="3">het</wf>
+    <wf wid="w438" sent="20" para="2" offset="2519" length="5">meest</wf>
+    <wf wid="w439" sent="20" para="2" offset="2525" length="9">geschikte</wf>
+    <wf wid="w440" sent="20" para="2" offset="2535" length="10">instrument</wf>
+    <wf wid="w441" sent="20" para="2" offset="2545" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Het-->
+    <term tid="t433" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w433"/>
+      </span>
+    </term>
+    <!--referendum-->
+    <term tid="t434" type="open" lemma="referendum" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w434"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t435" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w435"/>
+      </span>
+    </term>
+    <!--daartoe-->
+    <term tid="t436" type="close" lemma="daartoe" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w436"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t437" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w437"/>
+      </span>
+    </term>
+    <!--meest-->
+    <term tid="t438" type="open" lemma="meest" pos="G" morphofeat="adj">
+      <span>
+        <target id="w438"/>
+      </span>
+    </term>
+    <!--geschikte-->
+    <term tid="t439" type="open" lemma="geschikt" pos="G" morphofeat="adj">
+      <span>
+        <target id="w439"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--instrument-->
+    <term tid="t440" type="open" lemma="instrument" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w440"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t441" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w441"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--instrument-->
+        <span>
+          <target id="t440"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--geschikte-->
+        <span>
+          <target id="t439"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Het referendum-->
+        <span>
+          <target id="t433"/>
+          <target id="t434"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--meest geschikte instrument-->
+        <span>
+          <target id="t438"/>
+          <target id="t439"/>
+          <target id="t440"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

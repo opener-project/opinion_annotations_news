@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:09:49CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:39CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w82" sent="8" para="2" offset="436" length="8">Hollande</wf>
+    <wf wid="w83" sent="8" para="2" offset="445" length="3">won</wf>
+    <wf wid="w84" sent="8" para="2" offset="449" length="8">gisteren</wf>
+    <wf wid="w85" sent="8" para="2" offset="458" length="2">de</wf>
+    <wf wid="w86" sent="8" para="2" offset="461" length="6">Franse</wf>
+    <wf wid="w87" sent="8" para="2" offset="468" length="22">presidentsverkiezingen</wf>
+    <wf wid="w88" sent="8" para="2" offset="490" length="1">.</wf>
+    <wf wid="w286" sent="23" para="2" offset="1603" length="1">"</wf>
+    <wf wid="w287" sent="23" para="2" offset="1604" length="3">Hij</wf>
+    <wf wid="w288" sent="23" para="2" offset="1608" length="5">heeft</wf>
+    <wf wid="w289" sent="23" para="2" offset="1614" length="4">geen</wf>
+    <wf wid="w290" sent="23" para="2" offset="1619" length="6">enkele</wf>
+    <wf wid="w291" sent="23" para="2" offset="1626" length="8">behoefte</wf>
+    <wf wid="w292" sent="23" para="2" offset="1635" length="3">aan</wf>
+    <wf wid="w293" sent="23" para="2" offset="1639" length="4">meer</wf>
+    <wf wid="w294" sent="23" para="2" offset="1644" length="6">onrust</wf>
+    <wf wid="w295" sent="23" para="2" offset="1651" length="4">over</wf>
+    <wf wid="w296" sent="23" para="2" offset="1656" length="2">de</wf>
+    <wf wid="w297" sent="23" para="2" offset="1659" length="14">schuldencrisis</wf>
+    <wf wid="w298" sent="23" para="2" offset="1673" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hollande-->
+    <term tid="t82" type="open" lemma="Hollande" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--won-->
+    <term tid="t83" type="open" lemma="winnen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w83"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--gisteren-->
+    <term tid="t84" type="open" lemma="gisteren" pos="A" morphofeat="adv">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t85" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--Franse-->
+    <term tid="t86" type="open" lemma="Frans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--presidentsverkiezingen-->
+    <term tid="t87" type="open" lemma="presidentsverkiezing" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t88" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t286" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--Hij-->
+    <term tid="t287" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--heeft-->
+    <term tid="t288" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--geen-->
+    <term tid="t289" type="close" lemma="geen" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--enkele-->
+    <term tid="t290" type="close" lemma="enkel" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w290"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--behoefte-->
+    <term tid="t291" type="open" lemma="behoefte" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t292" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--meer-->
+    <term tid="t293" type="open" lemma="veel" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--onrust-->
+    <term tid="t294" type="open" lemma="onrust" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w294"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--over-->
+    <term tid="t295" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t296" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--schuldencrisis-->
+    <term tid="t297" type="open" lemma="schuldencrisis" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t298" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--schuldencrisis-->
+        <span>
+          <target id="t297"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--onrust-->
+        <span>
+          <target id="t294"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Hij-->
+        <span>
+          <target id="t287"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--meer onrust over de schuldencrisis-->
+        <span>
+          <target id="t293"/>
+          <target id="t294"/>
+          <target id="t295"/>
+          <target id="t296"/>
+          <target id="t297"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--geen enkele behoefte aan-->
+        <span>
+          <target id="t289"/>
+          <target id="t290"/>
+          <target id="t291"/>
+          <target id="t292"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

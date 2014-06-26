@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:59:01Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:59:01Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:57:02CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:59:19CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w202" sent="12" para="6" offset="1263" length="1">"</wf>
+    <wf wid="w203" sent="12" para="6" offset="1264" length="3">Wir</wf>
+    <wf wid="w204" sent="12" para="6" offset="1268" length="8">brauchen</wf>
+    <wf wid="w205" sent="12" para="6" offset="1277" length="3">ein</wf>
+    <wf wid="w206" sent="12" para="6" offset="1281" length="11">politisches</wf>
+    <wf wid="w207" sent="12" para="6" offset="1293" length="7">Projekt</wf>
+    <wf wid="w208" sent="12" para="6" offset="1300" length="1">,</wf>
+    <wf wid="w209" sent="12" para="6" offset="1302" length="3">wie</wf>
+    <wf wid="w210" sent="12" para="6" offset="1306" length="5">Franz</wf>
+    <wf wid="w211" sent="12" para="6" offset="1312" length="5">Josef</wf>
+    <wf wid="w212" sent="12" para="6" offset="1318" length="6">Strauß</wf>
+    <wf wid="w213" sent="12" para="6" offset="1325" length="2">es</wf>
+    <wf wid="w214" sent="12" para="6" offset="1328" length="3">bei</wf>
+    <wf wid="w215" sent="12" para="6" offset="1332" length="6">Airbus</wf>
+    <wf wid="w216" sent="12" para="6" offset="1339" length="10">formuliert</wf>
+    <wf wid="w217" sent="12" para="6" offset="1350" length="3">hat</wf>
+    <wf wid="w218" sent="12" para="6" offset="1353" length="1">"</wf>
+    <wf wid="w219" sent="12" para="6" offset="1354" length="1">,</wf>
+    <wf wid="w220" sent="12" para="6" offset="1356" length="5">sagte</wf>
+    <wf wid="w221" sent="12" para="6" offset="1362" length="2">er</wf>
+    <wf wid="w222" sent="12" para="6" offset="1364" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t202" type="open">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <term lemma="wir" morphofeat="PPER" pos="Q" tid="t203" type="close">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <term lemma="brauchen" morphofeat="VVFIN" pos="V" tid="t204" type="open">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t205" type="close">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <term lemma="politisch" morphofeat="ADJA" pos="G" tid="t206" type="open">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <term lemma="Projekt" morphofeat="NN" pos="N" tid="t207" type="open">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t208" type="open">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <term lemma="wie" morphofeat="KOUS" pos="C" tid="t209" type="close">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <term lemma="Franz" morphofeat="NE" pos="R" tid="t210" type="open">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <term lemma="Josef" morphofeat="NE" pos="R" tid="t211" type="open">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <term lemma="Strauß" morphofeat="NN" pos="N" tid="t212" type="open">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t213" type="close">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <term lemma="bei" morphofeat="APPR" pos="P" tid="t214" type="close">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <term lemma="Airbus" morphofeat="NE" pos="R" tid="t215" type="open">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <term lemma="formulieren" morphofeat="VVPP" pos="V" tid="t216" type="open">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t217" type="open">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t218" type="open">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t219" type="open">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <term lemma="sagen" morphofeat="VVFIN" pos="V" tid="t220" type="open">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <term lemma="er" morphofeat="PPER" pos="Q" tid="t221" type="close">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t222" type="open">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Wir-->
+        <span>
+          <target id="t203"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--ein politisches Projekt-->
+        <span>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--brauchen-->
+        <span>
+          <target id="t204"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

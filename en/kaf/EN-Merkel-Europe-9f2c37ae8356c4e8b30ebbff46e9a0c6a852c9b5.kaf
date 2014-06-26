@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:08:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:08:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:46:13" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:49:25CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="15" para="2" offset="1058" length="4" wid="w197">Last</wf>
+    <wf sent="15" para="2" offset="1063" length="7" wid="w198">Tuesday</wf>
+    <wf sent="15" para="2" offset="1071" length="8" wid="w199">attempts</wf>
+    <wf sent="15" para="2" offset="1080" length="2" wid="w200">by</wf>
+    <wf sent="15" para="2" offset="1083" length="6" wid="w201">Greece</wf>
+    <wf sent="15" para="2" offset="1089" length="2" wid="w202">'s</wf>
+    <wf sent="15" para="2" offset="1092" length="9" wid="w203">president</wf>
+    <wf sent="15" para="2" offset="1102" length="2" wid="w204">to</wf>
+    <wf sent="15" para="2" offset="1105" length="6" wid="w205">cobble</wf>
+    <wf sent="15" para="2" offset="1112" length="8" wid="w206">together</wf>
+    <wf sent="15" para="2" offset="1121" length="1" wid="w207">a</wf>
+    <wf sent="15" para="2" offset="1123" length="8" wid="w208">national</wf>
+    <wf sent="15" para="2" offset="1132" length="5" wid="w209">unity</wf>
+    <wf sent="15" para="2" offset="1138" length="10" wid="w210">government</wf>
+    <wf sent="15" para="2" offset="1149" length="9" wid="w211">collapsed</wf>
+    <wf sent="15" para="2" offset="1158" length="1" wid="w212">.</wf>
+  </text>
+  <terms>
+    <!--Last-->
+    <term type="open" lemma="last" pos="G" morphofeat="JJ" tid="t197">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--Tuesday-->
+    <term type="close" lemma="Tuesday" pos="R" morphofeat="NNP" tid="t198">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--attempts-->
+    <term type="open" lemma="attempt" pos="N" morphofeat="NNS" tid="t199">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--by-->
+    <term type="close" lemma="by" pos="P" morphofeat="IN" tid="t200">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--Greece-->
+    <term type="close" lemma="Greece" pos="R" morphofeat="NNP" tid="t201">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--'s-->
+    <term type="close" lemma="'s" pos="O" morphofeat="POS" tid="t202">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--president-->
+    <term type="open" lemma="president" pos="N" morphofeat="NN" tid="t203">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t204">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--cobble-->
+    <term type="open" lemma="cobble" pos="V" morphofeat="VB" tid="t205">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--together-->
+    <term type="open" lemma="together" pos="A" morphofeat="RB" tid="t206">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t207">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--national-->
+    <term type="open" lemma="national" pos="G" morphofeat="JJ" tid="t208">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--unity-->
+    <term type="open" lemma="unity" pos="N" morphofeat="NN" tid="t209">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--government-->
+    <term type="open" lemma="government" pos="N" morphofeat="NN" tid="t210">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--collapsed-->
+    <term type="open" lemma="collapse" pos="V" morphofeat="VBD" tid="t211">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t212">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--attempts-->
+        <span>
+          <target id="t199"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--collapsed-->
+        <span>
+          <target id="t211"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

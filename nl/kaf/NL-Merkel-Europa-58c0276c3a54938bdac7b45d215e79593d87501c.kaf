@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:58Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:58Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:33:00CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:29CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Merkel</wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="6">hekelt</wf>
+    <wf wid="w3" sent="1" para="1" offset="14" length="6">gebrek</wf>
+    <wf wid="w4" sent="1" para="1" offset="21" length="3">aan</wf>
+    <wf wid="w5" sent="1" para="1" offset="25" length="10">vertrouwen</wf>
+    <wf wid="w6" sent="1" para="1" offset="36" length="7">collega</wf>
+    <wf wid="w7" sent="1" para="1" offset="43" length="1">'</wf>
+    <wf wid="w8" sent="1" para="1" offset="44" length="1">s</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t1" type="open" lemma="Merkel" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--hekelt-->
+    <term tid="t2" type="open" lemma="hekelen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--gebrek-->
+    <term tid="t3" type="open" lemma="gebrek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w3"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--aan-->
+    <term tid="t4" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--vertrouwen-->
+    <term tid="t5" type="open" lemma="vertrouwen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w5"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--collega-->
+    <term tid="t6" type="open" lemma="collega" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w6"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--'-->
+    <term tid="t7" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--s-->
+    <term tid="t8" type="open" lemma="s" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--vertrouwen collega '-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--gebrek-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--gebrek aan vertrouwen-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--hekelt-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

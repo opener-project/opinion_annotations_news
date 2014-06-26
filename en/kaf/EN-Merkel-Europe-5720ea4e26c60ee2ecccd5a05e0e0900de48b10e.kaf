@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:10:00" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T13:02:29CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:13:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="14" para="2" offset="2067" length="4" wid="w378">They</wf>
+    <wf sent="14" para="2" offset="2072" length="5" wid="w379">waved</wf>
+    <wf sent="14" para="2" offset="2078" length="2" wid="w380">at</wf>
+    <wf sent="14" para="2" offset="2081" length="9" wid="w381">relatives</wf>
+    <wf sent="14" para="2" offset="2091" length="4" wid="w382">from</wf>
+    <wf sent="14" para="2" offset="2096" length="6" wid="w383">behind</wf>
+    <wf sent="14" para="2" offset="2103" length="3" wid="w384">the</wf>
+    <wf sent="14" para="2" offset="2107" length="5" wid="w385">glass</wf>
+    <wf sent="14" para="2" offset="2112" length="1" wid="w386">.</wf>
+    <wf sent="19" para="2" offset="2579" length="4" wid="w470">That</wf>
+    <wf sent="19" para="2" offset="2584" length="3" wid="w471">was</wf>
+    <wf sent="19" para="2" offset="2588" length="3" wid="w472">the</wf>
+    <wf sent="19" para="2" offset="2592" length="5" wid="w473">point</wf>
+    <wf sent="19" para="2" offset="2597" length="1" wid="w474">.</wf>
+  </text>
+  <terms>
+    <!--They-->
+    <term type="close" lemma="they" pos="Q" morphofeat="PRP" tid="t378">
+      <span>
+        <target id="w378"/>
+      </span>
+    </term>
+    <!--waved-->
+    <term type="open" lemma="wave" pos="V" morphofeat="VBD" tid="t379">
+      <span>
+        <target id="w379"/>
+      </span>
+    </term>
+    <!--at-->
+    <term type="close" lemma="at" pos="P" morphofeat="IN" tid="t380">
+      <span>
+        <target id="w380"/>
+      </span>
+    </term>
+    <!--relatives-->
+    <term type="open" lemma="relative" pos="N" morphofeat="NNS" tid="t381">
+      <span>
+        <target id="w381"/>
+      </span>
+    </term>
+    <!--from-->
+    <term type="close" lemma="from" pos="P" morphofeat="IN" tid="t382">
+      <span>
+        <target id="w382"/>
+      </span>
+    </term>
+    <!--behind-->
+    <term type="close" lemma="behind" pos="P" morphofeat="IN" tid="t383">
+      <span>
+        <target id="w383"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t384">
+      <span>
+        <target id="w384"/>
+      </span>
+    </term>
+    <!--glass-->
+    <term type="open" lemma="glass" pos="N" morphofeat="NN" tid="t385">
+      <span>
+        <target id="w385"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t386">
+      <span>
+        <target id="w386"/>
+      </span>
+    </term>
+    <!--That-->
+    <term type="close" lemma="that" pos="D" morphofeat="DT" tid="t470">
+      <span>
+        <target id="w470"/>
+      </span>
+    </term>
+    <!--was-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBD" tid="t471">
+      <span>
+        <target id="w471"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t472">
+      <span>
+        <target id="w472"/>
+      </span>
+    </term>
+    <!--point-->
+    <term type="open" lemma="point" pos="N" morphofeat="NN" tid="t473">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="neutral"/>
+      <span>
+        <target id="w473"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t474">
+      <span>
+        <target id="w474"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t378"/>
+          <target id="t379"/>
+          <target id="t380"/>
+          <target id="t381"/>
+          <target id="t382"/>
+          <target id="t383"/>
+          <target id="t384"/>
+          <target id="t385"/>
+          <target id="t470"/>
+          <target id="t471"/>
+          <target id="t472"/>
+          <target id="t473"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:11:22CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w258" sent="18" para="2" offset="1458" length="7">Rusland</wf>
+    <wf wid="w259" sent="18" para="2" offset="1466" length="6">steunt</wf>
+    <wf wid="w260" sent="18" para="2" offset="1473" length="3">het</wf>
+    <wf wid="w261" sent="18" para="2" offset="1477" length="8">Syrische</wf>
+    <wf wid="w262" sent="18" para="2" offset="1486" length="6">bewind</wf>
+    <wf wid="w263" sent="18" para="2" offset="1493" length="2">en</wf>
+    <wf wid="w264" sent="18" para="2" offset="1496" length="5">heeft</wf>
+    <wf wid="w265" sent="18" para="2" offset="1502" length="14">internationale</wf>
+    <wf wid="w266" sent="18" para="2" offset="1517" length="12">veroordeling</wf>
+    <wf wid="w267" sent="18" para="2" offset="1530" length="11">geblokkeerd</wf>
+    <wf wid="w268" sent="18" para="2" offset="1541" length="1">.</wf>
+    <wf wid="w269" sent="18" para="2" offset="1542" length="1">|</wf>
+  </text>
+  <terms>
+    <!--Rusland-->
+    <term tid="t258" type="open" lemma="Rusland" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--steunt-->
+    <term tid="t259" type="open" lemma="steunen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t260" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--Syrische-->
+    <term tid="t261" type="open" lemma="Syrische" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--bewind-->
+    <term tid="t262" type="open" lemma="bewind" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t263" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--heeft-->
+    <term tid="t264" type="open" lemma="hebben" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--internationale-->
+    <term tid="t265" type="open" lemma="internationaal" pos="G" morphofeat="adj">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--veroordeling-->
+    <term tid="t266" type="open" lemma="veroordeling" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w266"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--geblokkeerd-->
+    <term tid="t267" type="open" lemma="blokkeren" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t268" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--|-->
+    <term tid="t269" type="open" lemma="|" pos="O" morphofeat="punc">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Rusland-->
+        <span>
+          <target id="t258"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--het Syrische bewind-->
+        <span>
+          <target id="t260"/>
+          <target id="t261"/>
+          <target id="t262"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--steunt-->
+        <span>
+          <target id="t259"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

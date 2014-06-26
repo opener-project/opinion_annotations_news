@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:24Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:24Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:20:29CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:31CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w72" sent="6" para="2" offset="434" length="3">Die</wf>
+    <wf wid="w73" sent="6" para="2" offset="438" length="3">had</wf>
+    <wf wid="w74" sent="6" para="2" offset="442" length="8">gedreigd</wf>
+    <wf wid="w75" sent="6" para="2" offset="451" length="3">met</wf>
+    <wf wid="w76" sent="6" para="2" offset="455" length="3">een</wf>
+    <wf wid="w77" sent="6" para="2" offset="459" length="4">veto</wf>
+    <wf wid="w78" sent="6" para="2" offset="464" length="5">tegen</wf>
+    <wf wid="w79" sent="6" para="2" offset="470" length="3">elk</wf>
+    <wf wid="w80" sent="6" para="2" offset="474" length="8">voorstel</wf>
+    <wf wid="w81" sent="6" para="2" offset="483" length="7">waarbij</wf>
+    <wf wid="w82" sent="6" para="2" offset="491" length="2">de</wf>
+    <wf wid="w83" sent="6" para="2" offset="494" length="8">uitgaven</wf>
+    <wf wid="w84" sent="6" para="2" offset="503" length="7">sneller</wf>
+    <wf wid="w85" sent="6" para="2" offset="511" length="7">stijgen</wf>
+    <wf wid="w86" sent="6" para="2" offset="519" length="3">dan</wf>
+    <wf wid="w87" sent="6" para="2" offset="523" length="2">de</wf>
+    <wf wid="w88" sent="6" para="2" offset="526" length="8">inflatie</wf>
+    <wf wid="w89" sent="6" para="2" offset="534" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Die-->
+    <term tid="t72" type="close" lemma="die" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--had-->
+    <term tid="t73" type="open" lemma="hebben" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--gedreigd-->
+    <term tid="t74" type="open" lemma="dreigen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w74"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--met-->
+    <term tid="t75" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t76" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--veto-->
+    <term tid="t77" type="open" lemma="veto" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--tegen-->
+    <term tid="t78" type="close" lemma="tegen" pos="P" morphofeat="prep">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--elk-->
+    <term tid="t79" type="close" lemma="elk" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--voorstel-->
+    <term tid="t80" type="open" lemma="voorstel" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--waarbij-->
+    <term tid="t81" type="close" lemma="waarbij" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t82" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--uitgaven-->
+    <term tid="t83" type="open" lemma="uitgaaf|uitgave" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--sneller-->
+    <term tid="t84" type="open" lemma="snel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w84"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--stijgen-->
+    <term tid="t85" type="open" lemma="stijgen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--dan-->
+    <term tid="t86" type="close" lemma="dan" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t87" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--inflatie-->
+    <term tid="t88" type="open" lemma="inflatie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t89" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--gedreigd-->
+        <span>
+          <target id="t74"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--de uitgaven-->
+        <span>
+          <target id="t82"/>
+          <target id="t83"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--sneller stijgen dan de inflatie-->
+        <span>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--elk voorstel-->
+        <span>
+          <target id="t79"/>
+          <target id="t80"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--een veto tegen-->
+        <span>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

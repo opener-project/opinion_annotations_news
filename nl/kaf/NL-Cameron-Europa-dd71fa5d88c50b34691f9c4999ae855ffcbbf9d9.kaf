@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:03:58Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:03:58Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T12:47:38CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w168" sent="10" para="2" offset="959" length="4">Daar</wf>
+    <wf wid="w169" sent="10" para="2" offset="964" length="6">zullen</wf>
+    <wf wid="w170" sent="10" para="2" offset="971" length="2">de</wf>
+    <wf wid="w171" sent="10" para="2" offset="974" length="7">leiders</wf>
+    <wf wid="w172" sent="10" para="2" offset="982" length="3">dan</wf>
+    <wf wid="w173" sent="10" para="2" offset="986" length="1">'</wf>
+    <wf wid="w174" sent="10" para="2" offset="987" length="1">s</wf>
+    <wf wid="w175" sent="10" para="2" offset="989" length="6">avonds</wf>
+    <wf wid="w176" sent="10" para="2" offset="996" length="5">samen</wf>
+    <wf wid="w177" sent="10" para="2" offset="1002" length="4">over</wf>
+    <wf wid="w178" sent="10" para="2" offset="1007" length="10">debatteren</wf>
+    <wf wid="w179" sent="10" para="2" offset="1017" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Daar-->
+    <term tid="t168" type="open" lemma="daar" pos="A" morphofeat="adv">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--zullen-->
+    <term tid="t169" type="open" lemma="zullen" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t170" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--leiders-->
+    <term tid="t171" type="open" lemma="leider" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--dan-->
+    <term tid="t172" type="open" lemma="dan" pos="A" morphofeat="adv">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t173" type="open" lemma="'" pos="O" morphofeat="punc">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--s-->
+    <term tid="t174" type="open" lemma="s" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--avonds-->
+    <term tid="t175" type="open" lemma="avond" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--samen-->
+    <term tid="t176" type="open" lemma="samen" pos="A" morphofeat="adv">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t177" type="open" lemma="over" pos="A" morphofeat="adv">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--debatteren-->
+    <term tid="t178" type="open" lemma="debatteren" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t179" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+          <target id="t178"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

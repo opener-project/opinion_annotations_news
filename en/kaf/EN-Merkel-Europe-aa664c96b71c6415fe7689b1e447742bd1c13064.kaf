@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 11:58:37" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T10:24:30CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:51CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="8" para="2" offset="856" length="1" wid="w166">"</wf>
+    <wf sent="8" para="2" offset="857" length="7" wid="w167">Germany</wf>
+    <wf sent="8" para="2" offset="865" length="5" wid="w168">wants</wf>
+    <wf sent="8" para="2" offset="871" length="2" wid="w169">to</wf>
+    <wf sent="8" para="2" offset="874" length="5" wid="w170">reach</wf>
+    <wf sent="8" para="2" offset="880" length="3" wid="w171">the</wf>
+    <wf sent="8" para="2" offset="884" length="4" wid="w172">goal</wf>
+    <wf sent="8" para="2" offset="889" length="3" wid="w173">but</wf>
+    <wf sent="8" para="2" offset="893" length="2" wid="w174">it</wf>
+    <wf sent="8" para="2" offset="896" length="3" wid="w175">may</wf>
+    <wf sent="8" para="2" offset="900" length="2" wid="w176">be</wf>
+    <wf sent="8" para="2" offset="903" length="4" wid="w177">that</wf>
+    <wf sent="8" para="2" offset="908" length="2" wid="w178">we</wf>
+    <wf sent="8" para="2" offset="911" length="4" wid="w179">need</wf>
+    <wf sent="8" para="2" offset="916" length="1" wid="w180">a</wf>
+    <wf sent="8" para="2" offset="918" length="7" wid="w181">further</wf>
+    <wf sent="8" para="2" offset="926" length="5" wid="w182">stage</wf>
+    <wf sent="8" para="2" offset="931" length="1" wid="w183">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term type="close" lemma="&quot;" pos="O" morphofeat="SYM" tid="t166">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--Germany-->
+    <term type="close" lemma="Germany" pos="R" morphofeat="NNP" tid="t167">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--wants-->
+    <term type="open" lemma="want" pos="V" morphofeat="VBZ" tid="t168">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--to-->
+    <term type="close" lemma="to" pos="P" morphofeat="TO" tid="t169">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--reach-->
+    <term type="open" lemma="reach" pos="V" morphofeat="VB" tid="t170">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t171">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--goal-->
+    <term type="open" lemma="goal" pos="N" morphofeat="NN" tid="t172">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--but-->
+    <term type="close" lemma="but" pos="C" morphofeat="CC" tid="t173">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--it-->
+    <term type="close" lemma="it" pos="Q" morphofeat="PRP" tid="t174">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--may-->
+    <term type="close" lemma="may" pos="O" morphofeat="MD" tid="t175">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--be-->
+    <term type="open" lemma="be" pos="V" morphofeat="VB" tid="t176">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--that-->
+    <term type="close" lemma="that" pos="P" morphofeat="IN" tid="t177">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--we-->
+    <term type="close" lemma="we" pos="Q" morphofeat="PRP" tid="t178">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--need-->
+    <term type="open" lemma="need" pos="V" morphofeat="VB" tid="t179">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="negative"/>
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t180">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--further-->
+    <term type="open" lemma="further" pos="G" morphofeat="JJ" tid="t181">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--stage-->
+    <term type="open" lemma="stage" pos="N" morphofeat="NN" tid="t182">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t183">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Germany-->
+        <span>
+          <target id="t167"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--the goal-->
+        <span>
+          <target id="t171"/>
+          <target id="t172"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wants to reach-->
+        <span>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

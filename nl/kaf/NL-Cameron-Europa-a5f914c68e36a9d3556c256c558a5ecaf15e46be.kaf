@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:17Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:17Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:15:39CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w302" sent="20" para="2" offset="1813" length="7">Cameron</wf>
+    <wf wid="w303" sent="20" para="2" offset="1821" length="5">sprak</wf>
+    <wf wid="w304" sent="20" para="2" offset="1827" length="3">van</wf>
+    <wf wid="w305" sent="20" para="2" offset="1831" length="3">een</wf>
+    <wf wid="w306" sent="20" para="2" offset="1835" length="1">"</wf>
+    <wf wid="w307" sent="20" para="2" offset="1837" length="10">eenduidige</wf>
+    <wf wid="w308" sent="20" para="2" offset="1848" length="16">vastberadendheid</wf>
+    <wf wid="w309" sent="20" para="2" offset="1864" length="1">"</wf>
+    <wf wid="w310" sent="20" para="2" offset="1866" length="3">bij</wf>
+    <wf wid="w311" sent="20" para="2" offset="1870" length="5">Rutte</wf>
+    <wf wid="w312" sent="20" para="2" offset="1875" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Cameron-->
+    <term tid="t302" type="open" lemma="Cameron" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--sprak-->
+    <term tid="t303" type="open" lemma="spreken" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t304" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t305" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t306" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <!--eenduidige-->
+    <term tid="t307" type="open" lemma="eenduidig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <!--vastberadendheid-->
+    <term tid="t308" type="open" lemma="vastberadendheid" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t309" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <!--bij-->
+    <term tid="t310" type="close" lemma="bij" pos="P" morphofeat="prep">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <!--Rutte-->
+    <term tid="t311" type="open" lemma="Rutte" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t312" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--vastberadendheid-->
+        <span>
+          <target id="t308"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--eenduidige-->
+        <span>
+          <target id="t307"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Cameron-->
+        <span>
+          <target id="t302"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Rutte-->
+        <span>
+          <target id="t311"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--sprak-->
+        <span>
+          <target id="t303"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Cameron-->
+        <span>
+          <target id="t302"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Rutte-->
+        <span>
+          <target id="t311"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--een " eenduidige vastberadendheid " bij-->
+        <span>
+          <target id="t305"/>
+          <target id="t306"/>
+          <target id="t307"/>
+          <target id="t308"/>
+          <target id="t309"/>
+          <target id="t310"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

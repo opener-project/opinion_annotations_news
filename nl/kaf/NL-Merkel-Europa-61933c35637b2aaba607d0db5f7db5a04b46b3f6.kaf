@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:19Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:19Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T14:39:09CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:30CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w117" sent="8" para="2" offset="701" length="2">De</wf>
+    <wf wid="w118" sent="8" para="2" offset="704" length="7">bliksem</wf>
+    <wf wid="w119" sent="8" para="2" offset="712" length="4">trof</wf>
+    <wf wid="w120" sent="8" para="2" offset="717" length="4">zijn</wf>
+    <wf wid="w121" sent="8" para="2" offset="722" length="9">vliegtuig</wf>
+    <wf wid="w122" sent="8" para="2" offset="731" length="1">,</wf>
+    <wf wid="w123" sent="8" para="2" offset="733" length="8">waardoor</wf>
+    <wf wid="w124" sent="8" para="2" offset="742" length="3">het</wf>
+    <wf wid="w125" sent="8" para="2" offset="746" length="5">moest</wf>
+    <wf wid="w126" sent="8" para="2" offset="752" length="10">terugkeren</wf>
+    <wf wid="w127" sent="8" para="2" offset="762" length="1">.</wf>
+    <wf wid="w187" sent="11" para="2" offset="1095" length="2">Ze</wf>
+    <wf wid="w188" sent="11" para="2" offset="1098" length="10">waarschuwt</wf>
+    <wf wid="w189" sent="11" para="2" offset="1109" length="3">wel</wf>
+    <wf wid="w190" sent="11" para="2" offset="1113" length="3">dat</wf>
+    <wf wid="w191" sent="11" para="2" offset="1117" length="3">een</wf>
+    <wf wid="w192" sent="11" para="2" offset="1121" length="9">dergelijk</wf>
+    <wf wid="w193" sent="11" para="2" offset="1131" length="7">vertrek</wf>
+    <wf wid="w194" sent="11" para="2" offset="1139" length="8">ernstige</wf>
+    <wf wid="w195" sent="11" para="2" offset="1148" length="8">gevolgen</wf>
+    <wf wid="w196" sent="11" para="2" offset="1157" length="3">zal</wf>
+    <wf wid="w197" sent="11" para="2" offset="1161" length="6">hebben</wf>
+    <wf wid="w198" sent="11" para="2" offset="1167" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t117" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--bliksem-->
+    <term tid="t118" type="open" lemma="bliksem" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w118"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--trof-->
+    <term tid="t119" type="open" lemma="treffen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w119"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--zijn-->
+    <term tid="t120" type="close" lemma="zijn" pos="D" morphofeat="det__poss">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--vliegtuig-->
+    <term tid="t121" type="open" lemma="vliegtuig" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t122" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--waardoor-->
+    <term tid="t123" type="close" lemma="waardoor" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t124" type="close" lemma="het" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--moest-->
+    <term tid="t125" type="open" lemma="moeten" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--terugkeren-->
+    <term tid="t126" type="open" lemma="terugkeren" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t127" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--Ze-->
+    <term tid="t187" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--waarschuwt-->
+    <term tid="t188" type="open" lemma="waarschuwen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--wel-->
+    <term tid="t189" type="open" lemma="wel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t190" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t191" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--dergelijk-->
+    <term tid="t192" type="open" lemma="dergelijk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--vertrek-->
+    <term tid="t193" type="open" lemma="vertrek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--ernstige-->
+    <term tid="t194" type="open" lemma="ernstig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w194"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--gevolgen-->
+    <term tid="t195" type="open" lemma="gevolg" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--zal-->
+    <term tid="t196" type="open" lemma="zullen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--hebben-->
+    <term tid="t197" type="open" lemma="hebben" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t198" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--gevolgen-->
+        <span>
+          <target id="t195"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--ernstige-->
+        <span>
+          <target id="t194"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

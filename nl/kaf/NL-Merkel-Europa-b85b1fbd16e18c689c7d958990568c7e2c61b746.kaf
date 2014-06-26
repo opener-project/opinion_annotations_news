@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:53:56CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:31CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w31" sent="3" para="2" offset="203" length="12">Geestelijken</wf>
+    <wf wid="w32" sent="3" para="2" offset="215" length="1">,</wf>
+    <wf wid="w33" sent="3" para="2" offset="217" length="9">nationale</wf>
+    <wf wid="w34" sent="3" para="2" offset="227" length="2">en</wf>
+    <wf wid="w35" sent="3" para="2" offset="230" length="14">internationale</wf>
+    <wf wid="w36" sent="3" para="2" offset="245" length="8">politici</wf>
+    <wf wid="w37" sent="3" para="2" offset="254" length="7">roemden</wf>
+    <wf wid="w38" sent="3" para="2" offset="262" length="7">Martens</wf>
+    <wf wid="w39" sent="3" para="2" offset="270" length="3">als</wf>
+    <wf wid="w40" sent="3" para="2" offset="274" length="1">,</wf>
+    <wf wid="w41" sent="3" para="2" offset="275" length="4">,een</wf>
+    <wf wid="w42" sent="3" para="2" offset="280" length="5">groot</wf>
+    <wf wid="w43" sent="3" para="2" offset="286" length="9">politicus</wf>
+    <wf wid="w44" sent="3" para="2" offset="295" length="1">,</wf>
+    <wf wid="w45" sent="3" para="2" offset="297" length="3">een</wf>
+    <wf wid="w46" sent="3" para="2" offset="301" length="7">Vlaming</wf>
+    <wf wid="w47" sent="3" para="2" offset="308" length="1">,</wf>
+    <wf wid="w48" sent="3" para="2" offset="310" length="3">een</wf>
+    <wf wid="w49" sent="3" para="2" offset="314" length="4">Belg</wf>
+    <wf wid="w50" sent="3" para="2" offset="318" length="1">,</wf>
+    <wf wid="w51" sent="3" para="2" offset="320" length="3">een</wf>
+    <wf wid="w52" sent="3" para="2" offset="324" length="9">Europeaan</wf>
+    <wf wid="w53" sent="3" para="2" offset="333" length="1">"</wf>
+    <wf wid="w54" sent="3" para="2" offset="335" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Geestelijken-->
+    <term tid="t31" type="open" lemma="geestelijke" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t32" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--nationale-->
+    <term tid="t33" type="open" lemma="nationaal" pos="G" morphofeat="adj">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t34" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--internationale-->
+    <term tid="t35" type="open" lemma="internationaal" pos="G" morphofeat="adj">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--politici-->
+    <term tid="t36" type="open" lemma="politicus" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--roemden-->
+    <term tid="t37" type="open" lemma="roemen" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w37"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--Martens-->
+    <term tid="t38" type="open" lemma="Martens" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--als-->
+    <term tid="t39" type="close" lemma="als" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t40" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--,een-->
+    <term tid="t41" type="open" lemma=",een" pos="O" morphofeat="punc">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--groot-->
+    <term tid="t42" type="open" lemma="groot" pos="G" morphofeat="adj">
+      <span>
+        <target id="w42"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--politicus-->
+    <term tid="t43" type="open" lemma="politicus" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t44" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t45" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--Vlaming-->
+    <term tid="t46" type="open" lemma="Vlaming" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t47" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t48" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--Belg-->
+    <term tid="t49" type="open" lemma="Belg" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t50" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--een-->
+    <term tid="t51" type="close" lemma="een" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--Europeaan-->
+    <term tid="t52" type="open" lemma="Europeaan" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t53" type="open" lemma="&quot;" pos="O" morphofeat="punc">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t54" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--nationale en internationale politici-->
+        <span>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Martens-->
+        <span>
+          <target id="t38"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--,een groot politicus-->
+        <span>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Geestelijken-->
+        <span>
+          <target id="t31"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Martens-->
+        <span>
+          <target id="t38"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--,een groot politicus-->
+        <span>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--nationale en internationale politici-->
+        <span>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Martens-->
+        <span>
+          <target id="t38"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--roemden-->
+        <span>
+          <target id="t37"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Geestelijken-->
+        <span>
+          <target id="t31"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Martens-->
+        <span>
+          <target id="t38"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--roemden-->
+        <span>
+          <target id="t37"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

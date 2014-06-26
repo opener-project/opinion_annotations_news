@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:39:16Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:39:16Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:13:17CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:39:30CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:59CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w213" sent="12" para="5" offset="1125" length="3">Das</wf>
+    <wf wid="w214" sent="12" para="5" offset="1129" length="4">sind</wf>
+    <wf wid="w215" sent="12" para="5" offset="1134" length="11">viereinhalb</wf>
+    <wf wid="w216" sent="12" para="5" offset="1146" length="5">Jahre</wf>
+    <wf wid="w217" sent="12" para="5" offset="1152" length="10">gemeinsame</wf>
+    <wf wid="w218" sent="12" para="5" offset="1163" length="14">Regierungszeit</wf>
+    <wf wid="w219" sent="12" para="5" offset="1177" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="PDS" pos="Q" tid="t213" type="close">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t214" type="open">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <term lemma="viereinhalb" morphofeat="CARD" pos="O" tid="t215" type="open">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <term lemma="Jahr" morphofeat="NN" pos="N" tid="t216" type="open">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <term lemma="gemeinsam" morphofeat="ADJA" pos="G" tid="t217" type="open">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <term lemma="Regierungszeit" morphofeat="NN" pos="N" tid="t218" type="open">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t219" type="open">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

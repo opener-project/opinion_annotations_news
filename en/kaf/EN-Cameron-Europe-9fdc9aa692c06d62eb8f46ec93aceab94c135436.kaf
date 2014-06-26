@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-en" timestamp="2014-01-31T12:07:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2014-01-31T12:07:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-02-03 10:59:36" version="1.0"/>
+      <lp name="VUA polarity tagger multilanguage" timestamp="2014-05-07T14:36:55CEST" version="4nov2013_1.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:12:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf sent="4" para="2" offset="588" length="5" wid="w103">About</wf>
+    <wf sent="4" para="2" offset="594" length="5" wid="w104">7,000</wf>
+    <wf sent="4" para="2" offset="600" length="8" wid="w105">officers</wf>
+    <wf sent="4" para="2" offset="609" length="3" wid="w106">are</wf>
+    <wf sent="4" para="2" offset="613" length="9" wid="w107">providing</wf>
+    <wf sent="4" para="2" offset="623" length="8" wid="w108">security</wf>
+    <wf sent="4" para="2" offset="632" length="2" wid="w109">as</wf>
+    <wf sent="4" para="2" offset="635" length="7" wid="w110">leaders</wf>
+    <wf sent="4" para="2" offset="643" length="6" wid="w111">arrive</wf>
+    <wf sent="4" para="2" offset="650" length="3" wid="w112">for</wf>
+    <wf sent="4" para="2" offset="654" length="3" wid="w113">the</wf>
+    <wf sent="4" para="2" offset="658" length="7" wid="w114">two-day</wf>
+    <wf sent="4" para="2" offset="666" length="6" wid="w115">summit</wf>
+    <wf sent="4" para="2" offset="673" length="8" wid="w116">starting</wf>
+    <wf sent="4" para="2" offset="682" length="6" wid="w117">Monday</wf>
+    <wf sent="4" para="2" offset="689" length="2" wid="w118">at</wf>
+    <wf sent="4" para="2" offset="692" length="1" wid="w119">a</wf>
+    <wf sent="4" para="2" offset="694" length="4" wid="w120">golf</wf>
+    <wf sent="4" para="2" offset="699" length="6" wid="w121">resort</wf>
+    <wf sent="4" para="2" offset="706" length="2" wid="w122">on</wf>
+    <wf sent="4" para="2" offset="709" length="1" wid="w123">a</wf>
+    <wf sent="4" para="2" offset="711" length="9" wid="w124">peninsula</wf>
+    <wf sent="4" para="2" offset="721" length="4" wid="w125">near</wf>
+    <wf sent="4" para="2" offset="726" length="3" wid="w126">the</wf>
+    <wf sent="4" para="2" offset="730" length="4" wid="w127">town</wf>
+    <wf sent="4" para="2" offset="735" length="2" wid="w128">of</wf>
+    <wf sent="4" para="2" offset="738" length="11" wid="w129">Enniskillen</wf>
+    <wf sent="4" para="2" offset="749" length="1" wid="w130">.</wf>
+  </text>
+  <terms>
+    <!--About-->
+    <term type="close" lemma="about" pos="P" morphofeat="IN" tid="t103">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--7,000-->
+    <term type="close" lemma="7,000" pos="O" morphofeat="CD" tid="t104">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--officers-->
+    <term type="open" lemma="officer" pos="N" morphofeat="NNS" tid="t105">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--are-->
+    <term type="open" lemma="be" pos="V" morphofeat="VBP" tid="t106">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--providing-->
+    <term type="open" lemma="provide" pos="V" morphofeat="VBG" tid="t107">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--security-->
+    <term type="open" lemma="security" pos="N" morphofeat="NN" tid="t108">
+      <sentiment resource="General lexicon for English . VUA_olery_lexicon_EN_lmf" polarity="positive"/>
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--as-->
+    <term type="close" lemma="as" pos="P" morphofeat="IN" tid="t109">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--leaders-->
+    <term type="open" lemma="leader" pos="N" morphofeat="NNS" tid="t110">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--arrive-->
+    <term type="open" lemma="arrive" pos="V" morphofeat="VBP" tid="t111">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--for-->
+    <term type="close" lemma="for" pos="P" morphofeat="IN" tid="t112">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t113">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--two-day-->
+    <term type="open" lemma="two-day" pos="G" morphofeat="JJ" tid="t114">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--summit-->
+    <term type="open" lemma="summit" pos="N" morphofeat="NN" tid="t115">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--starting-->
+    <term type="open" lemma="start" pos="V" morphofeat="VBG" tid="t116">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--Monday-->
+    <term type="close" lemma="Monday" pos="R" morphofeat="NNP" tid="t117">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--at-->
+    <term type="close" lemma="at" pos="P" morphofeat="IN" tid="t118">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t119">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--golf-->
+    <term type="open" lemma="golf" pos="N" morphofeat="NN" tid="t120">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--resort-->
+    <term type="open" lemma="resort" pos="N" morphofeat="NN" tid="t121">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--on-->
+    <term type="close" lemma="on" pos="P" morphofeat="IN" tid="t122">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--a-->
+    <term type="close" lemma="a" pos="D" morphofeat="DT" tid="t123">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--peninsula-->
+    <term type="open" lemma="peninsula" pos="N" morphofeat="NN" tid="t124">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--near-->
+    <term type="close" lemma="near" pos="P" morphofeat="IN" tid="t125">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--the-->
+    <term type="close" lemma="the" pos="D" morphofeat="DT" tid="t126">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--town-->
+    <term type="open" lemma="town" pos="N" morphofeat="NN" tid="t127">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--of-->
+    <term type="close" lemma="of" pos="P" morphofeat="IN" tid="t128">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--Enniskillen-->
+    <term type="close" lemma="Enniskillen" pos="R" morphofeat="NNP" tid="t129">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--.-->
+    <term type="close" lemma="." pos="O" morphofeat="." tid="t130">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

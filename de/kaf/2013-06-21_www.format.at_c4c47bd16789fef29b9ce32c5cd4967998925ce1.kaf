@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T18:04:41Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T18:04:41Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:51:45CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T19:05:14CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w178" sent="9" para="5" offset="1081" length="1">"</wf>
+    <wf wid="w179" sent="9" para="5" offset="1082" length="3">Ich</wf>
+    <wf wid="w180" sent="9" para="5" offset="1086" length="5">hoffe</wf>
+    <wf wid="w181" sent="9" para="5" offset="1091" length="1">,</wf>
+    <wf wid="w182" sent="9" para="5" offset="1093" length="4">dass</wf>
+    <wf wid="w183" sent="9" para="5" offset="1098" length="4">sich</wf>
+    <wf wid="w184" sent="9" para="5" offset="1103" length="3">der</wf>
+    <wf wid="w185" sent="9" para="5" offset="1107" length="7">gesunde</wf>
+    <wf wid="w186" sent="9" para="5" offset="1115" length="16">Menschenverstand</wf>
+    <wf wid="w187" sent="9" para="5" offset="1132" length="2">in</wf>
+    <wf wid="w188" sent="9" para="5" offset="1135" length="3">der</wf>
+    <wf wid="w189" sent="9" para="5" offset="1139" length="2">EU</wf>
+    <wf wid="w190" sent="9" para="5" offset="1142" length="10">durchsetzt</wf>
+    <wf wid="w191" sent="9" para="5" offset="1152" length="1">.</wf>
+    <wf wid="w192" sent="9" para="5" offset="1153" length="1">"</wf>
+    <wf wid="w617" sent="29" para="14" offset="3949" length="2">Zu</wf>
+    <wf wid="w618" sent="29" para="14" offset="3952" length="5">einer</wf>
+    <wf wid="w619" sent="29" para="14" offset="3958" length="8">Einigung</wf>
+    <wf wid="w620" sent="29" para="14" offset="3967" length="3">ist</wf>
+    <wf wid="w621" sent="29" para="14" offset="3971" length="2">es</wf>
+    <wf wid="w622" sent="29" para="14" offset="3974" length="10">allerdings</wf>
+    <wf wid="w623" sent="29" para="14" offset="3985" length="4">noch</wf>
+    <wf wid="w624" sent="29" para="14" offset="3990" length="5">nicht</wf>
+    <wf wid="w625" sent="29" para="14" offset="3996" length="8">gekommen</wf>
+    <wf wid="w626" sent="29" para="14" offset="4004" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t178" type="open">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <term lemma="ich" morphofeat="PPER" pos="Q" tid="t179" type="close">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <term lemma="hoffen" morphofeat="VVFIN" pos="V" tid="t180" type="open">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t181" type="open">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <term lemma="dass" morphofeat="KOUS" pos="C" tid="t182" type="close">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <term lemma="sich" morphofeat="PRF" pos="Q" tid="t183" type="close">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t184" type="close">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <term lemma="gesund" morphofeat="ADJA" pos="G" tid="t185" type="open">
+      <span>
+        <target id="w185"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Menschenverstand" morphofeat="NN" pos="N" tid="t186" type="open">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="APPR" pos="P" tid="t187" type="close">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t188" type="close">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t189" type="open">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <term lemma="durchsetzen" morphofeat="VVPP" pos="V" tid="t190" type="open">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t191" type="open">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <term lemma="&quot;" morphofeat="$(" pos="O" tid="t192" type="open">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPR" pos="P" tid="t617" type="close">
+      <span>
+        <target id="w617"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t618" type="close">
+      <span>
+        <target id="w618"/>
+      </span>
+    </term>
+    <term lemma="Einigung" morphofeat="NN" pos="N" tid="t619" type="open">
+      <span>
+        <target id="w619"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t620" type="open">
+      <span>
+        <target id="w620"/>
+      </span>
+    </term>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t621" type="close">
+      <span>
+        <target id="w621"/>
+      </span>
+    </term>
+    <term lemma="allerdings" morphofeat="ADV" pos="A" tid="t622" type="open">
+      <span>
+        <target id="w622"/>
+      </span>
+    </term>
+    <term lemma="noch" morphofeat="ADV" pos="A" tid="t623" type="open">
+      <span>
+        <target id="w623"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t624" type="open">
+      <span>
+        <target id="w624"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="kommen" morphofeat="VVPP" pos="V" tid="t625" type="open">
+      <span>
+        <target id="w625"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t626" type="open">
+      <span>
+        <target id="w626"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Menschenverstand-->
+        <span>
+          <target id="t186"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--gesunde-->
+        <span>
+          <target id="t185"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t617"/>
+          <target id="t618"/>
+          <target id="t619"/>
+          <target id="t620"/>
+          <target id="t621"/>
+          <target id="t622"/>
+          <target id="t623"/>
+          <target id="t624"/>
+          <target id="t625"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

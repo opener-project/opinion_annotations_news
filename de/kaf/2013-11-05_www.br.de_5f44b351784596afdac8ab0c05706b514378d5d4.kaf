@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T16:43:01Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T16:43:01Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:06:14CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T17:43:27CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w252" sent="17" para="9" offset="1558" length="3">Die</wf>
+    <wf wid="w253" sent="17" para="9" offset="1562" length="3">SPD</wf>
+    <wf wid="w254" sent="17" para="9" offset="1566" length="4">will</wf>
+    <wf wid="w255" sent="17" para="9" offset="1571" length="3">die</wf>
+    <wf wid="w256" sent="17" para="9" offset="1575" length="8">doppelte</wf>
+    <wf wid="w257" sent="17" para="9" offset="1584" length="18">Staatsbürgerschaft</wf>
+    <wf wid="w258" sent="17" para="9" offset="1603" length="9">dauerhaft</wf>
+    <wf wid="w259" sent="17" para="9" offset="1613" length="11">ermöglichen</wf>
+    <wf wid="w260" sent="17" para="9" offset="1625" length="3">und</wf>
+    <wf wid="w261" sent="17" para="9" offset="1629" length="3">den</wf>
+    <wf wid="w262" sent="17" para="9" offset="1633" length="9">geltenden</wf>
+    <wf wid="w263" sent="17" para="9" offset="1643" length="12">Optionszwang</wf>
+    <wf wid="w264" sent="17" para="9" offset="1656" length="10">abschaffen</wf>
+    <wf wid="w265" sent="17" para="9" offset="1666" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t252" type="close">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <term lemma="SPD" morphofeat="NE" pos="R" tid="t253" type="open">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <term lemma="wollen" morphofeat="VMFIN" pos="V" tid="t254" type="open">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t255" type="close">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <term lemma="doppelt" morphofeat="ADJA" pos="G" tid="t256" type="open">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <term lemma="Staatsbürgerschaft" morphofeat="NN" pos="N" tid="t257" type="open">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <term lemma="dauerhaft" morphofeat="ADJD" pos="G" tid="t258" type="open">
+      <span>
+        <target id="w258"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="ermöglichen" morphofeat="VVINF" pos="V" tid="t259" type="open">
+      <span>
+        <target id="w259"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t260" type="close">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t261" type="close">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <term lemma="geltend" morphofeat="ADJA" pos="G" tid="t262" type="open">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <term lemma="Optionszwang" morphofeat="NN unknown_lemma" pos="O" tid="t263" type="open">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <term lemma="abschaffen" morphofeat="VVINF" pos="V" tid="t264" type="open">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t265" type="open">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Die SPD-->
+        <span>
+          <target id="t252"/>
+          <target id="t253"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--den geltenden Optionszwang-->
+        <span>
+          <target id="t261"/>
+          <target id="t262"/>
+          <target id="t263"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--abschaffen-->
+        <span>
+          <target id="t264"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

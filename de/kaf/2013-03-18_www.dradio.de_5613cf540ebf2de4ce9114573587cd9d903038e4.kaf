@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:08:16Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:08:16Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:52:16CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:09:01CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:31CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w296" sent="22" para="7" offset="2033" length="3">Der</wf>
+    <wf wid="w297" sent="22" para="7" offset="2037" length="11">israelische</wf>
+    <wf wid="w298" sent="22" para="7" offset="2049" length="14">Regierungschef</wf>
+    <wf wid="w299" sent="22" para="7" offset="2064" length="9">Netanjahu</wf>
+    <wf wid="w300" sent="22" para="7" offset="2074" length="3">hat</wf>
+    <wf wid="w301" sent="22" para="7" offset="2078" length="2">EU</wf>
+    <wf wid="w302" sent="22" para="7" offset="2080" length="1">·</wf>
+    <wf wid="w303" sent="22" para="7" offset="2081" length="19">Parlamentspräsident</wf>
+    <wf wid="w304" sent="22" para="7" offset="2101" length="6">Schulz</wf>
+    <wf wid="w305" sent="22" para="7" offset="2108" length="4">eine</wf>
+    <wf wid="w306" sent="22" para="7" offset="2113" length="10">einseitige</wf>
+    <wf wid="w307" sent="22" para="7" offset="2124" length="5">Sicht</wf>
+    <wf wid="w308" sent="22" para="7" offset="2130" length="3">auf</wf>
+    <wf wid="w309" sent="22" para="7" offset="2134" length="3">den</wf>
+    <wf wid="w310" sent="22" para="7" offset="2138" length="14">Nahostkonflikt</wf>
+    <wf wid="w311" sent="22" para="7" offset="2153" length="11">vorgeworfen</wf>
+    <wf wid="w312" sent="22" para="7" offset="2164" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t296" type="close">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <term lemma="israelisch" morphofeat="ADJA" pos="G" tid="t297" type="open">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <term lemma="Regierungschef" morphofeat="NN" pos="N" tid="t298" type="open">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <term lemma="Netanjahu" morphofeat="NE unknown_lemma" pos="O" tid="t299" type="open">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <term lemma="haben" morphofeat="VAFIN" pos="V" tid="t300" type="open">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t301" type="open">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t302" type="open">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <term lemma="Parlamentspräsident" morphofeat="NN" pos="N" tid="t303" type="open">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <term lemma="Schulz" morphofeat="NE" pos="R" tid="t304" type="open">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <term lemma="eine" morphofeat="ART" pos="D" tid="t305" type="close">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <term lemma="einseitig" morphofeat="ADJA" pos="G" tid="t306" type="open">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <term lemma="Sicht" morphofeat="NN" pos="N" tid="t307" type="open">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <term lemma="auf" morphofeat="APPR" pos="P" tid="t308" type="close">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t309" type="close">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <term lemma="Nahostkonflikt" morphofeat="NN" pos="N" tid="t310" type="open">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <term lemma="vorwerfen" morphofeat="VVPP" pos="V" tid="t311" type="open">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t312" type="open">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Sicht-->
+        <span>
+          <target id="t307"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--einseitige-->
+        <span>
+          <target id="t306"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

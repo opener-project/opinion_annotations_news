@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:44:51CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w130" sent="8" para="2" offset="887" length="2">De</wf>
+    <wf wid="w131" sent="8" para="2" offset="890" length="9">Russische</wf>
+    <wf wid="w132" sent="8" para="2" offset="900" length="12">autoriteiten</wf>
+    <wf wid="w133" sent="8" para="2" offset="913" length="6">bleken</wf>
+    <wf wid="w134" sent="8" para="2" offset="920" length="4">zich</wf>
+    <wf wid="w135" sent="8" para="2" offset="925" length="6">echter</wf>
+    <wf wid="w136" sent="8" para="2" offset="932" length="2">te</wf>
+    <wf wid="w137" sent="8" para="2" offset="935" length="9">verzetten</wf>
+    <wf wid="w138" sent="8" para="2" offset="945" length="5">tegen</wf>
+    <wf wid="w139" sent="8" para="2" offset="951" length="7">Merkels</wf>
+    <wf wid="w140" sent="8" para="2" offset="959" length="5">tekst</wf>
+    <wf wid="w141" sent="8" para="2" offset="964" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t130" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--Russische-->
+    <term tid="t131" type="open" lemma="Russisch" pos="G" morphofeat="adj">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--autoriteiten-->
+    <term tid="t132" type="open" lemma="autoriteit" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w132"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--bleken-->
+    <term tid="t133" type="open" lemma="bleken" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--zich-->
+    <term tid="t134" type="close" lemma="zich" pos="Q" morphofeat="pronrefl">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--echter-->
+    <term tid="t135" type="open" lemma="echter" pos="A" morphofeat="adv">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t136" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--verzetten-->
+    <term tid="t137" type="open" lemma="verzetten" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w137"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--tegen-->
+    <term tid="t138" type="close" lemma="tegen" pos="P" morphofeat="prep">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--Merkels-->
+    <term tid="t139" type="open" lemma="Merkels" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--tekst-->
+    <term tid="t140" type="open" lemma="tekst" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t141" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--De Russische autoriteiten-->
+        <span>
+          <target id="t130"/>
+          <target id="t131"/>
+          <target id="t132"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Merkels tekst-->
+        <span>
+          <target id="t139"/>
+          <target id="t140"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--zich verzetten tegen-->
+        <span>
+          <target id="t134"/>
+          <target id="t137"/>
+          <target id="t138"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

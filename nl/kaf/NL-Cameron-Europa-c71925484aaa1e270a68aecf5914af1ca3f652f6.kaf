@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T10:45:20CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="4">Lega</wf>
+    <wf wid="w2" sent="1" para="1" offset="5" length="4">Nord</wf>
+    <wf wid="w3" sent="1" para="1" offset="10" length="3">wil</wf>
+    <wf wid="w4" sent="1" para="1" offset="14" length="10">referendum</wf>
+    <wf wid="w5" sent="1" para="1" offset="25" length="4">over</wf>
+    <wf wid="w6" sent="1" para="1" offset="30" length="4">euro</wf>
+  </text>
+  <terms>
+    <!--Lega-->
+    <term tid="t1" type="open" lemma="Lega" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Nord-->
+    <term tid="t2" type="open" lemma="Nord" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--wil-->
+    <term tid="t3" type="open" lemma="willen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--referendum-->
+    <term tid="t4" type="open" lemma="referendum" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--over-->
+    <term tid="t5" type="close" lemma="over" pos="P" morphofeat="prep">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t6" type="open" lemma="euro" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Lega Nord-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--referendum-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--wil-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

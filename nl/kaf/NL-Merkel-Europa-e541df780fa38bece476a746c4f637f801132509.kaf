@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T11:38:37CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:34CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w53" sent="3" para="2" offset="332" length="4">Acht</wf>
+    <wf wid="w54" sent="3" para="2" offset="337" length="7">anderen</wf>
+    <wf wid="w55" sent="3" para="2" offset="345" length="6">worden</wf>
+    <wf wid="w56" sent="3" para="2" offset="352" length="3">nog</wf>
+    <wf wid="w57" sent="3" para="2" offset="356" length="7">vermist</wf>
+    <wf wid="w58" sent="3" para="2" offset="363" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Acht-->
+    <term tid="t53" type="open" lemma="acht" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--anderen-->
+    <term tid="t54" type="open" lemma="ander" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--worden-->
+    <term tid="t55" type="open" lemma="worden" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--nog-->
+    <term tid="t56" type="open" lemma="nog" pos="A" morphofeat="adv">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--vermist-->
+    <term tid="t57" type="open" lemma="vermist" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t58" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

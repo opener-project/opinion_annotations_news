@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T08:41:13Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T08:41:13Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:05:10CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T09:41:44CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w210" sent="16" para="6" offset="1257" length="5">Namen</wf>
+    <wf wid="w211" sent="16" para="6" offset="1263" length="6">nannte</wf>
+    <wf wid="w212" sent="16" para="6" offset="1270" length="3">das</wf>
+    <wf wid="w213" sent="16" para="6" offset="1274" length="7">Magazin</wf>
+    <wf wid="w214" sent="16" para="6" offset="1282" length="4">aber</wf>
+    <wf wid="w215" sent="16" para="6" offset="1287" length="5">nicht</wf>
+    <wf wid="w216" sent="16" para="6" offset="1292" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Name" morphofeat="NN" pos="N" tid="t210" type="open">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <term lemma="nennen" morphofeat="VVFIN" pos="V" tid="t211" type="open">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t212" type="close">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <term lemma="Magazin" morphofeat="NN" pos="N" tid="t213" type="open">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <term lemma="aber" morphofeat="ADV" pos="A" tid="t214" type="open">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <term lemma="nicht" morphofeat="PTKNEG" pos="O" tid="t215" type="open">
+      <span>
+        <target id="w215"/>
+      </span>
+      <sentiment resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t216" type="open">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

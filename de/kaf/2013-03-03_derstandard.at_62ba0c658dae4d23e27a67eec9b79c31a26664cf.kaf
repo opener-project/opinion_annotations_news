@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T15:49:58Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T15:49:58Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:51:45CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T16:50:29CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w475" sent="30" para="16" offset="2853" length="8">Leuthard</wf>
+    <wf wid="w476" sent="30" para="16" offset="2861" length="1">:</wf>
+    <wf wid="w477" sent="30" para="16" offset="2863" length="2">Es</wf>
+    <wf wid="w478" sent="30" para="16" offset="2866" length="3">war</wf>
+    <wf wid="w479" sent="30" para="16" offset="2870" length="2">ja</wf>
+    <wf wid="w480" sent="30" para="16" offset="2873" length="5">keine</wf>
+    <wf wid="w481" sent="30" para="16" offset="2879" length="4">Anti</wf>
+    <wf wid="w482" sent="30" para="16" offset="2883" length="1">·</wf>
+    <wf wid="w483" sent="30" para="16" offset="2884" length="2">EU</wf>
+    <wf wid="w484" sent="30" para="16" offset="2886" length="1">·</wf>
+    <wf wid="w485" sent="30" para="16" offset="2887" length="4">Rede</wf>
+    <wf wid="w486" sent="30" para="16" offset="2891" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Leuthard" morphofeat="NE unknown_lemma" pos="O" tid="t475" type="open">
+      <span>
+        <target id="w475"/>
+      </span>
+    </term>
+    <term lemma=":" morphofeat="$." pos="O" tid="t476" type="open">
+      <span>
+        <target id="w476"/>
+      </span>
+    </term>
+    <term lemma="es" morphofeat="PPER" pos="Q" tid="t477" type="close">
+      <span>
+        <target id="w477"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="VAFIN" pos="V" tid="t478" type="open">
+      <span>
+        <target id="w478"/>
+      </span>
+    </term>
+    <term lemma="ja" morphofeat="ADV" pos="A" tid="t479" type="open">
+      <span>
+        <target id="w479"/>
+      </span>
+    </term>
+    <term lemma="keine" morphofeat="PIAT" pos="Q" tid="t480" type="close">
+      <span>
+        <target id="w480"/>
+      </span>
+    </term>
+    <term lemma="Anti" morphofeat="ADJA unknown_lemma" pos="O" tid="t481" type="open">
+      <span>
+        <target id="w481"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t482" type="open">
+      <span>
+        <target id="w482"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t483" type="open">
+      <span>
+        <target id="w483"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t484" type="open">
+      <span>
+        <target id="w484"/>
+      </span>
+    </term>
+    <term lemma="Rede" morphofeat="NN" pos="N" tid="t485" type="open">
+      <span>
+        <target id="w485"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t486" type="open">
+      <span>
+        <target id="w486"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Leuthard-->
+        <span>
+          <target id="t475"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Es-->
+        <span>
+          <target id="t477"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--keine Anti · EU · Rede-->
+        <span>
+          <target id="t480"/>
+          <target id="t481"/>
+          <target id="t482"/>
+          <target id="t483"/>
+          <target id="t484"/>
+          <target id="t485"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Rede-->
+        <span>
+          <target id="t485"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--keine Anti · EU-->
+        <span>
+          <target id="t480"/>
+          <target id="t481"/>
+          <target id="t482"/>
+          <target id="t483"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

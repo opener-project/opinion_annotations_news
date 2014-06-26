@@ -1,0 +1,13 @@
+w162	An	an	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	161	true	12
+w163	diesem	dies	Q			0		0		0		0	NON-OPINIONATED	1		0		0		0	162	true	12
+w164	Dienstag	Dienstag	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	163	true	12
+w165	soll	sollen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	164	true	12
+w166	Merkel	Merkel	R			0		0		0		0	NON-OPINIONATED	1		0		0		0	165	true	12
+w167	zum	zu	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	166	true	12
+w168	dritten	dritt	G			0		0		0		0	NON-OPINIONATED	1		0		0		0	167	true	12
+w169	Mal	Mal	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	168	true	12
+w170	zur	zu	P			0		0		0		0	NON-OPINIONATED	1		0		0		0	169	true	12
+w171	Regierungschefin	Regierungschefin	N			0		0		0		0	NON-OPINIONATED	1		0		0		0	170	true	12
+w172	gewählt	wählen	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	171	true	12
+w173	werden	werden	V			0		0		0		0	NON-OPINIONATED	1		0		0		0	172	true	12
+w174	.	.	O			0		0		0		0	NON-OPINIONATED	1		0		0		0	173	true	12

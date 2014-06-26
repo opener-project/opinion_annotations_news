@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-18T09:53:22Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-18T09:53:22Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T17:12:40CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-18T10:54:43CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:14:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w467" sent="29" para="15" offset="2646" length="3">Das</wf>
+    <wf wid="w468" sent="29" para="15" offset="2650" length="2">EU</wf>
+    <wf wid="w469" sent="29" para="15" offset="2652" length="1">·</wf>
+    <wf wid="w470" sent="29" para="15" offset="2653" length="9">Parlament</wf>
+    <wf wid="w471" sent="29" para="15" offset="2663" length="10">verweigert</wf>
+    <wf wid="w472" sent="29" para="15" offset="2674" length="5">seine</wf>
+    <wf wid="w473" sent="29" para="15" offset="2680" length="10">Zustimmung</wf>
+    <wf wid="w474" sent="29" para="15" offset="2691" length="2">zu</wf>
+    <wf wid="w475" sent="29" para="15" offset="2694" length="6">diesem</wf>
+    <wf wid="w476" sent="29" para="15" offset="2701" length="10">Zahlenwerk</wf>
+    <wf wid="w477" sent="29" para="15" offset="2711" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t467" type="close">
+      <span>
+        <target id="w467"/>
+      </span>
+    </term>
+    <term lemma="EU" morphofeat="NN" pos="N" tid="t468" type="open">
+      <span>
+        <target id="w468"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="XY" pos="O" tid="t469" type="open">
+      <span>
+        <target id="w469"/>
+      </span>
+    </term>
+    <term lemma="Parlament" morphofeat="NN" pos="N" tid="t470" type="open">
+      <span>
+        <target id="w470"/>
+      </span>
+    </term>
+    <term lemma="verweigern" morphofeat="VVFIN" pos="V" tid="t471" type="open">
+      <span>
+        <target id="w471"/>
+      </span>
+    </term>
+    <term lemma="sein" morphofeat="PPOSAT" pos="Q" tid="t472" type="close">
+      <span>
+        <target id="w472"/>
+      </span>
+    </term>
+    <term lemma="Zustimmung" morphofeat="NN" pos="N" tid="t473" type="open">
+      <span>
+        <target id="w473"/>
+      </span>
+    </term>
+    <term lemma="zu" morphofeat="APPR" pos="P" tid="t474" type="close">
+      <span>
+        <target id="w474"/>
+      </span>
+    </term>
+    <term lemma="dies" morphofeat="PDAT" pos="Q" tid="t475" type="close">
+      <span>
+        <target id="w475"/>
+      </span>
+    </term>
+    <term lemma="Zahlenwerk" morphofeat="NN" pos="N" tid="t476" type="open">
+      <span>
+        <target id="w476"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t477" type="open">
+      <span>
+        <target id="w477"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Das EU · Parlament-->
+        <span>
+          <target id="t467"/>
+          <target id="t468"/>
+          <target id="t469"/>
+          <target id="t470"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--seine Zustimmung-->
+        <span>
+          <target id="t472"/>
+          <target id="t473"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--verweigert-->
+        <span>
+          <target id="t471"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" version="0.0.1" timestamp="2014-02-17T17:44:15Z"/>
+      <lp name="opener-tokenizer-de" version="1.0.1" timestamp="2014-02-17T17:44:15Z"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-07T16:50:56CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+      <lp timestamp="2014-02-17T18:44:44CET" version="1.0" name="TreeTagger_from_kaf"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:15:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w472" sent="37" para="13" offset="2674" length="10">Konkurrenz</wf>
+    <wf wid="w473" sent="37" para="13" offset="2685" length="4">wird</wf>
+    <wf wid="w474" sent="37" para="13" offset="2690" length="5">durch</wf>
+    <wf wid="w475" sent="37" para="13" offset="2696" length="5">immer</wf>
+    <wf wid="w476" sent="37" para="13" offset="2702" length="4">neue</wf>
+    <wf wid="w477" sent="37" para="13" offset="2707" length="8">Prozesse</wf>
+    <wf wid="w478" sent="37" para="13" offset="2716" length="4">ver.</wf>
+    <wf wid="w479" sent="37" para="13" offset="2721" length="3">und</wf>
+    <wf wid="w480" sent="37" para="13" offset="2725" length="9">behindert</wf>
+    <wf wid="w481" sent="37" para="13" offset="2735" length="3">bis</wf>
+    <wf wid="w482" sent="37" para="13" offset="2739" length="3">das</wf>
+    <wf wid="w483" sent="37" para="13" offset="2743" length="8">Ergebnis</wf>
+    <wf wid="w484" sent="37" para="13" offset="2752" length="5">passt</wf>
+    <wf wid="w485" sent="37" para="13" offset="2757" length="1">,</wf>
+    <wf wid="w486" sent="37" para="13" offset="2758" length="2">zB</wf>
+    <wf wid="w487" sent="37" para="13" offset="2760" length="1">.</wf>
+  </text>
+  <terms>
+    <term lemma="Konkurrenz" morphofeat="NN" pos="N" tid="t472" type="open">
+      <span>
+        <target id="w472"/>
+      </span>
+    </term>
+    <term lemma="werden" morphofeat="VAFIN" pos="V" tid="t473" type="open">
+      <span>
+        <target id="w473"/>
+      </span>
+    </term>
+    <term lemma="durch" morphofeat="APPR" pos="P" tid="t474" type="close">
+      <span>
+        <target id="w474"/>
+      </span>
+    </term>
+    <term lemma="immer" morphofeat="ADV" pos="A" tid="t475" type="open">
+      <span>
+        <target id="w475"/>
+      </span>
+    </term>
+    <term lemma="neu" morphofeat="ADJA" pos="G" tid="t476" type="open">
+      <span>
+        <target id="w476"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="Prozess" morphofeat="NN" pos="N" tid="t477" type="open">
+      <span>
+        <target id="w477"/>
+      </span>
+    </term>
+    <term lemma="ver." morphofeat="NE unknown_lemma" pos="O" tid="t478" type="open">
+      <span>
+        <target id="w478"/>
+      </span>
+    </term>
+    <term lemma="und" morphofeat="KON" pos="C" tid="t479" type="close">
+      <span>
+        <target id="w479"/>
+      </span>
+    </term>
+    <term lemma="behindern" morphofeat="VVFIN" pos="V" tid="t480" type="open">
+      <span>
+        <target id="w480"/>
+      </span>
+    </term>
+    <term lemma="bis" morphofeat="APPR" pos="P" tid="t481" type="close">
+      <span>
+        <target id="w481"/>
+      </span>
+    </term>
+    <term lemma="die" morphofeat="ART" pos="D" tid="t482" type="close">
+      <span>
+        <target id="w482"/>
+      </span>
+    </term>
+    <term lemma="Ergebnis" morphofeat="NN" pos="N" tid="t483" type="open">
+      <span>
+        <target id="w483"/>
+      </span>
+    </term>
+    <term lemma="passen" morphofeat="VVFIN" pos="V" tid="t484" type="open">
+      <span>
+        <target id="w484"/>
+      </span>
+      <sentiment polarity="positive" resource="Hotel domain lexicon for German . VUA_olery_lexicon_de_lmf"/>
+    </term>
+    <term lemma="," morphofeat="$," pos="O" tid="t485" type="open">
+      <span>
+        <target id="w485"/>
+      </span>
+    </term>
+    <term lemma="zB" morphofeat="VVFIN unknown_lemma" pos="O" tid="t486" type="open">
+      <span>
+        <target id="w486"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="$." pos="O" tid="t487" type="open">
+      <span>
+        <target id="w487"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Konkurrenz-->
+        <span>
+          <target id="t472"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--durch immer neue Prozesse ver.-->
+        <span>
+          <target id="t474"/>
+          <target id="t475"/>
+          <target id="t476"/>
+          <target id="t477"/>
+          <target id="t478"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-18T15:44:49Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-18T15:44:49Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-18T15:44:49Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:17:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="2" offset="0" para="1" sent="1" wid="w1">Le</wf>
+    <wf length="3" offset="3" para="1" sent="1" wid="w2">SPD</wf>
+    <wf length="2" offset="7" para="1" sent="1" wid="w3">de</wf>
+    <wf length="10" offset="10" para="1" sent="1" wid="w4">Steinbrück</wf>
+    <wf length="6" offset="21" para="1" sent="1" wid="w5">échoue</wf>
+    <wf length="3" offset="28" para="1" sent="1" wid="w6">une</wf>
+    <wf length="8" offset="32" para="1" sent="1" wid="w7">nouvelle</wf>
+    <wf length="4" offset="41" para="1" sent="1" wid="w8">fois</wf>
+    <wf length="4" offset="46" para="1" sent="1" wid="w9">face</wf>
+    <wf length="1" offset="51" para="1" sent="1" wid="w10">à</wf>
+    <wf length="6" offset="53" para="1" sent="1" wid="w11">Merkel</wf>
+    <wf length="5" offset="721" para="5" sent="6" wid="w136">Selon</wf>
+    <wf length="3" offset="727" para="5" sent="6" wid="w137">les</wf>
+    <wf length="10" offset="731" para="5" sent="6" wid="w138">prévisions</wf>
+    <wf length="2" offset="742" para="5" sent="6" wid="w139">de</wf>
+    <wf length="2" offset="745" para="5" sent="6" wid="w140">la</wf>
+    <wf length="3" offset="748" para="5" sent="6" wid="w141">ZDF</wf>
+    <wf length="1" offset="751" para="5" sent="6" wid="w142">,</wf>
+    <wf length="2" offset="753" para="5" sent="6" wid="w143">il</wf>
+    <wf length="8" offset="756" para="5" sent="6" wid="w144">faudrait</wf>
+    <wf length="6" offset="765" para="5" sent="6" wid="w145">réunir</wf>
+    <wf length="3" offset="772" para="5" sent="6" wid="w146">304</wf>
+    <wf length="6" offset="776" para="5" sent="6" wid="w147">sièges</wf>
+    <wf length="3" offset="783" para="5" sent="6" wid="w148">sur</wf>
+    <wf length="3" offset="787" para="5" sent="6" wid="w149">606</wf>
+    <wf length="4" offset="791" para="5" sent="6" wid="w150">pour</wf>
+    <wf length="7" offset="796" para="5" sent="6" wid="w151">obtenir</wf>
+    <wf length="2" offset="804" para="5" sent="6" wid="w152">la</wf>
+    <wf length="8" offset="807" para="5" sent="6" wid="w153">majorité</wf>
+    <wf length="7" offset="816" para="5" sent="6" wid="w154">absolue</wf>
+    <wf length="1" offset="823" para="5" sent="6" wid="w155">.</wf>
+  </text>
+  <terms>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t1" type="close">
+      <span>
+        <!-- Le -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="SPD" morphofeat="NPms" pos="N" tid="t2" type="open">
+      <span>
+        <!-- SPD -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t3" type="close">
+      <span>
+        <!-- de -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="Steinbrück" morphofeat="NPms" pos="N" tid="t4" type="open">
+      <span>
+        <!-- Steinbrück -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="échouer" morphofeat="VP3s" pos="V" tid="t5" type="open">
+      <span>
+        <!-- échoue -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t6" type="close">
+      <span>
+        <!-- une -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="nouveau" morphofeat="Afs" pos="G" tid="t7" type="open">
+      <span>
+        <!-- nouvelle -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="foi" morphofeat="NCfs" pos="N" tid="t8" type="open">
+      <span>
+        <!-- fois -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="face" morphofeat="N" pos="N" tid="t9" type="open">
+      <span>
+        <!-- face -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t10" type="close">
+      <span>
+        <!-- à -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="selon]" morphofeat="P" pos="P" tid="t136" type="close">
+      <span>
+        <!-- Selon -->
+        <target id="w136"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t137" type="close">
+      <span>
+        <!-- les -->
+        <target id="w137"/>
+      </span>
+    </term>
+    <term lemma="prévision" morphofeat="NCfp" pos="N" tid="t138" type="open">
+      <span>
+        <!-- prévisions -->
+        <target id="w138"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t139" type="close">
+      <span>
+        <!-- de -->
+        <target id="w139"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t140" type="close">
+      <span>
+        <!-- la -->
+        <target id="w140"/>
+      </span>
+    </term>
+    <term lemma="ZDF" morphofeat="NPfs" pos="N" tid="t141" type="open">
+      <span>
+        <!-- ZDF -->
+        <target id="w141"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t142" type="close">
+      <span>
+        <!-- , -->
+        <target id="w142"/>
+      </span>
+    </term>
+    <term lemma="il" morphofeat="CL3ms" pos="Q" tid="t143" type="close">
+      <span>
+        <!-- il -->
+        <target id="w143"/>
+      </span>
+    </term>
+    <term lemma="falloir" morphofeat="VC3s" pos="V" tid="t144" type="open">
+      <span>
+        <!-- faudrait -->
+        <target id="w144"/>
+      </span>
+    </term>
+    <term lemma="réunir" morphofeat="VW" pos="V" tid="t145" type="open">
+      <span>
+        <!-- réunir -->
+        <target id="w145"/>
+      </span>
+    </term>
+    <term lemma="304" morphofeat="Dmp" pos="D" tid="t146" type="close">
+      <span>
+        <!-- 304 -->
+        <target id="w146"/>
+      </span>
+    </term>
+    <term lemma="siège" morphofeat="NCmp" pos="N" tid="t147" type="open">
+      <span>
+        <!-- sièges -->
+        <target id="w147"/>
+      </span>
+    </term>
+    <term lemma="sur" morphofeat="P" pos="P" tid="t148" type="close">
+      <span>
+        <!-- sur -->
+        <target id="w148"/>
+      </span>
+    </term>
+    <term lemma="606" morphofeat="PROmp" pos="P" tid="t149" type="close">
+      <span>
+        <!-- 606 -->
+        <target id="w149"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t150" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w150"/>
+      </span>
+    </term>
+    <term lemma="obtenir" morphofeat="VW" pos="V" tid="t151" type="open">
+      <span>
+        <!-- obtenir -->
+        <target id="w151"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t152" type="close">
+      <span>
+        <!-- la -->
+        <target id="w152"/>
+      </span>
+    </term>
+    <term lemma="majorité" morphofeat="NCfs" pos="N" tid="t153" type="open">
+      <span>
+        <!-- majorité -->
+        <target id="w153"/>
+      </span>
+    </term>
+    <term lemma="absolu" morphofeat="Afs" pos="G" tid="t154" type="open">
+      <span>
+        <!-- absolue -->
+        <target id="w154"/>
+      </span>
+    </term>
+  </terms>
+  <chunks/>
+  <coreferences/>
+  <features>
+    <properties/>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Le SPD de Steinbrück-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--échoue-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t136"/>
+          <target id="t137"/>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+          <target id="t153"/>
+          <target id="t154"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

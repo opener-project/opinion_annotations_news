@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-01-31T12:04:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-nl" timestamp="2014-01-31T12:04:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp timestamp="2014-05-06T13:30:08CEST" version="4nov2013_1.1" name="VUA polarity tagger multilanguage"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T13:09:29CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1339" sent="60" para="2" offset="8198" length="2">De</wf>
+    <wf wid="w1340" sent="60" para="2" offset="8201" length="4">kans</wf>
+    <wf wid="w1341" sent="60" para="2" offset="8206" length="3">dat</wf>
+    <wf wid="w1342" sent="60" para="2" offset="8210" length="2">ze</wf>
+    <wf wid="w1343" sent="60" para="2" offset="8213" length="4">daar</wf>
+    <wf wid="w1344" sent="60" para="2" offset="8218" length="11">toestemming</wf>
+    <wf wid="w1345" sent="60" para="2" offset="8230" length="4">voor</wf>
+    <wf wid="w1346" sent="60" para="2" offset="8235" length="7">krijgen</wf>
+    <wf wid="w1347" sent="60" para="2" offset="8243" length="2">is</wf>
+    <wf wid="w1348" sent="60" para="2" offset="8246" length="5">klein</wf>
+    <wf wid="w1349" sent="60" para="2" offset="8251" length="1">,</wf>
+    <wf wid="w1350" sent="60" para="2" offset="8253" length="5">denkt</wf>
+    <wf wid="w1351" sent="60" para="2" offset="8259" length="10">Peeperkorn</wf>
+    <wf wid="w1352" sent="60" para="2" offset="8269" length="1">.</wf>
+    <wf wid="w1663" sent="76" para="2" offset="10144" length="3">Het</wf>
+    <wf wid="w1664" sent="76" para="2" offset="10148" length="7">gesprek</wf>
+    <wf wid="w1665" sent="76" para="2" offset="10156" length="3">was</wf>
+    <wf wid="w1666" sent="76" para="2" offset="10160" length="3">ter</wf>
+    <wf wid="w1667" sent="76" para="2" offset="10164" length="13">voorbereiding</wf>
+    <wf wid="w1668" sent="76" para="2" offset="10178" length="2">op</wf>
+    <wf wid="w1669" sent="76" para="2" offset="10181" length="2">de</wf>
+    <wf wid="w1670" sent="76" para="2" offset="10184" length="8">Europese</wf>
+    <wf wid="w1671" sent="76" para="2" offset="10193" length="3">top</wf>
+    <wf wid="w1672" sent="76" para="2" offset="10197" length="3">van</wf>
+    <wf wid="w1673" sent="76" para="2" offset="10201" length="8">volgende</wf>
+    <wf wid="w1674" sent="76" para="2" offset="10210" length="4">week</wf>
+    <wf wid="w1675" sent="76" para="2" offset="10214" length="1">.</wf>
+  </text>
+  <terms>
+    <!--De-->
+    <term tid="t1339" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w1339"/>
+      </span>
+    </term>
+    <!--kans-->
+    <term tid="t1340" type="open" lemma="kans" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w1340"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--dat-->
+    <term tid="t1341" type="close" lemma="dat" pos="Q" morphofeat="pronrel">
+      <span>
+        <target id="w1341"/>
+      </span>
+    </term>
+    <!--ze-->
+    <term tid="t1342" type="close" lemma="ze" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w1342"/>
+      </span>
+    </term>
+    <!--daar-->
+    <term tid="t1343" type="close" lemma="daar" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w1343"/>
+      </span>
+    </term>
+    <!--toestemming-->
+    <term tid="t1344" type="open" lemma="toestemming" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w1344"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--voor-->
+    <term tid="t1345" type="close" lemma="voor" pos="P" morphofeat="prep">
+      <span>
+        <target id="w1345"/>
+      </span>
+    </term>
+    <!--krijgen-->
+    <term tid="t1346" type="open" lemma="krijgen" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w1346"/>
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t1347" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w1347"/>
+      </span>
+    </term>
+    <!--klein-->
+    <term tid="t1348" type="open" lemma="klein" pos="G" morphofeat="adj">
+      <span>
+        <target id="w1348"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--,-->
+    <term tid="t1349" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w1349"/>
+      </span>
+    </term>
+    <!--denkt-->
+    <term tid="t1350" type="open" lemma="denken" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w1350"/>
+      </span>
+    </term>
+    <!--Peeperkorn-->
+    <term tid="t1351" type="open" lemma="Peeperkorn" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w1351"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t1352" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w1352"/>
+      </span>
+    </term>
+    <!--Het-->
+    <term tid="t1663" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w1663"/>
+      </span>
+    </term>
+    <!--gesprek-->
+    <term tid="t1664" type="open" lemma="gesprek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w1664"/>
+      </span>
+    </term>
+    <!--was-->
+    <term tid="t1665" type="open" lemma="wezen|zijn" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w1665"/>
+      </span>
+    </term>
+    <!--ter-->
+    <term tid="t1666" type="close" lemma="te" pos="P" morphofeat="prep">
+      <span>
+        <target id="w1666"/>
+      </span>
+    </term>
+    <!--voorbereiding-->
+    <term tid="t1667" type="open" lemma="voorbereiding" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w1667"/>
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t1668" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w1668"/>
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t1669" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w1669"/>
+      </span>
+    </term>
+    <!--Europese-->
+    <term tid="t1670" type="open" lemma="Europees" pos="G" morphofeat="adj">
+      <span>
+        <target id="w1670"/>
+      </span>
+    </term>
+    <!--top-->
+    <term tid="t1671" type="open" lemma="top" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w1671"/>
+      </span>
+      <sentiment polarity="positive" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--van-->
+    <term tid="t1672" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w1672"/>
+      </span>
+    </term>
+    <!--volgende-->
+    <term tid="t1673" type="open" lemma="volgend" pos="G" morphofeat="adj">
+      <span>
+        <target id="w1673"/>
+      </span>
+    </term>
+    <!--week-->
+    <term tid="t1674" type="open" lemma="week" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w1674"/>
+      </span>
+      <sentiment polarity="negative" resource="General lexicon for Dutch . VUA_olery_lexicon_nl_lmf"/>
+    </term>
+    <!--.-->
+    <term tid="t1675" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w1675"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Peeperkorn-->
+        <span>
+          <target id="t1351"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--De kans-->
+        <span>
+          <target id="t1339"/>
+          <target id="t1340"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-neutral">
+        <!--denkt-->
+        <span>
+          <target id="t1350"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Peeperkorn-->
+        <span>
+          <target id="t1351"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--De kans-->
+        <span>
+          <target id="t1339"/>
+          <target id="t1340"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--is klein-->
+        <span>
+          <target id="t1347"/>
+          <target id="t1348"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t1663"/>
+          <target id="t1664"/>
+          <target id="t1665"/>
+          <target id="t1666"/>
+          <target id="t1667"/>
+          <target id="t1668"/>
+          <target id="t1669"/>
+          <target id="t1670"/>
+          <target id="t1671"/>
+          <target id="t1672"/>
+          <target id="t1673"/>
+          <target id="t1674"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>
