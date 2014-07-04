@@ -1,70 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <KAF xml:lang="it" version="v1.opener">
   <kafHeader>
     <linguisticProcessors layer="text">
-      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:44Z" version="0.0.1" />
-      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:44Z" version="1.0.1" />
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:44Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:44Z" version="1.0.1"/>
     </linguisticProcessors>
     <linguisticProcessors layer="terms">
-      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:03:28Z" version="1.0" />
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:03:28Z" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessors layer="entities">
-      <lp name="ehu-nerc-it" timestamp="2014-02-03 14:03:28" version="1.0" />
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:06CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
-    <wf wid="w1" sent="1" para="1" offset="0" length="6">Merkel</wf>
-    <wf wid="w2" sent="1" para="1" offset="7" length="2">ad</wf>
-    <wf wid="w3" sent="1" para="1" offset="10" length="5">Atene</wf>
-    <wf wid="w4" sent="1" para="1" offset="15" length="1">:</wf>
-    <wf wid="w5" sent="1" para="1" offset="17" length="4">foto</wf>
-    <wf wid="w6" sent="1" para="1" offset="22" length="5">degli</wf>
-    <wf wid="w7" sent="1" para="1" offset="28" length="7">scontri</wf>
-    <wf wid="w8" sent="2" para="2" offset="36" length="4">Home</wf>
-    <wf wid="w9" sent="2" para="2" offset="42" length="1">-</wf>
-    <wf wid="w10" sent="2" para="2" offset="45" length="8">Economia</wf>
-    <wf wid="w11" sent="2" para="2" offset="55" length="1">-</wf>
-    <wf wid="w12" sent="2" para="2" offset="58" length="6">Merkel</wf>
-    <wf wid="w13" sent="2" para="2" offset="65" length="2">ad</wf>
-    <wf wid="w14" sent="2" para="2" offset="68" length="5">Atene</wf>
-    <wf wid="w15" sent="2" para="2" offset="73" length="1">:</wf>
-    <wf wid="w16" sent="2" para="2" offset="75" length="4">foto</wf>
-    <wf wid="w17" sent="2" para="2" offset="80" length="5">degli</wf>
-    <wf wid="w18" sent="2" para="2" offset="86" length="13">scontriMerkel</wf>
-    <wf wid="w19" sent="2" para="2" offset="100" length="2">ad</wf>
-    <wf wid="w20" sent="2" para="2" offset="103" length="5">Atene</wf>
-    <wf wid="w21" sent="2" para="2" offset="108" length="1">:</wf>
-    <wf wid="w22" sent="2" para="2" offset="110" length="4">foto</wf>
-    <wf wid="w23" sent="2" para="2" offset="115" length="5">degli</wf>
-    <wf wid="w24" sent="2" para="2" offset="121" length="15">scontriCartelli</wf>
-    <wf wid="w25" sent="2" para="2" offset="136" length="1">,</wf>
-    <wf wid="w26" sent="2" para="2" offset="138" length="9">sassaiole</wf>
-    <wf wid="w27" sent="2" para="2" offset="147" length="1">,</wf>
-    <wf wid="w28" sent="2" para="2" offset="149" length="2">40</wf>
-    <wf wid="w29" sent="2" para="2" offset="152" length="4">mila</wf>
-    <wf wid="w30" sent="2" para="2" offset="157" length="2">in</wf>
-    <wf wid="w31" sent="2" para="2" offset="160" length="6">piazza</wf>
-    <wf wid="w32" sent="2" para="2" offset="167" length="8">Syntagma</wf>
-    <wf wid="w33" sent="2" para="2" offset="176" length="6">contro</wf>
-    <wf wid="w34" sent="2" para="2" offset="183" length="2">la</wf>
-    <wf wid="w35" sent="2" para="2" offset="186" length="6">visita</wf>
-    <wf wid="w36" sent="2" para="2" offset="193" length="3">del</wf>
-    <wf wid="w37" sent="2" para="2" offset="197" length="11">Cancelliere</wf>
-    <wf wid="w38" sent="2" para="2" offset="209" length="30">tedesco09-10-201216:30StampaIl</wf>
-    <wf wid="w39" sent="2" para="2" offset="240" length="11">cancelliere</wf>
-    <wf wid="w40" sent="2" para="2" offset="252" length="7">tedesco</wf>
-    <wf wid="w41" sent="2" para="2" offset="260" length="6">Angela</wf>
-    <wf wid="w42" sent="2" para="2" offset="267" length="6">Merkel</wf>
-    <wf wid="w43" sent="2" para="2" offset="274" length="2">ha</wf>
-    <wf wid="w44" sent="2" para="2" offset="277" length="10">incontrato</wf>
-    <wf wid="w45" sent="2" para="2" offset="288" length="2">il</wf>
-    <wf wid="w46" sent="2" para="2" offset="291" length="7">premier</wf>
-    <wf wid="w47" sent="2" para="2" offset="299" length="5">greco</wf>
-    <wf wid="w48" sent="2" para="2" offset="305" length="7">Antonis</wf>
-    <wf wid="w49" sent="2" para="2" offset="313" length="7">Samaras</wf>
-    <wf wid="w50" sent="2" para="2" offset="321" length="2">ad</wf>
-    <wf wid="w51" sent="2" para="2" offset="324" length="5">Atene</wf>
-    <wf wid="w52" sent="2" para="2" offset="329" length="1">.</wf>
     <wf wid="w53" sent="3" para="2" offset="331" length="2">Ad</wf>
     <wf wid="w54" sent="3" para="2" offset="334" length="11">accoglierla</wf>
     <wf wid="w55" sent="3" para="2" offset="346" length="2">40</wf>
@@ -106,612 +54,312 @@
     <wf wid="w91" sent="3" para="2" offset="549" length="5">tutto</wf>
   </text>
   <terms>
-    <!--Merkel-->
-    <term tid="t1" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
-      <span>
-        <target id="w1" />
-      </span>
-    </term>
-    <!--ad-->
-    <term tid="t2" type="" lemma="ad" pos="P" morphofeat="PREP">
-      <span>
-        <target id="w2" />
-      </span>
-    </term>
-    <!--Atene-->
-    <term tid="t3" type="" lemma="atene" pos="R" morphofeat="NOU~PNS">
-      <span>
-        <target id="w3" />
-      </span>
-    </term>
-    <!--:-->
-    <term tid="t4" type="" lemma=":" pos="O" morphofeat=":">
-      <span>
-        <target id="w4" />
-      </span>
-    </term>
-    <!--foto-->
-    <term tid="t5" type="" lemma="foto" pos="N" morphofeat="NOU~CAFI">
-      <span>
-        <target id="w5" />
-      </span>
-    </term>
-    <!--degli-->
-    <term tid="t6" type="" lemma="degli" pos="P" morphofeat="PREPMP">
-      <span>
-        <target id="w6" />
-      </span>
-    </term>
-    <!--scontri-->
-    <term tid="t7" type="" lemma="scontro" pos="N" morphofeat="NOU~CPMP">
-      <span>
-        <target id="w7" />
-      </span>
-    </term>
-    <!--Home-->
-    <term tid="t8" type="" lemma="home" pos="N" morphofeat="NOU~CAFI">
-      <span>
-        <target id="w8" />
-      </span>
-    </term>
-    <!--- -->
-    <term tid="t9" type="" lemma="-" pos="O" morphofeat="-NONE-">
-      <span>
-        <target id="w9" />
-      </span>
-    </term>
-    <!--Economia-->
-    <term tid="t10" type="" lemma="economia" pos="N" morphofeat="NOU~CSFS">
-      <span>
-        <target id="w10" />
-      </span>
-    </term>
-    <!--- -->
-    <term tid="t11" type="" lemma="-" pos="O" morphofeat="-NONE-">
-      <span>
-        <target id="w11" />
-      </span>
-    </term>
-    <!--Merkel-->
-    <term tid="t12" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
-      <span>
-        <target id="w12" />
-      </span>
-    </term>
-    <!--ad-->
-    <term tid="t13" type="" lemma="ad" pos="P" morphofeat="PREP">
-      <span>
-        <target id="w13" />
-      </span>
-    </term>
-    <!--Atene-->
-    <term tid="t14" type="" lemma="atene" pos="R" morphofeat="NOU~PNS">
-      <span>
-        <target id="w14" />
-      </span>
-    </term>
-    <!--:-->
-    <term tid="t15" type="" lemma=":" pos="O" morphofeat=":">
-      <span>
-        <target id="w15" />
-      </span>
-    </term>
-    <!--foto-->
-    <term tid="t16" type="" lemma="foto" pos="N" morphofeat="NOU~CAFI">
-      <span>
-        <target id="w16" />
-      </span>
-    </term>
-    <!--degli-->
-    <term tid="t17" type="" lemma="degli" pos="P" morphofeat="PREPMP">
-      <span>
-        <target id="w17" />
-      </span>
-    </term>
-    <!--scontriMerkel-->
-    <term tid="t18" type="" lemma="scontrimerkel" pos="R" morphofeat="NOU~PNI">
-      <span>
-        <target id="w18" />
-      </span>
-    </term>
-    <!--ad-->
-    <term tid="t19" type="" lemma="ad" pos="P" morphofeat="PREP">
-      <span>
-        <target id="w19" />
-      </span>
-    </term>
-    <!--Atene-->
-    <term tid="t20" type="" lemma="atene" pos="R" morphofeat="NOU~PNS">
-      <span>
-        <target id="w20" />
-      </span>
-    </term>
-    <!--:-->
-    <term tid="t21" type="" lemma=":" pos="O" morphofeat=":">
-      <span>
-        <target id="w21" />
-      </span>
-    </term>
-    <!--foto-->
-    <term tid="t22" type="" lemma="foto" pos="N" morphofeat="NOU~CAFI">
-      <span>
-        <target id="w22" />
-      </span>
-    </term>
-    <!--degli-->
-    <term tid="t23" type="" lemma="degli" pos="P" morphofeat="PREPMP">
-      <span>
-        <target id="w23" />
-      </span>
-    </term>
-    <!--scontriCartelli-->
-    <term tid="t24" type="" lemma="scontricartelli" pos="N" morphofeat="NOU~CPMP">
-      <span>
-        <target id="w24" />
-      </span>
-    </term>
-    <!--,-->
-    <term tid="t25" type="" lemma="," pos="O" morphofeat=",">
-      <span>
-        <target id="w25" />
-      </span>
-    </term>
-    <!--sassaiole-->
-    <term tid="t26" type="" lemma="sassaiola" pos="N" morphofeat="NOU~CPFP">
-      <span>
-        <target id="w26" />
-      </span>
-    </term>
-    <!--,-->
-    <term tid="t27" type="" lemma="," pos="O" morphofeat=",">
-      <span>
-        <target id="w27" />
-      </span>
-    </term>
-    <!--40-->
-    <term tid="t28" type="" lemma="40" pos="G" morphofeat="ADJ~ORNP">
-      <span>
-        <target id="w28" />
-      </span>
-    </term>
-    <!--mila-->
-    <term tid="t29" type="" lemma="mila" pos="N" morphofeat="NOU~CANI">
-      <span>
-        <target id="w29" />
-      </span>
-    </term>
-    <!--in-->
-    <term tid="t30" type="" lemma="in" pos="P" morphofeat="PREP">
-      <span>
-        <target id="w30" />
-      </span>
-    </term>
-    <!--piazza-->
-    <term tid="t31" type="" lemma="piazza" pos="N" morphofeat="NOU~CSFS">
-      <span>
-        <target id="w31" />
-      </span>
-    </term>
-    <!--Syntagma-->
-    <term tid="t32" type="" lemma="syntagma" pos="R" morphofeat="NOU~PNI">
-      <span>
-        <target id="w32" />
-      </span>
-    </term>
-    <!--contro-->
-    <term tid="t33" type="" lemma="contro" pos="P" morphofeat="PREP">
-      <span>
-        <target id="w33" />
-      </span>
-    </term>
-    <!--la-->
-    <term tid="t34" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
-      <span>
-        <target id="w34" />
-      </span>
-    </term>
-    <!--visita-->
-    <term tid="t35" type="" lemma="visita" pos="N" morphofeat="NOU~CSFS">
-      <span>
-        <target id="w35" />
-      </span>
-    </term>
-    <!--del-->
-    <term tid="t36" type="" lemma="del" pos="P" morphofeat="PREPMS">
-      <span>
-        <target id="w36" />
-      </span>
-    </term>
-    <!--Cancelliere-->
-    <term tid="t37" type="" lemma="cancelliere" pos="N" morphofeat="NOU~CSMS">
-      <span>
-        <target id="w37" />
-      </span>
-    </term>
-    <!--tedesco09-10-201216:30StampaIl-->
-    <term tid="t38" type="" lemma="tedesco09-10-201216:30stampail" pos="O" morphofeat="-NONE-">
-      <span>
-        <target id="w38" />
-      </span>
-    </term>
-    <!--cancelliere-->
-    <term tid="t39" type="" lemma="cancelliere" pos="N" morphofeat="NOU~CSMS">
-      <span>
-        <target id="w39" />
-      </span>
-    </term>
-    <!--tedesco-->
-    <term tid="t40" type="" lemma="tedesco" pos="G" morphofeat="ADJ~QUMS">
-      <span>
-        <target id="w40" />
-      </span>
-    </term>
-    <!--Angela-->
-    <term tid="t41" type="" lemma="angela" pos="R" morphofeat="NOU~PFS">
-      <span>
-        <target id="w41" />
-      </span>
-    </term>
-    <!--Merkel-->
-    <term tid="t42" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
-      <span>
-        <target id="w42" />
-      </span>
-    </term>
-    <!--ha-->
-    <term tid="t43" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
-      <span>
-        <target id="w43" />
-      </span>
-    </term>
-    <!--incontrato-->
-    <term tid="t44" type="" lemma="incontrare" pos="V" morphofeat="VMA~PAMS">
-      <span>
-        <target id="w44" />
-      </span>
-    </term>
-    <!--il-->
-    <term tid="t45" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
-      <span>
-        <target id="w45" />
-      </span>
-    </term>
-    <!--premier-->
-    <term tid="t46" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
-      <span>
-        <target id="w46" />
-      </span>
-    </term>
-    <!--greco-->
-    <term tid="t47" type="" lemma="greco" pos="G" morphofeat="ADJ~QUMS">
-      <span>
-        <target id="w47" />
-      </span>
-    </term>
-    <!--Antonis-->
-    <term tid="t48" type="" lemma="antonis" pos="R" morphofeat="NOU~PNI">
-      <span>
-        <target id="w48" />
-      </span>
-    </term>
-    <!--Samaras-->
-    <term tid="t49" type="" lemma="samaras" pos="R" morphofeat="NOU~PNI">
-      <span>
-        <target id="w49" />
-      </span>
-    </term>
-    <!--ad-->
-    <term tid="t50" type="" lemma="ad" pos="P" morphofeat="PREP">
-      <span>
-        <target id="w50" />
-      </span>
-    </term>
-    <!--Atene-->
-    <term tid="t51" type="" lemma="atene" pos="R" morphofeat="NOU~PNS">
-      <span>
-        <target id="w51" />
-      </span>
-    </term>
-    <!--.-->
-    <term tid="t52" type="" lemma="." pos="O" morphofeat=".">
-      <span>
-        <target id="w52" />
-      </span>
-    </term>
     <!--Ad-->
     <term tid="t53" type="" lemma="ad" pos="P" morphofeat="PREP">
       <span>
-        <target id="w53" />
+        <target id="w53"/>
       </span>
     </term>
     <!--accoglierla-->
     <term tid="t54" type="" lemma="accoglierla" pos="V" morphofeat="VMA~ININN">
       <span>
-        <target id="w54" />
+        <target id="w54"/>
       </span>
     </term>
     <!--40-->
     <term tid="t55" type="" lemma="40" pos="G" morphofeat="ADJ~ORNP">
       <span>
-        <target id="w55" />
+        <target id="w55"/>
       </span>
     </term>
     <!--mila-->
     <term tid="t56" type="" lemma="mila" pos="G" morphofeat="ADJ~ORNP">
       <span>
-        <target id="w56" />
+        <target id="w56"/>
       </span>
     </term>
     <!--manifestanti-->
     <term tid="t57" type="" lemma="manifestare" pos="V" morphofeat="VMA~PPNP">
       <span>
-        <target id="w57" />
+        <target id="w57"/>
       </span>
     </term>
     <!--,-->
     <term tid="t58" type="" lemma="," pos="O" morphofeat=",">
       <span>
-        <target id="w58" />
+        <target id="w58"/>
       </span>
     </term>
     <!--stanchi-->
     <term tid="t59" type="" lemma="stanco" pos="G" morphofeat="ADJ~QUMP">
       <span>
-        <target id="w59" />
+        <target id="w59"/>
       </span>
     </term>
     <!--delle-->
     <term tid="t60" type="" lemma="delle" pos="P" morphofeat="PREPFP">
       <span>
-        <target id="w60" />
+        <target id="w60"/>
       </span>
     </term>
     <!--misure-->
     <term tid="t61" type="" lemma="misura" pos="N" morphofeat="NOU~CPFP">
       <span>
-        <target id="w61" />
+        <target id="w61"/>
       </span>
     </term>
     <!--di-->
     <term tid="t62" type="" lemma="di" pos="P" morphofeat="PREP">
       <span>
-        <target id="w62" />
+        <target id="w62"/>
       </span>
     </term>
     <!--austherity-->
     <term tid="t63" type="" lemma="austherity" pos="R" morphofeat="NOU~PNI">
       <span>
-        <target id="w63" />
+        <target id="w63"/>
       </span>
     </term>
     <!--cui-->
     <term tid="t64" type="" lemma="cui" pos="Q" morphofeat="PRON~RENI">
       <span>
-        <target id="w64" />
+        <target id="w64"/>
       </span>
     </term>
     <!--l'-->
     <term tid="t65" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
       <span>
-        <target id="w65" />
+        <target id="w65"/>
       </span>
     </term>
     <!--Europa-->
     <term tid="t66" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
       <span>
-        <target id="w66" />
+        <target id="w66"/>
       </span>
     </term>
     <!--,-->
     <term tid="t67" type="" lemma="," pos="O" morphofeat=",">
       <span>
-        <target id="w67" />
+        <target id="w67"/>
       </span>
     </term>
     <!--il-->
     <term tid="t68" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
       <span>
-        <target id="w68" />
+        <target id="w68"/>
       </span>
     </term>
     <!--Fondo-->
     <term tid="t69" type="" lemma="fondo" pos="R" morphofeat="NOU~PNS">
       <span>
-        <target id="w69" />
+        <target id="w69"/>
       </span>
     </term>
     <!--monetario-->
     <term tid="t70" type="" lemma="monetario" pos="G" morphofeat="ADJ~QUMS">
       <span>
-        <target id="w70" />
+        <target id="w70"/>
       </span>
     </term>
     <!--internazionale-->
     <term tid="t71" type="" lemma="internazionale" pos="G" morphofeat="ADJ~QUNS">
       <span>
-        <target id="w71" />
+        <target id="w71"/>
       </span>
     </term>
     <!--e-->
     <term tid="t72" type="" lemma="e" pos="Q" morphofeat="CONJ">
       <span>
-        <target id="w72" />
+        <target id="w72"/>
       </span>
     </term>
     <!--la-->
     <term tid="t73" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
       <span>
-        <target id="w73" />
+        <target id="w73"/>
       </span>
     </term>
     <!--Bce-->
     <term tid="t74" type="" lemma="bce" pos="R" morphofeat="NOU~PNI">
       <span>
-        <target id="w74" />
+        <target id="w74"/>
       </span>
     </term>
     <!--(-->
     <term tid="t75" type="" lemma="(" pos="O" morphofeat="PUNCT">
       <span>
-        <target id="w75" />
+        <target id="w75"/>
       </span>
     </term>
     <!--la-->
     <term tid="t76" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
       <span>
-        <target id="w76" />
+        <target id="w76"/>
       </span>
     </term>
     <!--Troika-->
     <term tid="t77" type="" lemma="troika" pos="R" morphofeat="NOU~PNI">
       <span>
-        <target id="w77" />
+        <target id="w77"/>
       </span>
     </term>
     <!--)-->
     <term tid="t78" type="" lemma=")" pos="O" morphofeat="PUNCT">
       <span>
-        <target id="w78" />
+        <target id="w78"/>
       </span>
     </term>
     <!--stanno-->
     <term tid="t79" type="" lemma="stare" pos="V" morphofeat="VMA~REN6">
       <span>
-        <target id="w79" />
+        <target id="w79"/>
       </span>
     </term>
     <!--sottoponendo-->
     <term tid="t80" type="" lemma="sottoporre" pos="V" morphofeat="VMA~GEN">
       <span>
-        <target id="w80" />
+        <target id="w80"/>
       </span>
     </term>
     <!--il-->
     <term tid="t81" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
       <span>
-        <target id="w81" />
+        <target id="w81"/>
       </span>
     </term>
     <!--Paese-->
     <term tid="t82" type="" lemma="paese" pos="R" morphofeat="NOU~PNS">
       <span>
-        <target id="w82" />
+        <target id="w82"/>
       </span>
     </term>
     <!--e-->
     <term tid="t83" type="" lemma="e" pos="Q" morphofeat="CONJ">
       <span>
-        <target id="w83" />
+        <target id="w83"/>
       </span>
     </term>
     <!--che-->
     <term tid="t84" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
       <span>
-        <target id="w84" />
+        <target id="w84"/>
       </span>
     </term>
     <!--sta-->
     <term tid="t85" type="" lemma="sta" pos="V" morphofeat="VMA~REN3">
       <span>
-        <target id="w85" />
+        <target id="w85"/>
       </span>
     </term>
     <!--mettendo-->
     <term tid="t86" type="" lemma="mettere" pos="V" morphofeat="VMA~GEN">
       <span>
-        <target id="w86" />
+        <target id="w86"/>
       </span>
     </term>
     <!--al-->
     <term tid="t87" type="" lemma="al" pos="P" morphofeat="PREPMS">
       <span>
-        <target id="w87" />
+        <target id="w87"/>
       </span>
     </term>
     <!--lastrico-->
     <term tid="t88" type="" lemma="lastricare" pos="V" morphofeat="VMA~REN1">
       <span>
-        <target id="w88" />
+        <target id="w88"/>
       </span>
     </term>
     <!--i-->
     <term tid="t89" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
       <span>
-        <target id="w89" />
+        <target id="w89"/>
       </span>
     </term>
     <!--cittadiniLeggi-->
     <term tid="t90" type="" lemma="cittadinileggi" pos="N" morphofeat="NOU~CPMP">
       <span>
-        <target id="w90" />
+        <target id="w90"/>
       </span>
     </term>
     <!--tutto-->
     <term tid="t91" type="" lemma="tutto" pos="Q" morphofeat="PRON~IDM3">
       <span>
-        <target id="w91" />
+        <target id="w91"/>
       </span>
     </term>
   </terms>
-  <entities>
-    <entity eid="e1" type="location">
-      <references>
-        <!--piazza Syntagma-->
-        <span>
-          <target id="t31" />
-          <target id="t32" />
-        </span>
-      </references>
-    </entity>
-    <entity eid="e2" type="person">
-      <references>
-        <!--Angela Merkel-->
-        <span>
-          <target id="t41" />
-          <target id="t42" />
-        </span>
-      </references>
-    </entity>
-    <entity eid="e3" type="person">
-      <references>
-        <!--Antonis Samaras-->
-        <span>
-          <target id="t48" />
-          <target id="t49" />
-        </span>
-      </references>
-    </entity>
-    <entity eid="e4" type="gpe">
-      <references>
-        <!--Atene-->
-        <span>
-          <target id="t51" />
-        </span>
-      </references>
-    </entity>
-    <entity eid="e5" type="gpe">
-      <references>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
         <!--Europa-->
         <span>
-          <target id="t66" />
+          <target id="t66"/>
         </span>
-      </references>
-    </entity>
-    <entity eid="e6" type="organization">
-      <references>
+      </opinion_holder>
+      <opinion_target>
+        <!--il Paese-->
+        <span>
+          <target id="t81"/>
+          <target id="t82"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--stanno sottoponendo-->
+        <span>
+          <target id="t79"/>
+          <target id="t80"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
         <!--Bce-->
         <span>
-          <target id="t74" />
+          <target id="t74"/>
         </span>
-      </references>
-    </entity>
-    <entity eid="e7" type="gpe">
-      <references>
-        <!--Troika-->
+      </opinion_holder>
+      <opinion_target>
+        <!--il Paese-->
         <span>
-          <target id="t77" />
+          <target id="t81"/>
+          <target id="t82"/>
         </span>
-      </references>
-    </entity>
-  </entities>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--stanno sottoponendo-->
+        <span>
+          <target id="t79"/>
+          <target id="t80"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--Fondo monetario internazionale-->
+        <span>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--il Paese-->
+        <span>
+          <target id="t81"/>
+          <target id="t82"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--stanno sottoponendo-->
+        <span>
+          <target id="t79"/>
+          <target id="t80"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>
