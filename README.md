@@ -17,4 +17,4 @@ EN/sundaymirror/EN-Cameron-Europe-03c4e4180189d4fc990c43ff72bce56bd8f88dbe.kaf
 EN/sundaymirror/EN-Cameron-Europe-08cd53b2419657b32aa97483692f9506a9782a17.kaf
 ```
 #Guidelines
-The file x contains the guidelines for the annoation of opinions in sentences from news articles. All lamguages are annotated following the same guidelines.
+Guidelines for opinion annotations can be found here https://github.com/opener-project/opinion-domain-lexicon-acquisition/tree/master/annotation_guidelines.  All languages are annotated following the same guidelines.
